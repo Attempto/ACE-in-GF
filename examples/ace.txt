@@ -1,3 +1,8 @@
 every man waits .
 every woman waits .
 this is not an ACE sentence .
+Mary waits .
+every woman asks Mary .
+which woman asks a friend of Mary ?
+John is mad-about Mary .
+John is mad about Mary .

@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete TestAttemptoEng of TestAttempto = AttemptoEng ** 
+concrete TestAttemptoEng of TestAttempto = AttemptoEng **
   open SyntaxEng, ParadigmsEng, IrregEng, (C = ConstructX) in {
 
 lin card_N = mkkN "card" ;
@@ -72,9 +72,13 @@ lin see_V2 = mkV2 see_V ;
 lin bark_V = mkV "bark" ;
 lin go_V2 = mkV2 go_V to_Prep ;
 lin brother_N = mkkN "brother" ;
-lin mary_PN = mkPN "mary" ;
+lin mary_PN = mkPN "Mary" ;
 lin machine_N = mkkN "machine" ;
 lin correct_A = mkA "correct" ;
+
+lin friend_N = mkkN "friend" ;
+lin ask_V2 = mkV2 "ask" ;
+lin mad_A2 = mkA2 (mkA "mad") (mkPrep "about") ;
 
 lin kilogram_Unit = mkkN "kilogram" ;
 

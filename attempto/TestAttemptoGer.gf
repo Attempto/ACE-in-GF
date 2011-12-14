@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete TestAttemptoGer of TestAttempto = AttemptoGer ** 
+concrete TestAttemptoGer of TestAttempto = AttemptoGer **
   open SyntaxGer, ParadigmsGer, IrregGer, (C = ConstructX) in {
 
 lin card_N = mkkN "Karte" ;
@@ -75,9 +75,13 @@ lin mary_PN = mkPN "Mary" ;
 lin machine_N = mkkN "Maschine" ;
 lin correct_A = mkA "korrekt" ;
 
+lin friend_N = mkgN "Freund" "Freunde" masculine ;
+lin ask_V2 = mkV2 (mkV "fragen") ;
+lin mad_A2 = mkA2 (mkA "verrückt") (mkPrep "nach" dative) ;
+
 lin kilogram_Unit = mkgN "Kilo" "Kilo" neuter ;
 
-oper 
+oper
   mkkN : Str -> CN = \n -> mkCN (ParadigmsGer.mkN n) ;
   mkgN : Str -> Str -> Gender -> CN = \s,n,g -> mkCN (ParadigmsGer.mkN s n g) ;
 

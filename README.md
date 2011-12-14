@@ -30,7 +30,7 @@ In addition to building the PGF-file the `make-pgf.bash` also
 generates some random example sentences and converts the grammar
 into JSGF. Both these outputs are only for testing purposes.
 
-### Knows problems
+### Known problems
 
   * random generation sometimes gets stuck
   * JSGF produces zero-output with the error message `gf: mergeIdentical: Unknown_100_0`
@@ -61,16 +61,22 @@ AceWiki test set obtained by exhaustive generation with the Codeco grammar.
 Content words: ask, Mary, woman, friend, mad-about.
 
   * Total: 19718
-  * Parsed: 316
-  * NOT parsed: 19402
-
-Note: The initial commit only supports `woman` out of the required content words.
-This explains the low coverage.
+  * Parsed: 2773
+  * NOT parsed: 16945
 
 Examples of parsed:
 
   * for every woman it is false that a woman is the woman .
     * für jede Frau ist es falsch daß eine Frau die Frau ist .
+
+A few reasons (i.e. words and phrases) that cause the parse to fail:
+
+  * mad-about (`mad about' does not seem to work either)
+  * exactly
+  * which (as a question pronoun)
+  * is everybody
+  * everybody is
+  * who (as a relative clause pronoun)
 
 
 ### ACE Editor
