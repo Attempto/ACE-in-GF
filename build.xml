@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="ACE in GF" default="build" basedir=".">
+
+	<target name="clean" description="Clean up">
+		<delete>
+			<fileset dir="." includes="**/*.gfo"/>
+			<fileset dir="." includes="**/*.pgf"/>
+		</delete>
+	</target>
+
+</project>
