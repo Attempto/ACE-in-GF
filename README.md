@@ -24,8 +24,8 @@ i.e. some ACE constructs are not supported, e.g.
   * everybody
   * somebody X
   * somebody does
+  * somebody who
   * which (as a question pronoun)
-  * who (as a relative clause pronoun)
   * ...
 
 and it supports some constructs which in ACE do not exist, have been
@@ -96,9 +96,9 @@ AceWiki test set obtained by exhaustive generation with the Codeco grammar.
 Content words: ask, Mary, woman, friend, mad-about.
 
   * Total: 19718
-  * Parsed: 5189
-  * NOT parsed: 14529
-  * Runtime: ~33 sec
+  * Parsed: 5609
+  * NOT parsed: 14109
+  * Runtime: ~39 sec
 
 Examples of parsed:
 
@@ -110,8 +110,8 @@ A few reasons (i.e. words and phrases) that cause the parse to fail:
   * mad-about (`mad about' does not seem to work either)
   * somebody X
   * somebody does
+  * somebody who
   * which (as a question pronoun)
-  * who (as a relative clause pronoun)
 
 
 ### ACE Editor
