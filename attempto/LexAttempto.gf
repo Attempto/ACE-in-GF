@@ -28,4 +28,6 @@ oper
 
   adj_thatCl : A -> S -> Cl ;
 
+  exactly_AdN : AdN ;
+
 }

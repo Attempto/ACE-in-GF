@@ -10,7 +10,7 @@ grammar="TestAttempto"
 
 # More languages can be plugged in here, maybe apart from
 # Fin which takes too long to compile.
-grammars="TestAttemptoEng.gf TestAttemptoGer.gf TestAttemptoIta.gf"
+grammars="TestAttemptoEng.gf TestAttemptoGer.gf"
 
 # Do not edit from here on
 dir_pgf=${build}/pgf/
