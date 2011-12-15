@@ -6,6 +6,8 @@
 		<delete>
 			<fileset dir="." includes="**/*.gfo"/>
 			<fileset dir="." includes="**/*.pgf"/>
+			<fileset dir="." includes="**/*.hi"/>
+			<fileset dir="." includes="**/*.o"/>
 		</delete>
 	</target>
 

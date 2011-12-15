@@ -39,9 +39,9 @@ into JSGF. Both these outputs are only for testing purposes.
 Testing
 -------
 
-> ghc --make -o trans Translator.hs
+> ghc --make -o Parser Parser.hs
 
-> cat examples/ace.txt | ./trans build/pgf/TestAttempto.pgf
+> cat examples/ace.txt | ./Parser build/pgf/TestAttempto.pgf
 
 
 Status
@@ -63,6 +63,7 @@ Content words: ask, Mary, woman, friend, mad-about.
   * Total: 19718
   * Parsed: 2773
   * NOT parsed: 16945
+  * Runtime: ~27 sec
 
 Examples of parsed:
 
@@ -73,9 +74,10 @@ A few reasons (i.e. words and phrases) that cause the parse to fail:
 
   * mad-about (`mad about' does not seem to work either)
   * exactly
+  * everybody
+  * somebody X
+  * somebody does
   * which (as a question pronoun)
-  * is everybody
-  * everybody is
   * who (as a relative clause pronoun)
 
 
