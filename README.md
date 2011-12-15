@@ -16,8 +16,8 @@ The first commit was based on the 2011-12-14 version of
 the GF darcs repository `examples/attempto`-directory implemented
 by the GF developers (in 2009).
 
-This version does not completely match ACE, i.e. some ACE constructs
-are not supported, e.g.
+This version does not completely match (the latest version of) ACE,
+i.e. some ACE constructs are not supported, e.g.
 
   * transitive adjectives: mad-about (`mad about' does not seem to work either)
   * exactly
@@ -28,9 +28,11 @@ are not supported, e.g.
   * who (as a relative clause pronoun)
   * ...
 
-and it supports some constructs which ACE does not or has deprecated, e.g.
+and it supports some constructs which in ACE do not exist, have been
+deprecated or should be avoided (i.e. create a warning), e.g.
 
-  * such that
+  * he waits .
+  * a man X is the man Y .
   * ...
 
 
@@ -94,9 +96,9 @@ AceWiki test set obtained by exhaustive generation with the Codeco grammar.
 Content words: ask, Mary, woman, friend, mad-about.
 
   * Total: 19718
-  * Parsed: 3019
-  * NOT parsed: 16699
-  * Runtime: ~27 sec
+  * Parsed: 5189
+  * NOT parsed: 14529
+  * Runtime: ~33 sec
 
 Examples of parsed:
 
@@ -106,7 +108,6 @@ Examples of parsed:
 A few reasons (i.e. words and phrases) that cause the parse to fail:
 
   * mad-about (`mad about' does not seem to work either)
-  * everybody
   * somebody X
   * somebody does
   * which (as a question pronoun)
