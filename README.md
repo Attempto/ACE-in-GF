@@ -5,7 +5,7 @@ Introduction
 ------------
 
 This project implements the Attempto Controlled English (ACE)
-grammar in Grammatical Framework (GF) and ports it to
+grammar (version 6.6) in Grammatical Framework (GF) and ports it to
 additional natural languages (Ger, Ita, ...).
 
 
@@ -13,14 +13,19 @@ First commit
 ------------
 
 The first commit was based on the 2011-12-14 version of
-the GF darcs repository `examples/attempto`-directory implemented
-by the GF developers (in 2009).
+the GF darcs repository `examples/attempto/`-directory implemented
+by the GF developers in 2009 targeting ACE v6.0. See also the publication:
+
+	K. Angelov and A. Ranta.
+	Implementing Controlled Languages in GF.
+	N. Fuchs (ed.), CNL-2009 Controlled Natural Languages, LNCS/LNAI 5972, 2010.
 
 This version does not completely match (the latest version of) ACE,
 i.e. some ACE constructs are not supported, e.g.
 
   * transitive adjectives: `mad-about` (`mad about` does not seem to work either)
   * exactly
+  * less than
   * everybody
   * somebody X
   * somebody does
@@ -41,6 +46,8 @@ deprecated or should be avoided (i.e. create a warning), e.g.
 
   * he waits .
   * a man X is the man Y .
+  * not more than, not at least, ...
+  * numbers larger than 12 as words, e.g. `one hundred and thirty`
   * ...
 
 

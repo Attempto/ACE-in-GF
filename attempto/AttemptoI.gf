@@ -87,11 +87,8 @@ lin not_everybodyNP = mkNP not_Predet Syntax.everybody_NP ;
 lin not_everythingNP = mkNP not_Predet Syntax.everything_NP ;
 
 lin at_leastNP ca = mkNP (mkCard at_least_AdN ca) ;
-lin not_at_leastNP ca cn = mkNP not_Predet (mkNP (mkCard at_least_AdN ca) cn) ;
 lin at_mostNP ca = mkNP (mkCard at_most_AdN ca) ;
-lin not_at_mostNP ca cn = mkNP not_Predet (mkNP (mkCard at_most_AdN ca) cn) ;
 lin more_thanNP ca = mkNP (mkCard (mkAdN more_CAdv) ca) ;
-lin not_more_thanNP ca cn = mkNP not_Predet (mkNP (mkCard (mkAdN more_CAdv) ca) cn) ;
 lin exactlyNP ca = mkNP (mkCard exactly_AdN ca) ;
 
 lin nothing_butNP cn = mkNP nothing_NP (mkAdv except_Prep (mkNP a_Art plNum cn)) ;
