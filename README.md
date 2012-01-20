@@ -6,7 +6,16 @@ Introduction
 
 This project implements the Attempto Controlled English (ACE)
 grammar (version 6.6) in Grammatical Framework (GF) and ports it to
-additional natural languages (Ger, Ita, ...).
+additional natural languages (_Ger_, _Ita_, ...). The focus is on both
+the full ACE as well as its OWL-compatible subset that is supported
+by AceWiki.
+
+The reference ACE parser (APE) can be obtained from <https://github.com/Attempto/APE>.
+There is a web-based demo at <http://attempto.ifi.uzh.ch/ape/>.
+
+The reference AceWiki grammar can be found at
+<https://github.com/AceWiki/AceWiki/tree/master/src/ch/uzh/ifi/attempto/acewiki/aceowl/>.
+There is a web-based demo at <http://attempto.ifi.uzh.ch/acewiki/>.
 
 
 First commit
@@ -20,7 +29,7 @@ by the GF developers in 2009 targeting ACE v6.0. See also the publication:
 	Implementing Controlled Languages in GF.
 	N. Fuchs (ed.), CNL-2009 Controlled Natural Languages, LNCS/LNAI 5972, 2010.
 
-This version does not completely match (the latest version of) ACE,
+This version does not completely match ACE v6.6,
 i.e. some ACE constructs are not supported, e.g.
 
   * transitive adjectives: `mad-about` (`mad about` does not seem to work either)
