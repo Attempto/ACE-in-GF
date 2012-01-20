@@ -48,6 +48,7 @@ i.e. some ACE constructs are not supported, e.g.
   * `are not` and `aren't` are not equivalent
   * `does not` and `doesn't` are not equivalent
   * `do not` and `don't` are not equivalent
+  * `who` (instead of `whom') in object relative clauses (``a woman who a man sees'')
   * ...
 
 and it supports some constructs which in ACE do not exist, have been
@@ -57,6 +58,7 @@ deprecated or should be avoided (i.e. create a warning), e.g.
   * a man X is the man Y .
   * not more than, not at least, ...
   * numbers larger than 12 as words, e.g. `one hundred and thirty`
+  * whom
   * ...
 
 
