@@ -102,6 +102,12 @@ which creates two files
   * test_out.txt
   * test_out_fail.txt
 
+To run tests on all the test cases in the tests-directory
+
+> sh run_tests.sh
+
+The output files are created into the subdirectories of the test-directory.
+
 
 Status
 ------
