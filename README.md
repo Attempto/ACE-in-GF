@@ -4,11 +4,12 @@ Attempto Controlled English in Grammatical Framework
 Introduction
 ------------
 
-This project implements the Attempto Controlled English (ACE)
+This project implements the syntax of Attempto Controlled English (ACE)
 grammar (version 6.6) in Grammatical Framework (GF) and ports it to
 additional natural languages (_Ger_, _Ita_, ...). The focus is on both
 the full ACE as well as its OWL-compatible subset that is supported
-by AceWiki.
+by AceWiki. Note that this project does not implement the ACE interpretation
+rules or the mapping of ACE sentences to discourse representation structures.
 
 The reference ACE parser (APE) can be obtained from <https://github.com/Attempto/APE>.
 There is a web-based demo at <http://attempto.ifi.uzh.ch/ape/>.
@@ -48,17 +49,20 @@ i.e. some ACE constructs are not supported, e.g.
   * `are not` and `aren't` are not equivalent
   * `does not` and `doesn't` are not equivalent
   * `do not` and `don't` are not equivalent
-  * `who` (instead of `whom') in object relative clauses (``a woman who a man sees'')
+  * `who` (instead of `whom`) in object relative clauses (`a woman who a man sees`)
+  * dative shift (`John gives Mary an apple`)
   * ...
 
 and it supports some constructs which in ACE do not exist, have been
 deprecated or should be avoided (i.e. create a warning), e.g.
 
-  * he waits .
+  * he waits . (and other unresolvable personal pronouns)
+  * the man waits . (gives a warning in APE)
   * a man X is the man Y .
   * not more than, not at least, ...
   * numbers larger than 12 as words, e.g. `one hundred and thirty`
   * whom
+  * `- ( X + X ) waits .` (minus sign should be followed by a number)
   * ...
 
 
@@ -78,18 +82,36 @@ The GF libraries are expected to be found in a system-wide location, e.g.:
   * ~/.cabal/share/gf-3.3/lib/present/
   * ~/.cabal/share/gf-3.3/lib/prelude/
 
-In addition to building the PGF-file the `make-pgf.bash` also
-generates some random example sentences and converts the grammar
-into JSGF. Both these outputs are only for testing purposes.
+In addition to building the PGF-file (`TestAttempto.pgf`), `make-pgf.bash`
+
+  * generates some random example sentences and
+  * converts the PGF into a speech recognition grammar format (JSGF).
+
+Both these additional outputs are only for testing purposes.
+All outputs are written into the `build`-directory.
 
 ### Known problems
 
-  * random generation sometimes gets stuck
+  * random generation often gets stuck
   * JSGF produces zero-output with the error message `gf: mergeIdentical: Unknown_100_0`
+
+
+Running
+-------
+
+Example of translating an English sentence to German.
+
+	$ gf build/pgf/TestAttempto.pgf
+	TestAttempto> p -lang=Eng "John gives an apple to Mary ." | l -lang=Ger
+	John gibt einen Apfel Mary .
 
 
 Testing
 -------
+
+# Parsing with GF
+
+Parsing ACE sentences with `TestAttempto.pgf`.
 
 > ghc --make -o Parser Parser.hs
 
@@ -110,6 +132,10 @@ To run tests on all the test cases in the tests-directory
 
 The output files are created into the subdirectories of the test-directory.
 
+# Generating with GF and parsing with APE
+
+See the scripts and instructions in the `tools`-directory.
+
 
 Status
 ------
@@ -121,6 +147,9 @@ measured in different ways. We look at:
   * GF parsing
   * GF generation
   * GF translation correctness (?)
+
+Note: So far we have only looked at how many known ACE sentences the GF parser can parse.
+
 
 ### AceWiki supported fragment of ACE OWL
 
