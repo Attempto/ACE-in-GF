@@ -5,18 +5,41 @@ Introduction
 ------------
 
 This project implements the syntax of Attempto Controlled English (ACE)
-grammar (version 6.6) in Grammatical Framework (GF) and ports it to
-additional natural languages (_Ger_, _Ita_, ...). The focus is on both
-the full ACE as well as its OWL-compatible subset that is supported
-by AceWiki. Note that this project does not implement the ACE interpretation
+(version 6.6) in Grammatical Framework (GF) and ports it to
+additional natural languages (_Ger_, _Ita_, ...).
+Note that this project does not implement the ACE interpretation
 rules or the mapping of ACE sentences to discourse representation structures.
 
-The reference ACE parser (APE) can be obtained from <https://github.com/Attempto/APE>.
-There is a web-based demo at <http://attempto.ifi.uzh.ch/ape/>.
 
-The reference AceWiki grammar can be found at
-<https://github.com/AceWiki/AceWiki/tree/master/src/ch/uzh/ifi/attempto/acewiki/aceowl/>.
-There is a web-based demo at <http://attempto.ifi.uzh.ch/acewiki/>.
+Requirements
+------------
+
+### Coverage
+
+The grammar should cover a reasonably large and interesting subset of ACE,
+specifically the OWL-compatible subset that is supported by AceWiki.
+Ideally, the grammar should cover the full ACE.
+
+### Correctness
+
+The grammar should not overgenerate. Since the grammar is going to
+be used in a look-ahead editor (which explicitly exposes the coverage
+of the grammar to the user), it should not support forms that fall
+outside of ACE.
+
+### Multilinguality
+
+The grammar should allow for bidirectional translations
+between ACE and a number of other controlled natural languages
+(_ACE-like_ German, Italian, Finnish, etc.).
+
+
+Reference implementations
+-------------------------
+
+  * The reference ACE parser (APE) can be obtained from <https://github.com/Attempto/APE>. There is a web-based demo at <http://attempto.ifi.uzh.ch/ape/>.
+
+  * The reference AceWiki grammar can be found at <https://github.com/AceWiki/AceWiki/tree/master/src/ch/uzh/ifi/attempto/acewiki/aceowl/>. There is a web-based demo at <http://attempto.ifi.uzh.ch/acewiki/>.
 
 
 First commit
@@ -109,7 +132,7 @@ Example of translating an English sentence to German.
 Testing
 -------
 
-# Parsing with GF
+### Parsing with GF
 
 Parsing ACE sentences with `TestAttempto.pgf`.
 
@@ -132,7 +155,7 @@ To run tests on all the test cases in the tests-directory
 
 The output files are created into the subdirectories of the test-directory.
 
-# Generating with GF and parsing with APE
+### Generating with GF and parsing with APE
 
 See the scripts and instructions in the `tools`-directory.
 
@@ -148,7 +171,7 @@ measured in different ways. We look at:
   * GF generation
   * GF translation correctness (?)
 
-Note: So far we have only looked at how many known ACE sentences the GF parser can parse.
+_Note: So far we have only looked at how many known ACE sentences the GF parser can parse._
 
 
 ### AceWiki supported fragment of ACE OWL
@@ -168,7 +191,7 @@ Examples of parsed:
 
 A few reasons (i.e. words and phrases) that cause the parse to fail:
 
-  * mad-about (`mad about' does not seem to work either)
+  * mad-about (`mad about` does not seem to work either)
   * somebody X
   * somebody does
   * somebody who
