@@ -17,9 +17,7 @@ Some normalization is performed, e.g.
   * sentence-initial function words are lowercased
   * punctuation marks are separated from the words
 
-> ~/mywork/APE/examples$ swipl -s output_tests.pl -t halt -g main > ace.txt
-
-> ~/mywork/ACE-in-GF$ ./run_test.sh ../APE/examples/ace.txt
+Results:
 
   * Parsed: 421
   * NOT parsed: 2351
@@ -35,6 +33,8 @@ __AceWiki-supported fragment of ACE OWL__
 
 AceWiki test set obtained by exhaustive generation with the Codeco grammar.
 Content words: ask, Mary, woman, friend, mad-about.
+
+Results:
 
   * Total: 19718
   * Parsed: 5609
@@ -58,6 +58,7 @@ A few reasons (i.e. words and phrases) that cause the parse to fail:
 
 Same as `acewiki_aceowl` but some sentences are excluded.
 These sentences feature constructs which are probably easy to fix.
+Result: ~50% parsed.
 
 ### aceeditor
 

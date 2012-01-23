@@ -154,7 +154,7 @@ To run tests on all the test cases in the tests-directory
 
 > sh run_tests.sh
 
-The output files are created into the subdirectories of the test-directory.
+The output files are created into the subdirectories of the tests-directory.
 
 ### Generating with GF and parsing with APE
 
