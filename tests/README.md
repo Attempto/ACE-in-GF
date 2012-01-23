@@ -10,14 +10,60 @@ Subsets
 
 Full ACE.
 
+Since there is no generator, we use the APE regression test set.
+We take all the snippets that APE parsed correctly into a non-empty DRS.
+Some normalization is performed, e.g.
+
+  * sentence-initial function words are lowercased
+  * punctuation marks are separated from the words
+
+> ~/mywork/APE/examples$ swipl -s output_tests.pl -t halt -g main > ace.txt
+
+> ~/mywork/ACE-in-GF$ ./run_test.sh ../APE/examples/ace.txt
+
+  * Parsed: 421
+  * NOT parsed: 2351
+
+Most failures are caused by missing content words in the GF ACE test lexicon
+(which is easy to fix). The most frequent failures however feature some syntactic
+structures and function words which the GF ACE implementation does not support.
+
+
 ### acewiki_aceowl
 
-Subset of ACE that is used in AceWiki. OWL-compatible.
+__AceWiki-supported fragment of ACE OWL__
+
+AceWiki test set obtained by exhaustive generation with the Codeco grammar.
+Content words: ask, Mary, woman, friend, mad-about.
+
+  * Total: 19718
+  * Parsed: 5609
+  * NOT parsed: 14109
+  * Runtime: ~39 sec
+
+A few reasons (i.e. words and phrases) that cause the parse to fail:
+
+  * mad-about (`mad about` does not seem to work either)
+  * somebody X
+  * somebody does
+  * somebody who
+  * Mary who
+  * X who
+  * is/are not
+  * does/do not
+  * which (as a question pronoun)
+
 
 ### acewiki_aceowl_modif
 
-Same as `acewiki_aceowl` but some sentences are excluded
-for testing purposes.
+Same as `acewiki_aceowl` but some sentences are excluded.
+These sentences feature constructs which are probably easy to fix.
+
+### aceeditor
+
+_Work in progress_
+
+The ACE Editor subset is between AceWiki ACEOWL and full ACE.
 
 
 Test files

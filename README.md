@@ -79,12 +79,13 @@ i.e. some ACE constructs are not supported, e.g.
 and it supports some constructs which in ACE do not exist, have been
 deprecated or should be avoided (i.e. create a warning), e.g.
 
-  * he waits . (and other unresolvable personal pronouns)
-  * the man waits . (gives a warning in APE)
+  * `he waits .` (and other unresolvable personal pronouns)
+  * `the man waits .` (gives a warning in APE)
   * a man X is the man Y .
   * not more than, not at least, ...
   * numbers larger than 12 as words, e.g. `one hundred and thirty`
   * whom
+  * such that
   * `- ( X + X ) waits .` (minus sign should be followed by a number)
   * ...
 
@@ -171,92 +172,7 @@ measured in different ways. We look at:
   * GF generation
   * GF translation correctness (?)
 
-_Note: So far we have only looked at how many known ACE sentences the GF parser can parse._
-
-
-### AceWiki supported fragment of ACE OWL
-
-AceWiki test set obtained by exhaustive generation with the Codeco grammar.
-Content words: ask, Mary, woman, friend, mad-about.
-
-  * Total: 19718
-  * Parsed: 5609
-  * NOT parsed: 14109
-  * Runtime: ~39 sec
-
-Examples of parsed:
-
-  * for every woman it is false that a woman is the woman .
-    * für jede Frau ist es falsch daß eine Frau die Frau ist .
-
-A few reasons (i.e. words and phrases) that cause the parse to fail:
-
-  * mad-about (`mad about` does not seem to work either)
-  * somebody X
-  * somebody does
-  * somebody who
-  * Mary who
-  * X who
-  * is/are not
-  * does/do not
-  * which (as a question pronoun)
-
-
-### ACE Editor
-
-_Work in progress_
-
-
-### Full ACE
-
-_Work in progress_
-
-Since there is no generator, we use the APE regression test set.
-We take all the snippets that APE parsed correctly into a non-empty DRS.
-Some normalization is performed, e.g.
-
-  * sentence-initial function words are lowercased
-  * punctuation marks are separated from the words
-
-> ~/mywork/APE/examples$ swipl -s output_tests.pl -t halt -g main > ace.txt
-
-> ~/mywork/ACE-in-GF$ ./run_test.sh ../APE/examples/ace.txt
-
-  * Parsed: 421
-  * NOT parsed: 2351
-
-Most failures are caused by missing content words in the GF ACE test lexicon
-(which is easy to fix). The most frequent failures however feature some syntactic
-structures and function words which the GF ACE implementation does not support:
-
-     68 there is a man who
-     46 which
-     26 John in
-     24 John likes
-     23 a man who
-     22 what
-     20 John does
-     17 every man who
-     16 a man runs
-     14 a man does
-     12 there is a red
-     12 John beats
-     12 if there is a man then he sees a cat
-     12 if a user
-     12 how
-     10 there is a cat
-     10 not for
-     10 John sees a man who
-     10 John owns
-     10 in
-     10 everything
-     10 a man hits
-      9 Mary who
-      9 John can not
-      9 everybody who
-
-This is a frequency ranking of failing partial sentences, from the first word to the word
-that caused the parse to fail.
+_Note: So far we have only looked at how many known ACE sentences the GF parser can parse. See more in the `tests`-directory._
 
 
 Structure of the grammar
