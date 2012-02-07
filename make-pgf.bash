@@ -22,10 +22,10 @@ mkdir -p ${dir_jsgf}
 
 # More languages can be plugged in here, maybe apart from
 # Fin which takes too long to compile.
-echo "Building PGF from ${dir}/TestAttempto{Eng,Ger}.gf"
+echo "Building PGF from ${dir}/TestAttempto{Eng,Ger,Ita}.gf"
 # TODO: for some reason the output-dir parameter has no influence,
 # so we don't use it, and the PGF is dropped into the current directory.
-gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --name $name --path $path ${dir}/TestAttempto{Eng,Ger}.gf
+gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --name $name --path $path ${dir}/TestAttempto{Eng,Ger,Ita}.gf
 
 echo "Generating JSGF into ${dir_jsgf} ...";
 gf --make --output-format=jsgf --name ${name} --output-dir ${dir_jsgf} ${name}.pgf
