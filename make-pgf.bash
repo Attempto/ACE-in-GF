@@ -1,42 +1,36 @@
 #!/bin/bash
 
-path="present"
+dir=attempto
+
+path="present:${dir}"
 
 stack_size="K100M"
 
 build=build
 
-grammar="TestAttempto"
-
-# More languages can be plugged in here, maybe apart from
-# Fin which takes too long to compile.
-grammars="TestAttemptoEng.gf TestAttemptoGer.gf"
+# GF does not like dots in the filename,
+# so we use underscores.
+name="ACE-0_0_1"
 
 # Do not edit from here on
-dir_pgf=${build}/pgf/
 dir_gr=${build}/gr/
 dir_jsgf=${build}/jsgf/
 
-echo "Making output directories"
-mkdir -p ${dir_pgf}
+echo "Making output directories (if needed)"
 mkdir -p ${dir_gr}
 mkdir -p ${dir_jsgf}
 
-dir=attempto
+# More languages can be plugged in here, maybe apart from
+# Fin which takes too long to compile.
+echo "Building PGF from ${dir}/TestAttempto{Eng,Ger}.gf"
+# TODO: for some reason the output-dir parameter has no influence,
+# so we don't use it, and the PGF is dropped into the current directory.
+gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --name $name --path $path ${dir}/TestAttempto{Eng,Ger}.gf
 
-cd $dir
+echo "Generating JSGF into ${dir_jsgf} ...";
+gf --make --output-format=jsgf --name ${name} --output-dir ${dir_jsgf} ${name}.pgf
 
-echo "Building PGF..."
-gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --path $path $grammars
-
-cd ..
-
-mv ${dir}/${grammar}.pgf ${dir_pgf}
-
-echo "Generating JSGF...";
-gf -make --output-format=jsgf --output-dir ${dir_jsgf} ${dir_pgf}/${grammar}.pgf
-
-echo "Generating random examples...";
-echo "gr -number=10 -depth=7 | l -treebank -bind" | gf --run ${dir_pgf}/${grammar}.pgf > ${dir_gr}/${grammar}.txt
+echo "Generating random examples into ${dir_gr} ...";
+echo "gr -number=10 -depth=7 | l -treebank -bind" | gf --run ${name}.pgf > ${dir_gr}/${name}.txt
 
 echo "done."

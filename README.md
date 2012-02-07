@@ -101,18 +101,20 @@ In order to build the PGF-file execute:
 
 > bash make-pgf.bash
 
+(Note that it is important that you use `bash`.)
+
 The GF libraries are expected to be found in a system-wide location, e.g.:
 
   * ~/.cabal/share/gf-3.3/lib/present/
   * ~/.cabal/share/gf-3.3/lib/prelude/
 
-In addition to building the PGF-file (`TestAttempto.pgf`), `make-pgf.bash`
+In addition to building the PGF-file (`ACE-0_0_1.pgf`), `make-pgf.bash`
 
   * generates some random example sentences and
   * converts the PGF into a speech recognition grammar format (JSGF).
 
-Both these additional outputs are only for testing purposes.
-All outputs are written into the `build`-directory.
+Both these additional outputs are only for testing purposes, they
+are saved into the `build`-directory.
 
 ### Known problems
 
@@ -125,7 +127,8 @@ Running
 
 Example of translating an English sentence to German.
 
-	$ gf build/pgf/TestAttempto.pgf
+> $ gf ACE-0_0_1.pgf
+
 	TestAttempto> p -lang=Eng "John gives an apple to Mary ." | l -lang=Ger
 	John gibt einen Apfel Mary .
 
@@ -135,15 +138,15 @@ Testing
 
 ### Parsing with GF
 
-Parsing ACE sentences with `TestAttempto.pgf`.
+Parsing ACE sentences with `ACE-0_0_1.pgf`.
 
 > ghc --make -o Parser Parser.hs
 
-> cat examples/ace.txt | ./Parser build/pgf/TestAttempto.pgf
+> cat examples/ace.txt | ./Parser ACE-0_0_1.pgf
 
 or
 
-> ./run_test.sh examples/ace.txt
+> bash run-test.bash examples/ace.txt
 
 which creates two files
 
@@ -152,7 +155,7 @@ which creates two files
 
 To run tests on all the test cases in the tests-directory
 
-> sh run_tests.sh
+> bash run-all-tests.bash
 
 The output files are created into the subdirectories of the tests-directory.
 

@@ -4,6 +4,8 @@
 # @version 2011-12-15
 
 prog="Parser"
+pgf="ACE-0_0_1.pgf"
+
 
 if [ $# -ne 1 ]
 then
@@ -18,7 +20,7 @@ out_fail="test_out_fail.txt"
 
 ghc --make -o $prog ${prog}.hs
 
-time (cat $1 | ./${prog} build/pgf/TestAttempto.pgf > $out)
+time (cat $1 | ./${prog} $pgf  > $out)
 
 echo "Parsed:"
 cat $out | grep "|OK" | wc -l

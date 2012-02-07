@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # @author Kaarel Kaljurand
-# @version 2012-01-20
+# @version 2012-02-07
 
 parser="Parser"
 
-pgf="build/pgf/TestAttempto.pgf"
+pgf="ACE-0_0_1.pgf"
 tests=tests
 
 test_out="test_out.txt"
@@ -13,11 +13,11 @@ test_out_fail="test_out_fail.txt"
 
 ghc --make -o $parser ${parser}.hs
 
-for dir in $(ls $tests)
+for dir in $(find $tests -maxdepth 1 -mindepth 1 -type d)
 do
 	echo "Testing: $dir"
-	in="${tests}/${dir}/sentences.txt"
-	out="${tests}/${dir}/${test_out}"
+	in="${dir}/sentences.txt"
+	out="${dir}/${test_out}"
 
 	time ./${parser} $pgf < $in > $out
 
@@ -27,6 +27,6 @@ do
 	echo -n "FAIL: "
 	cat $out | grep "|FAIL" | wc -l
 
-	cat $out | grep "|FAIL" | sed "s/^.*|FAIL //" | sort | uniq -c | sort -nr > ${tests}/${dir}/${test_out_fail}
+	cat $out | grep "|FAIL" | sed "s/^.*|FAIL //" | sort | uniq -c | sort -nr > ${dir}/${test_out_fail}
 	echo
 done
