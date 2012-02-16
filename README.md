@@ -93,7 +93,7 @@ deprecated or should be avoided (i.e. create a warning), e.g.
 Building
 --------
 
-_Note: only Eng and Ger are currently supported_
+_Note: Urd and Fin are currently not included_
 
 In order to build the PGF-file execute:
 
@@ -103,12 +103,13 @@ In order to build the PGF-file execute:
 
 (Note that it is important that you use `bash`.)
 
+The building will take about a minute on i3 given that _Fin_ is included.
 The GF libraries are expected to be found in a system-wide location, e.g.:
 
   * ~/.cabal/share/gf-3.3/lib/present/
   * ~/.cabal/share/gf-3.3/lib/prelude/
 
-In addition to building the PGF-file (`ACE-0_0_1.pgf`), `make-pgf.bash`
+In addition to building the PGF-file (`ACE-0_0_2.pgf`), `make-pgf.bash`
 
   * generates some random example sentences and
   * converts the PGF into a speech recognition grammar format (JSGF).
@@ -118,6 +119,8 @@ are saved into the `build`-directory.
 
 ### Known problems
 
+  * File `MakeStructuralUrd.gf` does not exist (when trying to build with _Urd_ included)
+  * Category Phr is not in scope (when trying to parse with _Fin_ included)
   * random generation often gets stuck
   * JSGF produces zero-output with the error message `gf: mergeIdentical: Unknown_100_0`
 
@@ -127,10 +130,14 @@ Running
 
 Example of translating an English sentence to German.
 
-> $ gf ACE-0_0_1.pgf
+> gf ACE-0_0_2.pgf
 
-	TestAttempto> p -lang=Eng "John gives an apple to Mary ." | l -lang=Ger
+	TestAttempto> p -lang=Eng "John gives an apple to Mary ." | l
+	John gives an apple to Mary .
+	John donne une pomme à Mary .
 	John gibt einen Apfel Mary .
+	John da una mela a Mary .
+	John ger ett äpple till Mary .
 
 
 Testing
@@ -138,11 +145,11 @@ Testing
 
 ### Parsing with GF
 
-Parsing ACE sentences with `ACE-0_0_1.pgf`.
+Parsing ACE sentences with `ACE-0_0_2.pgf`.
 
 > ghc --make -o Parser Parser.hs
 
-> cat examples/ace.txt | ./Parser ACE-0_0_1.pgf
+> cat examples/ace.txt | ./Parser ACE-0_0_2.pgf
 
 or
 

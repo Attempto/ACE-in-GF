@@ -30,4 +30,5 @@ oper
   adj_thatCl : A -> S -> Cl = \a,s -> 
     mkCl (mkVP (mkVP (mkAP a)) (SyntaxFre.mkAdv that_Subj s)) ;
 
+  exactly_AdN = mkAdN "exactement" ;
 }
