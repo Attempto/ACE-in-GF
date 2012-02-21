@@ -2,6 +2,12 @@
 
 dir=attempto
 
+if [ $# -eq 1 ]
+then
+	dir=$1
+fi
+
+
 path="present:${dir}"
 
 stack_size="K100M"
@@ -30,6 +36,6 @@ echo "Generating JSGF into ${dir_jsgf} ...";
 gf --make --output-format=jsgf --name ${name} --output-dir ${dir_jsgf} ${name}.pgf
 
 echo "Generating random examples into ${dir_gr} ...";
-echo "gr -number=10 -depth=7 | l -treebank -bind" | gf --run ${name}.pgf > ${dir_gr}/${name}.txt
+echo "gr -cat=Text -number=1000 -depth=10 | l -treebank -bind" | gf --run ${name}.pgf > ${dir_gr}/${name}.txt
 
 echo "done."

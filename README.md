@@ -74,6 +74,7 @@ i.e. some ACE constructs are not supported, e.g.
   * `do not` and `don't` are not equivalent
   * `who` (instead of `whom`) in object relative clauses (`a woman who a man sees`)
   * dative shift (`John gives Mary an apple`)
+  * numbers with a dot
   * ...
 
 and it supports some constructs which in ACE do not exist, have been
@@ -87,6 +88,8 @@ deprecated or should be avoided (i.e. create a warning), e.g.
   * whom
   * such that
   * `- ( X + X ) waits .` (minus sign should be followed by a number)
+  * `1 = - -1 .` (`-1` is a built-in GF integer)
+  * `nothing except` (instead of `nothing but`)
   * ...
 
 
@@ -120,9 +123,19 @@ are saved into the `build`-directory.
 ### Known problems
 
   * File `MakeStructuralUrd.gf` does not exist (when trying to build with _Urd_ included)
+
   * Category Phr is not in scope (when trying to parse with _Fin_ included)
+
   * random generation often gets stuck
+
   * JSGF produces zero-output with the error message `gf: mergeIdentical: Unknown_100_0`
+
+  * completion sometimes does not work (with numbers?)
+	
+	TestAttempto> p -lang=Eng "1 = 
+	(  -  X  Y
+	TestAttempto> p -lang=Eng "1 = 1 ."
+	baseText (sText (formulaS (eq_Formula (int_Term 1) (int_Term 1))))
 
 
 Running
