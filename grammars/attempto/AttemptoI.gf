@@ -1,8 +1,8 @@
-incomplete concrete AttemptoI of Attempto = SymbolsC, Numeral ** open
-  Syntax,
+incomplete concrete AttemptoI of Attempto = SymbolsC, Numeral ** open 
+  Syntax, 
   Symbolic,
   Prelude,
-  LexAttempto
+  LexAttempto 
 in {
 
 lincat CN = Syntax.CN ;
@@ -14,10 +14,14 @@ lincat A = Syntax.A ;
 lincat A2 = Syntax.A2 ;
 lincat AP = Syntax.AP ;
 lincat RS = Syntax.RS ;
+lincat Pron = Syntax.Pron ;
+lincat Prep = Syntax.Prep ;
 lincat S = Syntax.S ;
 lincat VP = Syntax.VP ;
 lincat V = Syntax.V ;
+lincat VS = Syntax.VS ;
 lincat V2 = Syntax.V2 ;
+lincat V3 = Syntax.V3 ;
 lincat Adv = Syntax.Adv ;
 lincat Conj = Syntax.Conj ;
 lincat IP = Syntax.IP ;
@@ -27,6 +31,7 @@ lincat Text = Syntax.Text ;
 lincat ACEText = Syntax.Text ;
 lincat RP = Syntax.RP ;
 
+lincat MCN = Syntax.CN ;
 lincat PP = Syntax.Adv ;
 
 lin aNP = mkNP a_Art ;
@@ -50,7 +55,7 @@ lin someMassNP = mkNP someSg_Det ;
 lin allMassNP cn = mkNP all_Predet (mkNP cn) ;
 
 lin noMassNP = mkNP no_Quant ;
-lin notAllMassNP cn = mkNP not_Predet (mkNP all_Predet (mkNP cn)) ;
+lin notAllMassNP cn = mkNP not_Predet (mkNP all_Predet (mkNP cn)) ; 
 
 ---lin one_Card = mkCard n1_Numeral ;
 ---lin two_Card = mkCard n2_Numeral ;
@@ -195,7 +200,7 @@ lin commaOr_Conj = comma_or_Conj ;
 
 lin for_everyS cn = mkS (mkAdv for_Prep (mkNP every_Det cn)) ;
 lin for_eachS cn = mkS (mkAdv for_Prep (mkNP each_Det cn)) ;
-lin for_each_ofS card cn =
+lin for_each_ofS card cn = 
   mkS (mkAdv for_Prep (eachOf (mkNP card cn))) ;
 lin for_allMassS cn =
   mkS (mkAdv for_Prep (mkNP all_Predet (mkNP cn))) ;
@@ -224,11 +229,11 @@ lin whoSg_IP = Syntax.whoSg_IP ;
 lin whoPl_IP = Syntax.whoPl_IP ;
 
 lin there_ipQS ip = mkQS (mkQCl ip) ; ---- who is there, not there is who
-lin whoseIP = mkIP whose_IDet ;
+lin whoseIP = mkIP whose_IDet ; 
 
 -- 3.6
 
-lin np_impVP np vp = mkText (mkPhr (mkUtt (mkImp vp)) (mkVoc np)) exclMarkPunct ;
+lin np_impVP np vp = mkText (mkPhr (mkUtt (mkImp vp)) (mkVoc np)) exclMarkPunct ; 
         ---- John, go to the bank!
 
 

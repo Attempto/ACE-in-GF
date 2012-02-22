@@ -22,13 +22,19 @@ cat Prep ;
 cat S ;
 cat VP ;
 cat V ;
+cat VS ;
 cat V2 ;
+cat V3 ;
 cat Adv ;
 cat Conj ;
 cat IP ;
+cat IAdv ;
 cat QS ;
 cat Text ;
 cat RP ;
+cat Unit ;
+cat MCN ;
+cat PP ;
 
 
 fun aNP : CN -> NP ;
