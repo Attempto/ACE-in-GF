@@ -74,7 +74,6 @@ i.e. some ACE constructs are not supported, e.g.
   * `do not` and `don't` are not equivalent
   * `who` (instead of `whom`) in object relative clauses (`a woman who a man sees`)
   * dative shift (`John gives Mary an apple`)
-  * numbers with a dot
   * ...
 
 and it supports some constructs which in ACE do not exist, have been
