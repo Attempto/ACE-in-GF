@@ -1,0 +1,2436 @@
+0
+type:mainpage
+c This wiki contains geographical knowledge.
+c Due to the increasing complexity of the knowledge base, the reasoning subset has been restricted: OWL 2 RL instead of OWL 2 Full.
+c Furthermore, it is now required to login in order to change the wiki data.
+c Some important articles of this wiki:~n- [[planet]]~n- [[Earth]]~n- [[continent]]~n- [[country]]~n- [[city]]
+
+1
+type:nounof
+words:part of;
+| If something X is a <1,0> something Y then Y <2,0> X .
+
+2
+type:trverb
+words:contains;contain;contained by;
+| If something X is a <1,0> something Y then Y <2,0> X .
+| If X <2,0> Y then X is a <1,0> Y .
+| If X is <51,0> Y then Y <2,0> X .
+# If X <2,0> something that <2,0> Y then X <2,0> Y .
+
+3
+type:trverb
+words:overlaps-with;overlap-with;;
+| If something X <3,0> something Y then Y <3,0> X .
+| Everything that <3,0> something is an <14,0> .
+
+4
+type:trverb
+words:borders;border;bordered by;
+| If X <4,0> Y then Y <4,0> X .
+| Everything that <4,0> something is an <14,0> .
+| What <4,0> <160,0> ?
+| <33,0> <4,0> <25,0> .
+| Which <23,1> <4,1> <163,0> ?
+| What <4,0> <409,0> ?
+| Which <23,0> <4,0> a <23,0> ?
+
+5
+type:noun
+words:planet;planets;
+c From Wikipedia: A planet, as defined by the International Astronomical Union (IAU), is a celestial body orbiting a star or stellar remnant that is massive enough to be rounded by its own gravity, is not massive enough to cause thermonuclear fusion, and has cleared its neighbouring region of planetesimals.
+| Every <5,0> is a <164,0> .
+| No <5,0> is a <168,0> .
+| No <5,0> is a <165,0> .
+| No <5,0> is a <166,0> .
+# Every <5,0> <167,0> a <168,0> .
+# Every <5,0> that does not <167,1> <169,0> is an <172,0> .
+| Which <5,1> <167,1> <169,0> ?
+# Every <5,0> is a <170,0> or is a <171,0> .
+
+6
+type:propername
+words:Mercury;Mercury;Mercury;Mercury;
+| <6,0> is a <5,0> .
+| <6,0> <167,0> <169,0> .
+
+7
+type:propername
+words:Venus;Venus;Venus;Venus;
+| <7,0> is a <5,0> .
+| <7,0> <167,0> <169,0> .
+
+8
+type:propername
+words:the Earth;Earth;the Earth;Earth;
+| <8,0> <167,0> <169,0> .
+| <8,0> is a <170,0> .
+
+9
+type:propername
+words:Mars;Mars;Mars;Mars;
+| <9,0> is a <170,0> .
+| <9,0> <167,0> <169,0> .
+
+10
+type:propername
+words:Jupiter;Jupiter;Jupiter;Jupiter;
+| <10,0> is a <5,0> .
+| <10,0> <167,0> <169,0> .
+
+11
+type:propername
+words:Saturn;Saturn;Saturn;Saturn;
+| <11,0> is a <5,0> .
+| <11,0> <167,0> <169,0> .
+
+12
+type:propername
+words:Uranus;Uranus;Uranus;Uranus;
+| <12,0> is a <5,0> .
+| <12,0> <167,0> <169,0> .
+
+13
+type:propername
+words:Neptune;Neptune;Neptune;Neptune;
+| <13,0> is a <5,0> .
+| <13,0> <167,0> <169,0> .
+
+14
+type:noun
+words:area;areas;
+| Every <14,0> is an <77,0> .
+| What is an <14,0> ?
+
+15
+type:noun
+words:continent;continents;
+c From Wikipedia: A continent is one of several large landmasses on Earth. They are generally identified by convention rather than any strict criteria, with seven regions commonly regarded as continents Ð they are (from largest in size to smallest): Asia, Africa, North America, South America, Antarctica, Europe, and Australia.
+| Every <15,0> is an <14,0> .
+# Every <15,0> is a <1,0> <8,0> .
+# There are exactly 7 <15,1> .
+| What is a <15,0> ?
+# Every <15,0> that is not <20,0> <2,0> at least 2 <23,1> .
+# Every <15,0> <4,0> a <57,0> .
+| No <15,0> <4,0> <20,0> .
+| No <15,0> <4,0> <19,0> .
+
+16
+type:propername
+words:Europe;Europe;Europe;Europe;
+| <16,0> is a <15,0> .
+| <16,0> <4,0> <17,0> .
+| <95,0> is a <23,0> .
+| Which <23,1> <4,1> <33,0> ?
+| <453,0> is a <389,0> <16,0> .
+| Which <23,1> are <2,2> <16,0> ?
+
+17
+type:propername
+words:Asia;Asia;Asia;Asia;
+| <17,0> is a <15,0> .
+| What is a <1,0> <17,0> ?
+| What is <51,0> <17,0> ?
+c Pakistan is located in Asia but the reasoner unable to identify this fact.~nThe transitive rule "if X is located in Y and Y is located in Z then X is located in Z." is too complex for the reasoner. 
+
+18
+type:propername
+words:Africa;Africa;Africa;Africa;
+| <18,0> is a <15,0> .
+# <18,0> <128,0> exactly 5 <224,1> .
+
+19
+type:propername
+words:the Australian_Continent;Australian_Continent;the Australian_Continent;Australian_Continent;
+| <19,0> is a <15,0> .
+
+20
+type:propername
+words:Antarctica;Antarctica;Antarctica;Antarctica;
+| <20,0> is a <15,0> .
+| No <23,0> is <2,2> <20,0> .
+
+21
+type:propername
+words:North_America;North_America;North_America;North_America;
+| <21,0> is a <15,0> .
+| <21,0> <4,0> <22,0> .
+| Which <23,1> are <51,0> <21,0> ?
+| What is <51,0> <178,0> ?
+
+22
+type:propername
+words:South_America;South_America;South_America;South_America;
+| <22,0> is a <15,0> .
+
+23
+type:noun
+words:country;countries;
+| Every <23,0> is an <14,0> .
+| Who <190,0> a <23,0> ?
+| Who is a <279,0> a <23,0> ?
+
+24
+type:propername
+words:Argentina;Argentina;Argentina;Argentina;
+| <24,0> is a <23,0> .
+| <24,0> is a <1,0> <22,0> .
+| Which <39,1> are a <1,0> <24,0> ?
+
+25
+type:propername
+words:Germany;Germany;Germany;Germany;
+| <25,3> is an <120,0> .
+| <25,0> <4,0> <422,0> .
+c Germany is a beautiful country~n
+| <79,0> is an <460,0> <25,0> .
+| <25,0> <4,0> <33,0> .
+| <25,0> <4,0> <95,0> .
+| <25,0> <2,0> <393,0> which <234,0> <258,0> .
+# <25,0> is a <23,0> and <4,0> at least 4 <23,1> .
+| <25,0> is a <350,0> <349,0> .
+| <25,0> is a <1,0> <16,0> .
+| <25,0> <4,0> <95,0> .
+| <25,0> <4,0> <26,0> .
+| <25,0> <4,0> <119,0> .
+| <25,0> is <174,0> <38,0> .
+| <25,0> <2,0> <141,0> .
+| <153,0> <190,0> <25,0> .
+| <41,0> is <180,0> <25,0> .
+| What is <180,0> <25,0> ?
+| <258,0> is <51,0> <25,0> .
+| What is <25,0> ?
+| What is <274,0> <25,0> ?
+| Which <23,0> <4,0> <25,0> and <4,0> <33,0> ?
+| Who <190,0> <25,0> ?
+| Which <23,0> is <51,0> <16,0> ?
+| Which <39,0> is <2,2> <25,0> ?
+| Which <23,0> <4,0> <25,0> ?
+| <25,0> <234,0> <349,2> .
+| <37,0> <4,0> <25,0> .
+| What <234,0> <25,0> ?
+
+26
+type:propername
+words:Switzerland;Switzerland;Switzerland;Switzerland;
+| <26,0> is an <120,0> that is a <1,0> <16,0> .
+| What is <26,0> ?
+# <26,0> <4,0> exactly 5 <23,1> .
+| <26,0> <4,0> <25,0> and <4,0> <37,0> and <4,0> <33,0> and <4,0> <32,0> and <4,0> <38,0> .
+| <26,0> <4,0> no <57,0> .
+| Which <39,1> are <51,0> <26,0> ?
+| <26,0> is <51,0> <16,0> .
+| <52,0> is <180,0> <26,0> .
+| <26,0> is a <1,0> <16,0> .
+| <26,0> is not a <350,0> <349,0> .
+| What is <51,0> <26,0> ?
+| <79,0> is a <80,0> <26,0> .
+| <83,0> is a <80,0> <26,0> .
+| Which <23,1> <4,1> a <23,0> that <4,0> <26,0> ?
+
+27
+type:propername
+words:Nigeria;Nigeria;Nigeria;Nigeria;
+| <27,0> is a <23,0> .
+| <27,0> is a <1,0> <18,0> .
+
+28
+type:propername
+words:China;China;China;China;
+| <28,0> is a <23,0> .
+| <28,0> <70,0> <92,0> .
+| <91,0> is a <1,0> <28,0> .
+| <28,0> is a <1,0> <8,0> .
+| <47,0> is <51,0> <28,0> .
+| <28,0> is <174,0> <30,0> .
+| <28,0> is <51,0> <17,0> and is <174,0> <36,0> .
+| <216,0> is a <39,0> .
+| <216,0> is <51,0> <28,0> .
+| <47,0> is a <39,0> .
+| What is <51,0> <28,0> ?
+| What <4,0> <28,0> ?
+
+29
+type:propername
+words:Australia;Australia;Australia;Australia;
+| <29,0> is a <23,0> .
+| <29,0> is a <1,0> <19,0> .
+
+30
+type:propername
+words:the United_States_of_America;United_States_of_America;the USA;USA;
+| <30,0> is a <23,0> .
+| <30,0> is <51,0> <21,0> .
+| <205,0> is <180,0> <30,0> .
+# <30,0> <2,0> exactly 50 <405,1> .
+| <30,0> is a <122,0> .
+| <30,0> <4,0> <178,0> and <4,0> <151,0> .
+| What is a <23,0> that is <51,0> <21,0> ?
+| <137,0> is <380,0> <30,0> and is <380,0> <178,0> .
+c 
+
+31
+type:propername
+words:Russia;Russia;Russia;Russia;
+| <31,0> is a <23,0> .
+| <31,0> <3,0> <17,0> .
+| <31,0> <3,0> <16,0> .
+| What <4,0> <31,0> ?
+| <31,0> <4,0> <277,0> .
+| <434,0> is an <182,0> .
+# <31,0> is <174,0> every <23,0> .
+
+32
+type:propername
+words:Italy;Italy;Italy;Italy;
+| <42,0> is <51,0> <32,0> .
+# <32,0> is <190,2> a <278,0> .
+| What is <115,0> ?
+# Every <39,0> that is <2,2> <32,0> is <2,2> <16,0> .
+| <437,0> is <51,0> <16,0> .
+| What is <180,0> <32,0> ?
+# If a <39,0> is <51,0> <32,0> then the <39,0> is <51,0> <16,0> .
+# If <437,0> is <51,0> <32,0> then <437,0> is <51,0> <16,0> .
+# Every <39,0> that is <51,0> <32,0> is <51,0> <16,0> .
+# Every <39,0> that is <51,0> <32,0> is <2,2> <16,0> .
+# Every <440,0> <32,0> is a <440,0> <16,0> .
+| <115,0> is a <440,0> <32,0> .
+| <32,0> is <51,0> <16,0> .
+| <32,0> is a <1,0> <16,0> .
+| <32,0> <4,0> <26,0> and <4,0> <37,0> and <4,0> <33,0> .
+# Every <39,0> is a <1,0> a <23,0> .
+| What <4,0> <32,0> ?
+| <42,0> is a <39,0> .
+| What is <51,0> <32,0> ?
+| <437,0> is a <39,0> .
+| What is <437,0> ?
+| <253,0> is <51,0> <32,0> .
+| <257,0> is <51,0> <32,0> .
+| <437,0> is <51,0> <32,0> .
+| What is <51,0> <16,0> ?
+| <408,0> is <51,0> <32,0> .
+| <408,0> is a <39,0> .
+| <42,0> is <51,0> <32,0> .
+| <412,0> is a <39,0> .
+| What is <51,0> <32,0> ?
+
+33
+type:propername
+words:France;France;France;France;
+| <33,3> is an <120,0> .
+| <33,0> is a <1,0> <16,0> .
+| <33,0> is a <350,0> <349,0> .
+| <82,0> is an <460,0> <33,0> .
+| <33,0> <4,0> <32,0> .
+| <33,0> <4,0> <26,0> .
+| <33,0> <4,0> <75,0> .
+| Which <39,0> is a <107,0> <33,0> ?
+| <33,0> <4,0> <119,0> .
+| <33,0> <4,0> <73,0> .
+| What <4,0> <33,0> ?
+| <33,0> does not <4,1> <24,0> and does not <4,1> <29,0> .
+| <33,0> <4,0> <113,0> .
+| <33,0> does not <4,1> <159,0> which <4,0> <388,0> .
+| Which <39,1> are <51,0> a <23,0> that <4,0> <33,0> ?
+
+34
+type:propername
+words:Brazil;Brazil;Brazil;Brazil;
+| <34,0> is a <23,0> .
+| <34,0> is a <1,0> <22,0> .
+| <34,0> <4,0> <24,0> .
+| <34,0> <234,0> <384,0> .
+| Which <39,0> is <180,0> <34,3> ?
+
+35
+type:propername
+words:Japan;Japan;Japan;Japan;
+| <35,0> is a <23,0> .
+| <35,0> is a <1,0> <17,0> .
+| <73,0> does not <234,1> <35,0> .
+| <35,0> is <51,0> <17,0> .
+
+36
+type:propername
+words:the United-Kingdom;United-Kingdom;the United-Kingdom;United-Kingdom;
+| <36,0> is a <23,0> .
+| <36,0> is a <1,0> <16,0> .
+| Who <190,0> <36,0> ?
+| <36,0> is a <350,0> <280,0> .
+| <36,0> is <275,2> <383,0> .
+
+37
+type:propername
+words:Austria;Austria;Austria;Austria;
+| <37,0> is a <58,0> .
+| What <4,0> <37,0> ?
+| <37,0> is not <174,0> <25,0> .
+| <37,0> is <274,0> <25,0> .
+
+38
+type:propername
+words:Liechtenstein;Liechtenstein;Liechtenstein;Liechtenstein;
+| <38,0> is an <120,0> .
+| <38,0> <4,0> no <57,0> .
+| <38,0> <4,0> <37,0> .
+
+39
+type:noun
+words:city;cities;
+c From Wikipedia: A city is an urban area with a high population density and a particular administrative, legal, or historical status.
+| Every <39,0> is an <14,0> .
+| Which <39,1> are <180,0> a <23,0> that is <2,2> <16,0> ?
+| Which <39,1> <234,1> <178,0> ?
+| <527,0> is a <39,0> and is <180,0> <34,3> .
+| What is a <39,0> ?
+
+40
+type:propername
+words:Zurich;Zurich;Zurich;Zurich;
+| <40,0> is a <39,0> .
+| <40,0> is <51,0> <26,0> .
+| Which <76,1> <65,1> <40,0> ?
+
+41
+type:propername
+words:Berlin;Berlin;Berlin;Berlin;
+| <41,0> is a <39,0> .
+| <41,0> is a <1,0> <25,0> .
+| <41,0> is a <107,0> <25,0> .
+# If X is a <109,0> then X is a <39,0> .
+| <41,0> is a <1,0> what ?
+
+42
+type:propername
+words:Milano;Milano;Milano;Milano;
+| <42,0> is a <39,0> .
+| <42,0> is <51,0> <32,0> .
+
+43
+type:propername
+words:New_York;New_York;New_York;New_York;
+| <43,0> is a <39,0> .
+| <43,0> is a <1,0> <30,0> .
+
+44
+type:propername
+words:London;London;London;London;
+| <44,0> is a <39,0> .
+| <44,0> is a <1,0> <36,0> .
+| <44,0> is <180,0> <36,0> .
+| <44,3> <4,0> <515,3> .
+
+45
+type:propername
+words:Paris;Paris;Paris;Paris;
+| <45,0> is a <39,0> .
+| <45,0> is <51,0> <33,0> .
+| <45,0> <4,0> <409,0> .
+| <45,0> is a <107,0> <33,0> .
+
+46
+type:propername
+words:Sydney;Sydney;Sydney;Sydney;
+| <46,0> is a <39,0> .
+| <46,0> is a <1,0> <29,0> .
+
+47
+type:propername
+words:Beijing;Beijing;Beijing;Beijing;
+| <47,0> is a <39,0> .
+| <47,0> is a <1,0> <28,0> .
+| <47,0> is a <107,0> <28,0> .
+
+48
+type:propername
+words:Tokyo;Tokyo;Tokyo;Tokyo;
+| <48,0> is a <39,0> .
+| <48,0> is a <1,0> <35,0> .
+
+49
+type:propername
+words:Los_Angeles;Los_Angeles;Los_Angeles;Los_Angeles;
+| <49,0> is a <39,0> .
+| <49,0> is a <1,0> <30,0> .
+
+50
+type:propername
+words:Rio_de_Janeiro;Rio_de_Janeiro;Rio_de_Janeiro;Rio_de_Janeiro;
+| <50,0> is a <39,0> .
+| <50,0> is a <1,0> <34,0> .
+
+51
+type:tradj
+words:located_in;
+| If X is <51,0> Y then Y <2,0> X .
+| If something is <51,0> X then X is an <14,0> .
+# If X is <51,0> Y and Y is <51,0> Z then X is <51,0> Z .
+
+52
+type:propername
+words:Berne;Berne;Berne;Berne;
+| <52,0> is a <39,0> that is <51,0> <26,0> .
+
+53
+type:propername
+words:Geneva;Geneva;Geneva;Geneva;
+| <53,0> is a <39,0> .
+| <53,0> is <51,0> <26,0> .
+
+54
+type:propername
+words:Lucerne;Lucerne;Lucerne;Lucerne;
+| <54,0> is <51,0> <16,0> .
+| <54,0> is a <39,0> and is <51,0> <26,0> .
+| Which <23,0> is <51,0> <16,0> ?
+
+55
+type:propername
+words:Buenos_Aires;Buenos_Aires;Buenos_Aires;Buenos_Aires;
+| <55,0> is a <39,0> that is <51,0> <24,0> .
+
+57
+type:noun
+words:sea;seas;
+| Every <57,0> is an <14,0> .
+
+58
+type:noun
+words:landlocked_country;landlocked_countries;
+| What is a <58,0> ?
+
+63
+type:noun
+words:island;islands;
+
+65
+type:trverb
+words:flows_through;flow_through;flown_through by;
+| Everything that <65,0> something is a <76,0> .
+
+70
+type:trverb
+words:manages;manage;managed by;
+
+73
+type:propername
+words:Andorra;Andorra;Andorra;Andorra;
+| <73,0> is a <23,0> that is <51,0> <16,0> .
+| <73,0> is not a <350,0> <349,0> .
+| <511,0> is an <460,0> <73,0> .
+
+75
+type:propername
+words:Spain;Spain;Spain;Spain;
+| <75,0> is a <23,0> .
+| <75,0> is a <350,0> <349,0> .
+| <427,0> is an <460,0> <75,0> .
+
+76
+type:noun
+words:river;rivers;
+| What is a <76,0> ?
+
+77
+type:noun
+words:object;objects;
+| Every <77,0> is an <176,0> .
+
+78
+type:noun
+words:baltic-state;baltic-states;
+| <96,0> is a <78,0> .
+| <97,0> is a <78,0> .
+| <98,0> is a <78,0> .
+| Every <78,0> is an <100,0> .
+| Every <78,0> is a <122,0> .
+# Every <78,0> <4,0> <31,0> .
+# Every <78,0> <526,0> an <63,0> .
+
+79
+type:propername
+words:German;German;German;German;
+c Why is this blank?
+
+80
+type:nounof
+words:national-language of;
+| If X is a <80,0> something then X is a <81,0> .
+
+81
+type:noun
+words:language;languages;
+
+82
+type:propername
+words:French;French;French;French;
+| <82,0> is a <81,0> .
+
+83
+type:propername
+words:Italian;Italian;Italian;Italian;
+| <83,0> is a <81,0> .
+
+86
+type:propername
+words:Lushan;Lushan;Lushan;Lushan;
+| <86,0> is <51,0> <88,0> .
+
+88
+type:propername
+words:JiangXi;JiangXi;JiangXi;JiangXi;
+
+90
+type:propername
+words:the Dalai_Lama;Dalai_Lama;the Dalai_Lama;Dalai_Lama;
+| <90,0> is a <130,0> .
+
+91
+type:propername
+words:Tibet;Tibet;Tibet;Tibet;
+
+92
+type:propername
+words:the Olympic_Games_2008;Olympic_Games_2008;the Olympic_Games_2008;Olympic_Games_2008;
+
+95
+type:propername
+words:Poland;Poland;Poland;Poland;
+| <95,0> is a <23,0> .
+| <95,0> <4,0> <25,0> .
+| <325,0> is a <107,0> <95,0> .
+| <95,0> does not <234,1> <18,0> .
+| <326,0> is a <80,0> <95,0> .
+
+96
+type:propername
+words:Estonia;Estonia;Estonia;Estonia;
+| <372,0> is a <80,0> <96,0> .
+| What is <96,0> ?
+
+97
+type:propername
+words:Latvia;Latvia;Latvia;Latvia;
+
+98
+type:propername
+words:Lithuania;Lithuania;Lithuania;Lithuania;
+
+100
+type:noun
+words:EU-country;EU-countries;
+# Every <100,0> is a <1,0> <16,0> .
+| Every <100,0> is a <23,0> .
+| Which <23,0> is not an <100,0> ?
+# Every <350,0> <349,0> is an <100,0> .
+| What is an <100,0> ?
+
+101
+type:propername
+words:the Danube;Danube;the Danube;Danube;
+| <101,0> <65,0> <102,0> and <65,0> <103,0> and <65,0> <104,0> and <65,0> <105,0> and <65,0> <106,0> .
+| <101,0> <65,0> <25,0> .
+| <101,0> <65,0> which <14,1> ?
+| Which <109,1> are <65,2> <101,0> ?
+| Which <14,0> is <65,2> <101,0> and is not a <109,0> ?
+| <101,0> is a <76,0> .
+| Which <39,0> is <65,2> <101,0> and is <51,0> <37,0> ?
+| <421,0> is a <39,0> that <345,0> <104,0> .
+
+102
+type:propername
+words:Belgrad;Belgrad;Belgrad;Belgrad;
+| <102,0> is a <39,0> .
+
+103
+type:propername
+words:Budapest;Budapest;Budapest;Budapest;
+| <103,0> is a <107,0> <108,0> .
+
+104
+type:propername
+words:Vienna;Vienna;Vienna;Vienna;
+| What <65,0> <104,0> ?
+| <104,0> is a <39,0> .
+| <104,0> is a <107,0> <37,0> .
+# <104,0> <2,0> more than 5 <285,1> .
+
+105
+type:propername
+words:Bratislava;Bratislava;Bratislava;Bratislava;
+| <105,0> is a <39,0> .
+| <105,0> is <180,0> <376,0> .
+
+106
+type:propername
+words:Ulm;Ulm;Ulm;Ulm;
+| <106,0> is a <39,0> .
+| What is <106,0> ?
+| <106,0> is a <1,0> <25,0> .
+
+107
+type:nounof
+words:capital of;
+| Everything that is a <107,0> something is a <109,0> .
+| If X is a <107,0> Y then X is a <1,0> Y .
+# Every <109,0> is a <107,0> at most 1 <23,0> .
+| What is a <109,0> ?
+| Every <109,0> is a <39,0> .
+| If X is <180,0> Y then X is <51,0> Y .
+| If X is a <107,0> Y then X is a <39,0> .
+
+108
+type:propername
+words:Hungary;Hungary;Hungary;Hungary;
+
+109
+type:noun
+words:capital;capitals;
+| If X is a <107,0> Y then X is a <109,0> .
+| No <23,0> is a <109,0> .
+| Every <109,0> is a <39,0> .
+| What is a <109,0> ?
+| What is a <15,0> ?
+| If X is a <107,0> Y then X is <51,0> Y .
+# Every <23,0> <128,0> at least 1 <109,0> .
+# Every <109,0> is a <107,0> exactly 1 <23,0> .
+
+110
+type:noun
+words:city-state;city-states;
+| <111,0> is a <110,0> .
+| <112,0> is a <110,0> .
+| <113,0> is a <110,0> .
+| <115,0> is a <107,0> <32,0> .
+
+111
+type:propername
+words:Singapore;Singapore;Singapore;Singapore;
+
+112
+type:propername
+words:Vatican_City;Vatican_City;Vatican_City;Vatican_City;
+| <112,0> is a <110,0> .
+
+113
+type:propername
+words:Monaco;Monaco;Monaco;Monaco;
+| <113,3> is an <120,0> .
+
+114
+type:propername
+words:the Limmat;Limmat;the Limmat;Limmat;
+| <114,0> is a <76,0> that <65,0> <40,0> .
+
+115
+type:propername
+words:Rome;Rome;Rome;Rome;
+| <115,0> is <180,0> <32,0> .
+
+116
+type:propername
+words:Denmark;Denmark;Denmark;Denmark;
+| <116,0> is a <23,0> .
+| <116,0> is a <1,0> <16,0> .
+| <116,0> <4,0> <25,0> .
+| Which <23,0> <4,0> <116,0> ?
+| What is <51,0> <116,3> ?
+
+117
+type:propername
+words:Greenland;Greenland;Greenland;Greenland;
+| <117,0> is a <1,0> <116,0> .
+| <117,0> <234,0> <16,0> .
+| <117,0> is an <63,0> .
+| <117,0> is a <1,0> <37,0> .
+
+119
+type:propername
+words:Belgium;Belgium;Belgium;Belgium;
+| <119,0> is a <23,0> .
+| <119,0> is a <1,0> <16,0> .
+| <119,0> <4,0> <33,0> .
+| <82,0> is a <80,0> <119,0> .
+| What is a <80,0> <119,0> ?
+| <79,3> is a <80,0> <119,3> .
+| <370,0> is a <80,0> <119,0> .
+| <371,0> is a <23,0> and <371,0> is a <1,0> <119,0> .
+| <119,0> <4,0> <422,0> .
+| <119,3> <4,0> what ?
+
+120
+type:noun
+words:alpine_country;alpine_countries;
+c The term Alpine states or Alpine countries refers to the countries associated with the region of Alps. As defined by the Alpine Convention of 1991, the region of the Alps comprise the territory of 8 countries.
+| Every <23,0> that is <530,0> <531,0> is an <120,0> .
+| Every <120,0> is a <23,0> .
+| What is an <120,0> ?
+| <32,0> is an <120,0> .
+| <37,0> is an <120,0> .
+| <26,0> is an <120,0> .
+
+122
+type:noun
+words:NATO-country;NATO-countries;
+| What is a <122,0> and is an <100,0> ?
+| What is a <122,0> ?
+
+124
+type:propername
+words:the Sihl;Sihl;the Sihl;Sihl;
+| <124,0> is a <76,0> that <65,0> <40,0> .
+
+126
+type:propername
+words:Bonn;Bonn;Bonn;Bonn;
+| <126,0> is not a <107,0> <25,0> .
+| <126,0> is a <39,0> .
+
+128
+type:trverb
+words:has;have;had by;
+
+130
+type:noun
+words:person;persons;
+# Every <130,0> <306,0> a <81,0> .
+| <189,0> is a <130,0> .
+| Who is a <130,0> ?
+
+131
+type:propername
+words:Barack_Obama;Barack_Obama;Barack_Obama;Barack_Obama;
+| <131,0> is a <130,0> .
+| <131,0> is a <278,0> .
+| <131,0> is a <279,0> <30,0> .
+
+132
+type:propername
+words:Chicago;Chicago;Chicago;Chicago;
+| <132,0> is a <39,0> .
+| <132,0> is <51,0> <394,0> .
+
+134
+type:propername
+words:Bob_Dylan;Bob_Dylan;Bob_Dylan;Bob_Dylan;
+
+136
+type:propername
+words:New_Zealand;New_Zealand;New_Zealand;New_Zealand;
+| <136,0> is a <23,0> .
+
+137
+type:propername
+words:English;English;English;English;
+| <137,0> is a <81,0> .
+
+138
+type:noun
+words:island-country;island-countries;
+
+140
+type:propername
+words:Dresden;Dresden;Dresden;Dresden;
+| <140,0> is a <39,0> .
+
+141
+type:propername
+words:Saxony;Saxony;Saxony;Saxony;
+| <141,0> is <51,0> <25,0> .
+
+142
+type:propername
+words:Fortaleza;Fortaleza;Fortaleza;Fortaleza;
+| <142,0> is a <39,0> .
+
+143
+type:propername
+words:the Comany;Comany;the Comany;Comany;
+
+145
+type:propername
+words:Buea;Buea;Buea;Buea;
+
+150
+type:propername
+words:Pestovo;Pestovo;Pestovo;Pestovo;
+| <150,0> is <51,0> <31,0> .
+
+151
+type:propername
+words:Mexico;Mexico;Mexico;Mexico;
+| <151,0> is <51,0> <21,0> .
+| <151,0> is a <23,0> .
+
+153
+type:propername
+words:Angela_Merkel;Angela_Merkel;Angela_Merkel;Angela_Merkel;
+| <153,0> is a <130,0> .
+| <153,0> <386,0> <387,0> .
+| <153,0> <275,0> <25,0> .
+
+155
+type:propername
+words:Norfolk;Norfolk;Norfolk;Norfolk;
+| <155,0> is <51,0> <30,0> .
+| <155,0> is <51,0> <36,0> .
+
+159
+type:propername
+words:Croatia;Croatia;Croatia;Croatia;
+| <159,0> is a <23,0> .
+| <159,2> is <51,0> <16,0> .
+
+160
+type:propername
+words:Norway;Norway;Norway;Norway;
+| <160,0> is a <23,0> .
+| <161,0> is a <107,0> <160,0> .
+| <160,0> is a <1,0> <16,0> .
+| <160,0> <4,0> <31,0> .
+| <160,0> <4,0> <162,0> .
+| <160,0> <4,0> <163,0> .
+| What is <161,0> ?
+
+161
+type:propername
+words:Oslo;Oslo;Oslo;Oslo;
+| <161,0> is <51,0> <160,0> .
+| <160,0> is <51,0> <16,0> .
+| <161,0> is <180,0> <160,0> .
+| Which <176,0> is <51,0> <160,0> ?
+| <160,0> is <51,0> which <15,0> ?
+
+162
+type:propername
+words:Sweden;Sweden;Sweden;Sweden;
+| <181,0> is <180,0> <162,0> .
+| What is <51,0> <162,0> ?
+| What is <180,0> <162,0> ?
+| <162,0> is a <23,0> .
+| What is <162,0> ?
+| Which <23,1> <4,1> <162,0> ?
+| <116,0> <4,0> <162,0> .
+
+163
+type:propername
+words:Finland;Finland;Finland;Finland;
+| <163,0> is a <23,0> .
+| <163,0> is <51,0> <16,0> .
+| <163,0> <4,0> <160,0> .
+| <163,0> <4,0> <31,0> .
+| <163,0> <4,0> <162,0> .
+| <163,0> <4,0> <223,0> .
+| <217,0> is a <107,0> <163,0> .
+| <222,0> is a <229,0> <163,0> .
+| <238,0> is a <229,0> <163,0> .
+| <239,0> is a <229,0> <163,0> .
+| <240,0> is a <229,0> <163,0> .
+| <241,0> is a <229,0> <163,0> .
+| <242,0> is a <229,0> <163,0> .
+| What <4,0> <163,0> ?
+| Which <23,1> <4,1> <163,0> ?
+| Which <23,0> is <51,0> <16,0> ?
+
+164
+type:noun
+words:celestial-body;celestial-bodies;
+
+165
+type:noun
+words:dwarf-planet;dwarf-planets;
+| Every <165,0> is a <164,0> .
+
+166
+type:noun
+words:moon;moons;
+| Every <166,0> is a <164,0> .
+# Every <166,0> <167,0> exactly 1 <5,0> .
+
+167
+type:trverb
+words:orbits;orbit;orbited by;
+
+168
+type:noun
+words:star;stars;
+c A star is a massive, luminous sphere of plasma held together by gravity. At the end of its lifetime, a star can also contain a proportion of degenerate matter. The nearest star to Earth is the Sun, which is the source of most of the energy on Earth. Other stars are visible from Earth during the night, when they are not obscured by atmospheric phenomena, appearing as a multitude of fixed luminous points because of their immense distance. Historically, the most prominent stars on the celestial sphere were grouped together into constellations and asterisms, and the brightest stars gained proper names. Extensive catalogues of stars have been assembled by astronomers, which provide standardized star designations.~n(Wikipedia, http://en.wikipedia.org/wiki/Star )
+| Every <168,0> is a <164,0> .
+| <169,0> is a <168,0> .
+
+169
+type:propername
+words:the Sun;Sun;the Sun;Sun;
+| <169,0> is a <168,0> .
+
+170
+type:noun
+words:terrestrial_planet;terrestrial_planets;
+| Every <170,0> is a <5,0> .
+| What is a <170,0> ?
+
+171
+type:noun
+words:gas_giant;gas_giants;
+| Every <171,0> is a <5,0> .
+
+172
+type:noun
+words:extrasolar_planet;extrasolar_planets;
+
+174
+type:tradj
+words:larger_than;
+
+176
+type:noun
+words:entity;entities;
+c This is a comment about "entity".
+
+177
+type:propername
+words:Montreal;Montreal;Montreal;Montreal;
+| <177,0> is a <39,0> that is <51,0> <204,0> and that is <51,0> <178,0> .
+
+178
+type:propername
+words:Canada;Canada;Canada;Canada;
+| <178,0> is a <23,0> that is <51,0> <21,0> .
+| Which <39,1> are <51,0> <178,0> ?
+# <178,0> <128,0> exactly 2 <182,1> .
+| What is <180,0> <178,0> ?
+| Which <194,1> are <51,0> <178,0> ?
+| Which <23,0> <2,0> <195,0> ?
+| <82,0> is <380,0> <178,0> .
+| What is <380,0> <178,0> ?
+
+180
+type:tradj
+words:the_capital_of;
+| <45,0> is <180,0> <33,0> .
+| What is <180,0> a <23,0> ?
+| What is a <107,0> <25,0> ?
+| What is a <109,0> that <234,0> <25,0> ?
+| What is a <107,0> a <194,0> that <234,0> <25,0> ?
+
+181
+type:propername
+words:Stockholm;Stockholm;Stockholm;Stockholm;
+| <181,0> is <180,0> <162,0> .
+
+182
+type:noun
+words:official_language;official_languages;
+| Every <182,0> is a <81,0> .
+
+183
+type:propername
+words:Ottawa;Ottawa;Ottawa;Ottawa;
+| <183,0> is a <39,0> that is <51,0> <193,0> and that is <51,0> <178,0> .
+| Who is <191,0> <183,0> ?
+| <183,0> is <180,0> <178,0> .
+# Every <77,0> <234,0> <272,3> .
+
+186
+type:nounof
+words:governor of;
+
+189
+type:propername
+words:Larry_OBrien;Larry_OBrien;Larry_OBrien;Larry_OBrien;
+| <189,0> is <191,0> <183,0> .
+| What is <189,0> ?
+| <189,0> <306,0> <137,0> .
+
+190
+type:trverb
+words:governs;govern;governed by;
+| Who <190,0> a <23,0> ?
+| Who <190,0> an <100,0> ?
+
+191
+type:tradj
+words:the_mayor_of;
+
+192
+type:propername
+words:Toronto;Toronto;Toronto;Toronto;
+| <192,0> is a <39,0> that is <51,0> <193,0> and that is <51,0> <178,0> .
+
+193
+type:propername
+words:Ontario;Ontario;Ontario;Ontario;
+| <193,0> is a <194,0> that is <51,0> <178,0> .
+
+194
+type:noun
+words:province;provinces;
+
+195
+type:propername
+words:British_Columbia;British_Columbia;British_Columbia;British_Columbia;
+| Which <39,1> are <51,0> <195,0> ?
+| <195,0> is a <194,0> that is <51,0> <178,0> .
+
+196
+type:propername
+words:Vancouver;Vancouver;Vancouver;Vancouver;
+| <196,0> is a <39,0> that is <51,0> <195,0> and that is <51,0> <178,0> .
+
+197
+type:propername
+words:Alberta;Alberta;Alberta;Alberta;
+| <197,0> is a <194,0> that is <51,0> <178,0> .
+
+199
+type:noun
+words:canadian_province;canadian_provinces;
+| <197,0> is a <199,0> .
+| <195,0> is a <199,0> .
+| <200,0> is a <199,0> .
+| <193,0> is a <199,0> .
+
+200
+type:propername
+words:Manitoba;Manitoba;Manitoba;Manitoba;
+| Which <39,1> are <51,0> <200,0> ?
+
+201
+type:propername
+words:Winnepeg;Winnepeg;Winnepeg;Winnepeg;
+| <201,0> is a <39,0> that is <51,0> <200,0> .
+| Which <23,0> <2,0> <200,0> ?
+| Which <23,0> <2,0> <201,0> ?
+
+203
+type:propername
+words:Guelph;Guelph;Guelph;Guelph;
+| <203,0> is a <39,0> that is <51,0> <193,0> .
+
+204
+type:propername
+words:Quebec;Quebec;Quebec;Quebec;
+| <204,0> is a <194,0> that is <51,0> <178,0> .
+
+205
+type:propername
+words:Washington-DC;Washington-DC;Washington-DC;Washington-DC;
+| <205,0> is a <39,0> .
+
+206
+type:propername
+words:Schaffhausen;Schaffhausen;Schaffhausen;Schaffhausen;
+| <206,0> is a <207,0> that is <51,0> <26,0> .
+| Which <209,1> are <51,0> <206,0> ?
+
+207
+type:noun
+words:canton;cantons;
+
+208
+type:propername
+words:Winterthur;Winterthur;Winterthur;Winterthur;
+| <208,0> is a <39,0> .
+
+209
+type:noun
+words:town;towns;
+
+210
+type:propername
+words:Stein_am_Rhein;Stein_am_Rhein;Stein_am_Rhein;Stein_am_Rhein;
+| <210,0> is a <209,0> that is <51,0> <206,0> .
+
+215
+type:propername
+words:Shanghai;Shanghai;Shanghai;Shanghai;
+
+216
+type:propername
+words:Qingdao;Qingdao;Qingdao;Qingdao;
+# <216,0> <234,0> <197,0> and <2,0> at least 3 <39,1> .
+
+217
+type:propername
+words:Helsinki;Helsinki;Helsinki;Helsinki;
+| <217,0> is a <107,0> <163,0> .
+| <217,0> is a <39,0> .
+
+220
+type:propername
+words:Finnish;Finnish;Finnish;Finnish;
+
+222
+type:propername
+words:Aland;Aland;Aland;Aland;
+| <222,0> is an <224,0> .
+| <222,0> is <51,0> <223,0> .
+| <222,0> is a <229,0> <163,0> .
+| <230,0> is an <63,0> .
+
+223
+type:propername
+words:the Baltic_Sea;Baltic_Sea;the Baltic_Sea;Baltic_Sea;
+
+224
+type:noun
+words:archipelago;archipelagoes;
+
+228
+type:propername
+words:Mariehamn;Mariehamn;Mariehamn;Mariehamn;
+| <228,0> is <180,0> <222,0> .
+
+229
+type:nounof
+words:province of;
+
+230
+type:propername
+words:Fasta_Aland;Fasta_Aland;Fasta_Aland;Fasta_Aland;
+| <230,0> is an <63,0> .
+| <230,0> <234,0> <222,0> .
+
+231
+type:propername
+words:Gulf_of_Bothnia;Gulf_of_Bothnia;Gulf_of_Bothnia;Gulf_of_Bothnia;
+| <231,0> is a <57,0> .
+
+234
+type:trverb
+words:belongs_to;belong_to;;
+| If X <2,0> Y then X <234,0> Y .
+
+238
+type:propername
+words:Southern_Finland;Southern_Finland;Southern_Finland;Southern_Finland;
+
+239
+type:propername
+words:Western_Finland;Western_Finland;Western_Finland;Western_Finland;
+
+240
+type:propername
+words:Eastern_Finland;Eastern_Finland;Eastern_Finland;Eastern_Finland;
+
+241
+type:propername
+words:Oulu;Oulu;Oulu;Oulu;
+
+242
+type:propername
+words:Lapland;Lapland;Lapland;Lapland;
+
+244
+type:propername
+words:Iceland;Iceland;Iceland;Iceland;
+| <244,0> is <51,0> <16,0> .
+| <244,0> is a <23,0> .
+| <244,0> is a <1,0> <16,0> .
+| <244,0> is an <138,0> .
+
+245
+type:propername
+words:Reykjavik;Reykjavik;Reykjavik;Reykjavik;
+| <245,0> is a <39,0> .
+| <245,0> is <180,0> <244,0> .
+
+249
+type:propername
+words:Ghana;Ghana;Ghana;Ghana;
+| <249,0> is a <23,0> .
+
+250
+type:propername
+words:Duisburg;Duisburg;Duisburg;Duisburg;
+
+253
+type:propername
+words:Venice;Venice;Venice;Venice;
+c Venice is a city in northern Italy, the capital of the region Veneto, a population of 271,251 (census estimate January 1, 2004). Together with Padua, the city is included in the Padua-Venice Metropolitan Area (population 1,600,000). The city historically was an independent nation. Venice has been known as the "La Dominante", "Serenissima", "Queen of the Adriatic", "City of Water", "City of Bridges", and "The City of Light". It is often cited as one of the most beautiful cities in the world.
+| <253,0> is a <39,0> .
+| <253,0> is <51,0> <32,0> .
+
+256
+type:propername
+words:Ferrara;Ferrara;Ferrara;Ferrara;
+| <256,0> is a <1,0> <32,0> .
+| <256,0> is a <39,0> .
+
+257
+type:propername
+words:Triest;Triest;Triest;Triest;
+| <257,0> is <51,0> <32,0> .
+| <257,0> is a <39,0> .
+
+258
+type:propername
+words:Bavaria;Bavaria;Bavaria;Bavaria;
+| <258,0> <234,0> <25,0> .
+| <258,0> is a <229,0> <25,0> .
+
+265
+type:propername
+words:Hong_Kong;Hong_Kong;Hong_Kong;Hong_Kong;
+
+269
+type:propername
+words:the solar_system;solar_system;the solar_system;solar_system;
+
+270
+type:propername
+words:Hannover;Hannover;Hannover;Hannover;
+| <270,0> is a <39,0> .
+| <271,0> <2,0> <270,0> .
+| <270,0> is <180,0> <271,0> that <234,0> <25,0> .
+
+271
+type:propername
+words:Lower-Saxony;Lower-Saxony;Lower-Saxony;Lower-Saxony;
+| <270,0> is a <39,0> .
+| <271,0> is a <229,0> <25,0> .
+
+272
+type:propername
+words:Indonesia;Indonesia;Indonesia;Indonesia;
+| <272,3> does not <4,1> a <23,0> that is a <1,0> <16,3> .
+| <273,0> is <180,0> <272,0> .
+| It is false that <272,0> <345,0> <20,0> .
+# Everybody <340,0> <131,0> .
+| Which <23,0> is <51,0> <17,0> ?
+| <272,0> is a <23,0> .
+| <272,0> is <51,0> <17,0> .
+# <272,0> <128,0> more than 99 <63,1> .
+| Which <39,1> are <51,0> <272,0> ?
+| Which <63,0> is <51,0> <272,0> ?
+| What is <180,0> <272,0> ?
+
+273
+type:propername
+words:Jakarta;Jakarta;Jakarta;Jakarta;
+| <273,0> is a <39,0> .
+| <273,0> is <180,0> <272,0> .
+| <273,0> is <51,0> <466,0> .
+| <273,0> is not a <23,0> .
+
+274
+type:tradj
+words:smaller_than;
+| If X is <174,0> Y then Y is <274,0> X .
+| If X is <274,0> Y then Y is <174,0> X .
+
+275
+type:trverb
+words:inhabits;inhabit;inhabited by;
+
+276
+type:propername
+words:Moscow;Moscow;Moscow;Moscow;
+| <276,0> is a <107,0> <31,0> .
+| <276,0> is a <39,0> .
+
+277
+type:propername
+words:Ukraine;Ukraine;Ukraine;Ukraine;
+| <277,0> is a <23,0> .
+| What <4,0> <277,0> ?
+| <406,0> is <180,0> <277,0> .
+
+278
+type:noun
+words:president;presidents;
+
+279
+type:nounof
+words:president of;
+# Every <278,0> is a <279,0> at most 1 <23,0> .
+
+280
+type:propername
+words:the United_Nations;United_Nations;the UN;UN;
+# <280,0> is something .
+| Who is a <350,0> <280,0> ?
+
+282
+type:propername
+words:Poznan;Poznan;Poznan;Poznan;
+c is a city in west-central Poland with over 567,882 inhabitants (2006). Located on the Warta River, it is one of the oldest cities in Poland, making it an important historical centre and a vibrant centre of trade, industry, and education. Pozna? is Poland's fifth largest city and fourth biggest industrial centre. It is also the administrative capital of the Greater Poland Voivodeship.
+| <282,0> <234,0> <95,0> .
+
+284
+type:propername
+words:Portugal;Portugal;Portugal;Portugal;
+| <284,0> is a <23,0> .
+| <284,0> <4,0> <75,0> .
+| <284,0> is a <1,0> <16,0> .
+
+285
+type:noun
+words:university;universities;
+| What is a <285,0> ?
+
+286
+type:propername
+words:the University_of_Zurich;University_of_Zurich;the University_of_Zurich;University_of_Zurich;
+| <286,0> is a <285,0> that is <51,0> <40,0> .
+
+287
+type:propername
+words:the ETH_Zurich;ETH_Zurich;the ETH_Zurich;ETH_Zurich;
+| <287,0> is a <285,0> and is <51,0> <40,0> .
+| What is <287,0> ?
+| It is false that <287,0> is a <39,0> .
+
+288
+type:propername
+words:Lausanne;Lausanne;Lausanne;Lausanne;
+| <288,0> is a <39,0> that is <51,0> <26,0> .
+# <288,0> <2,0> exactly 2 <285,1> .
+
+289
+type:propername
+words:Prague;Prague;Prague;Prague;
+| <289,0> is a <39,0> that is <51,0> <290,0> .
+# <289,0> <2,0> at least 2 <285,1> .
+| <289,0> is <180,0> <290,0> .
+
+290
+type:propername
+words:the Czech_Republic;Czech_Republic;the Czech_Republic;Czech_Republic;
+| <290,0> is a <58,0> .
+| What is <180,0> <290,0> ?
+| <290,0> <4,0> <376,0> .
+| Which <23,0> <4,0> <290,0> ?
+| <290,0> is <51,0> <16,0> .
+c ?esk republika je v?znamn? stt st?edn Evropy. M p?es 10 milion? obyvatel.
+# <290,0> <128,0> at least 10 <76,1> .
+| Which <76,0> is <51,0> <290,0> ?
+| <290,0> <4,0> <37,0> .
+| <290,0> <4,0> <25,0> and <4,0> <95,0> .
+# <290,0> <4,0> exactly 4 <23,1> .
+
+291
+type:propername
+words:Guiana;Guiana;Guiana;Guiana;
+| <291,0> is a <23,0> .
+| <292,0> is a <279,0> <291,0> .
+| <294,0> is <180,0> <291,0> .
+| What is <180,0> <291,0> ?
+| <291,0> is a <1,0> <21,0> .
+
+292
+type:propername
+words:Barat_Gadgeo;Barat_Gadgeo;Barat_Gadgeo;Barat_Gadgeo;
+
+294
+type:propername
+words:Georgetown;Georgetown;Georgetown;Georgetown;
+| <294,0> is a <39,0> .
+| <294,0> is a <109,0> .
+
+298
+type:propername
+words:Greece;Greece;Greece;Greece;
+| <298,0> <234,0> <16,0> .
+| <298,0> is a <23,0> .
+| <299,0> is a <279,0> <298,0> .
+| Which <23,0> <234,0> <16,0> ?
+| What is <298,0> ?
+| Which <23,1> are <2,2> <16,0> ?
+
+299
+type:propername
+words:Karolos_Papoulias;Karolos_Papoulias;Karolos_Papoulias;Karolos_Papoulias;
+
+306
+type:trverb
+words:speaks;speak;spoke by;
+
+307
+type:propername
+words:Kyrgyzstan;Kyrgyzstan;Kyrgyzstan;Kyrgyzstan;
+| <307,0> is <51,0> <17,0> .
+| <307,0> <4,0> <308,0> .
+| <307,0> <4,0> <309,0> .
+| <307,0> <4,0> <310,0> .
+| <307,0> <4,0> <28,0> .
+| <307,0> <2,0> <312,0> .
+| <307,0> <2,0> <313,0> .
+| <307,0> <2,0> <314,0> .
+| <307,0> <2,0> <315,0> .
+| <307,0> <2,0> <316,0> .
+| <307,0> <2,0> <317,0> .
+| <307,0> <2,0> <318,0> .
+| What <4,0> <307,0> ?
+| What <2,0> <307,0> ?
+| Which <39,0> <234,0> <307,0> ?
+| What is <180,0> <307,0> ?
+| What is <380,0> <307,0> ?
+| <379,0> is <380,0> <307,0> .
+| Which <39,0> is <2,2> <307,0> ?
+| Which <14,0> is <2,2> <307,0> ?
+
+308
+type:propername
+words:Kazakhstan;Kazakhstan;Kazakhstan;Kazakhstan;
+
+309
+type:propername
+words:Uzbekistan;Uzbekistan;Uzbekistan;Uzbekistan;
+
+310
+type:propername
+words:Tajikistan;Tajikistan;Tajikistan;Tajikistan;
+
+311
+type:propername
+words:Bishkek;Bishkek;Bishkek;Bishkek;
+| <311,0> is <180,0> <307,0> .
+| <311,0> is a <39,0> .
+| <311,0> <234,0> <307,0> .
+
+312
+type:propername
+words:Batken_Province;Batken_Province;Batken_Province;Batken_Province;
+| <312,0> <2,0> <319,0> .
+
+313
+type:propername
+words:Chuy_Province;Chuy_Province;Chuy_Province;Chuy_Province;
+
+314
+type:propername
+words:Jalal-Abad_Province;Jalal-Abad_Province;Jalal-Abad_Province;Jalal-Abad_Province;
+
+315
+type:propername
+words:Naryn_Province;Naryn_Province;Naryn_Province;Naryn_Province;
+
+316
+type:propername
+words:Osh_Province;Osh_Province;Osh_Province;Osh_Province;
+
+317
+type:propername
+words:Talas_Province;Talas_Province;Talas_Province;Talas_Province;
+
+318
+type:propername
+words:Issyk_Kul_Province;Issyk_Kul_Province;Issyk_Kul_Province;Issyk_Kul_Province;
+
+319
+type:propername
+words:Batken;Batken;Batken;Batken;
+| <319,0> is a <39,0> .
+| <319,0> <234,0> <307,0> .
+
+320
+type:propername
+words:Jalal-Abad;Jalal-Abad;Jalal-Abad;Jalal-Abad;
+| <320,0> is a <39,0> .
+| <320,0> <234,0> <307,0> .
+
+321
+type:propername
+words:Naryn;Naryn;Naryn;Naryn;
+| <321,0> is a <39,0> .
+| <321,0> <234,0> <307,0> .
+
+322
+type:propername
+words:Osh;Osh;Osh;Osh;
+| <322,0> is a <39,0> .
+| <322,0> <234,0> <316,0> .
+| <322,0> <234,0> <307,0> .
+
+323
+type:propername
+words:Talas;Talas;Talas;Talas;
+| <323,0> is a <39,0> .
+| <323,0> <234,0> <317,0> .
+| <323,0> <234,0> <307,0> .
+
+324
+type:propername
+words:Karakol;Karakol;Karakol;Karakol;
+| <324,0> is a <39,0> .
+| <324,0> <234,0> <318,0> .
+| <324,0> <234,0> <307,0> .
+
+325
+type:propername
+words:Warsaw;Warsaw;Warsaw;Warsaw;
+
+326
+type:propername
+words:Polish;Polish;Polish;Polish;
+| <326,0> is <378,0> <95,0> .
+
+329
+type:propername
+words:Pluto;Pluto;Pluto;Pluto;
+| <329,0> <167,0> <169,0> .
+| <329,0> is a <165,0> .
+
+330
+type:propername
+words:Eugene;Eugene;Eugene;Eugene;
+| <330,0> is <51,0> <331,0> .
+
+331
+type:propername
+words:Oregon;Oregon;Oregon;Oregon;
+| What is <51,0> <331,0> ?
+
+332
+type:noun
+words:state;states;
+
+333
+type:tradj
+words:sold_to;
+
+335
+type:propername
+words:Timbuktu;Timbuktu;Timbuktu;Timbuktu;
+| <335,0> is <51,0> <18,0> .
+# <335,0> <2,0> at least 100 <130,1> .
+
+336
+type:propername
+words:Dachau;Dachau;Dachau;Dachau;
+| <336,0> is <180,0> <338,0> .
+# <336,0> <128,0> a <339,0> .
+| <336,0> is <340,2> <341,0> .
+| <336,0> is <51,0> <25,0> .
+| <336,0> <345,0> <337,0> .
+| <336,0> is <174,0> <337,0> .
+| <336,0> <234,0> <258,0> .
+| <336,0> is a <39,0> .
+| <336,0> <345,0> <393,0> .
+| Which <39,0> <345,0> <336,0> ?
+c Munich is marked as 'a capital' which implies Munich 'is a city'.~nDachau is 'in the near' of Munich, which would imply that Munich is also 'in the near of' Dachau - but this rule seems not to be available [yet] 
+c Every X which is in the near of Y implies that Y is in the near of X .~n--> unclear how to express this~n~nTobias Kuhn: see the statement below!
+| If X <345,0> Y then Y <345,0> X .
+
+337
+type:propername
+words:Erding;Erding;Erding;Erding;
+| <337,0> is <51,0> <258,0> .
+| <337,0> <345,0> <336,0> .
+| What is a <39,0> that is <51,0> <25,0> ?
+| What is <51,0> <25,0> ?
+| <337,0> is <274,0> <348,0> .
+| <337,0> is <274,0> <393,0> .
+| <337,0> is not <274,0> <287,0> .
+| <337,0> is a <39,0> that <234,0> <25,0> .
+| Which <39,0> is <174,0> <337,0> ?
+| Which <39,0> <345,0> <337,0> ?
+
+338
+type:propername
+words:the Landkreis_Dachau;Landkreis_Dachau;the Landkreis_Dachau;Landkreis_Dachau;
+
+339
+type:noun
+words:historic_section_of_town;historic_sections_of_towns;
+
+340
+type:trverb
+words:knows;know;known by;
+
+341
+type:propername
+words:the Konzentrationslager;Konzentrationslager;the Konzentrationslager;Konzentrationslager;
+
+343
+type:trverb
+words:builds;build;built by;
+
+344
+type:propername
+words:Aschaffenburg;Aschaffenburg;Aschaffenburg;Aschaffenburg;
+| <344,0> is <190,2> <25,0> .
+
+345
+type:trverb
+words:is_in_the_near_of;be_in_the_near_of;;
+
+347
+type:propername
+words:Essen;Essen;Essen;Essen;
+| <347,0> <345,0> <250,0> .
+| <347,0> is a <39,0> .
+# <347,0> <2,0> at least 1 <76,0> .
+| <347,0> is <51,0> <25,0> .
+# X is <51,0> <25,0> .
+
+348
+type:propername
+words:Duesseldorf;Duesseldorf;Duesseldorf;Duesseldorf;
+| <348,0> is <51,0> <25,0> .
+| <348,0> is a <39,0> .
+| What is a <39,0> and <234,0> <25,0> ?
+| <348,0> <234,0> <25,0> .
+| What is a <39,0> and is <51,0> <25,0> ?
+
+349
+type:propername
+words:the European_Union;European_Union;the EU;EU;
+| Which <23,1> are a <350,0> <349,0> ?
+| Which <23,0> that is a <1,0> <16,0> is not a <350,0> <349,0> ?
+| Which <81,1> are an <460,0> a <23,0> that is a <350,0> <349,0> ?
+# Every <100,0> is a <350,0> <349,0> .
+
+350
+type:nounof
+words:member of;
+
+351
+type:propername
+words:Indonesian;Indonesian;Indonesian;Indonesian;
+| <351,0> is <380,0> <272,0> .
+
+358
+type:nounof
+words:descendent of;
+
+359
+type:propername
+words:Gordon_Brown;Gordon_Brown;Gordon_Brown;Gordon_Brown;
+| <359,0> is a <130,0> .
+
+362
+type:propername
+words:Israel;Israel;Israel;Israel;
+| <362,0> <4,0> <363,0> .
+| <362,0> <234,0> <280,0> .
+
+363
+type:propername
+words:Egypt;Egypt;Egypt;Egypt;
+| <363,0> is a <23,0> .
+
+364
+type:propername
+words:Maine;Maine;Maine;Maine;
+| <30,0> <2,0> <364,0> .
+| <364,0> is <51,0> <30,0> .
+| <364,0> is <274,0> <43,0> and <365,0> is <174,0> <364,0> .
+| <364,0> is a <332,0> .
+| Which <332,1> are <174,0> <364,0> ?
+
+365
+type:propername
+words:Florida;Florida;Florida;Florida;
+| <365,0> is <274,0> <366,0> .
+| <365,0> is a <332,0> .
+
+366
+type:propername
+words:California;California;California;California;
+| <366,0> is a <332,0> .
+
+368
+type:propername
+words:Catalonia;Catalonia;Catalonia;Catalonia;
+
+369
+type:propername
+words:Ohio;Ohio;Ohio;Ohio;
+| <369,0> is a <332,0> .
+| <369,0> is <51,0> <30,0> .
+
+370
+type:propername
+words:Dutch;Dutch;Dutch;Dutch;
+
+371
+type:propername
+words:Flanders;Flanders;Flanders;Flanders;
+
+372
+type:propername
+words:Estonian;Estonian;Estonian;Estonian;
+
+375
+type:propername
+words:Manuel;Manuel;Manuel;Manuel;
+
+376
+type:propername
+words:Slovakia;Slovakia;Slovakia;Slovakia;
+| <376,0> is a <23,0> .
+| <376,0> is a <350,0> <349,2> .
+| <376,0> <4,0> <95,0> .
+| <376,0> <4,0> <277,0> .
+| <376,0> <4,0> <108,0> .
+| Which <23,0> <4,0> <376,0> ?
+# Exactly 5 <23,1> <4,1> <376,0> .
+| <376,0> is <274,0> <363,0> .
+| <376,0> <4,0> <290,0> .
+| Which <23,0> is <274,0> <363,0> ?
+| <363,0> is <174,0> <376,0> .
+| Which <23,0> is <174,0> <376,0> ?
+| <376,0> <4,0> <37,0> .
+
+378
+type:tradj
+words:the_language_of;
+
+379
+type:propername
+words:Turkish;Turkish;Turkish;Turkish;
+
+380
+type:tradj
+words:the_national-language_of;
+| What is <380,0> <116,0> ?
+| What is <380,0> <178,0> ?
+| What is <380,0> a <23,0> that is <51,0> <21,0> ?
+
+381
+type:propername
+words:Herznach;Herznach;Herznach;Herznach;
+| <381,0> is <51,0> <26,0> .
+| <381,0> is a <382,0> .
+
+382
+type:noun
+words:village;villages;
+
+383
+type:propername
+words:the British;British;the British;British;
+
+384
+type:propername
+words:Mercado_comum_do_Sul;Mercado_comum_do_Sul;Mercosul;Mercosul;
+
+386
+type:trverb
+words:leads;lead;led by;
+
+387
+type:propername
+words:the CDU;CDU;the CDU;CDU;
+
+388
+type:propername
+words:Slovenia;Slovenia;Slovenia;Slovenia;
+| <388,0> is a <389,0> <16,0> .
+| <388,3> is an <120,0> .
+
+389
+type:nounof
+words:country of;
+
+390
+type:propername
+words:Macedonia;Macedonia;Macedonia;Macedonia;
+
+391
+type:propername
+words:Ostravice;Ostravice;Ostravice;Ostravice;
+| <391,0> is a <76,0> and is <51,0> <290,0> .
+
+393
+type:propername
+words:Munich;Munich;Munich;Munich;
+| <393,0> is <180,0> <258,0> .
+| Every <109,0> is a <39,0> .
+| <393,0> is a <109,0> .
+
+394
+type:propername
+words:Illinois;Illinois;Illinois;Illinois;
+| <394,0> is an <405,0> .
+| <394,0> <4,0> <395,0> and <4,0> <396,0> and <4,0> <397,0> and <4,0> <398,0> and <4,0> <399,0> .
+| What <4,0> <394,0> and <4,0> <398,0> ?
+| <404,0> is <180,0> <394,0> .
+# <394,0> is not a <23,0> .
+
+395
+type:propername
+words:Wisconsin;Wisconsin;Wisconsin;Wisconsin;
+| <395,0> is an <405,0> .
+
+396
+type:propername
+words:Indiana;Indiana;Indiana;Indiana;
+
+397
+type:propername
+words:Iowa;Iowa;Iowa;Iowa;
+
+398
+type:propername
+words:Missouri;Missouri;Missouri;Missouri;
+| <398,0> is a <332,0> that <234,0> <30,0> .
+| What <4,0> <398,0> ?
+| <398,0> <4,0> <394,2> and <4,0> <397,0> and <4,0> <400,0> and <4,0> <401,0> and <4,0> <403,0> .
+| <402,0> is a <107,0> <398,0> .
+| <398,0> is an <14,0> .
+
+399
+type:propername
+words:Kentucky;Kentucky;Kentucky;Kentucky;
+| <399,0> is an <405,0> .
+
+400
+type:propername
+words:Kansas;Kansas;Kansas;Kansas;
+
+401
+type:propername
+words:Nebraska;Nebraska;Nebraska;Nebraska;
+
+402
+type:propername
+words:Jefferson_City;Jefferson_City;Jefferson_City;Jefferson_City;
+
+403
+type:propername
+words:Tennessee;Tennessee;Tennessee;Tennessee;
+| What is <403,0> ?
+
+404
+type:propername
+words:Springfield;Springfield;Springfield;Springfield;
+
+405
+type:noun
+words:USA_state;USA_states;
+# Every <405,0> is a <1,0> <30,2> .
+| What is an <405,0> ?
+
+406
+type:propername
+words:Kyiv;Kyiv;Kyiv;Kyiv;
+
+407
+type:propername
+words:Katowice;Katowice;Katowice;Katowice;
+| <407,0> <234,0> <95,0> .
+| <407,0> does not <345,1> <282,0> .
+c  Katowice is a city in Silesia in southern Poland, on the K?odnica and Rawa rivers (tributaries of the Oder and the Vistula). Katowice is located in the Silesian Highlands, about 50 km on north from the Silesian Beskids (part of the Carpathian Mountains) and about 100 km on south-east from Sudetes Mountains.~n~nIt is the central district of the Metropolitan Association of Upper Silesia, with a population of 2 million. Katowice is large local center of science, culture, industry, business and transportation. Katowice is the main city in the Upper Silesian Industrial Region, and of the 2,7 million conurbation, the Katowice urban area, within a greater Silesian metropolitan area populated by about 5,294,000 people.[6] The population within the city limits is 308,724.~n~nKatowice has been the capital of Silesian Voivodeship since its formation in 1999. Previously, it was the capital of the Katowice Voivodeship, and before then, of the Autonomous Silesian Voivodeship.
+
+408
+type:propername
+words:Turin;Turin;Turin;Turin;
+| <408,0> is <274,0> <42,0> .
+| <408,0> is a <39,0> .
+| <408,0> is <51,0> <32,0> .
+| <408,0> <70,0> <431,0> .
+
+409
+type:propername
+words:Montreuil;Montreuil;Montreuil;Montreuil;
+| <409,0> <4,0> <410,0> and <410,0> is a <39,0> .
+| <409,0> is a <39,0> .
+
+410
+type:propername
+words:Bagnolet;Bagnolet;Bagnolet;Bagnolet;
+
+411
+type:propername
+words:Beth_Wellington;Beth_Wellington;Beth_Wellington;Beth_Wellington;
+
+412
+type:propername
+words:Ivrea;Ivrea;Ivrea;Ivrea;
+| <412,0> is a <39,0> .
+| <412,0> is <51,0> <32,0> .
+
+414
+type:noun
+words:mountain;mountains;
+c Mountain is terrain object which is higher than its surrounding land.
+
+415
+type:propername
+words:Lysa_hora;Lysa_hora;Lysa_hora;Lysa_hora;
+| <415,0> is a <414,0> .
+
+418
+type:trverb
+words:grows;grow;grown by;
+
+419
+type:trverb
+words:cultivates;cultivate;cultivated by;
+
+421
+type:propername
+words:Krems;Krems;Krems;Krems;
+
+422
+type:propername
+words:the Netherlands;Netherlands;the Netherlands;Netherlands;
+| <422,0> is a <23,0> .
+| <422,0> <234,0> <349,2> .
+| <422,0> is an <100,0> .
+
+423
+type:propername
+words:Britain;Britain;Britain;Britain;
+| <423,0> is a <23,0> .
+| What is a <23,0> ?
+
+424
+type:propername
+words:Serbia;Serbia;Serbia;Serbia;
+| <424,0> is a <23,0> .
+| <424,0> <4,0> <471,0> .
+c I cannot enter sentence like "Serbia borders Macedonia and Hungary."
+# If X <489,0> <468,0> then X <489,0> <424,0> .
+# Everybody that <489,0> <102,3> <489,0> <424,3> .
+
+425
+type:noun
+words:multilingual_country;multilingual_countries;
+# Every <23,0> that <128,0> more than 1 <182,0> is a <425,0> .
+| <497,0> is a <425,0> .
+
+426
+type:propername
+words:Chile;Chile;Chile;Chile;
+| <426,0> is a <23,0> .
+| <427,0> is <380,0> <426,0> .
+# <426,0> is <51,0> <22,0> and <426,0> <4,0> at least 3 <23,1> .
+| <428,0> is a <39,0> and <428,0> is <51,0> <426,0> .
+| <428,0> is <180,0> <426,0> .
+| <429,0> is <51,0> <428,0> .
+| Which <285,1> are <51,0> <8,0> ?
+# <426,0> <4,0> a <57,0> .
+| Which <23,1> <4,1> a <57,0> ?
+| What is <51,0> <426,0> ?
+| <509,0> is <51,0> <428,0> .
+
+427
+type:propername
+words:Spanish;Spanish;Spanish;Spanish;
+| <427,0> is a <81,0> .
+
+428
+type:propername
+words:Santiago;Santiago;Santiago;Santiago;
+| <428,0> is <180,0> <426,0> .
+
+429
+type:propername
+words:the University_of_Chile;University_of_Chile;the University_of_Chile;University_of_Chile;
+| <429,0> is a <285,0> .
+
+430
+type:propername
+words:Luxembourg;Luxembourg;Luxembourg;Luxembourg;
+| <430,0> <4,0> <25,0> .
+| <430,0> is a <23,0> .
+
+431
+type:propername
+words:the Winter_Olympic_Games_2006;Winter_Olympic_Games_2006;the Winter_Olympic_Games_2006;Winter_Olympic_Games_2006;
+| <431,0> <234,0> <35,0> .
+
+434
+type:propername
+words:Russian;Russian;Russian;Russian;
+
+435
+type:propername
+words:Malta;Malta;Malta;Malta;
+| <435,0> is a <23,0> .
+| <435,0> is an <63,0> .
+| <459,0> is an <460,0> <435,0> .
+| <459,0> is a <461,0> .
+| <137,0> is an <460,0> <435,0> .
+| <435,0> is a <350,0> <349,0> .
+
+436
+type:propername
+words:Romania;Romania;Romania;Romania;
+| <436,0> is a <23,0> .
+
+437
+type:propername
+words:Benevento;Benevento;Benevento;Benevento;
+
+439
+type:propername
+words:Zlin;Zlin;Zlin;Zlin;
+
+440
+type:nounof
+words:city of;
+
+443
+type:noun
+words:animal;animals;
+
+446
+type:propername
+words:Peru;Peru;Peru;Peru;
+| <446,0> is a <389,0> <22,0> .
+| <447,0> is a <440,0> <446,0> .
+
+447
+type:propername
+words:Arequipa;Arequipa;Arequipa;Arequipa;
+
+448
+type:propername
+words:Charon;Charon;Charon;Charon;
+| <448,0> <167,0> <329,0> .
+| <448,0> is a <166,0> .
+
+449
+type:propername
+words:the Moon;Moon;the Moon;Moon;
+| <449,0> is a <166,0> .
+| <449,0> <167,0> <8,0> .
+
+450
+type:propername
+words:Phobos;Phobos;Phobos;Phobos;
+| <450,0> <167,0> <9,0> .
+
+452
+type:propername
+words:America_Do_Sul;America_Do_Sul;Sulamerica;Sulamerica;
+
+453
+type:propername
+words:Turkey;Turkey;Turkey;Turkey;
+| <453,0> is a <1,0> <16,0> .
+| <453,0> <4,0> <31,0> .
+| <454,0> is <180,0> <453,0> .
+| <379,0> is a <80,0> <453,0> .
+| <453,0> <4,0> <298,0> .
+| What is <180,0> <453,0> ?
+
+454
+type:propername
+words:Ankara;Ankara;Ankara;Ankara;
+
+455
+type:propername
+words:Aracaju;Aracaju;Aracaju;Aracaju;
+| <455,0> is a <39,0> .
+| <455,0> is a <107,0> <456,0> .
+| <455,0> is a <440,0> <456,0> .
+
+456
+type:propername
+words:Sergipe;Sergipe;Sergipe;Sergipe;
+| <456,0> is a <332,0> .
+| Who is a <107,0> <456,0> ?
+| Who is a <440,0> <456,0> ?
+
+457
+type:propername
+words:Salgado;Salgado;Salgado;Salgado;
+| <457,0> is a <440,0> <456,0> .
+
+459
+type:propername
+words:Maltese;Maltese;Maltese;Maltese;
+
+460
+type:nounof
+words:official_language of;
+| If X is an <460,0> Y then X is a <81,0> .
+
+461
+type:noun
+words:semitic_language;semitic_languages;
+| Every <461,0> is a <81,0> .
+
+462
+type:propername
+words:the University_of_Malta;University_of_Malta;the University_of_Malta;University_of_Malta;
+| <462,0> is a <285,0> .
+| <462,0> is <51,0> <435,0> .
+| Which <285,1> are <51,0> <435,0> ?
+
+464
+type:propername
+words:Bandung;Bandung;Bandung;Bandung;
+| <464,0> is a <39,0> .
+| <464,0> is <51,0> <466,0> .
+
+465
+type:propername
+words:Java_Sea;Java_Sea;Java_Sea;Java_Sea;
+| <465,0> is a <57,0> .
+| <465,0> is <51,0> <272,0> .
+
+466
+type:propername
+words:Java;Java;Java;Java;
+| <466,0> is an <63,0> .
+| Which <39,0> is <51,0> <466,0> ?
+| <466,0> is <51,0> <272,0> .
+
+467
+type:propername
+words:Ciliwung;Ciliwung;Ciliwung;Ciliwung;
+| <467,0> is a <76,0> .
+| <467,0> <65,0> <273,0> .
+
+468
+type:propername
+words:Belgrade;Belgrade;Belgrade;Belgrade;
+| <468,0> is a <39,0> .
+| <468,0> is <180,0> <424,0> .
+c I tried to enter sentence "Belgrade has at least 1 million citizens."
+# <468,0> <128,0> at least 1 <469,0> .
+| Which <39,0> is <180,0> <424,0> ?
+
+469
+type:noun
+words:million;millions;
+
+471
+type:propername
+words:Bulgaria;Bulgaria;Bulgaria;Bulgaria;
+| <471,0> is a <23,0> that is <51,0> <16,0> .
+| <471,0> <4,0> <436,0> .
+| <471,0> <4,0> <424,0> .
+| What <4,0> <471,0> ?
+| <471,0> is a <350,0> <349,2> .
+# A <279,0> <471,0> is somebody who <484,0> <471,0> and who <479,0> an <477,0> .
+c Infinitive clauses cannot be expressed (e.g., "A duty of a president is to...", "A president has an obligation to...").~n~nPassive constructions without an agent are not possible (e.g. "a president is relieved.(from duty)" is not possible, because the only allowed option is "relieved by").~n~nThe reasoner does not recognize the inconsistency between "Bulgaria is a country that is located in Europe" and "Bulgaria is in Africa". When I looked at the details of the two sentences, the fist one has the form "There is country X1. The country X1 is Bulgaria. The country X1 is located_in Europe." The second sentence has the form "Bulgaria is located_in Africa." The inconsistency is probably not detected because of the subordinate clause. In another pair of sentences, which do not employ subordination, the inconsistency is detected ("Georgi Parvanov is a president of a country and the country is Bulgaria." and "Georgi Parvanov is not a president of Bulgaria."). These have the paraphrases "A country X1 is Bulgaria. Georgi Parvanov is a president of the country X1." and "It is false that Georgi Parvanov is a president of Bulgaria."~n~n--Mariya K.
+| Who is a <279,0> <471,0> ?
+
+472
+type:propername
+words:Sofia;Sofia;Sofia;Sofia;
+| <472,0> is <180,0> <471,0> .
+
+473
+type:propername
+words:Democratic_Party;Democratic_Party;Democratic_Party;Democratic_Party;
+| <473,0> is a <474,0> .
+
+474
+type:noun
+words:political_party;political_parties;
+
+476
+type:propername
+words:Swaziland;Swaziland;Swaziland;Swaziland;
+# Everybody that <419,0> <476,0> <234,0> <476,0> .
+
+477
+type:noun
+words:army;armies;
+
+478
+type:propername
+words:the Bulgarian_Socialist_Party;Bulgarian_Socialist_Party;the Bulgarian_Socialist_Party;Bulgarian_Socialist_Party;
+
+479
+type:trverb
+words:commands;command;commanded by;
+
+481
+type:noun
+words:election;elections;
+
+482
+type:nounof
+words:duty of;
+
+483
+type:trverb
+words:represents;represent;represented by;
+
+484
+type:trverb
+words:heads;head;headed by;
+
+486
+type:trverb
+words:commits;commit;committed by;
+
+488
+type:propername
+words:Georgi_Parvanov;Georgi_Parvanov;Georgi_Parvanov;Georgi_Parvanov;
+| <488,0> is a <279,0> a <23,0> and the <23,0> is <471,0> .
+
+489
+type:trverb
+words:lives_in;live_in;lived_in by;
+
+490
+type:propername
+words:Pakistan;Pakistan;Pakistan;Pakistan;
+| <490,0> is a <23,0> and is <51,0> <491,0> .
+| <494,0> is <180,0> <490,0> .
+| <490,0> <4,0> <495,0> .
+| <490,0> <4,0> <496,0> .
+| <490,0> <4,0> <28,0> .
+| <490,0> <4,0> <497,0> .
+| Which <23,0> <4,0> <490,0> ?
+c Unable to add rules with nested information e.g.~nPakistan borders Something in the West.
+
+491
+type:propername
+words:South_Asia;South_Asia;South_Asia;South_Asia;
+| <491,0> is a <493,0> <17,0> .
+| What is <51,0> <491,0> ?
+| <497,0> is <51,0> <491,0> .
+
+493
+type:nounof
+words:region of;
+| If X is a <493,0> Y then X is <51,0> Y .
+
+494
+type:propername
+words:Islamabad;Islamabad;Islamabad;Islamabad;
+| <494,0> is <180,0> <490,0> .
+
+495
+type:propername
+words:Afghanistan;Afghanistan;Afghanistan;Afghanistan;
+| <495,0> is a <23,0> .
+
+496
+type:propername
+words:Iran;Iran;Iran;Iran;
+| <496,0> is a <23,0> .
+
+497
+type:propername
+words:India;India;India;India;
+| <497,0> is a <23,0> .
+| <497,0> is <51,0> <17,0> .
+| <497,0> is <274,0> <30,0> .
+| <497,0> <4,0> <490,0> and <4,0> <495,0> and <4,0> <28,0> .
+| What <4,0> <497,0> ?
+
+498
+type:propername
+words:Cristian;Cristian;Cristian;Cristian;
+
+504
+type:propername
+words:Hindi;Hindi;Hindi;Hindi;
+| <504,0> is a <81,0> .
+
+505
+type:propername
+words:Sri_Lanka;Sri_Lanka;Sri_Lanka;Sri_Lanka;
+| <505,0> is a <23,0> .
+
+506
+type:propername
+words:Bangladesh;Bangladesh;Bangladesh;Bangladesh;
+| <506,0> is a <23,0> .
+| <506,0> is a <23,0> .
+
+507
+type:noun
+words:Prime_Minister;Prime_Ministers;
+| Every <507,0> is a <130,0> .
+
+508
+type:propername
+words:Stephen_Harper;Stephen_Harper;Stephen_Harper;Stephen_Harper;
+
+509
+type:propername
+words:the Pontifical_Catholic_University_of_Chile;Pontifical_Catholic_University_of_Chile;the Pontifical_Catholic_University_of_Chile;Pontifical_Catholic_University_of_Chile;
+| <509,0> is <51,0> <428,0> .
+
+511
+type:propername
+words:Catalan;Catalan;Catalan;Catalan;
+
+512
+type:noun
+words:enclave;enclaves;
+# No <513,0> that at least 2 <23,1> <4,1> is an <512,0> .
+
+513
+type:noun
+words:territory;territories;
+
+515
+type:propername
+words:Bromley;Bromley;Bromley;Bromley;
+| <515,3> is a <209,0> .
+# <515,3> <128,0> at least 93 <130,1> .
+
+516
+type:noun
+words:duck;ducks;
+# Exactly 2 <518,1> <234,1> a <516,0> .
+
+517
+type:noun
+words:rabbit;rabbits;
+| Every <517,0> is an <443,0> .
+# Exactly 4 <518,1> <234,1> a <517,0> .
+
+518
+type:noun
+words:leg;legs;
+# Every <518,0> <234,0> an <443,0> .
+
+519
+type:noun
+words:farm;farms;
+
+521
+type:propername
+words:Gothenburg;Gothenburg;Gothenburg;Gothenburg;
+| <521,3> is a <39,0> .
+| <521,3> is <51,0> <162,3> .
+
+522
+type:propername
+words:Copenhagen;Copenhagen;Copenhagen;Copenhagen;
+| <522,3> is <180,0> <116,3> .
+
+524
+type:noun
+words:lake;lakes;
+
+525
+type:noun
+words:body-of-water;bodies-of-water;
+
+526
+type:trverb
+words:possesses;possess;possessed by;
+
+527
+type:propername
+words:Brasilia;Brasilia;Brasilia;Brasilia;
+
+528
+type:propername
+words:the hello;hello;the hel;hel;
+
+529
+type:propername
+words:QUESTIONS;QUESTIONS;QUESTIONS;QUESTIONS;
+| Which <23,0> is not <4,2> <272,3> ?
+
+530
+type:tradj
+words:associated_with;
+
+531
+type:propername
+words:the Alps;Alps;the Alps;Alps;
+
+532
+type:propername
+words:Tallinn;Tallinn;Tallinn;Tallinn;
+| <532,3> is <180,0> <96,3> .
+

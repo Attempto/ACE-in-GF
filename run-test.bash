@@ -1,18 +1,23 @@
 #!/bin/bash
 
 # @author Kaarel Kaljurand
-# @version 2011-12-15
+# @version 2012-02-24
 
 prog="Parser"
+testset="tests/ace/sentences.txt"
 pgf="ACE-0_0_2.pgf"
 
 
-if [ $# -ne 1 ]
+if [ $# -eq 2 ]
 then
-	echo "Usage: run_test.sh <testset>"
-	exit
+	testset=$1
+	pgf=$2
+elif [ $# -eq 1 ]
+then
+	testset=$1
 else
-	echo "Testing: $1"
+	echo "Usage: run_test.sh <testset> (<pgf>)"
+	exit
 fi
 
 out="test_out.txt"

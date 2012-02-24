@@ -1,0 +1,840 @@
+if something X is a part of something Y then Y contains X .
+if something X is a part of something Y then Y contains X .
+if X contains Y then X is a part of Y .
+if X is located in Y then Y contains X .
+if X contains something that contains Y then X contains Y .
+if something X overlaps-with something Y then Y overlaps-with X .
+everything that overlaps-with something is an area .
+if X borders Y then Y borders X .
+everything that borders something is an area .
+what borders Norway ?
+France borders Germany .
+which countries border Finland ?
+what borders Montreuil ?
+which country borders a country ?
+every planet is a celestial-body .
+no planet is a star .
+no planet is a dwarf-planet .
+no planet is a moon .
+every planet orbits a star .
+every planet that does not orbit the Sun is an extrasolar planet .
+which planets orbit the Sun ?
+every planet is a terrestrial planet or is a gas giant .
+Mercury is a planet .
+Mercury orbits the Sun .
+Venus is a planet .
+Venus orbits the Sun .
+the Earth orbits the Sun .
+the Earth is a terrestrial planet .
+Mars is a terrestrial planet .
+Mars orbits the Sun .
+Jupiter is a planet .
+Jupiter orbits the Sun .
+Saturn is a planet .
+Saturn orbits the Sun .
+Uranus is a planet .
+Uranus orbits the Sun .
+Neptune is a planet .
+Neptune orbits the Sun .
+every area is an object .
+what is an area ?
+every continent is an area .
+every continent is a part of the Earth .
+there are exactly 7 continents .
+what is a continent ?
+every continent that is not Antarctica contains at least 2 countries .
+every continent borders a sea .
+no continent borders Antarctica .
+no continent borders the Australian Continent .
+Europe is a continent .
+Europe borders Asia .
+Poland is a country .
+which countries border France ?
+Turkey is a country of Europe .
+which countries are contained by Europe ?
+Asia is a continent .
+what is a part of Asia ?
+what is located in Asia ?
+Africa is a continent .
+Africa has exactly 5 archipelagoes .
+the Australian Continent is a continent .
+Antarctica is a continent .
+no country is contained by Antarctica .
+North America is a continent .
+North America borders South America .
+which countries are located in North America ?
+what is located in Canada ?
+South America is a continent .
+every country is an area .
+who governs a country ?
+who is a president of a country ?
+Argentina is a country .
+Argentina is a part of South America .
+which cities are a part of Argentina ?
+Germany is an alpine country .
+Germany borders the Netherlands .
+German is an official language of Germany .
+Germany borders France .
+Germany borders Poland .
+Germany contains Munich which belongs to Bavaria .
+Germany is a country and borders at least 4 countries .
+Germany is a member of the European Union .
+Germany is a part of Europe .
+Germany borders Poland .
+Germany borders Switzerland .
+Germany borders Belgium .
+Germany is larger than Liechtenstein .
+Germany contains Saxony .
+Angela Merkel governs Germany .
+Berlin is the capital of Germany .
+what is the capital of Germany ?
+Bavaria is located in Germany .
+what is Germany ?
+what is smaller than Germany ?
+which country borders Germany and borders France ?
+who governs Germany ?
+which country is located in Europe ?
+which city is contained by Germany ?
+which country borders Germany ?
+Germany belongs to the EU .
+Austria borders Germany .
+what belongs to Germany ?
+Switzerland is an alpine country that is a part of Europe .
+what is Switzerland ?
+Switzerland borders exactly 5 countries .
+Switzerland borders Germany and borders Austria and borders France and borders Italy and borders Liechtenstein .
+Switzerland borders no sea .
+which cities are located in Switzerland ?
+Switzerland is located in Europe .
+Berne is the capital of Switzerland .
+Switzerland is a part of Europe .
+Switzerland is not a member of the European Union .
+what is located in Switzerland ?
+German is a national-language of Switzerland .
+Italian is a national-language of Switzerland .
+which countries border a country that borders Switzerland ?
+Nigeria is a country .
+Nigeria is a part of Africa .
+China is a country .
+China manages the Olympic Games 2008 .
+Tibet is a part of China .
+China is a part of the Earth .
+Beijing is located in China .
+China is larger than the United States of America .
+China is located in Asia and is larger than the United-Kingdom .
+Qingdao is a city .
+Qingdao is located in China .
+Beijing is a city .
+what is located in China ?
+what borders China ?
+Australia is a country .
+Australia is a part of the Australian Continent .
+the United States of America is a country .
+the United States of America is located in North America .
+Washington-DC is the capital of the United States of America .
+the United States of America contains exactly 50 USA states .
+the United States of America is a NATO-country .
+the United States of America borders Canada and borders Mexico .
+what is a country that is located in North America ?
+English is the national-language of the United States of America and is the national-language of Canada .
+Russia is a country .
+Russia overlaps-with Asia .
+Russia overlaps-with Europe .
+what borders Russia ?
+Russia borders Ukraine .
+Russian is an official language .
+Russia is larger than every country .
+Milano is located in Italy .
+Italy is governed by a president .
+what is Rome ?
+every city that is contained by Italy is contained by Europe .
+Benevento is located in Europe .
+what is the capital of Italy ?
+if a city is located in Italy then the city is located in Europe .
+if Benevento is located in Italy then Benevento is located in Europe .
+every city that is located in Italy is located in Europe .
+every city that is located in Italy is contained by Europe .
+every city of Italy is a city of Europe .
+Rome is a city of Italy .
+Italy is located in Europe .
+Italy is a part of Europe .
+Italy borders Switzerland and borders Austria and borders France .
+every city is a part of a country .
+what borders Italy ?
+Milano is a city .
+what is located in Italy ?
+Benevento is a city .
+what is Benevento ?
+Venice is located in Italy .
+Triest is located in Italy .
+Benevento is located in Italy .
+what is located in Europe ?
+Turin is located in Italy .
+Turin is a city .
+Milano is located in Italy .
+Ivrea is a city .
+what is located in Italy ?
+France is an alpine country .
+France is a part of Europe .
+France is a member of the European Union .
+French is an official language of France .
+France borders Italy .
+France borders Switzerland .
+France borders Spain .
+which city is a capital of France ?
+France borders Belgium .
+France borders Andorra .
+what borders France ?
+France does not border Argentina and does not border Australia .
+France borders Monaco .
+France does not border Croatia which borders Slovenia .
+which cities are located in a country that borders France ?
+Brazil is a country .
+Brazil is a part of South America .
+Brazil borders Argentina .
+Brazil belongs to Mercado comum do Sul .
+which city is the capital of Brazil ?
+Japan is a country .
+Japan is a part of Asia .
+Andorra does not belong to Japan .
+Japan is located in Asia .
+the United-Kingdom is a country .
+the United-Kingdom is a part of Europe .
+who governs the United-Kingdom ?
+the United-Kingdom is a member of the United Nations .
+the United-Kingdom is inhabited by the British .
+Austria is a landlocked country .
+what borders Austria ?
+Austria is not larger than Germany .
+Austria is smaller than Germany .
+Liechtenstein is an alpine country .
+Liechtenstein borders no sea .
+Liechtenstein borders Austria .
+every city is an area .
+which cities are the capital of a country that is contained by Europe ?
+which cities belong to Canada ?
+Brasilia is a city and is the capital of Brazil .
+what is a city ?
+Zurich is a city .
+Zurich is located in Switzerland .
+which rivers flow through Zurich ?
+Berlin is a city .
+Berlin is a part of Germany .
+Berlin is a capital of Germany .
+if X is a capital then X is a city .
+Berlin is a part of what ?
+Milano is a city .
+Milano is located in Italy .
+New York is a city .
+New York is a part of the United States of America .
+London is a city .
+London is a part of the United-Kingdom .
+London is the capital of the United-Kingdom .
+London borders Bromley .
+Paris is a city .
+Paris is located in France .
+Paris borders Montreuil .
+Paris is a capital of France .
+Sydney is a city .
+Sydney is a part of Australia .
+Beijing is a city .
+Beijing is a part of China .
+Beijing is a capital of China .
+Tokyo is a city .
+Tokyo is a part of Japan .
+Los Angeles is a city .
+Los Angeles is a part of the United States of America .
+Rio de Janeiro is a city .
+Rio de Janeiro is a part of Brazil .
+if X is located in Y then Y contains X .
+if something is located in X then X is an area .
+if X is located in Y and Y is located in Z then X is located in Z .
+Berne is a city that is located in Switzerland .
+Geneva is a city .
+Geneva is located in Switzerland .
+Lucerne is located in Europe .
+Lucerne is a city and is located in Switzerland .
+which country is located in Europe ?
+Buenos Aires is a city that is located in Argentina .
+every sea is an area .
+what is a landlocked country ?
+everything that flows through something is a river .
+Andorra is a country that is located in Europe .
+Andorra is not a member of the European Union .
+Catalan is an official language of Andorra .
+Spain is a country .
+Spain is a member of the European Union .
+Spanish is an official language of Spain .
+what is a river ?
+every object is an entity .
+Estonia is a baltic-state .
+Latvia is a baltic-state .
+Lithuania is a baltic-state .
+every baltic-state is an EU-country .
+every baltic-state is a NATO-country .
+every baltic-state borders Russia .
+every baltic-state possesses an island .
+if X is a national-language of something then X is a language .
+French is a language .
+Italian is a language .
+Lushan is located in JiangXi .
+the Dalai Lama is a person .
+Poland is a country .
+Poland borders Germany .
+Warsaw is a capital of Poland .
+Poland does not belong to Africa .
+Polish is a national-language of Poland .
+Estonian is a national-language of Estonia .
+what is Estonia ?
+every EU-country is a part of Europe .
+every EU-country is a country .
+which country is not an EU-country ?
+every member of the European Union is an EU-country .
+what is an EU-country ?
+the Danube flows through Belgrad and flows through Budapest and flows through Vienna and flows through Bratislava and flows through Ulm .
+the Danube flows through Germany .
+the Danube flows through which areas ?
+which capitals are flown through by the Danube ?
+which area is flown through by the Danube and is not a capital ?
+the Danube is a river .
+which city is flown through by the Danube and is located in Austria ?
+Krems is a city that is in the near of Vienna .
+Belgrad is a city .
+Budapest is a capital of Hungary .
+what flows through Vienna ?
+Vienna is a city .
+Vienna is a capital of Austria .
+Vienna contains more than 5 universities .
+Bratislava is a city .
+Bratislava is the capital of Slovakia .
+Ulm is a city .
+what is Ulm ?
+Ulm is a part of Germany .
+everything that is a capital of something is a capital .
+if X is a capital of Y then X is a part of Y .
+every capital is a capital of at most 1 country .
+what is a capital ?
+every capital is a city .
+if X is the capital of Y then X is located in Y .
+if X is a capital of Y then X is a city .
+if X is a capital of Y then X is a capital .
+no country is a capital .
+every capital is a city .
+what is a capital ?
+what is a continent ?
+if X is a capital of Y then X is located in Y .
+every country has at least 1 capital .
+every capital is a capital of exactly 1 country .
+Singapore is a city-state .
+Vatican City is a city-state .
+Monaco is a city-state .
+Rome is a capital of Italy .
+Vatican City is a city-state .
+Monaco is an alpine country .
+the Limmat is a river that flows through Zurich .
+Rome is the capital of Italy .
+Denmark is a country .
+Denmark is a part of Europe .
+Denmark borders Germany .
+which country borders Denmark ?
+what is located in Denmark ?
+Greenland is a part of Denmark .
+Greenland belongs to Europe .
+Greenland is an island .
+Greenland is a part of Austria .
+Belgium is a country .
+Belgium is a part of Europe .
+Belgium borders France .
+French is a national-language of Belgium .
+what is a national-language of Belgium ?
+German is a national-language of Belgium .
+Dutch is a national-language of Belgium .
+Flanders is a country and Flanders is a part of Belgium .
+Belgium borders the Netherlands .
+Belgium borders what ?
+every country that is associated with the Alps is an alpine country .
+every alpine country is a country .
+what is an alpine country ?
+Italy is an alpine country .
+Austria is an alpine country .
+Switzerland is an alpine country .
+what is a NATO-country and is an EU-country ?
+what is a NATO-country ?
+the Sihl is a river that flows through Zurich .
+Bonn is not a capital of Germany .
+Bonn is a city .
+every person speaks a language .
+Larry OBrien is a person .
+who is a person ?
+Barack Obama is a person .
+Barack Obama is a president .
+Barack Obama is a president of the United States of America .
+Chicago is a city .
+Chicago is located in Illinois .
+New Zealand is a country .
+English is a language .
+Dresden is a city .
+Saxony is located in Germany .
+Fortaleza is a city .
+Pestovo is located in Russia .
+Mexico is located in North America .
+Mexico is a country .
+Angela Merkel is a person .
+Angela Merkel leads the CDU .
+Angela Merkel inhabits Germany .
+Norfolk is located in the United States of America .
+Norfolk is located in the United-Kingdom .
+Croatia is a country .
+Croatia is located in Europe .
+Norway is a country .
+Oslo is a capital of Norway .
+Norway is a part of Europe .
+Norway borders Russia .
+Norway borders Sweden .
+Norway borders Finland .
+what is Oslo ?
+Oslo is located in Norway .
+Norway is located in Europe .
+Oslo is the capital of Norway .
+which entity is located in Norway ?
+Norway is located in which continent ?
+Stockholm is the capital of Sweden .
+what is located in Sweden ?
+what is the capital of Sweden ?
+Sweden is a country .
+what is Sweden ?
+which countries border Sweden ?
+Denmark borders Sweden .
+Finland is a country .
+Finland is located in Europe .
+Finland borders Norway .
+Finland borders Russia .
+Finland borders Sweden .
+Finland borders the Baltic Sea .
+Helsinki is a capital of Finland .
+Aland is a province of Finland .
+Southern Finland is a province of Finland .
+Western Finland is a province of Finland .
+Eastern Finland is a province of Finland .
+Oulu is a province of Finland .
+Lapland is a province of Finland .
+what borders Finland ?
+which countries border Finland ?
+which country is located in Europe ?
+every dwarf-planet is a celestial-body .
+every moon is a celestial-body .
+every moon orbits exactly 1 planet .
+every star is a celestial-body .
+the Sun is a star .
+the Sun is a star .
+every terrestrial planet is a planet .
+what is a terrestrial planet ?
+every gas giant is a planet .
+Montreal is a city that is located in Quebec and that is located in Canada .
+Canada is a country that is located in North America .
+which cities are located in Canada ?
+Canada has exactly 2 official languages .
+what is the capital of Canada ?
+which provinces are located in Canada ?
+which country contains British Columbia ?
+French is the national-language of Canada .
+what is the national-language of Canada ?
+Paris is the capital of France .
+what is the capital of a country ?
+what is a capital of Germany ?
+what is a capital that belongs to Germany ?
+what is a capital of a province that belongs to Germany ?
+Stockholm is the capital of Sweden .
+every official language is a language .
+Ottawa is a city that is located in Ontario and that is located in Canada .
+who is the mayor of Ottawa ?
+Ottawa is the capital of Canada .
+every object belongs to Indonesia .
+Larry OBrien is the mayor of Ottawa .
+what is Larry OBrien ?
+Larry OBrien speaks English .
+who governs a country ?
+who governs an EU-country ?
+Toronto is a city that is located in Ontario and that is located in Canada .
+Ontario is a province that is located in Canada .
+which cities are located in British Columbia ?
+British Columbia is a province that is located in Canada .
+Vancouver is a city that is located in British Columbia and that is located in Canada .
+Alberta is a province that is located in Canada .
+Alberta is a canadian province .
+British Columbia is a canadian province .
+Manitoba is a canadian province .
+Ontario is a canadian province .
+which cities are located in Manitoba ?
+Winnepeg is a city that is located in Manitoba .
+which country contains Manitoba ?
+which country contains Winnepeg ?
+Guelph is a city that is located in Ontario .
+Quebec is a province that is located in Canada .
+Washington-DC is a city .
+Schaffhausen is a canton that is located in Switzerland .
+which towns are located in Schaffhausen ?
+Winterthur is a city .
+Stein am Rhein is a town that is located in Schaffhausen .
+Qingdao belongs to Alberta and contains at least 3 cities .
+Helsinki is a capital of Finland .
+Helsinki is a city .
+Aland is an archipelago .
+Aland is located in the Baltic Sea .
+Aland is a province of Finland .
+Fasta Aland is an island .
+Mariehamn is the capital of Aland .
+Fasta Aland is an island .
+Fasta Aland belongs to Aland .
+Gulf of Bothnia is a sea .
+if X contains Y then X belongs to Y .
+Iceland is located in Europe .
+Iceland is a country .
+Iceland is a part of Europe .
+Iceland is an island-country .
+Reykjavik is a city .
+Reykjavik is the capital of Iceland .
+Ghana is a country .
+Venice is a city .
+Venice is located in Italy .
+Ferrara is a part of Italy .
+Ferrara is a city .
+Triest is located in Italy .
+Triest is a city .
+Bavaria belongs to Germany .
+Bavaria is a province of Germany .
+Hannover is a city .
+Lower-Saxony contains Hannover .
+Hannover is the capital of Lower-Saxony that belongs to Germany .
+Hannover is a city .
+Lower-Saxony is a province of Germany .
+Indonesia does not border a country that is a part of Europe .
+Jakarta is the capital of Indonesia .
+it is false that Indonesia is in the near of Antarctica .
+everybody knows Barack Obama .
+which country is located in Asia ?
+Indonesia is a country .
+Indonesia is located in Asia .
+Indonesia has more than 99 islands .
+which cities are located in Indonesia ?
+which island is located in Indonesia ?
+what is the capital of Indonesia ?
+Jakarta is a city .
+Jakarta is the capital of Indonesia .
+Jakarta is located in Java .
+Jakarta is not a country .
+if X is larger than Y then Y is smaller than X .
+if X is smaller than Y then Y is larger than X .
+Moscow is a capital of Russia .
+Moscow is a city .
+Ukraine is a country .
+what borders Ukraine ?
+Kyiv is the capital of Ukraine .
+every president is a president of at most 1 country .
+the United Nations is something .
+who is a member of the United Nations ?
+Poznan belongs to Poland .
+Portugal is a country .
+Portugal borders Spain .
+Portugal is a part of Europe .
+what is a university ?
+the University of Zurich is a university that is located in Zurich .
+the ETH Zurich is a university and is located in Zurich .
+what is the ETH Zurich ?
+it is false that the ETH Zurich is a city .
+Lausanne is a city that is located in Switzerland .
+Lausanne contains exactly 2 universities .
+Prague is a city that is located in the Czech Republic .
+Prague contains at least 2 universities .
+Prague is the capital of the Czech Republic .
+the Czech Republic is a landlocked country .
+what is the capital of the Czech Republic ?
+the Czech Republic borders Slovakia .
+which country borders the Czech Republic ?
+the Czech Republic is located in Europe .
+the Czech Republic has at least 10 rivers .
+which river is located in the Czech Republic ?
+the Czech Republic borders Austria .
+the Czech Republic borders Germany and borders Poland .
+the Czech Republic borders exactly 4 countries .
+Guiana is a country .
+Barat Gadgeo is a president of Guiana .
+Georgetown is the capital of Guiana .
+what is the capital of Guiana ?
+Guiana is a part of North America .
+Georgetown is a city .
+Georgetown is a capital .
+Greece belongs to Europe .
+Greece is a country .
+Karolos Papoulias is a president of Greece .
+which country belongs to Europe ?
+what is Greece ?
+which countries are contained by Europe ?
+Kyrgyzstan is located in Asia .
+Kyrgyzstan borders Kazakhstan .
+Kyrgyzstan borders Uzbekistan .
+Kyrgyzstan borders Tajikistan .
+Kyrgyzstan borders China .
+Kyrgyzstan contains Batken Province .
+Kyrgyzstan contains Chuy Province .
+Kyrgyzstan contains Jalal-Abad Province .
+Kyrgyzstan contains Naryn Province .
+Kyrgyzstan contains Osh Province .
+Kyrgyzstan contains Talas Province .
+Kyrgyzstan contains Issyk Kul Province .
+what borders Kyrgyzstan ?
+what contains Kyrgyzstan ?
+which city belongs to Kyrgyzstan ?
+what is the capital of Kyrgyzstan ?
+what is the national-language of Kyrgyzstan ?
+Turkish is the national-language of Kyrgyzstan .
+which city is contained by Kyrgyzstan ?
+which area is contained by Kyrgyzstan ?
+Bishkek is the capital of Kyrgyzstan .
+Bishkek is a city .
+Bishkek belongs to Kyrgyzstan .
+Batken Province contains Batken .
+Batken is a city .
+Batken belongs to Kyrgyzstan .
+Jalal-Abad is a city .
+Jalal-Abad belongs to Kyrgyzstan .
+Naryn is a city .
+Naryn belongs to Kyrgyzstan .
+Osh is a city .
+Osh belongs to Osh Province .
+Osh belongs to Kyrgyzstan .
+Talas is a city .
+Talas belongs to Talas Province .
+Talas belongs to Kyrgyzstan .
+Karakol is a city .
+Karakol belongs to Issyk Kul Province .
+Karakol belongs to Kyrgyzstan .
+Polish is the language of Poland .
+Pluto orbits the Sun .
+Pluto is a dwarf-planet .
+Eugene is located in Oregon .
+what is located in Oregon ?
+Timbuktu is located in Africa .
+Timbuktu contains at least 100 persons .
+Dachau is the capital of the Landkreis Dachau .
+Dachau has a historic section of town .
+Dachau is known by the Konzentrationslager .
+Dachau is located in Germany .
+Dachau is in the near of Erding .
+Dachau is larger than Erding .
+Dachau belongs to Bavaria .
+Dachau is a city .
+Dachau is in the near of Munich .
+which city is in the near of Dachau ?
+if X is in the near of Y then Y is in the near of X .
+Erding is located in Bavaria .
+Erding is in the near of Dachau .
+what is a city that is located in Germany ?
+what is located in Germany ?
+Erding is smaller than Duesseldorf .
+Erding is smaller than Munich .
+Erding is not smaller than the ETH Zurich .
+Erding is a city that belongs to Germany .
+which city is larger than Erding ?
+which city is in the near of Erding ?
+Aschaffenburg is governed by Germany .
+Essen is in the near of Duisburg .
+Essen is a city .
+Essen contains at least 1 river .
+Essen is located in Germany .
+X is located in Germany .
+Duesseldorf is located in Germany .
+Duesseldorf is a city .
+what is a city and belongs to Germany ?
+Duesseldorf belongs to Germany .
+what is a city and is located in Germany ?
+which countries are a member of the European Union ?
+which country that is a part of Europe is not a member of the European Union ?
+which languages are an official language of a country that is a member of the European Union ?
+every EU-country is a member of the European Union .
+Indonesian is the national-language of Indonesia .
+Gordon Brown is a person .
+Israel borders Egypt .
+Israel belongs to the United Nations .
+Egypt is a country .
+the United States of America contains Maine .
+Maine is located in the United States of America .
+Maine is smaller than New York and Florida is larger than Maine .
+Maine is a state .
+which states are larger than Maine ?
+Florida is smaller than California .
+Florida is a state .
+California is a state .
+Ohio is a state .
+Ohio is located in the United States of America .
+Slovakia is a country .
+Slovakia is a member of the EU .
+Slovakia borders Poland .
+Slovakia borders Ukraine .
+Slovakia borders Hungary .
+which country borders Slovakia ?
+exactly 5 countries border Slovakia .
+Slovakia is smaller than Egypt .
+Slovakia borders the Czech Republic .
+which country is smaller than Egypt ?
+Egypt is larger than Slovakia .
+which country is larger than Slovakia ?
+Slovakia borders Austria .
+what is the national-language of Denmark ?
+what is the national-language of Canada ?
+what is the national-language of a country that is located in North America ?
+Herznach is located in Switzerland .
+Herznach is a village .
+Slovenia is a country of Europe .
+Slovenia is an alpine country .
+Ostravice is a river and is located in the Czech Republic .
+Munich is the capital of Bavaria .
+every capital is a city .
+Munich is a capital .
+Illinois is an USA state .
+Illinois borders Wisconsin and borders Indiana and borders Iowa and borders Missouri and borders Kentucky .
+what borders Illinois and borders Missouri ?
+Springfield is the capital of Illinois .
+Illinois is not a country .
+Wisconsin is an USA state .
+Missouri is a state that belongs to the United States of America .
+what borders Missouri ?
+Missouri borders Illinois and borders Iowa and borders Kansas and borders Nebraska and borders Tennessee .
+Jefferson City is a capital of Missouri .
+Missouri is an area .
+Kentucky is an USA state .
+what is Tennessee ?
+every USA state is a part of the USA .
+what is an USA state ?
+Katowice belongs to Poland .
+Katowice does not be in the near of Poznan .
+Turin is smaller than Milano .
+Turin is a city .
+Turin is located in Italy .
+Turin manages the Winter Olympic Games 2006 .
+Montreuil borders Bagnolet and Bagnolet is a city .
+Montreuil is a city .
+Ivrea is a city .
+Ivrea is located in Italy .
+Lysa hora is a mountain .
+the Netherlands is a country .
+the Netherlands belongs to the EU .
+the Netherlands is an EU-country .
+Britain is a country .
+what is a country ?
+Serbia is a country .
+Serbia borders Bulgaria .
+if X lives in Belgrade then X lives in Serbia .
+everybody that lives in Belgrad lives in Serbia .
+every country that has more than 1 official language is a multilingual country .
+India is a multilingual country .
+Chile is a country .
+Spanish is the national-language of Chile .
+Chile is located in South America and Chile borders at least 3 countries .
+Santiago is a city and Santiago is located in Chile .
+Santiago is the capital of Chile .
+the University of Chile is located in Santiago .
+which universities are located in the Earth ?
+Chile borders a sea .
+which countries border a sea ?
+what is located in Chile ?
+the Pontifical Catholic University of Chile is located in Santiago .
+Spanish is a language .
+Santiago is the capital of Chile .
+the University of Chile is a university .
+Luxembourg borders Germany .
+Luxembourg is a country .
+the Winter Olympic Games 2006 belongs to Japan .
+Malta is a country .
+Malta is an island .
+Maltese is an official language of Malta .
+Maltese is a semitic language .
+English is an official language of Malta .
+Malta is a member of the European Union .
+Romania is a country .
+Peru is a country of South America .
+Arequipa is a city of Peru .
+Charon orbits Pluto .
+Charon is a moon .
+the Moon is a moon .
+the Moon orbits the Earth .
+Phobos orbits Mars .
+Turkey is a part of Europe .
+Turkey borders Russia .
+Ankara is the capital of Turkey .
+Turkish is a national-language of Turkey .
+Turkey borders Greece .
+what is the capital of Turkey ?
+Aracaju is a city .
+Aracaju is a capital of Sergipe .
+Aracaju is a city of Sergipe .
+Sergipe is a state .
+who is a capital of Sergipe ?
+who is a city of Sergipe ?
+Salgado is a city of Sergipe .
+if X is an official language of Y then X is a language .
+every semitic language is a language .
+the University of Malta is a university .
+the University of Malta is located in Malta .
+which universities are located in Malta ?
+Bandung is a city .
+Bandung is located in Java .
+Java Sea is a sea .
+Java Sea is located in Indonesia .
+Java is an island .
+which city is located in Java ?
+Java is located in Indonesia .
+Ciliwung is a river .
+Ciliwung flows through Jakarta .
+Belgrade is a city .
+Belgrade is the capital of Serbia .
+Belgrade has at least 1 million .
+which city is the capital of Serbia ?
+Bulgaria is a country that is located in Europe .
+Bulgaria borders Romania .
+Bulgaria borders Serbia .
+what borders Bulgaria ?
+Bulgaria is a member of the EU .
+a president of Bulgaria is somebody who heads Bulgaria and who commands an army .
+who is a president of Bulgaria ?
+Sofia is the capital of Bulgaria .
+Democratic Party is a political party .
+everybody that cultivates Swaziland belongs to Swaziland .
+Georgi Parvanov is a president of a country and the country is Bulgaria .
+Pakistan is a country and is located in South Asia .
+Islamabad is the capital of Pakistan .
+Pakistan borders Afghanistan .
+Pakistan borders Iran .
+Pakistan borders China .
+Pakistan borders India .
+which country borders Pakistan ?
+South Asia is a region of Asia .
+what is located in South Asia ?
+India is located in South Asia .
+if X is a region of Y then X is located in Y .
+Islamabad is the capital of Pakistan .
+Afghanistan is a country .
+Iran is a country .
+India is a country .
+India is located in Asia .
+India is smaller than the United States of America .
+India borders Pakistan and borders Afghanistan and borders China .
+what borders India ?
+Hindi is a language .
+Sri Lanka is a country .
+Bangladesh is a country .
+Bangladesh is a country .
+every Prime Minister is a person .
+the Pontifical Catholic University of Chile is located in Santiago .
+no territory that at least 2 countries border is an enclave .
+Bromley is a town .
+Bromley has at least 93 persons .
+exactly 2 legs belong to a duck .
+every rabbit is an animal .
+exactly 4 legs belong to a rabbit .
+every leg belongs to an animal .
+Gothenburg is a city .
+Gothenburg is located in Sweden .
+Copenhagen is the capital of Denmark .
+which country is not bordered by Indonesia ?
+Tallinn is the capital of Estonia .
