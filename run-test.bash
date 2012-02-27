@@ -23,8 +23,6 @@ fi
 out="test_out.txt"
 out_fail="test_out_fail.txt"
 
-ghc --make -o $prog ${prog}.hs
-
 time (cat $1 | ./${prog} $pgf  > $out)
 
 echo "Parsed:"

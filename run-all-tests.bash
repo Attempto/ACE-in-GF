@@ -11,8 +11,6 @@ tests=tests
 test_out="test_out.txt"
 test_out_fail="test_out_fail.txt"
 
-ghc --make -o $parser ${parser}.hs
-
 for dir in $(find $tests -maxdepth 1 -mindepth 1 -type d)
 do
 	echo "Testing: $dir"
