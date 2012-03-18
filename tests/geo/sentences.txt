@@ -89,11 +89,9 @@ Angela Merkel governs Germany .
 Berlin is the capital of Germany .
 what is the capital of Germany ?
 Bavaria is located in Germany .
-what is Germany ?
 what is smaller than Germany ?
 which country borders Germany and borders France ?
 who governs Germany ?
-which country is located in Europe ?
 which city is contained by Germany ?
 which country borders Germany ?
 Germany belongs to the EU .
@@ -121,7 +119,7 @@ Tibet is a part of China .
 China is a part of the Earth .
 Beijing is located in China .
 China is larger than the United States of America .
-China is located in Asia and is larger than the United-Kingdom .
+China is located in Asia and is larger than the United Kingdom .
 Qingdao is a city .
 Qingdao is located in China .
 Beijing is a city .
@@ -144,11 +142,9 @@ what borders Russia ?
 Russia borders Ukraine .
 Russian is an official language .
 Russia is larger than every country .
-Milano is located in Italy .
+Italy is a member of the EU .
 Italy is governed by a president .
-what is Rome ?
 every city that is contained by Italy is contained by Europe .
-Benevento is located in Europe .
 what is the capital of Italy ?
 if a city is located in Italy then the city is located in Europe .
 if Benevento is located in Italy then Benevento is located in Europe .
@@ -161,18 +157,6 @@ Italy is a part of Europe .
 Italy borders Switzerland and borders Austria and borders France .
 every city is a part of a country .
 what borders Italy ?
-Milano is a city .
-what is located in Italy ?
-Benevento is a city .
-what is Benevento ?
-Venice is located in Italy .
-Triest is located in Italy .
-Benevento is located in Italy .
-what is located in Europe ?
-Turin is located in Italy .
-Turin is a city .
-Milano is located in Italy .
-Ivrea is a city .
 what is located in Italy ?
 France is an alpine country .
 France is a part of Europe .
@@ -198,15 +182,17 @@ Japan is a country .
 Japan is a part of Asia .
 Andorra does not belong to Japan .
 Japan is located in Asia .
-the United-Kingdom is a country .
-the United-Kingdom is a part of Europe .
-who governs the United-Kingdom ?
-the United-Kingdom is a member of the United Nations .
-the United-Kingdom is inhabited by the British .
+the United Kingdom is a country .
+the United Kingdom is a part of Europe .
+who governs the United Kingdom ?
+the United Kingdom is a member of the United Nations .
+the United Kingdom is inhabited by the British .
+the UK is a member of the EU .
 Austria is a landlocked country .
 what borders Austria ?
 Austria is not larger than Germany .
 Austria is smaller than Germany .
+Austria is a member of the EU .
 Liechtenstein is an alpine country .
 Liechtenstein borders no sea .
 Liechtenstein borders Austria .
@@ -228,8 +214,8 @@ Milano is located in Italy .
 New York is a city .
 New York is a part of the United States of America .
 London is a city .
-London is a part of the United-Kingdom .
-London is the capital of the United-Kingdom .
+London is a part of the United Kingdom .
+London is the capital of the United Kingdom .
 London borders Bromley .
 Paris is a city .
 Paris is located in France .
@@ -258,6 +244,7 @@ which country is located in Europe ?
 Buenos Aires is a city that is located in Argentina .
 every sea is an area .
 what is a landlocked country ?
+every landlocked country is a country .
 everything that flows through something is a river .
 Andorra is a country that is located in Europe .
 Andorra is not a member of the European Union .
@@ -270,7 +257,6 @@ every object is an entity .
 Estonia is a baltic-state .
 Latvia is a baltic-state .
 Lithuania is a baltic-state .
-every baltic-state is an EU-country .
 every baltic-state is a NATO-country .
 every baltic-state borders Russia .
 every baltic-state possesses an island .
@@ -284,13 +270,13 @@ Poland borders Germany .
 Warsaw is a capital of Poland .
 Poland does not belong to Africa .
 Polish is a national-language of Poland .
+Poland is a member of the EU .
 Estonian is a national-language of Estonia .
 what is Estonia ?
-every EU-country is a part of Europe .
-every EU-country is a country .
-which country is not an EU-country ?
-every member of the European Union is an EU-country .
-what is an EU-country ?
+Estonia is a member of the EU .
+what is Latvia ?
+Latvia is a member of the EU .
+Lithuania is a member of the EU .
 the Danube flows through Belgrad and flows through Budapest and flows through Vienna and flows through Bratislava and flows through Ulm .
 the Danube flows through Germany .
 the Danube flows through which areas ?
@@ -317,6 +303,8 @@ what is a capital ?
 every capital is a city .
 if X is the capital of Y then X is located in Y .
 if X is a capital of Y then X is a city .
+Hungary is a member of the EU .
+Hungary is a country .
 if X is a capital of Y then X is a capital .
 no country is a capital .
 every capital is a city .
@@ -338,6 +326,7 @@ Denmark is a part of Europe .
 Denmark borders Germany .
 which country borders Denmark ?
 what is located in Denmark ?
+Denmark is a member of the EU .
 Greenland is a part of Denmark .
 Greenland belongs to Europe .
 Greenland is an island .
@@ -352,13 +341,13 @@ Dutch is a national-language of Belgium .
 Flanders is a country and Flanders is a part of Belgium .
 Belgium borders the Netherlands .
 Belgium borders what ?
+Belgium is a member of the EU .
 every country that is associated with the Alps is an alpine country .
 every alpine country is a country .
-what is an alpine country ?
 Italy is an alpine country .
 Austria is an alpine country .
 Switzerland is an alpine country .
-what is a NATO-country and is an EU-country ?
+what is a NATO-country and is a member of the EU ?
 what is a NATO-country ?
 the Sihl is a river that flows through Zurich .
 Bonn is not a capital of Germany .
@@ -383,7 +372,7 @@ Angela Merkel is a person .
 Angela Merkel leads the CDU .
 Angela Merkel inhabits Germany .
 Norfolk is located in the United States of America .
-Norfolk is located in the United-Kingdom .
+Norfolk is located in the United Kingdom .
 Croatia is a country .
 Croatia is located in Europe .
 Norway is a country .
@@ -402,9 +391,9 @@ Stockholm is the capital of Sweden .
 what is located in Sweden ?
 what is the capital of Sweden ?
 Sweden is a country .
-what is Sweden ?
 which countries border Sweden ?
 Denmark borders Sweden .
+Sweden is a member of the EU .
 Finland is a country .
 Finland is located in Europe .
 Finland borders Norway .
@@ -420,7 +409,7 @@ Oulu is a province of Finland .
 Lapland is a province of Finland .
 what borders Finland ?
 which countries border Finland ?
-which country is located in Europe ?
+Finland is a member of the EU .
 every dwarf-planet is a celestial-body .
 every moon is a celestial-body .
 every moon orbits exactly 1 planet .
@@ -454,7 +443,6 @@ Larry OBrien is the mayor of Ottawa .
 what is Larry OBrien ?
 Larry OBrien speaks English .
 who governs a country ?
-who governs an EU-country ?
 Toronto is a city that is located in Ontario and that is located in Canada .
 Ontario is a province that is located in Canada .
 which cities are located in British Columbia ?
@@ -479,6 +467,7 @@ Stein am Rhein is a town that is located in Schaffhausen .
 Qingdao belongs to Alberta and contains at least 3 cities .
 Helsinki is a capital of Finland .
 Helsinki is a city .
+Finnish is an official language of Finland .
 Aland is an archipelago .
 Aland is located in the Baltic Sea .
 Aland is a province of Finland .
@@ -531,12 +520,14 @@ Ukraine is a country .
 what borders Ukraine ?
 Kyiv is the capital of Ukraine .
 every president is a president of at most 1 country .
+if X is a president of Y then X governs Y .
 the United Nations is something .
 who is a member of the United Nations ?
 Poznan belongs to Poland .
 Portugal is a country .
 Portugal borders Spain .
 Portugal is a part of Europe .
+Portugal is a member of the EU .
 what is a university ?
 the University of Zurich is a university that is located in Zurich .
 the ETH Zurich is a university and is located in Zurich .
@@ -557,6 +548,7 @@ which river is located in the Czech Republic ?
 the Czech Republic borders Austria .
 the Czech Republic borders Germany and borders Poland .
 the Czech Republic borders exactly 4 countries .
+the Czech Republic is a member of the EU .
 Guiana is a country .
 Barat Gadgeo is a president of Guiana .
 Georgetown is the capital of Guiana .
@@ -565,11 +557,9 @@ Guiana is a part of North America .
 Georgetown is a city .
 Georgetown is a capital .
 Greece belongs to Europe .
+Greece is a member of the EU .
 Greece is a country .
 Karolos Papoulias is a president of Greece .
-which country belongs to Europe ?
-what is Greece ?
-which countries are contained by Europe ?
 Kyrgyzstan is located in Asia .
 Kyrgyzstan borders Kazakhstan .
 Kyrgyzstan borders Uzbekistan .
@@ -617,7 +607,6 @@ what is located in Oregon ?
 Timbuktu is located in Africa .
 Timbuktu contains at least 100 persons .
 Dachau is the capital of the Landkreis Dachau .
-Dachau has a historic section of town .
 Dachau is known by the Konzentrationslager .
 Dachau is located in Germany .
 Dachau is in the near of Erding .
@@ -648,10 +637,11 @@ Duesseldorf is a city .
 what is a city and belongs to Germany ?
 Duesseldorf belongs to Germany .
 what is a city and is located in Germany ?
+the EU is a union .
 which countries are a member of the European Union ?
 which country that is a part of Europe is not a member of the European Union ?
 which languages are an official language of a country that is a member of the European Union ?
-every EU-country is a member of the European Union .
+who governs a country that is a member of the EU ?
 Indonesian is the national-language of Indonesia .
 Gordon Brown is a person .
 Israel borders Egypt .
@@ -667,6 +657,7 @@ Florida is a state .
 California is a state .
 Ohio is a state .
 Ohio is located in the United States of America .
+what is Estonian ?
 Slovakia is a country .
 Slovakia is a member of the EU .
 Slovakia borders Poland .
@@ -687,6 +678,7 @@ Herznach is located in Switzerland .
 Herznach is a village .
 Slovenia is a country of Europe .
 Slovenia is an alpine country .
+Slovenia is a member of the EU .
 Ostravice is a river and is located in the Czech Republic .
 Munich is the capital of Bavaria .
 every capital is a city .
@@ -718,8 +710,7 @@ Ivrea is a city .
 Ivrea is located in Italy .
 Lysa hora is a mountain .
 the Netherlands is a country .
-the Netherlands belongs to the EU .
-the Netherlands is an EU-country .
+the Netherlands is a member of the EU .
 Britain is a country .
 what is a country ?
 Serbia is a country .
@@ -744,6 +735,7 @@ Santiago is the capital of Chile .
 the University of Chile is a university .
 Luxembourg borders Germany .
 Luxembourg is a country .
+Luxembourg is a member of the EU .
 the Winter Olympic Games 2006 belongs to Japan .
 Malta is a country .
 Malta is an island .
@@ -752,6 +744,9 @@ Maltese is a semitic language .
 English is an official language of Malta .
 Malta is a member of the European Union .
 Romania is a country .
+Romania is a member of the EU .
+Benevento is a city .
+Benevento is located in Italy .
 Peru is a country of South America .
 Arequipa is a city of Peru .
 Charon orbits Pluto .
@@ -838,3 +833,7 @@ Gothenburg is located in Sweden .
 Copenhagen is the capital of Denmark .
 which country is not bordered by Indonesia ?
 Tallinn is the capital of Estonia .
+Cyprus is a member of the EU .
+Cyprus is a country .
+Ireland is a member of the EU .
+Ireland is a country .

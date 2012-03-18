@@ -3,7 +3,8 @@ type:mainpage
 c This wiki contains geographical knowledge.
 c Due to the increasing complexity of the knowledge base, the reasoning subset has been restricted: OWL 2 RL instead of OWL 2 Full.
 c Furthermore, it is now required to login in order to change the wiki data.
-c Some important articles of this wiki:~n- [[planet]]~n- [[Earth]]~n- [[continent]]~n- [[country]]~n- [[city]]
+c Some important articles of this wiki:~n- [[continent]]~n- [[country]]~n- [[city]]~n- [[EU]]
+c The Assignments-tab appears with proper names and answers the question "What is ...?". So, there is no need the explicitly ask this question as part of the article content.
 
 1
 type:nounof
@@ -199,11 +200,9 @@ c Germany is a beautiful country~n
 | <41,0> is <180,0> <25,0> .
 | What is <180,0> <25,0> ?
 | <258,0> is <51,0> <25,0> .
-| What is <25,0> ?
 | What is <274,0> <25,0> ?
 | Which <23,0> <4,0> <25,0> and <4,0> <33,0> ?
 | Who <190,0> <25,0> ?
-| Which <23,0> is <51,0> <16,0> ?
 | Which <39,0> is <2,2> <25,0> ?
 | Which <23,0> <4,0> <25,0> ?
 | <25,0> <234,0> <349,2> .
@@ -283,11 +282,9 @@ words:Russia;Russia;Russia;Russia;
 32
 type:propername
 words:Italy;Italy;Italy;Italy;
-| <42,0> is <51,0> <32,0> .
+| <32,3> is a <350,0> <349,2> .
 # <32,0> is <190,2> a <278,0> .
-| What is <115,0> ?
 # Every <39,0> that is <2,2> <32,0> is <2,2> <16,0> .
-| <437,0> is <51,0> <16,0> .
 | What is <180,0> <32,0> ?
 # If a <39,0> is <51,0> <32,0> then the <39,0> is <51,0> <16,0> .
 # If <437,0> is <51,0> <32,0> then <437,0> is <51,0> <16,0> .
@@ -300,18 +297,6 @@ words:Italy;Italy;Italy;Italy;
 | <32,0> <4,0> <26,0> and <4,0> <37,0> and <4,0> <33,0> .
 # Every <39,0> is a <1,0> a <23,0> .
 | What <4,0> <32,0> ?
-| <42,0> is a <39,0> .
-| What is <51,0> <32,0> ?
-| <437,0> is a <39,0> .
-| What is <437,0> ?
-| <253,0> is <51,0> <32,0> .
-| <257,0> is <51,0> <32,0> .
-| <437,0> is <51,0> <32,0> .
-| What is <51,0> <16,0> ?
-| <408,0> is <51,0> <32,0> .
-| <408,0> is a <39,0> .
-| <42,0> is <51,0> <32,0> .
-| <412,0> is a <39,0> .
 | What is <51,0> <32,0> ?
 
 33
@@ -352,12 +337,13 @@ words:Japan;Japan;Japan;Japan;
 
 36
 type:propername
-words:the United-Kingdom;United-Kingdom;the United-Kingdom;United-Kingdom;
+words:the United_Kingdom;United_Kingdom;the UK;UK;
 | <36,0> is a <23,0> .
 | <36,0> is a <1,0> <16,0> .
 | Who <190,0> <36,0> ?
 | <36,0> is a <350,0> <280,0> .
 | <36,0> is <275,2> <383,0> .
+| <36,2> is a <350,0> <349,2> .
 
 37
 type:propername
@@ -366,6 +352,7 @@ words:Austria;Austria;Austria;Austria;
 | What <4,0> <37,0> ?
 | <37,0> is not <174,0> <25,0> .
 | <37,0> is <274,0> <25,0> .
+| <37,3> is a <350,0> <349,2> .
 
 38
 type:propername
@@ -498,6 +485,7 @@ words:sea;seas;
 type:noun
 words:landlocked_country;landlocked_countries;
 | What is a <58,0> ?
+| Every <58,0> is a <23,0> .
 
 63
 type:noun
@@ -542,7 +530,6 @@ words:baltic-state;baltic-states;
 | <96,0> is a <78,0> .
 | <97,0> is a <78,0> .
 | <98,0> is a <78,0> .
-| Every <78,0> is an <100,0> .
 | Every <78,0> is a <122,0> .
 # Every <78,0> <4,0> <31,0> .
 # Every <78,0> <526,0> an <63,0> .
@@ -601,29 +588,25 @@ words:Poland;Poland;Poland;Poland;
 | <325,0> is a <107,0> <95,0> .
 | <95,0> does not <234,1> <18,0> .
 | <326,0> is a <80,0> <95,0> .
+| <95,3> is a <350,0> <349,2> .
 
 96
 type:propername
 words:Estonia;Estonia;Estonia;Estonia;
 | <372,0> is a <80,0> <96,0> .
 | What is <96,0> ?
+| <96,3> is a <350,0> <349,2> .
 
 97
 type:propername
 words:Latvia;Latvia;Latvia;Latvia;
+| What is <97,3> ?
+| <97,3> is a <350,0> <349,2> .
 
 98
 type:propername
 words:Lithuania;Lithuania;Lithuania;Lithuania;
-
-100
-type:noun
-words:EU-country;EU-countries;
-# Every <100,0> is a <1,0> <16,0> .
-| Every <100,0> is a <23,0> .
-| Which <23,0> is not an <100,0> ?
-# Every <350,0> <349,0> is an <100,0> .
-| What is an <100,0> ?
+| <98,3> is a <350,0> <349,2> .
 
 101
 type:propername
@@ -682,6 +665,8 @@ words:capital of;
 108
 type:propername
 words:Hungary;Hungary;Hungary;Hungary;
+| <108,3> is a <350,0> <349,2> .
+| <108,3> is a <23,0> .
 
 109
 type:noun
@@ -735,6 +720,7 @@ words:Denmark;Denmark;Denmark;Denmark;
 | <116,0> <4,0> <25,0> .
 | Which <23,0> <4,0> <116,0> ?
 | What is <51,0> <116,3> ?
+| <116,3> is a <350,0> <349,2> .
 
 117
 type:propername
@@ -757,6 +743,7 @@ words:Belgium;Belgium;Belgium;Belgium;
 | <371,0> is a <23,0> and <371,0> is a <1,0> <119,0> .
 | <119,0> <4,0> <422,0> .
 | <119,3> <4,0> what ?
+| <119,3> is a <350,0> <349,2> .
 
 120
 type:noun
@@ -764,7 +751,6 @@ words:alpine_country;alpine_countries;
 c The term Alpine states or Alpine countries refers to the countries associated with the region of Alps. As defined by the Alpine Convention of 1991, the region of the Alps comprise the territory of 8 countries.
 | Every <23,0> that is <530,0> <531,0> is an <120,0> .
 | Every <120,0> is a <23,0> .
-| What is an <120,0> ?
 | <32,0> is an <120,0> .
 | <37,0> is an <120,0> .
 | <26,0> is an <120,0> .
@@ -772,7 +758,7 @@ c The term Alpine states or Alpine countries refers to the countries associated 
 122
 type:noun
 words:NATO-country;NATO-countries;
-| What is a <122,0> and is an <100,0> ?
+| What is a <122,0> and is a <350,0> <349,2> ?
 | What is a <122,0> ?
 
 124
@@ -810,10 +796,6 @@ words:Chicago;Chicago;Chicago;Chicago;
 | <132,0> is a <39,0> .
 | <132,0> is <51,0> <394,0> .
 
-134
-type:propername
-words:Bob_Dylan;Bob_Dylan;Bob_Dylan;Bob_Dylan;
-
 136
 type:propername
 words:New_Zealand;New_Zealand;New_Zealand;New_Zealand;
@@ -842,14 +824,6 @@ words:Saxony;Saxony;Saxony;Saxony;
 type:propername
 words:Fortaleza;Fortaleza;Fortaleza;Fortaleza;
 | <142,0> is a <39,0> .
-
-143
-type:propername
-words:the Comany;Comany;the Comany;Comany;
-
-145
-type:propername
-words:Buea;Buea;Buea;Buea;
 
 150
 type:propername
@@ -908,9 +882,9 @@ words:Sweden;Sweden;Sweden;Sweden;
 | What is <51,0> <162,0> ?
 | What is <180,0> <162,0> ?
 | <162,0> is a <23,0> .
-| What is <162,0> ?
 | Which <23,1> <4,1> <162,0> ?
 | <116,0> <4,0> <162,0> .
+| <162,3> is a <350,0> <349,2> .
 
 163
 type:propername
@@ -930,7 +904,7 @@ words:Finland;Finland;Finland;Finland;
 | <242,0> is a <229,0> <163,0> .
 | What <4,0> <163,0> ?
 | Which <23,1> <4,1> <163,0> ?
-| Which <23,0> is <51,0> <16,0> ?
+| <163,3> is a <350,0> <349,2> .
 
 164
 type:noun
@@ -1031,10 +1005,6 @@ words:Ottawa;Ottawa;Ottawa;Ottawa;
 | <183,0> is <180,0> <178,0> .
 # Every <77,0> <234,0> <272,3> .
 
-186
-type:nounof
-words:governor of;
-
 189
 type:propername
 words:Larry_OBrien;Larry_OBrien;Larry_OBrien;Larry_OBrien;
@@ -1046,7 +1016,6 @@ words:Larry_OBrien;Larry_OBrien;Larry_OBrien;Larry_OBrien;
 type:trverb
 words:governs;govern;governed by;
 | Who <190,0> a <23,0> ?
-| Who <190,0> an <100,0> ?
 
 191
 type:tradj
@@ -1141,10 +1110,6 @@ type:propername
 words:Stein_am_Rhein;Stein_am_Rhein;Stein_am_Rhein;Stein_am_Rhein;
 | <210,0> is a <209,0> that is <51,0> <206,0> .
 
-215
-type:propername
-words:Shanghai;Shanghai;Shanghai;Shanghai;
-
 216
 type:propername
 words:Qingdao;Qingdao;Qingdao;Qingdao;
@@ -1159,6 +1124,7 @@ words:Helsinki;Helsinki;Helsinki;Helsinki;
 220
 type:propername
 words:Finnish;Finnish;Finnish;Finnish;
+| <220,3> is an <460,0> <163,3> .
 
 222
 type:propername
@@ -1269,14 +1235,6 @@ words:Bavaria;Bavaria;Bavaria;Bavaria;
 | <258,0> <234,0> <25,0> .
 | <258,0> is a <229,0> <25,0> .
 
-265
-type:propername
-words:Hong_Kong;Hong_Kong;Hong_Kong;Hong_Kong;
-
-269
-type:propername
-words:the solar_system;solar_system;the solar_system;solar_system;
-
 270
 type:propername
 words:Hannover;Hannover;Hannover;Hannover;
@@ -1344,6 +1302,7 @@ words:president;presidents;
 type:nounof
 words:president of;
 # Every <278,0> is a <279,0> at most 1 <23,0> .
+| If X is a <279,0> Y then X <190,0> Y .
 
 280
 type:propername
@@ -1363,6 +1322,7 @@ words:Portugal;Portugal;Portugal;Portugal;
 | <284,0> is a <23,0> .
 | <284,0> <4,0> <75,0> .
 | <284,0> is a <1,0> <16,0> .
+| <284,3> is a <350,0> <349,2> .
 
 285
 type:noun
@@ -1408,6 +1368,7 @@ c ?esk republika je v?znamn? stt st?edn Evropy. M p?es 10 milion? obyvat
 | <290,0> <4,0> <37,0> .
 | <290,0> <4,0> <25,0> and <4,0> <95,0> .
 # <290,0> <4,0> exactly 4 <23,1> .
+| <290,2> is a <350,0> <349,2> .
 
 291
 type:propername
@@ -1432,11 +1393,9 @@ words:Georgetown;Georgetown;Georgetown;Georgetown;
 type:propername
 words:Greece;Greece;Greece;Greece;
 | <298,0> <234,0> <16,0> .
+| <298,3> is a <350,0> <349,2> .
 | <298,0> is a <23,0> .
 | <299,0> is a <279,0> <298,0> .
-| Which <23,0> <234,0> <16,0> ?
-| What is <298,0> ?
-| Which <23,1> are <2,2> <16,0> ?
 
 299
 type:propername
@@ -1586,10 +1545,6 @@ words:Oregon;Oregon;Oregon;Oregon;
 type:noun
 words:state;states;
 
-333
-type:tradj
-words:sold_to;
-
 335
 type:propername
 words:Timbuktu;Timbuktu;Timbuktu;Timbuktu;
@@ -1600,7 +1555,6 @@ words:Timbuktu;Timbuktu;Timbuktu;Timbuktu;
 type:propername
 words:Dachau;Dachau;Dachau;Dachau;
 | <336,0> is <180,0> <338,0> .
-# <336,0> <128,0> a <339,0> .
 | <336,0> is <340,2> <341,0> .
 | <336,0> is <51,0> <25,0> .
 | <336,0> <345,0> <337,0> .
@@ -1631,10 +1585,6 @@ words:Erding;Erding;Erding;Erding;
 type:propername
 words:the Landkreis_Dachau;Landkreis_Dachau;the Landkreis_Dachau;Landkreis_Dachau;
 
-339
-type:noun
-words:historic_section_of_town;historic_sections_of_towns;
-
 340
 type:trverb
 words:knows;know;known by;
@@ -1642,10 +1592,6 @@ words:knows;know;known by;
 341
 type:propername
 words:the Konzentrationslager;Konzentrationslager;the Konzentrationslager;Konzentrationslager;
-
-343
-type:trverb
-words:builds;build;built by;
 
 344
 type:propername
@@ -1677,10 +1623,11 @@ words:Duesseldorf;Duesseldorf;Duesseldorf;Duesseldorf;
 349
 type:propername
 words:the European_Union;European_Union;the EU;EU;
+| <349,2> is a <535,0> .
 | Which <23,1> are a <350,0> <349,0> ?
 | Which <23,0> that is a <1,0> <16,0> is not a <350,0> <349,0> ?
 | Which <81,1> are an <460,0> a <23,0> that is a <350,0> <349,0> ?
-# Every <100,0> is a <350,0> <349,0> .
+| Who <190,0> a <23,0> that is a <350,0> <349,2> ?
 
 350
 type:nounof
@@ -1690,10 +1637,6 @@ words:member of;
 type:propername
 words:Indonesian;Indonesian;Indonesian;Indonesian;
 | <351,0> is <380,0> <272,0> .
-
-358
-type:nounof
-words:descendent of;
 
 359
 type:propername
@@ -1731,10 +1674,6 @@ type:propername
 words:California;California;California;California;
 | <366,0> is a <332,0> .
 
-368
-type:propername
-words:Catalonia;Catalonia;Catalonia;Catalonia;
-
 369
 type:propername
 words:Ohio;Ohio;Ohio;Ohio;
@@ -1752,10 +1691,7 @@ words:Flanders;Flanders;Flanders;Flanders;
 372
 type:propername
 words:Estonian;Estonian;Estonian;Estonian;
-
-375
-type:propername
-words:Manuel;Manuel;Manuel;Manuel;
+| What is <372,3> ?
 
 376
 type:propername
@@ -1820,14 +1756,11 @@ type:propername
 words:Slovenia;Slovenia;Slovenia;Slovenia;
 | <388,0> is a <389,0> <16,0> .
 | <388,3> is an <120,0> .
+| <388,3> is a <350,0> <349,2> .
 
 389
 type:nounof
 words:country of;
-
-390
-type:propername
-words:Macedonia;Macedonia;Macedonia;Macedonia;
 
 391
 type:propername
@@ -1933,10 +1866,6 @@ words:Montreuil;Montreuil;Montreuil;Montreuil;
 type:propername
 words:Bagnolet;Bagnolet;Bagnolet;Bagnolet;
 
-411
-type:propername
-words:Beth_Wellington;Beth_Wellington;Beth_Wellington;Beth_Wellington;
-
 412
 type:propername
 words:Ivrea;Ivrea;Ivrea;Ivrea;
@@ -1953,10 +1882,6 @@ type:propername
 words:Lysa_hora;Lysa_hora;Lysa_hora;Lysa_hora;
 | <415,0> is a <414,0> .
 
-418
-type:trverb
-words:grows;grow;grown by;
-
 419
 type:trverb
 words:cultivates;cultivate;cultivated by;
@@ -1969,8 +1894,7 @@ words:Krems;Krems;Krems;Krems;
 type:propername
 words:the Netherlands;Netherlands;the Netherlands;Netherlands;
 | <422,0> is a <23,0> .
-| <422,0> <234,0> <349,2> .
-| <422,0> is an <100,0> .
+| <422,2> is a <350,0> <349,2> .
 
 423
 type:propername
@@ -2028,6 +1952,7 @@ type:propername
 words:Luxembourg;Luxembourg;Luxembourg;Luxembourg;
 | <430,0> <4,0> <25,0> .
 | <430,0> is a <23,0> .
+| <430,3> is a <350,0> <349,2> .
 
 431
 type:propername
@@ -2052,14 +1977,13 @@ words:Malta;Malta;Malta;Malta;
 type:propername
 words:Romania;Romania;Romania;Romania;
 | <436,0> is a <23,0> .
+| <436,3> is a <350,0> <349,2> .
 
 437
 type:propername
 words:Benevento;Benevento;Benevento;Benevento;
-
-439
-type:propername
-words:Zlin;Zlin;Zlin;Zlin;
+| <437,3> is a <39,0> .
+| <437,3> is <51,0> <32,3> .
 
 440
 type:nounof
@@ -2095,10 +2019,6 @@ words:the Moon;Moon;the Moon;Moon;
 type:propername
 words:Phobos;Phobos;Phobos;Phobos;
 | <450,0> <167,0> <9,0> .
-
-452
-type:propername
-words:America_Do_Sul;America_Do_Sul;Sulamerica;Sulamerica;
 
 453
 type:propername
@@ -2227,33 +2147,13 @@ words:Swaziland;Swaziland;Swaziland;Swaziland;
 type:noun
 words:army;armies;
 
-478
-type:propername
-words:the Bulgarian_Socialist_Party;Bulgarian_Socialist_Party;the Bulgarian_Socialist_Party;Bulgarian_Socialist_Party;
-
 479
 type:trverb
 words:commands;command;commanded by;
 
-481
-type:noun
-words:election;elections;
-
-482
-type:nounof
-words:duty of;
-
-483
-type:trverb
-words:represents;represent;represented by;
-
 484
 type:trverb
 words:heads;head;headed by;
-
-486
-type:trverb
-words:commits;commit;committed by;
 
 488
 type:propername
@@ -2312,10 +2212,6 @@ words:India;India;India;India;
 | <497,0> <4,0> <490,0> and <4,0> <495,0> and <4,0> <28,0> .
 | What <4,0> <497,0> ?
 
-498
-type:propername
-words:Cristian;Cristian;Cristian;Cristian;
-
 504
 type:propername
 words:Hindi;Hindi;Hindi;Hindi;
@@ -2336,10 +2232,6 @@ words:Bangladesh;Bangladesh;Bangladesh;Bangladesh;
 type:noun
 words:Prime_Minister;Prime_Ministers;
 | Every <507,0> is a <130,0> .
-
-508
-type:propername
-words:Stephen_Harper;Stephen_Harper;Stephen_Harper;Stephen_Harper;
 
 509
 type:propername
@@ -2381,10 +2273,6 @@ type:noun
 words:leg;legs;
 # Every <518,0> <234,0> an <443,0> .
 
-519
-type:noun
-words:farm;farms;
-
 521
 type:propername
 words:Gothenburg;Gothenburg;Gothenburg;Gothenburg;
@@ -2396,14 +2284,6 @@ type:propername
 words:Copenhagen;Copenhagen;Copenhagen;Copenhagen;
 | <522,3> is <180,0> <116,3> .
 
-524
-type:noun
-words:lake;lakes;
-
-525
-type:noun
-words:body-of-water;bodies-of-water;
-
 526
 type:trverb
 words:possesses;possess;possessed by;
@@ -2411,10 +2291,6 @@ words:possesses;possess;possessed by;
 527
 type:propername
 words:Brasilia;Brasilia;Brasilia;Brasilia;
-
-528
-type:propername
-words:the hello;hello;the hel;hel;
 
 529
 type:propername
@@ -2433,4 +2309,20 @@ words:the Alps;Alps;the Alps;Alps;
 type:propername
 words:Tallinn;Tallinn;Tallinn;Tallinn;
 | <532,3> is <180,0> <96,3> .
+
+533
+type:propername
+words:Cyprus;Cyprus;Cyprus;Cyprus;
+| <533,3> is a <350,0> <349,2> .
+| <533,3> is a <23,0> .
+
+534
+type:propername
+words:Ireland;Ireland;Ireland;Ireland;
+| <534,3> is a <350,0> <349,2> .
+| <534,3> is a <23,0> .
+
+535
+type:noun
+words:union;unions;
 
