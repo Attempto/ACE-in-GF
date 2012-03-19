@@ -1989,10 +1989,6 @@ words:Benevento;Benevento;Benevento;Benevento;
 type:nounof
 words:city of;
 
-443
-type:noun
-words:animal;animals;
-
 446
 type:propername
 words:Peru;Peru;Peru;Peru;
@@ -2256,22 +2252,6 @@ type:propername
 words:Bromley;Bromley;Bromley;Bromley;
 | <515,3> is a <209,0> .
 # <515,3> <128,0> at least 93 <130,1> .
-
-516
-type:noun
-words:duck;ducks;
-# Exactly 2 <518,1> <234,1> a <516,0> .
-
-517
-type:noun
-words:rabbit;rabbits;
-| Every <517,0> is an <443,0> .
-# Exactly 4 <518,1> <234,1> a <517,0> .
-
-518
-type:noun
-words:leg;legs;
-# Every <518,0> <234,0> an <443,0> .
 
 521
 type:propername

@@ -824,10 +824,6 @@ the Pontifical Catholic University of Chile is located in Santiago .
 no territory that at least 2 countries border is an enclave .
 Bromley is a town .
 Bromley has at least 93 persons .
-exactly 2 legs belong to a duck .
-every rabbit is an animal .
-exactly 4 legs belong to a rabbit .
-every leg belongs to an animal .
 Gothenburg is a city .
 Gothenburg is located in Sweden .
 Copenhagen is the capital of Denmark .
