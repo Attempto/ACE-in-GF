@@ -54,7 +54,7 @@ concrete ExtraAce of ExtraAceAbs = CatAce **
         RC _ _      => "that" ;
         _           => "that"   ---- "in that" ?
 --        RPrep Neutr => "which" ;
---        RPrep _     => "whom"
+--        RPrep _     => "who"
         } ;
       a = RNoAg
       } ;

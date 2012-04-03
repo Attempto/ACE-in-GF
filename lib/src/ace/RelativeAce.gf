@@ -41,10 +41,10 @@ concrete RelativeAce of Relative = CatAce ** open ResAce in {
      { s = table {
         RC _ (NCase Gen) => "whose" ; 
         RC Neutr _  => "which" ;
-        RC _ NPAcc    => "whom" ;
+        RC _ NPAcc    => "who" ;
         RC _ (NCase Nom)    => "who" ;
         RPrep Neutr => "which" ;
-        RPrep _     => "whom"
+        RPrep _     => "who"
         } ;
       a = RNoAg
       } ;

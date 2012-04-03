@@ -112,8 +112,8 @@ concrete StructuralAce of Structural = CatAce **
   which_IQuant = {s = \\_ => "which"} ;
 ---b  whichPl_IDet = mkDeterminer plural ["which"] ;
 ---b  whichSg_IDet = mkDeterminer singular ["which"] ;
-  whoPl_IP = mkIP "who" "whom" "whose" plural ;
-  whoSg_IP = mkIP "who" "whom" "whose" singular ;
+  whoPl_IP = mkIP "who" "who" "whose" plural ;
+  whoSg_IP = mkIP "who" "who" "whose" singular ;
   why_IAdv = ss "why" ;
   without_Prep = mkPrep "without" ;
   with_Prep = mkPrep "with" ;
