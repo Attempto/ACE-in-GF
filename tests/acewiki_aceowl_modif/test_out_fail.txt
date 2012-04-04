@@ -2,17 +2,11 @@
     608 which
      96 it is false that Mary who
      69 a friend of which
-     64 a woman who a
      64 a woman is Mary who
      64 a woman asks Mary who
      55 who isn't
-     54 a woman who Mary
      52 Mary is Mary who
      52 Mary asks Mary who
-     50 every woman who every
-     50 every woman who a
-     50 a woman who X
-     50 a woman who every
      49 every woman is Mary who
      49 every woman asks Mary who
      47 who doesn't
@@ -20,10 +14,8 @@
      46 X asks Mary who
      44 a woman who isn't
      44 a woman who doesn't
-     42 every woman who Mary
      41 a woman asks which
      39 Mary asks which
-     38 every woman who X
      36 X asks which
      36 a friend of who
      34 a woman is which
@@ -112,14 +104,11 @@
      12 every woman isn't Mary who
      12 every woman is asked by Mary who
      12 every woman doesn't ask Mary who
-     12 a woman who the
      12 a woman is asked by which
      12 a woman doesn't ask which
      11 who is a woman and is
      11 who asks a woman and is
-     11 there is a woman who every
      11 there is a woman who doesn't
-     11 there is a woman who a
      11 Mary is Mary and asks
      11 Mary asks Mary and asks
      11 every woman is Mary and asks
@@ -133,10 +122,9 @@
      11 a woman asks every woman and asks
      10 Mary is every woman and asks
      10 Mary asks every woman and asks
-     10 every woman who the
-     10 a woman X who X
-     10 a woman X who Mary
-     10 a woman X who a
+     10 a woman who X doesn't
+     10 a woman who Mary doesn't
+     10 a woman who a woman doesn't
       9 X is X and asks
       9 X is Mary and asks
       9 X asks X and asks
@@ -155,21 +143,13 @@
       8 who asks a woman and asks
       8 Mary is asked by which
       8 Mary doesn't ask which
-      8 it is false that every woman who X
-      8 it is false that every woman who Mary
-      8 it is false that every woman who every
-      8 it is false that every woman who a
-      8 it is false that a woman who X
-      8 it is false that a woman who Mary
-      8 it is false that a woman who every
-      8 it is false that a woman who a
-      8 every woman X who X
-      8 every woman X who Mary
-      8 every woman X who every
-      8 every woman X who a
-      8 a woman X who every
+      8 every woman who X doesn't
+      8 every woman who Mary doesn't
+      8 every woman who every woman doesn't
+      8 every woman who a woman doesn't
       8 a woman X is which
       8 a woman who is which
+      8 a woman who every woman doesn't
       8 a woman isn't asked by which
       8 a woman is a friend of which
       8 a woman asks a friend of which
@@ -359,9 +339,7 @@
       4 X asks every woman and isn't
       4 X asks every woman and doesn't
       4 who is X and asks
-      4 who is a woman who a
       4 who asks X and asks
-      4 who asks a woman who a
       4 there is a woman X who isn't
       4 there is a woman X who doesn't
       4 Mary isn't every woman and is
@@ -369,13 +347,9 @@
       4 Mary is every woman X and is
       4 Mary is every woman X and asks
       4 Mary is every woman who isn't
-      4 Mary is every woman who every
       4 Mary is every woman who doesn't
-      4 Mary is every woman who a
       4 Mary is every woman and isn't
       4 Mary is every woman and doesn't
-      4 Mary is a woman who every
-      4 Mary is a woman who a
       4 Mary is asked by every woman and is
       4 Mary is asked by every woman and asks
       4 Mary doesn't ask every woman and is
@@ -383,13 +357,9 @@
       4 Mary asks every woman X and is
       4 Mary asks every woman X and asks
       4 Mary asks every woman who isn't
-      4 Mary asks every woman who every
       4 Mary asks every woman who doesn't
-      4 Mary asks every woman who a
       4 Mary asks every woman and isn't
       4 Mary asks every woman and doesn't
-      4 Mary asks a woman who every
-      4 Mary asks a woman who a
       4 it is false that X is X and is
       4 it is false that X is X and asks
       4 it is false that X is Mary and is
@@ -485,17 +455,13 @@
       4 every woman is every woman X and is
       4 every woman is every woman X and asks
       4 every woman is every woman who isn't
-      4 every woman is every woman who every
       4 every woman is every woman who doesn't
-      4 every woman is every woman who a
       4 every woman is every woman and isn't
       4 every woman is every woman and doesn't
       4 every woman is a woman X and is
       4 every woman is a woman X and asks
       4 every woman is a woman who isn't
-      4 every woman is a woman who every
       4 every woman is a woman who doesn't
-      4 every woman is a woman who a
       4 every woman is a woman and isn't
       4 every woman is a woman and doesn't
       4 every woman is asked by X and is
@@ -521,17 +487,13 @@
       4 every woman asks every woman X and is
       4 every woman asks every woman X and asks
       4 every woman asks every woman who isn't
-      4 every woman asks every woman who every
       4 every woman asks every woman who doesn't
-      4 every woman asks every woman who a
       4 every woman asks every woman and isn't
       4 every woman asks every woman and doesn't
       4 every woman asks a woman X and is
       4 every woman asks a woman X and asks
       4 every woman asks a woman who isn't
-      4 every woman asks a woman who every
       4 every woman asks a woman who doesn't
-      4 every woman asks a woman who a
       4 every woman asks a woman and isn't
       4 every woman asks a woman and doesn't
       4 a woman X is every woman and is
@@ -543,13 +505,9 @@
       4 a woman is every woman X and is
       4 a woman is every woman X and asks
       4 a woman is every woman who isn't
-      4 a woman is every woman who every
       4 a woman is every woman who doesn't
-      4 a woman is every woman who a
       4 a woman is every woman and isn't
       4 a woman is every woman and doesn't
-      4 a woman is a woman who every
-      4 a woman is a woman who a
       4 a woman is asked by every woman and is
       4 a woman is asked by every woman and asks
       4 a woman doesn't ask every woman and is
@@ -557,40 +515,18 @@
       4 a woman asks every woman X and is
       4 a woman asks every woman X and asks
       4 a woman asks every woman who isn't
-      4 a woman asks every woman who every
       4 a woman asks every woman who doesn't
-      4 a woman asks every woman who a
       4 a woman asks every woman and isn't
       4 a woman asks every woman and doesn't
-      4 a woman asks a woman who every
-      4 a woman asks a woman who a
       4 a friend of X is which
-      3 X is every woman who X
-      3 X is every woman who Mary
-      3 X is every woman who every
-      3 X is every woman who a
-      3 X is a woman who X
       3 X is a woman who who
-      3 X is a woman who Mary
-      3 X is a woman who every
-      3 X is a woman who a
-      3 X asks every woman who X
-      3 X asks every woman who Mary
-      3 X asks every woman who every
-      3 X asks every woman who a
-      3 X asks a woman who X
       3 X asks a woman who who
-      3 X asks a woman who Mary
-      3 X asks a woman who every
-      3 X asks a woman who a
       3 who is X and isn't
       3 who is X and doesn't
       3 who is Mary and isn't
       3 who is Mary and doesn't
       3 who is a woman X and is
       3 who is a woman X and asks
-      3 who is a woman who X
-      3 who is a woman who Mary
       3 who is a woman who isn't
       3 who is a woman who doesn't
       3 who is a woman and isn't
@@ -607,47 +543,15 @@
       3 who asks Mary and doesn't
       3 who asks a woman X and is
       3 who asks a woman X and asks
-      3 who asks a woman who X
-      3 who asks a woman who Mary
       3 who asks a woman who isn't
       3 who asks a woman who doesn't
       3 who asks a woman and isn't
       3 who asks a woman and doesn't
-      3 there is a woman X who X
-      3 there is a woman X who Mary
-      3 there is a woman X who every
-      3 there is a woman X who a
-      3 there is a woman who X
-      3 there is a woman who Mary
-      3 Mary is every woman who X
-      3 Mary is every woman who Mary
-      3 Mary is a woman who X
       3 Mary is a woman who who
-      3 Mary is a woman who Mary
-      3 Mary asks every woman who X
-      3 Mary asks every woman who Mary
-      3 Mary asks a woman who X
       3 Mary asks a woman who who
-      3 Mary asks a woman who Mary
       3 exactly 2 women are which
-      3 every woman is every woman who X
-      3 every woman is every woman who Mary
-      3 every woman is a woman who X
-      3 every woman is a woman who Mary
-      3 every woman asks every woman who X
-      3 every woman asks every woman who Mary
-      3 every woman asks a woman who X
-      3 every woman asks a woman who Mary
-      3 a woman is every woman who X
-      3 a woman is every woman who Mary
-      3 a woman is a woman who X
       3 a woman is a woman who who
-      3 a woman is a woman who Mary
-      3 a woman asks every woman who X
-      3 a woman asks every woman who Mary
-      3 a woman asks a woman who X
       3 a woman asks a woman who who
-      3 a woman asks a woman who Mary
       2 X isn't a friend of which
       2 X is a woman who which
       2 X is a woman who is who
@@ -659,8 +563,10 @@
       2 X asks a woman who is who
       2 X asks a woman who asks who
       2 X asks a woman who asks which
-      2 there is a woman who the
-      2 there is a woman who exactly
+      2 there is a woman who X doesn't
+      2 there is a woman who Mary doesn't
+      2 there is a woman who every woman doesn't
+      2 there is a woman who a woman doesn't
       2 Mary isn't a friend of which
       2 Mary is a woman who which
       2 Mary is a woman who is who
@@ -682,6 +588,12 @@
       2 a woman X is a friend of which
       2 a woman X asks a friend of who
       2 a woman X asks a friend of which
+      2 a woman who X asks is who
+      2 a woman who X asks asks who
+      2 a woman who X asks asks which
+      2 a woman who Mary asks is who
+      2 a woman who Mary asks asks who
+      2 a woman who Mary asks asks which
       2 a woman who is X is who
       2 a woman who is X asks who
       2 a woman who is X asks which
@@ -691,6 +603,9 @@
       2 a woman who is a woman is who
       2 a woman who is a woman asks who
       2 a woman who is a woman asks which
+      2 a woman who a woman asks is who
+      2 a woman who a woman asks asks who
+      2 a woman who a woman asks asks which
       2 a woman who asks X is who
       2 a woman who asks X asks who
       2 a woman who asks X asks which
@@ -726,222 +641,101 @@
       2 a friend of a woman is asked by which
       2 a friend of a woman doesn't ask who
       2 a friend of a woman doesn't ask which
-      1 X isn't every woman who X
-      1 X isn't every woman who Mary
-      1 X isn't every woman who every
-      1 X isn't every woman who a
-      1 X isn't a woman who X
       1 X isn't a woman who who
-      1 X isn't a woman who Mary
       1 X isn't a woman who is who
-      1 X isn't a woman who every
       1 X isn't a woman who asks who
-      1 X isn't a woman who a
       1 X isn't asked by who
       1 X isn't asked by a friend of who
       1 X isn't a friend of who
-      1 X is every woman who the
-      1 X is a woman who the
+      1 X is every woman who X doesn't
+      1 X is every woman who Mary doesn't
+      1 X is every woman who every woman doesn't
+      1 X is every woman who a woman doesn't
+      1 X is a woman who X doesn't
+      1 X is a woman who Mary doesn't
       1 X is a woman who is which
       1 X is a woman who is asked by who
-      1 X is asked by every woman who X
-      1 X is asked by every woman who Mary
-      1 X is asked by every woman who every
-      1 X is asked by every woman who a
-      1 X is asked by a woman who X
+      1 X is a woman who every woman doesn't
+      1 X is a woman who a woman doesn't
       1 X is asked by a woman who who
-      1 X is asked by a woman who Mary
       1 X is asked by a woman who is who
-      1 X is asked by a woman who every
       1 X is asked by a woman who asks who
-      1 X is asked by a woman who a
       1 X is asked by a friend of who
       1 X is a friend of who
       1 X is a friend of a friend of who
-      1 X doesn't ask every woman who X
-      1 X doesn't ask every woman who Mary
-      1 X doesn't ask every woman who every
-      1 X doesn't ask every woman who a
-      1 X doesn't ask a woman who X
       1 X doesn't ask a woman who who
-      1 X doesn't ask a woman who Mary
       1 X doesn't ask a woman who is who
-      1 X doesn't ask a woman who every
       1 X doesn't ask a woman who asks who
-      1 X doesn't ask a woman who a
       1 X doesn't ask a friend of who
-      1 X asks every woman who the
-      1 X asks a woman who the
+      1 X asks every woman who X doesn't
+      1 X asks every woman who Mary doesn't
+      1 X asks every woman who every woman doesn't
+      1 X asks every woman who a woman doesn't
+      1 X asks a woman who X doesn't
+      1 X asks a woman who Mary doesn't
       1 X asks a woman who is which
       1 X asks a woman who is asked by who
+      1 X asks a woman who every woman doesn't
+      1 X asks a woman who a woman doesn't
       1 X asks a friend of who
       1 X asks a friend of a friend of who
-      1 who is a woman X who X
-      1 who is a woman X who Mary
-      1 who is a woman X who a
-      1 who is a woman who the
-      1 who is asked by a woman who X
-      1 who is asked by a woman who Mary
-      1 who is asked by a woman who a
-      1 who asks a woman X who X
-      1 who asks a woman X who Mary
-      1 who asks a woman X who a
-      1 who asks a woman who the
-      1 there is a woman X who the
-      1 there is a friend of every woman who X
-      1 there is a friend of every woman who Mary
-      1 there is a friend of every woman who every
-      1 there is a friend of every woman who a
-      1 there is a friend of a woman who X
-      1 there is a friend of a woman who Mary
-      1 there is a friend of a woman who every
-      1 there is a friend of a woman who a
-      1 Mary isn't every woman who X
-      1 Mary isn't every woman who Mary
-      1 Mary isn't every woman who every
-      1 Mary isn't every woman who a
-      1 Mary isn't a woman who X
+      1 who is a woman who X doesn't
+      1 who is a woman who Mary doesn't
+      1 who is a woman who a woman doesn't
+      1 who asks a woman who X doesn't
+      1 who asks a woman who Mary doesn't
+      1 who asks a woman who a woman doesn't
+      1 there is a woman X who X doesn't
+      1 there is a woman X who Mary doesn't
+      1 there is a woman X who every woman doesn't
+      1 there is a woman X who a woman doesn't
+      1 there is a woman who the woman doesn't
+      1 there is a woman who every woman X doesn't
+      1 there is a woman who a woman X doesn't
       1 Mary isn't a woman who who
-      1 Mary isn't a woman who Mary
       1 Mary isn't a woman who is who
-      1 Mary isn't a woman who every
       1 Mary isn't a woman who asks who
-      1 Mary isn't a woman who a
       1 Mary isn't asked by who
       1 Mary isn't asked by a friend of who
       1 Mary isn't a friend of who
-      1 Mary is every woman X who X
-      1 Mary is every woman X who Mary
-      1 Mary is every woman X who every
-      1 Mary is every woman X who a
-      1 Mary is every woman who the
-      1 Mary is a woman X who X
+      1 Mary is every woman who X doesn't
+      1 Mary is every woman who Mary doesn't
+      1 Mary is every woman who every woman doesn't
+      1 Mary is every woman who a woman doesn't
       1 Mary is a woman X who who
-      1 Mary is a woman X who Mary
       1 Mary is a woman X who is who
-      1 Mary is a woman X who every
       1 Mary is a woman X who asks who
-      1 Mary is a woman X who a
-      1 Mary is a woman who the
+      1 Mary is a woman who X doesn't
+      1 Mary is a woman who Mary doesn't
       1 Mary is a woman who is which
       1 Mary is a woman who is asked by who
-      1 Mary is asked by every woman who X
-      1 Mary is asked by every woman who Mary
-      1 Mary is asked by every woman who every
-      1 Mary is asked by every woman who a
-      1 Mary is asked by a woman who X
+      1 Mary is a woman who every woman doesn't
+      1 Mary is a woman who a woman doesn't
       1 Mary is asked by a woman who who
-      1 Mary is asked by a woman who Mary
       1 Mary is asked by a woman who is who
-      1 Mary is asked by a woman who every
       1 Mary is asked by a woman who asks who
-      1 Mary is asked by a woman who a
       1 Mary is asked by a friend of who
       1 Mary is a friend of who
       1 Mary is a friend of a friend of who
-      1 Mary doesn't ask every woman who X
-      1 Mary doesn't ask every woman who Mary
-      1 Mary doesn't ask every woman who every
-      1 Mary doesn't ask every woman who a
-      1 Mary doesn't ask a woman who X
       1 Mary doesn't ask a woman who who
-      1 Mary doesn't ask a woman who Mary
       1 Mary doesn't ask a woman who is who
-      1 Mary doesn't ask a woman who every
       1 Mary doesn't ask a woman who asks who
-      1 Mary doesn't ask a woman who a
       1 Mary doesn't ask a friend of who
-      1 Mary asks every woman X who X
-      1 Mary asks every woman X who Mary
-      1 Mary asks every woman X who every
-      1 Mary asks every woman X who a
-      1 Mary asks every woman who the
-      1 Mary asks a woman X who X
+      1 Mary asks every woman who X doesn't
+      1 Mary asks every woman who Mary doesn't
+      1 Mary asks every woman who every woman doesn't
+      1 Mary asks every woman who a woman doesn't
       1 Mary asks a woman X who who
-      1 Mary asks a woman X who Mary
       1 Mary asks a woman X who is who
-      1 Mary asks a woman X who every
       1 Mary asks a woman X who asks who
-      1 Mary asks a woman X who a
-      1 Mary asks a woman who the
+      1 Mary asks a woman who X doesn't
+      1 Mary asks a woman who Mary doesn't
       1 Mary asks a woman who is which
       1 Mary asks a woman who is asked by who
+      1 Mary asks a woman who every woman doesn't
+      1 Mary asks a woman who a woman doesn't
       1 Mary asks a friend of who
       1 Mary asks a friend of a friend of who
-      1 it is false that X is every woman who X
-      1 it is false that X is every woman who Mary
-      1 it is false that X is every woman who every
-      1 it is false that X is every woman who a
-      1 it is false that X is a woman who X
-      1 it is false that X is a woman who Mary
-      1 it is false that X is a woman who every
-      1 it is false that X is a woman who a
-      1 it is false that X asks every woman who X
-      1 it is false that X asks every woman who Mary
-      1 it is false that X asks every woman who every
-      1 it is false that X asks every woman who a
-      1 it is false that X asks a woman who X
-      1 it is false that X asks a woman who Mary
-      1 it is false that X asks a woman who every
-      1 it is false that X asks a woman who a
-      1 it is false that Mary is every woman who X
-      1 it is false that Mary is every woman who Mary
-      1 it is false that Mary is every woman who every
-      1 it is false that Mary is every woman who a
-      1 it is false that Mary is a woman who X
-      1 it is false that Mary is a woman who Mary
-      1 it is false that Mary is a woman who every
-      1 it is false that Mary is a woman who a
-      1 it is false that Mary asks every woman who X
-      1 it is false that Mary asks every woman who Mary
-      1 it is false that Mary asks every woman who every
-      1 it is false that Mary asks every woman who a
-      1 it is false that Mary asks a woman who X
-      1 it is false that Mary asks a woman who Mary
-      1 it is false that Mary asks a woman who every
-      1 it is false that Mary asks a woman who a
-      1 it is false that every woman is every woman who X
-      1 it is false that every woman is every woman who Mary
-      1 it is false that every woman is every woman who every
-      1 it is false that every woman is every woman who a
-      1 it is false that every woman is a woman who X
-      1 it is false that every woman is a woman who Mary
-      1 it is false that every woman is a woman who every
-      1 it is false that every woman is a woman who a
-      1 it is false that every woman asks every woman who X
-      1 it is false that every woman asks every woman who Mary
-      1 it is false that every woman asks every woman who every
-      1 it is false that every woman asks every woman who a
-      1 it is false that every woman asks a woman who X
-      1 it is false that every woman asks a woman who Mary
-      1 it is false that every woman asks a woman who every
-      1 it is false that every woman asks a woman who a
-      1 it is false that a woman is every woman who X
-      1 it is false that a woman is every woman who Mary
-      1 it is false that a woman is every woman who every
-      1 it is false that a woman is every woman who a
-      1 it is false that a woman is a woman who X
-      1 it is false that a woman is a woman who Mary
-      1 it is false that a woman is a woman who every
-      1 it is false that a woman is a woman who a
-      1 it is false that a woman asks every woman who X
-      1 it is false that a woman asks every woman who Mary
-      1 it is false that a woman asks every woman who every
-      1 it is false that a woman asks every woman who a
-      1 it is false that a woman asks a woman who X
-      1 it is false that a woman asks a woman who Mary
-      1 it is false that a woman asks a woman who every
-      1 it is false that a woman asks a woman who a
-      1 for every woman who X
-      1 for every woman who the
-      1 for every woman who Mary
-      1 for every woman who every
-      1 for every woman who a
-      1 for every woman there is a woman who X
-      1 for every woman there is a woman who the
-      1 for every woman there is a woman who Mary
-      1 for every woman there is a woman who every
-      1 for every woman there is a woman who a
       1 exactly 2 women don't ask who
       1 exactly 2 women ask who
       1 exactly 2 women ask a friend of who
@@ -957,72 +751,34 @@
       1 exactly 1 woman doesn't ask who
       1 exactly 1 woman asks who
       1 exactly 1 woman asks a friend of who
-      1 every woman X is every woman who X
-      1 every woman X is every woman who Mary
-      1 every woman X is every woman who every
-      1 every woman X is every woman who a
-      1 every woman X is a woman who X
-      1 every woman X is a woman who Mary
-      1 every woman X is a woman who every
-      1 every woman X is a woman who a
-      1 every woman X asks every woman who X
-      1 every woman X asks every woman who Mary
-      1 every woman X asks every woman who every
-      1 every woman X asks every woman who a
-      1 every woman X asks a woman who X
-      1 every woman X asks a woman who Mary
-      1 every woman X asks a woman who every
-      1 every woman X asks a woman who a
-      1 every woman isn't every woman who X
-      1 every woman isn't every woman who Mary
-      1 every woman isn't every woman who every
-      1 every woman isn't every woman who a
-      1 every woman isn't a woman who X
-      1 every woman isn't a woman who Mary
-      1 every woman isn't a woman who every
-      1 every woman isn't a woman who a
-      1 every woman is every woman X who X
-      1 every woman is every woman X who Mary
-      1 every woman is every woman X who every
-      1 every woman is every woman X who a
-      1 every woman is every woman who the
-      1 every woman is a woman X who X
-      1 every woman is a woman X who Mary
-      1 every woman is a woman X who every
-      1 every woman is a woman X who a
-      1 every woman is a woman who the
-      1 every woman is asked by every woman who X
-      1 every woman is asked by every woman who Mary
-      1 every woman is asked by every woman who every
-      1 every woman is asked by every woman who a
-      1 every woman is asked by a woman who X
-      1 every woman is asked by a woman who Mary
-      1 every woman is asked by a woman who every
-      1 every woman is asked by a woman who a
-      1 every woman doesn't ask every woman who X
-      1 every woman doesn't ask every woman who Mary
-      1 every woman doesn't ask every woman who every
-      1 every woman doesn't ask every woman who a
-      1 every woman doesn't ask a woman who X
-      1 every woman doesn't ask a woman who Mary
-      1 every woman doesn't ask a woman who every
-      1 every woman doesn't ask a woman who a
-      1 every woman asks every woman X who X
-      1 every woman asks every woman X who Mary
-      1 every woman asks every woman X who every
-      1 every woman asks every woman X who a
-      1 every woman asks every woman who the
-      1 every woman asks a woman X who X
-      1 every woman asks a woman X who Mary
-      1 every woman asks a woman X who every
-      1 every woman asks a woman X who a
-      1 every woman asks a woman who the
+      1 every woman is every woman who X doesn't
+      1 every woman is every woman who Mary doesn't
+      1 every woman is every woman who every woman doesn't
+      1 every woman is every woman who a woman doesn't
+      1 every woman is a woman who X doesn't
+      1 every woman is a woman who Mary doesn't
+      1 every woman is a woman who every woman doesn't
+      1 every woman is a woman who a woman doesn't
+      1 every woman asks every woman who X doesn't
+      1 every woman asks every woman who Mary doesn't
+      1 every woman asks every woman who every woman doesn't
+      1 every woman asks every woman who a woman doesn't
+      1 every woman asks a woman who X doesn't
+      1 every woman asks a woman who Mary doesn't
+      1 every woman asks a woman who every woman doesn't
+      1 every woman asks a woman who a woman doesn't
+      1 a woman X who X asks is who
+      1 a woman X who X asks asks who
+      1 a woman X who Mary asks is who
+      1 a woman X who Mary asks asks who
       1 a woman X who is X is who
       1 a woman X who is X asks who
       1 a woman X who is Mary is who
       1 a woman X who is Mary asks who
       1 a woman X who is a woman is who
       1 a woman X who is a woman asks who
+      1 a woman X who a woman asks is who
+      1 a woman X who a woman asks asks who
       1 a woman X who asks X is who
       1 a woman X who asks X asks who
       1 a woman X who asks Mary is who
@@ -1031,32 +787,26 @@
       1 a woman X who asks a woman asks who
       1 a woman X isn't who
       1 a woman X isn't a friend of who
-      1 a woman X is every woman who X
-      1 a woman X is every woman who Mary
-      1 a woman X is every woman who every
-      1 a woman X is every woman who a
-      1 a woman X is a woman who X
       1 a woman X is a woman who who
-      1 a woman X is a woman who Mary
       1 a woman X is a woman who is who
-      1 a woman X is a woman who every
       1 a woman X is a woman who asks who
-      1 a woman X is a woman who a
       1 a woman X is asked by who
       1 a woman X is asked by a friend of who
       1 a woman X doesn't ask who
       1 a woman X doesn't ask a friend of who
-      1 a woman X asks every woman who X
-      1 a woman X asks every woman who Mary
-      1 a woman X asks every woman who every
-      1 a woman X asks every woman who a
-      1 a woman X asks a woman who X
       1 a woman X asks a woman who who
-      1 a woman X asks a woman who Mary
       1 a woman X asks a woman who is who
-      1 a woman X asks a woman who every
       1 a woman X asks a woman who asks who
-      1 a woman X asks a woman who a
+      1 a woman who X asks is which
+      1 a woman who X asks isn't who
+      1 a woman who X asks is asked by who
+      1 a woman who X asks doesn't ask who
+      1 a woman who the woman asks is who
+      1 a woman who the woman asks asks who
+      1 a woman who Mary asks is which
+      1 a woman who Mary asks isn't who
+      1 a woman who Mary asks is asked by who
+      1 a woman who Mary asks doesn't ask who
       1 a woman who is X is which
       1 a woman who is X isn't who
       1 a woman who is X is asked by who
@@ -1079,6 +829,12 @@
       1 a woman who is asked by Mary asks who
       1 a woman who is asked by a woman is who
       1 a woman who is asked by a woman asks who
+      1 a woman who a woman X asks is who
+      1 a woman who a woman X asks asks who
+      1 a woman who a woman asks is which
+      1 a woman who a woman asks isn't who
+      1 a woman who a woman asks is asked by who
+      1 a woman who a woman asks doesn't ask who
       1 a woman who asks X is which
       1 a woman who asks X isn't who
       1 a woman who asks X is asked by who
@@ -1095,73 +851,45 @@
       1 a woman who asks a woman isn't who
       1 a woman who asks a woman is asked by who
       1 a woman who asks a woman doesn't ask who
-      1 a woman isn't every woman who X
-      1 a woman isn't every woman who Mary
-      1 a woman isn't every woman who every
-      1 a woman isn't every woman who a
-      1 a woman isn't a woman who X
       1 a woman isn't a woman who who
-      1 a woman isn't a woman who Mary
       1 a woman isn't a woman who is who
-      1 a woman isn't a woman who every
       1 a woman isn't a woman who asks who
-      1 a woman isn't a woman who a
       1 a woman isn't asked by who
       1 a woman isn't asked by a friend of who
-      1 a woman is every woman X who X
-      1 a woman is every woman X who Mary
-      1 a woman is every woman X who every
-      1 a woman is every woman X who a
-      1 a woman is every woman who the
-      1 a woman is a woman X who X
+      1 a woman is every woman who X doesn't
+      1 a woman is every woman who Mary doesn't
+      1 a woman is every woman who every woman doesn't
+      1 a woman is every woman who a woman doesn't
       1 a woman is a woman X who who
-      1 a woman is a woman X who Mary
       1 a woman is a woman X who is who
-      1 a woman is a woman X who every
       1 a woman is a woman X who asks who
-      1 a woman is a woman X who a
-      1 a woman is a woman who the
+      1 a woman is a woman who X doesn't
+      1 a woman is a woman who Mary doesn't
       1 a woman is a woman who is which
       1 a woman is a woman who is asked by who
-      1 a woman is asked by every woman who X
-      1 a woman is asked by every woman who Mary
-      1 a woman is asked by every woman who every
-      1 a woman is asked by every woman who a
-      1 a woman is asked by a woman who X
+      1 a woman is a woman who every woman doesn't
+      1 a woman is a woman who a woman doesn't
       1 a woman is asked by a woman who who
-      1 a woman is asked by a woman who Mary
       1 a woman is asked by a woman who is who
-      1 a woman is asked by a woman who every
       1 a woman is asked by a woman who asks who
-      1 a woman is asked by a woman who a
       1 a woman is a friend of who
       1 a woman is a friend of a friend of who
-      1 a woman doesn't ask every woman who X
-      1 a woman doesn't ask every woman who Mary
-      1 a woman doesn't ask every woman who every
-      1 a woman doesn't ask every woman who a
-      1 a woman doesn't ask a woman who X
       1 a woman doesn't ask a woman who who
-      1 a woman doesn't ask a woman who Mary
       1 a woman doesn't ask a woman who is who
-      1 a woman doesn't ask a woman who every
       1 a woman doesn't ask a woman who asks who
-      1 a woman doesn't ask a woman who a
-      1 a woman asks every woman X who X
-      1 a woman asks every woman X who Mary
-      1 a woman asks every woman X who every
-      1 a woman asks every woman X who a
-      1 a woman asks every woman who the
-      1 a woman asks a woman X who X
+      1 a woman asks every woman who X doesn't
+      1 a woman asks every woman who Mary doesn't
+      1 a woman asks every woman who every woman doesn't
+      1 a woman asks every woman who a woman doesn't
       1 a woman asks a woman X who who
-      1 a woman asks a woman X who Mary
       1 a woman asks a woman X who is who
-      1 a woman asks a woman X who every
       1 a woman asks a woman X who asks who
-      1 a woman asks a woman X who a
-      1 a woman asks a woman who the
+      1 a woman asks a woman who X doesn't
+      1 a woman asks a woman who Mary doesn't
       1 a woman asks a woman who is which
       1 a woman asks a woman who is asked by who
+      1 a woman asks a woman who every woman doesn't
+      1 a woman asks a woman who a woman doesn't
       1 a woman asks a friend of who
       1 a woman asks a friend of a friend of who
       1 a friend of X is who

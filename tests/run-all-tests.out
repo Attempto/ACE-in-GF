@@ -1,0 +1,16 @@
+Testing: tests/acewiki_aceowl
+ok: 5814
+FAIL: 13904
+
+Testing: tests/geo
+ok: 0
+FAIL: 835
+
+Testing: tests/acewiki_aceowl_modif
+ok: 9356
+FAIL: 6438
+
+Testing: tests/ace
+ok: 421
+FAIL: 2351
+

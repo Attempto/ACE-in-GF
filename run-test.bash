@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # @author Kaarel Kaljurand
-# @version 2012-02-24
+# @version 2012-04-04
 
 prog="Parser"
 testset="tests/ace/sentences.txt"
 pgf="ACE-0_0_2.pgf"
+lang="TestAttemptoAce"
 
 
 if [ $# -eq 2 ]
@@ -23,7 +24,7 @@ fi
 out="test_out.txt"
 out_fail="test_out_fail.txt"
 
-time (cat $1 | ./${prog} $pgf  > $out)
+time (cat $1 | ./${prog} $pgf $lang > $out)
 
 echo "Parsed:"
 cat $out | grep "|OK" | wc -l

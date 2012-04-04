@@ -8,24 +8,24 @@ module Main where
 --
 -- Usage example:
 --
--- $ echo -e "John asks Mary .\nJohn aasks Mary ." | ./Parser TestAttempto.pgf
+-- $ echo -e "John asks Mary .\nJohn aasks Mary ." | ./Parser ACE-0_0_2.pgf TestAttemptoAce
 -- John asks Mary .|OK
 -- John aasks Mary .|FAIL John aasks
 -- Parser: <stdin>: hGetLine: end of file
 
 -- TODO: maybe the simple tokenizer `words` is not the best choice
--- TOOD: how to properly obtain `Language` (corresponding to English)
 -- TODO: how to suppress the "end of file" error
 -- TODO: what does "Just 4" mean?
 
 import PGF
+import Data.Maybe
 import System (getArgs)
 
 main :: IO ()
 main = do
-	file:_ <- getArgs
+	file:lang:_ <- getArgs
 	pgf    <- readPGF file
-	loop (parseResult pgf (getEng pgf))
+	loop (parseResult pgf (fromJust (readLanguage lang)))
 
 loop :: (String -> String) -> IO ()
 loop trans = do
@@ -41,8 +41,8 @@ parseResult pgf lang s =
 		(ParseOk trees, _) -> "|OK"
 		_ -> "|FAIL"
 
--- TODO: we hope that this always returns "English"
--- Could we instead use a constant, e.g. Language.Eng?
+-- (Unused)
+-- Returns the first language in the PGF
 getEng :: PGF -> Language
 getEng pgf =
 	case languages pgf of

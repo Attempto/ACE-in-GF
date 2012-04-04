@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # @author Kaarel Kaljurand
-# @version 2012-02-07
+# @version 2012-04-04
 
 parser="Parser"
 
 pgf="ACE-0_0_2.pgf"
+lang="TestAttemptoAce"
 tests=tests
 
 test_out="test_out.txt"
@@ -17,7 +18,7 @@ do
 	in="${dir}/sentences.txt"
 	out="${dir}/${test_out}"
 
-	time ./${parser} $pgf < $in > $out
+	time ./${parser} $pgf $lang < $in > $out
 
 	echo -n "ok: "
 	cat $out | grep "|OK" | wc -l

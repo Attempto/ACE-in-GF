@@ -1308,16 +1308,16 @@ a  woman  who  asks  X  is  somebody  .|OK
 a  woman  who  asks  X  is  the woman  .|OK
 a  woman  who  asks  X  is  who  ?|FAIL a woman who asks X is who
 a  woman  who  asks  X  is  X  .|OK
-a  woman  who  everybody  asks  asks  everybody  .|FAIL a woman who everybody
-a  woman  who  everybody  asks  asks  Mary  .|FAIL a woman who everybody
-a  woman  who  everybody  asks  asks  somebody  .|FAIL a woman who everybody
-a  woman  who  everybody  asks  asks  the woman  .|FAIL a woman who everybody
-a  woman  who  everybody  asks  asks  X  .|FAIL a woman who everybody
-a  woman  who  everybody  asks  is  everybody  .|FAIL a woman who everybody
-a  woman  who  everybody  asks  is  Mary  .|FAIL a woman who everybody
-a  woman  who  everybody  asks  is  somebody  .|FAIL a woman who everybody
-a  woman  who  everybody  asks  is  the woman  .|FAIL a woman who everybody
-a  woman  who  everybody  asks  is  X  .|FAIL a woman who everybody
+a  woman  who  everybody  asks  asks  everybody  .|OK
+a  woman  who  everybody  asks  asks  Mary  .|OK
+a  woman  who  everybody  asks  asks  somebody  .|OK
+a  woman  who  everybody  asks  asks  the woman  .|OK
+a  woman  who  everybody  asks  asks  X  .|OK
+a  woman  who  everybody  asks  is  everybody  .|OK
+a  woman  who  everybody  asks  is  Mary  .|OK
+a  woman  who  everybody  asks  is  somebody  .|OK
+a  woman  who  everybody  asks  is  the woman  .|OK
+a  woman  who  everybody  asks  is  X  .|OK
 a  woman  who  is  everybody  asks  everybody  .|OK
 a  woman  who  is  everybody  asks  Mary  .|OK
 a  woman  who  is  everybody  asks  somebody  .|OK
@@ -1384,42 +1384,42 @@ a  woman  who  is  X  is  somebody  .|OK
 a  woman  who  is  X  is  the woman  .|OK
 a  woman  who  is  X  is  who  ?|FAIL a woman who is X is who
 a  woman  who  is  X  is  X  .|OK
-a  woman  who  Mary  asks  asks  everybody  .|FAIL a woman who Mary
-a  woman  who  Mary  asks  asks  Mary  .|FAIL a woman who Mary
-a  woman  who  Mary  asks  asks  somebody  .|FAIL a woman who Mary
-a  woman  who  Mary  asks  asks  the woman  .|FAIL a woman who Mary
-a  woman  who  Mary  asks  asks  who  ?|FAIL a woman who Mary
-a  woman  who  Mary  asks  asks  X  .|FAIL a woman who Mary
-a  woman  who  Mary  asks  is  everybody  .|FAIL a woman who Mary
-a  woman  who  Mary  asks  is  Mary  .|FAIL a woman who Mary
-a  woman  who  Mary  asks  is  somebody  .|FAIL a woman who Mary
-a  woman  who  Mary  asks  is  the woman  .|FAIL a woman who Mary
-a  woman  who  Mary  asks  is  who  ?|FAIL a woman who Mary
-a  woman  who  Mary  asks  is  X  .|FAIL a woman who Mary
-a  woman  who  somebody  asks  asks  everybody  .|FAIL a woman who somebody
-a  woman  who  somebody  asks  asks  Mary  .|FAIL a woman who somebody
-a  woman  who  somebody  asks  asks  somebody  .|FAIL a woman who somebody
-a  woman  who  somebody  asks  asks  the woman  .|FAIL a woman who somebody
-a  woman  who  somebody  asks  asks  who  ?|FAIL a woman who somebody
-a  woman  who  somebody  asks  asks  X  .|FAIL a woman who somebody
-a  woman  who  somebody  asks  is  everybody  .|FAIL a woman who somebody
-a  woman  who  somebody  asks  is  Mary  .|FAIL a woman who somebody
-a  woman  who  somebody  asks  is  somebody  .|FAIL a woman who somebody
-a  woman  who  somebody  asks  is  the woman  .|FAIL a woman who somebody
-a  woman  who  somebody  asks  is  who  ?|FAIL a woman who somebody
-a  woman  who  somebody  asks  is  X  .|FAIL a woman who somebody
-a  woman  who  the woman  asks  asks  everybody  .|FAIL a woman who the
-a  woman  who  the woman  asks  asks  Mary  .|FAIL a woman who the
-a  woman  who  the woman  asks  asks  somebody  .|FAIL a woman who the
-a  woman  who  the woman  asks  asks  the woman  .|FAIL a woman who the
-a  woman  who  the woman  asks  asks  who  ?|FAIL a woman who the
-a  woman  who  the woman  asks  asks  X  .|FAIL a woman who the
-a  woman  who  the woman  asks  is  everybody  .|FAIL a woman who the
-a  woman  who  the woman  asks  is  Mary  .|FAIL a woman who the
-a  woman  who  the woman  asks  is  somebody  .|FAIL a woman who the
-a  woman  who  the woman  asks  is  the woman  .|FAIL a woman who the
-a  woman  who  the woman  asks  is  who  ?|FAIL a woman who the
-a  woman  who  the woman  asks  is  X  .|FAIL a woman who the
+a  woman  who  Mary  asks  asks  everybody  .|OK
+a  woman  who  Mary  asks  asks  Mary  .|OK
+a  woman  who  Mary  asks  asks  somebody  .|OK
+a  woman  who  Mary  asks  asks  the woman  .|OK
+a  woman  who  Mary  asks  asks  who  ?|FAIL a woman who Mary asks asks who
+a  woman  who  Mary  asks  asks  X  .|OK
+a  woman  who  Mary  asks  is  everybody  .|OK
+a  woman  who  Mary  asks  is  Mary  .|OK
+a  woman  who  Mary  asks  is  somebody  .|OK
+a  woman  who  Mary  asks  is  the woman  .|OK
+a  woman  who  Mary  asks  is  who  ?|FAIL a woman who Mary asks is who
+a  woman  who  Mary  asks  is  X  .|OK
+a  woman  who  somebody  asks  asks  everybody  .|OK
+a  woman  who  somebody  asks  asks  Mary  .|OK
+a  woman  who  somebody  asks  asks  somebody  .|OK
+a  woman  who  somebody  asks  asks  the woman  .|OK
+a  woman  who  somebody  asks  asks  who  ?|FAIL a woman who somebody asks asks who
+a  woman  who  somebody  asks  asks  X  .|OK
+a  woman  who  somebody  asks  is  everybody  .|OK
+a  woman  who  somebody  asks  is  Mary  .|OK
+a  woman  who  somebody  asks  is  somebody  .|OK
+a  woman  who  somebody  asks  is  the woman  .|OK
+a  woman  who  somebody  asks  is  who  ?|FAIL a woman who somebody asks is who
+a  woman  who  somebody  asks  is  X  .|OK
+a  woman  who  the woman  asks  asks  everybody  .|OK
+a  woman  who  the woman  asks  asks  Mary  .|OK
+a  woman  who  the woman  asks  asks  somebody  .|OK
+a  woman  who  the woman  asks  asks  the woman  .|OK
+a  woman  who  the woman  asks  asks  who  ?|FAIL a woman who the woman asks asks who
+a  woman  who  the woman  asks  asks  X  .|OK
+a  woman  who  the woman  asks  is  everybody  .|OK
+a  woman  who  the woman  asks  is  Mary  .|OK
+a  woman  who  the woman  asks  is  somebody  .|OK
+a  woman  who  the woman  asks  is  the woman  .|OK
+a  woman  who  the woman  asks  is  who  ?|FAIL a woman who the woman asks is who
+a  woman  who  the woman  asks  is  X  .|OK
 a  woman  who  who  asks  asks  Mary  ?|FAIL a woman who who
 a  woman  who  who  asks  asks  somebody  ?|FAIL a woman who who
 a  woman  who  who  asks  asks  the woman  ?|FAIL a woman who who
@@ -1428,18 +1428,18 @@ a  woman  who  who  asks  is  Mary  ?|FAIL a woman who who
 a  woman  who  who  asks  is  somebody  ?|FAIL a woman who who
 a  woman  who  who  asks  is  the woman  ?|FAIL a woman who who
 a  woman  who  who  asks  is  X  ?|FAIL a woman who who
-a  woman  who  X  asks  asks  everybody  .|FAIL a woman who X
-a  woman  who  X  asks  asks  Mary  .|FAIL a woman who X
-a  woman  who  X  asks  asks  somebody  .|FAIL a woman who X
-a  woman  who  X  asks  asks  the woman  .|FAIL a woman who X
-a  woman  who  X  asks  asks  who  ?|FAIL a woman who X
-a  woman  who  X  asks  asks  X  .|FAIL a woman who X
-a  woman  who  X  asks  is  everybody  .|FAIL a woman who X
-a  woman  who  X  asks  is  Mary  .|FAIL a woman who X
-a  woman  who  X  asks  is  somebody  .|FAIL a woman who X
-a  woman  who  X  asks  is  the woman  .|FAIL a woman who X
-a  woman  who  X  asks  is  who  ?|FAIL a woman who X
-a  woman  who  X  asks  is  X  .|FAIL a woman who X
+a  woman  who  X  asks  asks  everybody  .|OK
+a  woman  who  X  asks  asks  Mary  .|OK
+a  woman  who  X  asks  asks  somebody  .|OK
+a  woman  who  X  asks  asks  the woman  .|OK
+a  woman  who  X  asks  asks  who  ?|FAIL a woman who X asks asks who
+a  woman  who  X  asks  asks  X  .|OK
+a  woman  who  X  asks  is  everybody  .|OK
+a  woman  who  X  asks  is  Mary  .|OK
+a  woman  who  X  asks  is  somebody  .|OK
+a  woman  who  X  asks  is  the woman  .|OK
+a  woman  who  X  asks  is  who  ?|FAIL a woman who X asks is who
+a  woman  who  X  asks  is  X  .|OK
 a  woman  X  asks  a  friend of  everybody  .|OK
 a  woman  X  asks  a  friend of  Mary  .|OK
 a  woman  X  asks  a  friend of  somebody  .|OK
@@ -1585,16 +1585,16 @@ everybody  asks  a  woman  who  asks  Mary  .|OK
 everybody  asks  a  woman  who  asks  somebody  .|OK
 everybody  asks  a  woman  who  asks  the woman  .|OK
 everybody  asks  a  woman  who  asks  X  .|OK
-everybody  asks  a  woman  who  everybody  asks  .|FAIL everybody asks a woman who everybody
+everybody  asks  a  woman  who  everybody  asks  .|OK
 everybody  asks  a  woman  who  is  everybody  .|OK
 everybody  asks  a  woman  who  is  Mary  .|OK
 everybody  asks  a  woman  who  is  somebody  .|OK
 everybody  asks  a  woman  who  is  the woman  .|OK
 everybody  asks  a  woman  who  is  X  .|OK
-everybody  asks  a  woman  who  Mary  asks  .|FAIL everybody asks a woman who Mary
-everybody  asks  a  woman  who  somebody  asks  .|FAIL everybody asks a woman who somebody
-everybody  asks  a  woman  who  the woman  asks  .|FAIL everybody asks a woman who the
-everybody  asks  a  woman  who  X  asks  .|FAIL everybody asks a woman who X
+everybody  asks  a  woman  who  Mary  asks  .|OK
+everybody  asks  a  woman  who  somebody  asks  .|OK
+everybody  asks  a  woman  who  the woman  asks  .|OK
+everybody  asks  a  woman  who  X  asks  .|OK
 everybody  asks  a  woman  X  .    |OK
 everybody  asks  everybody  .        |OK
 everybody  asks  everybody  and  asks  a  woman  .|FAIL everybody asks everybody and asks
@@ -1765,16 +1765,16 @@ everybody  asks  every  woman  who  asks  Mary  .|OK
 everybody  asks  every  woman  who  asks  somebody  .|OK
 everybody  asks  every  woman  who  asks  the woman  .|OK
 everybody  asks  every  woman  who  asks  X  .|OK
-everybody  asks  every  woman  who  everybody  asks  .|FAIL everybody asks every woman who everybody
+everybody  asks  every  woman  who  everybody  asks  .|OK
 everybody  asks  every  woman  who  is  everybody  .|OK
 everybody  asks  every  woman  who  is  Mary  .|OK
 everybody  asks  every  woman  who  is  somebody  .|OK
 everybody  asks  every  woman  who  is  the woman  .|OK
 everybody  asks  every  woman  who  is  X  .|OK
-everybody  asks  every  woman  who  Mary  asks  .|FAIL everybody asks every woman who Mary
-everybody  asks  every  woman  who  somebody  asks  .|FAIL everybody asks every woman who somebody
-everybody  asks  every  woman  who  the woman  asks  .|FAIL everybody asks every woman who the
-everybody  asks  every  woman  who  X  asks  .|FAIL everybody asks every woman who X
+everybody  asks  every  woman  who  Mary  asks  .|OK
+everybody  asks  every  woman  who  somebody  asks  .|OK
+everybody  asks  every  woman  who  the woman  asks  .|OK
+everybody  asks  every  woman  who  X  asks  .|OK
 everybody  asks  every  woman  X  .    |OK
 everybody  asks  exactly  1  woman  .    |OK
 everybody  asks  exactly  2  women  .    |OK
@@ -2325,16 +2325,16 @@ everybody  is  a  woman  who  asks  Mary  .|OK
 everybody  is  a  woman  who  asks  somebody  .|OK
 everybody  is  a  woman  who  asks  the woman  .|OK
 everybody  is  a  woman  who  asks  X  .|OK
-everybody  is  a  woman  who  everybody  asks  .|FAIL everybody is a woman who everybody
+everybody  is  a  woman  who  everybody  asks  .|OK
 everybody  is  a  woman  who  is  everybody  .|OK
 everybody  is  a  woman  who  is  Mary  .|OK
 everybody  is  a  woman  who  is  somebody  .|OK
 everybody  is  a  woman  who  is  the woman  .|OK
 everybody  is  a  woman  who  is  X  .|OK
-everybody  is  a  woman  who  Mary  asks  .|FAIL everybody is a woman who Mary
-everybody  is  a  woman  who  somebody  asks  .|FAIL everybody is a woman who somebody
-everybody  is  a  woman  who  the woman  asks  .|FAIL everybody is a woman who the
-everybody  is  a  woman  who  X  asks  .|FAIL everybody is a woman who X
+everybody  is  a  woman  who  Mary  asks  .|OK
+everybody  is  a  woman  who  somebody  asks  .|OK
+everybody  is  a  woman  who  the woman  asks  .|OK
+everybody  is  a  woman  who  X  asks  .|OK
 everybody  is  a  woman  X  .    |OK
 everybody  is  everybody  .        |OK
 everybody  is  everybody  and  asks  a  woman  .|FAIL everybody is everybody and asks
@@ -2505,16 +2505,16 @@ everybody  is  every  woman  who  asks  Mary  .|OK
 everybody  is  every  woman  who  asks  somebody  .|OK
 everybody  is  every  woman  who  asks  the woman  .|OK
 everybody  is  every  woman  who  asks  X  .|OK
-everybody  is  every  woman  who  everybody  asks  .|FAIL everybody is every woman who everybody
+everybody  is  every  woman  who  everybody  asks  .|OK
 everybody  is  every  woman  who  is  everybody  .|OK
 everybody  is  every  woman  who  is  Mary  .|OK
 everybody  is  every  woman  who  is  somebody  .|OK
 everybody  is  every  woman  who  is  the woman  .|OK
 everybody  is  every  woman  who  is  X  .|OK
-everybody  is  every  woman  who  Mary  asks  .|FAIL everybody is every woman who Mary
-everybody  is  every  woman  who  somebody  asks  .|FAIL everybody is every woman who somebody
-everybody  is  every  woman  who  the woman  asks  .|FAIL everybody is every woman who the
-everybody  is  every  woman  who  X  asks  .|FAIL everybody is every woman who X
+everybody  is  every  woman  who  Mary  asks  .|OK
+everybody  is  every  woman  who  somebody  asks  .|OK
+everybody  is  every  woman  who  the woman  asks  .|OK
+everybody  is  every  woman  who  X  asks  .|OK
 everybody  is  every  woman  X  .    |OK
 everybody  is  mad-about  a  friend of  a  woman  .|FAIL everybody is mad-about
 everybody  is  mad-about  a  friend of  everybody  .  |FAIL everybody is mad-about
@@ -4994,16 +4994,16 @@ every  woman  who  asks  X  is  Mary  .|OK
 every  woman  who  asks  X  is  somebody  .|OK
 every  woman  who  asks  X  is  the woman  .|OK
 every  woman  who  asks  X  is  X  .|OK
-every  woman  who  everybody  asks  asks  everybody  .|FAIL every woman who everybody
-every  woman  who  everybody  asks  asks  Mary  .|FAIL every woman who everybody
-every  woman  who  everybody  asks  asks  somebody  .|FAIL every woman who everybody
-every  woman  who  everybody  asks  asks  the woman  .|FAIL every woman who everybody
-every  woman  who  everybody  asks  asks  X  .|FAIL every woman who everybody
-every  woman  who  everybody  asks  is  everybody  .|FAIL every woman who everybody
-every  woman  who  everybody  asks  is  Mary  .|FAIL every woman who everybody
-every  woman  who  everybody  asks  is  somebody  .|FAIL every woman who everybody
-every  woman  who  everybody  asks  is  the woman  .|FAIL every woman who everybody
-every  woman  who  everybody  asks  is  X  .|FAIL every woman who everybody
+every  woman  who  everybody  asks  asks  everybody  .|OK
+every  woman  who  everybody  asks  asks  Mary  .|OK
+every  woman  who  everybody  asks  asks  somebody  .|OK
+every  woman  who  everybody  asks  asks  the woman  .|OK
+every  woman  who  everybody  asks  asks  X  .|OK
+every  woman  who  everybody  asks  is  everybody  .|OK
+every  woman  who  everybody  asks  is  Mary  .|OK
+every  woman  who  everybody  asks  is  somebody  .|OK
+every  woman  who  everybody  asks  is  the woman  .|OK
+every  woman  who  everybody  asks  is  X  .|OK
 every  woman  who  is  everybody  asks  everybody  .|OK
 every  woman  who  is  everybody  asks  Mary  .|OK
 every  woman  who  is  everybody  asks  somebody  .|OK
@@ -5054,46 +5054,46 @@ every  woman  who  is  X  is  Mary  .|OK
 every  woman  who  is  X  is  somebody  .|OK
 every  woman  who  is  X  is  the woman  .|OK
 every  woman  who  is  X  is  X  .|OK
-every  woman  who  Mary  asks  asks  everybody  .|FAIL every woman who Mary
-every  woman  who  Mary  asks  asks  Mary  .|FAIL every woman who Mary
-every  woman  who  Mary  asks  asks  somebody  .|FAIL every woman who Mary
-every  woman  who  Mary  asks  asks  the woman  .|FAIL every woman who Mary
-every  woman  who  Mary  asks  asks  X  .|FAIL every woman who Mary
-every  woman  who  Mary  asks  is  everybody  .|FAIL every woman who Mary
-every  woman  who  Mary  asks  is  Mary  .|FAIL every woman who Mary
-every  woman  who  Mary  asks  is  somebody  .|FAIL every woman who Mary
-every  woman  who  Mary  asks  is  the woman  .|FAIL every woman who Mary
-every  woman  who  Mary  asks  is  X  .|FAIL every woman who Mary
-every  woman  who  somebody  asks  asks  everybody  .|FAIL every woman who somebody
-every  woman  who  somebody  asks  asks  Mary  .|FAIL every woman who somebody
-every  woman  who  somebody  asks  asks  somebody  .|FAIL every woman who somebody
-every  woman  who  somebody  asks  asks  the woman  .|FAIL every woman who somebody
-every  woman  who  somebody  asks  asks  X  .|FAIL every woman who somebody
-every  woman  who  somebody  asks  is  everybody  .|FAIL every woman who somebody
-every  woman  who  somebody  asks  is  Mary  .|FAIL every woman who somebody
-every  woman  who  somebody  asks  is  somebody  .|FAIL every woman who somebody
-every  woman  who  somebody  asks  is  the woman  .|FAIL every woman who somebody
-every  woman  who  somebody  asks  is  X  .|FAIL every woman who somebody
-every  woman  who  the woman  asks  asks  everybody  .|FAIL every woman who the
-every  woman  who  the woman  asks  asks  Mary  .|FAIL every woman who the
-every  woman  who  the woman  asks  asks  somebody  .|FAIL every woman who the
-every  woman  who  the woman  asks  asks  the woman  .|FAIL every woman who the
-every  woman  who  the woman  asks  asks  X  .|FAIL every woman who the
-every  woman  who  the woman  asks  is  everybody  .|FAIL every woman who the
-every  woman  who  the woman  asks  is  Mary  .|FAIL every woman who the
-every  woman  who  the woman  asks  is  somebody  .|FAIL every woman who the
-every  woman  who  the woman  asks  is  the woman  .|FAIL every woman who the
-every  woman  who  the woman  asks  is  X  .|FAIL every woman who the
-every  woman  who  X  asks  asks  everybody  .|FAIL every woman who X
-every  woman  who  X  asks  asks  Mary  .|FAIL every woman who X
-every  woman  who  X  asks  asks  somebody  .|FAIL every woman who X
-every  woman  who  X  asks  asks  the woman  .|FAIL every woman who X
-every  woman  who  X  asks  asks  X  .|FAIL every woman who X
-every  woman  who  X  asks  is  everybody  .|FAIL every woman who X
-every  woman  who  X  asks  is  Mary  .|FAIL every woman who X
-every  woman  who  X  asks  is  somebody  .|FAIL every woman who X
-every  woman  who  X  asks  is  the woman  .|FAIL every woman who X
-every  woman  who  X  asks  is  X  .|FAIL every woman who X
+every  woman  who  Mary  asks  asks  everybody  .|OK
+every  woman  who  Mary  asks  asks  Mary  .|OK
+every  woman  who  Mary  asks  asks  somebody  .|OK
+every  woman  who  Mary  asks  asks  the woman  .|OK
+every  woman  who  Mary  asks  asks  X  .|OK
+every  woman  who  Mary  asks  is  everybody  .|OK
+every  woman  who  Mary  asks  is  Mary  .|OK
+every  woman  who  Mary  asks  is  somebody  .|OK
+every  woman  who  Mary  asks  is  the woman  .|OK
+every  woman  who  Mary  asks  is  X  .|OK
+every  woman  who  somebody  asks  asks  everybody  .|OK
+every  woman  who  somebody  asks  asks  Mary  .|OK
+every  woman  who  somebody  asks  asks  somebody  .|OK
+every  woman  who  somebody  asks  asks  the woman  .|OK
+every  woman  who  somebody  asks  asks  X  .|OK
+every  woman  who  somebody  asks  is  everybody  .|OK
+every  woman  who  somebody  asks  is  Mary  .|OK
+every  woman  who  somebody  asks  is  somebody  .|OK
+every  woman  who  somebody  asks  is  the woman  .|OK
+every  woman  who  somebody  asks  is  X  .|OK
+every  woman  who  the woman  asks  asks  everybody  .|OK
+every  woman  who  the woman  asks  asks  Mary  .|OK
+every  woman  who  the woman  asks  asks  somebody  .|OK
+every  woman  who  the woman  asks  asks  the woman  .|OK
+every  woman  who  the woman  asks  asks  X  .|OK
+every  woman  who  the woman  asks  is  everybody  .|OK
+every  woman  who  the woman  asks  is  Mary  .|OK
+every  woman  who  the woman  asks  is  somebody  .|OK
+every  woman  who  the woman  asks  is  the woman  .|OK
+every  woman  who  the woman  asks  is  X  .|OK
+every  woman  who  X  asks  asks  everybody  .|OK
+every  woman  who  X  asks  asks  Mary  .|OK
+every  woman  who  X  asks  asks  somebody  .|OK
+every  woman  who  X  asks  asks  the woman  .|OK
+every  woman  who  X  asks  asks  X  .|OK
+every  woman  who  X  asks  is  everybody  .|OK
+every  woman  who  X  asks  is  Mary  .|OK
+every  woman  who  X  asks  is  somebody  .|OK
+every  woman  who  X  asks  is  the woman  .|OK
+every  woman  who  X  asks  is  X  .|OK
 every  woman  X  asks  a  friend of  everybody  .|OK
 every  woman  X  asks  a  friend of  Mary  .|OK
 every  woman  X  asks  a  friend of  somebody  .|OK
@@ -7226,16 +7226,16 @@ for every  woman  who  asks  Mary  there is  somebody  .|OK
 for every  woman  who  asks  somebody  there is  somebody  .|OK
 for every  woman  who  asks  the woman  there is  somebody  .|OK
 for every  woman  who  asks  X  there is  somebody  .|OK
-for every  woman  who  everybody  asks  there is  somebody  .|FAIL for every woman who everybody
+for every  woman  who  everybody  asks  there is  somebody  .|OK
 for every  woman  who  is  everybody  there is  somebody  .|OK
 for every  woman  who  is  Mary  there is  somebody  .|OK
 for every  woman  who  is  somebody  there is  somebody  .|OK
 for every  woman  who  is  the woman  there is  somebody  .|OK
 for every  woman  who  is  X  there is  somebody  .|OK
-for every  woman  who  Mary  asks  there is  somebody  .|FAIL for every woman who Mary
-for every  woman  who  somebody  asks  there is  somebody  .|FAIL for every woman who somebody
-for every  woman  who  the woman  asks  there is  somebody  .|FAIL for every woman who the
-for every  woman  who  X  asks  there is  somebody  .|FAIL for every woman who X
+for every  woman  who  Mary  asks  there is  somebody  .|OK
+for every  woman  who  somebody  asks  there is  somebody  .|OK
+for every  woman  who  the woman  asks  there is  somebody  .|OK
+for every  woman  who  X  asks  there is  somebody  .|OK
 for every  woman  X  asks  a  friend of  everybody  .|OK
 for every  woman  X  asks  a  friend of  Mary  .|OK
 for every  woman  X  asks  a  friend of  somebody  .|OK
@@ -9866,18 +9866,18 @@ Mary  asks  a  woman  who  asks  somebody  .|OK
 Mary  asks  a  woman  who  asks  the woman  .|OK
 Mary  asks  a  woman  who  asks  who  ?|FAIL Mary asks a woman who asks who
 Mary  asks  a  woman  who  asks  X  .|OK
-Mary  asks  a  woman  who  everybody  asks  .|FAIL Mary asks a woman who everybody
+Mary  asks  a  woman  who  everybody  asks  .|OK
 Mary  asks  a  woman  who  is  everybody  .|OK
 Mary  asks  a  woman  who  is  Mary  .|OK
 Mary  asks  a  woman  who  is  somebody  .|OK
 Mary  asks  a  woman  who  is  the woman  .|OK
 Mary  asks  a  woman  who  is  who  ?|FAIL Mary asks a woman who is who
 Mary  asks  a  woman  who  is  X  .|OK
-Mary  asks  a  woman  who  Mary  asks  .|FAIL Mary asks a woman who Mary
-Mary  asks  a  woman  who  somebody  asks  .|FAIL Mary asks a woman who somebody
-Mary  asks  a  woman  who  the woman  asks  .|FAIL Mary asks a woman who the
+Mary  asks  a  woman  who  Mary  asks  .|OK
+Mary  asks  a  woman  who  somebody  asks  .|OK
+Mary  asks  a  woman  who  the woman  asks  .|OK
 Mary  asks  a  woman  who  who  asks  ?|FAIL Mary asks a woman who who
-Mary  asks  a  woman  who  X  asks  .|FAIL Mary asks a woman who X
+Mary  asks  a  woman  who  X  asks  .|OK
 Mary  asks  a  woman  X  .    |OK
 Mary  asks  everybody  .        |OK
 Mary  asks  everybody  and  asks  a  woman  .|FAIL Mary asks everybody and asks
@@ -10048,16 +10048,16 @@ Mary  asks  every  woman  who  asks  Mary  .|OK
 Mary  asks  every  woman  who  asks  somebody  .|OK
 Mary  asks  every  woman  who  asks  the woman  .|OK
 Mary  asks  every  woman  who  asks  X  .|OK
-Mary  asks  every  woman  who  everybody  asks  .|FAIL Mary asks every woman who everybody
+Mary  asks  every  woman  who  everybody  asks  .|OK
 Mary  asks  every  woman  who  is  everybody  .|OK
 Mary  asks  every  woman  who  is  Mary  .|OK
 Mary  asks  every  woman  who  is  somebody  .|OK
 Mary  asks  every  woman  who  is  the woman  .|OK
 Mary  asks  every  woman  who  is  X  .|OK
-Mary  asks  every  woman  who  Mary  asks  .|FAIL Mary asks every woman who Mary
-Mary  asks  every  woman  who  somebody  asks  .|FAIL Mary asks every woman who somebody
-Mary  asks  every  woman  who  the woman  asks  .|FAIL Mary asks every woman who the
-Mary  asks  every  woman  who  X  asks  .|FAIL Mary asks every woman who X
+Mary  asks  every  woman  who  Mary  asks  .|OK
+Mary  asks  every  woman  who  somebody  asks  .|OK
+Mary  asks  every  woman  who  the woman  asks  .|OK
+Mary  asks  every  woman  who  X  asks  .|OK
 Mary  asks  every  woman  X  .    |OK
 Mary  asks  exactly  1  woman  .    |OK
 Mary  asks  exactly  2  women  .    |OK
@@ -10799,18 +10799,18 @@ Mary  is  a  woman  who  asks  somebody  .|OK
 Mary  is  a  woman  who  asks  the woman  .|OK
 Mary  is  a  woman  who  asks  who  ?|FAIL Mary is a woman who asks who
 Mary  is  a  woman  who  asks  X  .|OK
-Mary  is  a  woman  who  everybody  asks  .|FAIL Mary is a woman who everybody
+Mary  is  a  woman  who  everybody  asks  .|OK
 Mary  is  a  woman  who  is  everybody  .|OK
 Mary  is  a  woman  who  is  Mary  .|OK
 Mary  is  a  woman  who  is  somebody  .|OK
 Mary  is  a  woman  who  is  the woman  .|OK
 Mary  is  a  woman  who  is  who  ?|FAIL Mary is a woman who is who
 Mary  is  a  woman  who  is  X  .|OK
-Mary  is  a  woman  who  Mary  asks  .|FAIL Mary is a woman who Mary
-Mary  is  a  woman  who  somebody  asks  .|FAIL Mary is a woman who somebody
-Mary  is  a  woman  who  the woman  asks  .|FAIL Mary is a woman who the
+Mary  is  a  woman  who  Mary  asks  .|OK
+Mary  is  a  woman  who  somebody  asks  .|OK
+Mary  is  a  woman  who  the woman  asks  .|OK
 Mary  is  a  woman  who  who  asks  ?|FAIL Mary is a woman who who
-Mary  is  a  woman  who  X  asks  .|FAIL Mary is a woman who X
+Mary  is  a  woman  who  X  asks  .|OK
 Mary  is  a  woman  X  .    |OK
 Mary  is  everybody  .        |OK
 Mary  is  everybody  and  asks  a  woman  .|FAIL Mary is everybody and asks
@@ -10981,16 +10981,16 @@ Mary  is  every  woman  who  asks  Mary  .|OK
 Mary  is  every  woman  who  asks  somebody  .|OK
 Mary  is  every  woman  who  asks  the woman  .|OK
 Mary  is  every  woman  who  asks  X  .|OK
-Mary  is  every  woman  who  everybody  asks  .|FAIL Mary is every woman who everybody
+Mary  is  every  woman  who  everybody  asks  .|OK
 Mary  is  every  woman  who  is  everybody  .|OK
 Mary  is  every  woman  who  is  Mary  .|OK
 Mary  is  every  woman  who  is  somebody  .|OK
 Mary  is  every  woman  who  is  the woman  .|OK
 Mary  is  every  woman  who  is  X  .|OK
-Mary  is  every  woman  who  Mary  asks  .|FAIL Mary is every woman who Mary
-Mary  is  every  woman  who  somebody  asks  .|FAIL Mary is every woman who somebody
-Mary  is  every  woman  who  the woman  asks  .|FAIL Mary is every woman who the
-Mary  is  every  woman  who  X  asks  .|FAIL Mary is every woman who X
+Mary  is  every  woman  who  Mary  asks  .|OK
+Mary  is  every  woman  who  somebody  asks  .|OK
+Mary  is  every  woman  who  the woman  asks  .|OK
+Mary  is  every  woman  who  X  asks  .|OK
 Mary  is  every  woman  X  .    |OK
 Mary  is  mad-about  a  friend of  a  woman  .|FAIL Mary is mad-about
 Mary  is  mad-about  a  friend of  everybody  .  |FAIL Mary is mad-about
@@ -12665,18 +12665,18 @@ somebody  asks  a  woman  who  asks  somebody  .|OK
 somebody  asks  a  woman  who  asks  the woman  .|OK
 somebody  asks  a  woman  who  asks  who  ?|FAIL somebody asks a woman who asks who
 somebody  asks  a  woman  who  asks  X  .|OK
-somebody  asks  a  woman  who  everybody  asks  .|FAIL somebody asks a woman who everybody
+somebody  asks  a  woman  who  everybody  asks  .|OK
 somebody  asks  a  woman  who  is  everybody  .|OK
 somebody  asks  a  woman  who  is  Mary  .|OK
 somebody  asks  a  woman  who  is  somebody  .|OK
 somebody  asks  a  woman  who  is  the woman  .|OK
 somebody  asks  a  woman  who  is  who  ?|FAIL somebody asks a woman who is who
 somebody  asks  a  woman  who  is  X  .|OK
-somebody  asks  a  woman  who  Mary  asks  .|FAIL somebody asks a woman who Mary
-somebody  asks  a  woman  who  somebody  asks  .|FAIL somebody asks a woman who somebody
-somebody  asks  a  woman  who  the woman  asks  .|FAIL somebody asks a woman who the
+somebody  asks  a  woman  who  Mary  asks  .|OK
+somebody  asks  a  woman  who  somebody  asks  .|OK
+somebody  asks  a  woman  who  the woman  asks  .|OK
 somebody  asks  a  woman  who  who  asks  ?|FAIL somebody asks a woman who who
-somebody  asks  a  woman  who  X  asks  .|FAIL somebody asks a woman who X
+somebody  asks  a  woman  who  X  asks  .|OK
 somebody  asks  a  woman  X  .    |OK
 somebody  asks  everybody  .        |OK
 somebody  asks  everybody  and  asks  a  woman  .|FAIL somebody asks everybody and asks
@@ -12847,16 +12847,16 @@ somebody  asks  every  woman  who  asks  Mary  .|OK
 somebody  asks  every  woman  who  asks  somebody  .|OK
 somebody  asks  every  woman  who  asks  the woman  .|OK
 somebody  asks  every  woman  who  asks  X  .|OK
-somebody  asks  every  woman  who  everybody  asks  .|FAIL somebody asks every woman who everybody
+somebody  asks  every  woman  who  everybody  asks  .|OK
 somebody  asks  every  woman  who  is  everybody  .|OK
 somebody  asks  every  woman  who  is  Mary  .|OK
 somebody  asks  every  woman  who  is  somebody  .|OK
 somebody  asks  every  woman  who  is  the woman  .|OK
 somebody  asks  every  woman  who  is  X  .|OK
-somebody  asks  every  woman  who  Mary  asks  .|FAIL somebody asks every woman who Mary
-somebody  asks  every  woman  who  somebody  asks  .|FAIL somebody asks every woman who somebody
-somebody  asks  every  woman  who  the woman  asks  .|FAIL somebody asks every woman who the
-somebody  asks  every  woman  who  X  asks  .|FAIL somebody asks every woman who X
+somebody  asks  every  woman  who  Mary  asks  .|OK
+somebody  asks  every  woman  who  somebody  asks  .|OK
+somebody  asks  every  woman  who  the woman  asks  .|OK
+somebody  asks  every  woman  who  X  asks  .|OK
 somebody  asks  every  woman  X  .    |OK
 somebody  asks  exactly  1  woman  .    |OK
 somebody  asks  exactly  2  women  .    |OK
@@ -13598,18 +13598,18 @@ somebody  is  a  woman  who  asks  somebody  .|OK
 somebody  is  a  woman  who  asks  the woman  .|OK
 somebody  is  a  woman  who  asks  who  ?|FAIL somebody is a woman who asks who
 somebody  is  a  woman  who  asks  X  .|OK
-somebody  is  a  woman  who  everybody  asks  .|FAIL somebody is a woman who everybody
+somebody  is  a  woman  who  everybody  asks  .|OK
 somebody  is  a  woman  who  is  everybody  .|OK
 somebody  is  a  woman  who  is  Mary  .|OK
 somebody  is  a  woman  who  is  somebody  .|OK
 somebody  is  a  woman  who  is  the woman  .|OK
 somebody  is  a  woman  who  is  who  ?|FAIL somebody is a woman who is who
 somebody  is  a  woman  who  is  X  .|OK
-somebody  is  a  woman  who  Mary  asks  .|FAIL somebody is a woman who Mary
-somebody  is  a  woman  who  somebody  asks  .|FAIL somebody is a woman who somebody
-somebody  is  a  woman  who  the woman  asks  .|FAIL somebody is a woman who the
+somebody  is  a  woman  who  Mary  asks  .|OK
+somebody  is  a  woman  who  somebody  asks  .|OK
+somebody  is  a  woman  who  the woman  asks  .|OK
 somebody  is  a  woman  who  who  asks  ?|FAIL somebody is a woman who who
-somebody  is  a  woman  who  X  asks  .|FAIL somebody is a woman who X
+somebody  is  a  woman  who  X  asks  .|OK
 somebody  is  a  woman  X  .    |OK
 somebody  is  everybody  .        |OK
 somebody  is  everybody  and  asks  a  woman  .|FAIL somebody is everybody and asks
@@ -13780,16 +13780,16 @@ somebody  is  every  woman  who  asks  Mary  .|OK
 somebody  is  every  woman  who  asks  somebody  .|OK
 somebody  is  every  woman  who  asks  the woman  .|OK
 somebody  is  every  woman  who  asks  X  .|OK
-somebody  is  every  woman  who  everybody  asks  .|FAIL somebody is every woman who everybody
+somebody  is  every  woman  who  everybody  asks  .|OK
 somebody  is  every  woman  who  is  everybody  .|OK
 somebody  is  every  woman  who  is  Mary  .|OK
 somebody  is  every  woman  who  is  somebody  .|OK
 somebody  is  every  woman  who  is  the woman  .|OK
 somebody  is  every  woman  who  is  X  .|OK
-somebody  is  every  woman  who  Mary  asks  .|FAIL somebody is every woman who Mary
-somebody  is  every  woman  who  somebody  asks  .|FAIL somebody is every woman who somebody
-somebody  is  every  woman  who  the woman  asks  .|FAIL somebody is every woman who the
-somebody  is  every  woman  who  X  asks  .|FAIL somebody is every woman who X
+somebody  is  every  woman  who  Mary  asks  .|OK
+somebody  is  every  woman  who  somebody  asks  .|OK
+somebody  is  every  woman  who  the woman  asks  .|OK
+somebody  is  every  woman  who  X  asks  .|OK
 somebody  is  every  woman  X  .    |OK
 somebody  is  mad-about  a  friend of  a  woman  .|FAIL somebody is mad-about
 somebody  is  mad-about  a  friend of  everybody  .  |FAIL somebody is mad-about
@@ -16082,16 +16082,16 @@ there is  a  woman  who  asks  somebody  .  |OK
 there is  a  woman  who  asks  somebody  X  .|OK
 there is  a  woman  who  asks  the woman  .  |OK
 there is  a  woman  who  asks  X  .  |OK
-there is  a  woman  who  a  woman  asks  .|FAIL there is a woman who a
+there is  a  woman  who  a  woman  asks  .|OK
 there is  a  woman  who  does not  ask  everybody  .|FAIL there is a woman who does
 there is  a  woman  who  does not  ask  Mary  .|FAIL there is a woman who does
 there is  a  woman  who  does not  ask  somebody  .|FAIL there is a woman who does
 there is  a  woman  who  does not  ask  the woman  .|FAIL there is a woman who does
 there is  a  woman  who  does not  ask  X  .|FAIL there is a woman who does
-there is  a  woman  who  everybody  asks  .  |FAIL there is a woman who everybody
-there is  a  woman  who  everybody  does not  ask  .|FAIL there is a woman who everybody
-there is  a  woman  who  everybody  X  asks  .|FAIL there is a woman who everybody
-there is  a  woman  who  every  woman  asks  .|FAIL there is a woman who every
+there is  a  woman  who  everybody  asks  .  |OK
+there is  a  woman  who  everybody  does not  ask  .|FAIL there is a woman who everybody does
+there is  a  woman  who  everybody  X  asks  .|FAIL there is a woman who everybody X
+there is  a  woman  who  every  woman  asks  .|OK
 there is  a  woman  who  is  asked by  everybody  .|OK
 there is  a  woman  who  is  asked by  Mary  .|OK
 there is  a  woman  who  is  asked by  somebody  .|OK
@@ -16116,15 +16116,15 @@ there is  a  woman  who  is  somebody  .  |OK
 there is  a  woman  who  is  somebody  X  .|OK
 there is  a  woman  who  is  the woman  .  |OK
 there is  a  woman  who  is  X  .  |OK
-there is  a  woman  who  Mary  asks  .  |FAIL there is a woman who Mary
-there is  a  woman  who  Mary  does not  ask  .|FAIL there is a woman who Mary
-there is  a  woman  who  somebody  asks  .  |FAIL there is a woman who somebody
-there is  a  woman  who  somebody  does not  ask  .|FAIL there is a woman who somebody
-there is  a  woman  who  somebody  X  asks  .|FAIL there is a woman who somebody
-there is  a  woman  who  the woman  asks  .  |FAIL there is a woman who the
-there is  a  woman  who  the woman  does not  ask  .|FAIL there is a woman who the
-there is  a  woman  who  X  asks  .  |FAIL there is a woman who X
-there is  a  woman  who  X  does not  ask  .|FAIL there is a woman who X
+there is  a  woman  who  Mary  asks  .  |OK
+there is  a  woman  who  Mary  does not  ask  .|FAIL there is a woman who Mary does
+there is  a  woman  who  somebody  asks  .  |OK
+there is  a  woman  who  somebody  does not  ask  .|FAIL there is a woman who somebody does
+there is  a  woman  who  somebody  X  asks  .|FAIL there is a woman who somebody X
+there is  a  woman  who  the woman  asks  .  |OK
+there is  a  woman  who  the woman  does not  ask  .|FAIL there is a woman who the woman does
+there is  a  woman  who  X  asks  .  |OK
+there is  a  woman  who  X  does not  ask  .|FAIL there is a woman who X does
 there is  a  woman  X  .      |OK
 there is  a  woman  X  and  there is  somebody  .|OK
 there is  a  woman  X  such that  there is  somebody  .|OK
@@ -16133,16 +16133,16 @@ there is  a  woman  X  who  asks  Mary  .|OK
 there is  a  woman  X  who  asks  somebody  .|OK
 there is  a  woman  X  who  asks  the woman  .|OK
 there is  a  woman  X  who  asks  X  .|OK
-there is  a  woman  X  who  everybody  asks  .|FAIL there is a woman X who everybody
+there is  a  woman  X  who  everybody  asks  .|OK
 there is  a  woman  X  who  is  everybody  .|OK
 there is  a  woman  X  who  is  Mary  .|OK
 there is  a  woman  X  who  is  somebody  .|OK
 there is  a  woman  X  who  is  the woman  .|OK
 there is  a  woman  X  who  is  X  .|OK
-there is  a  woman  X  who  Mary  asks  .|FAIL there is a woman X who Mary
-there is  a  woman  X  who  somebody  asks  .|FAIL there is a woman X who somebody
-there is  a  woman  X  who  the woman  asks  .|FAIL there is a woman X who the
-there is  a  woman  X  who  X  asks  .|FAIL there is a woman X who X
+there is  a  woman  X  who  Mary  asks  .|OK
+there is  a  woman  X  who  somebody  asks  .|OK
+there is  a  woman  X  who  the woman  asks  .|OK
+there is  a  woman  X  who  X  asks  .|OK
 there is  exactly  1  woman  .      |OK
 there is  exactly  1  woman  and  there is  somebody  .|OK
 there is  exactly  1  woman  such that  there is  somebody  .|OK
@@ -17510,10 +17510,10 @@ who  asks  a  woman  who  is  Mary  ?|OK
 who  asks  a  woman  who  is  somebody  ?|OK
 who  asks  a  woman  who  is  the woman  ?|OK
 who  asks  a  woman  who  is  X  ?|OK
-who  asks  a  woman  who  Mary  asks  ?|FAIL who asks a woman who Mary
-who  asks  a  woman  who  somebody  asks  ?|FAIL who asks a woman who somebody
-who  asks  a  woman  who  the woman  asks  ?|FAIL who asks a woman who the
-who  asks  a  woman  who  X  asks  ?|FAIL who asks a woman who X
+who  asks  a  woman  who  Mary  asks  ?|OK
+who  asks  a  woman  who  somebody  asks  ?|OK
+who  asks  a  woman  who  the woman  asks  ?|OK
+who  asks  a  woman  who  X  asks  ?|OK
 who  asks  a  woman  X  ?    |OK
 who  asks  exactly  1  woman  ?    |OK
 who  asks  exactly  2  women  ?    |OK
@@ -17786,10 +17786,10 @@ who  is  a  woman  who  is  Mary  ?|OK
 who  is  a  woman  who  is  somebody  ?|OK
 who  is  a  woman  who  is  the woman  ?|OK
 who  is  a  woman  who  is  X  ?|OK
-who  is  a  woman  who  Mary  asks  ?|FAIL who is a woman who Mary
-who  is  a  woman  who  somebody  asks  ?|FAIL who is a woman who somebody
-who  is  a  woman  who  the woman  asks  ?|FAIL who is a woman who the
-who  is  a  woman  who  X  asks  ?|FAIL who is a woman who X
+who  is  a  woman  who  Mary  asks  ?|OK
+who  is  a  woman  who  somebody  asks  ?|OK
+who  is  a  woman  who  the woman  asks  ?|OK
+who  is  a  woman  who  X  asks  ?|OK
 who  is  a  woman  X  ?    |OK
 who  is  mad-about  a  friend of  a  woman  ?|FAIL who is mad-about
 who  is  mad-about  a  friend of  Mary  ?  |FAIL who is mad-about
@@ -18095,18 +18095,18 @@ X  asks  a  woman  who  asks  somebody  .|OK
 X  asks  a  woman  who  asks  the woman  .|OK
 X  asks  a  woman  who  asks  who  ?|FAIL X asks a woman who asks who
 X  asks  a  woman  who  asks  X  .|OK
-X  asks  a  woman  who  everybody  asks  .|FAIL X asks a woman who everybody
+X  asks  a  woman  who  everybody  asks  .|OK
 X  asks  a  woman  who  is  everybody  .|OK
 X  asks  a  woman  who  is  Mary  .|OK
 X  asks  a  woman  who  is  somebody  .|OK
 X  asks  a  woman  who  is  the woman  .|OK
 X  asks  a  woman  who  is  who  ?|FAIL X asks a woman who is who
 X  asks  a  woman  who  is  X  .|OK
-X  asks  a  woman  who  Mary  asks  .|FAIL X asks a woman who Mary
-X  asks  a  woman  who  somebody  asks  .|FAIL X asks a woman who somebody
-X  asks  a  woman  who  the woman  asks  .|FAIL X asks a woman who the
+X  asks  a  woman  who  Mary  asks  .|OK
+X  asks  a  woman  who  somebody  asks  .|OK
+X  asks  a  woman  who  the woman  asks  .|OK
 X  asks  a  woman  who  who  asks  ?|FAIL X asks a woman who who
-X  asks  a  woman  who  X  asks  .|FAIL X asks a woman who X
+X  asks  a  woman  who  X  asks  .|OK
 X  asks  everybody  .        |OK
 X  asks  everybody  and  asks  a  woman  .|FAIL X asks everybody and asks
 X  asks  everybody  and  asks  everybody  .  |FAIL X asks everybody and asks
@@ -18239,16 +18239,16 @@ X  asks  every  woman  who  asks  Mary  .|OK
 X  asks  every  woman  who  asks  somebody  .|OK
 X  asks  every  woman  who  asks  the woman  .|OK
 X  asks  every  woman  who  asks  X  .|OK
-X  asks  every  woman  who  everybody  asks  .|FAIL X asks every woman who everybody
+X  asks  every  woman  who  everybody  asks  .|OK
 X  asks  every  woman  who  is  everybody  .|OK
 X  asks  every  woman  who  is  Mary  .|OK
 X  asks  every  woman  who  is  somebody  .|OK
 X  asks  every  woman  who  is  the woman  .|OK
 X  asks  every  woman  who  is  X  .|OK
-X  asks  every  woman  who  Mary  asks  .|FAIL X asks every woman who Mary
-X  asks  every  woman  who  somebody  asks  .|FAIL X asks every woman who somebody
-X  asks  every  woman  who  the woman  asks  .|FAIL X asks every woman who the
-X  asks  every  woman  who  X  asks  .|FAIL X asks every woman who X
+X  asks  every  woman  who  Mary  asks  .|OK
+X  asks  every  woman  who  somebody  asks  .|OK
+X  asks  every  woman  who  the woman  asks  .|OK
+X  asks  every  woman  who  X  asks  .|OK
 X  asks  exactly  1  woman  .    |OK
 X  asks  exactly  2  women  .    |OK
 X  asks  Mary  .        |OK
@@ -18910,18 +18910,18 @@ X  is  a  woman  who  asks  somebody  .|OK
 X  is  a  woman  who  asks  the woman  .|OK
 X  is  a  woman  who  asks  who  ?|FAIL X is a woman who asks who
 X  is  a  woman  who  asks  X  .|OK
-X  is  a  woman  who  everybody  asks  .|FAIL X is a woman who everybody
+X  is  a  woman  who  everybody  asks  .|OK
 X  is  a  woman  who  is  everybody  .|OK
 X  is  a  woman  who  is  Mary  .|OK
 X  is  a  woman  who  is  somebody  .|OK
 X  is  a  woman  who  is  the woman  .|OK
 X  is  a  woman  who  is  who  ?|FAIL X is a woman who is who
 X  is  a  woman  who  is  X  .|OK
-X  is  a  woman  who  Mary  asks  .|FAIL X is a woman who Mary
-X  is  a  woman  who  somebody  asks  .|FAIL X is a woman who somebody
-X  is  a  woman  who  the woman  asks  .|FAIL X is a woman who the
+X  is  a  woman  who  Mary  asks  .|OK
+X  is  a  woman  who  somebody  asks  .|OK
+X  is  a  woman  who  the woman  asks  .|OK
 X  is  a  woman  who  who  asks  ?|FAIL X is a woman who who
-X  is  a  woman  who  X  asks  .|FAIL X is a woman who X
+X  is  a  woman  who  X  asks  .|OK
 X  is  everybody  .        |OK
 X  is  everybody  and  asks  a  woman  .|FAIL X is everybody and asks
 X  is  everybody  and  asks  everybody  .  |FAIL X is everybody and asks
@@ -19054,16 +19054,16 @@ X  is  every  woman  who  asks  Mary  .|OK
 X  is  every  woman  who  asks  somebody  .|OK
 X  is  every  woman  who  asks  the woman  .|OK
 X  is  every  woman  who  asks  X  .|OK
-X  is  every  woman  who  everybody  asks  .|FAIL X is every woman who everybody
+X  is  every  woman  who  everybody  asks  .|OK
 X  is  every  woman  who  is  everybody  .|OK
 X  is  every  woman  who  is  Mary  .|OK
 X  is  every  woman  who  is  somebody  .|OK
 X  is  every  woman  who  is  the woman  .|OK
 X  is  every  woman  who  is  X  .|OK
-X  is  every  woman  who  Mary  asks  .|FAIL X is every woman who Mary
-X  is  every  woman  who  somebody  asks  .|FAIL X is every woman who somebody
-X  is  every  woman  who  the woman  asks  .|FAIL X is every woman who the
-X  is  every  woman  who  X  asks  .|FAIL X is every woman who X
+X  is  every  woman  who  Mary  asks  .|OK
+X  is  every  woman  who  somebody  asks  .|OK
+X  is  every  woman  who  the woman  asks  .|OK
+X  is  every  woman  who  X  asks  .|OK
 X  is  mad-about  a  friend of  a  woman  .|FAIL X is mad-about
 X  is  mad-about  a  friend of  everybody  .  |FAIL X is mad-about
 X  is  mad-about  a  friend of  every  woman  .|FAIL X is mad-about

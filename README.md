@@ -161,7 +161,7 @@ Parsing ACE sentences with `ACE-0_0_2.pgf`.
 
 > ghc --make -o Parser Parser.hs
 
-> cat examples/ace.txt | ./Parser ACE-0_0_2.pgf
+> cat examples/ace.txt | ./Parser ACE-0_0_2.pgf TestAttemptoAce
 
 or
 
@@ -174,7 +174,7 @@ which creates two files
 
 To run tests on all the test cases in the tests-directory
 
-> bash run-all-tests.bash
+> bash run-all-tests.bash > tests/run-all-tests.out
 
 The output files are created into the subdirectories of the tests-directory.
 

@@ -34,11 +34,7 @@ __AceWiki-supported fragment of ACE OWL__
 AceWiki test set obtained by exhaustive generation with the Codeco grammar.
 Content words: ask, Mary, woman, friend, mad-about.
 
-Results:
-
   * Total: 19718
-  * Parsed: 5609
-  * NOT parsed: 14109
   * Runtime: ~39 sec
 
 A few reasons (i.e. words and phrases) that cause the parse to fail:
@@ -58,7 +54,7 @@ A few reasons (i.e. words and phrases) that cause the parse to fail:
 
 Same as `acewiki_aceowl` but some sentences are excluded.
 These sentences feature constructs which are probably easy to fix.
-Result: ~50% parsed.
+Result: ~60% parsed.
 
 ### aceeditor
 
