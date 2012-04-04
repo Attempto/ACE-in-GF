@@ -1793,7 +1793,7 @@ for every man every dog barks for every cat .|FAIL for every man every dog barks
 for every man a dog barks for every cat .|FAIL for every man a dog barks for
 a card of which man is valid ?|FAIL a card of which
 a clerk enters a card of every customer . the card of every customer is valid .|OK
-John eats nothing but raw and expensive meat .|FAIL John eats nothing but
+John eats nothing but raw and expensive meat .|FAIL John eats nothing but raw
 there is a man . his brother sees himself .|FAIL there is a man . his brother sees himself
 there is a man whose dog barks . the dog of the man sleeps .|FAIL there is a man whose
 there is a man whose dog barks . a dog of a man sleeps .|FAIL there is a man whose

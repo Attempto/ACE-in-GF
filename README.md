@@ -55,13 +55,13 @@ by the GF developers in 2009 targeting ACE v6.0. See also the publication:
 
 This version does not completely match ACE v6.6,
 i.e. some ACE constructs are not supported, e.g.
+(__F__ marks things that the current version has already fixed)
 
   * transitive adjectives: `mad-about` (`mad about` does not seem to work either)
-  * exactly
+  * __F__ exactly
   * less than
-  * everybody
+  * __F__ everybody
   * somebody X
-  * somebody does
   * somebody who
   * Mary who
   * X who
@@ -69,11 +69,17 @@ i.e. some ACE constructs are not supported, e.g.
   * `is not` and `isn't` are not equivalent
     * `a woman is not a man .` fails
     * `a woman isn't a man .` succeeds
+    * `a woman is not every man .` succeeds
+    * `a woman isn't every man .` succeeds
   * `are not` and `aren't` are not equivalent
   * `does not` and `doesn't` are not equivalent
   * `do not` and `don't` are not equivalent
-  * `who` (instead of `whom`) in object relative clauses (`a woman who a man sees`)
+  * __F__ `who` (instead of `whom`) in object relative clauses (`a woman who a man sees`)
   * dative shift (`John gives Mary an apple`)
+  * `does wait` (as alternative to `waits`)
+  * adjective coordination
+    - a rich and lucky man waits .
+    - John is rich and lucky .
   * ...
 
 and it supports some constructs which in ACE do not exist, have been
@@ -82,13 +88,13 @@ deprecated or should be avoided (i.e. create a warning), e.g.
   * `he waits .` (and other unresolvable personal pronouns)
   * `the man waits .` (gives a warning in APE)
   * a man X is the man Y .
-  * not more than, not at least, ...
+  * __F__ not more than, not at least, ...
   * numbers larger than 12 as words, e.g. `one hundred and thirty`
-  * whom
+  * __F__ whom
   * such that
   * `- ( X + X ) waits .` (minus sign should be followed by a number)
   * `1 = - -1 .` (`-1` is a built-in GF integer)
-  * `nothing except` (instead of `nothing but`)
+  * __F__ `nothing except` (instead of `nothing but`)
   * ...
 
 
@@ -140,16 +146,20 @@ are saved into the `build`-directory.
 Running
 -------
 
-Example of translating an English sentence to German.
+Example of translating an ACE sentence to other languages.
 
 > gf ACE-0_0_2.pgf
 
-	TestAttempto> p -lang=Eng "John gives an apple to Mary ." | l
-	John gives an apple to Mary .
-	John donne une pomme à Mary .
-	John gibt einen Apfel Mary .
-	John da una mela a Mary .
-	John ger ett äpple till Mary .
+	TestAttempto> p -lang=Ace "John gives an apple to a woman who John sees ." | l -treebank
+	TestAttempto: baseText (sText (vpS (pnNP john_PN)
+						(v3VP give_V3 (aNP apple_N)
+							(aNP (relCN woman_N (slashRS which_RP (pnNP john_PN) see_V2))))))
+	TestAttemptoAce: John gives an apple to a woman who John sees .
+	TestAttemptoEng: John gives an apple to a woman whom John sees .
+	TestAttemptoFre: John donne une pomme à une femme que John voit .
+	TestAttemptoGer: John gibt einen Apfel einer Frau die John sieht .
+	TestAttemptoIta: John da una mela ad una donna che John veda .
+	TestAttemptoSwe: John ger ett äpple till en kvinna som John ser .
 
 
 Testing
@@ -181,6 +191,30 @@ The output files are created into the subdirectories of the tests-directory.
 ### Generating with GF and parsing with APE
 
 See the scripts and instructions in the `tools`-directory.
+
+
+Changing
+--------
+
+Changes to the ACE grammar can be done in various places.
+
+### lib/src/
+
+ACE resource grammar. Based on the English resource grammar. Describes
+deviations from the English grammar, e.g. ACE uses `who` instead of `whom`.
+Currently almost completely identical to the English resource grammar, will
+be refactored later.
+
+### grammars/
+
+Implementation of different ACE subsets and their ports to other languages.
+Contains the common interface AttemptoI.gf.
+
+
+### words/
+
+Different domain vocabularies. These files should rather be automatically
+generated from existing terminology databases.
 
 
 Status

@@ -132,13 +132,14 @@ concrete StructuralAce of Structural = CatAce **
   at_least_AdN = mkAdN "at least" ;
   at_most_AdN = mkAdN "at most" ;
 
-  except_Prep = mkPrep "except" ;
+  -- used in: nothing but
+  except_Prep = mkPrep "but" ;
 
   as_CAdv = C.mkCAdv "as" "as" ;
 
   have_V2 = dirV2 (mk5V "have" "has" "had" "had" "having") ;
   that_Subj = ss "that" ;
-  lin language_title_Utt = ss "English" ;
+  lin language_title_Utt = ss "ACE" ;
 
 }
 

@@ -772,7 +772,7 @@
       1 John gives Bill
       1 John feeds
       1 John , enter
-      1 John eats nothing but
+      1 John eats nothing but raw
       1 John drinks
       1 John , do
       1 John can travel

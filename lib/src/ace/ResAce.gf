@@ -417,6 +417,9 @@ resource ResAce = ParamX ** open Prelude in {
     prpart = "being"
     } ;
 
+  -- TODO: not sure "is not" etc. should be described here
+  -- with this: Neg => s + "n't" | s ++ "not"
+  -- compilation takes forever
   posneg : Polarity -> Str -> Str = \p,s -> case p of {
     Pos => s ;
     Neg => s + "n't"
