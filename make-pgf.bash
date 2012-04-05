@@ -35,7 +35,7 @@ echo "Building PGF from ${words}/TestAttempto{Ace,Eng,Ger,Ita,Fre,Swe}.gf"
 # TODO: for some reason the output-dir parameter has no influence,
 # so we don't use it, and the PGF is dropped into the current directory.
 gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --name $name --path $path ${words}/TestAttempto{Ace,Eng,Ger,Ita,Fre,Swe}.gf
-#gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --name $name --path $path ${words}/TestAttemptoEng.gf
+#gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --name $name --path $path ${words}/ClexAce.gf
 
 echo "Generating JSGF into ${dir_jsgf} ...";
 gf --make --output-format=jsgf --name ${name} --output-dir ${dir_jsgf} ${name}.pgf
