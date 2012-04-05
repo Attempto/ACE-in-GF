@@ -33,7 +33,6 @@
       8 a man is good
       7 there is a card . a man brings
       7 there is a boy
-      7 less
       7 for each of some
       7 every man likes
       7 2 kg
@@ -124,7 +123,6 @@
       3 there is a case
       3 there is a book
       3 there is a black
-      3 there are less
       3 there are 5 big
       3 the customer inserts
       3 the card of which
@@ -221,6 +219,7 @@
       2 there are some cities
       2 there are some big
       2 there are more than 2 kg
+      2 there are less than 2 kg
       2 there are a dog and a cat
       2 there are 2 tables
       2 there are 2 girls
@@ -531,6 +530,7 @@
       1 there are some cards not
       1 there are some cards each of which John knows
       1 there are more than 0 cars
+      1 there are less than 0 cars
       1 there are at most 2 men X and Y and Z
       1 there are at most 2 men X and something Y
       1 there are at most 2 kg
@@ -643,7 +643,6 @@
       1 no analysis
       1 must John run
       1 must John like
-      1 more than 3 men and less
       1 more than 3 kg
       1 Mary waits . John waits . what
       1 Mary waits . John waits . a book
@@ -660,6 +659,7 @@
       1 Mary inserts
       1 Mary asks John who
       1 Mary asks everybody X
+      1 less than 5 men drink
       1 Jyri's
       1 JohnX
       1 John wisely
@@ -690,7 +690,6 @@
       1 John sees soundly
       1 John sees some water of
       1 John sees someone
-      1 John sees Mary and less
       1 John sees in
       1 John sees his own water
       1 John sees every woman in every park

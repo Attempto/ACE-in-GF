@@ -55,12 +55,12 @@ by the GF developers in 2009 targeting ACE v6.0. See also the publication:
 
 This version does not completely match ACE v6.6,
 i.e. some ACE constructs are not supported, e.g.
-(__F__ marks things that the current version has already fixed)
+(__(F)__ marks things that the current version has already fixed)
 
   * transitive adjectives: `mad-about` (`mad about` does not seem to work either)
-  * __F__ exactly
-  * less than
-  * __F__ everybody
+  * __(F)__ exactly
+  * __(F)__ less than
+  * __(F)__ everybody
   * somebody X
   * somebody who
   * Mary who
@@ -74,7 +74,7 @@ i.e. some ACE constructs are not supported, e.g.
   * `are not` and `aren't` are not equivalent
   * `does not` and `doesn't` are not equivalent
   * `do not` and `don't` are not equivalent
-  * __F__ `who` (instead of `whom`) in object relative clauses (`a woman who a man sees`)
+  * __(F)__ `who` (instead of `whom`) in object relative clauses (`a woman who a man sees`)
   * dative shift (`John gives Mary an apple`)
   * `does wait` (as alternative to `waits`)
   * adjective coordination
@@ -88,13 +88,13 @@ deprecated or should be avoided (i.e. create a warning), e.g.
   * `he waits .` (and other unresolvable personal pronouns)
   * `the man waits .` (gives a warning in APE)
   * a man X is the man Y .
-  * __F__ not more than, not at least, ...
+  * __(F)__ not more than, not at least, ...
   * numbers larger than 12 as words, e.g. `one hundred and thirty`
-  * __F__ whom
+  * __(F)__ whom
   * such that
   * `- ( X + X ) waits .` (minus sign should be followed by a number)
   * `1 = - -1 .` (`-1` is a built-in GF integer)
-  * __F__ `nothing except` (instead of `nothing but`)
+  * __(F)__ `nothing except` (instead of `nothing but`)
   * ...
 
 

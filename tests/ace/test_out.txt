@@ -822,7 +822,7 @@ John is taller than Mary .|FAIL John is taller
 a man has 2 kg of green apples .|FAIL a man has 2 kg
 a man has 2 kg of dirty water .|FAIL a man has 2 kg
 there are more than 2 kg of laundry .|FAIL there are more than 2 kg
-less than 2 women wait .|FAIL less
+less than 2 women wait .|OK
 each of some men sees every dog .|OK
 for each of some men he likes every dog .|FAIL for each of some
 for each of some men the man likes every dog .|FAIL for each of some
@@ -854,7 +854,7 @@ if there is a man then he is not a woman or is not a dog .|FAIL if there is a ma
 at least 1 man waits .|OK
 at most 1 man waits .|OK
 more than 1 man waits .|OK
-less than 1 man waits .|FAIL less
+less than 1 man waits .|OK
 there are 3 kg of apples . each of the apples is red .|FAIL there are 3 kg
 John likes Mary's sister who is not John .|FAIL John likes
 there is Mary's sister . Mary is richer than her own sister .|FAIL there is Mary's sister
@@ -872,7 +872,7 @@ everything is a cat and everything is a dog .|FAIL everything
 there is a cat and everything is a dog .|FAIL there is a cat
 if there is a thing and everything that it eats is a meat then it is a carnivore .|FAIL if there is a thing
 2 men wait .|OK
-there are less than 2 kg of milk . there are less than 2 men .|FAIL there are less
+there are less than 2 kg of milk . there are less than 2 men .|FAIL there are less than 2 kg
 there are 1 kg of water and 2 kg of apples .|FAIL there are 1 kg
 there is a man A who sees A . there is a man who sees John . John watches the man who sees him . John watches the man who sees A .|FAIL there is a man A
 there is a man who owns a dog . there is a man who owns a cat . John sees the man who owns the dog .|FAIL there is a man who
@@ -1254,7 +1254,7 @@ there is a man X . it is false that the man X waits .|OK
 at least 0 men wait .|OK
 at most 0 men wait .|OK
 every man an age of who is 31 likes a cat .|FAIL every man an
-less than 0 men wait .|FAIL less
+less than 0 men wait .|OK
 a man's dog barks . the man's dog barks .|OK
 which dog of which cat barks ?|FAIL which
 there is nobody who sees something .|FAIL there is nobody who
@@ -1420,7 +1420,7 @@ at most 2 cars are owned by John .|FAIL at most 2 cars
 John owns at most 2 cars that Mary likes .|FAIL John owns
 every man's car contains an instruction that codes its development .|FAIL every man's car
 every cellular n : life-form's n : DNA contains some a : genetic n : instructions that code its a : biological n : development .|FAIL every cellular
-there are less than 0 cars .|FAIL there are less
+there are less than 0 cars .|FAIL there are less than 0 cars
 there are more than 0 cars .|FAIL there are more than 0 cars
 there are at least 0 cars .|FAIL there are at least 0 cars
 there are at most 0 cars .|FAIL there are at most 0 cars
@@ -1432,7 +1432,7 @@ every man's car contains an instruction that codes its own development .|FAIL ev
 at least one man waits . at least 2 women sleep .|OK
 at most one man waits . at most 2 women sleep .|OK
 more than one man waits . more than 2 women sleep .|OK
-less than one man waits . less than 2 women sleep .|FAIL less
+less than one man waits . less than 2 women sleep .|OK
 Mary is not a woman who likes an apple .|FAIL Mary is not a
 if a car X sees a branch Y and it is false that X sees a rental and that X sees a service then X sees the branch Y .|FAIL if a car
 if a car X sees a branch Y and it is false that X is something Z that sees a rental and that Z sees a service then X sees the branch Y .|FAIL if a car
@@ -1826,10 +1826,10 @@ there are some cards not each of which has a code .|FAIL there are some cards no
 there are some cards a code of not each of which John knows .|FAIL there are some cards a
 there is a city in which John lives .|FAIL there is a city
 there are some cities in each of which John lives .|FAIL there are some cities
-John sees Mary and less than 2 men .|FAIL John sees Mary and less
-less than 3 men and less than 4 women wait .|FAIL less
-more than 3 men and less than 4 women wait .|FAIL more than 3 men and less
-less than 3 men and more than 4 women wait .|FAIL less
+John sees Mary and less than 2 men .|OK
+less than 3 men and less than 4 women wait .|OK
+more than 3 men and less than 4 women wait .|OK
+less than 3 men and more than 4 women wait .|OK
 there is a man . he waits .|OK
 there is a man . his card is correct .|OK
 there is a man . John checks his card .|FAIL there is a man . John checks
@@ -1968,7 +1968,7 @@ John does not own which dog ?|FAIL John does
 there is a man X . which man is X ?|FAIL there is a man X . which
 which man's dog barks ?|FAIL which
 there are some cities in which John lives .|FAIL there are some cities
-there are less than 2 kg of dirty laundry .|FAIL there are less
+there are less than 2 kg of dirty laundry .|FAIL there are less than 2 kg
 there are at most 2 kg of dirty laundry .|FAIL there are at most 2 kg
 there are at least 2 kg of dirty laundry .|FAIL there are at least 2 kg
 there are 2 kg of dirty laundry .|FAIL there are 2 kg
@@ -2675,7 +2675,7 @@ every dot is "." .|FAIL every dot
 John gives something to somebody .|OK
 Pi = 3.14 . if there is a circle C and C's radius is R and C's area is S then S = Pi * ( R * R ) . there is a circle C whose radius is 5 . what is C's surface ?|FAIL Pi
 there are some men such that the men wait .|OK
-less than 5 men drink less .|FAIL less
+less than 5 men drink less .|FAIL less than 5 men drink
 if X gives Y Z then X hands Y Z .|FAIL if X gives Y Z
 for everything X if X gives Y Z then X hands Y Z .|FAIL for everything
 John likes Mary a dog of who hates a cat .|FAIL John likes

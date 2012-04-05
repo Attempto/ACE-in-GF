@@ -65,6 +65,7 @@ fun not_everythingNP : NP ;
 fun at_leastNP : Card -> CN -> NP ;
 fun at_mostNP : Card -> CN -> NP ;
 fun more_thanNP : Card -> CN -> NP ;
+fun less_thanNP : Card -> CN -> NP ;
 fun exactlyNP : Card -> CN -> NP ;
 
 fun apposVarCN : CN -> Var -> CN ;  -- a man X
