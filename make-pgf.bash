@@ -4,6 +4,7 @@ ace="lib/src/ace/"
 api="lib/src/api/"
 grammar="grammars/attempto/"
 words="words/test/"
+#words="words/clex/"
 
 if [ $# -eq 2 ]
 then

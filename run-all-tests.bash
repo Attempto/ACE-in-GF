@@ -7,6 +7,7 @@ parser="Parser"
 
 pgf="ACE-0_0_2.pgf"
 lang="TestAttemptoAce"
+#lang="ClexAce"
 tests=tests
 
 test_out="test_out.txt"

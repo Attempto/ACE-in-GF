@@ -184,7 +184,7 @@ which creates two files
 
 To run tests on all the test cases in the tests-directory
 
-> bash run-all-tests.bash > tests/run-all-tests.out
+> bash run-all-tests.bash > tests/run-all-tests.out 2> tests/run-all-tests.err
 
 The output files are created into the subdirectories of the tests-directory.
 

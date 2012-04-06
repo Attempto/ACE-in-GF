@@ -1,34 +1,172 @@
 %
 % Converter from the Attempto Parsing Enging lexicon format (Clex)
-% into GF English dictionary format.
+% into GF English dictionary format. The output is saved into
+% Clex.gf and ClexAce.gf.
 %
-% Work in progress! Only common nouns are covered and the code
-% is messy.
+% Kaarel Kaljurand
+% 2012-04-06
+%
+% Usage:
+%
+% clex='/home/kaarel/mywork/APE/lexicon/clex_lexicon_small.pl'
+% swipl -f none -g "main('$clex')" -t halt -s clex_to_gf.pl
 %
 % TODO:
 %
-% character escaping
-% read input from the command line
-% support for variants
+%  - support for variants
+%  - complete character escaping
+%  - read input from the command line
+%  - support GF's VS (e.g. `believe')
+%  - support all the wordforms that Clex provides, i.e. do not
+%    rely on GF's smart paradigms
 %
 
-%clex('/home/kaarel/mywork/APE/lexicon/clex_lexicon.pl').
-clex('/home/kaarel/mywork/APE/lexicon/clex_lexicon_small.pl').
+type(Type) :-
+	type(Type, _, _, _, _, _, _).
 
-type(noun_sg, 'N', 'CN').
+type(X, Y, Z) :-
+	type(X, _, _, Y, Z).
 
+type(X1, X2, X3, X4, X5) :-
+	type(X1, X2, X3, X4, X5, _, _).
+
+type(
+	adj_itr,
+	2,
+	2,
+	'A',
+	'A',
+	"mkA \"~w\"",
+	get_adj_itr
+).
+
+type(
+	adj_tr,
+	3,
+	2,
+	'A2',
+	'A2',
+	"mkA2 (mkA \"~w\") (mkPrep \"~w\")",
+	get_adj_tr
+).
+
+type(
+	noun_sg,
+	3,
+	2,
+	'N',
+	'CN',
+	"mkCN (mkN ~w (mkN \"~w\" \"~w\"))",
+	get_n
+).
+
+type(
+	noun_mass,
+	3,
+	2,
+	'MCN',
+	'MCN',
+	"mkCN (mkN ~w (mkN \"~w\" \"~w\"))",
+	get_noun_mass
+).
+
+type(
+	mn_sg,
+	2,
+	2,
+	'Unit',
+	'Unit',
+	"mkCN (mkN ~w (mkN \"~w\" \"~w\"))",
+	get_mn
+).
+
+type(
+	pn_sg,
+	3,
+	2,
+	'PN',
+	'PN',
+	"mkPN \"~w\"",
+	get_pn
+).
+
+
+type(
+	iv_finsg,
+	2,
+	2,
+	'V',
+	'V',
+	"mkV \"~w\"",
+	get_iv
+).
+
+
+type(
+	tv_finsg,
+	2,
+	2,
+	'V2',
+	'V2',
+	"mkV2 \"~w\"",
+	get_tv
+).
+
+type(
+	dv_finsg,
+	3,
+	2,
+	'V3',
+	'V3',
+	"mkV3 (mkV \"~w\") (mkPrep []) (mkPrep \"~w\")",
+	get_dv
+).
+
+type(
+	adv,
+	2,
+	2,
+	'Adv',
+	'Adv',
+	"mkAdv \"~w\"",
+	get_adv
+).
+
+type(
+	prep,
+	2,
+	2,
+	'Prep',
+	'Prep',
+	"mkPrep \"~w\"",
+	get_prep
+).
+
+
+% Maps ACE gender to GF Eng gender
 gender(human, human).
 gender(neutr, nonhuman).
 gender(masc, masculine).
 gender(fem, feminine).
 
+% Returns a unique list of lemmas of the given type
 get_funs(Name, Arity, LemmaPos, LemmasSorted) :-
 	functor(Goal, Name, Arity),
 	findall(Lemma, (call(Goal), arg(LemmaPos, Goal, Lemma)), Lemmas),
 	sort(Lemmas, LemmasSorted).
 
+% TODO: provide comp and sup
+get_adj_itr(Lemma, [Adj]) :-
+	adj_itr(Adj, Lemma),
+	!.
+
+% TODO: provide comp and sup
+get_adj_tr(Lemma, [Adj, Prep]) :-
+	adj_tr(Adj, Lemma, Prep),
+	!.
+
 % TODO: support variants
-get_cn(Lemma, Sg, Pl, GfGender) :-
+get_n(Lemma, [GfGender, Sg, Pl]) :-
 	noun_sg(Sg, Lemma, AceGender),
 	(
 		noun_pl(Pl1, Lemma, _)
@@ -40,34 +178,96 @@ get_cn(Lemma, Sg, Pl, GfGender) :-
 	gender(AceGender, GfGender),
 	!.
 
-format_abstract_cn :-
-	get_funs(noun_sg, 3, 2, Lemmas),
-	type(noun_sg, T1, T2),
+get_noun_mass(Lemma, [GfGender, Word, Word]) :-
+	noun_mass(Word, Lemma, AceGender),
+	gender(AceGender, GfGender),
+	!.
+
+% TODO: support mn_pl
+get_mn(Lemma, [nonhuman, Word, Word]) :-
+	mn_sg(Word, Lemma),
+	!.
+
+% TODO: support pn_pl, gender, and the the-variant
+get_pn(Lemma, [Word]) :-
+	pn_sg(W1, Lemma, _),
+	(
+		pndef_sg(_W2, Lemma, _)
+	->
+		%atom_concat('the ', W2, TheW2),
+		%atomic_list_concat([W1, '|', TheW2], Word)
+		Word = W1
+	;
+		Word = W1
+	),
+	!.
+
+
+get_iv(Lemma, [Word]) :-
+	iv_infpl(Word, Lemma),
+	!.
+
+
+get_tv(Lemma, [Word]) :-
+	tv_infpl(Word, Lemma),
+	!.
+
+% TODO: maybe it's not correct to return an empty atom,
+% i.e. we should return GF's [] instead, but this means
+% also that the format template should be constructed here.
+get_dv(Lemma, [Word, Prep]) :-
+	dv_infpl(Word, Lemma, Prep),
+	!.
+
+% TODO: add: comp and sup forms
+get_adv(Lemma, [Word]) :-
+	adv(Word, Lemma),
+	!.
+
+get_prep(Lemma, [Word]) :-
+	prep(Word, Lemma),
+	!.
+
+
+format_abstract_fun(Name, Arity, LemmaPos) :-
+	get_funs(Name, Arity, LemmaPos, Lemmas),
+	type(Name, T1, T2),
 	forall(
-		member(L, Lemmas),
+		pick_lemma(Lemmas, T2, L),
 		format_abstract(L, T1, T2)
 	).
 
-format_concrete_cn :-
-	get_funs(noun_sg, 3, 2, Lemmas),
+% TODO: have_V2 was in Attempto.gf, so we cannot generate it here.
+% Maybe it should not be in Attempto.gf?
+pick_lemma(Lemmas, Cat, L) :-
+	member(L, Lemmas),
+	\+ L-Cat == have-'V2'.
+
+format_concrete_fun(Type) :-
+	type(Type, Arity, LemmaPos, T, Cat, Format, Morph),
+	get_funs(Type, Arity, LemmaPos, Lemmas),
 	forall(
-		( member(L, Lemmas), get_cn(L, Sg, Pl, Gender) ),
-		format_concrete(L, 'N', Sg, Pl, Gender)
+		( pick_lemma(Lemmas, Cat, L), call(Morph, L, Args) ),
+		format_concrete(L, T, Format, Args)
 	).
 
 format_abstract(Fun, Class, Cat) :-
 	replace(char_replacer, Fun, Fun1),
-	format("~w_~w : ~w;~n" , [Fun1, Class, Cat]).
+	format("~w_~w : ~w;~n", [Fun1, Class, Cat]).
 
-format_concrete(Fun, Cat, Sg, Pl, Type) :-
+format_concrete(Fun, T, MorphFormat, Args) :-
 	replace(char_replacer, Fun, Fun1),
-	format("lin ~w_~w = mkCN (mkN ~w (mkN \"~w\" \"~w\"));~n" , [Fun1, Cat, Type, Sg, Pl]).
+	append(["lin ~w_~w = ", MorphFormat, ";~n"], Format),
+	format(Format, [Fun1, T | Args]).
 
 make_clex_abstract(Name) :-
 	make_abstract_filename(Name, Filename),
 	tell(Filename),
 	format_abstract_header(Name),
-	format_abstract_cn,
+	forall(
+		type(FunName, Arity, LemmaPos, _, _),
+		format_abstract_fun(FunName, Arity, LemmaPos)
+	),
 	format_footer,
 	told.
 
@@ -75,7 +275,10 @@ make_clex_concrete(Name, Lang) :-
 	make_concrete_filename(Name, Lang, Filename),
 	tell(Filename),
 	format_concrete_header(Name, Lang),
-	format_concrete_cn,
+	forall(
+		type(Type),
+		format_concrete_fun(Type)
+	),
 	format_footer,
 	told.
 
@@ -89,10 +292,10 @@ format_abstract_header(Name) :-
 	format("abstract ~w = Attempto ** {~nfun~n" , [Name]).
 
 format_concrete_header(Name, Lang) :-
-	format("concrete ~w~w of ~w = AttemptoAce **~nopen SyntaxAce, ParadigmsAce, IrregAce, (C = ConstructX) in {~n" , [Name, Lang, Name]).
+	format("concrete ~w~w of ~w = AttemptoAce ** open SyntaxAce, ParadigmsAce in {~nflags coding=utf8;~n" , [Name, Lang, Name]).
 
 format_footer :-
-	format("~n}~n").
+	format("}~n").
 
 r('-', '_').
 r('é', 'eacute').
@@ -103,6 +306,8 @@ r('â', 'acircumflex').
 r('ç', 'ccedilla').
 r('ü', 'uuml').
 r('ô', 'ocircumflex').
+r('°', 'degree').
+r('ï', 'iuml').
 
 char_replacer(X, Y) :-
     r(X, Y),
@@ -114,8 +319,7 @@ replace(Goal, Atom1, Atom2) :-
 	maplist(Goal, Chars1, Atoms2),
 	atomic_list_concat(Atoms2, Atom2).
 
-main :-
-	clex(Clex),
+main(Clex) :-
 	consult(Clex),
 	make_clex_abstract('Clex'),
 	make_clex_concrete('Clex', 'Ace').
