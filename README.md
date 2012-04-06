@@ -80,7 +80,7 @@ i.e. some ACE constructs are not supported, e.g.
   * adjective coordination
     - a rich and lucky man waits .
     - John is rich and lucky .
-  * ...
+  * John is more rich. (`John is richer` works)
 
 and it supports some constructs which in ACE do not exist, have been
 deprecated or should be avoided (i.e. create a warning), e.g.

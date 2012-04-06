@@ -22,13 +22,13 @@
 %
 
 type(Type) :-
-	type(Type, _, _, _, _, _, _).
+	type(Type, _, _, _, _, _).
 
 type(X, Y, Z) :-
 	type(X, _, _, Y, Z).
 
 type(X1, X2, X3, X4, X5) :-
-	type(X1, X2, X3, X4, X5, _, _).
+	type(X1, X2, X3, X4, X5, _).
 
 type(
 	adj_itr,
@@ -36,7 +36,6 @@ type(
 	2,
 	'A',
 	'A',
-	"mkA \"~w\"",
 	get_adj_itr
 ).
 
@@ -46,7 +45,6 @@ type(
 	2,
 	'A2',
 	'A2',
-	"mkA2 (mkA \"~w\") (mkPrep \"~w\")",
 	get_adj_tr
 ).
 
@@ -56,8 +54,7 @@ type(
 	2,
 	'N',
 	'CN',
-	"mkCN (mkN ~w (mkN \"~w\" \"~w\"))",
-	get_n
+	get_noun
 ).
 
 type(
@@ -66,7 +63,6 @@ type(
 	2,
 	'MCN',
 	'MCN',
-	"mkCN (mkN ~w (mkN \"~w\" \"~w\"))",
 	get_noun_mass
 ).
 
@@ -76,7 +72,6 @@ type(
 	2,
 	'Unit',
 	'Unit',
-	"mkCN (mkN ~w (mkN \"~w\" \"~w\"))",
 	get_mn
 ).
 
@@ -86,7 +81,6 @@ type(
 	2,
 	'PN',
 	'PN',
-	"mkPN \"~w\"",
 	get_pn
 ).
 
@@ -97,7 +91,6 @@ type(
 	2,
 	'V',
 	'V',
-	"mkV \"~w\"",
 	get_iv
 ).
 
@@ -108,7 +101,6 @@ type(
 	2,
 	'V2',
 	'V2',
-	"mkV2 \"~w\"",
 	get_tv
 ).
 
@@ -118,7 +110,6 @@ type(
 	2,
 	'V3',
 	'V3',
-	"mkV3 (mkV \"~w\") (mkPrep []) (mkPrep \"~w\")",
 	get_dv
 ).
 
@@ -128,7 +119,6 @@ type(
 	2,
 	'Adv',
 	'Adv',
-	"mkAdv \"~w\"",
 	get_adv
 ).
 
@@ -138,7 +128,6 @@ type(
 	2,
 	'Prep',
 	'Prep',
-	"mkPrep \"~w\"",
 	get_prep
 ).
 
@@ -155,18 +144,31 @@ get_funs(Name, Arity, LemmaPos, LemmasSorted) :-
 	findall(Lemma, (call(Goal), arg(LemmaPos, Goal, Lemma)), Lemmas),
 	sort(Lemmas, LemmasSorted).
 
-% TODO: provide comp and sup
-get_adj_itr(Lemma, [Adj]) :-
+% The GF's non-smart input is
+% \good,better,best,well
+% We return the positive form for the last argument.
+get_adj_itr(Lemma, "mkA \"~w\" \"~w\" \"~w\" \"~w\"", [Adj, Comp, Sup, Adj]) :-
+	adj_itr(Adj, Lemma),
+	adj_itr_comp(Comp, Lemma),
+	adj_itr_sup(Sup, Lemma),
+	!.
+
+get_adj_itr(Lemma, "mkA \"~w\" \"~w\"", [Adj, Comp]) :-
+	adj_itr(Adj, Lemma),
+	adj_itr_comp(Comp, Lemma),
+	!.
+
+get_adj_itr(Lemma, "mkA \"~w\"", [Adj]) :-
 	adj_itr(Adj, Lemma),
 	!.
 
 % TODO: provide comp and sup
-get_adj_tr(Lemma, [Adj, Prep]) :-
+get_adj_tr(Lemma, "mkA2 (mkA \"~w\") (mkPrep \"~w\")", [Adj, Prep]) :-
 	adj_tr(Adj, Lemma, Prep),
 	!.
 
 % TODO: support variants
-get_n(Lemma, [GfGender, Sg, Pl]) :-
+get_noun(Lemma, "mkCN (mkN ~w (mkN \"~w\" \"~w\"))", [GfGender, Sg, Pl]) :-
 	noun_sg(Sg, Lemma, AceGender),
 	(
 		noun_pl(Pl1, Lemma, _)
@@ -178,18 +180,18 @@ get_n(Lemma, [GfGender, Sg, Pl]) :-
 	gender(AceGender, GfGender),
 	!.
 
-get_noun_mass(Lemma, [GfGender, Word, Word]) :-
+get_noun_mass(Lemma, "mkCN (mkN ~w (mkN \"~w\" \"~w\"))", [GfGender, Word, Word]) :-
 	noun_mass(Word, Lemma, AceGender),
 	gender(AceGender, GfGender),
 	!.
 
 % TODO: support mn_pl
-get_mn(Lemma, [nonhuman, Word, Word]) :-
+get_mn(Lemma, "mkCN (mkN ~w (mkN \"~w\" \"~w\"))", [nonhuman, Word, Word]) :-
 	mn_sg(Word, Lemma),
 	!.
 
 % TODO: support pn_pl, gender, and the the-variant
-get_pn(Lemma, [Word]) :-
+get_pn(Lemma, "mkPN \"~w\"", [Word]) :-
 	pn_sg(W1, Lemma, _),
 	(
 		pndef_sg(_W2, Lemma, _)
@@ -203,28 +205,28 @@ get_pn(Lemma, [Word]) :-
 	!.
 
 
-get_iv(Lemma, [Word]) :-
+get_iv(Lemma, "mkV \"~w\"", [Word]) :-
 	iv_infpl(Word, Lemma),
 	!.
 
 
-get_tv(Lemma, [Word]) :-
+get_tv(Lemma, "mkV2 \"~w\"", [Word]) :-
 	tv_infpl(Word, Lemma),
 	!.
 
 % TODO: maybe it's not correct to return an empty atom,
 % i.e. we should return GF's [] instead, but this means
 % also that the format template should be constructed here.
-get_dv(Lemma, [Word, Prep]) :-
+get_dv(Lemma, "mkV3 (mkV \"~w\") (mkPrep []) (mkPrep \"~w\")", [Word, Prep]) :-
 	dv_infpl(Word, Lemma, Prep),
 	!.
 
 % TODO: add: comp and sup forms
-get_adv(Lemma, [Word]) :-
+get_adv(Lemma, "mkAdv \"~w\"", [Word]) :-
 	adv(Word, Lemma),
 	!.
 
-get_prep(Lemma, [Word]) :-
+get_prep(Lemma, "mkPrep \"~w\"", [Word]) :-
 	prep(Word, Lemma),
 	!.
 
@@ -244,10 +246,10 @@ pick_lemma(Lemmas, Cat, L) :-
 	\+ L-Cat == have-'V2'.
 
 format_concrete_fun(Type) :-
-	type(Type, Arity, LemmaPos, T, Cat, Format, Morph),
+	type(Type, Arity, LemmaPos, T, Cat, Morph),
 	get_funs(Type, Arity, LemmaPos, Lemmas),
 	forall(
-		( pick_lemma(Lemmas, Cat, L), call(Morph, L, Args) ),
+		( pick_lemma(Lemmas, Cat, L), call(Morph, L, Format, Args) ),
 		format_concrete(L, T, Format, Args)
 	).
 

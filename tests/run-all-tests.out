@@ -11,6 +11,6 @@ ok: 9368
 FAIL: 6426
 
 Testing: tests/ace
-ok: 1190
-FAIL: 1582
+ok: 1193
+FAIL: 1579
 

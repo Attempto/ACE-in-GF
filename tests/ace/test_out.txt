@@ -1037,7 +1037,7 @@ a book is quickly written by a man .|FAIL a book is quickly
 a book is not quickly written by a man .|FAIL a book is not quickly
 some books are quickly written by a man .|FAIL some books are quickly
 some books are not quickly written by a man .|FAIL some books are not quickly
-a best car wins .|FAIL a best
+a best car wins .|OK
 what is written by a man ?|FAIL what
 is a book written by a man ?|OK
 is a car blue ?|OK
@@ -1140,9 +1140,9 @@ a man is more interested-in a cat than a dog .|FAIL a man is more interested-in
 a man is more interested-in a cat than in a dog .|FAIL a man is more interested-in
 a car runs more speedily .|FAIL a car runs more speedily
 a dog is more good than a cat .|OK
-a dog is better than a cat .|FAIL a dog is better
+a dog is better than a cat .|OK
 John is more clever than Bill .|OK
-John is cleverer than Bill .|FAIL John is cleverer
+John is cleverer than Bill .|OK
 every man who loves a woman who loves the man owns a car .|OK
 everybody who is not an animal is not a dog .|FAIL everybody who
 everything that is not a cat can be a dog .|FAIL everything

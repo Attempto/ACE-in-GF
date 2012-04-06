@@ -522,7 +522,6 @@
       1 John is ""John"
       1 John is in a park hit
       1 John is everything
-      1 John is cleverer
       1 John is a father of who
       1 John is a customer of someone
       1 John is a :
@@ -861,7 +860,6 @@
       1 a dog of a man whose
       1 a dog is not a
       1 a dog is good and bad
-      1 a dog is better
       1 a dog eats nothing that
       1 a dog barks . it is not the
       1 a doctor sees himself
@@ -908,7 +906,6 @@
       1 a book is quickly
       1 a book is not written
       1 a book is not quickly
-      1 a best
       1 a bank in
       1 a ball where
       1 a ball in
