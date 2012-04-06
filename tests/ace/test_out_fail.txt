@@ -316,7 +316,7 @@
       1 there is a man 3
       1 there is a machine . it controls
       1 there is a long zip-code Z
-      1 there is a form . a man fills-in
+      1 there is a form . a man fills-in it
       1 there is a dog . not for
       1 there is a dog . not each of
       1 there is a dog . for all dogs

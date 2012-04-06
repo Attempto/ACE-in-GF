@@ -61,7 +61,7 @@ for each man a dog barks .|OK
 there is a thing A . there is a thing B . if A is true and A implies B then B is true .|FAIL there is a thing A
 what does a man look-at ?|FAIL what
 a man looks-at a card .|FAIL a man looks-at
-there is a form . a man fills-in it .|FAIL there is a form . a man fills-in
+there is a form . a man fills-in it .|FAIL there is a form . a man fills-in it
 what does a man look at ?|FAIL what
 a man looks at a card .|OK
 every man sees every dog .|OK

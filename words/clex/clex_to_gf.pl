@@ -144,10 +144,7 @@ get_funs(Name, Arity, LemmaPos, LemmasSorted) :-
 	findall(Lemma, (call(Goal), arg(LemmaPos, Goal, Lemma)), Lemmas),
 	sort(Lemmas, LemmasSorted).
 
-% The GF's non-smart input is
-% \good,better,best,well
-% We return the positive form for the last argument.
-get_adj_itr(Lemma, "mkA \"~w\" \"~w\" \"~w\" \"~w\"", [Adj, Comp, Sup, Adj]) :-
+get_adj_itr(Lemma, "aceA \"~w\" \"~w\" \"~w\"", [Adj, Comp, Sup]) :-
 	adj_itr(Adj, Lemma),
 	adj_itr_comp(Comp, Lemma),
 	adj_itr_sup(Sup, Lemma),
@@ -163,8 +160,10 @@ get_adj_itr(Lemma, "mkA \"~w\"", [Adj]) :-
 	!.
 
 % TODO: provide comp and sup
-get_adj_tr(Lemma, "mkA2 (mkA \"~w\") (mkPrep \"~w\")", [Adj, Prep]) :-
+get_adj_tr(Lemma, "aceA2 \"~w\" \"~w\" \"~w\"", [Adj, Comp, Sup]) :-
 	adj_tr(Adj, Lemma, Prep),
+	adj_tr_comp(Comp, Lemma, Prep),
+	adj_tr_sup(Sup, Lemma, Prep),
 	!.
 
 % TODO: support variants
@@ -205,23 +204,43 @@ get_pn(Lemma, "mkPN \"~w\"", [Word]) :-
 	!.
 
 
+get_iv(Lemma, "aceV \"~w\" \"~w\"", [Inf, Fin]) :-
+	iv_infpl(Inf, Lemma),
+	iv_finsg(Fin, Lemma),
+	!.
+
 get_iv(Lemma, "mkV \"~w\"", [Word]) :-
 	iv_infpl(Word, Lemma),
 	!.
 
 
+get_tv(Lemma, "aceV2 \"~w\" \"~w\" \"~w\"", [Inf, Fin, Pp]) :-
+	tv_infpl(Inf, Lemma),
+	tv_finsg(Fin, Lemma),
+	tv_pp(Pp, Lemma),
+	!.
+
 get_tv(Lemma, "mkV2 \"~w\"", [Word]) :-
 	tv_infpl(Word, Lemma),
 	!.
 
-% TODO: maybe it's not correct to return an empty atom,
-% i.e. we should return GF's [] instead, but this means
-% also that the format template should be constructed here.
-get_dv(Lemma, "mkV3 (mkV \"~w\") (mkPrep []) (mkPrep \"~w\")", [Word, Prep]) :-
+get_dv(Lemma, "aceV3 \"~w\" \"~w\" \"~w\" \"~w\"", [Inf, Fin, Pp, Prep]) :-
+	dv_infpl(Inf, Lemma, Prep),
+	Prep == '',
+	dv_finsg(Fin, Lemma, Prep),
+	dv_pp(Pp, Lemma, Prep),
+	!.
+
+get_dv(Lemma, "mkV3 (mkV \"~w\") (mkPrep \"~w\")", [Word, Prep]) :-
 	dv_infpl(Word, Lemma, Prep),
 	!.
 
-% TODO: add: comp and sup forms
+% TODO:
+% mkAdV (capital V) makes adverbs which can precede the verb, which we need,
+% but didn't get it to work, got an error message:
+% linking ... gf: GrammarToPGF.mkFId failed
+%
+% TODO: the comp and sup forms cannot be specified in the GF API?
 get_adv(Lemma, "mkAdv \"~w\"", [Word]) :-
 	adv(Word, Lemma),
 	!.
@@ -293,8 +312,21 @@ make_concrete_filename(Name, Lang, Filename) :-
 format_abstract_header(Name) :-
 	format("abstract ~w = Attempto ** {~nfun~n" , [Name]).
 
+% The GF's non-smart input for mkA is
+% \good,better,best,well
+:- style_check(-atom).
 format_concrete_header(Name, Lang) :-
-	format("concrete ~w~w of ~w = AttemptoAce ** open SyntaxAce, ParadigmsAce in {~nflags coding=utf8;~n" , [Name, Lang, Name]).
+	format("concrete ~w~w of ~w = AttemptoAce ** open SyntaxAce, ParadigmsAce in {~n", [Name, Lang, Name]),
+	write('
+flags coding=utf8;
+oper
+aceV : (_,_:Str) -> V = \\go,goes -> mkV go goes "~" "~" "~";
+aceV2 : (_,_,_:Str) -> V2 = \\go,goes,gone -> mkV2 (mkV go goes "~" gone "~");
+aceV3 : (_,_,_,_:Str) -> V3 = \\go,goes,gone,prep -> mkV3 (mkV go goes "~" gone "~") (mkPrep prep);
+aceA : (_,_,_:Str) -> A = \\good,better,best -> mkA good better best "~";
+aceA2 : (_,_,_:Str) -> A2 = \\good,better,best -> mkA2 (aceA good better best) "";
+').
+:- style_check(+atom).
 
 format_footer :-
 	format("}~n").
