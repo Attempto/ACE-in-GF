@@ -1,5 +1,5 @@
-clex='/home/kaarel/mywork/APE/lexicon/clex_lexicon.pl'
-#clex='/home/kaarel/mywork/APE/lexicon/clex_lexicon_small.pl'
+#clex='/home/kaarel/mywork/APE/lexicon/clex_lexicon.pl'
+clex='/home/kaarel/mywork/APE/lexicon/clex_lexicon_small.pl'
 
 ace="../../lib/src/ace/"
 api="../../lib/src/api/"

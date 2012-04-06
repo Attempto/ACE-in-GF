@@ -12704,18 +12704,18 @@ there is a friend of exactly 2 women . |OK
 there is a friend of Mary . |OK
 there is a friend of Mary and there is a woman .|OK
 there is a friend of Mary such that there is a woman .|OK
-there is a friend of Mary who asks a woman .|FAIL there is a friend of Mary who
-there is a friend of Mary who asks every woman .|FAIL there is a friend of Mary who
-there is a friend of Mary who asks Mary .|FAIL there is a friend of Mary who
-there is a friend of Mary who asks X .|FAIL there is a friend of Mary who
-there is a friend of Mary who a woman asks .|FAIL there is a friend of Mary who
-there is a friend of Mary who every woman asks .|FAIL there is a friend of Mary who
-there is a friend of Mary who is a woman .|FAIL there is a friend of Mary who
-there is a friend of Mary who is every woman .|FAIL there is a friend of Mary who
-there is a friend of Mary who is Mary .|FAIL there is a friend of Mary who
-there is a friend of Mary who is X .|FAIL there is a friend of Mary who
-there is a friend of Mary who Mary asks .|FAIL there is a friend of Mary who
-there is a friend of Mary who X asks .|FAIL there is a friend of Mary who
+there is a friend of Mary who asks a woman .|OK
+there is a friend of Mary who asks every woman .|OK
+there is a friend of Mary who asks Mary .|OK
+there is a friend of Mary who asks X .|OK
+there is a friend of Mary who a woman asks .|OK
+there is a friend of Mary who every woman asks .|OK
+there is a friend of Mary who is a woman .|OK
+there is a friend of Mary who is every woman .|OK
+there is a friend of Mary who is Mary .|OK
+there is a friend of Mary who is X .|OK
+there is a friend of Mary who Mary asks .|OK
+there is a friend of Mary who X asks .|OK
 there is a friend of X . |OK
 there is a friend of X and there is a woman .|OK
 there is a friend of X such that there is a woman .|OK

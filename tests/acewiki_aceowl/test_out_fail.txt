@@ -172,9 +172,6 @@
      12 X is not X
      12 X is not everybody who
      12 X is asked by everybody who
-     12 there is a friend of somebody who
-     12 there is a friend of Mary who
-     12 there is a friend of everybody who
      12 somebody is not X
      12 somebody is not everybody who
      12 somebody is asked by everybody who

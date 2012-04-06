@@ -17,14 +17,11 @@ Some normalization is performed, e.g.
   * sentence-initial function words are lowercased
   * punctuation marks are separated from the words
 
-Results:
+Results with the large Clex as the lexicon:
 
-  * Parsed: 421
-  * NOT parsed: 2351
-
-Most failures are caused by missing content words in the GF ACE test lexicon
-(which is easy to fix). The most frequent failures however feature some syntactic
-structures and function words which the GF ACE implementation does not support.
+  * Parsed: 1212
+  * NOT parsed: 1560
+  * Runtime: ~10 minutes (large lexicon slows GF down)
 
 
 ### acewiki_aceowl

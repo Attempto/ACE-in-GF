@@ -90,7 +90,6 @@
      13 a woman asks X and asks
      12 X is every woman and is
      12 X asks every woman and is
-     12 there is a friend of Mary who
      12 it is false that X is Mary who
      12 it is false that X asks Mary who
      12 it is false that Mary is Mary who

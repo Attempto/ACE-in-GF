@@ -15907,18 +15907,18 @@ there is  a  friend of  a  woman  X  .  |OK
 there is  a  friend of  everybody  .      |OK
 there is  a  friend of  everybody  and  there is  somebody  .|OK
 there is  a  friend of  everybody  such that  there is  somebody  .|OK
-there is  a  friend of  everybody  who  asks  everybody  .|FAIL there is a friend of everybody who
-there is  a  friend of  everybody  who  asks  Mary  .|FAIL there is a friend of everybody who
-there is  a  friend of  everybody  who  asks  somebody  .|FAIL there is a friend of everybody who
-there is  a  friend of  everybody  who  asks  X  .|FAIL there is a friend of everybody who
-there is  a  friend of  everybody  who  everybody  asks  .|FAIL there is a friend of everybody who
-there is  a  friend of  everybody  who  is  everybody  .|FAIL there is a friend of everybody who
-there is  a  friend of  everybody  who  is  Mary  .|FAIL there is a friend of everybody who
-there is  a  friend of  everybody  who  is  somebody  .|FAIL there is a friend of everybody who
-there is  a  friend of  everybody  who  is  X  .|FAIL there is a friend of everybody who
-there is  a  friend of  everybody  who  Mary  asks  .|FAIL there is a friend of everybody who
-there is  a  friend of  everybody  who  somebody  asks  .|FAIL there is a friend of everybody who
-there is  a  friend of  everybody  who  X  asks  .|FAIL there is a friend of everybody who
+there is  a  friend of  everybody  who  asks  everybody  .|OK
+there is  a  friend of  everybody  who  asks  Mary  .|OK
+there is  a  friend of  everybody  who  asks  somebody  .|OK
+there is  a  friend of  everybody  who  asks  X  .|OK
+there is  a  friend of  everybody  who  everybody  asks  .|OK
+there is  a  friend of  everybody  who  is  everybody  .|OK
+there is  a  friend of  everybody  who  is  Mary  .|OK
+there is  a  friend of  everybody  who  is  somebody  .|OK
+there is  a  friend of  everybody  who  is  X  .|OK
+there is  a  friend of  everybody  who  Mary  asks  .|OK
+there is  a  friend of  everybody  who  somebody  asks  .|OK
+there is  a  friend of  everybody  who  X  asks  .|OK
 there is  a  friend of  everybody  X  .    |OK
 there is  a  friend of  every  friend of  a  woman  .|OK
 there is  a  friend of  every  friend of  everybody  .  |OK
@@ -15935,33 +15935,33 @@ there is  a  friend of  exactly  2  women  .  |OK
 there is  a  friend of  Mary  .      |OK
 there is  a  friend of  Mary  and  there is  somebody  .|OK
 there is  a  friend of  Mary  such that  there is  somebody  .|OK
-there is  a  friend of  Mary  who  asks  everybody  .|FAIL there is a friend of Mary who
-there is  a  friend of  Mary  who  asks  Mary  .|FAIL there is a friend of Mary who
-there is  a  friend of  Mary  who  asks  somebody  .|FAIL there is a friend of Mary who
-there is  a  friend of  Mary  who  asks  X  .|FAIL there is a friend of Mary who
-there is  a  friend of  Mary  who  everybody  asks  .|FAIL there is a friend of Mary who
-there is  a  friend of  Mary  who  is  everybody  .|FAIL there is a friend of Mary who
-there is  a  friend of  Mary  who  is  Mary  .|FAIL there is a friend of Mary who
-there is  a  friend of  Mary  who  is  somebody  .|FAIL there is a friend of Mary who
-there is  a  friend of  Mary  who  is  X  .|FAIL there is a friend of Mary who
-there is  a  friend of  Mary  who  Mary  asks  .|FAIL there is a friend of Mary who
-there is  a  friend of  Mary  who  somebody  asks  .|FAIL there is a friend of Mary who
-there is  a  friend of  Mary  who  X  asks  .|FAIL there is a friend of Mary who
+there is  a  friend of  Mary  who  asks  everybody  .|OK
+there is  a  friend of  Mary  who  asks  Mary  .|OK
+there is  a  friend of  Mary  who  asks  somebody  .|OK
+there is  a  friend of  Mary  who  asks  X  .|OK
+there is  a  friend of  Mary  who  everybody  asks  .|OK
+there is  a  friend of  Mary  who  is  everybody  .|OK
+there is  a  friend of  Mary  who  is  Mary  .|OK
+there is  a  friend of  Mary  who  is  somebody  .|OK
+there is  a  friend of  Mary  who  is  X  .|OK
+there is  a  friend of  Mary  who  Mary  asks  .|OK
+there is  a  friend of  Mary  who  somebody  asks  .|OK
+there is  a  friend of  Mary  who  X  asks  .|OK
 there is  a  friend of  somebody  .      |OK
 there is  a  friend of  somebody  and  there is  somebody  .|OK
 there is  a  friend of  somebody  such that  there is  somebody  .|OK
-there is  a  friend of  somebody  who  asks  everybody  .|FAIL there is a friend of somebody who
-there is  a  friend of  somebody  who  asks  Mary  .|FAIL there is a friend of somebody who
-there is  a  friend of  somebody  who  asks  somebody  .|FAIL there is a friend of somebody who
-there is  a  friend of  somebody  who  asks  X  .|FAIL there is a friend of somebody who
-there is  a  friend of  somebody  who  everybody  asks  .|FAIL there is a friend of somebody who
-there is  a  friend of  somebody  who  is  everybody  .|FAIL there is a friend of somebody who
-there is  a  friend of  somebody  who  is  Mary  .|FAIL there is a friend of somebody who
-there is  a  friend of  somebody  who  is  somebody  .|FAIL there is a friend of somebody who
-there is  a  friend of  somebody  who  is  X  .|FAIL there is a friend of somebody who
-there is  a  friend of  somebody  who  Mary  asks  .|FAIL there is a friend of somebody who
-there is  a  friend of  somebody  who  somebody  asks  .|FAIL there is a friend of somebody who
-there is  a  friend of  somebody  who  X  asks  .|FAIL there is a friend of somebody who
+there is  a  friend of  somebody  who  asks  everybody  .|OK
+there is  a  friend of  somebody  who  asks  Mary  .|OK
+there is  a  friend of  somebody  who  asks  somebody  .|OK
+there is  a  friend of  somebody  who  asks  X  .|OK
+there is  a  friend of  somebody  who  everybody  asks  .|OK
+there is  a  friend of  somebody  who  is  everybody  .|OK
+there is  a  friend of  somebody  who  is  Mary  .|OK
+there is  a  friend of  somebody  who  is  somebody  .|OK
+there is  a  friend of  somebody  who  is  X  .|OK
+there is  a  friend of  somebody  who  Mary  asks  .|OK
+there is  a  friend of  somebody  who  somebody  asks  .|OK
+there is  a  friend of  somebody  who  X  asks  .|OK
 there is  a  friend of  somebody  X  .    |OK
 there is  a  friend of  X  .      |OK
 there is  a  friend of  X  and  there is  somebody  .|OK

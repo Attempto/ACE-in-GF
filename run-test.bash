@@ -6,7 +6,8 @@
 prog="Parser"
 testset="tests/ace/sentences.txt"
 pgf="ACE-0_0_2.pgf"
-lang="TestAttemptoAce"
+lang="ClexAce"
+#lang="TestAttemptoAce"
 
 
 if [ $# -eq 2 ]
