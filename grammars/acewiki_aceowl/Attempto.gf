@@ -1,8 +1,8 @@
 abstract Attempto =
   Numeral, Symbols ** {
 
--- We allow only single-sentence texts.
-flags startcat = Text ;
+-- Use Text to get only single-sentence texts.
+flags startcat = ACEText ;
 
 -- Do not delete these categories,
 -- even if they are not used below.

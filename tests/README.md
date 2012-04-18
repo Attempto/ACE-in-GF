@@ -59,6 +59,23 @@ _Work in progress_
 
 The ACE Editor subset is between AceWiki ACEOWL and full ACE.
 
+### ontograph_40
+
+Coverage test:
+
+> bash make-pgf.bash grammars/acewiki_aceowl/ "words/ontograph_40/TestAttemptoAce.gf"
+
+> bash run-test.bash tests/ontograph_40/sentences.txt
+
+> cat test_out_fail.txt
+
+
+Multilinguality test:
+
+> bash make-pgf.bash grammars/acewiki_aceowl/ "words/ontograph_40/TestAttempto{Ace,Ger}.gf"
+
+> cat tests/ontograph_40/sentences.txt | ./Translator ACE-0_0_2.pgf
+
 
 Test files
 ----------

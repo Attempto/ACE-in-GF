@@ -143,6 +143,14 @@ are saved into the `build`-directory.
 	TestAttempto> p -lang=Eng "1 = 1 ."
 	baseText (sText (formulaS (eq_Formula (int_Term 1) (int_Term 1))))
 
+  * What is the meaning of this type of compile time warnings:
+
+	Happened in the renaming of mkkN
+	Warning: atomic term CN
+		conflict CatAce.CN, AttemptoAce.CN
+		given ParadigmsAce, SyntaxAce, CommonX, CatAce, NumeralAce,
+			SymbolsC, AttemptoAce, TestAttemptoAce
+
 
 Running
 -------

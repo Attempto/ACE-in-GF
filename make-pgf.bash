@@ -1,10 +1,27 @@
 #!/bin/bash
 
+# Builds the PGF file from the given source files.
+#
+# There are two optional arguments:
+#
+# 1. directory that contains the grammar implementation
+# 2. file list pattern (must be in quotes),
+#    referencing the vocabulary files in multiple languages
+#
+# Usage examples:
+#
+# bash make-pgf.bash grammars/acewiki_aceowl/ "words/ontograph_40/TestAttempto{Ace,}.gf"
+# bash make-pgf.bash grammars/attempto/ "words/test/TestAttempto{Ace,Eng,Ger,Ita,Fre,Swe}.gf"
+
+# ACE RG files
 ace="lib/src/ace/"
 api="lib/src/api/"
+
+# Full ACE grammar
 grammar="grammars/attempto/"
-#words="words/test/"
-words="words/clex/"
+
+# Clex lexicon (ACE-only)
+words="words/clex/ClexAce.gf"
 
 if [ $# -eq 2 ]
 then
@@ -31,17 +48,16 @@ echo "Making output directories (if needed)"
 mkdir -p ${dir_gr}
 mkdir -p ${dir_jsgf}
 
-# More languages can be plugged in here.
-echo "Building PGF from ${words}/TestAttempto{Ace,Eng,Ger,Ita,Fre,Swe}.gf"
+echo "Building PGF from:"
+eval echo ${words}
 # TODO: for some reason the output-dir parameter has no influence,
 # so we don't use it, and the PGF is dropped into the current directory.
-#gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --name $name --path $path ${words}/TestAttempto{Ace,Eng,Ger,Ita,Fre,Swe}.gf
-gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --name $name --path $path ${words}/ClexAce.gf
+gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --name $name --path $path `eval echo ${words}`
 
 echo "Generating JSGF into ${dir_jsgf} ...";
 gf --make --output-format=jsgf --name ${name} --output-dir ${dir_jsgf} ${name}.pgf
 
-echo "Generating random examples into ${dir_gr} ...";
+echo "Generating random examples into ${dir_gr} ... (press Ctrl-C if it takes too long)";
 echo "gr -cat=Text -number=1000 -depth=10 | l -treebank -bind" | gf --run ${name}.pgf > ${dir_gr}/${name}.txt
 
 echo "done."
