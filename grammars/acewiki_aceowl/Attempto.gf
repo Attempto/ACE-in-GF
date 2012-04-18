@@ -74,9 +74,14 @@ fun termNP : Term -> NP ;
 
 -- 2.2.2
 
--- TODO: what is the difference?
+-- Relative clause can be attached to
+-- both CNs and NPs.
+-- TODO: maybe get rid of relCN, as
+-- CN goes to NP anyway.
+-- We should avoid the ambiguity that would
+-- result if both rules are present.
 fun relCN : CN -> RS -> CN ;
---fun relNP : NP -> RS -> NP ;
+fun relNP : NP -> RS -> NP ;
 
 fun andRS : RS -> RS -> RS ;
 fun orRS : RS -> RS -> RS ;

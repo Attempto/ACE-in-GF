@@ -3,11 +3,11 @@
      22 what
      20 John does
      16 there is a man who does
+     14 John ,
      14 a man does
      12 how
      10 not for
      10 in
-      9 Mary who
       9 John knows that
       9 John can not
       9 everybody who
@@ -18,18 +18,18 @@
       8 is there
       7 John believes that
       7 for each of some
+      6 John and Mary ,
       6 everybody X
       6 a man whose
       6 a man usually
+      6 a man ,
       5 there is a red card R
       5 there is a man the
       5 p
-      5 John who
       5 John v
       5 John sees a man who does
       5 John patiently
       5 John may
-      5 John , buy
       5 it is not provable
       5 it is not possible
       5 is it true that
@@ -56,12 +56,10 @@
       4 John soundly
       4 John likes Mary a
       4 John is more fond-of
-      4 John and Mary , buy
       4 it is false that a man eats or that
       4 if a user is happy and pays
       4 if a user is authenticated and pays
       4 for each of a
-      4 everything that
       4 every man works or eats
       4 everybody X's
       4 everybody whose
@@ -69,7 +67,6 @@
       4 a n
       4 a man sees everything X
       4 a man manually
-      4 a man , buy
       3 there is a man who sees himself
       3 there is a man that eats , and that
       3 there is a man or the man does
@@ -80,7 +77,6 @@
       3 Mary knows that
       3 Mary does
       3 John wants to
-      3 John , wait
       3 John usually
       3 John quickly
       3 John must manually
@@ -148,7 +144,6 @@
       2 not everyone
       2 not each of
       2 noone
-      2 no man is something that
       2 nobody X
       2 Mary waits . XJohn
       2 John waits in a kitchen
@@ -200,7 +195,7 @@
       2 a man X gives an apple to a woman Y . Y accepts the apple and eats
       2 a man X and Y's
       2 a man who waits walks and eats
-      2 a man who is happy or who is sad , and
+      2 a man who is happy or who is sad ,
       2 a man waits or sleeps
       2 a man sees a mat on which
       2 a man M
@@ -238,9 +233,9 @@
       1 who runs and
       1 who likes nothing but raw meat
       1 who likes nothing but Mary
-      1 who is somebody that
+      1 who is somebody that somebody that knows who
       1 who is mad-about
-      1 who is known by somebody that
+      1 who is known by somebody that knows who
       1 who is John fond-of
       1 who hits who
       1 who hits himself
@@ -389,12 +384,12 @@
       1 something sees itself
       1 some men X and Y program a n
       1 some men can see themselves
-      1 some men , buy
       1 some men are sent a
-      1 some laundry which
+      1 some men ,
+      1 some laundry which sees itself
       1 some laundry of
       1 some groups of some men see themselves
-      1 some customers , buy
+      1 some customers ,
       1 some books are quickly
       1 some books are not written
       1 some books are not quickly
@@ -425,14 +420,23 @@
       1 no password is "god"
       1 no man sees himself
       1 no man M
+      1 no man is something that likes Mary and hates
       1 no man eats or drinks
       1 no man but
-      1 nobody that
       1 nobody sees himself
       1 nobody sees herself
       1 nobody of
       1 no analysis
       1 more than 3 kg
+      1 Mary who X asks does
+      1 Mary who which
+      1 Mary who sees Bill who does
+      1 Mary who is X is not her
+      1 Mary who is not X
+      1 Mary who everybody X
+      1 Mary who does
+      1 Mary who asks X is not her
+      1 Mary who asks everybody X
       1 Mary waits . John waits . what
       1 Mary sleeps . John sees himself
       1 Mary sees John . he does
@@ -442,23 +446,22 @@
       1 Mary is sent a
       1 Mary is not a
       1 Mary is as young as who
-      1 Mary asks John who
+      1 Mary asks John who asks who
       1 Mary asks everybody X
       1 Jyri's
       1 JohnX
       1 John wisely
       1 John whose
+      1 John who is larger than his own brother can work carefully in a year that is not 2006
       1 John watches the man who sees himself
       1 John watches a man who sees himself
       1 John wants that
       1 John waits patiently in a kitchen
       1 John waits . John does
       1 John waits . a man brings him his pencil and brings
-      1 John , trust
       1 John tries to walk
       1 John tries to hurry
       1 John tells that
-      1 John tells Mary that
       1 John takes his own card and gets
       1 John stops
       1 John's speed is 10 sec
@@ -466,7 +469,6 @@
       1 John sleeps where
       1 John's laundries
       1 John's height is 180 cm
-      1 John , sell
       1 John sees which
       1 John sees what
       1 John sees some water of
@@ -476,7 +478,6 @@
       1 John sees a man who sleeps with his own eyes
       1 John sees a man whose
       1 John sees a girl in every park with no telescope
-      1 John , see
       1 John's customer who is new inserts a valid card of Mary manually into a slot A
       1 John says that
       1 John says "Mary
@@ -524,7 +525,6 @@
       1 John is a customer of someone
       1 John is a :
       1 John hits himself
-      1 John , hit
       1 John hates a man who John can
       1 John has each of less
       1 John has each of exactly
@@ -532,11 +532,9 @@
       1 John has a card no
       1 John has 1.83 kg
       1 John feeds his own dogs
-      1 John , enter
       1 John eats nothing but raw and expensive
       1 John eats . it is not possible
       1 John drinks p
-      1 John , do
       1 John comes from Berlin and goes
       1 John can travel
       1 John can from
@@ -544,12 +542,10 @@
       1 John beats his own big dog and beats
       1 John beats a donkey of himself
       1 John beats a donkey of a wife of himself
-      1 John and Mary , sell
       1 John and Mary's dogs
       1 John and Mary's contracts
       1 John and Mary like what
       1 John and Mary hit themselves
-      1 John and Mary , hit
       1 John and Mary a
       1 John a
       1 John"
@@ -587,17 +583,13 @@
       1 if X's
       1 if X gives Y Z
       1 if there is something X
-      1 if there is something that
       1 if there is somebody Y
       1 if there is somebody X1
       1 if there is somebody X
-      1 if there is nobody that
       1 if there is a thing that does
-      1 if there is a thing and everything that
       1 if there is a pet X then X is a dog or X is a cat , and it is false that X is a dog and that
       1 if there is an element , and there is a name N
       1 if there is an animal that is not a
-      1 if there is an animal such that everything that
       1 if there is a n
       1 if there is a man X1
       1 if there is a man who is happy or who is sad , and the dog of who
@@ -626,8 +618,6 @@
       1 if there is a man then a dog barks and bites
       1 if there is a dog A
       1 if there is a declaration whose
-      1 if there is a carnivore then everything that
-      1 if there is a carnivore then everybody that
       1 if there are a man and a manager then the man is a :
       1 if the n
       1 if somebody X's
@@ -645,7 +635,6 @@
       1 if a person buys an object from a merchant and keeps
       1 if a message is from someone
       1 if a man runs , and walks
-      1 if a man likes somebody that
       1 if a man does
       1 if a group is {
       1 if a customer does
@@ -678,11 +667,15 @@
       1 for all cats
       1 "Fido"
       1 everything X
+      1 everything that v
+      1 everything that knows something that hears something sees itself
+      1 everything that is written by somebody is a book or is
+      1 everything that is not a
       1 everything of
       1 everything barks at itself
       1 everything a
       1 every program that calls
-      1 every pet is something that
+      1 every pet is something that is a cat or that is a dog , and that
       1 every pet is not a
       1 every period
       1 everyone
@@ -704,7 +697,6 @@
       1 every man waits-for
       1 every man that is not liked
       1 every man sleeps where
-      1 every man sees John who
       1 every man sees a dog that barks or works
       1 every man sees a dog that barks or sees
       1 every man sees a cat that sees the man and sees
@@ -727,11 +719,10 @@
       1 every man hates a dog that knows something or hates
       1 every man eats or drinks
       1 every man eats or does
-      1 every man , buy
       1 every man an
       1 every man a
+      1 every man ,
       1 every goat eats at most 0 things that are not some
-      1 every goal is something that
       1 every friend of JohnX
       1 every empty string is ""
       1 every dot
@@ -743,7 +734,6 @@
       1 every comment
       1 every city overlaps-with
       1 every cellular n
-      1 everybody sees John who
       1 everybody is not seen
       1 everybody a
       1 everybody '
@@ -771,7 +761,7 @@
       1 at most 3 men eat or drink
       1 at most 3 l
       1 at most 1 kg
-      1 at least 5 men , buy
+      1 at least 5 men ,
       1 at least 3 l
       1 a text is "abcdef"
       1 a string is "#"
@@ -810,12 +800,11 @@
       1 a man waits-for
       1 a man waits carefully and manually
       1 a man v
-      1 a man that waits , buy
+      1 a man that waits ,
       1 a man that sees a boy that waits hears himself
       1 a man spends
       1 a man silently
       1 a man should
-      1 a man , sell
       1 a man sees every mat on which
       1 a man sees everybody who
       1 a man sees a dog and himself
@@ -838,7 +827,6 @@
       1 a man in
       1 a man hits a dog whose
       1 a man hits a dog the
-      1 a man , hit
       1 a man has 2 kg of dirty water
       1 a man gives a woman "abc"
       1 a man gives a dog a bone and gives
@@ -857,12 +845,10 @@
       1 a girl sees every man whose
       1 a dog that a man sees quickly
       1 a dog that a man sees in
-      1 a dog sees nobody that
       1 a dog of which
       1 a dog of a man whose
       1 a dog is not a
       1 a dog is good and bad
-      1 a dog eats nothing that
       1 a dog barks . it is not the
       1 a doctor sees himself
       1 a doctor sees herself

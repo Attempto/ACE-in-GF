@@ -191,8 +191,8 @@ is there a man that runs or that waits ?|FAIL is there
 a man who is happy and sad waits .|FAIL a man who is happy and sad
 a man who is happy or who is sad waits .|OK
 a man who is happy or who is sad and who is rich waits .|OK
-a man who is happy or who is sad , and who is rich waits .|FAIL a man who is happy or who is sad , and
-a man who is happy or who is sad , and the dog of who barks waits .|FAIL a man who is happy or who is sad , and
+a man who is happy or who is sad , and who is rich waits .|FAIL a man who is happy or who is sad ,
+a man who is happy or who is sad , and the dog of who barks waits .|FAIL a man who is happy or who is sad ,
 if there is a man who is happy or who is sad , and the dog of who barks then he waits .|FAIL if there is a man who is happy or who is sad , and the dog of who
 John's code is red . John's code is blue .|OK
 a man sees a dog and a cat .|OK
@@ -637,7 +637,7 @@ if there is a man then there are 2 women .|OK
 there is some laundry . there is a dog . it is clean .|OK
 there is some laundry . it sees itself .|FAIL there is some laundry . it sees itself
 there is some laundry . it sees its own dog .|OK
-some laundry which sees itself is clean .|FAIL some laundry which
+some laundry which sees itself is clean .|FAIL some laundry which sees itself
 each of 2 girls lifts them .|OK
 a man is interested-in every dog .|FAIL a man is interested-in
 a man is interested-in every dog that barks .|FAIL a man is interested-in
@@ -658,7 +658,7 @@ a card that is tired sleeps .|OK
 a man that is tired sleeps .|OK
 a man who is tired sleeps .|OK
 a man who is John sleeps .|OK
-John who is a man sleeps .|FAIL John who
+John who is a man sleeps .|OK
 2 men X and John wait .|OK
 Christmases wait .|FAIL Christmases
 there is a man X . a man Y brings him his pencil and his own computer .|OK
@@ -672,8 +672,8 @@ a man X gives an apple to a woman Y . Y accepts the apple and eats it . she is h
 John gives an apple to Mary . Mary accepts the apple and eats it . she is happy and he has no apples .|FAIL John gives an apple to Mary . Mary accepts the apple and eats
 a man runs easily .|OK
 there is a dog which a man hits .|OK
-John who is a clerk waits .|FAIL John who
-John who is the clerk waits .|FAIL John who
+John who is a clerk waits .|OK
+John who is the clerk waits .|OK
 there are at most 2 men X and Y and Z .|FAIL there are at most 2 men X and Y and Z
 a man waits in a bank with John .|OK
 every customer enters every card .|OK
@@ -705,7 +705,7 @@ somebody is himself .|FAIL somebody is himself
 a man is himself .|FAIL a man is himself
 there is a dog . a man sees the dog of it .|OK
 a man does not sleep or does not wait .|FAIL a man does
-if there is something that barks then it is a dog .|FAIL if there is something that
+if there is something that barks then it is a dog .|OK
 a dog that a man sees in a park barks .|FAIL a dog that a man sees in
 a dog that a man sees quickly barks .|FAIL a dog that a man sees quickly
 a man gives a dog a bone and gives a cat a cake .|FAIL a man gives a dog a bone and gives
@@ -865,12 +865,12 @@ a man is not no dog .|FAIL a man is not no
 everybody sees at least 1 man .|OK
 a man comes in a day A1 . a boy reads in the day A2 that follows A1 . the book is red in the day that follows A2 .|FAIL a man comes in a day A1
 2 kg of apples of John wait .|OK
-if there is a carnivore then everybody that it eats is an animal .|FAIL if there is a carnivore then everybody that
-if there is a carnivore then everything that it eats is a meat .|FAIL if there is a carnivore then everything that
+if there is a carnivore then everybody that it eats is an animal .|OK
+if there is a carnivore then everything that it eats is a meat .|OK
 if there is a thing that does not eat something that is not a meat then the thing is a carnivore .|FAIL if there is a thing that does
 everything is a cat and everything is a dog .|OK
 there is a cat and everything is a dog .|OK
-if there is a thing and everything that it eats is a meat then it is a carnivore .|FAIL if there is a thing and everything that
+if there is a thing and everything that it eats is a meat then it is a carnivore .|OK
 2 men wait .|OK
 there are less than 2 kg of milk . there are less than 2 men .|FAIL there are less than 2 kg
 there are 1 kg of water and 2 kg of apples .|OK
@@ -884,7 +884,7 @@ John enters every card which carries its own code .|OK
 John enters every card which is its own card .|OK
 John vaguely sees a big dog that barks in the garden of its own brother .|FAIL John vaguely
 if there is a man such that he waits then he is happy .|OK
-if there is an animal such that everything that the animal eats is a meat then the animal is a carnivore .|FAIL if there is an animal such that everything that
+if there is an animal such that everything that the animal eats is a meat then the animal is a carnivore .|OK
 there is a cat such that everything is a dog .|OK
 John feeds his own dogs .|FAIL John feeds his own dogs
 there is a bank . a code is not in the bank .|FAIL there is a bank . a code is not in
@@ -967,8 +967,8 @@ there is a man that sees a cat and that a cat sees .|OK
 there is a man that sees a cat and that the cat sees .|OK
 no man who a woman sees waits .|OK
 every goal that a referee counts is a point .|OK
-everybody sees John who waits .|FAIL everybody sees John who
-every man sees John who hears the man .|FAIL every man sees John who
+everybody sees John who waits .|OK
+every man sees John who hears the man .|OK
 there is a man who sees some women .|OK
 there is a man who some women see .|OK
 everybody who lives-at a place that he / she works-at is a n : home-worker .|FAIL everybody who
@@ -976,7 +976,7 @@ if somebody lives-at a place and he / she works-at the place then he / she is a 
 if somebody lives-at a place and works-at the place then he / she is a n : home-worker .|FAIL if somebody lives-at
 if a thing X likes a thing Y and Y likes a thing Z then X likes Z .|FAIL if a thing X likes a thing Y and Y likes a thing Z
 if something X likes something Y and Y likes something Z then X likes Z .|FAIL if something X
-everything that v : affiliatedWith something that v : affiliatedWith something v : affiliatedWith it .|FAIL everything that
+everything that v : affiliatedWith something that v : affiliatedWith something v : affiliatedWith it .|FAIL everything that v
 there is nobody .|OK
 every man whose age is an integer is a manager .|FAIL every man whose
 every man's age is an integer .|OK
@@ -1041,7 +1041,7 @@ a best car wins .|OK
 what is written by a man ?|FAIL what
 is a book written by a man ?|OK
 is a car blue ?|OK
-everything that is written by somebody is a book or is a paper .|FAIL everything that
+everything that is written by somebody is a book or is a paper .|FAIL everything that is written by somebody is a book or is
 John is liked by himself .|FAIL John is liked by himself
 which card is seen by John ?|FAIL which
 where does a customer enter a card ?|OK
@@ -1145,7 +1145,7 @@ John is more clever than Bill .|OK
 John is cleverer than Bill .|OK
 every man who loves a woman who loves the man owns a car .|OK
 everybody who is not an animal is not a dog .|FAIL everybody who
-everything that is not a cat can be a dog .|FAIL everything that
+everything that is not a cat can be a dog .|FAIL everything that is not a
 every man who is not liked by a woman who owns a dog sees a cat .|FAIL every man who is not liked
 there is a man X . it is false that there is a man .|OK
 a cat is feared by every mouse .|OK
@@ -1313,8 +1313,8 @@ a customer and a clerk's contracts are valid .|FAIL a customer and a clerk's con
 John and Mary's contracts are valid .|FAIL John and Mary's contracts
 5 men's card works .|OK
 a dog sees nobody .|OK
-nobody that waits waits .|FAIL nobody that
-a dog sees nobody that waits .|FAIL a dog sees nobody that
+nobody that waits waits .|OK
+a dog sees nobody that waits .|OK
 5 clerks' card is valid .|OK
 5 men are seen by everybody .|OK
 some men's dog barks .|OK
@@ -1329,7 +1329,7 @@ everybody sees 3 things that are some dogs .|OK
 everybody sees 3 things that are some dogs or that are some cats .|OK
 everybody sees 3 men who wait .|OK
 no cards are valid .|OK
-John who has a card enters it .|FAIL John who
+John who has a card enters it .|OK
 there is a man . John does not like the man .|FAIL there is a man . John does
 a man owns a dog . a man owns a cat . John sees the man who owns a dog .|OK
 every goat likes some grass and likes some water and does not like something that is not some grass and that is not some water .|FAIL every goat likes some grass and likes
@@ -1384,7 +1384,7 @@ what must a customer enter ?|FAIL what
 Into what can a customer enter a card ?|FAIL Into
 where must a customer enter a card ?|OK
 if there is an animal X then an animal Y is smaller than the animal X and the animal X eats the animal Y .|OK
-a dog eats nothing that is a mouse .|FAIL a dog eats nothing that
+a dog eats nothing that is a mouse .|OK
 a dog does not eat something that is a mouse .|FAIL a dog does
 if there is a man then a human is the man .|OK
 if there is a man then a human must be the man .|OK
@@ -1410,7 +1410,7 @@ a man does not see everything .|FAIL a man does
 there is no man that sees something .|OK
 if there is nobody then a dog barks .|OK
 if nobody waits then a dog barks .|OK
-if there is nobody that waits then a dog barks .|FAIL if there is nobody that
+if there is nobody that waits then a dog barks .|OK
 if there is no man that waits then a dog barks .|OK
 it is false that every man waits .|OK
 it is true that every man is a human .|FAIL it is true that
@@ -1437,28 +1437,28 @@ Mary is not a woman who likes an apple .|FAIL Mary is not a
 if a car X sees a branch Y and it is false that X sees a rental and that X sees a service then X sees the branch Y .|FAIL if a car X sees a branch Y and it is false that X sees a rental and that
 if a car X sees a branch Y and it is false that X is something Z that sees a rental and that Z sees a service then X sees the branch Y .|FAIL if a car X sees a branch Y and it is false that X is something Z
 every program that calls a program that calls a program calls itself .|FAIL every program that calls
-everything that knows something that hears something sees itself .|FAIL everything that
+everything that knows something that hears something sees itself .|FAIL everything that knows something that hears something sees itself
 a man that sees a boy that waits hears himself .|FAIL a man that sees a boy that waits hears himself
 every man gives every woman every apple .|OK
 if there is a man X1 then if there is a woman X2 then if there is an apple X3 then the man X1 gives the woman X2 the apple X3 .|FAIL if there is a man X1
 if someone owns something that contains something X then he / she owns X .|FAIL if someone
 there is a man who Mary is seen by .|FAIL there is a man who Mary is
-John , wait !|FAIL John , wait
+John , wait !|FAIL John ,
 there is a man who does not see every dog that he sees . a man who sees a dog and who does not see the dog waits .|FAIL there is a man who does
 every customer can access every public resource .|OK
-John , buy a car !|FAIL John , buy
-John , buy a car ! Bill , buy a car !|FAIL John , buy
-a man , buy a car !|FAIL a man , buy
-every man , buy a car !|FAIL every man , buy
-a man that waits , buy a car !|FAIL a man that waits , buy
-John and Mary , buy a car !|FAIL John and Mary , buy
-some customers , buy a car !|FAIL some customers , buy
-John , do not touch the machine !|FAIL John , do
-John , hit yourself !|FAIL John , hit
-John , sell your own car !|FAIL John , sell
-John , buy a dog that likes you !|FAIL John , buy
-John , buy a dog that is owned by Bill and that likes him !|FAIL John , buy
-John , buy a dog that is owned by Bill and that likes you !|FAIL John , buy
+John , buy a car !|FAIL John ,
+John , buy a car ! Bill , buy a car !|FAIL John ,
+a man , buy a car !|FAIL a man ,
+every man , buy a car !|FAIL every man ,
+a man that waits , buy a car !|FAIL a man that waits ,
+John and Mary , buy a car !|FAIL John and Mary ,
+some customers , buy a car !|FAIL some customers ,
+John , do not touch the machine !|FAIL John ,
+John , hit yourself !|FAIL John ,
+John , sell your own car !|FAIL John ,
+John , buy a dog that likes you !|FAIL John ,
+John , buy a dog that is owned by Bill and that likes him !|FAIL John ,
+John , buy a dog that is owned by Bill and that likes you !|FAIL John ,
 no dogs bark .|OK
 all dogs bark .|OK
 for all dogs a man waits .|FAIL for all dogs
@@ -1528,7 +1528,7 @@ if X likes Y then Y likes X .|OK
 at least 2 scores of John are 30 .|OK
 at most 1 man's dog barks .|OK
 everybody sees at most 1 thing .|OK
-every goal is something that at most 1 person scores .|FAIL every goal is something that
+every goal is something that at most 1 person scores .|OK
 it is false that there is 1 man .|OK
 a man X gives an apple to a woman Y . Y accepts the apple and eats it . she is happy and he has no apple .|FAIL a man X gives an apple to a woman Y . Y accepts the apple and eats
 John gives an apple to Mary . Mary accepts the apple and eats it . she is happy and he has no apple .|FAIL John gives an apple to Mary . Mary accepts the apple and eats
@@ -1553,10 +1553,10 @@ John is more fond-of Mary than of Bill .|FAIL John is more fond-of
 John is more fond-of no customer than every clerk .|FAIL John is more fond-of
 John is rich and richer and richest .|FAIL John is rich and richer
 John and Mary wait .|OK
-if a man likes somebody that is a person then the person owns a car .|FAIL if a man likes somebody that
+if a man likes somebody that is a person then the person owns a car .|OK
 if the n : present-value of a n : lease-payment of an asset is greater than 90 percent of something of the fair value of the asset then the asset is a n : finance-lease .|FAIL if the n
-no man is something that likes Mary and hates John .|FAIL no man is something that
-no man is something that likes Mary and that hates John .|FAIL no man is something that
+no man is something that likes Mary and hates John .|FAIL no man is something that likes Mary and hates
+no man is something that likes Mary and that hates John .|OK
 John does not see less than 3 cars that Bill owns .|FAIL John does
 there is a dog which barks and that eats .|OK
 3.1415926536 approximates Pi .|FAIL 3.1415926536 approximates Pi
@@ -1568,7 +1568,7 @@ all men see themselves .|FAIL all men see themselves
 John waits . all men see him .|OK
 John waits . a man brings him his pencil and his own computer .|OK
 everybody who is a father of a man that owns a car is a parent .|FAIL everybody who
-every pet is something that is a cat or that is a dog , and that is not something that is a cat and that is a dog .|FAIL every pet is something that
+every pet is something that is a cat or that is a dog , and that is not something that is a cat and that is a dog .|FAIL every pet is something that is a cat or that is a dog , and that
 every n : influent-stream is something that v : flows-into a cave and that v : flows-through a sink or that v : discharges-through something .|FAIL every n
 there is a man . John likes his a : own car .|FAIL there is a man . John likes his a
 France is something that is not America and that is not England and that is not Germany .|FAIL France
@@ -1749,8 +1749,8 @@ where is Bill ?|FAIL where is Bill ?
 when is what ?|FAIL when is what
 what is when ?|FAIL what
 1 = < 2 and 2 > = 1 .|FAIL 1 = <
-who is somebody that somebody that knows who knows ?|FAIL who is somebody that
-who is known by somebody that knows who ?|FAIL who is known by somebody that
+who is somebody that somebody that knows who knows ?|FAIL who is somebody that somebody that knows who
+who is known by somebody that knows who ?|FAIL who is known by somebody that knows who
 John is a father of who ?|FAIL John is a father of who
 Bill gives what to who ?|FAIL Bill gives what
 Bill gives what to who where ?|FAIL Bill gives what
@@ -1867,7 +1867,7 @@ a man gives at least 3 apples to John .|OK
 there is a man who owns each of 3 dogs . the man who owns each of 3 dogs waits .|OK
 there are 3 dogs . there is a man who owns each of the dogs . the man who owns each of the dogs waits .|OK
 is every man a human ?|OK
-John tells Mary that he waits .|FAIL John tells Mary that
+John tells Mary that he waits .|OK
 what does who see ?|FAIL what
 who eats and drinks ?|FAIL who eats and
 a man eats quickly and quickly .|FAIL a man eats quickly and quickly
@@ -2063,7 +2063,7 @@ John is in a park in the park .|OK
 John drinks p : õlu .|FAIL John drinks p
 can a book be written by a man ?|OK
 it is false that there are a man and a woman and that the man waits .|FAIL it is false that there are a man and a woman and that
-John who is larger than his own brother can work carefully in a year that is not 2006 and that is not in [ 1981 , 1983 , 1985 ] .|FAIL John who
+John who is larger than his own brother can work carefully in a year that is not 2006 and that is not in [ 1981 , 1983 , 1985 ] .|FAIL John who is larger than his own brother can work carefully in a year that is not 2006
 if each of some men who are { John , Bill } gives a small text "abc" to a woman then John must buy 2 kg of food or knows that it is not provable that 2 km / ( 2.3 + 4 ) = X * 2 .|FAIL if each of some men who are {
 who is mad-about John who is rich and who is as fond-of Mary as of Sue ?|FAIL who is mad-about
 at most 3 men own more than 5 cars . at most 5 cars are owned by more than 3 men .|OK
@@ -2492,27 +2492,27 @@ if Iokaste makes Oedipus , and Iokaste makes Polyneikes , and Oedipus makes Poly
 if Iokaste makes Oedipus , and Iokaste makes Polyneikes , and Oedipus makes Polyneikes , and Polyneikes makes Thersandros and Oedipus is a patricide , and Thersandros is not a patricide , and everybody that makes a patricide that makes somebody who is not a patricide is an answer then Iokaste is an answer .|FAIL if Iokaste
 "a" & "a" makes "aa" .|FAIL "a"
 John hits himself .|FAIL John hits himself
-John and Mary , buy a dog !|FAIL John and Mary , buy
-John and Mary , hit yourselves !|FAIL John and Mary , hit
+John and Mary , buy a dog !|FAIL John and Mary ,
+John and Mary , hit yourselves !|FAIL John and Mary ,
 John and Mary hit themselves .|FAIL John and Mary hit themselves
 John sells his own car .|OK
-John and Mary , sell your own car !|FAIL John and Mary , sell
-John and Mary , buy a dog that likes you !|FAIL John and Mary , buy
-John and Mary , buy a dog that is owned by Bill and that likes you !|FAIL John and Mary , buy
-a man , hit yourself !|FAIL a man , hit
-a man , sell your own car !|FAIL a man , sell
-a man , buy a dog that likes you !|FAIL a man , buy
-a man , buy a dog that is owned by Bill and that likes him !|FAIL a man , buy
-a man , buy a dog that is owned by Bill and that likes you !|FAIL a man , buy
-some men , buy a dog that is owned by Bill and that likes you !|FAIL some men , buy
-at least 5 men , buy a dog that is owned by Bill and that likes you !|FAIL at least 5 men , buy
-John , trust a woman and yourself !|FAIL John , trust
+John and Mary , sell your own car !|FAIL John and Mary ,
+John and Mary , buy a dog that likes you !|FAIL John and Mary ,
+John and Mary , buy a dog that is owned by Bill and that likes you !|FAIL John and Mary ,
+a man , hit yourself !|FAIL a man ,
+a man , sell your own car !|FAIL a man ,
+a man , buy a dog that likes you !|FAIL a man ,
+a man , buy a dog that is owned by Bill and that likes him !|FAIL a man ,
+a man , buy a dog that is owned by Bill and that likes you !|FAIL a man ,
+some men , buy a dog that is owned by Bill and that likes you !|FAIL some men ,
+at least 5 men , buy a dog that is owned by Bill and that likes you !|FAIL at least 5 men ,
+John , trust a woman and yourself !|FAIL John ,
 all men see a dog that likes them .|OK
 all men see their own dog .|OK
 all men sleep .|OK
 Christmases , help yourselves !|FAIL Christmases
-John , see yourself !|FAIL John , see
-John , enter your own card !|FAIL John , enter
+John , see yourself !|FAIL John ,
+John , enter your own card !|FAIL John ,
 every man likes who ?|FAIL every man likes who
 which man likes who ?|FAIL which
 is it true that a man does not eat or that the man does not drink ?|FAIL is it true that
@@ -2544,8 +2544,8 @@ it is possible that John waits . it is not necessary that John enters a card and
 John eats . it is necessary that John waits .|OK
 John eats . it is false that John waits .|OK
 John eats . it is not possible that John waits .|FAIL John eats . it is not possible
-John , wait yourself !|FAIL John , wait
-John , wait Mary ! does John wait Mary ?|FAIL John , wait
+John , wait yourself !|FAIL John ,
+John , wait Mary ! does John wait Mary ?|FAIL John ,
 John is in every park .|OK
 John is in every park in every morning .|OK
 John is in no park .|OK
@@ -2633,16 +2633,16 @@ there is X . X is fast . a man is shown X by John .|FAIL there is X . X is fast 
 there is X . X is fast . X is shown to a man by John .|FAIL there is X . X is fast . X is shown
 there is something X1 . X1 is fast . John shows X1 a man .|FAIL there is something X1
 at most 2 men give at most 4 apples to at most 3 women .|OK
-Mary asks John who asks who ?|FAIL Mary asks John who
-Mary who sees Bill who does not see her asks X .|FAIL Mary who
-Mary who X asks does not ask her .|FAIL Mary who
-Mary who asks X is not her .|FAIL Mary who
-Mary who asks everybody X asks X .|FAIL Mary who
-Mary who does not ask X is X .|FAIL Mary who
-Mary who everybody X asks asks X .|FAIL Mary who
-Mary who is X is not her .|FAIL Mary who
-Mary who is not X asks X .|FAIL Mary who
-Mary who which women ask for her waits ?|FAIL Mary who
+Mary asks John who asks who ?|FAIL Mary asks John who asks who
+Mary who sees Bill who does not see her asks X .|FAIL Mary who sees Bill who does
+Mary who X asks does not ask her .|FAIL Mary who X asks does
+Mary who asks X is not her .|FAIL Mary who asks X is not her
+Mary who asks everybody X asks X .|FAIL Mary who asks everybody X
+Mary who does not ask X is X .|FAIL Mary who does
+Mary who everybody X asks asks X .|FAIL Mary who everybody X
+Mary who is X is not her .|FAIL Mary who is X is not her
+Mary who is not X asks X .|FAIL Mary who is not X
+Mary who which women ask for her waits ?|FAIL Mary who which
 a man who a woman asks for him waits .|FAIL a man who a woman asks for
 everybody who which women ask for her waits ?|FAIL everybody who
 a woman carries the woman from who to her ?|FAIL a woman carries the woman from who
