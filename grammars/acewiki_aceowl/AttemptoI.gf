@@ -79,6 +79,7 @@ lin adjCN = mkCN ;
 lin somebody_NP = Syntax.somebody_NP ;
 lin something_NP = Syntax.something_NP ;
 lin everybody_NP = Syntax.everybody_NP ;
+lin everything_NP = Syntax.everything_NP ;
 --lin noone_NP : NP ;
 lin nobody_NP = Syntax.nobody_NP ;
 lin nothing_NP = Syntax.nothing_NP ;

@@ -358,7 +358,7 @@ nobody sees herself .|FAIL nobody sees herself
 a man sees everybody .|OK
 a man sees everybody . he eats .|OK
 not everything sees itself .|FAIL not everything sees itself
-everything barks at itself .|FAIL everything
+everything barks at itself .|FAIL everything barks at itself
 there is a man who owns a dog . there is a man who owns a cat . John sees the man . John sees the man who owns the dog .|OK
 John goes to Berlin .|OK
 John comes from Berlin .|OK
@@ -595,7 +595,7 @@ some laundry sees its own dog .|OK
 where does a man quickly run ?|FAIL where does a man quickly
 a card of a man sees him .|OK
 where does a man run ?|OK
-everything runs .|FAIL everything
+everything runs .|OK
 if every man runs then a dog barks .|OK
 if if there is a man then he runs then a dog barks .|OK
 there is a man such that he walks .|OK
@@ -866,11 +866,11 @@ everybody sees at least 1 man .|OK
 a man comes in a day A1 . a boy reads in the day A2 that follows A1 . the book is red in the day that follows A2 .|FAIL a man comes in a day A1
 2 kg of apples of John wait .|OK
 if there is a carnivore then everybody that it eats is an animal .|FAIL if there is a carnivore then everybody that
-if there is a carnivore then everything that it eats is a meat .|FAIL if there is a carnivore then everything
+if there is a carnivore then everything that it eats is a meat .|FAIL if there is a carnivore then everything that
 if there is a thing that does not eat something that is not a meat then the thing is a carnivore .|FAIL if there is a thing that does
-everything is a cat and everything is a dog .|FAIL everything
-there is a cat and everything is a dog .|FAIL there is a cat and everything
-if there is a thing and everything that it eats is a meat then it is a carnivore .|FAIL if there is a thing and everything
+everything is a cat and everything is a dog .|OK
+there is a cat and everything is a dog .|OK
+if there is a thing and everything that it eats is a meat then it is a carnivore .|FAIL if there is a thing and everything that
 2 men wait .|OK
 there are less than 2 kg of milk . there are less than 2 men .|FAIL there are less than 2 kg
 there are 1 kg of water and 2 kg of apples .|OK
@@ -884,8 +884,8 @@ John enters every card which carries its own code .|OK
 John enters every card which is its own card .|OK
 John vaguely sees a big dog that barks in the garden of its own brother .|FAIL John vaguely
 if there is a man such that he waits then he is happy .|OK
-if there is an animal such that everything that the animal eats is a meat then the animal is a carnivore .|FAIL if there is an animal such that everything
-there is a cat such that everything is a dog .|FAIL there is a cat such that everything
+if there is an animal such that everything that the animal eats is a meat then the animal is a carnivore .|FAIL if there is an animal such that everything that
+there is a cat such that everything is a dog .|OK
 John feeds his own dogs .|FAIL John feeds his own dogs
 there is a bank . a code is not in the bank .|FAIL there is a bank . a code is not in
 if there is a man then a dog of the man waits .|OK
@@ -945,11 +945,11 @@ every dog that sees a cat that sees a rat sees itself .|FAIL every dog that sees
 if there is somebody A and A loves somebody B then A likes B .|FAIL if there is somebody A
 there is something X .|FAIL there is something X
 everybody X waits .|FAIL everybody X
-everything X waits .|FAIL everything
+everything X waits .|FAIL everything X
 nobody X waits .|FAIL nobody X
 nothing X waits .|FAIL nothing X
 everybody of John waits .|FAIL everybody of
-everything of John waits .|FAIL everything
+everything of John waits .|FAIL everything of
 nobody of John waits .|FAIL nobody of
 nothing of John waits .|FAIL nothing of
 everybody X of John waits .|FAIL everybody X
@@ -976,7 +976,7 @@ if somebody lives-at a place and he / she works-at the place then he / she is a 
 if somebody lives-at a place and works-at the place then he / she is a n : home-worker .|FAIL if somebody lives-at
 if a thing X likes a thing Y and Y likes a thing Z then X likes Z .|FAIL if a thing X likes a thing Y and Y likes a thing Z
 if something X likes something Y and Y likes something Z then X likes Z .|FAIL if something X
-everything that v : affiliatedWith something that v : affiliatedWith something v : affiliatedWith it .|FAIL everything
+everything that v : affiliatedWith something that v : affiliatedWith something v : affiliatedWith it .|FAIL everything that
 there is nobody .|OK
 every man whose age is an integer is a manager .|FAIL every man whose
 every man's age is an integer .|OK
@@ -1041,7 +1041,7 @@ a best car wins .|OK
 what is written by a man ?|FAIL what
 is a book written by a man ?|OK
 is a car blue ?|OK
-everything that is written by somebody is a book or is a paper .|FAIL everything
+everything that is written by somebody is a book or is a paper .|FAIL everything that
 John is liked by himself .|FAIL John is liked by himself
 which card is seen by John ?|FAIL which
 where does a customer enter a card ?|OK
@@ -1075,7 +1075,7 @@ nobody believes that he must be seen by everybody .|FAIL nobody believes that
 nobody believes that he can be seen by everybody .|FAIL nobody believes that
 John does wait . John waits .|FAIL John does
 it is possible that a card is valid .|OK
-everything a dog of which barks waits .|FAIL everything
+everything a dog of which barks waits .|FAIL everything a
 it is not provable that John waits and that Mary sleeps .|FAIL it is not provable
 it is not provable that John waits or that Mary sleeps .|FAIL it is not provable
 it is necessary that John waits or that Mary sleeps .|FAIL it is necessary that John waits or that
@@ -1145,7 +1145,7 @@ John is more clever than Bill .|OK
 John is cleverer than Bill .|OK
 every man who loves a woman who loves the man owns a car .|OK
 everybody who is not an animal is not a dog .|FAIL everybody who
-everything that is not a cat can be a dog .|FAIL everything
+everything that is not a cat can be a dog .|FAIL everything that
 every man who is not liked by a woman who owns a dog sees a cat .|FAIL every man who is not liked
 there is a man X . it is false that there is a man .|OK
 a cat is feared by every mouse .|OK
@@ -1437,7 +1437,7 @@ Mary is not a woman who likes an apple .|FAIL Mary is not a
 if a car X sees a branch Y and it is false that X sees a rental and that X sees a service then X sees the branch Y .|FAIL if a car X sees a branch Y and it is false that X sees a rental and that
 if a car X sees a branch Y and it is false that X is something Z that sees a rental and that Z sees a service then X sees the branch Y .|FAIL if a car X sees a branch Y and it is false that X is something Z
 every program that calls a program that calls a program calls itself .|FAIL every program that calls
-everything that knows something that hears something sees itself .|FAIL everything
+everything that knows something that hears something sees itself .|FAIL everything that
 a man that sees a boy that waits hears himself .|FAIL a man that sees a boy that waits hears himself
 every man gives every woman every apple .|OK
 if there is a man X1 then if there is a woman X2 then if there is an apple X3 then the man X1 gives the woman X2 the apple X3 .|FAIL if there is a man X1
@@ -1658,10 +1658,10 @@ for no man a dog sees the man .|FAIL for no
 a man who a woman is seen by waits .|FAIL a man who a woman is
 there is somebody . there is something . he waits .|OK
 there is somebody . there is something X . he waits .|FAIL there is somebody . there is something X
-a man sees everything X of Mary that eats .|FAIL a man sees everything
-a man sees everything X that eats .|FAIL a man sees everything
-a man sees everything X that eats X .|FAIL a man sees everything
-a man sees everything X of Mary .|FAIL a man sees everything
+a man sees everything X of Mary that eats .|FAIL a man sees everything X
+a man sees everything X that eats .|FAIL a man sees everything X
+a man sees everything X that eats X .|FAIL a man sees everything X
+a man sees everything X of Mary .|FAIL a man sees everything X
 there are 3 men 3 cards of who are valid .|FAIL there are 3 men 3
 John sees 3 men whose dogs bark .|FAIL John sees 3 men whose
 John sees a man whose dogs bark .|FAIL John sees a man whose
@@ -2698,7 +2698,7 @@ a string is "#" .|FAIL a string is "#"
 "" is "" .|FAIL ""
 X = X .|OK
 for everything of X X waits .|FAIL for everything
-John is everything of who ?|FAIL John is everything
+John is everything of who ?|FAIL John is everything of
 there is a code of a card . if the code of a card is correct then the card is valid .|OK
 there is a code of a card . the code of a card is correct . the card is valid .|OK
 there is a code of a card . every card whose code is correct is valid .|FAIL there is a code of a card . every card whose

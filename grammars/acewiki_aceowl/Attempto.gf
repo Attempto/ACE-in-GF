@@ -56,6 +56,7 @@ fun pnNP : PN -> NP ;
 fun somebody_NP : NP ;
 fun something_NP : NP ;
 fun everybody_NP : NP ;
+fun everything_NP : NP ;
 fun nobody_NP : NP ;
 fun nothing_NP : NP ;
 -- TODO: remove the next 2

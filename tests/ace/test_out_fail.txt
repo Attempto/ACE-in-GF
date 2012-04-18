@@ -7,7 +7,6 @@
      12 how
      10 not for
      10 in
-     10 everything
       9 Mary who
       9 John knows that
       9 John can not
@@ -62,12 +61,13 @@
       4 if a user is happy and pays
       4 if a user is authenticated and pays
       4 for each of a
+      4 everything that
       4 every man works or eats
       4 everybody X's
       4 everybody whose
       4 everybody does
       4 a n
-      4 a man sees everything
+      4 a man sees everything X
       4 a man manually
       4 a man , buy
       3 there is a man who sees himself
@@ -332,9 +332,7 @@
       1 there is a code of a card . every card a
       1 there is a city in
       1 there is a cat that smiles or that is not the
-      1 there is a cat such that everything
       1 there is a cat . it sees itself
-      1 there is a cat and everything
       1 there is a case of some beer . it is not the
       1 there is a car that John buys for
       1 there is a card . a man brings it its pencil and offers
@@ -521,7 +519,7 @@
       1 John is liked by himself
       1 John is ""John"
       1 John is in a park hit
-      1 John is everything
+      1 John is everything of
       1 John is a father of who
       1 John is a customer of someone
       1 John is a :
@@ -595,11 +593,11 @@
       1 if there is somebody X
       1 if there is nobody that
       1 if there is a thing that does
-      1 if there is a thing and everything
+      1 if there is a thing and everything that
       1 if there is a pet X then X is a dog or X is a cat , and it is false that X is a dog and that
       1 if there is an element , and there is a name N
       1 if there is an animal that is not a
-      1 if there is an animal such that everything
+      1 if there is an animal such that everything that
       1 if there is a n
       1 if there is a man X1
       1 if there is a man who is happy or who is sad , and the dog of who
@@ -628,7 +626,7 @@
       1 if there is a man then a dog barks and bites
       1 if there is a dog A
       1 if there is a declaration whose
-      1 if there is a carnivore then everything
+      1 if there is a carnivore then everything that
       1 if there is a carnivore then everybody that
       1 if there are a man and a manager then the man is a :
       1 if the n
@@ -679,6 +677,10 @@
       1 for all clean
       1 for all cats
       1 "Fido"
+      1 everything X
+      1 everything of
+      1 everything barks at itself
+      1 everything a
       1 every program that calls
       1 every pet is something that
       1 every pet is not a

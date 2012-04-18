@@ -10,7 +10,11 @@ Testing: tests/acewiki_aceowl_modif
 ok: 9368
 FAIL: 6426
 
+Testing: tests/ontograph_40
+ok: 2
+FAIL: 38
+
 Testing: tests/ace
-ok: 1193
-FAIL: 1579
+ok: 1197
+FAIL: 1575
 

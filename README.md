@@ -61,6 +61,7 @@ i.e. some ACE constructs are not supported, e.g.
   * __(F)__ exactly
   * __(F)__ less than
   * __(F)__ everybody
+  * __(F)__ everything
   * somebody X
   * somebody who
   * Mary who
