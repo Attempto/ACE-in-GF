@@ -1,5 +1,5 @@
 --# -path=.:../common:../abstract
 
-resource MakeStructuralAce = open MakeStructuralEng ** {
+resource MakeStructuralAce = MakeStructuralEng ** {
 
 }
