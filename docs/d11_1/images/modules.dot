@@ -1,0 +1,65 @@
+digraph G {
+
+rankdir = LR;
+
+node [shape = "plaintext"];
+edge [arrowsize=1 color=black];
+
+subgraph cluster_0 {
+	label = "Concrete (Ger)";
+	color = "yellowgreen";
+
+	AttemptoGer;
+	LexAttemptoGer;
+	TestAttemptoGer;
+}
+
+// RGL
+RGL [shape = "circle"];
+
+// Abstract (ellipse)
+Attempto [shape = "ellipse"];
+Symbols [shape = "ellipse"];
+TestAttempto [shape = "ellipse"];
+
+// Incomplete (rect)
+AttemptoI [shape = "rect"];
+
+// Interface (diamond)
+LexAttempto [shape = "diamond"];
+
+// Concrete
+SymbolsC;
+AttemptoGer;
+TestAttemptoGer;
+
+// Instance
+LexAttemptoGer;
+
+// TODO: what is the correct convention?
+// dotted = concrete
+// dashed = opens
+// solid = extends
+
+Attempto -> Symbols;
+
+SymbolsC -> Symbols [style = "dotted"];
+
+AttemptoI -> Attempto [style = "dotted"];
+AttemptoI -> SymbolsC;
+AttemptoI -> LexAttempto [style = "dashed"];
+
+TestAttempto -> Attempto;
+
+AttemptoGer -> Attempto [style = "dotted"];
+AttemptoGer -> SymbolsC;
+AttemptoGer -> AttemptoI [label = "LexAttemptoGer"];
+
+LexAttemptoGer -> LexAttempto;
+TestAttemptoGer -> TestAttempto [style = "dotted"];
+TestAttemptoGer -> AttemptoGer;
+
+AttemptoI -> RGL [style = "dashed"];
+LexAttempto -> RGL [style = "dashed"];
+TestAttemptoGer -> RGL [style = "dashed"];
+}
