@@ -1,10 +1,6 @@
 --# -path=.:../abstract:../common:../prelude
 
-concrete LangAce of Lang = 
-  GrammarAce,
-  LexiconAce
-  ** {
+concrete LangAce of Lang = LangEng ** {
 
-flags startcat = Phr ; unlexer = text ; lexer = text ;
 
 } ;
