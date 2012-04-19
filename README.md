@@ -63,9 +63,8 @@ i.e. some ACE constructs are not supported, e.g.
   * __(F)__ everybody
   * __(F)__ everything
   * somebody X
-  * somebody who
-  * Mary who
-  * X who
+  * __(F)__ somebody who
+  * __(F)__ Mary who
   * `which` as a question pronoun
   * `is not` and `isn't` are not equivalent
     * `a woman is not a man .` fails
@@ -87,6 +86,7 @@ i.e. some ACE constructs are not supported, e.g.
 and it supports some constructs which in ACE do not exist, have been
 deprecated or should be avoided (i.e. create a warning), e.g.
 
+  * relative clause can be attached to any NP using a comma between the NP and the relative clause (in ACE: relative clauses can be used only for nouns, indefinite pronouns and proper names)
   * `he waits .` (and other unresolvable personal pronouns)
   * `the man waits .` (gives a warning in APE)
   * a man X is the man Y .
