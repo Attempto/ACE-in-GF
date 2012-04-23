@@ -1,7 +1,7 @@
 concrete RelativeAce of Relative = RelativeEng - [IdRP] ** open ResAce in {
 
   lin
-    -- Replaced "whom" with "who"
+    -- Replaced "whom" with "who" (KK)
     IdRP = 
      { s = table {
         RC _ (NCase Gen) => "whose" ; 

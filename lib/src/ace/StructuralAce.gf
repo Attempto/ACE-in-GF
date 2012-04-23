@@ -5,11 +5,11 @@ concrete StructuralAce of Structural =
 
   lin
 
-  -- Replaced "whom" with "who"
+  -- Replaced "whom" with "who" (KK)
   whoPl_IP = mkIP "who" "who" "whose" plural ; -- Eng: "who" "whom" "whose"
   whoSg_IP = mkIP "who" "who" "whose" singular ; -- Eng: "who" "whom" "whose"
 
-  -- used in: nothing but
+  -- used in: nothing but (KK)
   except_Prep = mkPrep "but" ;
   lin language_title_Utt = ss "ACE" ;
 
