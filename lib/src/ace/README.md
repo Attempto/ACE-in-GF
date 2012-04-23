@@ -8,6 +8,7 @@ The deviations from the English resource grammar are:
 
 - `whom` has been replaced with `who`
 - removal of comma `,` between an NP and its relative clause
+- `nothing but` 
 
 **Inheritence hierarchy**
 
