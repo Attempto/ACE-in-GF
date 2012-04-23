@@ -1,0 +1,29 @@
+digraph G {
+
+rankdir = LR;
+
+node [shape = "plaintext"];
+edge [arrowsize = 1 color = "black" dir = "both"];
+
+subgraph cluster_0 {
+	label = "";
+	color = "yellowgreen";
+
+	ACE;
+	DRS;
+}
+
+German -> ACE;
+Finnish -> ACE;
+other_nl -> ACE;
+
+ACE -> DRS;
+
+DRS -> OWL;
+DRS -> TPTP;
+DRS -> other_fl;
+
+other_nl [label = "..."];
+other_fl [label = "..."];
+
+}
