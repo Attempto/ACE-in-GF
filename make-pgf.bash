@@ -54,10 +54,15 @@ eval echo ${words}
 # so we don't use it, and the PGF is dropped into the current directory.
 gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --name $name --path $path `eval echo ${words}`
 
-echo "Generating JSGF into ${dir_jsgf} ...";
-gf --make --output-format=jsgf --name ${name} --output-dir ${dir_jsgf} ${name}.pgf
+# Commented out because always creates empty output.
+# It would be cool though to find out some day if ACE can be converted into a
+# speech recognition grammar.
+#echo "Generating JSGF into ${dir_jsgf} ...";
+#gf --make --output-format=jsgf --name ${name} --output-dir ${dir_jsgf} ${name}.pgf
 
-echo "Generating random examples into ${dir_gr} ... (press Ctrl-C if it takes too long)";
-echo "gr -cat=Text -number=1000 -depth=10 | l -treebank -bind" | gf --run ${name}.pgf > ${dir_gr}/${name}.txt
+# Commented out because takes too long or loops.
+# Random generation should have its own test script anyway.
+#echo "Generating random examples into ${dir_gr} ... (press Ctrl-C if it takes too long)";
+#echo "gr -cat=Text -number=1000 -depth=10 | l -treebank -bind" | gf --run ${name}.pgf > ${dir_gr}/${name}.txt
 
 echo "done."

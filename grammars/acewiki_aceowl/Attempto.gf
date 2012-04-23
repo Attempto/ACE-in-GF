@@ -88,6 +88,8 @@ fun relNP : NP -> RS -> NP ;
 fun andRS : RS -> RS -> RS ;
 fun orRS : RS -> RS -> RS ;
 
+-- This is deprecated in ACE, but AceWiki still supports it.
+-- So let's keep it for the time being. (KK)
 fun suchCN : CN -> S -> CN ;
 
 fun predRS : RP -> VP -> RS ;
@@ -104,7 +106,6 @@ fun ofCN : CN -> NP -> CN ; -- dog of John and Mary
 fun vpS : NP -> VP -> S ;
 fun neg_vpS : NP -> VP -> S ;
 
-fun vVP  : V -> VP ;
 fun v2VP : V2 -> NP -> VP ;
 
 -- 3.2
