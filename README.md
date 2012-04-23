@@ -82,6 +82,7 @@ i.e. some ACE constructs are not supported, e.g.
     - John is rich and lucky .
   * John is more rich. (`John is richer` works)
   * John always runs. (`John runs always` works)
+  * VP coordination (GF supports Conj only with AP, Adv, NP, RS, and S)
 
 and it supports some constructs which in ACE do not exist, have been
 deprecated or should be avoided (i.e. create a warning), e.g.

@@ -33,3 +33,9 @@ These are 40 sentences from the Ontograph experiments, see:
 Generated from the Ontograph testset like this:
 
 > cat ?A.txt | grep ACE | grep "^[0-9]*a. " | sed "s/.*ACE: //" | normalize_ace.py
+
+
+Notes
+-----
+
+  - Some OntoGraph sentence constructs are not in the AceWiki subset, e.g. `nothing but`

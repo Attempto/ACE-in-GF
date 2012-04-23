@@ -34,18 +34,7 @@ Content words: ask, Mary, woman, friend, mad-about.
   * Total: 19718
   * Runtime: ~39 sec
 
-A few reasons (i.e. words and phrases) that cause the parse to fail:
-
-  * mad-about (`mad about` does not seem to work either)
-  * somebody X
-  * somebody does
-  * somebody who
-  * Mary who
-  * X who
-  * is/are not
-  * does/do not
-  * which (as a question pronoun)
-
+> bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttemptoAce.gf"
 
 ### acewiki_aceowl_modif
 
