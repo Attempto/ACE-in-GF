@@ -10,6 +10,7 @@ concrete NounAce of Noun = NounEng - [RelNP] ** {
     -- So the comma makes sure that we get an unambiguous parse.
     -- In ACE, we do not have such a comma. (KK)
     RelNP np rs = {
+--Eng:s = \\c => np.s ! c ++ "," ++ rs.s ! np.a ;
       s = \\c => np.s ! c ++ rs.s ! np.a ;
       a = np.a
       } ;
