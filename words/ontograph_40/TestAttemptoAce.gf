@@ -22,8 +22,8 @@ lin john_PN = mkPN "John" ;
 lin sue_PN = mkPN "Sue" ;
 lin bill_PN = mkPN "Bill" ;
 
-lin see_V2 = mkV2 "see" ;
-lin buy_V2 = mkV2 "buy" ;
+lin see_V2 = aceV2 "see" "sees" "seen";
+lin buy_V2 = aceV2 "buy" "buys" "bought";
 lin help_V2 = mkV2 "help" ;
 lin admire_V2 = mkV2 "admire";
 lin love_V2 = mkV2 "love" ;
