@@ -11,7 +11,7 @@ The deviations from the English resource grammar are:
 
 **Inheritence hierarchy**
 
-![ACE RG dependancy graph](dg.png)
+![ACE RG dependancy graph](https://github.com/Attempto/ACE-in-GF/raw/master/lib/src/ace/dg.png)
 
 **Changelog**
 
