@@ -5,15 +5,11 @@
     352 everybody X
     202 there is somebody such
     130 somebody is mad-about
-    130 somebody does
     130 Mary is mad-about
-    130 Mary does
     120 X is mad-about
-    120 X does
     107 there is somebody X
     106 there is somebody who
     100 everybody is mad-about
-    100 everybody does
      96 it is false that somebody who
      96 it is false that everybody who
      76 a friend of which
@@ -48,24 +44,15 @@
      33 somebody is which
      33 Mary is which
      32 a woman is mad-about
-     32 a woman does
      30 X is which
      30 who is somebody who
      30 who asks somebody who
-     28 somebody is not somebody
      28 somebody is not mad-about
-     28 somebody is not asked
      28 Mary who who
-     28 Mary is not somebody
      28 Mary is not mad-about
-     28 Mary is not asked
-     27 X is not somebody
-     27 X is not Mary
      27 somebody is somebody X
-     27 somebody is not Mary
      27 somebody asks somebody X
      27 Mary is somebody X
-     27 Mary is not Mary
      27 Mary asks somebody X
      25 somebody is somebody and is
      25 somebody is Mary and is
@@ -78,7 +65,6 @@
      23 X is X and is
      23 X is somebody and is
      23 X is not mad-about
-     23 X is not asked
      23 X is Mary and is
      23 X asks X and is
      23 X asks somebody and is
@@ -92,8 +78,6 @@
      23 Mary asks X and is
      23 Mary asks who
      23 every woman is mad-about
-     23 every woman does
-     23 everybody is not somebody
      22 somebody is everybody X
      22 somebody asks everybody X
      22 Mary who is who
@@ -101,7 +85,6 @@
      22 Mary is everybody X
      22 Mary asks everybody X
      22 everybody is somebody X
-     22 everybody is not Mary
      22 everybody is everybody X
      22 everybody asks somebody X
      22 everybody asks everybody X
@@ -112,14 +95,10 @@
      20 Mary is everybody and is
      20 Mary asks everybody and is
      20 it is false that somebody is mad-about
-     20 it is false that somebody does
      20 it is false that Mary is mad-about
-     20 it is false that Mary does
      20 it is false that everybody is mad-about
-     20 it is false that everybody does
      20 everybody is somebody and is
      20 everybody is not mad-about
-     20 everybody is not asked
      20 everybody is Mary and is
      20 everybody is everybody and is
      20 everybody asks somebody and is
@@ -136,10 +115,15 @@
      16 who is not Mary
      16 who asks somebody X
      16 it is false that X is mad-about
-     16 it is false that X does
+     15 X is not somebody who
      15 X is asked by somebody who
+     15 X does not ask somebody who
+     15 somebody is not somebody who
      15 somebody is asked by somebody who
+     15 somebody does not ask somebody who
+     15 Mary is not somebody who
      15 Mary is asked by somebody who
+     15 Mary does not ask somebody who
      15 for every woman there is somebody who
      15 every woman is somebody who
      15 every woman is everybody who
@@ -155,17 +139,15 @@
      14 Mary who asks which
      13 who is X and is
      13 who asks X and is
-     13 somebody is not a
-     13 Mary is not a
-     12 X is not X
      12 X is not everybody who
      12 X is asked by everybody who
-     12 somebody is not X
+     12 X does not ask everybody who
      12 somebody is not everybody who
      12 somebody is asked by everybody who
-     12 Mary is not X
+     12 somebody does not ask everybody who
      12 Mary is not everybody who
      12 Mary is asked by everybody who
+     12 Mary does not ask everybody who
      12 it is false that X is somebody who
      12 it is false that X is everybody who
      12 it is false that X asks somebody who
@@ -183,12 +165,13 @@
      12 it is false that everybody asks somebody who
      12 it is false that everybody asks everybody who
      12 exactly 1 woman is mad-about
-     12 exactly 1 woman does
+     12 everybody is not somebody who
      12 everybody is not everybody who
      12 everybody is asked by somebody who
      12 everybody is asked by everybody who
+     12 everybody does not ask somebody who
+     12 everybody does not ask everybody who
      12 a woman is not mad-about
-     12 a woman is not asked
      11 who is not mad-about
      11 who is not asked
      11 somebody is somebody and asks
@@ -199,15 +182,10 @@
      11 Mary is Mary and asks
      11 Mary asks somebody and asks
      11 Mary asks Mary and asks
-     11 exactly 2 women do
      11 exactly 2 women are mad-about
      11 a woman X is mad-about
-     11 a woman X does
      11 a friend of somebody is mad-about
-     11 a friend of somebody does
      11 a friend of Mary is mad-about
-     11 a friend of Mary does
-     10 X is not a
      10 Mary who X does
      10 Mary who somebody X
      10 Mary who somebody does
@@ -219,8 +197,6 @@
      10 Mary who asks somebody X
      10 for every woman it is false that somebody X
      10 for every woman it is false that everybody X
-     10 everybody is not X
-     10 everybody is not a
       9 X is X and asks
       9 X is somebody and asks
       9 X is Mary and asks
@@ -233,28 +209,21 @@
       9 Mary is X and asks
       9 Mary asks X and asks
       9 it is false that every woman is mad-about
-      9 it is false that every woman does
       9 it is false that a woman is mad-about
-      9 it is false that a woman does
       9 for every woman the woman is mad-about
-      9 for every woman the woman does
       9 for every woman somebody is mad-about
-      9 for every woman somebody does
       9 for every woman Mary is mad-about
-      9 for every woman Mary does
       9 for every woman everybody is mad-about
-      9 for every woman everybody does
       9 every woman is not mad-about
-      9 every woman is not asked
       9 a woman is who
       9 a woman asks who
       9 a woman asks which
       9 a friend of X is mad-about
-      9 a friend of X does
       8 there is somebody and somebody X
       8 there is somebody and everybody X
       8 somebody is everybody and asks
       8 somebody is asked by which
+      8 somebody does not ask which
       8 somebody asks everybody and asks
       8 Mary who is which
       8 Mary who is everybody X
@@ -263,13 +232,11 @@
       8 Mary who asks everybody X
       8 Mary is everybody and asks
       8 Mary is asked by which
+      8 Mary does not ask which
       8 Mary asks everybody and asks
       8 it is false that somebody is not mad-about
-      8 it is false that somebody is not asked
       8 it is false that Mary is not mad-about
-      8 it is false that Mary is not asked
       8 it is false that everybody is not mad-about
-      8 it is false that everybody is not asked
       8 for every friend of somebody somebody X
       8 for every friend of somebody everybody X
       8 for every friend of Mary somebody X
@@ -277,13 +244,9 @@
       8 for every friend of everybody somebody X
       8 for every friend of everybody everybody X
       8 every woman X is mad-about
-      8 every woman X does
       8 every friend of somebody is mad-about
-      8 every friend of somebody does
       8 every friend of Mary is mad-about
-      8 every friend of Mary does
       8 every friend of everybody is mad-about
-      8 every friend of everybody does
       8 everybody is somebody and asks
       8 everybody is Mary and asks
       8 everybody is everybody and asks
@@ -294,31 +257,33 @@
       8 a woman who is who
       8 a woman who asks who
       8 a woman is which
-      8 a woman is not a
       8 a friend of everybody is mad-about
-      8 a friend of everybody does
       7 X is not who
       7 X is asked by who
+      7 X does not ask who
       7 who is not X
       7 who is not a
       7 somebody is not who
       7 somebody is not which
       7 somebody is asked by who
+      7 somebody does not ask who
       7 Mary is not who
       7 Mary is not which
       7 Mary is asked by who
+      7 Mary does not ask who
       7 for every woman X is mad-about
-      7 for every woman X does
       7 exactly 1 woman asks which
-      7 every woman is not a
       7 a woman is asked by which
+      7 a woman does not ask which
       6 X is everybody and asks
       6 X is a woman and is
       6 X is a woman and asks
       6 X is asked by which
+      6 X does not ask which
       6 X asks everybody and asks
       6 X asks a woman and is
       6 X asks a woman and asks
+      6 somebody is not asked by which
       6 somebody is a woman and is
       6 somebody is a woman and asks
       6 somebody is a friend of which
@@ -327,6 +292,7 @@
       6 somebody asks a friend of which
       6 Mary who is not who
       6 Mary who is asked by who
+      6 Mary is not asked by which
       6 Mary is a woman and is
       6 Mary is a woman and asks
       6 Mary is a friend of which
@@ -334,20 +300,13 @@
       6 Mary asks a woman and asks
       6 Mary asks a friend of which
       6 it is false that X is not mad-about
-      6 it is false that X is not asked
-      6 it is false that somebody is not a
-      6 it is false that Mary is not a
-      6 it is false that everybody is not a
       6 exactly 2 women ask which
       6 exactly 1 woman is which
       6 exactly 1 woman is not mad-about
-      6 exactly 1 woman is not asked
       6 every friend of X is mad-about
-      6 every friend of X does
       6 everybody is X and asks
       6 everybody asks X and asks
       6 a woman X is not mad-about
-      6 a woman X is not asked
       6 a woman X asks which
       6 a woman is X and is
       6 a woman is X and asks
@@ -369,11 +328,17 @@
       6 a friend of somebody asks which
       6 a friend of Mary asks which
       6 a friend of a woman is mad-about
-      6 a friend of a woman does
       6 a friend of a friend of who
       5 X is X and does
       5 X is somebody and does
+      5 X is not X and is
+      5 X is not X and asks
       5 X is not which
+      5 X is not somebody and is
+      5 X is not somebody and asks
+      5 X is not Mary and is
+      5 X is not Mary and asks
+      5 X is not asked by which
       5 X is Mary who is mad-about
       5 X is Mary who does
       5 X is Mary and does
@@ -384,6 +349,12 @@
       5 X is asked by Mary and is
       5 X is asked by Mary and asks
       5 X is a friend of which
+      5 X does not ask X and is
+      5 X does not ask X and asks
+      5 X does not ask somebody and is
+      5 X does not ask somebody and asks
+      5 X does not ask Mary and is
+      5 X does not ask Mary and asks
       5 X asks X and does
       5 X asks somebody and does
       5 X asks Mary who is mad-about
@@ -398,6 +369,12 @@
       5 there is a woman who does
       5 somebody is X and does
       5 somebody is somebody and does
+      5 somebody is not X and is
+      5 somebody is not X and asks
+      5 somebody is not somebody and is
+      5 somebody is not somebody and asks
+      5 somebody is not Mary and is
+      5 somebody is not Mary and asks
       5 somebody is Mary who is mad-about
       5 somebody is Mary who does
       5 somebody is Mary and does
@@ -407,31 +384,34 @@
       5 somebody is asked by somebody and asks
       5 somebody is asked by Mary and is
       5 somebody is asked by Mary and asks
+      5 somebody does not ask X and is
+      5 somebody does not ask X and asks
+      5 somebody does not ask somebody and is
+      5 somebody does not ask somebody and asks
+      5 somebody does not ask Mary and is
+      5 somebody does not ask Mary and asks
       5 somebody asks X and does
       5 somebody asks somebody and does
       5 somebody asks Mary who is mad-about
       5 somebody asks Mary who does
       5 somebody asks Mary and does
       5 Mary who X asks is mad-about
-      5 Mary who X asks does
       5 Mary who somebody asks is mad-about
-      5 Mary who somebody asks does
       5 Mary who Mary asks is mad-about
-      5 Mary who Mary asks does
       5 Mary who is X is mad-about
-      5 Mary who is X does
       5 Mary who is somebody is mad-about
-      5 Mary who is somebody does
       5 Mary who is Mary is mad-about
-      5 Mary who is Mary does
       5 Mary who asks X is mad-about
-      5 Mary who asks X does
       5 Mary who asks somebody is mad-about
-      5 Mary who asks somebody does
       5 Mary who asks Mary is mad-about
-      5 Mary who asks Mary does
       5 Mary is X and does
       5 Mary is somebody and does
+      5 Mary is not X and is
+      5 Mary is not X and asks
+      5 Mary is not somebody and is
+      5 Mary is not somebody and asks
+      5 Mary is not Mary and is
+      5 Mary is not Mary and asks
       5 Mary is Mary who is mad-about
       5 Mary is Mary who does
       5 Mary is Mary and does
@@ -441,60 +421,41 @@
       5 Mary is asked by somebody and asks
       5 Mary is asked by Mary and is
       5 Mary is asked by Mary and asks
+      5 Mary does not ask X and is
+      5 Mary does not ask X and asks
+      5 Mary does not ask somebody and is
+      5 Mary does not ask somebody and asks
+      5 Mary does not ask Mary and is
+      5 Mary does not ask Mary and asks
       5 Mary asks X and does
       5 Mary asks somebody and does
       5 Mary asks Mary who is mad-about
       5 Mary asks Mary who does
       5 Mary asks Mary and does
-      5 it is false that X is not a
       5 it is false that exactly 1 woman is mad-about
-      5 it is false that exactly 1 woman does
       5 it is false that every woman X is mad-about
-      5 it is false that every woman X does
       5 it is false that every woman is not mad-about
-      5 it is false that every woman is not asked
       5 it is false that a woman X is mad-about
-      5 it is false that a woman X does
       5 it is false that a woman is not mad-about
-      5 it is false that a woman is not asked
       5 for every woman X X is mad-about
-      5 for every woman X X does
       5 for every woman X the woman is mad-about
-      5 for every woman X the woman does
       5 for every woman X somebody is mad-about
-      5 for every woman X somebody does
       5 for every woman X Mary is mad-about
-      5 for every woman X Mary does
       5 for every woman X is not mad-about
-      5 for every woman X is not asked
       5 for every woman X everybody is mad-about
-      5 for every woman X everybody does
       5 for every woman the woman is not mad-about
-      5 for every woman the woman is not asked
       5 for every woman somebody is not mad-about
-      5 for every woman somebody is not asked
       5 for every woman Mary is not mad-about
-      5 for every woman Mary is not asked
       5 for every woman it is false that X is mad-about
-      5 for every woman it is false that X does
       5 for every woman it is false that the woman is mad-about
-      5 for every woman it is false that the woman does
       5 for every woman it is false that somebody is mad-about
-      5 for every woman it is false that somebody does
       5 for every woman it is false that Mary is mad-about
-      5 for every woman it is false that Mary does
       5 for every woman it is false that everybody is mad-about
-      5 for every woman it is false that everybody does
       5 for every woman every woman is mad-about
-      5 for every woman every woman does
       5 for every woman everybody is not mad-about
-      5 for every woman everybody is not asked
       5 for every woman a woman is mad-about
-      5 for every woman a woman does
       5 exactly 2 women are not mad-about
-      5 exactly 2 women are not asked
       5 every woman X is not mad-about
-      5 every woman X is not asked
       5 every woman is X and is
       5 every woman is X and asks
       5 every woman is the woman and is
@@ -516,7 +477,6 @@
       5 every woman asks everybody and is
       5 every woman asks everybody and asks
       5 every friend of a woman is mad-about
-      5 every friend of a woman does
       5 everybody is a woman and is
       5 everybody is a woman and asks
       5 everybody asks a woman and is
@@ -527,16 +487,12 @@
       5 a woman asks everybody and is
       5 a woman asks everybody and asks
       5 a friend of X is not mad-about
-      5 a friend of X is not asked
       5 a friend of X asks which
       5 a friend of somebody X is mad-about
-      5 a friend of somebody X does
       5 a friend of somebody is which
       5 a friend of somebody is not mad-about
-      5 a friend of somebody is not asked
       5 a friend of Mary is which
       5 a friend of Mary is not mad-about
-      5 a friend of Mary is not asked
       4 X is not everybody and is
       4 X is not everybody and asks
       4 X is every woman and is
@@ -544,6 +500,8 @@
       4 X is everybody and does
       4 X is asked by everybody and is
       4 X is asked by everybody and asks
+      4 X does not ask everybody and is
+      4 X does not ask everybody and asks
       4 X asks every woman and is
       4 X asks every woman and asks
       4 X asks everybody and does
@@ -554,13 +512,9 @@
       4 who asks a woman and is
       4 who asks a woman and asks
       4 there is somebody and X is mad-about
-      4 there is somebody and X does
       4 there is somebody and somebody is mad-about
-      4 there is somebody and somebody does
       4 there is somebody and Mary is mad-about
-      4 there is somebody and Mary does
       4 there is somebody and everybody is mad-about
-      4 there is somebody and everybody does
       4 somebody is not everybody and is
       4 somebody is not everybody and asks
       4 somebody is every woman and is
@@ -568,15 +522,14 @@
       4 somebody is everybody and does
       4 somebody is asked by everybody and is
       4 somebody is asked by everybody and asks
+      4 somebody does not ask everybody and is
+      4 somebody does not ask everybody and asks
       4 somebody asks every woman and is
       4 somebody asks every woman and asks
       4 somebody asks everybody and does
       4 Mary who is everybody is mad-about
-      4 Mary who is everybody does
       4 Mary who everybody asks is mad-about
-      4 Mary who everybody asks does
       4 Mary who asks everybody is mad-about
-      4 Mary who asks everybody does
       4 Mary is not everybody and is
       4 Mary is not everybody and asks
       4 Mary is every woman and is
@@ -584,6 +537,8 @@
       4 Mary is everybody and does
       4 Mary is asked by everybody and is
       4 Mary is asked by everybody and asks
+      4 Mary does not ask everybody and is
+      4 Mary does not ask everybody and asks
       4 Mary asks every woman and is
       4 Mary asks every woman and asks
       4 Mary asks everybody and does
@@ -635,16 +590,11 @@
       4 it is false that Mary asks Mary and asks
       4 it is false that Mary asks everybody and is
       4 it is false that Mary asks everybody and asks
-      4 it is false that exactly 2 women do
       4 it is false that exactly 2 women are mad-about
       4 it is false that every friend of X is mad-about
-      4 it is false that every friend of X does
       4 it is false that every friend of somebody is mad-about
-      4 it is false that every friend of somebody does
       4 it is false that every friend of Mary is mad-about
-      4 it is false that every friend of Mary does
       4 it is false that every friend of everybody is mad-about
-      4 it is false that every friend of everybody does
       4 it is false that everybody is X and is
       4 it is false that everybody is X and asks
       4 it is false that everybody is somebody and is
@@ -662,61 +612,40 @@
       4 it is false that everybody asks everybody and is
       4 it is false that everybody asks everybody and asks
       4 it is false that a friend of X is mad-about
-      4 it is false that a friend of X does
       4 it is false that a friend of somebody is mad-about
-      4 it is false that a friend of somebody does
       4 it is false that a friend of Mary is mad-about
-      4 it is false that a friend of Mary does
       4 it is false that a friend of everybody is mad-about
-      4 it is false that a friend of everybody does
       4 for every friend of X X is mad-about
-      4 for every friend of X X does
       4 for every friend of X somebody is mad-about
-      4 for every friend of X somebody does
       4 for every friend of X Mary is mad-about
-      4 for every friend of X Mary does
       4 for every friend of X everybody is mad-about
-      4 for every friend of X everybody does
       4 for every friend of somebody X is mad-about
-      4 for every friend of somebody X does
       4 for every friend of somebody somebody is mad-about
-      4 for every friend of somebody somebody does
       4 for every friend of somebody Mary is mad-about
-      4 for every friend of somebody Mary does
       4 for every friend of somebody everybody is mad-about
-      4 for every friend of somebody everybody does
       4 for every friend of Mary X is mad-about
-      4 for every friend of Mary X does
       4 for every friend of Mary somebody is mad-about
-      4 for every friend of Mary somebody does
       4 for every friend of Mary Mary is mad-about
-      4 for every friend of Mary Mary does
       4 for every friend of Mary everybody is mad-about
-      4 for every friend of Mary everybody does
       4 for every friend of everybody X is mad-about
-      4 for every friend of everybody X does
       4 for every friend of everybody somebody is mad-about
-      4 for every friend of everybody somebody does
       4 for every friend of everybody Mary is mad-about
-      4 for every friend of everybody Mary does
       4 for every friend of everybody everybody is mad-about
-      4 for every friend of everybody everybody does
       4 every friend of X is not mad-about
-      4 every friend of X is not asked
       4 every friend of somebody X is mad-about
-      4 every friend of somebody X does
       4 every friend of somebody is not mad-about
-      4 every friend of somebody is not asked
       4 every friend of Mary is not mad-about
-      4 every friend of Mary is not asked
       4 every friend of every woman is mad-about
-      4 every friend of every woman does
       4 every friend of everybody X is mad-about
-      4 every friend of everybody X does
       4 every friend of everybody is not mad-about
-      4 every friend of everybody is not asked
       4 everybody is X and does
       4 everybody is somebody and does
+      4 everybody is not X and is
+      4 everybody is not X and asks
+      4 everybody is not somebody and is
+      4 everybody is not somebody and asks
+      4 everybody is not Mary and is
+      4 everybody is not Mary and asks
       4 everybody is not everybody and is
       4 everybody is not everybody and asks
       4 everybody is Mary who is mad-about
@@ -733,6 +662,14 @@
       4 everybody is asked by Mary and asks
       4 everybody is asked by everybody and is
       4 everybody is asked by everybody and asks
+      4 everybody does not ask X and is
+      4 everybody does not ask X and asks
+      4 everybody does not ask somebody and is
+      4 everybody does not ask somebody and asks
+      4 everybody does not ask Mary and is
+      4 everybody does not ask Mary and asks
+      4 everybody does not ask everybody and is
+      4 everybody does not ask everybody and asks
       4 everybody asks X and does
       4 everybody asks somebody and does
       4 everybody asks Mary who is mad-about
@@ -743,11 +680,8 @@
       4 everybody asks everybody and does
       4 a friend of X is which
       4 a friend of every woman is mad-about
-      4 a friend of every woman does
       4 a friend of everybody X is mad-about
-      4 a friend of everybody X does
       4 a friend of everybody is not mad-about
-      4 a friend of everybody is not asked
       3 who is X and does
       3 who is somebody and does
       3 who is Mary who is mad-about
@@ -765,17 +699,21 @@
       3 who asks Mary who does
       3 who asks Mary and does
       3 exactly 2 women are which
+      2 X is not a friend of which
       2 X is Mary who who
       2 X is Mary who which
       2 X is Mary who asks which
       2 X is asked by a friend of which
+      2 X does not ask a friend of which
       2 X asks Mary who who
       2 X asks Mary who which
       2 X asks Mary who asks which
+      2 somebody is not a friend of which
       2 somebody is Mary who who
       2 somebody is Mary who which
       2 somebody is Mary who asks which
       2 somebody is asked by a friend of which
+      2 somebody does not ask a friend of which
       2 somebody asks Mary who who
       2 somebody asks Mary who which
       2 somebody asks Mary who asks which
@@ -788,43 +726,38 @@
       2 Mary who asks X asks which
       2 Mary who asks somebody asks which
       2 Mary who asks Mary asks which
+      2 Mary is not a friend of which
       2 Mary is Mary who who
       2 Mary is Mary who which
       2 Mary is Mary who asks which
       2 Mary is asked by a friend of which
+      2 Mary does not ask a friend of which
       2 Mary asks Mary who who
       2 Mary asks Mary who which
       2 Mary asks Mary who asks which
-      2 it is false that somebody is not somebody
-      2 it is false that Mary is not somebody
-      2 it is false that every woman is not somebody
-      2 it is false that everybody is not somebody
-      2 it is false that a woman is not somebody
-      2 for every woman the woman is not somebody
-      2 for every woman somebody is not somebody
-      2 for every woman Mary is not somebody
-      2 for every woman everybody is not somebody
+      2 exactly 2 women do not ask which
       2 exactly 2 women are asked by which
-      2 exactly 1 woman is not somebody
       2 exactly 1 woman is asked by which
-      2 every woman X is not the
-      2 every woman is not somebody
-      2 every friend of somebody is not somebody
-      2 every friend of Mary is not somebody
-      2 every friend of everybody is not somebody
-      2 a woman X is not the
+      2 exactly 1 woman does not ask which
       2 a woman X is asked by which
-      2 a woman is not somebody
+      2 a woman X does not ask which
+      2 a woman is not asked by which
       2 a woman is a friend of which
       2 a woman asks a friend of which
       2 a friend of X is asked by which
+      2 a friend of X does not ask which
       2 a friend of somebody X asks which
-      2 a friend of somebody is not somebody
       2 a friend of somebody is asked by which
-      2 a friend of Mary is not somebody
+      2 a friend of somebody does not ask which
       2 a friend of Mary is asked by which
-      2 a friend of everybody is not somebody
+      2 a friend of Mary does not ask which
       2 a friend of a woman asks which
+      1 X is not Mary who who
+      1 X is not Mary who is who
+      1 X is not Mary who asks who
+      1 X is not asked by who
+      1 X is not asked by a friend of who
+      1 X is not a friend of who
       1 X is Mary who X does
       1 X is Mary who somebody does
       1 X is Mary who Mary does
@@ -846,6 +779,10 @@
       1 X is asked by a friend of who
       1 X is a friend of who
       1 X is a friend of a friend of who
+      1 X does not ask Mary who who
+      1 X does not ask Mary who is who
+      1 X does not ask Mary who asks who
+      1 X does not ask a friend of who
       1 X asks Mary who X does
       1 X asks Mary who somebody does
       1 X asks Mary who Mary does
@@ -882,28 +819,16 @@
       1 who asks Mary who is not somebody
       1 who asks Mary who is not Mary
       1 who asks Mary who asks somebody X
-      1 there is somebody and X is not X
-      1 there is somebody and X is not somebody
-      1 there is somebody and X is not Mary
       1 there is somebody and there is somebody X
       1 there is somebody and somebody is somebody X
-      1 there is somebody and somebody is not X
-      1 there is somebody and somebody is not somebody
-      1 there is somebody and somebody is not Mary
       1 there is somebody and somebody is everybody X
       1 there is somebody and somebody asks somebody X
       1 there is somebody and somebody asks everybody X
       1 there is somebody and Mary is somebody X
-      1 there is somebody and Mary is not X
-      1 there is somebody and Mary is not somebody
-      1 there is somebody and Mary is not Mary
       1 there is somebody and Mary is everybody X
       1 there is somebody and Mary asks somebody X
       1 there is somebody and Mary asks everybody X
       1 there is somebody and everybody is somebody X
-      1 there is somebody and everybody is not X
-      1 there is somebody and everybody is not somebody
-      1 there is somebody and everybody is not Mary
       1 there is somebody and everybody is everybody X
       1 there is somebody and everybody asks somebody X
       1 there is somebody and everybody asks everybody X
@@ -920,7 +845,16 @@
       1 there is a woman who everybody does
       1 there is a woman and there is somebody X
       1 somebody is somebody and there is somebody X
+      1 somebody is not somebody X
+      1 somebody is not Mary who who
+      1 somebody is not Mary who is who
+      1 somebody is not Mary who asks who
       1 somebody is not everybody X
+      1 somebody is not asked by who
+      1 somebody is not asked by somebody X
+      1 somebody is not asked by everybody X
+      1 somebody is not asked by a friend of who
+      1 somebody is not a friend of who
       1 somebody is Mary who X does
       1 somebody is Mary who somebody X
       1 somebody is Mary who somebody does
@@ -952,6 +886,12 @@
       1 somebody is asked by a friend of who
       1 somebody is a friend of who
       1 somebody is a friend of a friend of who
+      1 somebody does not ask somebody X
+      1 somebody does not ask Mary who who
+      1 somebody does not ask Mary who is who
+      1 somebody does not ask Mary who asks who
+      1 somebody does not ask everybody X
+      1 somebody does not ask a friend of who
       1 somebody asks somebody and there is somebody X
       1 somebody asks Mary who X does
       1 somebody asks Mary who somebody X
@@ -980,72 +920,57 @@
       1 somebody asks a friend of a friend of who
       1 Mary who X asks is who
       1 Mary who X asks is which
-      1 Mary who X asks is not X
       1 Mary who X asks is not who
-      1 Mary who X asks is not somebody
-      1 Mary who X asks is not Mary
       1 Mary who X asks is asked by who
+      1 Mary who X asks does not ask who
       1 Mary who X asks asks who
       1 Mary who somebody asks is who
       1 Mary who somebody asks is which
       1 Mary who somebody asks is somebody X
-      1 Mary who somebody asks is not X
       1 Mary who somebody asks is not who
-      1 Mary who somebody asks is not somebody
-      1 Mary who somebody asks is not Mary
       1 Mary who somebody asks is everybody X
       1 Mary who somebody asks is asked by who
+      1 Mary who somebody asks does not ask who
       1 Mary who somebody asks asks who
       1 Mary who somebody asks asks somebody X
       1 Mary who somebody asks asks everybody X
       1 Mary who Mary asks is who
       1 Mary who Mary asks is which
       1 Mary who Mary asks is somebody X
-      1 Mary who Mary asks is not X
       1 Mary who Mary asks is not who
-      1 Mary who Mary asks is not somebody
-      1 Mary who Mary asks is not Mary
       1 Mary who Mary asks is everybody X
       1 Mary who Mary asks is asked by who
+      1 Mary who Mary asks does not ask who
       1 Mary who Mary asks asks who
       1 Mary who Mary asks asks somebody X
       1 Mary who Mary asks asks everybody X
       1 Mary who is X is who
       1 Mary who is X is which
-      1 Mary who is X is not X
       1 Mary who is X is not who
-      1 Mary who is X is not somebody
-      1 Mary who is X is not Mary
       1 Mary who is X is asked by who
+      1 Mary who is X does not ask who
       1 Mary who is X asks who
       1 Mary who is somebody is who
       1 Mary who is somebody is which
       1 Mary who is somebody is somebody X
-      1 Mary who is somebody is not X
       1 Mary who is somebody is not who
-      1 Mary who is somebody is not somebody
-      1 Mary who is somebody is not Mary
       1 Mary who is somebody is everybody X
       1 Mary who is somebody is asked by who
+      1 Mary who is somebody does not ask who
       1 Mary who is somebody asks who
       1 Mary who is somebody asks somebody X
       1 Mary who is somebody asks everybody X
       1 Mary who is Mary is who
       1 Mary who is Mary is which
       1 Mary who is Mary is somebody X
-      1 Mary who is Mary is not X
       1 Mary who is Mary is not who
-      1 Mary who is Mary is not somebody
-      1 Mary who is Mary is not Mary
       1 Mary who is Mary is everybody X
       1 Mary who is Mary is asked by who
+      1 Mary who is Mary does not ask who
       1 Mary who is Mary asks who
       1 Mary who is Mary asks somebody X
       1 Mary who is Mary asks everybody X
       1 Mary who is everybody is somebody X
-      1 Mary who is everybody is not X
-      1 Mary who is everybody is not somebody
-      1 Mary who is everybody is not Mary
       1 Mary who is everybody is everybody X
       1 Mary who is everybody asks somebody X
       1 Mary who is everybody asks everybody X
@@ -1058,9 +983,6 @@
       1 Mary who is asked by Mary is who
       1 Mary who is asked by Mary asks who
       1 Mary who everybody asks is somebody X
-      1 Mary who everybody asks is not X
-      1 Mary who everybody asks is not somebody
-      1 Mary who everybody asks is not Mary
       1 Mary who everybody asks is everybody X
       1 Mary who everybody asks asks somebody X
       1 Mary who everybody asks asks everybody X
@@ -1068,47 +990,47 @@
       1 Mary who a woman asks asks who
       1 Mary who asks X is who
       1 Mary who asks X is which
-      1 Mary who asks X is not X
       1 Mary who asks X is not who
-      1 Mary who asks X is not somebody
-      1 Mary who asks X is not Mary
       1 Mary who asks X is asked by who
+      1 Mary who asks X does not ask who
       1 Mary who asks X asks who
       1 Mary who asks somebody is who
       1 Mary who asks somebody is which
       1 Mary who asks somebody is somebody X
-      1 Mary who asks somebody is not X
       1 Mary who asks somebody is not who
-      1 Mary who asks somebody is not somebody
-      1 Mary who asks somebody is not Mary
       1 Mary who asks somebody is everybody X
       1 Mary who asks somebody is asked by who
+      1 Mary who asks somebody does not ask who
       1 Mary who asks somebody asks who
       1 Mary who asks somebody asks somebody X
       1 Mary who asks somebody asks everybody X
       1 Mary who asks Mary is who
       1 Mary who asks Mary is which
       1 Mary who asks Mary is somebody X
-      1 Mary who asks Mary is not X
       1 Mary who asks Mary is not who
-      1 Mary who asks Mary is not somebody
-      1 Mary who asks Mary is not Mary
       1 Mary who asks Mary is everybody X
       1 Mary who asks Mary is asked by who
+      1 Mary who asks Mary does not ask who
       1 Mary who asks Mary asks who
       1 Mary who asks Mary asks somebody X
       1 Mary who asks Mary asks everybody X
       1 Mary who asks everybody is somebody X
-      1 Mary who asks everybody is not X
-      1 Mary who asks everybody is not somebody
-      1 Mary who asks everybody is not Mary
       1 Mary who asks everybody is everybody X
       1 Mary who asks everybody asks somebody X
       1 Mary who asks everybody asks everybody X
       1 Mary who asks a woman is who
       1 Mary who asks a woman asks who
       1 Mary is somebody and there is somebody X
+      1 Mary is not somebody X
+      1 Mary is not Mary who who
+      1 Mary is not Mary who is who
+      1 Mary is not Mary who asks who
       1 Mary is not everybody X
+      1 Mary is not asked by who
+      1 Mary is not asked by somebody X
+      1 Mary is not asked by everybody X
+      1 Mary is not asked by a friend of who
+      1 Mary is not a friend of who
       1 Mary is Mary who X does
       1 Mary is Mary who somebody X
       1 Mary is Mary who somebody does
@@ -1140,6 +1062,12 @@
       1 Mary is asked by a friend of who
       1 Mary is a friend of who
       1 Mary is a friend of a friend of who
+      1 Mary does not ask somebody X
+      1 Mary does not ask Mary who who
+      1 Mary does not ask Mary who is who
+      1 Mary does not ask Mary who asks who
+      1 Mary does not ask everybody X
+      1 Mary does not ask a friend of who
       1 Mary asks somebody and there is somebody X
       1 Mary asks Mary who X does
       1 Mary asks Mary who somebody X
@@ -1166,441 +1094,293 @@
       1 Mary asks a woman who asks who
       1 Mary asks a friend of who
       1 Mary asks a friend of a friend of who
-      1 it is false that X is not X
-      1 it is false that X is not somebody
-      1 it is false that X is not Mary
       1 it is false that somebody is somebody X
-      1 it is false that somebody is not X
-      1 it is false that somebody is not Mary
+      1 it is false that somebody is not somebody X
       1 it is false that somebody is not everybody X
+      1 it is false that somebody is not asked by somebody X
+      1 it is false that somebody is not asked by everybody X
       1 it is false that somebody is everybody X
       1 it is false that somebody is asked by somebody X
       1 it is false that somebody is asked by everybody X
+      1 it is false that somebody does not ask somebody X
+      1 it is false that somebody does not ask everybody X
       1 it is false that somebody asks somebody X
       1 it is false that somebody asks everybody X
       1 it is false that Mary is somebody X
-      1 it is false that Mary is not X
-      1 it is false that Mary is not Mary
+      1 it is false that Mary is not somebody X
       1 it is false that Mary is not everybody X
+      1 it is false that Mary is not asked by somebody X
+      1 it is false that Mary is not asked by everybody X
       1 it is false that Mary is everybody X
       1 it is false that Mary is asked by somebody X
       1 it is false that Mary is asked by everybody X
+      1 it is false that Mary does not ask somebody X
+      1 it is false that Mary does not ask everybody X
       1 it is false that Mary asks somebody X
       1 it is false that Mary asks everybody X
       1 it is false that exactly 2 women ask somebody X
       1 it is false that exactly 2 women ask everybody X
       1 it is false that exactly 1 woman is somebody X
-      1 it is false that exactly 1 woman is not X
-      1 it is false that exactly 1 woman is not the
-      1 it is false that exactly 1 woman is not somebody
-      1 it is false that exactly 1 woman is not Mary
       1 it is false that exactly 1 woman is everybody X
       1 it is false that exactly 1 woman asks somebody X
       1 it is false that exactly 1 woman asks everybody X
-      1 it is false that every woman X is not X
-      1 it is false that every woman X is not the
-      1 it is false that every woman X is not somebody
-      1 it is false that every woman X is not Mary
       1 it is false that every woman is somebody X
-      1 it is false that every woman is not X
-      1 it is false that every woman is not the
-      1 it is false that every woman is not Mary
+      1 it is false that every woman is not somebody X
       1 it is false that every woman is not everybody X
-      1 it is false that every woman is not a
       1 it is false that every woman is everybody X
       1 it is false that every woman is asked by somebody X
       1 it is false that every woman is asked by everybody X
+      1 it is false that every woman does not ask somebody X
+      1 it is false that every woman does not ask everybody X
       1 it is false that every woman asks somebody X
       1 it is false that every woman asks everybody X
-      1 it is false that every friend of X is not X
-      1 it is false that every friend of X is not somebody
-      1 it is false that every friend of X is not Mary
       1 it is false that every friend of somebody is somebody X
-      1 it is false that every friend of somebody is not X
-      1 it is false that every friend of somebody is not somebody
-      1 it is false that every friend of somebody is not Mary
       1 it is false that every friend of somebody is everybody X
       1 it is false that every friend of somebody asks somebody X
       1 it is false that every friend of somebody asks everybody X
       1 it is false that every friend of Mary is somebody X
-      1 it is false that every friend of Mary is not X
-      1 it is false that every friend of Mary is not somebody
-      1 it is false that every friend of Mary is not Mary
       1 it is false that every friend of Mary is everybody X
       1 it is false that every friend of Mary asks somebody X
       1 it is false that every friend of Mary asks everybody X
       1 it is false that every friend of everybody is somebody X
-      1 it is false that every friend of everybody is not X
-      1 it is false that every friend of everybody is not somebody
-      1 it is false that every friend of everybody is not Mary
       1 it is false that every friend of everybody is everybody X
       1 it is false that every friend of everybody asks somebody X
       1 it is false that every friend of everybody asks everybody X
       1 it is false that everybody is somebody X
-      1 it is false that everybody is not X
-      1 it is false that everybody is not Mary
+      1 it is false that everybody is not somebody X
       1 it is false that everybody is not everybody X
+      1 it is false that everybody is not asked by somebody X
+      1 it is false that everybody is not asked by everybody X
       1 it is false that everybody is everybody X
       1 it is false that everybody is asked by somebody X
       1 it is false that everybody is asked by everybody X
+      1 it is false that everybody does not ask somebody X
+      1 it is false that everybody does not ask everybody X
       1 it is false that everybody asks somebody X
       1 it is false that everybody asks everybody X
-      1 it is false that a woman X is not X
-      1 it is false that a woman X is not the
-      1 it is false that a woman X is not somebody
-      1 it is false that a woman X is not Mary
       1 it is false that a woman is somebody X
-      1 it is false that a woman is not X
-      1 it is false that a woman is not the
-      1 it is false that a woman is not Mary
+      1 it is false that a woman is not somebody X
       1 it is false that a woman is not everybody X
-      1 it is false that a woman is not a
       1 it is false that a woman is everybody X
       1 it is false that a woman is asked by somebody X
       1 it is false that a woman is asked by everybody X
+      1 it is false that a woman does not ask somebody X
+      1 it is false that a woman does not ask everybody X
       1 it is false that a woman asks somebody X
       1 it is false that a woman asks everybody X
-      1 it is false that a friend of X is not X
-      1 it is false that a friend of X is not somebody
-      1 it is false that a friend of X is not Mary
       1 it is false that a friend of somebody is somebody X
-      1 it is false that a friend of somebody is not X
-      1 it is false that a friend of somebody is not somebody
-      1 it is false that a friend of somebody is not Mary
       1 it is false that a friend of somebody is everybody X
       1 it is false that a friend of somebody asks somebody X
       1 it is false that a friend of somebody asks everybody X
       1 it is false that a friend of Mary is somebody X
-      1 it is false that a friend of Mary is not X
-      1 it is false that a friend of Mary is not somebody
-      1 it is false that a friend of Mary is not Mary
       1 it is false that a friend of Mary is everybody X
       1 it is false that a friend of Mary asks somebody X
       1 it is false that a friend of Mary asks everybody X
       1 it is false that a friend of everybody is somebody X
-      1 it is false that a friend of everybody is not X
-      1 it is false that a friend of everybody is not somebody
-      1 it is false that a friend of everybody is not Mary
       1 it is false that a friend of everybody is everybody X
       1 it is false that a friend of everybody asks somebody X
       1 it is false that a friend of everybody asks everybody X
       1 if there is somebody X
       1 if there is somebody then there is somebody X
-      1 for every woman X X is not X
-      1 for every woman X X is not the
-      1 for every woman X X is not somebody
-      1 for every woman X X is not Mary
-      1 for every woman X the woman is not X
-      1 for every woman X the woman is not the
-      1 for every woman X the woman is not somebody
-      1 for every woman X the woman is not Mary
-      1 for every woman X somebody is not X
-      1 for every woman X somebody is not the
-      1 for every woman X somebody is not somebody
-      1 for every woman X somebody is not Mary
-      1 for every woman X Mary is not X
-      1 for every woman X Mary is not the
-      1 for every woman X Mary is not somebody
-      1 for every woman X Mary is not Mary
-      1 for every woman X is not X
-      1 for every woman X is not the
-      1 for every woman X is not somebody
-      1 for every woman X is not Mary
-      1 for every woman X is not a
-      1 for every woman X everybody is not X
-      1 for every woman X everybody is not the
-      1 for every woman X everybody is not somebody
-      1 for every woman X everybody is not Mary
       1 for every woman the woman is somebody X
-      1 for every woman the woman is not X
-      1 for every woman the woman is not the
-      1 for every woman the woman is not Mary
+      1 for every woman the woman is not somebody X
       1 for every woman the woman is not everybody X
-      1 for every woman the woman is not a
       1 for every woman the woman is everybody X
       1 for every woman the woman is asked by somebody X
       1 for every woman the woman is asked by everybody X
+      1 for every woman the woman does not ask somebody X
+      1 for every woman the woman does not ask everybody X
       1 for every woman the woman asks somebody X
       1 for every woman the woman asks everybody X
       1 for every woman there is somebody X
       1 for every woman there is somebody such
       1 for every woman somebody is somebody X
-      1 for every woman somebody is not X
-      1 for every woman somebody is not the
-      1 for every woman somebody is not Mary
+      1 for every woman somebody is not somebody X
       1 for every woman somebody is not everybody X
-      1 for every woman somebody is not a
       1 for every woman somebody is everybody X
       1 for every woman somebody is asked by somebody X
       1 for every woman somebody is asked by everybody X
+      1 for every woman somebody does not ask somebody X
+      1 for every woman somebody does not ask everybody X
       1 for every woman somebody asks somebody X
       1 for every woman somebody asks everybody X
       1 for every woman Mary is somebody X
-      1 for every woman Mary is not X
-      1 for every woman Mary is not the
-      1 for every woman Mary is not Mary
+      1 for every woman Mary is not somebody X
       1 for every woman Mary is not everybody X
-      1 for every woman Mary is not a
       1 for every woman Mary is everybody X
       1 for every woman Mary is asked by somebody X
       1 for every woman Mary is asked by everybody X
+      1 for every woman Mary does not ask somebody X
+      1 for every woman Mary does not ask everybody X
       1 for every woman Mary asks somebody X
       1 for every woman Mary asks everybody X
-      1 for every woman it is false that X is not X
-      1 for every woman it is false that X is not the
-      1 for every woman it is false that X is not somebody
-      1 for every woman it is false that X is not Mary
       1 for every woman it is false that the woman is somebody X
-      1 for every woman it is false that the woman is not X
-      1 for every woman it is false that the woman is not the
-      1 for every woman it is false that the woman is not somebody
-      1 for every woman it is false that the woman is not Mary
       1 for every woman it is false that the woman is everybody X
       1 for every woman it is false that the woman asks somebody X
       1 for every woman it is false that the woman asks everybody X
       1 for every woman it is false that somebody is somebody X
-      1 for every woman it is false that somebody is not X
-      1 for every woman it is false that somebody is not the
-      1 for every woman it is false that somebody is not somebody
-      1 for every woman it is false that somebody is not Mary
       1 for every woman it is false that somebody is everybody X
       1 for every woman it is false that somebody asks somebody X
       1 for every woman it is false that somebody asks everybody X
       1 for every woman it is false that Mary is somebody X
-      1 for every woman it is false that Mary is not X
-      1 for every woman it is false that Mary is not the
-      1 for every woman it is false that Mary is not somebody
-      1 for every woman it is false that Mary is not Mary
       1 for every woman it is false that Mary is everybody X
       1 for every woman it is false that Mary asks somebody X
       1 for every woman it is false that Mary asks everybody X
       1 for every woman it is false that everybody is somebody X
-      1 for every woman it is false that everybody is not X
-      1 for every woman it is false that everybody is not the
-      1 for every woman it is false that everybody is not somebody
-      1 for every woman it is false that everybody is not Mary
       1 for every woman it is false that everybody is everybody X
       1 for every woman it is false that everybody asks somebody X
       1 for every woman it is false that everybody asks everybody X
       1 for every woman every woman is somebody X
-      1 for every woman every woman is not X
-      1 for every woman every woman is not the
-      1 for every woman every woman is not somebody
-      1 for every woman every woman is not Mary
       1 for every woman every woman is everybody X
       1 for every woman every woman asks somebody X
       1 for every woman every woman asks everybody X
       1 for every woman everybody is somebody X
-      1 for every woman everybody is not X
-      1 for every woman everybody is not the
-      1 for every woman everybody is not Mary
+      1 for every woman everybody is not somebody X
       1 for every woman everybody is not everybody X
-      1 for every woman everybody is not a
       1 for every woman everybody is everybody X
       1 for every woman everybody is asked by somebody X
       1 for every woman everybody is asked by everybody X
+      1 for every woman everybody does not ask somebody X
+      1 for every woman everybody does not ask everybody X
       1 for every woman everybody asks somebody X
       1 for every woman everybody asks everybody X
       1 for every woman a woman is somebody X
-      1 for every woman a woman is not X
-      1 for every woman a woman is not the
-      1 for every woman a woman is not somebody
-      1 for every woman a woman is not Mary
       1 for every woman a woman is everybody X
       1 for every woman a woman asks somebody X
       1 for every woman a woman asks everybody X
-      1 for every friend of X X is not X
-      1 for every friend of X X is not somebody
-      1 for every friend of X X is not Mary
-      1 for every friend of X somebody is not X
-      1 for every friend of X somebody is not somebody
-      1 for every friend of X somebody is not Mary
-      1 for every friend of X Mary is not X
-      1 for every friend of X Mary is not somebody
-      1 for every friend of X Mary is not Mary
-      1 for every friend of X everybody is not X
-      1 for every friend of X everybody is not somebody
-      1 for every friend of X everybody is not Mary
-      1 for every friend of somebody X is not X
-      1 for every friend of somebody X is not somebody
-      1 for every friend of somebody X is not Mary
       1 for every friend of somebody there is somebody X
       1 for every friend of somebody somebody is somebody X
-      1 for every friend of somebody somebody is not X
-      1 for every friend of somebody somebody is not somebody
-      1 for every friend of somebody somebody is not Mary
       1 for every friend of somebody somebody is everybody X
       1 for every friend of somebody somebody asks somebody X
       1 for every friend of somebody somebody asks everybody X
       1 for every friend of somebody Mary is somebody X
-      1 for every friend of somebody Mary is not X
-      1 for every friend of somebody Mary is not somebody
-      1 for every friend of somebody Mary is not Mary
       1 for every friend of somebody Mary is everybody X
       1 for every friend of somebody Mary asks somebody X
       1 for every friend of somebody Mary asks everybody X
       1 for every friend of somebody everybody is somebody X
-      1 for every friend of somebody everybody is not X
-      1 for every friend of somebody everybody is not somebody
-      1 for every friend of somebody everybody is not Mary
       1 for every friend of somebody everybody is everybody X
       1 for every friend of somebody everybody asks somebody X
       1 for every friend of somebody everybody asks everybody X
-      1 for every friend of Mary X is not X
-      1 for every friend of Mary X is not somebody
-      1 for every friend of Mary X is not Mary
       1 for every friend of Mary there is somebody X
       1 for every friend of Mary somebody is somebody X
-      1 for every friend of Mary somebody is not X
-      1 for every friend of Mary somebody is not somebody
-      1 for every friend of Mary somebody is not Mary
       1 for every friend of Mary somebody is everybody X
       1 for every friend of Mary somebody asks somebody X
       1 for every friend of Mary somebody asks everybody X
       1 for every friend of Mary Mary is somebody X
-      1 for every friend of Mary Mary is not X
-      1 for every friend of Mary Mary is not somebody
-      1 for every friend of Mary Mary is not Mary
       1 for every friend of Mary Mary is everybody X
       1 for every friend of Mary Mary asks somebody X
       1 for every friend of Mary Mary asks everybody X
       1 for every friend of Mary everybody is somebody X
-      1 for every friend of Mary everybody is not X
-      1 for every friend of Mary everybody is not somebody
-      1 for every friend of Mary everybody is not Mary
       1 for every friend of Mary everybody is everybody X
       1 for every friend of Mary everybody asks somebody X
       1 for every friend of Mary everybody asks everybody X
       1 for every friend of every woman there is somebody X
       1 for every friend of everybody X there is somebody X
-      1 for every friend of everybody X is not X
-      1 for every friend of everybody X is not somebody
-      1 for every friend of everybody X is not Mary
       1 for every friend of everybody there is somebody X
       1 for every friend of everybody somebody is somebody X
-      1 for every friend of everybody somebody is not X
-      1 for every friend of everybody somebody is not somebody
-      1 for every friend of everybody somebody is not Mary
       1 for every friend of everybody somebody is everybody X
       1 for every friend of everybody somebody asks somebody X
       1 for every friend of everybody somebody asks everybody X
       1 for every friend of everybody Mary is somebody X
-      1 for every friend of everybody Mary is not X
-      1 for every friend of everybody Mary is not somebody
-      1 for every friend of everybody Mary is not Mary
       1 for every friend of everybody Mary is everybody X
       1 for every friend of everybody Mary asks somebody X
       1 for every friend of everybody Mary asks everybody X
       1 for every friend of everybody everybody is somebody X
-      1 for every friend of everybody everybody is not X
-      1 for every friend of everybody everybody is not somebody
-      1 for every friend of everybody everybody is not Mary
       1 for every friend of everybody everybody is everybody X
       1 for every friend of everybody everybody asks somebody X
       1 for every friend of everybody everybody asks everybody X
       1 for every friend of a woman there is somebody X
+      1 exactly 2 women do not ask who
+      1 exactly 2 women do not ask somebody X
+      1 exactly 2 women do not ask everybody X
       1 exactly 2 women ask who
       1 exactly 2 women ask somebody X
       1 exactly 2 women ask everybody X
       1 exactly 2 women ask a friend of who
+      1 exactly 2 women are not asked by who
       1 exactly 2 women are asked by who
       1 exactly 2 women are asked by somebody X
       1 exactly 2 women are asked by everybody X
       1 exactly 2 women are a friend of who
       1 exactly 1 woman is who
       1 exactly 1 woman is somebody X
-      1 exactly 1 woman is not X
       1 exactly 1 woman is not who
       1 exactly 1 woman is not which
-      1 exactly 1 woman is not the
-      1 exactly 1 woman is not Mary
+      1 exactly 1 woman is not somebody X
       1 exactly 1 woman is not everybody X
-      1 exactly 1 woman is not a
+      1 exactly 1 woman is not asked by who
       1 exactly 1 woman is everybody X
       1 exactly 1 woman is asked by who
       1 exactly 1 woman is asked by somebody X
       1 exactly 1 woman is asked by everybody X
       1 exactly 1 woman is a friend of who
+      1 exactly 1 woman does not ask who
+      1 exactly 1 woman does not ask somebody X
+      1 exactly 1 woman does not ask everybody X
       1 exactly 1 woman asks who
       1 exactly 1 woman asks somebody X
       1 exactly 1 woman asks everybody X
       1 exactly 1 woman asks a friend of who
-      1 every woman X is not X
-      1 every woman X is not somebody
-      1 every woman X is not Mary
-      1 every woman X is not a
       1 every woman is somebody X
-      1 every woman is not X
-      1 every woman is not the
-      1 every woman is not Mary
+      1 every woman is not somebody X
       1 every woman is not everybody X
+      1 every woman is not asked by somebody X
+      1 every woman is not asked by everybody X
       1 every woman is everybody X
       1 every woman is asked by somebody X
       1 every woman is asked by everybody X
+      1 every woman does not ask somebody X
+      1 every woman does not ask everybody X
       1 every woman asks somebody X
       1 every woman asks everybody X
-      1 every friend of X is not X
-      1 every friend of X is not somebody
-      1 every friend of X is not Mary
-      1 every friend of X is not a
-      1 every friend of somebody X is not X
-      1 every friend of somebody X is not somebody
-      1 every friend of somebody X is not Mary
       1 every friend of somebody is somebody X
-      1 every friend of somebody is not X
-      1 every friend of somebody is not Mary
+      1 every friend of somebody is not somebody X
       1 every friend of somebody is not everybody X
-      1 every friend of somebody is not a
       1 every friend of somebody is everybody X
       1 every friend of somebody is asked by somebody X
       1 every friend of somebody is asked by everybody X
+      1 every friend of somebody does not ask somebody X
+      1 every friend of somebody does not ask everybody X
       1 every friend of somebody asks somebody X
       1 every friend of somebody asks everybody X
       1 every friend of Mary is somebody X
-      1 every friend of Mary is not X
-      1 every friend of Mary is not Mary
+      1 every friend of Mary is not somebody X
       1 every friend of Mary is not everybody X
-      1 every friend of Mary is not a
       1 every friend of Mary is everybody X
       1 every friend of Mary is asked by somebody X
       1 every friend of Mary is asked by everybody X
+      1 every friend of Mary does not ask somebody X
+      1 every friend of Mary does not ask everybody X
       1 every friend of Mary asks somebody X
       1 every friend of Mary asks everybody X
       1 every friend of every woman is somebody X
-      1 every friend of every woman is not X
-      1 every friend of every woman is not somebody
-      1 every friend of every woman is not Mary
       1 every friend of every woman is everybody X
       1 every friend of every woman asks somebody X
       1 every friend of every woman asks everybody X
       1 every friend of everybody X is somebody X
-      1 every friend of everybody X is not X
-      1 every friend of everybody X is not somebody
-      1 every friend of everybody X is not Mary
       1 every friend of everybody X is everybody X
       1 every friend of everybody X asks somebody X
       1 every friend of everybody X asks everybody X
       1 every friend of everybody is somebody X
-      1 every friend of everybody is not X
-      1 every friend of everybody is not Mary
+      1 every friend of everybody is not somebody X
       1 every friend of everybody is not everybody X
-      1 every friend of everybody is not a
       1 every friend of everybody is everybody X
       1 every friend of everybody is asked by somebody X
       1 every friend of everybody is asked by everybody X
+      1 every friend of everybody does not ask somebody X
+      1 every friend of everybody does not ask everybody X
       1 every friend of everybody asks somebody X
       1 every friend of everybody asks everybody X
       1 every friend of a woman is somebody X
-      1 every friend of a woman is not X
-      1 every friend of a woman is not the
-      1 every friend of a woman is not somebody
-      1 every friend of a woman is not Mary
       1 every friend of a woman is everybody X
       1 every friend of a woman asks somebody X
       1 every friend of a woman asks everybody X
       1 everybody is X and there is somebody X
       1 everybody is somebody and there is somebody X
+      1 everybody is not somebody X
       1 everybody is not everybody X
+      1 everybody is not asked by somebody X
+      1 everybody is not asked by everybody X
       1 everybody is Mary who X does
       1 everybody is Mary who somebody X
       1 everybody is Mary who somebody does
@@ -1618,6 +1398,8 @@
       1 everybody is everybody and there is somebody X
       1 everybody is asked by somebody X
       1 everybody is asked by everybody X
+      1 everybody does not ask somebody X
+      1 everybody does not ask everybody X
       1 everybody asks X and there is somebody X
       1 everybody asks somebody and there is somebody X
       1 everybody asks Mary who X does
@@ -1636,14 +1418,12 @@
       1 everybody asks Mary and there is somebody X
       1 everybody asks everybody and there is somebody X
       1 a woman X is who
-      1 a woman X is not X
       1 a woman X is not who
       1 a woman X is not which
-      1 a woman X is not somebody
-      1 a woman X is not Mary
-      1 a woman X is not a
+      1 a woman X is not asked by who
       1 a woman X is asked by who
       1 a woman X is a friend of who
+      1 a woman X does not ask who
       1 a woman X asks who
       1 a woman X asks a friend of who
       1 a woman who X asks is who
@@ -1671,11 +1451,13 @@
       1 a woman who asks Mary is who
       1 a woman who asks Mary asks who
       1 a woman is somebody X
-      1 a woman is not X
       1 a woman is not who
-      1 a woman is not the
-      1 a woman is not Mary
+      1 a woman is not somebody X
       1 a woman is not everybody X
+      1 a woman is not asked by who
+      1 a woman is not asked by somebody X
+      1 a woman is not asked by everybody X
+      1 a woman is not a friend of who
       1 a woman is Mary who who
       1 a woman is Mary who is who
       1 a woman is Mary who asks who
@@ -1685,6 +1467,10 @@
       1 a woman is asked by everybody X
       1 a woman is asked by a friend of who
       1 a woman is a friend of who
+      1 a woman does not ask who
+      1 a woman does not ask somebody X
+      1 a woman does not ask everybody X
+      1 a woman does not ask a friend of who
       1 a woman asks somebody X
       1 a woman asks Mary who who
       1 a woman asks Mary who is who
@@ -1692,54 +1478,54 @@
       1 a woman asks everybody X
       1 a woman asks a friend of who
       1 a friend of X is who
-      1 a friend of X is not X
       1 a friend of X is not who
       1 a friend of X is not which
-      1 a friend of X is not somebody
-      1 a friend of X is not Mary
-      1 a friend of X is not a
+      1 a friend of X is not asked by who
       1 a friend of X is asked by who
       1 a friend of X is a friend of who
+      1 a friend of X does not ask who
       1 a friend of X asks who
       1 a friend of X asks a friend of who
       1 a friend of somebody X is who
       1 a friend of somebody X is which
-      1 a friend of somebody X is not X
       1 a friend of somebody X is not who
-      1 a friend of somebody X is not somebody
-      1 a friend of somebody X is not Mary
       1 a friend of somebody X is asked by who
+      1 a friend of somebody X does not ask who
       1 a friend of somebody X asks who
       1 a friend of somebody is who
       1 a friend of somebody is somebody X
-      1 a friend of somebody is not X
       1 a friend of somebody is not who
       1 a friend of somebody is not which
-      1 a friend of somebody is not Mary
+      1 a friend of somebody is not somebody X
       1 a friend of somebody is not everybody X
-      1 a friend of somebody is not a
+      1 a friend of somebody is not asked by who
       1 a friend of somebody is everybody X
       1 a friend of somebody is asked by who
       1 a friend of somebody is asked by somebody X
       1 a friend of somebody is asked by everybody X
       1 a friend of somebody is a friend of who
+      1 a friend of somebody does not ask who
+      1 a friend of somebody does not ask somebody X
+      1 a friend of somebody does not ask everybody X
       1 a friend of somebody asks who
       1 a friend of somebody asks somebody X
       1 a friend of somebody asks everybody X
       1 a friend of somebody asks a friend of who
       1 a friend of Mary is who
       1 a friend of Mary is somebody X
-      1 a friend of Mary is not X
       1 a friend of Mary is not who
       1 a friend of Mary is not which
-      1 a friend of Mary is not Mary
+      1 a friend of Mary is not somebody X
       1 a friend of Mary is not everybody X
-      1 a friend of Mary is not a
+      1 a friend of Mary is not asked by who
       1 a friend of Mary is everybody X
       1 a friend of Mary is asked by who
       1 a friend of Mary is asked by somebody X
       1 a friend of Mary is asked by everybody X
       1 a friend of Mary is a friend of who
+      1 a friend of Mary does not ask who
+      1 a friend of Mary does not ask somebody X
+      1 a friend of Mary does not ask everybody X
       1 a friend of Mary asks who
       1 a friend of Mary asks somebody X
       1 a friend of Mary asks everybody X
@@ -1749,27 +1535,21 @@
       1 a friend of exactly 1 woman is who
       1 a friend of exactly 1 woman asks who
       1 a friend of every woman is somebody X
-      1 a friend of every woman is not X
-      1 a friend of every woman is not somebody
-      1 a friend of every woman is not Mary
       1 a friend of every woman is everybody X
       1 a friend of every woman asks somebody X
       1 a friend of every woman asks everybody X
       1 a friend of everybody X is somebody X
-      1 a friend of everybody X is not X
-      1 a friend of everybody X is not somebody
-      1 a friend of everybody X is not Mary
       1 a friend of everybody X is everybody X
       1 a friend of everybody X asks somebody X
       1 a friend of everybody X asks everybody X
       1 a friend of everybody is somebody X
-      1 a friend of everybody is not X
-      1 a friend of everybody is not Mary
+      1 a friend of everybody is not somebody X
       1 a friend of everybody is not everybody X
-      1 a friend of everybody is not a
       1 a friend of everybody is everybody X
       1 a friend of everybody is asked by somebody X
       1 a friend of everybody is asked by everybody X
+      1 a friend of everybody does not ask somebody X
+      1 a friend of everybody does not ask everybody X
       1 a friend of everybody asks somebody X
       1 a friend of everybody asks everybody X
       1 a friend of a woman X is who
@@ -1777,13 +1557,10 @@
       1 a friend of a woman is who
       1 a friend of a woman is which
       1 a friend of a woman is somebody X
-      1 a friend of a woman is not X
       1 a friend of a woman is not who
-      1 a friend of a woman is not the
-      1 a friend of a woman is not somebody
-      1 a friend of a woman is not Mary
       1 a friend of a woman is everybody X
       1 a friend of a woman is asked by who
+      1 a friend of a woman does not ask who
       1 a friend of a woman asks who
       1 a friend of a woman asks somebody X
       1 a friend of a woman asks everybody X
