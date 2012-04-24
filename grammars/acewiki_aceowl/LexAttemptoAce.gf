@@ -35,6 +35,6 @@ oper
 
   adj_thatCl : A -> S -> Cl = \a,s -> mkCl (mkVP (mkAP (mkAP a) s)) ;
 
-  exactly_AdN = mkAdN "exactly" ;
+  exactly_AdN = ParadigmsAce.mkAdN "exactly" ;
 
 }

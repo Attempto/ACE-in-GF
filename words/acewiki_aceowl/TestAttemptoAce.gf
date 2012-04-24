@@ -3,7 +3,7 @@
 concrete TestAttemptoAce of TestAttempto = AttemptoAce **
   open SyntaxAce, ParadigmsAce, IrregAce, (C = ConstructX) in {
 
-oper mkkN : Str -> CN = \n -> mkCN (ParadigmsAce.mkN n) ;
+oper mkkN : Str -> AttemptoAce.CN = \n -> mkCN (ParadigmsAce.mkN n) ;
 
 lin mary_PN = mkPN "Mary" ;
 lin woman_N = mkCN (mkN feminine (mkN "woman" "women")) ;
