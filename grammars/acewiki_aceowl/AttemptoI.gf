@@ -97,6 +97,11 @@ lin neg_vpS np vp = mkS negativePol (mkCl np vp) ;
 
 lin v2VP = mkVP ;
 
+-- 2.3.2 [JJC]
+
+lin aVP = mkVP ; -- is happy
+lin a2VP = mkVP ; -- is mad-about NP
+
 -- 3.2
 
 lin thereNP np = mkS (mkCl np) ;

@@ -110,6 +110,11 @@ fun neg_vpS : NP -> VP -> S ;
 
 fun v2VP : V2 -> NP -> VP ;
 
+-- 2.3.2 [JJC]
+
+fun aVP : A -> VP ; -- is happy
+fun a2VP : A2 -> NP -> VP ; -- is mad-about NP
+
 -- 3.2
 
 fun thereNP : NP -> S ;  -- there is/are
