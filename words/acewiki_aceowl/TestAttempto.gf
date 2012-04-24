@@ -7,5 +7,6 @@ fun
   friend_N : CN ;
   ask_V2 : V2 ;
   mad_A2 : A2 ;
+  happy_A : A ;
 
 }

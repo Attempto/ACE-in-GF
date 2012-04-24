@@ -12,5 +12,6 @@ lin man_N = mkCN (mkN masculine (mkN "man" "men")) ;
 lin friend_N = mkkN "friend" ;
 lin ask_V2 = mkV2 "ask" ;
 lin mad_A2 = mkA2 (mkA "mad") (mkPrep "about") ;
+lin happy_A = mkA "happy" ;
 
 }
