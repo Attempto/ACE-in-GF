@@ -21,7 +21,7 @@ flags startcat = Phr ; unlexer = text ; lexer = text ;
 
 lin
   PPos = {s = [] ; p = CPos} ;
-  PNeg = {s = [] ; p = CNeg True} ; -- contracted: don't
+  PNeg = {s = [] ; p = CNeg (True|False)} ; -- Both contracted and not (do not, don't) [JJC]
 
 
 } ;
