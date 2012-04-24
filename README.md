@@ -66,14 +66,14 @@ i.e. some ACE constructs are not supported, e.g.
   * __(F)__ somebody who
   * __(F)__ Mary who
   * `which` as a question pronoun
-  * `is not` and `isn't` are not equivalent
-    * `a woman is not a man .` fails
-    * `a woman isn't a man .` succeeds
-    * `a woman is not every man .` succeeds
-    * `a woman isn't every man .` succeeds
-  * `are not` and `aren't` are not equivalent
-  * `does not` and `doesn't` are not equivalent
-  * `do not` and `don't` are not equivalent
+  * __(F)__ `is not` and `isn't` are not equivalent
+    * __(F)__ `a woman is not a man .` fails
+    * __(F)__ `a woman isn't a man .` succeeds
+    * __(F)__ `a woman is not every man .` succeeds
+    * __(F)__ `a woman isn't every man .` succeeds
+  * __(F)__ `are not` and `aren't` are not equivalent
+  * __(F)__ `does not` and `doesn't` are not equivalent
+  * __(F)__ `do not` and `don't` are not equivalent
   * __(F)__ `who` (instead of `whom`) in object relative clauses (`a woman who a man sees`)
   * dative shift (`John gives Mary an apple`)
   * `does wait` (as alternative to `waits`)
