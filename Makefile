@@ -18,5 +18,6 @@ interactive_acewiki_aceowl:
 	gf --path=present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/api "words/acewiki_aceowl/TestAttemptoAce.gf"
 
 batch_acewiki_aceowl:
+	clear
 	gf --batch --path=present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/api "words/acewiki_aceowl/TestAttemptoAce.gf"
 

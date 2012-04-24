@@ -74,6 +74,8 @@ fun nothing_butNP : CN -> NP ;
 fun apposVarCN : CN -> Var -> CN ;  -- a man X
 fun termNP : Term -> NP ;
 
+fun somebodyVarNP : Var -> NP ;  -- somebody X [JJC]
+
 -- 2.2.2
 
 -- Relative clause can be attached to
