@@ -39,7 +39,6 @@ lin theNP = mkNP the_Art ;
 lin cardNP d = mkNP d ;
 lin noNP = mkNP no_Quant ;
 lin everyNP = mkNP every_Det ;
-lin notEveryNP cn = mkNP not_Predet (mkNP every_Det cn) ;
 
 lin pnNP = mkNP ;
 
@@ -51,9 +50,6 @@ lin everything_NP = Syntax.everything_NP ;
 --lin noone_NP : NP ;
 lin nobody_NP = Syntax.nobody_NP ;
 lin nothing_NP = Syntax.nothing_NP ;
---lin not_everyoneNP : NP ;
-lin not_everybodyNP = mkNP not_Predet Syntax.everybody_NP ;
-lin not_everythingNP = mkNP not_Predet Syntax.everything_NP ;
 
 lin at_leastNP ca = mkNP (mkCard at_least_AdN ca) ;
 lin at_mostNP ca = mkNP (mkCard at_most_AdN ca) ;

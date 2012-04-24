@@ -42,13 +42,6 @@ fun theNP : CN -> NP ;
 fun cardNP : Card -> CN -> NP ;
 fun noNP : CN -> NP ;
 fun everyNP : CN -> NP ;
--- TODO: remove this
--- currently it is required to make the negated copula work, i.e.
--- ... is not every man
--- or actually, the negated copula is `isn't`, so we could
--- remove this rule, only this would affect existing statistics.
-fun notEveryNP : CN -> NP ;
-
 
 fun pnNP : PN -> NP ;
 
@@ -59,9 +52,6 @@ fun everybody_NP : NP ;
 fun everything_NP : NP ;
 fun nobody_NP : NP ;
 fun nothing_NP : NP ;
--- TODO: remove the next 2
-fun not_everybodyNP : NP ;
-fun not_everythingNP : NP ;
 
 fun at_leastNP : Card -> CN -> NP ;
 fun at_mostNP : Card -> CN -> NP ;
