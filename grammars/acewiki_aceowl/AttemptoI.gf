@@ -61,9 +61,9 @@ lin more_thanNP ca = mkNP (mkCard (mkAdN more_CAdv) ca) ;
 lin less_thanNP ca = mkNP (mkCard (mkAdN less_CAdv) ca) ;
 lin exactlyNP ca = mkNP (mkCard exactly_AdN ca) ;
 
-lin nothing_butNP cn = mkNP AttemptoAce.nothing_NP (mkAdv except_Prep (mkNP a_Art plNum cn)) ;
+lin nothing_butNP cn = mkNP Syntax.nothing_NP (mkAdv except_Prep (mkNP a_Art plNum cn)) ;
 
-lincat Unit = AttemptoAce.CN ;
+lincat Unit = Syntax.CN ;
 
 lin apposVarCN cn v = mkCN cn (symb v) ;
 
@@ -74,8 +74,8 @@ lin termNP x = symb (ss x.s) ;
 lin relCN = mkCN ;
 lin relNP = mkNP ;
 
-lin andRS = mkRS AttemptoAce.and_Conj ;
-lin orRS = mkRS AttemptoAce.or_Conj ;
+lin andRS = mkRS Syntax.and_Conj ;
+lin orRS = mkRS Syntax.or_Conj ;
 
 lin suchCN cn s = mkCN (mkAP (mkAP such_A) s) cn ;
 
