@@ -15,5 +15,8 @@ test_ontograph_40:
 	bash run-test.bash tests/ontograph_40/sentences.txt
 
 interactive_acewiki_aceowl:
-	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttempto{Ace,}.gf"
-	gf ACE-0_0_2.pgf
+	gf --path=present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/api words/acewiki_aceowl/TestAttemptoAce.gf
+
+batch_acewiki_aceowl:
+	gf --batch --path=present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/api words/acewiki_aceowl/TestAttemptoAce.gf
+
