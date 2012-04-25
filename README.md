@@ -214,8 +214,6 @@ Changes to the ACE grammar can be done in various places.
 
 ACE resource grammar. Based on the English resource grammar. Describes
 deviations from the English grammar, e.g. ACE uses `who` instead of `whom`.
-Currently almost completely identical to the English resource grammar, will
-be refactored later.
 
 ### grammars/
 
