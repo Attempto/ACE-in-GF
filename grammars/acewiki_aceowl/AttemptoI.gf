@@ -125,10 +125,15 @@ lin falseS s = mkS (adj_thatCl false_A s) ;
 
 -- 3.5
 
---lin npQS np vp = mkQS (mkCl np vp) ;
 lin ipQS ip vp = mkQS (mkQCl ip vp) ;
+lin neg_ipQS ip vp = mkQS negativePol (mkQCl ip vp) ;
 
 lin whoSg_IP = Syntax.whoSg_IP ;
+lin whatSg_IP = Syntax.whatSg_IP ;
+
+-- TODO:
+-- IQuant -> CN -> IP
+-- which_IQuant
 
 -- 3.6
 

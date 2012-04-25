@@ -129,11 +129,11 @@ fun falseS : S -> S ; -- it is false that
 
 -- 3.5
 
--- TODO: what is the difference?
 fun ipQS : IP -> VP -> QS ;
---fun npQS : NP -> VP -> QS ;
+fun neg_ipQS : IP -> VP -> QS ;
 
 fun whoSg_IP : IP ;
+fun whatSg_IP : IP ;
 
 -- 4
 

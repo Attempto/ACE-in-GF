@@ -223,8 +223,12 @@ fun not_necessaryS : S -> S ;
 
 -- 3.5
 
+-- Yes/No-question: does Mary like everybody ?
 fun npQS : NP -> VP -> QS ;
+
+-- WH-question: who likes Mary ?
 fun ipQS : IP -> VP -> QS ;
+
 fun iadvQS : IAdv -> NP -> VP -> QS ;
 
 fun where_IAdv : IAdv ;

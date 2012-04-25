@@ -12,7 +12,6 @@
      96 it is false that somebody who
      96 it is false that everybody who
      76 a friend of which
-     69 who is not
      62 it is false that everybody X
      57 somebody is somebody who
      57 somebody asks somebody who
@@ -21,7 +20,6 @@
      51 X is somebody who
      51 X asks somebody who
      49 who is mad-about
-     49 who does
      46 a friend of who
      44 somebody is everybody who
      44 somebody asks everybody who
@@ -174,6 +172,7 @@
      12 everybody does not ask everybody who
      12 everybody asks somebody X who
      12 a woman is not mad-about
+     11 who is not mad-about
      11 somebody is somebody and asks
      11 somebody is Mary and asks
      11 somebody asks somebody and asks
@@ -194,7 +193,9 @@
       9 X asks somebody and asks
       9 X asks Mary and asks
       9 who is somebody X who
+      9 who is not somebody who
       9 who is asked by somebody who
+      9 who does not ask somebody who
       9 who asks somebody X who
       9 somebody X is not mad-about
       9 somebody is X and asks
@@ -274,9 +275,15 @@
       6 X asks a woman and is
       6 X asks a woman and asks
       6 who is somebody X and
+      6 who is not X and
+      6 who is not somebody and
+      6 who is not Mary and
       6 who is asked by X and
       6 who is asked by somebody and
       6 who is asked by Mary and
+      6 who does not ask X and
+      6 who does not ask somebody and
+      6 who does not ask Mary and
       6 who asks somebody X and
       6 somebody X asks which
       6 somebody is not asked by which
