@@ -26,6 +26,7 @@ lincat Adv = Syntax.Adv ;
 lincat Conj = Syntax.Conj ;
 lincat IP = Syntax.IP ;
 lincat IAdv = Syntax.IAdv ;
+lincat IQuant = Syntax.IQuant ;
 lincat QS = Syntax.QS ;
 lincat Text = Syntax.Text ;
 lincat ACEText = Syntax.Text ;
@@ -131,9 +132,9 @@ lin neg_ipQS ip vp = mkQS negativePol (mkQCl ip vp) ;
 lin whoSg_IP = Syntax.whoSg_IP ;
 lin whatSg_IP = Syntax.whatSg_IP ;
 
--- TODO:
--- IQuant -> CN -> IP
--- which_IQuant
+-- TODO: this `which' does not support plural
+lin whichIP = mkIP ;
+lin which_IQuant = Syntax.which_IQuant ;
 
 -- 3.6
 
