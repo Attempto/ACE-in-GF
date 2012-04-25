@@ -2,7 +2,6 @@
     634 everybody who
     352 everybody X
     202 there is somebody such
-    148 which women
     132 somebody X who
     130 somebody is mad-about
     130 Mary is mad-about
@@ -176,6 +175,7 @@
      12 everybody asks somebody X who
      12 a woman is not mad-about
      11 who is not mad-about
+     11 which women are mad-about
      11 somebody is somebody and asks
      11 somebody is Mary and asks
      11 somebody asks somebody and asks
@@ -200,6 +200,8 @@
       9 who is asked by somebody who
       9 who does not ask somebody who
       9 who asks somebody X who
+      9 which women ask somebody who
+      9 which women are somebody who
       9 somebody X is not mad-about
       9 somebody is X and asks
       9 somebody asks X and asks
@@ -296,6 +298,12 @@
       6 who does not ask somebody and
       6 who does not ask Mary and
       6 who asks somebody X and
+      6 which women ask X and
+      6 which women ask somebody and
+      6 which women ask Mary and
+      6 which women are X and
+      6 which women are somebody and
+      6 which women are Mary and
       6 which woman X is mad-about
       6 which woman is not mad-about
       6 somebody X asks which
@@ -377,6 +385,7 @@
       5 X asks Mary who is mad-about
       5 X asks Mary and does
       5 X asks a friend of which
+      5 which women are not mad-about
       5 which friend of somebody is mad-about
       5 which friend of Mary is mad-about
       5 there is a woman who is mad-about

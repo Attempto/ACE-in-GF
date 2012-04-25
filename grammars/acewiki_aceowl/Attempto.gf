@@ -29,7 +29,7 @@ cat Adv ;
 cat Conj ;
 cat IP ;
 cat IAdv ;
-cat IQuant ;
+cat IDet ;
 cat QS ;
 cat Text ;
 cat RP ;
@@ -136,8 +136,9 @@ fun neg_ipQS : IP -> VP -> QS ;
 fun whoSg_IP : IP ;
 fun whatSg_IP : IP ;
 
-fun whichIP : IQuant -> CN -> IP ;
-fun which_IQuant : IQuant ;
+fun whichIP : IDet -> CN -> IP ;
+fun which_IDet : IDet ;
+fun whichPl_IDet : IDet ;
 
 -- 4
 

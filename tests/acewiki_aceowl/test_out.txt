@@ -17334,154 +17334,154 @@ which  woman  X  is  somebody  ?    |OK
 which  woman  X  is  the woman  ?    |OK
 which  woman  X  is  the woman  X  ?  |OK
 which  woman  X  is  X  ?    |OK
-which  women  are  a  friend of  a  woman  ?|FAIL which women
-which  women  are  a  friend of  Mary  ?  |FAIL which women
-which  women  are  a  friend of  somebody  ?  |FAIL which women
-which  women  are  a  friend of  somebody  X  ?|FAIL which women
-which  women  are  a  friend of  X  ?  |FAIL which women
-which  women  are  asked by  a  friend of  Mary  ?|FAIL which women
-which  women  are  asked by  a  friend of  somebody  ?|FAIL which women
-which  women  are  asked by  a  friend of  X  ?|FAIL which women
-which  women  are  asked by  a  woman  ?  |FAIL which women
-which  women  are  asked by  a  woman  X  ?|FAIL which women
-which  women  are  asked by  exactly  1  woman  ?|FAIL which women
-which  women  are  asked by  exactly  2  women  ?|FAIL which women
-which  women  are  asked by  Mary  ?    |FAIL which women
-which  women  are  asked by  somebody  ?    |FAIL which women
-which  women  are  asked by  somebody  X  ?  |FAIL which women
-which  women  are  asked by  X  ?    |FAIL which women
-which  women  are  a  woman  ?    |FAIL which women
-which  women  are  a  woman  X  ?  |FAIL which women
-which  women  are  mad-about  a  friend of  Mary  ?|FAIL which women
-which  women  are  mad-about  a  friend of  somebody  ?|FAIL which women
-which  women  are  mad-about  a  friend of  X  ?|FAIL which women
-which  women  are  mad-about  a  woman  ?  |FAIL which women
-which  women  are  mad-about  a  woman  X  ?|FAIL which women
-which  women  are  mad-about  exactly  1  woman  ?|FAIL which women
-which  women  are  mad-about  exactly  2  women  ?|FAIL which women
-which  women  are  mad-about  Mary  ?    |FAIL which women
-which  women  are  mad-about  somebody  ?    |FAIL which women
-which  women  are  mad-about  somebody  X  ?  |FAIL which women
-which  women  are  mad-about  X  ?    |FAIL which women
-which  women  are  Mary  ?      |FAIL which women
-which  women  are  Mary  and  are  Mary  ?|FAIL which women
-which  women  are  Mary  and  are  somebody  ?|FAIL which women
-which  women  are  Mary  and  are  X  ?|FAIL which women
-which  women  are  Mary  and  ask  Mary  ?|FAIL which women
-which  women  are  Mary  and  ask  somebody  ?|FAIL which women
-which  women  are  Mary  and  ask  X  ?|FAIL which women
-which  women  are  Mary  who  asks  Mary  ?|FAIL which women
-which  women  are  Mary  who  asks  somebody  ?|FAIL which women
-which  women  are  Mary  who  asks  X  ?|FAIL which women
-which  women  are  Mary  who  is  Mary  ?|FAIL which women
-which  women  are  Mary  who  is  somebody  ?|FAIL which women
-which  women  are  Mary  who  is  X  ?|FAIL which women
-which  women  are  Mary  who  Mary  asks  ?|FAIL which women
-which  women  are  Mary  who  somebody  asks  ?|FAIL which women
-which  women  are  Mary  who  X  asks  ?|FAIL which women
-which  women  are  not  a  friend of  Mary  ?|FAIL which women
-which  women  are  not  a  friend of  somebody  ?|FAIL which women
-which  women  are  not  a  friend of  X  ?|FAIL which women
-which  women  are  not  asked by  a  woman  ?|FAIL which women
-which  women  are  not  asked by  Mary  ?  |FAIL which women
-which  women  are  not  asked by  somebody  ?  |FAIL which women
-which  women  are  not  asked by  somebody  X  ?|FAIL which women
-which  women  are  not  asked by  X  ?  |FAIL which women
-which  women  are  not  a  woman  ?  |FAIL which women
-which  women  are  not  a  woman  X  ?|FAIL which women
-which  women  are  not  mad-about  a  woman  ?|FAIL which women
-which  women  are  not  mad-about  Mary  ?  |FAIL which women
-which  women  are  not  mad-about  somebody  ?  |FAIL which women
-which  women  are  not  mad-about  somebody  X  ?|FAIL which women
-which  women  are  not  mad-about  X  ?  |FAIL which women
-which  women  are  not  Mary  ?    |FAIL which women
-which  women  are  not  somebody  ?    |FAIL which women
-which  women  are  not  somebody  X  ?  |FAIL which women
-which  women  are  not  X  ?    |FAIL which women
-which  women  are  somebody  ?      |FAIL which women
-which  women  are  somebody  and  are  Mary  ?|FAIL which women
-which  women  are  somebody  and  are  somebody  ?|FAIL which women
-which  women  are  somebody  and  are  X  ?|FAIL which women
-which  women  are  somebody  and  ask  Mary  ?|FAIL which women
-which  women  are  somebody  and  ask  somebody  ?|FAIL which women
-which  women  are  somebody  and  ask  X  ?|FAIL which women
-which  women  are  somebody  who  asks  Mary  ?|FAIL which women
-which  women  are  somebody  who  asks  somebody  ?|FAIL which women
-which  women  are  somebody  who  asks  X  ?|FAIL which women
-which  women  are  somebody  who  is  Mary  ?|FAIL which women
-which  women  are  somebody  who  is  somebody  ?|FAIL which women
-which  women  are  somebody  who  is  X  ?|FAIL which women
-which  women  are  somebody  who  Mary  asks  ?|FAIL which women
-which  women  are  somebody  who  somebody  asks  ?|FAIL which women
-which  women  are  somebody  who  X  asks  ?|FAIL which women
-which  women  are  somebody  X  ?    |FAIL which women
-which  women  are  X  ?      |FAIL which women
-which  women  are  X  and  are  Mary  ?|FAIL which women
-which  women  are  X  and  are  somebody  ?|FAIL which women
-which  women  are  X  and  are  X  ?|FAIL which women
-which  women  are  X  and  ask  Mary  ?|FAIL which women
-which  women  are  X  and  ask  somebody  ?|FAIL which women
-which  women  are  X  and  ask  X  ?|FAIL which women
-which  women  ask  a  friend of  a  woman  ?|FAIL which women
-which  women  ask  a  friend of  Mary  ?  |FAIL which women
-which  women  ask  a  friend of  somebody  ?  |FAIL which women
-which  women  ask  a  friend of  somebody  X  ?|FAIL which women
-which  women  ask  a  friend of  X  ?  |FAIL which women
-which  women  ask  a  woman  ?    |FAIL which women
-which  women  ask  a  woman  X  ?  |FAIL which women
-which  women  ask  exactly  1  woman  ?  |FAIL which women
-which  women  ask  exactly  2  women  ?  |FAIL which women
-which  women  ask  Mary  ?      |FAIL which women
-which  women  ask  Mary  and  are  Mary  ?|FAIL which women
-which  women  ask  Mary  and  are  somebody  ?|FAIL which women
-which  women  ask  Mary  and  are  X  ?|FAIL which women
-which  women  ask  Mary  and  ask  Mary  ?|FAIL which women
-which  women  ask  Mary  and  ask  somebody  ?|FAIL which women
-which  women  ask  Mary  and  ask  X  ?|FAIL which women
-which  women  ask  Mary  who  asks  Mary  ?|FAIL which women
-which  women  ask  Mary  who  asks  somebody  ?|FAIL which women
-which  women  ask  Mary  who  asks  X  ?|FAIL which women
-which  women  ask  Mary  who  is  Mary  ?|FAIL which women
-which  women  ask  Mary  who  is  somebody  ?|FAIL which women
-which  women  ask  Mary  who  is  X  ?|FAIL which women
-which  women  ask  Mary  who  Mary  asks  ?|FAIL which women
-which  women  ask  Mary  who  somebody  asks  ?|FAIL which women
-which  women  ask  Mary  who  X  asks  ?|FAIL which women
-which  women  ask  somebody  ?      |FAIL which women
-which  women  ask  somebody  and  are  Mary  ?|FAIL which women
-which  women  ask  somebody  and  are  somebody  ?|FAIL which women
-which  women  ask  somebody  and  are  X  ?|FAIL which women
-which  women  ask  somebody  and  ask  Mary  ?|FAIL which women
-which  women  ask  somebody  and  ask  somebody  ?|FAIL which women
-which  women  ask  somebody  and  ask  X  ?|FAIL which women
-which  women  ask  somebody  who  asks  Mary  ?|FAIL which women
-which  women  ask  somebody  who  asks  somebody  ?|FAIL which women
-which  women  ask  somebody  who  asks  X  ?|FAIL which women
-which  women  ask  somebody  who  is  Mary  ?|FAIL which women
-which  women  ask  somebody  who  is  somebody  ?|FAIL which women
-which  women  ask  somebody  who  is  X  ?|FAIL which women
-which  women  ask  somebody  who  Mary  asks  ?|FAIL which women
-which  women  ask  somebody  who  somebody  asks  ?|FAIL which women
-which  women  ask  somebody  who  X  asks  ?|FAIL which women
-which  women  ask  somebody  X  ?    |FAIL which women
-which  women  ask  X  ?      |FAIL which women
-which  women  ask  X  and  are  Mary  ?|FAIL which women
-which  women  ask  X  and  are  somebody  ?|FAIL which women
-which  women  ask  X  and  are  X  ?|FAIL which women
-which  women  ask  X  and  ask  Mary  ?|FAIL which women
-which  women  ask  X  and  ask  somebody  ?|FAIL which women
-which  women  ask  X  and  ask  X  ?|FAIL which women
-which  women  do not  ask  a  friend of  Mary  ?|FAIL which women
-which  women  do not  ask  a  friend of  somebody  ?|FAIL which women
-which  women  do not  ask  a  friend of  X  ?|FAIL which women
-which  women  do not  ask  a  woman  ?  |FAIL which women
-which  women  do not  ask  a  woman  X  ?|FAIL which women
-which  women  do not  ask  exactly  1  woman  ?|FAIL which women
-which  women  do not  ask  exactly  2  women  ?|FAIL which women
-which  women  do not  ask  Mary  ?    |FAIL which women
-which  women  do not  ask  somebody  ?    |FAIL which women
-which  women  do not  ask  somebody  X  ?  |FAIL which women
-which  women  do not  ask  X  ?    |FAIL which women
+which  women  are  a  friend of  a  woman  ?|OK
+which  women  are  a  friend of  Mary  ?  |OK
+which  women  are  a  friend of  somebody  ?  |OK
+which  women  are  a  friend of  somebody  X  ?|OK
+which  women  are  a  friend of  X  ?  |OK
+which  women  are  asked by  a  friend of  Mary  ?|OK
+which  women  are  asked by  a  friend of  somebody  ?|OK
+which  women  are  asked by  a  friend of  X  ?|OK
+which  women  are  asked by  a  woman  ?  |OK
+which  women  are  asked by  a  woman  X  ?|OK
+which  women  are  asked by  exactly  1  woman  ?|OK
+which  women  are  asked by  exactly  2  women  ?|OK
+which  women  are  asked by  Mary  ?    |OK
+which  women  are  asked by  somebody  ?    |OK
+which  women  are  asked by  somebody  X  ?  |OK
+which  women  are  asked by  X  ?    |OK
+which  women  are  a  woman  ?    |OK
+which  women  are  a  woman  X  ?  |OK
+which  women  are  mad-about  a  friend of  Mary  ?|FAIL which women are mad-about
+which  women  are  mad-about  a  friend of  somebody  ?|FAIL which women are mad-about
+which  women  are  mad-about  a  friend of  X  ?|FAIL which women are mad-about
+which  women  are  mad-about  a  woman  ?  |FAIL which women are mad-about
+which  women  are  mad-about  a  woman  X  ?|FAIL which women are mad-about
+which  women  are  mad-about  exactly  1  woman  ?|FAIL which women are mad-about
+which  women  are  mad-about  exactly  2  women  ?|FAIL which women are mad-about
+which  women  are  mad-about  Mary  ?    |FAIL which women are mad-about
+which  women  are  mad-about  somebody  ?    |FAIL which women are mad-about
+which  women  are  mad-about  somebody  X  ?  |FAIL which women are mad-about
+which  women  are  mad-about  X  ?    |FAIL which women are mad-about
+which  women  are  Mary  ?      |OK
+which  women  are  Mary  and  are  Mary  ?|FAIL which women are Mary and
+which  women  are  Mary  and  are  somebody  ?|FAIL which women are Mary and
+which  women  are  Mary  and  are  X  ?|FAIL which women are Mary and
+which  women  are  Mary  and  ask  Mary  ?|FAIL which women are Mary and
+which  women  are  Mary  and  ask  somebody  ?|FAIL which women are Mary and
+which  women  are  Mary  and  ask  X  ?|FAIL which women are Mary and
+which  women  are  Mary  who  asks  Mary  ?|OK
+which  women  are  Mary  who  asks  somebody  ?|OK
+which  women  are  Mary  who  asks  X  ?|OK
+which  women  are  Mary  who  is  Mary  ?|OK
+which  women  are  Mary  who  is  somebody  ?|OK
+which  women  are  Mary  who  is  X  ?|OK
+which  women  are  Mary  who  Mary  asks  ?|OK
+which  women  are  Mary  who  somebody  asks  ?|OK
+which  women  are  Mary  who  X  asks  ?|OK
+which  women  are  not  a  friend of  Mary  ?|OK
+which  women  are  not  a  friend of  somebody  ?|OK
+which  women  are  not  a  friend of  X  ?|OK
+which  women  are  not  asked by  a  woman  ?|OK
+which  women  are  not  asked by  Mary  ?  |OK
+which  women  are  not  asked by  somebody  ?  |OK
+which  women  are  not  asked by  somebody  X  ?|OK
+which  women  are  not  asked by  X  ?  |OK
+which  women  are  not  a  woman  ?  |OK
+which  women  are  not  a  woman  X  ?|OK
+which  women  are  not  mad-about  a  woman  ?|FAIL which women are not mad-about
+which  women  are  not  mad-about  Mary  ?  |FAIL which women are not mad-about
+which  women  are  not  mad-about  somebody  ?  |FAIL which women are not mad-about
+which  women  are  not  mad-about  somebody  X  ?|FAIL which women are not mad-about
+which  women  are  not  mad-about  X  ?  |FAIL which women are not mad-about
+which  women  are  not  Mary  ?    |OK
+which  women  are  not  somebody  ?    |OK
+which  women  are  not  somebody  X  ?  |OK
+which  women  are  not  X  ?    |OK
+which  women  are  somebody  ?      |OK
+which  women  are  somebody  and  are  Mary  ?|FAIL which women are somebody and
+which  women  are  somebody  and  are  somebody  ?|FAIL which women are somebody and
+which  women  are  somebody  and  are  X  ?|FAIL which women are somebody and
+which  women  are  somebody  and  ask  Mary  ?|FAIL which women are somebody and
+which  women  are  somebody  and  ask  somebody  ?|FAIL which women are somebody and
+which  women  are  somebody  and  ask  X  ?|FAIL which women are somebody and
+which  women  are  somebody  who  asks  Mary  ?|FAIL which women are somebody who
+which  women  are  somebody  who  asks  somebody  ?|FAIL which women are somebody who
+which  women  are  somebody  who  asks  X  ?|FAIL which women are somebody who
+which  women  are  somebody  who  is  Mary  ?|FAIL which women are somebody who
+which  women  are  somebody  who  is  somebody  ?|FAIL which women are somebody who
+which  women  are  somebody  who  is  X  ?|FAIL which women are somebody who
+which  women  are  somebody  who  Mary  asks  ?|FAIL which women are somebody who
+which  women  are  somebody  who  somebody  asks  ?|FAIL which women are somebody who
+which  women  are  somebody  who  X  asks  ?|FAIL which women are somebody who
+which  women  are  somebody  X  ?    |OK
+which  women  are  X  ?      |OK
+which  women  are  X  and  are  Mary  ?|FAIL which women are X and
+which  women  are  X  and  are  somebody  ?|FAIL which women are X and
+which  women  are  X  and  are  X  ?|FAIL which women are X and
+which  women  are  X  and  ask  Mary  ?|FAIL which women are X and
+which  women  are  X  and  ask  somebody  ?|FAIL which women are X and
+which  women  are  X  and  ask  X  ?|FAIL which women are X and
+which  women  ask  a  friend of  a  woman  ?|OK
+which  women  ask  a  friend of  Mary  ?  |OK
+which  women  ask  a  friend of  somebody  ?  |OK
+which  women  ask  a  friend of  somebody  X  ?|OK
+which  women  ask  a  friend of  X  ?  |OK
+which  women  ask  a  woman  ?    |OK
+which  women  ask  a  woman  X  ?  |OK
+which  women  ask  exactly  1  woman  ?  |OK
+which  women  ask  exactly  2  women  ?  |OK
+which  women  ask  Mary  ?      |OK
+which  women  ask  Mary  and  are  Mary  ?|FAIL which women ask Mary and
+which  women  ask  Mary  and  are  somebody  ?|FAIL which women ask Mary and
+which  women  ask  Mary  and  are  X  ?|FAIL which women ask Mary and
+which  women  ask  Mary  and  ask  Mary  ?|FAIL which women ask Mary and
+which  women  ask  Mary  and  ask  somebody  ?|FAIL which women ask Mary and
+which  women  ask  Mary  and  ask  X  ?|FAIL which women ask Mary and
+which  women  ask  Mary  who  asks  Mary  ?|OK
+which  women  ask  Mary  who  asks  somebody  ?|OK
+which  women  ask  Mary  who  asks  X  ?|OK
+which  women  ask  Mary  who  is  Mary  ?|OK
+which  women  ask  Mary  who  is  somebody  ?|OK
+which  women  ask  Mary  who  is  X  ?|OK
+which  women  ask  Mary  who  Mary  asks  ?|OK
+which  women  ask  Mary  who  somebody  asks  ?|OK
+which  women  ask  Mary  who  X  asks  ?|OK
+which  women  ask  somebody  ?      |OK
+which  women  ask  somebody  and  are  Mary  ?|FAIL which women ask somebody and
+which  women  ask  somebody  and  are  somebody  ?|FAIL which women ask somebody and
+which  women  ask  somebody  and  are  X  ?|FAIL which women ask somebody and
+which  women  ask  somebody  and  ask  Mary  ?|FAIL which women ask somebody and
+which  women  ask  somebody  and  ask  somebody  ?|FAIL which women ask somebody and
+which  women  ask  somebody  and  ask  X  ?|FAIL which women ask somebody and
+which  women  ask  somebody  who  asks  Mary  ?|FAIL which women ask somebody who
+which  women  ask  somebody  who  asks  somebody  ?|FAIL which women ask somebody who
+which  women  ask  somebody  who  asks  X  ?|FAIL which women ask somebody who
+which  women  ask  somebody  who  is  Mary  ?|FAIL which women ask somebody who
+which  women  ask  somebody  who  is  somebody  ?|FAIL which women ask somebody who
+which  women  ask  somebody  who  is  X  ?|FAIL which women ask somebody who
+which  women  ask  somebody  who  Mary  asks  ?|FAIL which women ask somebody who
+which  women  ask  somebody  who  somebody  asks  ?|FAIL which women ask somebody who
+which  women  ask  somebody  who  X  asks  ?|FAIL which women ask somebody who
+which  women  ask  somebody  X  ?    |OK
+which  women  ask  X  ?      |OK
+which  women  ask  X  and  are  Mary  ?|FAIL which women ask X and
+which  women  ask  X  and  are  somebody  ?|FAIL which women ask X and
+which  women  ask  X  and  are  X  ?|FAIL which women ask X and
+which  women  ask  X  and  ask  Mary  ?|FAIL which women ask X and
+which  women  ask  X  and  ask  somebody  ?|FAIL which women ask X and
+which  women  ask  X  and  ask  X  ?|FAIL which women ask X and
+which  women  do not  ask  a  friend of  Mary  ?|OK
+which  women  do not  ask  a  friend of  somebody  ?|OK
+which  women  do not  ask  a  friend of  X  ?|OK
+which  women  do not  ask  a  woman  ?  |OK
+which  women  do not  ask  a  woman  X  ?|OK
+which  women  do not  ask  exactly  1  woman  ?|OK
+which  women  do not  ask  exactly  2  women  ?|OK
+which  women  do not  ask  Mary  ?    |OK
+which  women  do not  ask  somebody  ?    |OK
+which  women  do not  ask  somebody  X  ?  |OK
+which  women  do not  ask  X  ?    |OK
 who  asks  a  friend of  a  friend of  Mary  ?|OK
 who  asks  a  friend of  a  friend of  somebody  ?|OK
 who  asks  a  friend of  a  friend of  X  ?|OK
