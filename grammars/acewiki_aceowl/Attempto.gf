@@ -87,6 +87,7 @@ fun suchCN : CN -> S -> CN ;
 fun predRS : RP -> VP -> RS ;
 fun neg_predRS : RP -> VP -> RS ;
 fun slashRS : RP -> NP -> V2 -> RS ;
+fun neg_slashRS : RP -> NP -> V2 -> RS ;
 
 fun which_RP : RP ;
 

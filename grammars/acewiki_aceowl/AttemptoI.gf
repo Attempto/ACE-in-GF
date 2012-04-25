@@ -81,6 +81,7 @@ lin suchCN cn s = mkCN (mkAP (mkAP such_A) s) cn ;
 lin predRS rp vp = mkRS (mkRCl rp vp) ;
 lin neg_predRS rp vp = mkRS negativePol (mkRCl rp vp) ;
 lin slashRS rp np v2 = mkRS (mkRCl rp np v2) ;
+lin neg_slashRS rp np v2 = mkRS negativePol (mkRCl rp np v2) ;
 lin which_RP = Syntax.which_RP ;
 
 -- 2.2.4
