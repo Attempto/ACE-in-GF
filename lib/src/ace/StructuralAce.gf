@@ -1,5 +1,5 @@
 concrete StructuralAce of Structural =
-  StructuralEng - [whoPl_IP, whoSg_IP, except_Prep, language_title_Utt] **
+  StructuralEng - [whoPl_IP, whoSg_IP, except_Prep, language_title_Utt, A2] **
 --  open MorphoAce, ResAce, ParadigmsAce, MakeStructuralAce, (C = ConstructX), Prelude in {
   open ResAce, ParadigmsAce, Prelude in {
 
