@@ -57,7 +57,7 @@ This version does not completely match ACE v6.6,
 i.e. some ACE constructs are not supported, e.g.
 (__(F)__ marks things that the current version has already fixed)
 
-  * transitive adjectives: `mad-about` (`mad about` does not seem to work either)
+  * __(F: `mad - about`)__ transitive adjectives: `mad-about` (`mad about` does not seem to work either)
   * __(F)__ exactly
   * __(F)__ less than
   * __(F)__ everybody
