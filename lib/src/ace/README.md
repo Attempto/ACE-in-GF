@@ -16,5 +16,6 @@ The deviations from the English resource grammar are:
 
 **Changelog**
 
+- 2012-04-25: the relative pronouns `who`, `which` and `that` are allowed with any noun (phrase)
 - 2012-04-23 (`a8e4745`): Re-implemented ACE RG as descendent of English rather
 than an individual library.

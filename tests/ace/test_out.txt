@@ -347,7 +347,7 @@ there is a man . his dog barks .|OK
 there is a man a dog of who barks .|FAIL there is a man a
 there is a man a dog of who barks . there is a man a dog of who eats . the man a dog of who barks waits .|FAIL there is a man a
 there is a man . his dog barks . the dog is happy .|OK
-somebody who eats drinks .|FAIL somebody who
+somebody who eats drinks .|OK
 something moves . it waits .|OK
 something moves .|OK
 something sees itself .|FAIL something sees itself
@@ -461,9 +461,9 @@ a dog barks . not every man waits .|OK
 not everybody waits . a dog barks .|OK
 there is a man . a clerk enters every card of him .|OK
 there is a park . a dog barks in it .|OK
-a man sees everybody who eats .|FAIL a man sees everybody who
+a man sees everybody who eats .|OK
 every man who waits eats .|OK
-everybody who waits eats .|FAIL everybody who
+everybody who waits eats .|OK
 a man sees himself and a dog .|FAIL a man sees himself
 a man sees a dog and himself .|FAIL a man sees a dog and himself
 there is a boy . a man sees him and a dog .|OK
@@ -839,7 +839,7 @@ a man waits in every bank in every morning .|OK
 every man waits in every bank in every morning .|OK
 each of some men a dog of who barks waits .|FAIL each of some men a
 each of some men whose dog barks waits .|FAIL each of some men whose
-there are some men each of who waits .|FAIL there are some men each of who
+there are some men each of who waits .|OK
 there are some men who wait .|OK
 there are some men a dog of who barks .|FAIL there are some men a
 there are some men whose dog barks .|FAIL there are some men whose
@@ -847,7 +847,7 @@ there are some men a dog of each of who barks .|FAIL there are some men a
 a man's dog barks . he is happy .|OK
 p : Kaarel's dog barks .|FAIL p
 each of 3 men sees each of 2 dogs .|OK
-everybody who is a person and who is a female is a woman .|FAIL everybody who
+everybody who is a person and who is a female is a woman .|OK
 each of some girls lifts her own table .|OK
 every man likes more than 2 dogs and likes less than 4 dogs .|FAIL every man likes more than 2 dogs and likes
 if there is a man then he is not a woman or is not a dog .|FAIL if there is a man then he is not a woman or is
@@ -971,7 +971,7 @@ everybody sees John who waits .|OK
 every man sees John who hears the man .|OK
 there is a man who sees some women .|OK
 there is a man who some women see .|OK
-everybody who lives-at a place that he / she works-at is a n : home-worker .|FAIL everybody who
+everybody who lives-at a place that he / she works-at is a n : home-worker .|FAIL everybody who lives-at
 if somebody lives-at a place and he / she works-at the place then he / she is a n : home-worker .|FAIL if somebody lives-at
 if somebody lives-at a place and works-at the place then he / she is a n : home-worker .|FAIL if somebody lives-at
 if a thing X likes a thing Y and Y likes a thing Z then X likes Z .|FAIL if a thing X likes a thing Y and Y likes a thing Z
@@ -1144,7 +1144,7 @@ a dog is better than a cat .|OK
 John is more clever than Bill .|OK
 John is cleverer than Bill .|OK
 every man who loves a woman who loves the man owns a car .|OK
-everybody who is not an animal is not a dog .|FAIL everybody who
+everybody who is not an animal is not a dog .|OK
 everything that is not a cat can be a dog .|OK
 every man who is not liked by a woman who owns a dog sees a cat .|OK
 there is a man X . it is false that there is a man .|OK
@@ -1152,9 +1152,9 @@ a cat is feared by every mouse .|OK
 every man is not no dog .|OK
 if there is a man then it is false that he owns a dog that does not bark .|OK
 everybody does not know a dog that likes a cat .|OK
-everybody who waits does not know a dog that likes a cat .|FAIL everybody who
+everybody who waits does not know a dog that likes a cat .|OK
 everybody does not know a dog that is liked by a cat .|OK
-everybody who somebody likes owns a dog .|FAIL everybody who
+everybody who somebody likes owns a dog .|OK
 John's age is 30 .|OK
 a code is 1234 .|OK
 a text is "abcdef" .|FAIL a text is "abcdef"
@@ -1257,9 +1257,9 @@ every man an age of who is 31 likes a cat .|FAIL every man an
 less than 0 men wait .|OK
 a man's dog barks . the man's dog barks .|OK
 which dog of which cat barks ?|FAIL which
-there is nobody who sees something .|FAIL there is nobody who
-there is somebody who sees nothing .|FAIL there is somebody who
-there is nobody who sees nothing .|FAIL there is nobody who
+there is nobody who sees something .|OK
+there is somebody who sees nothing .|OK
+there is nobody who sees nothing .|OK
 if there is a man then he waits and there is a woman .|OK
 if there is a man then he waits and a woman owns a cat .|OK
 there is a man . every man sees the man .|OK
@@ -1368,7 +1368,7 @@ a n : named_entity waits .|FAIL a n
 John is 3 .|OK
 2 men are seen by 2 dogs .|OK
 every goat eats at most 0 things that are not some grass .|OK
-everybody who is John is a man .|FAIL everybody who
+everybody who is John is a man .|OK
 no password is "god" .|FAIL no password is "god"
 a man is taller than no dog .|OK
 every man is taller than no dog .|OK
@@ -1567,7 +1567,7 @@ for all men the man likes himself .|FAIL for all men
 all men see themselves .|FAIL all men see themselves
 John waits . all men see him .|OK
 John waits . a man brings him his pencil and his own computer .|OK
-everybody who is a father of a man that owns a car is a parent .|FAIL everybody who
+everybody who is a father of a man that owns a car is a parent .|OK
 every pet is something that is a cat or that is a dog , and that is not something that is a cat and that is a dog .|FAIL every pet is something that is a cat or that is a dog , and that
 every n : influent-stream is something that v : flows-into a cave and that v : flows-through a sink or that v : discharges-through something .|FAIL every n
 there is a man . John likes his a : own car .|FAIL there is a man . John likes his a
@@ -1749,8 +1749,8 @@ where is Bill ?|FAIL where is Bill ?
 when is what ?|FAIL when is what
 what is when ?|FAIL what
 1 = < 2 and 2 > = 1 .|FAIL 1 = <
-who is somebody that somebody that knows who knows ?|FAIL who is somebody that somebody that knows who
-who is known by somebody that knows who ?|FAIL who is known by somebody that knows who
+who is somebody that somebody that knows who knows ?|FAIL who is somebody that somebody that knows who knows ?
+who is known by somebody that knows who ?|FAIL who is known by somebody that knows who ?
 John is a father of who ?|FAIL John is a father of who
 Bill gives what to who ?|FAIL Bill gives what
 Bill gives what to who where ?|FAIL Bill gives what
@@ -1813,9 +1813,9 @@ there are some cards the code of each of which is valid .|FAIL there are some ca
 there are some cards a code of each of which is valid .|FAIL there are some cards a
 there are some cards a code of each of which has a date .|FAIL there are some cards a
 there are some cards a code of each of which John knows .|FAIL there are some cards a
-there are some men each of who is rich .|FAIL there are some men each of who
-there are some men each of who has a car .|FAIL there are some men each of who
-there are some men each of who John knows .|FAIL there are some men each of who
+there are some men each of who is rich .|OK
+there are some men each of who has a car .|OK
+there are some men each of who John knows .|OK
 there are some men the car of each of who is fast .|FAIL there are some men the
 there are some men a car of each of who is fast .|FAIL there are some men a
 there are some men a car of each of who John drives .|FAIL there are some men a
@@ -2644,7 +2644,7 @@ Mary who is X is not her .|OK
 Mary who is not X asks X .|OK
 Mary who which women ask for her waits ?|FAIL Mary who which
 a man who a woman asks for him waits .|FAIL a man who a woman asks for
-everybody who which women ask for her waits ?|FAIL everybody who
+everybody who which women ask for her waits ?|FAIL everybody who which
 a woman carries the woman from who to her ?|FAIL a woman carries the woman from who
 exactly 1 woman who sees a man who loves her waits .|OK
 exactly 1 woman asks a woman of her .|OK

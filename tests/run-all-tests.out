@@ -1,6 +1,6 @@
 Testing: tests/acewiki_aceowl
-ok: 8202
-FAIL: 11516
+ok: 10630
+FAIL: 9088
 
 Testing: tests/geo
 ok: 7
@@ -11,10 +11,10 @@ ok: 11140
 FAIL: 4654
 
 Testing: tests/ontograph_40
-ok: 5
-FAIL: 35
+ok: 6
+FAIL: 34
 
 Testing: tests/ace
-ok: 1373
-FAIL: 1399
+ok: 1389
+FAIL: 1383
 

@@ -63,7 +63,7 @@ i.e. some ACE constructs are not supported, e.g.
   * __(F)__ everybody
   * __(F)__ everything
   * __(F)__ somebody X
-  * somebody who
+  * __(F)__ (some|every|no)body who
   * __(F)__ Mary who
   * `which` as a question pronoun
   * __(F)__ `is not` and `isn't` are not equivalent

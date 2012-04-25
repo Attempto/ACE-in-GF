@@ -6,7 +6,6 @@
      10 not for
      10 in
       9 John knows that
-      9 everybody who
       8 there is a man whose
       8 there is a man a
       8 John should
@@ -39,7 +38,6 @@
       4 XJohn
       4 who does
       4 there is a n
-      4 there are some men each of who
       4 there are some men a
       4 there are some cards a
       4 somebody M
@@ -102,7 +100,6 @@
       2 where can an escaped
       2 the United-Nations
       2 there is someone
-      2 there is nobody who
       2 there is a name . there is a dog . ""
       2 there is a man who is rich and famous
       2 there is a day A1
@@ -209,9 +206,9 @@
       1 who runs and
       1 who likes nothing but raw meat
       1 who likes nothing but Mary
-      1 who is somebody that somebody that knows who
+      1 who is somebody that somebody that knows who knows ?
       1 who is mad-about
-      1 who is known by somebody that knows who
+      1 who is known by somebody that knows who ?
       1 who is John fond-of
       1 who hits who
       1 who hits himself
@@ -240,7 +237,6 @@
       1 there is some n
       1 there is some laundry . it sees itself
       1 there is somebody X's
-      1 there is somebody who
       1 there is somebody . there is something X
       1 there is somebody such
       1 there is somebody . somebody gives himself
@@ -365,7 +361,6 @@
       1 some books are quickly
       1 some books are not quickly
       1 somebody X
-      1 somebody who
       1 somebody waits . somebody sees himself
       1 somebody waits . somebody sees a dog of himself
       1 somebody waits in himself
@@ -683,6 +678,8 @@
       1 every comment
       1 every city overlaps-with
       1 every cellular n
+      1 everybody who which
+      1 everybody who lives-at
       1 everybody is not seen by who
       1 everybody a
       1 everybody '
@@ -753,7 +750,6 @@
       1 a man silently
       1 a man should
       1 a man sees every mat on which
-      1 a man sees everybody who
       1 a man sees a dog and himself
       1 a man's card sees itself
       1 a man runs in the park manually and quickly
