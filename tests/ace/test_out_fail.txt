@@ -1,7 +1,6 @@
      46 which
      26 John in
      22 what
-     16 there is a man who does
      14 John ,
      12 how
      10 not for
@@ -23,7 +22,6 @@
       5 there is a man the
       5 p
       5 John v
-      5 John sees a man who does
       5 John patiently
       5 John may
       5 is it true that
@@ -107,7 +105,6 @@
       2 there is nobody who
       2 there is a name . there is a dog . ""
       2 there is a man who is rich and famous
-      2 there is a man who can not
       2 there is a day A1
       2 there is a child X whose
       2 there is 1 kg of n
@@ -129,7 +126,6 @@
       2 noone
       2 nobody X
       2 Mary waits . XJohn
-      2 Mary does not like some men who are not rich
       2 John waits in a kitchen
       2 John vaguely
       2 John strongly
@@ -154,11 +150,10 @@
       2 for all men
       2 for all dogs
       2 every man whose
-      2 every man who does
       2 every man should
       2 every man owns each of at
       2 every man likes himself
-      2 every man hears a dog that does
+      2 every man hears a dog that does not bark and sees
       2 every man can want to
       2 every manager manages
       2 every lady
@@ -167,7 +162,6 @@
       2 every customer believes that
       2 everybody sees the United-Nations
       2 everybody sees Christmases
-      2 everybody does not like a dog that does
       2 each of 2 girls lifts herself
       2 Bill knows that
       2 Bill gives what
@@ -269,11 +263,13 @@
       1 there is a man who walks or who talks , and who
       1 there is a man who waits silently and patiently
       1 there is a man who sleeps safely and soundly
-      1 there is a man who sees a dog and who the dog does
       1 there is a man who must wait patiently . there is a man who can sleep . John sees the man who must wait . Mary expects
       1 there is a man who Mary is
       1 there is a man who knows who ?
       1 there is a man . who hits himself
+      1 there is a man who does not wait patiently . there is a man who does not sleep . John sees the man who does not wait . Mary expects
+      1 there is a man who does not wait patiently . there is a man who does not sleep . a girl sees the man who does not wait . a boy expects
+      1 there is a man who does not provably
       1 there is a man . there is a boy . the man sees himself
       1 there is a man . there is a boy . he sees himself
       1 there is a man . the man the
@@ -306,7 +302,6 @@
       1 there is a code of a card . every card whose
       1 there is a code of a card . every card a
       1 there is a city in
-      1 there is a cat that smiles or that is not the
       1 there is a cat . it sees itself
       1 there is a car that John buys for
       1 there is a card . a man brings it its pencil and offers
@@ -405,10 +400,7 @@
       1 no analysis
       1 more than 3 kg
       1 Mary who which
-      1 Mary who sees Bill who does
-      1 Mary who is not X
       1 Mary who everybody X
-      1 Mary who does
       1 Mary who asks everybody X
       1 Mary waits . John waits . what
       1 Mary sleeps . John sees himself
@@ -424,7 +416,7 @@
       1 JohnX
       1 John wisely
       1 John whose
-      1 John who is larger than his own brother can work carefully in a year that is not 2006
+      1 John who is larger than his own brother can work carefully in a year that is not 2006 and that is not in [
       1 John watches the man who sees himself
       1 John watches a man who sees himself
       1 John wants that
@@ -448,6 +440,8 @@
       1 John sees a water of himself
       1 John sees a man who sleeps with his own eyes
       1 John sees a man whose
+      1 John sees a man who does not sleep soundly and quickly
+      1 John sees a man who does not sleep in a bed soundly and quickly
       1 John sees a girl in every park with no telescope
       1 John's customer who is new inserts a valid card of Mary manually into a slot A
       1 John says that
@@ -458,14 +452,13 @@
       1 John reads "تراجيديا
       1 John rarely
       1 John owns at most 3 cars that have at most 3 wheels
-      1 John owns at most 3 cars that do
+      1 John owns at most 3 cars that do not start
       1 John never
       1 John mostly
       1 John looks at at least 4 men at least
       1 John likes Õnne
       1 John likes nothing but raw meat
       1 John likes nothing but Mary
-      1 John likes Mary's sister who is not John
       1 John likes Mary +
       1 John likes ( Mary
       1 John likes Foo
@@ -562,17 +555,13 @@
       1 if there is somebody Y
       1 if there is somebody X1
       1 if there is somebody X
-      1 if there is a thing that does
       1 if there is a pet X then X is a dog or X is a cat , and it is false that X is a dog and that
       1 if there is an element , and there is a name N
-      1 if there is an animal that is not a
       1 if there is a n
       1 if there is a man X1
       1 if there is a man who is happy or who is sad , and the dog of who
-      1 if there is a man who does
       1 if there is a man then the man sees a cow and it is false that the man likes a cat and that
       1 if there is a man then it is false that the man likes a cat and that
-      1 if there is a man then it is false that he owns a dog that does
       1 if there is a man then he sees a cat X and it is possible that X sees a mouse or that
       1 if there is a man then he sees a cat X and it is possible that X sees a mouse and that
       1 if there is a man then he sees a cat X and it is possible that X eats or that
@@ -636,7 +625,6 @@
       1 everything that v
       1 everything that knows something that hears something sees itself
       1 everything that is written by somebody is a book or is
-      1 everything that is not a
       1 everything of
       1 everything barks at itself
       1 everything a
@@ -654,13 +642,10 @@
       1 every man who sees himself
       1 every man who owns a car that likes a cat is a dog that is hated by a bike or that likes itself
       1 every man who owns a car is a dog that is hated by a bike or that likes itself
-      1 every man who is not liked
       1 every man who in
       1 every man who feeds a dog waits . every man feeds a dog and waits
-      1 every man who eats or who does
       1 every man wants to
       1 every man waits-for
-      1 every man that is not liked
       1 every man sleeps where
       1 every man sees a dog that barks or works
       1 every man sees a dog that barks or sees
@@ -689,7 +674,6 @@
       1 every man an
       1 every man a
       1 every man ,
-      1 every goat eats at most 0 things that are not some
       1 every friend of JohnX
       1 every empty string is ""
       1 every dot
@@ -753,7 +737,6 @@
       1 a man writes a book the hero of which
       1 a man works manually and quickly
       1 a man who sees who waits ?
-      1 a man who sees a dog and who does
       1 a man who is happy and sad
       1 a man who in
       1 a man who a woman is
@@ -799,14 +782,10 @@
       1 a man eats quickly and quickly
       1 a man eats in a park in a morning how
       1 a man eats in a park how
-      1 a man does not wait patiently . a man does not sleep . John sees the man who does
-      1 a man does not wait patiently . a man does not sleep . a girl sees the man who does
-      1 a man does not wait patiently . a girl sees the man who does
-      1 a man does not wait . a girl sees the man who does
+      1 a man does not wait patiently . a man does not sleep . John sees the man who does not wait . Mary expects
+      1 a man does not wait patiently . a man does not sleep . a girl sees the man who does not wait . a boy expects
       1 a man does not sleep or does
       1 a man does not quickly
-      1 a man can not sleep . John sees the man who can not
-      1 a man can not sleep . a man can sleep . John sees the man who can not
       1 a man believes that
       1 a man A
       1 a man 3
