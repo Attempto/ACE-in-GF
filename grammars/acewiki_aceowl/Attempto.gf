@@ -29,6 +29,7 @@ cat Adv ;
 cat Conj ;
 cat IP ;
 cat IAdv ;
+cat IQuant ;
 cat QS ;
 cat Text ;
 cat RP ;
@@ -129,11 +130,14 @@ fun falseS : S -> S ; -- it is false that
 
 -- 3.5
 
--- TODO: what is the difference?
 fun ipQS : IP -> VP -> QS ;
---fun npQS : NP -> VP -> QS ;
+fun neg_ipQS : IP -> VP -> QS ;
 
 fun whoSg_IP : IP ;
+fun whatSg_IP : IP ;
+
+fun whichIP : IQuant -> CN -> IP ;
+fun which_IQuant : IQuant ;
 
 -- 4
 
