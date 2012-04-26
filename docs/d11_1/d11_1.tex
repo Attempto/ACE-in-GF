@@ -160,14 +160,22 @@ There are $\sim$50 functions.
 
 We use GF RGL.
 
-GF grammar module structure (see figure \ref{fig:modules}).
+Multilingual ACE grammar module structure (see figure \ref{fig:modules}).
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.99\textwidth]{modules}
-\caption[Relations between the modules]
+\caption[Relations between the ACE grammar modules]
 {Relations between the modules, using German (Ger) as an example
-of one of the many concrete languages.}
+of one of the many concrete languages. To add support for a new language,
+e.g. Dutch, one must implement three files:
+AttemptoDut, which just
+instantiates the functor AttemptoI with Dutch-specific resources from the RGL;
+TestAttemptoDut, which contains the domain lexicon; and
+LexAttemptoDut, which implements the Dutch-specific resources that
+do not come from the RGL. The implementation of the lexicon can also
+rely on the resources (Dutch morphological paradigms) implemented
+in the RGL.}
 \label{fig:modules}
 \end{figure}
 
@@ -244,6 +252,19 @@ grammar, and expose them as different languages to the end user?
 
 \subsection{Main issues}
 
+[TODO: currently copied from \cite{ranta:cnl2009_revised}]
+The translation from one language to another using the abstract syntax of the
+resource grammar preserves syntactic structure. But it does not always give
+the intended result. [TODO: ACE-specific example]
+Thus the resource grammar should rather be used as a \emph{library} for
+defining the domain grammar. In those cases where direct syntax-based
+translation still works (which in practice does cover most cases), a lot of
+work can be saved, because the linearization function for a given abstract
+function can then be defined once and for all using the language-independent
+API of the resource library. Some exceptions to this can then be done for
+those languages that do not preserve syntactic structure in translation,
+but still using the library. [TODO: example]
+
 \section{Evaluation}
 
 To test the coverage and performance of the GF implementation of the
@@ -298,13 +319,23 @@ clause. But this sentence is supported by the ACE-OWL translator
 so there is no real reason why it should not be allowed in the
 AceWiki subset.
 
-Also, support for object relative clauses (``.. that Mary likes'')
-is desirable (even though AceWiki does not support it).
+% AceWiki does support: ``... that Mary likes``
+Also, support for object relative clauses (``.. that Mary is mad-about'')
+is desirable (even though AceWiki does not completely support it).
+
+\subsection{Ambiguity}
+
+[TODO: does the grammar sometimes assign multiple trees to a sentence?]
 
 \subsection{Multilinguality}
 
 [TODO: interesting examples where the straight-forward translation produces
 a completely different meaning]
+
+[TODO: the OntoGraph test set does not cover some core ACE equivalences,
+e.g. \emph{if-then} equals \emph{every}, double negation equals no negation.
+How are these equivalences preserved under the direct syntax-based
+translation?]
 
 \subsection{Performance}
 

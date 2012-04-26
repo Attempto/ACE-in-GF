@@ -6,7 +6,7 @@ node [shape = "plaintext"];
 edge [arrowsize=1 color=black];
 
 subgraph cluster_0 {
-	label = "Concrete (Ger)";
+	label = "ACE in German";
 	color = "yellowgreen";
 
 	AttemptoGer;
@@ -17,24 +17,24 @@ subgraph cluster_0 {
 // RGL
 RGL [shape = "circle"];
 
-// Abstract (ellipse)
-Attempto [shape = "ellipse"];
-Symbols [shape = "ellipse"];
-TestAttempto [shape = "ellipse"];
+// Abstract (rect)
+Attempto [shape = "rect"];
+Symbols [shape = "rect"];
+TestAttempto [shape = "rect"];
 
-// Incomplete (rect)
-AttemptoI [shape = "rect"];
+// Incomplete (dashed rect)
+AttemptoI [shape = "rect" style = "dashed"];
 
-// Interface (diamond)
-LexAttempto [shape = "diamond"];
+// Interface (dashed diamond)
+LexAttempto [shape = "diamond" style = "dashed"];
 
-// Concrete
-SymbolsC;
-AttemptoGer;
-TestAttemptoGer;
+// Concrete (ellipse)
+SymbolsC [shape = "ellipse"];
+AttemptoGer [shape = "ellipse"];
+TestAttemptoGer [shape = "ellipse"];
 
 // Instance
-LexAttemptoGer;
+LexAttemptoGer [shape = "diamond"];
 
 // TODO: what is the correct convention?
 // dotted = concrete
