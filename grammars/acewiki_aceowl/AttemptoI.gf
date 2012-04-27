@@ -99,7 +99,7 @@ lin v2VP = mkVP ;
 -- 2.3.2 [JJC]
 
 lin aVP = mkVP ; -- is happy
-lin a2VP a2 np = mkVP a2 np ; -- is mad-about NP
+lin a2VP = mkVP ; -- is mad-about NP
 
 -- 3.2
 

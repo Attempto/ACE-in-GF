@@ -10,13 +10,14 @@ resource ParadigmsAce = ParadigmsEng - [mkA2, mkA2S, mkA2V, prepA2] ** open CatA
   -- arguments for forms that we do not need.
   aceV2 : (_,_,_:Str) -> V2 = \go,goes,gone -> mkV2 (mkV go goes "~" gone "~") ;
 
+  -- Physically glue preposition to adjective, i.e. "mad-about" [JJC]
   prepA2 : A -> Prep -> A2 ;
---  prepA2 a p = lin A2 (a ** {c2 = p.s}) ; -- physically attach mad-about
   prepA2 a p = lin A2 {
-    s = \\aform => (a.s ! aform) + "-" + p.s
+    s = \\aform => (a.s ! aform) + "-" + p.s ;
+    c2 = [] -- unused
   };
 
-  -- Copy from Eng
+  -- Copy from Eng, since they use custom prepA2 above [JJC]
   mkA2 : overload {
     mkA2 : A -> Prep -> A2 ; -- absent from 
     mkA2 : A -> Str -> A2 ; -- absent from --%
