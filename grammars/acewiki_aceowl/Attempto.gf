@@ -55,6 +55,7 @@ fun everything_NP : NP ;
 fun nobody_NP : NP ;
 fun nothing_NP : NP ;
 
+
 fun at_leastNP : Card -> CN -> NP ;
 fun at_mostNP : Card -> CN -> NP ;
 fun more_thanNP : Card -> CN -> NP ;
