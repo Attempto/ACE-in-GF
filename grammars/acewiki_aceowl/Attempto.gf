@@ -59,6 +59,7 @@ fun nothing_IPron : IndefPron ;
 fun indefPronNP : IndefPron -> NP ;
 fun indefPronVarNP : IndefPron -> Var -> NP ;
 
+
 fun at_leastNP : Card -> CN -> NP ;
 fun at_mostNP : Card -> CN -> NP ;
 fun more_thanNP : Card -> CN -> NP ;
