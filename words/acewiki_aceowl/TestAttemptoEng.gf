@@ -1,7 +1,7 @@
 --# -path=.:present
 
 concrete TestAttemptoEng of TestAttempto = AttemptoEng **
-  open SyntaxEng, ParadigmsEng, IrregEng, (C = ConstructX) in {
+  open SyntaxEng, ParadigmsEng, IrregEng, (C = ConstructX), (D = DictEng) in {
 
 oper mkkN : Str -> CN = \n -> mkCN (ParadigmsEng.mkN n) ;
 
@@ -10,6 +10,7 @@ lin john_PN = mkPN "John" ;
 lin woman_N = mkCN (mkN feminine (mkN "woman" "women")) ;
 lin man_N = mkCN (mkN masculine (mkN "man" "men")) ;
 lin friend_N = mkkN "friend" ;
+lin wait_V = D.wait_V;
 lin ask_V2 = mkV2 "ask" ;
 lin mad_A = mkA "mad" ;
 lin mad_about_A2 = mkA2 mad_A (mkPrep "about") ;
