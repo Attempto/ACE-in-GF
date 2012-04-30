@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoAce of Attempto = SymbolsC, NumeralAce ** AttemptoI with
+concrete AttemptoAce of Attempto = SymbolsC, NumeralAce ** AttemptoI - [vVP] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
   (LexAttempto = LexAttemptoAce) ** open SyntaxAce, ExtraAce in {
@@ -17,5 +17,8 @@ concrete AttemptoAce of Attempto = SymbolsC, NumeralAce ** AttemptoI with
   --vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) negativePol ;
   --coordVPS = ConjVPS ;
   predVPS = PredVPS ;
+
+  -- Add variant for "John does wait" -- [JJC]
+  vVP v = mkVP v | mkVP ExtraAce.do_VV (mkVP v) ;
 
 }

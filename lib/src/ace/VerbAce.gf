@@ -1,3 +1,1 @@
-concrete VerbAce of Verb = VerbEng ** {
-
-}
+concrete VerbAce of Verb = VerbEng ;

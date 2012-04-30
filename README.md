@@ -77,7 +77,7 @@ i.e. some ACE constructs are not supported, e.g.
   * __(F)__ `do not` and `don't` are not equivalent
   * __(F)__ `who` (instead of `whom`) in object relative clauses (`a woman who a man sees`)
   * dative shift (`John gives Mary an apple`)
-  * `does wait` (as alternative to `waits`)
+  * __(F)__ `does wait` (as alternative to `waits`)
   * adjective coordination
     - a rich and lucky man waits .
     - John is rich and lucky .

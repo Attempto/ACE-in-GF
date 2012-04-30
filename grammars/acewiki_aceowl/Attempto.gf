@@ -105,6 +105,8 @@ fun neg_vpS : NP -> VP -> S ;
 
 fun v2VP : V2 -> NP -> VP ;
 
+fun vVP : V -> VP ; -- John waits [JJC]
+
 -- 2.3.2 [JJC]
 
 fun aVP : A -> VP ; -- is happy
