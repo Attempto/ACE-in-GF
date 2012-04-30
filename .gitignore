@@ -1,3 +1,7 @@
 *.gf-tags
 *.gfo
 _gf
+/test_out*
+/Parser
+/.project
+/ACE-0_0_2.pgf
