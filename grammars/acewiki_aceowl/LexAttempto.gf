@@ -31,5 +31,6 @@ oper
   exactly_AdN : AdN ;
 
   somebody_CN : CN ; -- for `somebody X` [JJC]
+  everybody_CN : CN ; -- for `everybody X` [JJC]
 
 }

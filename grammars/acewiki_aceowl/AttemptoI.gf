@@ -67,6 +67,7 @@ lin apposVarCN cn v = mkCN cn (symb v) ;
 lin termNP x = symb (ss x.s) ;
 
 lin somebodyVarNP v = mkNP (mkCN LexAttempto.somebody_CN (symb v))  ; -- somebody X [JJC]
+lin everybodyVarNP v = mkNP (mkCN LexAttempto.everybody_CN (symb v))  ; -- everybody X [JJC]
 
 
 -- 2.2.2

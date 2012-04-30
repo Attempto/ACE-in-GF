@@ -67,6 +67,7 @@ fun apposVarCN : CN -> Var -> CN ;  -- a man X
 fun termNP : Term -> NP ;
 
 fun somebodyVarNP : Var -> NP ;  -- somebody X [JJC]
+fun everybodyVarNP : Var -> NP ;  -- everybody X [JJC]
 
 -- 2.2.2
 
