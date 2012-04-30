@@ -8,15 +8,24 @@ concrete AttemptoAce of Attempto = SymbolsC, NumeralAce ** AttemptoI - [vVP] wit
   lincat
 
   VPS = ExtraAce.VPS ;
-  --ListVPS = ExtraAce.ListVPS ;
-
+  [VPS] = ExtraAce.ListVPS ;
 
   lin
 
+  -- MkVPS, PredVPS, ConjVPS are functions, not opers
+
   vp_as_posVPS = MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
+
+  -- TODO: this causes the compiler to loop?
   --vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) negativePol ;
-  --coordVPS = ConjVPS ;
-  predVPS = PredVPS ;
+
+  -- Extra: ConjVPS : Conj -> [VPS] -> VPS
+  coordVPS = ExtraAce.ConjVPS ;
+
+  predVPS = ExtraAce.PredVPS ;
+
+  BaseVPS = ExtraAce.BaseVPS ;
+  ConsVPS = ExtraAce.ConsVPS ;
 
   -- Add variant for "John does wait" -- [JJC]
   vVP v = mkVP v | mkVP ExtraAce.do_VV (mkVP v) ;

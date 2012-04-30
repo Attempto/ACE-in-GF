@@ -37,6 +37,7 @@ cat Unit ;
 cat MCN ;
 cat PP ;
 cat VPS ;
+cat [VPS] {2} ;
 
 
 fun aNP : CN -> NP ;
@@ -132,7 +133,8 @@ fun or_Conj : Conj ;
 -- (3) map VPS into S (and QS?) (but definitely not into RS).
 fun vp_as_posVPS : VP -> VPS ;
 fun vp_as_negVPS : VP -> VPS ;
-fun coordVPS : Conj -> VPS -> VPS -> VPS ;
+--fun coordVPS : Conj -> VPS -> VPS -> VPS ;
+fun coordVPS : Conj -> [VPS] -> VPS ;
 fun predVPS : NP -> VPS -> S ;
 
 -- 3.4.3
