@@ -17,7 +17,7 @@ cat A ;
 cat A2 ;
 cat AP ;
 cat RS ;
-cat Pron ;
+cat Pron ; cat IndefPron ;
 cat Prep ;
 cat S ;
 cat VP ;
@@ -47,13 +47,17 @@ fun everyNP : CN -> NP ;
 
 fun pnNP : PN -> NP ;
 
+-- [JJC]
+fun somebody_IPron : IndefPron ;
+fun something_IPron : IndefPron ;
+fun everybody_IPron : IndefPron ;
+fun everything_IPron : IndefPron ;
+fun nobody_IPron : IndefPron ;
+fun nothing_IPron : IndefPron ;
 
-fun somebody_NP : NP ;
-fun something_NP : NP ;
-fun everybody_NP : NP ;
-fun everything_NP : NP ;
-fun nobody_NP : NP ;
-fun nothing_NP : NP ;
+-- [JJC]
+fun indefPronNP : IndefPron -> NP ;
+fun indefPronVarNP : IndefPron -> Var -> NP ;
 
 fun at_leastNP : Card -> CN -> NP ;
 fun at_mostNP : Card -> CN -> NP ;
@@ -65,9 +69,6 @@ fun nothing_butNP : CN -> NP ;
 
 fun apposVarCN : CN -> Var -> CN ;  -- a man X
 fun termNP : Term -> NP ;
-
-fun somebodyVarNP : Var -> NP ;  -- somebody X [JJC]
-fun everybodyVarNP : Var -> NP ;  -- everybody X [JJC]
 
 -- 2.2.2
 

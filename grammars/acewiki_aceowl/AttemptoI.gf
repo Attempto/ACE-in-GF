@@ -14,7 +14,7 @@ lincat A = Syntax.A ;
 lincat A2 = Syntax.A2 ;
 lincat AP = Syntax.AP ;
 lincat RS = Syntax.RS ;
-lincat Pron = Syntax.Pron ;
+lincat Pron = Syntax.Pron ; lincat IndefPron = Syntax.Pron ;
 lincat Prep = Syntax.Prep ;
 lincat S = Syntax.S ;
 lincat VP = Syntax.VP ;
@@ -43,14 +43,21 @@ lin everyNP = mkNP every_Det ;
 
 lin pnNP = mkNP ;
 
---lin someone_NP : NP ;
-lin somebody_NP = Syntax.somebody_NP ;
-lin something_NP = Syntax.something_NP ;
-lin everybody_NP = Syntax.everybody_NP ;
-lin everything_NP = Syntax.everything_NP ;
---lin noone_NP : NP ;
-lin nobody_NP = Syntax.nobody_NP ;
-lin nothing_NP = Syntax.nothing_NP ;
+-- [JJC]
+oper NPtoPron : Syntax.NP -> Syntax.Pron = \np -> lin Pron ( np ** { sp = \\c => "TODO"} );
+lin somebody_IPron = NPtoPron Syntax.somebody_NP ;
+lin something_IPron = NPtoPron Syntax.something_NP ;
+lin everybody_IPron = NPtoPron Syntax.everybody_NP ;
+lin everything_IPron = NPtoPron Syntax.everything_NP ;
+lin nobody_IPron = NPtoPron Syntax.nobody_NP ;
+lin nothing_IPron = NPtoPron Syntax.nothing_NP ;
+
+-- [JJC]
+lin indefPronNP pr = lin NP ( pr );
+lin indefPronVarNP pr v = lin NP {
+       s = \\c => pr.s ! c ++ v.s ;
+       a = pr.a
+};
 
 lin at_leastNP ca = mkNP (mkCard at_least_AdN ca) ;
 lin at_mostNP ca = mkNP (mkCard at_most_AdN ca) ;
@@ -65,10 +72,6 @@ lincat Unit = Syntax.CN ;
 lin apposVarCN cn v = mkCN cn (symb v) ;
 
 lin termNP x = symb (ss x.s) ;
-
-lin somebodyVarNP v = mkNP (mkCN LexAttempto.somebody_CN (symb v))  ; -- somebody X [JJC]
-lin everybodyVarNP v = mkNP (mkCN LexAttempto.everybody_CN (symb v))  ; -- everybody X [JJC]
-
 
 -- 2.2.2
 

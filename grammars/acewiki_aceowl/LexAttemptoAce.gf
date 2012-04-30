@@ -37,7 +37,4 @@ oper
 
   exactly_AdN = ParadigmsAce.mkAdN "exactly" ;
 
-  somebody_CN = mkCN (mkN "somebody") ; -- for `somebody X` [JJC]
-  everybody_CN = mkCN (mkN "everybody") ; -- for `everybody X` [JJC]
-
 }
