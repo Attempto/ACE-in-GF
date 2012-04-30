@@ -27,11 +27,15 @@ out_fail="test_out_fail.txt"
 
 time (cat $1 | ./${prog} $pgf $lang > $out)
 
+parsed=`cat $out | grep "|OK" | wc -l`
+failed=`cat $out | grep "|FAIL" | wc -l`
+total=`cat $out | wc -l`
+
 echo "Parsed:"
-cat $out | grep "|OK" | wc -l
+echo $parsed "("$((parsed*100/total))"%)"
 
 echo "NOT parsed:"
-cat $out | grep "|FAIL" | wc -l
+echo $failed "("$((failed*100/total))"%)"
 
 echo "Creating ${out_fail}"
 cat $out | grep "|FAIL" | sed "s/^.*|FAIL //" | sort | uniq -c | sort -nr > ${out_fail}
