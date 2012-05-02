@@ -1,4 +1,4 @@
-abstract Symbols = {
+abstract Symbols = open Cat in {
 
 cat Var ; Term ;
 

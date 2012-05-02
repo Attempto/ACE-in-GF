@@ -44,7 +44,7 @@ lin everyNP = mkNP every_Det ;
 lin pnNP = mkNP ;
 
 -- [JJC]
-oper NPtoPron : Syntax.NP -> Syntax.Pron = \np -> lin Pron ( np ** { sp = \\c => "TODO"} );
+oper NPtoPron : Syntax.NP -> Syntax.Pron = \np -> lin Pron ( np ** { sp = \\c => []} );
 lin somebody_IPron = NPtoPron Syntax.somebody_NP ;
 lin something_IPron = NPtoPron Syntax.something_NP ;
 lin everybody_IPron = NPtoPron Syntax.everybody_NP ;
@@ -53,11 +53,8 @@ lin nobody_IPron = NPtoPron Syntax.nobody_NP ;
 lin nothing_IPron = NPtoPron Syntax.nothing_NP ;
 
 -- [JJC]
-lin indefPronNP pr = lin NP ( pr );
-lin indefPronVarNP pr v = lin NP {
-       s = \\c => pr.s ! c ++ v.s ;
-       a = pr.a
-};
+lin indefPronNP pr = mkNP pr;
+lin indefPronVarNP pr v = mkNP pr (lin N(v)); -- this sould be overridden [JJC]
 
 lin at_leastNP ca = mkNP (mkCard at_least_AdN ca) ;
 lin at_mostNP ca = mkNP (mkCard at_most_AdN ca) ;
