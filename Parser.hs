@@ -19,7 +19,7 @@ module Main where
 
 import PGF
 import Data.Maybe
-import System (getArgs)
+import System.Environment (getArgs)
 
 main :: IO ()
 main = do
@@ -38,7 +38,7 @@ parseResult :: PGF -> Language -> String -> String
 parseResult pgf lang s =
 	case parse_ pgf lang (startCat pgf) (Just 4) s of
 		(ParseFailed num, _) -> "|FAIL " ++ unwords (take num (words s))
-		(ParseOk trees, _) -> "|OK"
+		(ParseOk trees, _) -> "|OK (" ++ show (length trees) ++ ")"
 		_ -> "|FAIL"
 
 -- (Unused)

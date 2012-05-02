@@ -28,11 +28,12 @@ out_fail="test_out_fail.txt"
 time (cat $1 | ./${prog} $pgf $lang > $out)
 
 parsed=`cat $out | grep "|OK" | wc -l`
+parsed_unambig=`cat $out | grep "|OK (1)" | wc -l`
 failed=`cat $out | grep "|FAIL" | wc -l`
 total=`cat $out | wc -l`
 
 echo "Parsed:"
-echo $parsed "("$((parsed*100/total))"%)"
+echo $parsed "("$((parsed*100/total))"%) - ("$((parsed_unambig*100/parsed))"% unambiguous)"
 
 echo "NOT parsed:"
 echo $failed "("$((failed*100/total))"%)"
