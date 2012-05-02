@@ -14,7 +14,7 @@ lincat A = Syntax.A ;
 lincat A2 = Syntax.A2 ;
 lincat AP = Syntax.AP ;
 lincat RS = Syntax.RS ;
-lincat Pron = Syntax.Pron ; lincat IndefPron = Syntax.Pron ;
+lincat Pron = Syntax.Pron ; lincat IndefPron = Syntax.NP ;
 lincat Prep = Syntax.Prep ;
 lincat S = Syntax.S ;
 lincat VP = Syntax.VP ;
@@ -44,17 +44,16 @@ lin everyNP = mkNP every_Det ;
 lin pnNP = mkNP ;
 
 -- [JJC]
-oper NPtoPron : Syntax.NP -> Syntax.Pron = \np -> lin Pron ( np ** { sp = \\c => []} );
-lin somebody_IPron = NPtoPron Syntax.somebody_NP ;
-lin something_IPron = NPtoPron Syntax.something_NP ;
-lin everybody_IPron = NPtoPron Syntax.everybody_NP ;
-lin everything_IPron = NPtoPron Syntax.everything_NP ;
-lin nobody_IPron = NPtoPron Syntax.nobody_NP ;
-lin nothing_IPron = NPtoPron Syntax.nothing_NP ;
+lin somebody_IPron = Syntax.somebody_NP ;
+lin something_IPron = Syntax.something_NP ;
+lin everybody_IPron = Syntax.everybody_NP ;
+lin everything_IPron = Syntax.everything_NP ;
+lin nobody_IPron = Syntax.nobody_NP ;
+lin nothing_IPron = Syntax.nothing_NP ;
 
 -- [JJC]
-lin indefPronNP pr = mkNP pr;
-lin indefPronVarNP pr v = mkNP pr (lin N(v)); -- this sould be overridden [JJC]
+lin indefPronNP pr = pr;
+lin indefPronVarNP pr var = pr ; -- Default ignores variable! This sould be overridden [JJC]
 
 lin at_leastNP ca = mkNP (mkCard at_least_AdN ca) ;
 lin at_mostNP ca = mkNP (mkCard at_most_AdN ca) ;
