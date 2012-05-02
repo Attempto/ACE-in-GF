@@ -148,8 +148,22 @@ fun falseS : S -> S ; -- it is false that
 
 -- 3.5
 
+-- who likes Mary?
 fun ipQS : IP -> VP -> QS ;
+
+-- who does not like Mary?
 fun neg_ipQS : IP -> VP -> QS ;
+
+-- WH-word in object position.
+-- Note that AceWiki only supports `Mary likes who?' but because
+-- it is DRS-equivalent to `who does Mary like?' in (full) ACE,
+-- supporting just the latter in the GF implementation can be considered enough.
+
+-- who does Mary like?
+fun slash_ipQS : IP -> NP -> V2 -> QS ;
+
+-- who does Mary not like?
+fun neg_slash_ipQS : IP -> NP -> V2 -> QS ;
 
 fun whoSg_IP : IP ;
 fun whatSg_IP : IP ;
