@@ -17,7 +17,6 @@ oper
   provably_Adv = mkAdv "todistettavasti" ;
   provable_A = mkA "todistettava" ;
   false_A = mkA (mkN "epätosi" "epätoden" "epätosia") ;
-  such_A = mkA "sellainen" ;
  
   genitiveNP np = mkNP (GenNP np) ;
 

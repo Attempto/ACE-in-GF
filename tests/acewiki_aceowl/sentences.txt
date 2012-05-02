@@ -7114,7 +7114,6 @@ for every  woman  there is  a  woman  X  .
 for every  woman  there is  exactly  1  woman  .  
 for every  woman  there is  somebody  .      
 for every  woman  there is  somebody  and  there is  somebody  .
-for every  woman  there is  somebody  such that  there is  somebody  .
 for every  woman  there is  somebody  who  asks  everybody  .
 for every  woman  there is  somebody  who  asks  Mary  .
 for every  woman  there is  somebody  who  asks  somebody  .
@@ -15906,7 +15905,6 @@ there is  a  friend of  a  woman  .
 there is  a  friend of  a  woman  X  .  
 there is  a  friend of  everybody  .      
 there is  a  friend of  everybody  and  there is  somebody  .
-there is  a  friend of  everybody  such that  there is  somebody  .
 there is  a  friend of  everybody  who  asks  everybody  .
 there is  a  friend of  everybody  who  asks  Mary  .
 there is  a  friend of  everybody  who  asks  somebody  .
@@ -15934,7 +15932,6 @@ there is  a  friend of  exactly  1  woman  .
 there is  a  friend of  exactly  2  women  .  
 there is  a  friend of  Mary  .      
 there is  a  friend of  Mary  and  there is  somebody  .
-there is  a  friend of  Mary  such that  there is  somebody  .
 there is  a  friend of  Mary  who  asks  everybody  .
 there is  a  friend of  Mary  who  asks  Mary  .
 there is  a  friend of  Mary  who  asks  somebody  .
@@ -15949,7 +15946,6 @@ there is  a  friend of  Mary  who  somebody  asks  .
 there is  a  friend of  Mary  who  X  asks  .
 there is  a  friend of  somebody  .      
 there is  a  friend of  somebody  and  there is  somebody  .
-there is  a  friend of  somebody  such that  there is  somebody  .
 there is  a  friend of  somebody  who  asks  everybody  .
 there is  a  friend of  somebody  who  asks  Mary  .
 there is  a  friend of  somebody  who  asks  somebody  .
@@ -15965,7 +15961,6 @@ there is  a  friend of  somebody  who  X  asks  .
 there is  a  friend of  somebody  X  .    
 there is  a  friend of  X  .      
 there is  a  friend of  X  and  there is  somebody  .
-there is  a  friend of  X  such that  there is  somebody  .
 there is  a  woman  .        
 there is  a  woman  and  everybody  asks  everybody  .
 there is  a  woman  and  everybody  asks  Mary  .
@@ -16020,59 +16015,6 @@ there is  a  woman  and  X  is  Mary  .
 there is  a  woman  and  X  is  somebody  .
 there is  a  woman  and  X  is  the woman  .
 there is  a  woman  and  X  is  X  .
-there is  a  woman  such that  everybody  asks  everybody  .
-there is  a  woman  such that  everybody  asks  Mary  .
-there is  a  woman  such that  everybody  asks  somebody  .
-there is  a  woman  such that  everybody  asks  the woman  .
-there is  a  woman  such that  everybody  asks  X  .
-there is  a  woman  such that  everybody  is  everybody  .
-there is  a  woman  such that  everybody  is  Mary  .
-there is  a  woman  such that  everybody  is  somebody  .
-there is  a  woman  such that  everybody  is  the woman  .
-there is  a  woman  such that  everybody  is  X  .
-there is  a  woman  such that  Mary  asks  everybody  .
-there is  a  woman  such that  Mary  asks  Mary  .
-there is  a  woman  such that  Mary  asks  somebody  .
-there is  a  woman  such that  Mary  asks  the woman  .
-there is  a  woman  such that  Mary  asks  X  .
-there is  a  woman  such that  Mary  is  everybody  .
-there is  a  woman  such that  Mary  is  Mary  .
-there is  a  woman  such that  Mary  is  somebody  .
-there is  a  woman  such that  Mary  is  the woman  .
-there is  a  woman  such that  Mary  is  X  .
-there is  a  woman  such that  somebody  asks  everybody  .
-there is  a  woman  such that  somebody  asks  Mary  .
-there is  a  woman  such that  somebody  asks  somebody  .
-there is  a  woman  such that  somebody  asks  the woman  .
-there is  a  woman  such that  somebody  asks  X  .
-there is  a  woman  such that  somebody  is  everybody  .
-there is  a  woman  such that  somebody  is  Mary  .
-there is  a  woman  such that  somebody  is  somebody  .
-there is  a  woman  such that  somebody  is  the woman  .
-there is  a  woman  such that  somebody  is  X  .
-there is  a  woman  such that  there is  a  woman  .
-there is  a  woman  such that  there is  somebody  .  
-there is  a  woman  such that  there is  somebody  X  .
-there is  a  woman  such that  the woman  asks  everybody  .
-there is  a  woman  such that  the woman  asks  Mary  .
-there is  a  woman  such that  the woman  asks  somebody  .
-there is  a  woman  such that  the woman  asks  the woman  .
-there is  a  woman  such that  the woman  asks  X  .
-there is  a  woman  such that  the woman  is  everybody  .
-there is  a  woman  such that  the woman  is  Mary  .
-there is  a  woman  such that  the woman  is  somebody  .
-there is  a  woman  such that  the woman  is  the woman  .
-there is  a  woman  such that  the woman  is  X  .
-there is  a  woman  such that  X  asks  everybody  .
-there is  a  woman  such that  X  asks  Mary  .
-there is  a  woman  such that  X  asks  somebody  .
-there is  a  woman  such that  X  asks  the woman  .
-there is  a  woman  such that  X  asks  X  .
-there is  a  woman  such that  X  is  everybody  .
-there is  a  woman  such that  X  is  Mary  .
-there is  a  woman  such that  X  is  somebody  .
-there is  a  woman  such that  X  is  the woman  .
-there is  a  woman  such that  X  is  X  .
 there is  a  woman  who  asks  a  woman  .
 there is  a  woman  who  asks  everybody  .  
 there is  a  woman  who  asks  everybody  X  .
@@ -16127,7 +16069,6 @@ there is  a  woman  who  X  asks  .
 there is  a  woman  who  X  does not  ask  .
 there is  a  woman  X  .      
 there is  a  woman  X  and  there is  somebody  .
-there is  a  woman  X  such that  there is  somebody  .
 there is  a  woman  X  who  asks  everybody  .
 there is  a  woman  X  who  asks  Mary  .
 there is  a  woman  X  who  asks  somebody  .
@@ -16145,7 +16086,6 @@ there is  a  woman  X  who  the woman  asks  .
 there is  a  woman  X  who  X  asks  .
 there is  exactly  1  woman  .      
 there is  exactly  1  woman  and  there is  somebody  .
-there is  exactly  1  woman  such that  there is  somebody  .
 there is  somebody  .          
 there is  somebody  and  a  woman  asks  everybody  .
 there is  somebody  and  a  woman  asks  Mary  .
@@ -16349,208 +16289,6 @@ there is  somebody  and  X  is  not  somebody  .
 there is  somebody  and  X  is  not  X  .
 there is  somebody  and  X  is  somebody  .  
 there is  somebody  and  X  is  X  .  
-there is  somebody  such that  a  woman  asks  everybody  .
-there is  somebody  such that  a  woman  asks  Mary  .
-there is  somebody  such that  a  woman  asks  somebody  .
-there is  somebody  such that  a  woman  asks  the woman  .
-there is  somebody  such that  a  woman  asks  X  .
-there is  somebody  such that  a  woman  is  everybody  .
-there is  somebody  such that  a  woman  is  Mary  .
-there is  somebody  such that  a  woman  is  somebody  .
-there is  somebody  such that  a  woman  is  the woman  .
-there is  somebody  such that  a  woman  is  X  .
-there is  somebody  such that  everybody  asks  a  woman  .
-there is  somebody  such that  everybody  asks  everybody  .  
-there is  somebody  such that  everybody  asks  everybody  X  .
-there is  somebody  such that  everybody  asks  every  woman  .
-there is  somebody  such that  everybody  asks  Mary  .  
-there is  somebody  such that  everybody  asks  somebody  .  
-there is  somebody  such that  everybody  asks  somebody  X  .
-there is  somebody  such that  everybody  asks  X  .  
-there is  somebody  such that  everybody  does not  ask  everybody  .
-there is  somebody  such that  everybody  does not  ask  Mary  .
-there is  somebody  such that  everybody  does not  ask  somebody  .
-there is  somebody  such that  everybody  does not  ask  X  .
-there is  somebody  such that  everybody  is  asked by  everybody  .
-there is  somebody  such that  everybody  is  asked by  Mary  .
-there is  somebody  such that  everybody  is  asked by  somebody  .
-there is  somebody  such that  everybody  is  asked by  X  .
-there is  somebody  such that  everybody  is  a  woman  .
-there is  somebody  such that  everybody  is  everybody  .  
-there is  somebody  such that  everybody  is  everybody  X  .
-there is  somebody  such that  everybody  is  every  woman  .
-there is  somebody  such that  everybody  is  mad-about  everybody  .
-there is  somebody  such that  everybody  is  mad-about  Mary  .
-there is  somebody  such that  everybody  is  mad-about  somebody  .
-there is  somebody  such that  everybody  is  mad-about  X  .
-there is  somebody  such that  everybody  is  Mary  .  
-there is  somebody  such that  everybody  is  not  everybody  .
-there is  somebody  such that  everybody  is  not  Mary  .
-there is  somebody  such that  everybody  is  not  somebody  .
-there is  somebody  such that  everybody  is  not  X  .
-there is  somebody  such that  everybody  is  somebody  .  
-there is  somebody  such that  everybody  is  somebody  X  .
-there is  somebody  such that  everybody  is  X  .  
-there is  somebody  such that  everybody  X  asks  everybody  .
-there is  somebody  such that  everybody  X  asks  Mary  .
-there is  somebody  such that  everybody  X  asks  somebody  .
-there is  somebody  such that  everybody  X  asks  X  .
-there is  somebody  such that  everybody  X  is  everybody  .
-there is  somebody  such that  everybody  X  is  Mary  .
-there is  somebody  such that  everybody  X  is  somebody  .
-there is  somebody  such that  everybody  X  is  X  .
-there is  somebody  such that  every  woman  asks  everybody  .
-there is  somebody  such that  every  woman  asks  Mary  .
-there is  somebody  such that  every  woman  asks  somebody  .
-there is  somebody  such that  every  woman  asks  the woman  .
-there is  somebody  such that  every  woman  asks  X  .
-there is  somebody  such that  every  woman  is  everybody  .
-there is  somebody  such that  every  woman  is  Mary  .
-there is  somebody  such that  every  woman  is  somebody  .
-there is  somebody  such that  every  woman  is  the woman  .
-there is  somebody  such that  every  woman  is  X  .
-there is  somebody  such that  it is false that  everybody  asks  everybody  .
-there is  somebody  such that  it is false that  everybody  asks  Mary  .
-there is  somebody  such that  it is false that  everybody  asks  somebody  .
-there is  somebody  such that  it is false that  everybody  asks  X  .
-there is  somebody  such that  it is false that  everybody  is  everybody  .
-there is  somebody  such that  it is false that  everybody  is  Mary  .
-there is  somebody  such that  it is false that  everybody  is  somebody  .
-there is  somebody  such that  it is false that  everybody  is  X  .
-there is  somebody  such that  it is false that  Mary  asks  everybody  .
-there is  somebody  such that  it is false that  Mary  asks  Mary  .
-there is  somebody  such that  it is false that  Mary  asks  somebody  .
-there is  somebody  such that  it is false that  Mary  asks  X  .
-there is  somebody  such that  it is false that  Mary  is  everybody  .
-there is  somebody  such that  it is false that  Mary  is  Mary  .
-there is  somebody  such that  it is false that  Mary  is  somebody  .
-there is  somebody  such that  it is false that  Mary  is  X  .
-there is  somebody  such that  it is false that  somebody  asks  everybody  .
-there is  somebody  such that  it is false that  somebody  asks  Mary  .
-there is  somebody  such that  it is false that  somebody  asks  somebody  .
-there is  somebody  such that  it is false that  somebody  asks  X  .
-there is  somebody  such that  it is false that  somebody  is  everybody  .
-there is  somebody  such that  it is false that  somebody  is  Mary  .
-there is  somebody  such that  it is false that  somebody  is  somebody  .
-there is  somebody  such that  it is false that  somebody  is  X  .
-there is  somebody  such that  it is false that  X  asks  everybody  .
-there is  somebody  such that  it is false that  X  asks  Mary  .
-there is  somebody  such that  it is false that  X  asks  somebody  .
-there is  somebody  such that  it is false that  X  asks  X  .
-there is  somebody  such that  it is false that  X  is  everybody  .
-there is  somebody  such that  it is false that  X  is  Mary  .
-there is  somebody  such that  it is false that  X  is  somebody  .
-there is  somebody  such that  it is false that  X  is  X  .
-there is  somebody  such that  Mary  asks  a  woman  .
-there is  somebody  such that  Mary  asks  everybody  .  
-there is  somebody  such that  Mary  asks  everybody  X  .
-there is  somebody  such that  Mary  asks  every  woman  .
-there is  somebody  such that  Mary  asks  Mary  .  
-there is  somebody  such that  Mary  asks  somebody  .  
-there is  somebody  such that  Mary  asks  somebody  X  .
-there is  somebody  such that  Mary  asks  X  .  
-there is  somebody  such that  Mary  does not  ask  everybody  .
-there is  somebody  such that  Mary  does not  ask  Mary  .
-there is  somebody  such that  Mary  does not  ask  somebody  .
-there is  somebody  such that  Mary  does not  ask  X  .
-there is  somebody  such that  Mary  is  asked by  everybody  .
-there is  somebody  such that  Mary  is  asked by  Mary  .
-there is  somebody  such that  Mary  is  asked by  somebody  .
-there is  somebody  such that  Mary  is  asked by  X  .
-there is  somebody  such that  Mary  is  a  woman  .
-there is  somebody  such that  Mary  is  everybody  .  
-there is  somebody  such that  Mary  is  everybody  X  .
-there is  somebody  such that  Mary  is  every  woman  .
-there is  somebody  such that  Mary  is  mad-about  everybody  .
-there is  somebody  such that  Mary  is  mad-about  Mary  .
-there is  somebody  such that  Mary  is  mad-about  somebody  .
-there is  somebody  such that  Mary  is  mad-about  X  .
-there is  somebody  such that  Mary  is  Mary  .  
-there is  somebody  such that  Mary  is  not  everybody  .
-there is  somebody  such that  Mary  is  not  Mary  .
-there is  somebody  such that  Mary  is  not  somebody  .
-there is  somebody  such that  Mary  is  not  X  .
-there is  somebody  such that  Mary  is  somebody  .  
-there is  somebody  such that  Mary  is  somebody  X  .
-there is  somebody  such that  Mary  is  X  .  
-there is  somebody  such that  somebody  asks  a  woman  .
-there is  somebody  such that  somebody  asks  everybody  .  
-there is  somebody  such that  somebody  asks  everybody  X  .
-there is  somebody  such that  somebody  asks  every  woman  .
-there is  somebody  such that  somebody  asks  Mary  .  
-there is  somebody  such that  somebody  asks  somebody  .  
-there is  somebody  such that  somebody  asks  somebody  X  .
-there is  somebody  such that  somebody  asks  X  .  
-there is  somebody  such that  somebody  does not  ask  everybody  .
-there is  somebody  such that  somebody  does not  ask  Mary  .
-there is  somebody  such that  somebody  does not  ask  somebody  .
-there is  somebody  such that  somebody  does not  ask  X  .
-there is  somebody  such that  somebody  is  asked by  everybody  .
-there is  somebody  such that  somebody  is  asked by  Mary  .
-there is  somebody  such that  somebody  is  asked by  somebody  .
-there is  somebody  such that  somebody  is  asked by  X  .
-there is  somebody  such that  somebody  is  a  woman  .
-there is  somebody  such that  somebody  is  everybody  .  
-there is  somebody  such that  somebody  is  everybody  X  .
-there is  somebody  such that  somebody  is  every  woman  .
-there is  somebody  such that  somebody  is  mad-about  everybody  .
-there is  somebody  such that  somebody  is  mad-about  Mary  .
-there is  somebody  such that  somebody  is  mad-about  somebody  .
-there is  somebody  such that  somebody  is  mad-about  X  .
-there is  somebody  such that  somebody  is  Mary  .  
-there is  somebody  such that  somebody  is  not  everybody  .
-there is  somebody  such that  somebody  is  not  Mary  .
-there is  somebody  such that  somebody  is  not  somebody  .
-there is  somebody  such that  somebody  is  not  X  .
-there is  somebody  such that  somebody  is  somebody  .  
-there is  somebody  such that  somebody  is  somebody  X  .
-there is  somebody  such that  somebody  is  X  .  
-there is  somebody  such that  somebody  X  asks  everybody  .
-there is  somebody  such that  somebody  X  asks  Mary  .
-there is  somebody  such that  somebody  X  asks  somebody  .
-there is  somebody  such that  somebody  X  asks  X  .
-there is  somebody  such that  somebody  X  is  everybody  .
-there is  somebody  such that  somebody  X  is  Mary  .
-there is  somebody  such that  somebody  X  is  somebody  .
-there is  somebody  such that  somebody  X  is  X  .
-there is  somebody  such that  there are  exactly  2  women  .
-there is  somebody  such that  there is  a  friend of  everybody  .
-there is  somebody  such that  there is  a  friend of  Mary  .
-there is  somebody  such that  there is  a  friend of  somebody  .
-there is  somebody  such that  there is  a  friend of  X  .
-there is  somebody  such that  there is  a  woman  .  
-there is  somebody  such that  there is  a  woman  X  .
-there is  somebody  such that  there is  exactly  1  woman  .
-there is  somebody  such that  there is  somebody  .    
-there is  somebody  such that  there is  somebody  X  .  
-there is  somebody  such that  X  asks  a  woman  .
-there is  somebody  such that  X  asks  everybody  .  
-there is  somebody  such that  X  asks  every  woman  .
-there is  somebody  such that  X  asks  Mary  .  
-there is  somebody  such that  X  asks  somebody  .  
-there is  somebody  such that  X  asks  X  .  
-there is  somebody  such that  X  does not  ask  everybody  .
-there is  somebody  such that  X  does not  ask  Mary  .
-there is  somebody  such that  X  does not  ask  somebody  .
-there is  somebody  such that  X  does not  ask  X  .
-there is  somebody  such that  X  is  asked by  everybody  .
-there is  somebody  such that  X  is  asked by  Mary  .
-there is  somebody  such that  X  is  asked by  somebody  .
-there is  somebody  such that  X  is  asked by  X  .
-there is  somebody  such that  X  is  a  woman  .
-there is  somebody  such that  X  is  everybody  .  
-there is  somebody  such that  X  is  every  woman  .
-there is  somebody  such that  X  is  mad-about  everybody  .
-there is  somebody  such that  X  is  mad-about  Mary  .
-there is  somebody  such that  X  is  mad-about  somebody  .
-there is  somebody  such that  X  is  mad-about  X  .
-there is  somebody  such that  X  is  Mary  .  
-there is  somebody  such that  X  is  not  everybody  .
-there is  somebody  such that  X  is  not  Mary  .
-there is  somebody  such that  X  is  not  somebody  .
-there is  somebody  such that  X  is  not  X  .
-there is  somebody  such that  X  is  somebody  .  
-there is  somebody  such that  X  is  X  .  
 there is  somebody  who  a  friend of  everybody  asks  .
 there is  somebody  who  a  friend of  Mary  asks  .
 there is  somebody  who  a  friend of  somebody  asks  .
@@ -16692,40 +16430,6 @@ there is  somebody  X  and  X  is  everybody  .
 there is  somebody  X  and  X  is  Mary  .
 there is  somebody  X  and  X  is  somebody  .
 there is  somebody  X  and  X  is  X  .
-there is  somebody  X  such that  everybody  asks  everybody  .
-there is  somebody  X  such that  everybody  asks  Mary  .
-there is  somebody  X  such that  everybody  asks  somebody  .
-there is  somebody  X  such that  everybody  asks  X  .
-there is  somebody  X  such that  everybody  is  everybody  .
-there is  somebody  X  such that  everybody  is  Mary  .
-there is  somebody  X  such that  everybody  is  somebody  .
-there is  somebody  X  such that  everybody  is  X  .
-there is  somebody  X  such that  Mary  asks  everybody  .
-there is  somebody  X  such that  Mary  asks  Mary  .
-there is  somebody  X  such that  Mary  asks  somebody  .
-there is  somebody  X  such that  Mary  asks  X  .
-there is  somebody  X  such that  Mary  is  everybody  .
-there is  somebody  X  such that  Mary  is  Mary  .
-there is  somebody  X  such that  Mary  is  somebody  .
-there is  somebody  X  such that  Mary  is  X  .
-there is  somebody  X  such that  somebody  asks  everybody  .
-there is  somebody  X  such that  somebody  asks  Mary  .
-there is  somebody  X  such that  somebody  asks  somebody  .
-there is  somebody  X  such that  somebody  asks  X  .
-there is  somebody  X  such that  somebody  is  everybody  .
-there is  somebody  X  such that  somebody  is  Mary  .
-there is  somebody  X  such that  somebody  is  somebody  .
-there is  somebody  X  such that  somebody  is  X  .
-there is  somebody  X  such that  there is  a  woman  .
-there is  somebody  X  such that  there is  somebody  .  
-there is  somebody  X  such that  X  asks  everybody  .
-there is  somebody  X  such that  X  asks  Mary  .
-there is  somebody  X  such that  X  asks  somebody  .
-there is  somebody  X  such that  X  asks  X  .
-there is  somebody  X  such that  X  is  everybody  .
-there is  somebody  X  such that  X  is  Mary  .
-there is  somebody  X  such that  X  is  somebody  .
-there is  somebody  X  such that  X  is  X  .
 there is  somebody  X  who  asks  a  woman  .
 there is  somebody  X  who  asks  everybody  .  
 there is  somebody  X  who  asks  every  woman  .

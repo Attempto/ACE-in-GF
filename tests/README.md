@@ -36,11 +36,6 @@ Content words: ask, Mary, woman, friend, mad-about.
 
 > bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttemptoAce.gf"
 
-### acewiki_aceowl_modif
-
-Same as `acewiki_aceowl` but some sentences are excluded.
-These sentences feature constructs which are probably easy to fix.
-Result: ~60% parsed.
 
 ### aceeditor
 

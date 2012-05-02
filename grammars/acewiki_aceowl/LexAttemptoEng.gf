@@ -15,7 +15,6 @@ oper
   provably_Adv = ParadigmsEng.mkAdv "provably" ;
   provable_A = mkA "provable" ;
   false_A = mkA "false" ;
-  such_A = mkA "such" ;
  
   genitiveNP np = mkNP (GenNP np) ;
 
