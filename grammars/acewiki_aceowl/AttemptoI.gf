@@ -132,6 +132,9 @@ lin falseS s = mkS (adj_thatCl false_A s) ;
 lin ipQS ip vp = mkQS (mkQCl ip vp) ;
 lin neg_ipQS ip vp = mkQS negativePol (mkQCl ip vp) ;
 
+lin slash_ipQS ip np v2 = mkQS (mkQCl ip (mkClSlash np v2)) ;
+lin neg_slash_ipQS ip np v2 = mkQS negativePol (mkQCl ip (mkClSlash np v2)) ;
+
 lin whoSg_IP = Syntax.whoSg_IP ;
 lin whatSg_IP = Syntax.whatSg_IP ;
 
