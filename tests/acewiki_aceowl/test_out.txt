@@ -7114,7 +7114,6 @@ for every  woman  there is  a  woman  X  .  |OK
 for every  woman  there is  exactly  1  woman  .  |OK
 for every  woman  there is  somebody  .      |OK
 for every  woman  there is  somebody  and  there is  somebody  .|OK
-for every  woman  there is  somebody  such that  there is  somebody  .|FAIL for every woman there is somebody such
 for every  woman  there is  somebody  who  asks  everybody  .|OK
 for every  woman  there is  somebody  who  asks  Mary  .|OK
 for every  woman  there is  somebody  who  asks  somebody  .|OK
@@ -15906,7 +15905,6 @@ there is  a  friend of  a  woman  .    |OK
 there is  a  friend of  a  woman  X  .  |OK
 there is  a  friend of  everybody  .      |OK
 there is  a  friend of  everybody  and  there is  somebody  .|OK
-there is  a  friend of  everybody  such that  there is  somebody  .|OK
 there is  a  friend of  everybody  who  asks  everybody  .|OK
 there is  a  friend of  everybody  who  asks  Mary  .|OK
 there is  a  friend of  everybody  who  asks  somebody  .|OK
@@ -15934,7 +15932,6 @@ there is  a  friend of  exactly  1  woman  .  |OK
 there is  a  friend of  exactly  2  women  .  |OK
 there is  a  friend of  Mary  .      |OK
 there is  a  friend of  Mary  and  there is  somebody  .|OK
-there is  a  friend of  Mary  such that  there is  somebody  .|OK
 there is  a  friend of  Mary  who  asks  everybody  .|OK
 there is  a  friend of  Mary  who  asks  Mary  .|OK
 there is  a  friend of  Mary  who  asks  somebody  .|OK
@@ -15949,7 +15946,6 @@ there is  a  friend of  Mary  who  somebody  asks  .|OK
 there is  a  friend of  Mary  who  X  asks  .|OK
 there is  a  friend of  somebody  .      |OK
 there is  a  friend of  somebody  and  there is  somebody  .|OK
-there is  a  friend of  somebody  such that  there is  somebody  .|OK
 there is  a  friend of  somebody  who  asks  everybody  .|OK
 there is  a  friend of  somebody  who  asks  Mary  .|OK
 there is  a  friend of  somebody  who  asks  somebody  .|OK
@@ -15965,7 +15961,6 @@ there is  a  friend of  somebody  who  X  asks  .|OK
 there is  a  friend of  somebody  X  .    |OK
 there is  a  friend of  X  .      |OK
 there is  a  friend of  X  and  there is  somebody  .|OK
-there is  a  friend of  X  such that  there is  somebody  .|OK
 there is  a  woman  .        |OK
 there is  a  woman  and  everybody  asks  everybody  .|OK
 there is  a  woman  and  everybody  asks  Mary  .|OK
@@ -16020,59 +16015,6 @@ there is  a  woman  and  X  is  Mary  .|OK
 there is  a  woman  and  X  is  somebody  .|OK
 there is  a  woman  and  X  is  the woman  .|OK
 there is  a  woman  and  X  is  X  .|OK
-there is  a  woman  such that  everybody  asks  everybody  .|OK
-there is  a  woman  such that  everybody  asks  Mary  .|OK
-there is  a  woman  such that  everybody  asks  somebody  .|OK
-there is  a  woman  such that  everybody  asks  the woman  .|OK
-there is  a  woman  such that  everybody  asks  X  .|OK
-there is  a  woman  such that  everybody  is  everybody  .|OK
-there is  a  woman  such that  everybody  is  Mary  .|OK
-there is  a  woman  such that  everybody  is  somebody  .|OK
-there is  a  woman  such that  everybody  is  the woman  .|OK
-there is  a  woman  such that  everybody  is  X  .|OK
-there is  a  woman  such that  Mary  asks  everybody  .|OK
-there is  a  woman  such that  Mary  asks  Mary  .|OK
-there is  a  woman  such that  Mary  asks  somebody  .|OK
-there is  a  woman  such that  Mary  asks  the woman  .|OK
-there is  a  woman  such that  Mary  asks  X  .|OK
-there is  a  woman  such that  Mary  is  everybody  .|OK
-there is  a  woman  such that  Mary  is  Mary  .|OK
-there is  a  woman  such that  Mary  is  somebody  .|OK
-there is  a  woman  such that  Mary  is  the woman  .|OK
-there is  a  woman  such that  Mary  is  X  .|OK
-there is  a  woman  such that  somebody  asks  everybody  .|OK
-there is  a  woman  such that  somebody  asks  Mary  .|OK
-there is  a  woman  such that  somebody  asks  somebody  .|OK
-there is  a  woman  such that  somebody  asks  the woman  .|OK
-there is  a  woman  such that  somebody  asks  X  .|OK
-there is  a  woman  such that  somebody  is  everybody  .|OK
-there is  a  woman  such that  somebody  is  Mary  .|OK
-there is  a  woman  such that  somebody  is  somebody  .|OK
-there is  a  woman  such that  somebody  is  the woman  .|OK
-there is  a  woman  such that  somebody  is  X  .|OK
-there is  a  woman  such that  there is  a  woman  .|OK
-there is  a  woman  such that  there is  somebody  .  |OK
-there is  a  woman  such that  there is  somebody  X  .|OK
-there is  a  woman  such that  the woman  asks  everybody  .|OK
-there is  a  woman  such that  the woman  asks  Mary  .|OK
-there is  a  woman  such that  the woman  asks  somebody  .|OK
-there is  a  woman  such that  the woman  asks  the woman  .|OK
-there is  a  woman  such that  the woman  asks  X  .|OK
-there is  a  woman  such that  the woman  is  everybody  .|OK
-there is  a  woman  such that  the woman  is  Mary  .|OK
-there is  a  woman  such that  the woman  is  somebody  .|OK
-there is  a  woman  such that  the woman  is  the woman  .|OK
-there is  a  woman  such that  the woman  is  X  .|OK
-there is  a  woman  such that  X  asks  everybody  .|OK
-there is  a  woman  such that  X  asks  Mary  .|OK
-there is  a  woman  such that  X  asks  somebody  .|OK
-there is  a  woman  such that  X  asks  the woman  .|OK
-there is  a  woman  such that  X  asks  X  .|OK
-there is  a  woman  such that  X  is  everybody  .|OK
-there is  a  woman  such that  X  is  Mary  .|OK
-there is  a  woman  such that  X  is  somebody  .|OK
-there is  a  woman  such that  X  is  the woman  .|OK
-there is  a  woman  such that  X  is  X  .|OK
 there is  a  woman  who  asks  a  woman  .|OK
 there is  a  woman  who  asks  everybody  .  |OK
 there is  a  woman  who  asks  everybody  X  .|OK
@@ -16127,7 +16069,6 @@ there is  a  woman  who  X  asks  .  |OK
 there is  a  woman  who  X  does not  ask  .|OK
 there is  a  woman  X  .      |OK
 there is  a  woman  X  and  there is  somebody  .|OK
-there is  a  woman  X  such that  there is  somebody  .|OK
 there is  a  woman  X  who  asks  everybody  .|OK
 there is  a  woman  X  who  asks  Mary  .|OK
 there is  a  woman  X  who  asks  somebody  .|OK
@@ -16145,7 +16086,6 @@ there is  a  woman  X  who  the woman  asks  .|OK
 there is  a  woman  X  who  X  asks  .|OK
 there is  exactly  1  woman  .      |OK
 there is  exactly  1  woman  and  there is  somebody  .|OK
-there is  exactly  1  woman  such that  there is  somebody  .|OK
 there is  somebody  .          |OK
 there is  somebody  and  a  woman  asks  everybody  .|OK
 there is  somebody  and  a  woman  asks  Mary  .|OK
@@ -16349,208 +16289,6 @@ there is  somebody  and  X  is  not  somebody  .|OK
 there is  somebody  and  X  is  not  X  .|OK
 there is  somebody  and  X  is  somebody  .  |OK
 there is  somebody  and  X  is  X  .  |OK
-there is  somebody  such that  a  woman  asks  everybody  .|FAIL there is somebody such
-there is  somebody  such that  a  woman  asks  Mary  .|FAIL there is somebody such
-there is  somebody  such that  a  woman  asks  somebody  .|FAIL there is somebody such
-there is  somebody  such that  a  woman  asks  the woman  .|FAIL there is somebody such
-there is  somebody  such that  a  woman  asks  X  .|FAIL there is somebody such
-there is  somebody  such that  a  woman  is  everybody  .|FAIL there is somebody such
-there is  somebody  such that  a  woman  is  Mary  .|FAIL there is somebody such
-there is  somebody  such that  a  woman  is  somebody  .|FAIL there is somebody such
-there is  somebody  such that  a  woman  is  the woman  .|FAIL there is somebody such
-there is  somebody  such that  a  woman  is  X  .|FAIL there is somebody such
-there is  somebody  such that  everybody  asks  a  woman  .|FAIL there is somebody such
-there is  somebody  such that  everybody  asks  everybody  .  |FAIL there is somebody such
-there is  somebody  such that  everybody  asks  everybody  X  .|FAIL there is somebody such
-there is  somebody  such that  everybody  asks  every  woman  .|FAIL there is somebody such
-there is  somebody  such that  everybody  asks  Mary  .  |FAIL there is somebody such
-there is  somebody  such that  everybody  asks  somebody  .  |FAIL there is somebody such
-there is  somebody  such that  everybody  asks  somebody  X  .|FAIL there is somebody such
-there is  somebody  such that  everybody  asks  X  .  |FAIL there is somebody such
-there is  somebody  such that  everybody  does not  ask  everybody  .|FAIL there is somebody such
-there is  somebody  such that  everybody  does not  ask  Mary  .|FAIL there is somebody such
-there is  somebody  such that  everybody  does not  ask  somebody  .|FAIL there is somebody such
-there is  somebody  such that  everybody  does not  ask  X  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  asked by  everybody  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  asked by  Mary  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  asked by  somebody  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  asked by  X  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  a  woman  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  everybody  .  |FAIL there is somebody such
-there is  somebody  such that  everybody  is  everybody  X  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  every  woman  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  mad-about  everybody  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  mad-about  Mary  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  mad-about  somebody  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  mad-about  X  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  Mary  .  |FAIL there is somebody such
-there is  somebody  such that  everybody  is  not  everybody  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  not  Mary  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  not  somebody  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  not  X  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  somebody  .  |FAIL there is somebody such
-there is  somebody  such that  everybody  is  somebody  X  .|FAIL there is somebody such
-there is  somebody  such that  everybody  is  X  .  |FAIL there is somebody such
-there is  somebody  such that  everybody  X  asks  everybody  .|FAIL there is somebody such
-there is  somebody  such that  everybody  X  asks  Mary  .|FAIL there is somebody such
-there is  somebody  such that  everybody  X  asks  somebody  .|FAIL there is somebody such
-there is  somebody  such that  everybody  X  asks  X  .|FAIL there is somebody such
-there is  somebody  such that  everybody  X  is  everybody  .|FAIL there is somebody such
-there is  somebody  such that  everybody  X  is  Mary  .|FAIL there is somebody such
-there is  somebody  such that  everybody  X  is  somebody  .|FAIL there is somebody such
-there is  somebody  such that  everybody  X  is  X  .|FAIL there is somebody such
-there is  somebody  such that  every  woman  asks  everybody  .|FAIL there is somebody such
-there is  somebody  such that  every  woman  asks  Mary  .|FAIL there is somebody such
-there is  somebody  such that  every  woman  asks  somebody  .|FAIL there is somebody such
-there is  somebody  such that  every  woman  asks  the woman  .|FAIL there is somebody such
-there is  somebody  such that  every  woman  asks  X  .|FAIL there is somebody such
-there is  somebody  such that  every  woman  is  everybody  .|FAIL there is somebody such
-there is  somebody  such that  every  woman  is  Mary  .|FAIL there is somebody such
-there is  somebody  such that  every  woman  is  somebody  .|FAIL there is somebody such
-there is  somebody  such that  every  woman  is  the woman  .|FAIL there is somebody such
-there is  somebody  such that  every  woman  is  X  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  everybody  asks  everybody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  everybody  asks  Mary  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  everybody  asks  somebody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  everybody  asks  X  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  everybody  is  everybody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  everybody  is  Mary  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  everybody  is  somebody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  everybody  is  X  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  Mary  asks  everybody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  Mary  asks  Mary  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  Mary  asks  somebody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  Mary  asks  X  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  Mary  is  everybody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  Mary  is  Mary  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  Mary  is  somebody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  Mary  is  X  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  somebody  asks  everybody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  somebody  asks  Mary  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  somebody  asks  somebody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  somebody  asks  X  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  somebody  is  everybody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  somebody  is  Mary  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  somebody  is  somebody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  somebody  is  X  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  X  asks  everybody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  X  asks  Mary  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  X  asks  somebody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  X  asks  X  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  X  is  everybody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  X  is  Mary  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  X  is  somebody  .|FAIL there is somebody such
-there is  somebody  such that  it is false that  X  is  X  .|FAIL there is somebody such
-there is  somebody  such that  Mary  asks  a  woman  .|FAIL there is somebody such
-there is  somebody  such that  Mary  asks  everybody  .  |FAIL there is somebody such
-there is  somebody  such that  Mary  asks  everybody  X  .|FAIL there is somebody such
-there is  somebody  such that  Mary  asks  every  woman  .|FAIL there is somebody such
-there is  somebody  such that  Mary  asks  Mary  .  |FAIL there is somebody such
-there is  somebody  such that  Mary  asks  somebody  .  |FAIL there is somebody such
-there is  somebody  such that  Mary  asks  somebody  X  .|FAIL there is somebody such
-there is  somebody  such that  Mary  asks  X  .  |FAIL there is somebody such
-there is  somebody  such that  Mary  does not  ask  everybody  .|FAIL there is somebody such
-there is  somebody  such that  Mary  does not  ask  Mary  .|FAIL there is somebody such
-there is  somebody  such that  Mary  does not  ask  somebody  .|FAIL there is somebody such
-there is  somebody  such that  Mary  does not  ask  X  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  asked by  everybody  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  asked by  Mary  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  asked by  somebody  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  asked by  X  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  a  woman  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  everybody  .  |FAIL there is somebody such
-there is  somebody  such that  Mary  is  everybody  X  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  every  woman  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  mad-about  everybody  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  mad-about  Mary  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  mad-about  somebody  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  mad-about  X  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  Mary  .  |FAIL there is somebody such
-there is  somebody  such that  Mary  is  not  everybody  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  not  Mary  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  not  somebody  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  not  X  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  somebody  .  |FAIL there is somebody such
-there is  somebody  such that  Mary  is  somebody  X  .|FAIL there is somebody such
-there is  somebody  such that  Mary  is  X  .  |FAIL there is somebody such
-there is  somebody  such that  somebody  asks  a  woman  .|FAIL there is somebody such
-there is  somebody  such that  somebody  asks  everybody  .  |FAIL there is somebody such
-there is  somebody  such that  somebody  asks  everybody  X  .|FAIL there is somebody such
-there is  somebody  such that  somebody  asks  every  woman  .|FAIL there is somebody such
-there is  somebody  such that  somebody  asks  Mary  .  |FAIL there is somebody such
-there is  somebody  such that  somebody  asks  somebody  .  |FAIL there is somebody such
-there is  somebody  such that  somebody  asks  somebody  X  .|FAIL there is somebody such
-there is  somebody  such that  somebody  asks  X  .  |FAIL there is somebody such
-there is  somebody  such that  somebody  does not  ask  everybody  .|FAIL there is somebody such
-there is  somebody  such that  somebody  does not  ask  Mary  .|FAIL there is somebody such
-there is  somebody  such that  somebody  does not  ask  somebody  .|FAIL there is somebody such
-there is  somebody  such that  somebody  does not  ask  X  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  asked by  everybody  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  asked by  Mary  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  asked by  somebody  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  asked by  X  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  a  woman  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  everybody  .  |FAIL there is somebody such
-there is  somebody  such that  somebody  is  everybody  X  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  every  woman  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  mad-about  everybody  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  mad-about  Mary  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  mad-about  somebody  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  mad-about  X  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  Mary  .  |FAIL there is somebody such
-there is  somebody  such that  somebody  is  not  everybody  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  not  Mary  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  not  somebody  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  not  X  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  somebody  .  |FAIL there is somebody such
-there is  somebody  such that  somebody  is  somebody  X  .|FAIL there is somebody such
-there is  somebody  such that  somebody  is  X  .  |FAIL there is somebody such
-there is  somebody  such that  somebody  X  asks  everybody  .|FAIL there is somebody such
-there is  somebody  such that  somebody  X  asks  Mary  .|FAIL there is somebody such
-there is  somebody  such that  somebody  X  asks  somebody  .|FAIL there is somebody such
-there is  somebody  such that  somebody  X  asks  X  .|FAIL there is somebody such
-there is  somebody  such that  somebody  X  is  everybody  .|FAIL there is somebody such
-there is  somebody  such that  somebody  X  is  Mary  .|FAIL there is somebody such
-there is  somebody  such that  somebody  X  is  somebody  .|FAIL there is somebody such
-there is  somebody  such that  somebody  X  is  X  .|FAIL there is somebody such
-there is  somebody  such that  there are  exactly  2  women  .|FAIL there is somebody such
-there is  somebody  such that  there is  a  friend of  everybody  .|FAIL there is somebody such
-there is  somebody  such that  there is  a  friend of  Mary  .|FAIL there is somebody such
-there is  somebody  such that  there is  a  friend of  somebody  .|FAIL there is somebody such
-there is  somebody  such that  there is  a  friend of  X  .|FAIL there is somebody such
-there is  somebody  such that  there is  a  woman  .  |FAIL there is somebody such
-there is  somebody  such that  there is  a  woman  X  .|FAIL there is somebody such
-there is  somebody  such that  there is  exactly  1  woman  .|FAIL there is somebody such
-there is  somebody  such that  there is  somebody  .    |FAIL there is somebody such
-there is  somebody  such that  there is  somebody  X  .  |FAIL there is somebody such
-there is  somebody  such that  X  asks  a  woman  .|FAIL there is somebody such
-there is  somebody  such that  X  asks  everybody  .  |FAIL there is somebody such
-there is  somebody  such that  X  asks  every  woman  .|FAIL there is somebody such
-there is  somebody  such that  X  asks  Mary  .  |FAIL there is somebody such
-there is  somebody  such that  X  asks  somebody  .  |FAIL there is somebody such
-there is  somebody  such that  X  asks  X  .  |FAIL there is somebody such
-there is  somebody  such that  X  does not  ask  everybody  .|FAIL there is somebody such
-there is  somebody  such that  X  does not  ask  Mary  .|FAIL there is somebody such
-there is  somebody  such that  X  does not  ask  somebody  .|FAIL there is somebody such
-there is  somebody  such that  X  does not  ask  X  .|FAIL there is somebody such
-there is  somebody  such that  X  is  asked by  everybody  .|FAIL there is somebody such
-there is  somebody  such that  X  is  asked by  Mary  .|FAIL there is somebody such
-there is  somebody  such that  X  is  asked by  somebody  .|FAIL there is somebody such
-there is  somebody  such that  X  is  asked by  X  .|FAIL there is somebody such
-there is  somebody  such that  X  is  a  woman  .|FAIL there is somebody such
-there is  somebody  such that  X  is  everybody  .  |FAIL there is somebody such
-there is  somebody  such that  X  is  every  woman  .|FAIL there is somebody such
-there is  somebody  such that  X  is  mad-about  everybody  .|FAIL there is somebody such
-there is  somebody  such that  X  is  mad-about  Mary  .|FAIL there is somebody such
-there is  somebody  such that  X  is  mad-about  somebody  .|FAIL there is somebody such
-there is  somebody  such that  X  is  mad-about  X  .|FAIL there is somebody such
-there is  somebody  such that  X  is  Mary  .  |FAIL there is somebody such
-there is  somebody  such that  X  is  not  everybody  .|FAIL there is somebody such
-there is  somebody  such that  X  is  not  Mary  .|FAIL there is somebody such
-there is  somebody  such that  X  is  not  somebody  .|FAIL there is somebody such
-there is  somebody  such that  X  is  not  X  .|FAIL there is somebody such
-there is  somebody  such that  X  is  somebody  .  |FAIL there is somebody such
-there is  somebody  such that  X  is  X  .  |FAIL there is somebody such
 there is  somebody  who  a  friend of  everybody  asks  .|OK
 there is  somebody  who  a  friend of  Mary  asks  .|OK
 there is  somebody  who  a  friend of  somebody  asks  .|OK
@@ -16692,40 +16430,6 @@ there is  somebody  X  and  X  is  everybody  .|OK
 there is  somebody  X  and  X  is  Mary  .|OK
 there is  somebody  X  and  X  is  somebody  .|OK
 there is  somebody  X  and  X  is  X  .|OK
-there is  somebody  X  such that  everybody  asks  everybody  .|FAIL there is somebody X such
-there is  somebody  X  such that  everybody  asks  Mary  .|FAIL there is somebody X such
-there is  somebody  X  such that  everybody  asks  somebody  .|FAIL there is somebody X such
-there is  somebody  X  such that  everybody  asks  X  .|FAIL there is somebody X such
-there is  somebody  X  such that  everybody  is  everybody  .|FAIL there is somebody X such
-there is  somebody  X  such that  everybody  is  Mary  .|FAIL there is somebody X such
-there is  somebody  X  such that  everybody  is  somebody  .|FAIL there is somebody X such
-there is  somebody  X  such that  everybody  is  X  .|FAIL there is somebody X such
-there is  somebody  X  such that  Mary  asks  everybody  .|FAIL there is somebody X such
-there is  somebody  X  such that  Mary  asks  Mary  .|FAIL there is somebody X such
-there is  somebody  X  such that  Mary  asks  somebody  .|FAIL there is somebody X such
-there is  somebody  X  such that  Mary  asks  X  .|FAIL there is somebody X such
-there is  somebody  X  such that  Mary  is  everybody  .|FAIL there is somebody X such
-there is  somebody  X  such that  Mary  is  Mary  .|FAIL there is somebody X such
-there is  somebody  X  such that  Mary  is  somebody  .|FAIL there is somebody X such
-there is  somebody  X  such that  Mary  is  X  .|FAIL there is somebody X such
-there is  somebody  X  such that  somebody  asks  everybody  .|FAIL there is somebody X such
-there is  somebody  X  such that  somebody  asks  Mary  .|FAIL there is somebody X such
-there is  somebody  X  such that  somebody  asks  somebody  .|FAIL there is somebody X such
-there is  somebody  X  such that  somebody  asks  X  .|FAIL there is somebody X such
-there is  somebody  X  such that  somebody  is  everybody  .|FAIL there is somebody X such
-there is  somebody  X  such that  somebody  is  Mary  .|FAIL there is somebody X such
-there is  somebody  X  such that  somebody  is  somebody  .|FAIL there is somebody X such
-there is  somebody  X  such that  somebody  is  X  .|FAIL there is somebody X such
-there is  somebody  X  such that  there is  a  woman  .|FAIL there is somebody X such
-there is  somebody  X  such that  there is  somebody  .  |FAIL there is somebody X such
-there is  somebody  X  such that  X  asks  everybody  .|FAIL there is somebody X such
-there is  somebody  X  such that  X  asks  Mary  .|FAIL there is somebody X such
-there is  somebody  X  such that  X  asks  somebody  .|FAIL there is somebody X such
-there is  somebody  X  such that  X  asks  X  .|FAIL there is somebody X such
-there is  somebody  X  such that  X  is  everybody  .|FAIL there is somebody X such
-there is  somebody  X  such that  X  is  Mary  .|FAIL there is somebody X such
-there is  somebody  X  such that  X  is  somebody  .|FAIL there is somebody X such
-there is  somebody  X  such that  X  is  X  .|FAIL there is somebody X such
 there is  somebody  X  who  asks  a  woman  .|OK
 there is  somebody  X  who  asks  everybody  .  |OK
 there is  somebody  X  who  asks  every  woman  .|OK

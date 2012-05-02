@@ -10,7 +10,6 @@ oper
   provably_Adv = mkAdv "bevisbart" ;
   provable_A = mkA "bevisbar" ;
   false_A = mkA "falsk" ;
-  such_A = mkA "sådan" ;
 
   genitiveNP np = mkNP (GenNP np) ;
 

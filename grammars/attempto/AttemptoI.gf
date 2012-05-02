@@ -126,8 +126,6 @@ lin andRS = mkRS and_Conj ;
 lin orRS = mkRS or_Conj ;
 lin eachRP = mkRP part_Prep (mkNP each_Det) Syntax.which_RP ;
 
-lin suchCN cn s = mkCN (mkAP (mkAP such_A) s) cn ;
-
 lin predRS rp vp = mkRS (mkRCl rp vp) ;
 lin neg_predRS rp vp = mkRS negativePol (mkRCl rp vp) ;
 lin slashRS rp np v2 = mkRS (mkRCl rp np v2) ;

@@ -1,10 +1,8 @@
-    202 there is somebody such
      76 a friend of which
      46 a friend of who
      40 somebody asks which
      40 Mary asks which
      37 X asks which
-     34 there is somebody X such
      33 somebody is which
      33 Mary is which
      30 X is which
@@ -1013,7 +1011,6 @@
       1 Mary asks a woman and asks who
       1 Mary asks a friend of who
       1 Mary asks a friend of a friend of who
-      1 for every woman there is somebody such
       1 exactly 2 women do not ask who
       1 exactly 2 women ask who
       1 exactly 2 women ask a friend of who

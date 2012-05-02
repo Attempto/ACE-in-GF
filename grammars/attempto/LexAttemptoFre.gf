@@ -11,7 +11,6 @@ oper
   provably_Adv = mkAdv "démontrablement" ;
   provable_A = mkA "démontrable" ;
   false_A = mkA "faux" ;
-  such_A = mkA "tel" "telle" ;
 
   genitiveNP np cn = mkNP (mkNP the_Art cn) (SyntaxFre.mkAdv possess_Prep np) ;
 

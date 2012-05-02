@@ -16,7 +16,6 @@ oper
   provably_Adv = ParadigmsUrd.mkAdv "sabt" ;
   provable_A = mkA "sabt" ;
   false_A = mkA "GlT" ;
-  such_A = mkA "aisa" ;
  
   genitiveNP np = mkNP (GenNP np) ;
 
