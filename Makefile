@@ -7,7 +7,7 @@ test_all:
 	bash run-all-tests.bash
 
 test_acewiki_aceowl:
-	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttempto{Ace,Eng}.gf"
+	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttempto{Ace,}.gf"
 	bash run-test.bash tests/acewiki_aceowl/sentences.txt
 
 test_acewiki_aceowl_with_diff:
@@ -26,3 +26,5 @@ batch_acewiki_aceowl:
 	clear
 	gf --batch --path=present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/api "words/acewiki_aceowl/TestAttemptoAce.gf"
 
+clean:
+	find -name *.gfo | xargs rm
