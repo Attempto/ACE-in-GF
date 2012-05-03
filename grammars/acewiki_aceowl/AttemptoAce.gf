@@ -5,17 +5,16 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [a
   (Symbolic = SymbolicAce),
   (LexAttempto = LexAttemptoAce) ** open SyntaxAce, ExtraAce, ResAce, Precedence in {
 
-  -- Variables have genitives
+  -- Variables have genitives [JJC]
   lincat Var = {s : Case => Str};
   lin var_Term v = mkpConst (NomVar v) ;
   lin X_Var = {s = regGenitiveS "X"} ;
   lin Y_Var = {s = regGenitiveS "Y"} ;
   oper NomVar : {s : Case => Str} -> Str = \v -> v.s ! Nom ;
 
-  -- IndefPron -> Var -> NP [JJC]
-  -- We use an oper to reduce the headaches with importing everything in this module
+  -- "somebody X" etc  [JJC]
   lin indefPronVarNP pr v = lin NP {
-    s = \\c => pr.s ! NCase Nom ++ v.s ! (npcase2case c) ; -- with genitive
+    s = \\c => pr.s ! NCase Nom ++ v.s ! (npcase2case c) ; -- with genitive "somebody X's"
 --    s = \\c => pr.s ! NCase Nom ++ v.s ! (npcase2case (NCase Nom)) ; -- no inflection for genitive
     a = pr.a
   };
@@ -25,23 +24,18 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [a
 
 
   lincat
-
-  VPS = ExtraAce.VPS ;
-  [VPS] = ExtraAce.ListVPS ;
+    VPS = ExtraAce.VPS ;
+    [VPS] = ExtraAce.ListVPS ;
 
   lin
 
   -- MkVPS, PredVPS, ConjVPS are functions, not opers
 
   vp_as_posVPS = MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
-
-  -- TODO: this causes the compiler to loop?
-  --vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) negativePol ;
+--  vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) negativePol ;
 
   -- Extra: ConjVPS : Conj -> [VPS] -> VPS
-  coordVPS = ExtraAce.ConjVPS ;
-
-  predVPS = ExtraAce.PredVPS ;
+  superVPS np conj vpss = ExtraAce.PredVPS np (ExtraAce.ConjVPS conj vpss);
 
   BaseVPS = ExtraAce.BaseVPS ;
   ConsVPS = ExtraAce.ConsVPS ;
