@@ -35,13 +35,13 @@ lincat RP = Syntax.RP ;
 lincat MCN = Syntax.CN ;
 lincat PP = Syntax.Adv ;
 
-lin aNP = mkNP a_Art ;
-lin theNP = mkNP the_Art ;
-lin cardNP d = mkNP d ;
-lin noNP = mkNP no_Quant ;
-lin everyNP = mkNP every_Det ;
+lin aNP = Syntax.mkNP a_Art ;
+lin theNP = Syntax.mkNP the_Art ;
+lin cardNP d = Syntax.mkNP d ;
+lin noNP = Syntax.mkNP no_Quant ;
+lin everyNP = Syntax.mkNP every_Det ;
 
-lin pnNP = mkNP ;
+lin pnNP = Syntax.mkNP ;
 
 -- [JJC]
 lin somebody_IPron = Syntax.somebody_NP ;
@@ -55,13 +55,13 @@ lin nothing_IPron = Syntax.nothing_NP ;
 lin indefPronNP pr = pr;
 lin indefPronVarNP pr var = pr ; -- Default ignores variable! This sould be overridden [JJC]
 
-lin at_leastNP ca = mkNP (mkCard at_least_AdN ca) ;
-lin at_mostNP ca = mkNP (mkCard at_most_AdN ca) ;
-lin more_thanNP ca = mkNP (mkCard (mkAdN more_CAdv) ca) ;
-lin less_thanNP ca = mkNP (mkCard (mkAdN less_CAdv) ca) ;
-lin exactlyNP ca = mkNP (mkCard exactly_AdN ca) ;
+lin at_leastNP ca = Syntax.mkNP (Syntax.mkCard at_least_AdN ca) ;
+lin at_mostNP ca = Syntax.mkNP (Syntax.mkCard at_most_AdN ca) ;
+lin more_thanNP ca = Syntax.mkNP (Syntax.mkCard (mkAdN more_CAdv) ca) ;
+lin less_thanNP ca = Syntax.mkNP (Syntax.mkCard (mkAdN less_CAdv) ca) ;
+lin exactlyNP ca = Syntax.mkNP (Syntax.mkCard exactly_AdN ca) ;
 
-lin nothing_butNP cn = mkNP Syntax.nothing_NP (mkAdv except_Prep (mkNP a_Art plNum cn)) ;
+lin nothing_butNP cn = Syntax.mkNP Syntax.nothing_NP (mkAdv except_Prep (Syntax.mkNP a_Art plNum cn)) ;
 
 lincat Unit = Syntax.CN ;
 
@@ -72,7 +72,7 @@ lin termNP x = symb (ss x.s) ;
 -- 2.2.2
 
 lin relCN = mkCN ;
-lin relNP = mkNP ;
+lin relNP = Syntax.mkNP ;
 
 lin andRS = mkRS Syntax.and_Conj ;
 lin orRS = mkRS Syntax.or_Conj ;
@@ -115,7 +115,7 @@ lin or_Conj = Syntax.or_Conj ;
 
 -- 3.4.3
 
-lin for_everyS cn = mkS (mkAdv for_Prep (mkNP every_Det cn)) ;
+lin for_everyS cn = mkS (mkAdv for_Prep (Syntax.mkNP every_Det cn)) ;
 
 -- 3.4.4
 
@@ -135,7 +135,7 @@ lin neg_slash_ipQS ip np v2 = mkQS negativePol (mkQCl ip (mkClSlash np v2)) ;
 lin whoSg_IP = Syntax.whoSg_IP ;
 lin whatSg_IP = Syntax.whatSg_IP ;
 
-lin whichIP = mkIP ;
+lin whichIP = Syntax.mkIP ;
 lin which_IDet = Syntax.which_IDet ;
 lin whichPl_IDet = Syntax.whichPl_IDet ;
 
@@ -150,7 +150,7 @@ lin qsText = mkText ;
 --- more
 
 lin npVP = mkVP ;
-lin digitsCard n = mkCard <lin Digits n : Digits> ;
+lin digitsCard n = Syntax.mkCard <lin Digits n : Digits> ;
 lin v2_byVP v2 np = mkVP (passiveVP v2) (mkAdv by8agent_Prep np) ;
 
 }
