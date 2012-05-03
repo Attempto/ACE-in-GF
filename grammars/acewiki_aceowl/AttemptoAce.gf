@@ -29,16 +29,12 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [a
 
   lin
 
-  -- MkVPS, PredVPS, ConjVPS are functions, not opers
-
-  vp_as_posVPS = MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
---  vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) negativePol ;
-
-  -- Extra: ConjVPS : Conj -> [VPS] -> VPS
-  superVPS np conj vpss = ExtraAce.PredVPS np (ExtraAce.ConjVPS conj vpss);
-
+  -- VP coordination with reduced ambiguity [JJC]
   BaseVPS = ExtraAce.BaseVPS ;
   ConsVPS = ExtraAce.ConsVPS ;
+  vp_as_posVPS = MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
+  vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) UncNeg ;
+  np_coord_VPS np conj vpss = ExtraAce.PredVPS np (ExtraAce.ConjVPS conj vpss);
 
   -- Add variant for "John does wait" [JJC]
   vVP v = mkVP v | mkVP ExtraAce.do_VV (mkVP v) ;

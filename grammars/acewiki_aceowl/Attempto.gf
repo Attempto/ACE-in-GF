@@ -122,16 +122,13 @@ fun coordS : Conj -> S -> S -> S ;
 fun and_Conj : Conj ;
 fun or_Conj : Conj ;
 
-
 -- In order to implement VP coordination, we
 -- (1) convert VP into VPS,
 -- (2) use VPS coordination producing VPS,
 -- (3) map VPS into S (and QS?) (but definitely not into RS).
 fun vp_as_posVPS : VP -> VPS ;
 fun vp_as_negVPS : VP -> VPS ;
-
-fun superVPS : NP -> Conj -> [VPS] -> S ;
-
+fun np_coord_VPS : NP -> Conj -> [VPS] -> S ;
 
 -- 3.4.3
 
