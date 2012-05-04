@@ -2,9 +2,9 @@ abstract TestAttempto = Attempto ** {
 
 fun
 
-  woman_N, man_N : CN ;
+  woman_CN, man_CN : CN ;
   mary_PN, john_PN : PN ;
-  friend_N : CN ;
+  friend_CN : CN ;
   wait_V : V ;
   ask_V2 : V2 ;
   mad_A : A ;

@@ -1,5 +1,5 @@
 --# -path=.:./present
-concrete AttemptoUrd of Attempto = SymbolsC ** AttemptoI - [mustVP] with
+concrete AttemptoUrd of Attempto = NumeralUrd, SymbolsC ** AttemptoI - [mustVP] with
   (Syntax = SyntaxUrd),
   (Symbolic = SymbolicUrd),
   (LexAttempto = LexAttemptoUrd) ;

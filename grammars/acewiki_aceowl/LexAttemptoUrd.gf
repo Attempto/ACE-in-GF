@@ -3,9 +3,7 @@ instance LexAttemptoUrd of LexAttempto =
    ExtraUrd,  
    SyntaxUrd, 
    ParadigmsUrd, 
-   ConstructX, 
-   (M = MakeStructuralUrd)
---   IrregUrd 
+   ConstructX
    in {
 
 oper
@@ -13,4 +11,5 @@ oper
 
   adj_thatCl : A -> S -> Cl = \a,s -> mkCl (mkVP (mkAP (mkAP a) s)) ;
 
+  exactly_AdN = ParadigmsUrd.mkAdN "TODO" ;
 }
