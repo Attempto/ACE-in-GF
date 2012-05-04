@@ -11,5 +11,5 @@ oper
   adj_thatCl : A -> S -> Cl = \a,s -> 
     mkCl (mkVP (mkVP (mkAP a)) (SyntaxFre.mkAdv (mkSubj "que") s)) ;
 
-  exactly_AdN = mkAdN "exactement" ;
+  exactly_AdN = ConstructX.mkAdN "exactement" ;
 }
