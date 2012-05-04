@@ -9,6 +9,8 @@ instance LexAttemptoFin of LexAttempto =
    (L = LangFin)
    in {
 
+flags coding=utf8;
+
 oper
   false_A = mkA (mkN "epätosi" "epätoden" "epätosia") ;
  

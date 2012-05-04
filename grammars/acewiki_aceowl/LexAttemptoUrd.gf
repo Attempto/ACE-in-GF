@@ -6,6 +6,8 @@ instance LexAttemptoUrd of LexAttempto =
    ConstructX
    in {
 
+flags coding=utf8;
+
 oper
   false_A = mkA "GlT" ;
 

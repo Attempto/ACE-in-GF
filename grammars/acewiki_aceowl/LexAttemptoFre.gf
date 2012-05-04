@@ -3,6 +3,8 @@ instance LexAttemptoFre of LexAttempto =
     MakeStructuralFre,
     IrregFre, (P = Prelude) in {
 
+flags coding=utf8;
+
 oper
   false_A = mkA "faux" ;
 

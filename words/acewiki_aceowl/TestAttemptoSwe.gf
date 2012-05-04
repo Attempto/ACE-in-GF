@@ -1,6 +1,8 @@
 concrete TestAttemptoSwe of TestAttempto = AttemptoSwe **
   open SyntaxSwe, ParadigmsSwe, IrregSwe, (C = ConstructX), (L = LexiconSwe) in {
 
+  flags coding=utf8;
+
   lin mary_PN      = mkPN "Mary" ;
   lin john_PN      = mkPN "John" ;
   lin woman_CN     = mkCN L.woman_N ;

@@ -2,6 +2,8 @@ instance LexAttemptoSwe of LexAttempto =
   open ExtraSwe, SyntaxSwe, ParadigmsSwe, ConstructX, 
     MakeStructuralSwe, IrregSwe in {
 
+flags coding=utf8;
+
 oper
   false_A = mkA "falsk" ;
 

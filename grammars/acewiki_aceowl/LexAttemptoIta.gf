@@ -3,6 +3,8 @@ instance LexAttemptoIta of LexAttempto =
     MakeStructuralIta, (P = Prelude)
     in {
 
+flags coding=utf8;
+
 oper
   false_A = mkA "falso" ;
 

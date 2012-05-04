@@ -1,6 +1,8 @@
 concrete TestAttemptoAce of TestAttempto = AttemptoAce **
   open SyntaxAce, ParadigmsAce, IrregAce, (C = ConstructX), (L = LexiconAce), (D = DictAce) in {
 
+  flags coding=utf8;
+
   lin mary_PN      = mkPN (mkN feminine (mkN "Mary")) ;
   lin john_PN      = mkPN (mkN masculine (mkN "John")) ;
   lin woman_CN     = mkCN L.woman_N ;

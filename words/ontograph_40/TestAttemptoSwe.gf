@@ -3,6 +3,8 @@
 concrete TestAttemptoSwe of TestAttempto = AttemptoSwe **
   open SyntaxSwe, ParadigmsSwe, (L=LexiconSwe) in {
 
+flags coding=utf8;
+
 lin officer_N = mkCN (mkN "befäl") ;
 lin traveler_N = mkCN (mkN "resenär") ;
 lin woman_N = mkCN L.woman_N ;

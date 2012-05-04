@@ -7,6 +7,8 @@ instance LexAttemptoEng of LexAttempto =
    (M = MakeStructuralEng),
    IrregEng in {
 
+flags coding=utf8;
+
 oper
   false_A = mkA "false" ;
  

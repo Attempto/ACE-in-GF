@@ -3,6 +3,8 @@
 concrete TestAttemptoIta of TestAttempto = AttemptoIta **
   open SyntaxIta, ParadigmsIta, (L=LexiconIta) in {
 
+flags coding=utf8;
+
 lin officer_N = mkCN (mkN "ufficiale") ;
 lin traveler_N = mkCN (mkN "viaggiatore") ;
 lin woman_N = mkCN L.woman_N ;

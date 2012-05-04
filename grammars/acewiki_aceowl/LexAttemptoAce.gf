@@ -7,6 +7,8 @@ instance LexAttemptoAce of LexAttempto =
    (M = MakeStructuralAce),
    IrregAce in {
 
+flags coding=utf8;
+
 oper
   false_A = mkA "false" ;
 

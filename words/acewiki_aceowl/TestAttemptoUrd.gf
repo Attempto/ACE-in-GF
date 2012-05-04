@@ -1,6 +1,8 @@
 concrete TestAttemptoUrd of TestAttempto = AttemptoUrd **
   open SyntaxUrd, ParadigmsUrd, IrregUrd, (C = ConstructX), (L = LexiconUrd) in {
 
+  flags coding=utf8;
+
   lin mary_PN      = mkPN "Mary" ;
   lin john_PN      = mkPN "John" ;
   lin woman_CN     = mkCN L.woman_N ;
