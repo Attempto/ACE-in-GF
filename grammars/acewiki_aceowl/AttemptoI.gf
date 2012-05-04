@@ -53,7 +53,7 @@ lin nothing_IPron = Syntax.nothing_NP ;
 
 -- [JJC]
 lin indefPronNP pr = pr;
-lin indefPronVarNP pr var = pr ; -- Default ignores variable! This sould be overridden [JJC]
+lin indefPronVarNP pr var = symb var ; -- Default ignores pronoun! This sould be overridden [JJC]
 
 lin at_leastNP ca = Syntax.mkNP (Syntax.mkCard at_least_AdN ca) ;
 lin at_mostNP ca = Syntax.mkNP (Syntax.mkCard at_most_AdN ca) ;
