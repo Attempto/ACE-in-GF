@@ -12,7 +12,7 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [a
   lin Y_Var = {s = regGenitiveS "Y"} ;
   oper NomVar : {s : Case => Str} -> Str = \v -> v.s ! Nom ;
 
-  -- "somebody X" etc  [JJC]
+  -- "somebody X" etc [JJC]
   lin indefPronVarNP pr v = lin NP {
     s = \\c => pr.s ! NCase Nom ++ v.s ! (npcase2case c) ; -- with genitive "somebody X's"
 --    s = \\c => pr.s ! NCase Nom ++ v.s ! (npcase2case (NCase Nom)) ; -- no inflection for genitive
@@ -22,19 +22,16 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [a
   -- We overide this because of the linearisation of Var [JJC]
   lin apposVarCN cn v = mkCN cn (symb (NomVar v)) ;
 
-
+  -- VP coordination
   lincat
     VPS = ExtraAce.VPS ;
     [VPS] = ExtraAce.ListVPS ;
-
   lin
-
-  -- VP coordination with reduced ambiguity [JJC]
-  BaseVPS = ExtraAce.BaseVPS ;
-  ConsVPS = ExtraAce.ConsVPS ;
-  vp_as_posVPS = MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
-  vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) UncNeg ;
-  np_coord_VPS np conj vpss = ExtraAce.PredVPS np (ExtraAce.ConjVPS conj vpss);
+    BaseVPS = ExtraAce.BaseVPS ;
+    ConsVPS = ExtraAce.ConsVPS ;
+    vp_as_posVPS = MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
+    vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) UncNeg ;
+    np_coord_VPS np conj vpss = ExtraAce.PredVPS np (ExtraAce.ConjVPS conj vpss);
 
   -- Add variant for "John does wait" [JJC]
   vVP v = mkVP v | mkVP ExtraAce.do_VV (mkVP v) ;
