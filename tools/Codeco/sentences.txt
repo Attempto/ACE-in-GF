@@ -1,0 +1,4 @@
+Mary asks Mary .
+Mary is a friend of at least 2 women . Mary asks Mary .
+this sentence should fail to parse
+everybody asks somebody .

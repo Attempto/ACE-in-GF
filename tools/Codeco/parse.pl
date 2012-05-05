@@ -23,7 +23,7 @@
 % The default encoding of text-streams.
 :- set_prolog_flag(encoding, utf8).
 
-:- consult(testgrammar_dcg).
+:- consult(grammar_dcg).
 
 main :-
 	prompt(_, ''),
@@ -39,7 +39,7 @@ main_loop :-
 	main_loop ; true.
 
 parse(Tokens) :-
-	phrase(complete_sentence(_, _, []/_), Tokens),
+	phrase(text(_, _, []/_), Tokens),
 	format('OK: ~w~n', [Tokens]),
 	!.
 
@@ -63,6 +63,19 @@ ws(0) --> [].
 token('asked by') --> "asked by".
 token('friend of') --> "friend of".
 token('the woman') --> "the woman".
+token('at least') --> "at least".
+token('at most') --> "at most".
+token('more than') --> "more than".
+token('less than') --> "less than".
+token('it is false that') --> "it is false that".
+token('there is') --> "there is".
+token('there are') --> "there are".
+token('for every') --> "for every".
+token('does not') --> "does not".
+token('do not') --> "do not".
+token('does not') --> "does not".
+token('is not') --> "is not".
+token('are not') --> "are not".
 token(T) --> word(T).
 
 word(Word) --> letters([C | Cs]), { atom_codes(Word, [C | Cs]) }.
