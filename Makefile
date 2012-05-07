@@ -52,9 +52,5 @@ batch_acewiki_aceowl:
 clean:
 	find -name *.gfo | xargs rm
 
-
-name = ACE-0_0_2.pgf
-dir_gr = build/gr
-random:
-	echo "gr -cat=Text -number=1000 -depth=10 | l -treebank -bind" | gf --run $(name).pgf > $(dir_gr)/$(name).txt
-# TODO: parse them all with the codeco parser...
+test_precision:
+	bash run-precision-test.bash 25
