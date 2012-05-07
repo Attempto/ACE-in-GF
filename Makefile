@@ -57,4 +57,4 @@ test_ontograph_40:
 # Test the precision by generating random trees and parsing them with Codeco
 test_precision:
 	bash run-precision-test.bash 200
-#	bash run-precision-test.bash 
+#	bash run-precision-test.bash
