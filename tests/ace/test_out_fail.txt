@@ -37,7 +37,6 @@
       5 2 l
       5 {
       4 XJohn
-      4 who does
       4 there is a n
       4 there are some men each of who
       4 there are some men a
@@ -98,6 +97,7 @@
       2 who is a child X whose
       2 who gives who
       2 who gives what
+      2 who does not
       2 where can which
       2 where can an escaped
       2 the United-Nations
@@ -137,7 +137,6 @@
       2 John is a rich customer . his wealth
       2 John has a card every
       2 John gives an apple to Mary . Mary accepts the apple and eats
-      2 John does wait
       2 John does not provably
       2 John does not own which
       2 it is not true that
@@ -218,6 +217,8 @@
       1 who hits himself
       1 who eats or
       1 who eats and
+      1 who does John
+      1 who does a
       1 where is Bill ?
       1 where does Bill give what
       1 where does a man quickly

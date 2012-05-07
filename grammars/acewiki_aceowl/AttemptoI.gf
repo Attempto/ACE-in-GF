@@ -94,8 +94,6 @@ lin neg_vpS np vp = mkS negativePol (mkCl np vp) ;
 
 lin v2VP = mkVP ;
 
-lin vVP = mkVP ; -- John waits [JJC]
-
 -- 2.3.2 [JJC]
 
 lin a2VP = mkVP ; -- is mad-about NP

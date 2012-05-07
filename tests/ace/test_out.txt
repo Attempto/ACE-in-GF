@@ -250,7 +250,7 @@ which man who eats waits ?|FAIL which
 which man whose dog sees a bone waits ?|FAIL which
 a man hits a dog whose bone is green .|FAIL a man hits a dog whose
 which man is there ?|FAIL which
-who does a man hit ?|FAIL who does
+who does a man hit ?|FAIL who does a
 a man waits in a room in a bank .|OK (1)
 a man waits quickly in a bank .|OK (1)
 a man waits in a bank quickly .|OK (1)
@@ -1046,7 +1046,7 @@ John is liked by himself .|FAIL John is liked by himself
 which card is seen by John ?|FAIL which
 where does a customer enter a card ?|OK (1)
 where is a card entered by a customer ?|OK (2)
-who does not wait ?|FAIL who does
+who does not wait ?|FAIL who does not
 it is not possible that John flies .|OK (1)
 it is possible that John flies .|OK (1)
 John can not fly .|OK (1)
@@ -1073,7 +1073,7 @@ nobody believes that he does not have to be seen by everybody .|FAIL nobody beli
 nobody believes that he has to be seen by everybody .|FAIL nobody believes that
 nobody believes that he must be seen by everybody .|FAIL nobody believes that
 nobody believes that he can be seen by everybody .|FAIL nobody believes that
-John does wait . John waits .|FAIL John does wait
+John does wait . John waits .|OK (1)
 it is possible that a card is valid .|OK (1)
 everything a dog of which barks waits .|FAIL everything a
 it is not provable that John waits and that Mary sleeps .|FAIL it is not provable that John waits and that
@@ -1888,7 +1888,7 @@ a value is - 3.5 kg .|FAIL a value is - 3.5
 there are 10 h of work .|FAIL there are 10 h
 there is 1 h of work .|OK (1)
 a man has 2 t of apples .|OK (1)
-who does John not see ?|FAIL who does
+who does John not see ?|FAIL who does John
 is it false that every man is a human ?|FAIL is it false that
 a man has 2 mol of apples .|OK (1)
 is it true that John likes Mary ?|FAIL is it true that
@@ -1932,9 +1932,9 @@ it is false that everybody waits .|OK (1)
 it is false that it is necessary that John waits and that Mary sleeps .|FAIL it is false that it is necessary that John waits and that
 if John does not eat and it is false that somebody feeds him then John is hungry .|OK (1)
 John is not happy .|OK (1)
-who does not see himself ?|FAIL who does
+who does not see himself ?|FAIL who does not
 everybody is not seen by who ?|FAIL everybody is not seen by who
-John does wait .|FAIL John does wait
+John does wait .|OK (1)
 John does like Mary .|FAIL John does like
 it is false that there is a dog . there is a man or there is a woman , and it is false that there is a cat .|OK (2)
 it is false that there is a dog , and there is a man or there is a woman , and it is false that there is a cat .|OK (14)

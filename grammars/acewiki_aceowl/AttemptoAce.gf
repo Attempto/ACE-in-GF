@@ -43,7 +43,4 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [s
     vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) UncNeg ;
     np_coord_VPS np conj vpss = ExtraAce.PredVPS np (ExtraAce.ConjVPS conj vpss);
 
-  -- Add variant for "John does wait" [JJC]
-  vVP v = mkVP v | mkVP ExtraAce.do_VV (mkVP v) ;
-
 }
