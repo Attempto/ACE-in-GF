@@ -122,12 +122,16 @@ verb([A,B,C,D,E,F,G,H,I,J,K,plus,L,M,tr,N,O,P,Q,R,S,T,U,V,W,X],=>(verb(be:plus,v
 /* Auxiliary verbs are represented by 'aux', which includes negation markers: */
 aux([A,B,C,D,plus,E,minus,F,G,H,I,plus,J,K,L,M,N,O,P,Q,R,S,T,U,V,W],=>(aux(be:plus,exist:plus,pl:minus),[is]),X/X)-->[is].
 aux([A,B,C,D,minus,E,minus,F,G,H,I,plus,J,K,L,M,N,O,P,Q,R,S,T,U,V,W],=>(aux(be:plus,exist:minus,pl:minus), ((//),['is not'])),X/Y)-->[Z,A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,K1,L1,M1,N1,O1,P1,Q1,R1,S1,T1,U1,V1,W1,X1,Y1]// (X/Y),['is not'].
+aux([A,B,C,D,minus,E,minus,F,G,H,I,plus,J,K,L,M,N,O,P,Q,R,S,T,U,V,W],=>(aux(be:plus,exist:minus,pl:minus), ((//),['isn\'t'])),X/Y)-->[Z,A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,K1,L1,M1,N1,O1,P1,Q1,R1,S1,T1,U1,V1,W1,X1,Y1]// (X/Y),['isn\'t'].
 aux([A,B,C,D,minus,E,minus,F,G,H,I,plus,J,K,L,M,N,O,P,Q,R,S,T,U,V,W],=>(aux(be:plus,exist:minus,pl:minus), ((//),[is,not])),X/Y)-->[Z,A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,K1,L1,M1,N1,O1,P1,Q1,R1,S1,T1,U1,V1,W1,X1,Y1]// (X/Y),[is,not].
 aux([A,B,C,D,plus,E,plus,F,G,H,I,plus,J,K,L,M,N,O,P,Q,R,S,T,U,V,W],=>(aux(be:plus,exist:plus,pl:plus),[are]),X/X)-->[are].
 aux([A,B,C,D,minus,E,plus,F,G,H,I,plus,J,K,L,M,N,O,P,Q,R,S,T,U,V,W],=>(aux(be:plus,exist:minus,pl:plus), ((//),['are not'])),X/Y)-->[Z,A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,K1,L1,M1,N1,O1,P1,Q1,R1,S1,T1,U1,V1,W1,X1,Y1]// (X/Y),['are not'].
+aux([A,B,C,D,minus,E,plus,F,G,H,I,plus,J,K,L,M,N,O,P,Q,R,S,T,U,V,W],=>(aux(be:plus,exist:minus,pl:plus), ((//),['aren\'t'])),X/Y)-->[Z,A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,K1,L1,M1,N1,O1,P1,Q1,R1,S1,T1,U1,V1,W1,X1,Y1]// (X/Y),['aren\'t'].
 aux([A,B,C,D,minus,E,plus,F,G,H,I,plus,J,K,L,M,N,O,P,Q,R,S,T,U,V,W],=>(aux(be:plus,exist:minus,pl:plus), ((//),[are,not])),X/Y)-->[Z,A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,K1,L1,M1,N1,O1,P1,Q1,R1,S1,T1,U1,V1,W1,X1,Y1]// (X/Y),[are,not].
 aux([A,B,C,D,minus,E,minus,F,G,H,I,minus,J,K,L,M,N,O,P,Q,R,S,T,U,V,W],=>(aux(be:minus,exist:minus,pl:minus), ((//),['does not'])),X/Y)-->[Z,A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,K1,L1,M1,N1,O1,P1,Q1,R1,S1,T1,U1,V1,W1,X1,Y1]// (X/Y),['does not'].
+aux([A,B,C,D,minus,E,minus,F,G,H,I,minus,J,K,L,M,N,O,P,Q,R,S,T,U,V,W],=>(aux(be:minus,exist:minus,pl:minus), ((//),['doesn\'t'])),X/Y)-->[Z,A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,K1,L1,M1,N1,O1,P1,Q1,R1,S1,T1,U1,V1,W1,X1,Y1]// (X/Y),['doesn\'t'].
 aux([A,B,C,D,minus,E,plus,F,G,H,I,minus,J,K,L,M,N,O,P,Q,R,S,T,U,V,W],=>(aux(be:minus,exist:minus,pl:plus), ((//),['do not'])),X/Y)-->[Z,A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,K1,L1,M1,N1,O1,P1,Q1,R1,S1,T1,U1,V1,W1,X1,Y1]// (X/Y),['do not'].
+aux([A,B,C,D,minus,E,plus,F,G,H,I,minus,J,K,L,M,N,O,P,Q,R,S,T,U,V,W],=>(aux(be:minus,exist:minus,pl:plus), ((//),['don\'t'])),X/Y)-->[Z,A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,K1,L1,M1,N1,O1,P1,Q1,R1,S1,T1,U1,V1,W1,X1,Y1]// (X/Y),['don\'t'].
 
 /* --- Quantifiers --- */
 /* Existential and universal quantifiers are represented by 'quant': */

@@ -487,6 +487,11 @@ aux(be:plus, exist:minus, pl:minus) =>
 	//,
 	['is not'].
 
+%% m
+aux(be:plus, exist:minus, pl:minus) =>
+	//,
+	['isn\'t'].
+
 %% m t
 aux(be:plus, exist:minus, pl:minus) =>
 	//,
@@ -501,6 +506,11 @@ aux(be:plus, exist:minus, pl:plus) =>
 	//,
 	['are not'].
 
+%% m
+aux(be:plus, exist:minus, pl:plus) =>
+	//,
+	['aren\'t'].
+
 %% m t
 aux(be:plus, exist:minus, pl:plus) =>
 	//,
@@ -511,10 +521,20 @@ aux(be:minus, exist:minus, pl:minus) =>
 	//,
 	['does not'].
 
+%% m
+aux(be:minus, exist:minus, pl:minus) =>
+	//,
+	['doesn\'t'].
+
 %% m t
 aux(be:minus, exist:minus, pl:plus) =>
 	//,
 	['do not'].
+
+%% m
+aux(be:minus, exist:minus, pl:plus) =>
+	//,
+	['don\'t'].
 
 %% m t
 
