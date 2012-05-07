@@ -7,7 +7,8 @@
 
 pgf=ACE-0_0_2.pgf
 trees_file=build/gr/precision-test.txt
-test_file=test_precision_out.txt
+out=test_precision_out.txt
+out_fail=test_precision_out_fail.txt
 
 if [ $# -eq 1 ]; then
     if [[ $1 =~ ^[0-9]+$ ]]; then
@@ -22,12 +23,14 @@ if [ $# -eq 1 ]; then
 fi
 
 echo "Parsing..."
-cat ${trees_file} | grep -E ".+" | tools/Codeco/run.sh 1>${test_file}
-echo "Output is in ${test_file}"
+cat ${trees_file} | grep -E ".+" | tools/Codeco/run.sh 1>${out}
+echo "Output is in ${out}"
 
-total=`cat ${test_file} | wc --lines`
-parsed=`cat ${test_file} | grep "OK:" | wc --lines`
-failed=`cat ${test_file} | grep "FAIL:" | wc --lines`
+total=`cat ${out} | wc --lines`
+parsed=`egrep "^OK:" ${out} | wc --lines`
+failed=`egrep "^FAIL:" ${out} | wc --lines`
 echo "Parsed: ${parsed}/${failed}"
 echo "Precision:" $((parsed*100/total))"%"
 
+echo "Creating ${out_fail}"
+egrep "^FAIL:" ${out} | sed "s/^FAIL: //" | sort | uniq > ${out_fail}
