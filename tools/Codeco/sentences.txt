@@ -6,4 +6,5 @@ Mary does not ask Mary .
 Mary doesn't ask Mary .
 Mary isn't Mary .
 exactly 2 women don't ask Mary .
-exactly 2 women aren't mad-about Mary .
+exactly 2 women aren't mad-about John .
+for every man X there is somebody Y .

@@ -156,7 +156,11 @@ ipron([A,B,C,D,minus,E,F,G,H,I,J,K,L,M,N,O,P,minus,Q,R,S,T,U,V,W,X],=>(ipron(exi
 ipron([A,B,C,D,minus,E,F,G,H,I,J,K,L,M,N,O,P,plus,Q,R,S,T,U,V,W,X],=>(ipron(exist:minus,human:plus), ((//),[nobody])),Y/Z)-->[A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,K1,L1,M1,N1,O1,P1,Q1,R1,S1,T1,U1,V1,W1,X1,Y1,Z1]// (Y/Z),[nobody].
 
 /* --- Lexicon --- */
+$propername([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,'John',T,U,V,W,X,Y],=>($propername(text:'John'),['John']),Z/Z)-->['John'].
 $propername([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,'Mary',T,U,V,W,X,Y],=>($propername(text:'Mary'),['Mary']),Z/Z)-->['Mary'].
+$noun([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,man,T,U,V,W,X,Y],=>($noun(text:man),[man]),Z/Z)-->[man].
+$defnoun([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,man,X,Y],=>($defnoun(noun:man),['the man']),Z/Z)-->['the man'].
+$nounpl([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z],=>($nounpl,[men]),A1/A1)-->[men].
 $noun([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,woman,T,U,V,W,X,Y],=>($noun(text:woman),[woman]),Z/Z)-->[woman].
 $defnoun([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,woman,X,Y],=>($defnoun(noun:woman),['the woman']),Z/Z)-->['the woman'].
 $nounpl([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z],=>($nounpl,[women]),A1/A1)-->[women].
@@ -167,6 +171,8 @@ $pverb([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z],=>($pverb,['asked b
 $tradj([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z],=>($tradj,['mad-about']),A1/A1)-->['mad-about'].
 $variable([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,'X',T,U,V,W,X,Y],=>($variable(text:'X'),['X']),Z/Z)-->['X'].
 $reference([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,'X',T,U,V,W,X,Y],=>($reference(text:'X'),['X']),Z/Z)-->['X'].
+$variable([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,'Y',T,U,V,W,X,Y],=>($variable(text:'Y'),['Y']),Z/Z)-->['Y'].
+$reference([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,'Y',T,U,V,W,X,Y],=>($reference(text:'Y'),['Y']),Z/Z)-->['Y'].
 $number([A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z],=>($number,['2']),A1/A1)-->['2'].
 
 /* --- Auxiliary Rules for Testing --- */

@@ -61,6 +61,8 @@ lin more_thanNP ca = Syntax.mkNP (Syntax.mkCard (mkAdN more_CAdv) ca) ;
 lin less_thanNP ca = Syntax.mkNP (Syntax.mkCard (mkAdN less_CAdv) ca) ;
 lin exactlyNP ca = Syntax.mkNP (Syntax.mkCard exactly_AdN ca) ;
 
+-- TODO: should require plural VP
+-- nothing but men [ask Mary]
 lin nothing_butNP cn = Syntax.mkNP Syntax.nothing_NP (mkAdv except_Prep (Syntax.mkNP a_Art plNum cn)) ;
 
 lincat Unit = Syntax.CN ;

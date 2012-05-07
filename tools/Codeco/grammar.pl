@@ -623,17 +623,32 @@ ipron(exist:minus, human:plus) =>
 
 section:'Lexicon'.
 
+$propername(text:'John') => ['John'].
+
 $propername(text:'Mary') => ['Mary'].
+
+$noun(text:man) => [man].
+$defnoun(noun:man) => ['the man'].
+$nounpl => [men].
+
 $noun(text:woman) => [woman].
 $defnoun(noun:woman) => ['the woman'].
 $nounpl => [women].
+
 $nounof => ['friend of'].
+
 $verbsg => [asks].
 $verbinf => [ask].
 $pverb => ['asked by'].
+
 $tradj => ['mad-about'].
+
 $variable(text:'X') => ['X'].
 $reference(text:'X') => ['X'].
+
+$variable(text:'Y') => ['Y'].
+$reference(text:'Y') => ['Y'].
+
 $number => ['2'].
 
 %% t
