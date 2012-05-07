@@ -9,7 +9,7 @@ flags startcat = ACEText ;
 -- This way we do not need to modify the
 -- other files in this directory.
 cat CN ;
-cat NP ;
+cat NP ; cat ThereNP ;
 cat Card ;
 ---cat Numeral ;
 cat PN ;
@@ -40,9 +40,10 @@ cat VPS ;
 cat [VPS] {2} ;
 
 
-fun aNP : CN -> NP ;
+fun aNP : CN -> ThereNP ;
 fun theNP : CN -> NP ;
-fun cardNP : Card -> CN -> NP ;
+fun cardNP : Card -> CN -> ThereNP ;
+-- TODO: in full ACE this must be ThereNP [KK]
 fun noNP : CN -> NP ;
 fun everyNP : CN -> NP ;
 
@@ -57,31 +58,34 @@ fun nobody_IPron : IndefPron ;
 fun nothing_IPron : IndefPron ;
 
 -- [JJC]
-fun indefPronNP : IndefPron -> NP ;
-fun indefPronVarNP : IndefPron -> Var -> NP ;
+-- [KK] TODO: Currently indefinite pronouns can be used with 'there is/are' but
+-- the reality is more complex:
+-- - ACE and AceWiki do not allow 'there is every-'
+-- - AceWiki does not allow 'there is no-' (but ACE does)
+-- - ACE and AceWiki allow 'there is some-'
+fun indefPronNP : IndefPron -> ThereNP ;
+fun indefPronVarNP : IndefPron -> Var -> ThereNP ;
 
-
-fun at_leastNP : Card -> CN -> NP ;
-fun at_mostNP : Card -> CN -> NP ;
-fun more_thanNP : Card -> CN -> NP ;
-fun less_thanNP : Card -> CN -> NP ;
-fun exactlyNP : Card -> CN -> NP ;
+fun at_leastNP : Card -> CN -> ThereNP ;
+fun at_mostNP : Card -> CN -> ThereNP ;
+fun more_thanNP : Card -> CN -> ThereNP ;
+fun less_thanNP : Card -> CN -> ThereNP ;
+fun exactlyNP : Card -> CN -> ThereNP ;
 
 fun nothing_butNP : CN -> NP ;
 
 fun apposVarCN : CN -> Var -> CN ;  -- a man X
+-- TODO: in full ACE this must be ThereNP [KK]
 fun termNP : Term -> NP ;
 
 -- 2.2.2
 
--- Relative clause can be attached to
--- both CNs and NPs.
--- TODO: maybe get rid of relCN, as
--- CN goes to NP anyway.
--- We should avoid the ambiguity that would
--- result if both rules are present.
+-- Relative clause can be attached to both CNs and NPs.
+-- relCN provides relative clauses in constructs like
+-- `which woman who ...` and `for every woman who ...`
 fun relCN : CN -> RS -> CN ;
 fun relNP : NP -> RS -> NP ;
+fun relThereNP : ThereNP -> RS -> ThereNP ;
 
 fun andRS : RS -> RS -> RS ;
 fun orRS : RS -> RS -> RS ;
@@ -110,7 +114,9 @@ fun a2VP : A2 -> NP -> VP ; -- is mad-about NP
 
 -- 3.2
 
-fun thereNP : NP -> S ;  -- there is/are
+fun thereNP : ThereNP -> S ;  -- there is/are
+
+fun thereNP_as_NP : ThereNP -> NP ;
 
 -- 3.4.1
 

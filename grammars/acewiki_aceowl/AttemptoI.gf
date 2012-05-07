@@ -6,7 +6,7 @@ incomplete concrete AttemptoI of Attempto = SymbolsC, Numeral ** open
 in {
 
 lincat CN = Syntax.CN ;
-lincat NP = Syntax.NP ;
+lincat NP = Syntax.NP ; lincat ThereNP = Syntax.NP ;
 lincat Card = Syntax.Card ;
 --lincat Numeral = Syntax.Numeral ;
 lincat PN = Syntax.PN ;
@@ -75,6 +75,7 @@ lin termNP x = symb (ss x.s) ;
 
 lin relCN = mkCN ;
 lin relNP = Syntax.mkNP ;
+lin relThereNP = Syntax.mkNP ;
 
 lin andRS = mkRS Syntax.and_Conj ;
 lin orRS = mkRS Syntax.or_Conj ;
@@ -103,6 +104,11 @@ lin a2VP = mkVP ; -- is mad-about NP
 -- 3.2
 
 lin thereNP np = mkS (mkCl np) ;
+
+-- ThereNP is just a regular NP, we just need it to separate out
+-- the NPs which can occur as arguments of 'there is/are'.
+-- I hope the id-function is the right way to implement this.
+lin thereNP_as_NP = id Syntax.NP ;
 
 
 -- 3.4.1

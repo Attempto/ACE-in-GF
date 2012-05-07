@@ -29,7 +29,7 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [s
     a = pr.a
   };
 
-  -- We overide this because of the linearisation of Var [JJC]
+  -- We override this because of the linearisation of Var [JJC]
   lin apposVarCN cn v = mkCN cn (symb (NomVar v)) ;
 
   -- VP coordination
