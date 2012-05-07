@@ -1,9 +1,19 @@
 --# -path=.:present
 
-concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [apposVarCN, indefPronVarNP, vVP] with
+concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [slash_ipQS, apposVarCN, indefPronVarNP, vVP] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
-  (LexAttempto = LexAttemptoAce) ** open SyntaxAce, ExtraAce, ResAce, Precedence in {
+  (LexAttempto = LexAttemptoAce) ** open SyntaxAce, ExtraAce, ResAce, SentenceAce, Precedence in {
+
+  -- wh-word in object position. Needs closer analysis. [JJC]
+  lin slash_ipQS ip np v2 =
+      mkQS (mkQCl ip (mkClSlash np v2)) -- who does Mary like?
+    | lin QS {
+        s = \\qf => cl.s ! Pres ! Simul ! CPos ! ODir
+      } where {
+        ipnp = lin NP ( ip ** {a = np.a} ) ;
+        cl = PredVP np (ComplV2 v2 ipnp) ;
+      } ; -- Mary likes who?
 
   -- Variables have genitives [JJC]
   lincat Var = {s : Case => Str};
