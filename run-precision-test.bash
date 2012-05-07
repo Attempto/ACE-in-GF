@@ -17,7 +17,7 @@ echo "Generating ${gr_number} trees..."
 echo "gr -cat=Text -number=${gr_number} -depth=10 | l -lang=Ace -bind" | gf --run ${name}.pgf > ${dir_gr}/${name}.txt
 
 echo "Parsing..."
-cat ${dir_gr}/${name}.txt | grep -E ".+" | swipl --nodebug -f tools/Codeco/parse.pl -g main -t halt -q 2>/dev/null 1>${test_file}
+cat ${dir_gr}/${name}.txt | grep -E ".+" | tools/Codeco/run.sh 1>${test_file}
 echo "Output is in ${test_file}"
 
 total=`cat ${test_file} | wc --lines`

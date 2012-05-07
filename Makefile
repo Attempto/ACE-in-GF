@@ -53,4 +53,4 @@ clean:
 	find -name *.gfo | xargs rm
 
 test_precision:
-	bash run-precision-test.bash 25
+	bash run-precision-test.bash 100
