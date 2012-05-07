@@ -108,7 +108,6 @@ fun vVP : V -> VP ; -- John waits [JJC]
 
 -- 2.3.2 [JJC]
 
-fun aVP : A -> VP ; -- is happy
 fun a2VP : A2 -> NP -> VP ; -- is mad-about NP
 
 -- 3.2
