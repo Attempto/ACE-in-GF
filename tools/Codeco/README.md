@@ -22,12 +22,15 @@ Files
 Modifications to grammar.pl
 ---------------------------
 
-Add support for:
+1. Add support for:
 
   - `isn't`
   - `aren't`
   - `don't`
   - `doesn't`
+
+2. Every `of`-noun is also a noun and vice versa. This reflects better ACE
+where there is no explicit `of`-noun category.
 
 
 Usage

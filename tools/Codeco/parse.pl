@@ -65,8 +65,12 @@ ws(0) --> [].
 
 
 token('asked by') --> "asked by".
+token('man of') --> "man of".
+token('woman of') --> "woman of".
 token('friend of') --> "friend of".
+token('the man') --> "the man".
 token('the woman') --> "the woman".
+token('the friend') --> "the friend".
 token('at least') --> "at least".
 token('at most') --> "at most".
 token('more than') --> "more than".

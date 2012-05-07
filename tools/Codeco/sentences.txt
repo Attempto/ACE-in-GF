@@ -8,3 +8,4 @@ Mary isn't Mary .
 exactly 2 women don't ask Mary .
 exactly 2 women aren't mad-about John .
 for every man X there is somebody Y .
+a friend is a man of Mary .

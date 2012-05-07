@@ -635,6 +635,12 @@ $noun(text:woman) => [woman].
 $defnoun(noun:woman) => ['the woman'].
 $nounpl => [women].
 
+$noun(text:friend) => [friend].
+$defnoun(noun:friend) => ['the friend'].
+$nounpl => [friends].
+
+$nounof => ['man of'].
+$nounof => ['woman of'].
 $nounof => ['friend of'].
 
 $verbsg => [asks].
