@@ -33,16 +33,20 @@ Add support for:
 Usage
 -----
 
+The output (STDOUT) shows for each input sentence on a separate line
+its tokenization (where two spaces mark the token border) and a prefix
+`OK` or `FAIL` depending on whether parsing succeeded or not.
+
 > echo "Mary is a friend of Mary ." | swipl -f parse.pl -g main -t halt -q
 
-	OK: [Mary,is,a,friend of,Mary,.]
+	OK: Mary  is  a  friend of  Mary  .
 
 > cat sentences.txt | swipl -f parse.pl -g main -t halt -q
 
-	OK: [Mary,asks,Mary,.]
-	OK: [Mary,is,a,friend of,at least,2,women,.,Mary,asks,Mary,.]
-	FAIL: [this,sentence,should,fail,to,parse]
-	OK: [everybody,asks,somebody,.]
+	OK: Mary  asks  Mary  .
+	OK: Mary  is  a  friend of  at least  2  women  .  Mary  asks  Mary  .
+	FAIL: this  sentence  should  fail  to  parse
+	OK: everybody  asks  somebody  .
 	...
 
 Parsing the complete test set (19k sentences):

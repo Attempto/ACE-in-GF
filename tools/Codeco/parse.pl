@@ -23,7 +23,9 @@
 % The default encoding of text-streams.
 :- set_prolog_flag(encoding, utf8).
 
+:- style_check(-singleton).
 :- consult(grammar_dcg).
+:- style_check(+singleton).
 
 main :-
 	prompt(_, ''),
@@ -38,13 +40,15 @@ main_loop :-
 	parse(Tokens),
 	main_loop ; true.
 
+% We don't care if there are multiple parses,
+% but there shouldn't be anyway.
 parse(Tokens) :-
 	phrase(text(_, _, []/_), Tokens),
-	format('OK: ~w~n', [Tokens]),
-	!.
+	!,
+	format_tokens('OK', Tokens).
 
 parse(Tokens) :-
-	format('FAIL: ~w~n', [Tokens]).
+	format_tokens('FAIL', Tokens).
 
 
 % There must always be whitespace between two tokens.
@@ -94,3 +98,8 @@ letter(C) --> [C], { \+ code_type(C, space) }.
 %
 set_stream_encoding(Stream, Enc) :-
 	set_stream(Stream, encoding(Enc)).
+
+
+format_tokens(Tag, Tokens) :-
+	atomic_list_concat(Tokens, '  ', TokensAsAtom),
+	format('~w: ~w~n', [Tag, TokensAsAtom]).
