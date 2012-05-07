@@ -12,11 +12,23 @@ Works but tokenization should be improved:
 Files
 -----
 
-  - `grammar.pl`: parser in Codeco format (incl. a small test vocabulary), comes from the AceWiki ditstribution, unmodified
+  - `grammar.pl`: parser in Codeco format (incl. a small test vocabulary), comes from the AceWiki distribution, but modified
   - `grammar_dcg.pl`: parser in DCG (automatically generated, do not edit!)
   - `compile.sh`: converts `grammar.pl` into `grammar_dcg.pl`, only needed if you modify `grammar.pl`
   - `parse.pl`: parses STDIN using `grammar_dcg.pl`
   - `sentences.txt`: example input for `parse.pl`
+
+
+Modifications to grammar.pl
+---------------------------
+
+Add support for:
+
+  - `isn't`
+  - `aren't`
+  - `don't`
+  - `doesn't`
+
 
 Usage
 -----

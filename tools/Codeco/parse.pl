@@ -73,7 +73,6 @@ token('there are') --> "there are".
 token('for every') --> "for every".
 token('does not') --> "does not".
 token('do not') --> "do not".
-token('does not') --> "does not".
 token('is not') --> "is not".
 token('are not') --> "are not".
 token(T) --> word(T).
