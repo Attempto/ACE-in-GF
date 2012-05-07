@@ -39,8 +39,10 @@ all_test:
 
 # Parse ontograph_40 and linearise into all languages
 lin_ontograph_40:
-#	echo "rf -lines -file=tests/ontograph_40/sentences.txt | p -lang=Ace | l -treebank" | gf --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
-	echo "rf -lines -file=tests/ontograph_40/sentences.txt | p -lang=Ace | l -treebank" | gf --run --path=$(path) $(words_onto)/TestAttempto???.gf
+	echo "rf -lines -file=tests/ontograph_40/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
+	gf --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
+#	gf --run --path=$(path) $(words_onto)/TestAttempto???.gf \
+
 
 interactive_acewiki_aceowl:
 	gf --path=$(path) $(words)/TestAttemptoAce.gf
