@@ -41,7 +41,7 @@ Parsing the complete test set (19k sentences):
 	user	0m21.097s
 	sys	0m0.144s
 	
-## Warnings
+**Warnings**
 
 To hide all the warnings generated you can redirect STDERR, e.g. by appending:  `2> /dev/null`
 
