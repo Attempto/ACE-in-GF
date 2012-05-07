@@ -9,7 +9,7 @@ instance LexAttemptoFin of LexAttempto =
    (L = LangFin)
    in {
 
-flags coding=utf8;
+--flags coding=utf8;
 
 oper
   false_A = mkA (mkN "epätosi" "epätoden" "epätosia") ;
@@ -17,6 +17,6 @@ oper
   adj_thatCl : A -> S -> Cl = \a,s -> 
     mkCl (L.UseComp (E.CompPartAP (mkAP (mkAP a) s))) ;
 
-  exactly_AdN = mkAdN "tasan" ;
+  exactly_AdN = ConstructX.mkAdN "tasan" ;
 
 }
