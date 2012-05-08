@@ -29,13 +29,13 @@ if [ $# -eq 1 ]; then
 fi
 
 echo "Parsing..."
-cat ${trees_file} | grep -E ".+" | tools/Codeco/run.sh 1>${out}
+egrep ".+" ${trees_file} | tools/Codeco/run.sh 1>${out}
 echo "Output is in ${out}"
 
 total=`cat ${out} | wc --lines`
 parsed=`egrep "^OK:" ${out} | wc --lines`
 failed=`egrep "^FAIL:" ${out} | wc --lines`
-echo "Parsed: ${parsed}/${failed}"
+echo "Parsed: ${parsed}, Failed: ${failed}"
 echo "Precision:" $((parsed*100/total))"%"
 
 echo "Creating ${out_fail}"
