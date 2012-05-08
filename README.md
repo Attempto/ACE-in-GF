@@ -102,7 +102,7 @@ deprecated or should be avoided (i.e. create a warning), e.g.
   * `- ( X + X ) waits .` (minus sign should be followed by a number)
   * `1 = - -1 .` (`-1` is a built-in GF integer)
   * __(F)__ `nothing except` (instead of `nothing but`)
-  * multiple variables in apposition (`a man X X X Y ...`)
+  * __(F)__ multiple variables in apposition (`a man X X X Y ...`)
   * __(F)__ `there is/are` can take any NP as an argument
   * ...
 

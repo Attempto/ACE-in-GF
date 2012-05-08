@@ -5,7 +5,7 @@ incomplete concrete AttemptoI of Attempto = SymbolsC, Numeral ** open
   LexAttempto 
 in {
 
-lincat CN = Syntax.CN ;
+lincat CN = Syntax.CN ; VarCN = Syntax.CN ;
 lincat NP = Syntax.NP ; lincat ThereNP = Syntax.NP ;
 lincat Card = Syntax.Card ;
 --lincat Numeral = Syntax.Numeral ;
@@ -109,6 +109,8 @@ lin thereNP np = mkS (mkCl np) ;
 -- the NPs which can occur as arguments of 'there is/are'.
 -- I hope the id-function is the right way to implement this.
 lin thereNP_as_NP = id Syntax.NP ;
+
+lin cn_as_VarCN = id Syntax.CN ;
 
 
 -- 3.4.1
