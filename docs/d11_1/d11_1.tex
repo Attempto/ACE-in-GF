@@ -16,7 +16,7 @@
 \newcommand\ace{Attempto Controlled English}
 
 \begin{document}
-\title{ACE Grammar Library}
+\title{Attempto Controlled English in Grammatical Framework}
 \author{DRAFT}
 
 \hyphenation{alpha-numeric}
@@ -25,12 +25,15 @@
 \maketitle
 \begin{abstract}
 This report describes the implementation of a large part of the
-Attempto Controlled English (ACE) syntax --- the so called AceWiki subset ---
+Attempto Controlled English (ACE) syntax ---
+the subset of ACE that is accepted by AceWiki ---
 in Grammatical Framework (GF) and making it available via [TODO: 10]
 languages that are supported by the GF Resource Grammar Library (RGL).
-The main goal of this work is to make ACE available to users who have little
-English skills. Also, having a GF implementation of the ACE language would 
-provide ACE users with new (GF-based) editing tools.
+The main goal of this work is to make ACE available in multiple languages
+in order to allow
+ACE-based knowledge representation also in languages other than English.
+Additionally, having a GF implementation of the ACE language would provide
+ACE users with new (GF-based) editing tools.
 \end{abstract}
 
 \section{Introduction}
@@ -39,9 +42,9 @@ provide ACE users with new (GF-based) editing tools.
 is a general purpose
 first-order language (FOL)
 with English syntax,
-i.e. ACE can be viewed as both a natural language understandable to every
+i.e. ACE can be viewed as both a natural language understandable by every
 English speaker, as well as a formal language with a precisely defined
-syntax and semantics understandable to automatic theorem proving software.
+syntax and semantics understandable by automatic theorem proving software.
 ACE texts are deterministically interpreted
 via Discourse Representation Structures \cite{kamp:drt1993}.
 The syntactically legal sentence structures and their
@@ -63,19 +66,16 @@ This paper is structured in the following way. In section ...
 
 \section{Goals and requirements}
 
-The main goals of this work is to make ACE available to users who have little
+The overall goal of this work is to make ACE available to users who have little
 English skills by turning ACE-based systems like
 AceWiki \cite{kuhn2010doctoralthesis} multilingual. This allows users
-to create and consume content whose native format is a formal language like
-OWL or TPTP in multiple natural languages
+to create and consume content whose native format is a formal language
+(specifically a FOL-based language) in multiple natural languages
 via an ACE-based interlingua (see figure \ref{fig:languages}).
 Also, having a GF implementation of the ACE language would
 provide ACE users with new (editing) tools that are based on the GF technology,
 offering e.g. look-ahead editing, embeddable grammars, conversion into
 speech recognition grammar formats, etc.
-
-Note that this report describes the implementation of the ACE syntax,
-i.e. not its DRS mapping.
 
 \begin{figure}[ht]
 \centering
@@ -94,14 +94,24 @@ controlled natural language?
 and what are the benefits of such an implementation?
 \end{itemize}
 
-Requirements:
+Our goals are the following:
 
 \begin{itemize}
-\item make adding new languages as simple as possible
+\item demonstrate that the ACE syntax can be implemented in a language-neutral
+way and ported to a large number ($\sim$10) of different natural languages
+\item make adding support for new languages straight-forward
+\item make extending the grammar towards full ACE coverage straight-forward
 \item syntactic coverage and precision close to 100\%
 \item multilingual translations preserve the precise
 meaning assigned to the ACE sentences
+\item translation ambiguity close almost nonexistent
 \end{itemize}
+
+Note that this report describes the implementation of the ACE syntax,
+i.e. not its DRS mapping. Therefore most usages of the resulting GF grammar
+will have to combine it with the existing ACE parser, which provides the
+mapping to DRS and further into other logical forms (including a verbalization
+back into ACE which can be used to paraphrase the original text).
 
 
 \section{Existing work}
@@ -112,17 +122,8 @@ available in 7 languages (English, French, German, Italian, Swedish, Finnish
 and Urdu) via the GF Resource Grammar Library (RGL) \cite{ranta:lilt2009}.
 Our goal is to update this implementation to ACE v6.6 and make it precisely
 cover an important subset of ACE which we will refer to as the AceWiki subset.
-
-The AceWiki subset is defined by a Codeco grammar \cite{kuhn:cnl2010_revised}
-and targets a subset of ACE that is compatible with the OWL ontology language.
-This makes the subset relevant in (Semantic Web) ontology editing applications.
-The Codeco
-grammar provides both parsing and generation and thus gives us an excellent
-reference implementation against which we can test.
-
 Our second goal is to extend the number of natural languages to which
-the grammar is ported, and study the properties of the resulting multilingual
-controlled natural language system.
+the grammar is ported.
 
 Another work that already implements ACE in GF is
 ``ACE compliant controlled Latvian for ontology authoring and verbalization''
@@ -130,8 +131,9 @@ Another work that already implements ACE in GF is
 \cite{gruzitis:phd}. The goal of this work is to bidirectionally map Latvian
 language sentences to OWL axioms and queries. The developed system
 does not expose ACE to the end-user and only treats it as a
-machine-readable format that provides access to the ACE tools
-(bidirectional OWL converter). It therefore does not have to deal with the
+machine-readable intermediate format that provides access to the ACE tools
+(specifically the bidirectional OWL converter).
+It therefore does not have to deal with the
 generation of correct ACE wordforms.
 The system is also not built with multilinguality in mind
 (i.e. it does not use the general GF RGL APIs). It thus cannot serve easily as
@@ -148,19 +150,79 @@ quite expressive, roughly matching the expressivity of the OWL ontology
 language
 \cite{OWL_2_Web_Ontology_Language_Document_Overview}
 without data properties.
-The benefit of
-targeting this subset is that it is formally described by a Codeco grammar
-\cite{kuhn:cnl2010_revised}, which provides a good reference implementation.
+This makes the subset relevant in (Semantic Web) ontology editing applications.
+The AceWiki subset is formally defined by a Codeco grammar
+\cite{kuhn:cnl2010_revised}
+\footnote{\url{http://attempto.ifi.uzh.ch/site/docs/acewikijava/ch/uzh/ifi/attempto/acewiki/aceowl/acewiki_grammar.html}},
+which provides both parsing and generation and thus gives us an excellent
+reference implementation against which we can test.
 With Codeco we can perform exhaustive generation of syntactically legal
-sentences.
+sentences. Also the Codeco grammar can be used to implement look-ahead
+editors, similarly to GF, which provides for us another point of comparison.
+
+\subsection{Codeco}
+
+Codeco is a unification grammar formalism with special support for describing
+anaphoric references. For example, the following (simplified)
+rules declare that a simple
+sentence can be formed by `there is' followed by
+a noun phrase (NP) that is further restricted by the binary features of
+plurality, definiteness and existential quantification.
+A definite noun phrase (\verb!np[def:+]!) can be formed by prefixing
+a noun with `the'. Such a noun phrase
+must refer to a preceding (\verb!<!) noun phrase and can be referred to by a
+following (\verb!>!) noun phrase provided that the feature structures
+unify, e.g. nouns in the noun phrases match.
+The definite NP cannot be used after `there is' because the
+declared features \verb!def:+! and \verb!def:-! do not unify.
+
+\small
+\begin{quote}
+\begin{verbatim}
+simple_sentence => 'there is' np[pl:-, def:-, exist:+]
+np[def:+] => 'the' noun[noun:Noun] <[type:noun, noun:Noun] >[type:ref]
+\end{verbatim}
+\end{quote}
+\normalsize
+
+As GF does not directly provide support for unification-based rules nor
+declarative implementation of anaphoric references, we cannot directly map
+the Codeco rules to corresponding GF rules.
+In fact, due to the lack of support for
+anaphoric references in GF we will not try to precisely model this aspect of
+ACE, i.e. our GF grammar will over-generate in the sense that it will allow
+impossible anaphoric references (`The man likes Mary.').
 
 \subsection{Structure}
 
-There are $\sim$50 functions.
+The multilingual ACE grammar is implemented in GF as a set of modules
+(see figure \ref{fig:modules}) the most important of which are:
 
-We use GF RGL.
+\begin{itemize}
+\item abstract syntax \texttt{Attempto} which defines the ACE syntax as
+a set of $\sim$100 language-independent functions
+(e.g. \verb!everyNP : CN -> NP!)
+that operate on language-independent categories (\texttt{CN}, \texttt{NP});
+\item incomplete concrete syntax \texttt{AttemptoI} which uses the GF RGL
+to provide concrete linearizations for the abstract functions. This module
+is language-independent in the sense that the linearizations are provided
+via the RGL API which is common to all the languages that are supported by the
+RGL;
+\item (complete) concrete syntax \texttt{Attempto\textit{Lan}}, where
+\textit{Lan} is a 3-letter language code of the concrete language. This
+module instantiates \texttt{AttemptoI} with the concrete language, but
+additionally offers the possibility of language-specific fine-tuning of the
+linearizations assigned by \texttt{AttemptoI} or the implementation of
+linearizations that are not given in \texttt{AttemptoI}.
+\end{itemize}
 
-Multilingual ACE grammar module structure (see figure \ref{fig:modules}).
+This architecture makes it easy to plug in support for new languages ---
+one only needs to implement \texttt{Attempto\textit{Lan}} for the new language
+\textit{Lan}. If the new language has RGL support and \texttt{AttemptoI}
+already provides most of the implementation, then
+the new module \texttt{Attempto\textit{Lan}} will be just a couple of lines
+long.
+
 
 \begin{figure}[ht]
 \centering
@@ -346,8 +408,12 @@ translation?]
 
 \section{Availability}
 
-The developed grammar is available on a GitHub
-repository\footnote{\url{https://github.com/Attempto/ACE-in-GF}}.
+The developed grammar is available under the LGPL license on the GitHub
+repository
+
+\begin{quote}
+\url{https://github.com/Attempto/ACE-in-GF}
+\end{quote}
 
 \section{Future work}
 
