@@ -75,7 +75,7 @@ lin termNP x = symb (ss x.s) ;
 
 lin relCN = mkCN ;
 lin relNP = Syntax.mkNP ;
-lin relThereNP = Syntax.mkNP ;
+--lin relThereNP = Syntax.mkNP ; [JJC]
 
 lin andRS = mkRS Syntax.and_Conj ;
 lin orRS = mkRS Syntax.or_Conj ;
