@@ -3,7 +3,7 @@ concrete StructuralAce of Structural =
     somebody_NP, something_NP,
     everybody_NP, everything_NP,
     nobody_NP, nothing_NP,
-    whoPl_IP, whoSg_IP, except_Prep, language_title_Utt, A2] **
+    whoPl_IP, whoSg_IP, only_Predet, language_title_Utt, A2] **
 --  open MorphoAce, ResAce, ParadigmsAce, MakeStructuralAce, (C = ConstructX), Prelude in {
   open ResAce, ParadigmsAce, Prelude in {
 
@@ -20,8 +20,7 @@ concrete StructuralAce of Structural =
   whoPl_IP = mkIP "who" "who" "whose" plural ; -- Eng: "who" "whom" "whose"
   whoSg_IP = mkIP "who" "who" "whose" singular ; -- Eng: "who" "whom" "whose"
 
-  -- used in: nothing but (KK)
-  except_Prep = mkPrep "but" ;
+  only_Predet = ss "nothing but" ;
 
   language_title_Utt = ss "ACE" ;
 

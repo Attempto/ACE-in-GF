@@ -869,14 +869,14 @@ a  woman  asks  somebody  who  asks  everybody  .|OK (1)
 a  woman  asks  somebody  who  asks  Mary  .|OK (1)
 a  woman  asks  somebody  who  asks  somebody  .|OK (1)
 a  woman  asks  somebody  who  asks  the woman  .|OK (1)
-a  woman  asks  somebody  who  asks  who  ?|FAIL a woman asks somebody who asks who
+a  woman  asks  somebody  who  asks  who  ?|OK (1)
 a  woman  asks  somebody  who  asks  X  .|OK (1)
 a  woman  asks  somebody  who  everybody  asks  .|OK (1)
 a  woman  asks  somebody  who  is  everybody  .|OK (1)
 a  woman  asks  somebody  who  is  Mary  .|OK (1)
 a  woman  asks  somebody  who  is  somebody  .|OK (1)
 a  woman  asks  somebody  who  is  the woman  .|OK (1)
-a  woman  asks  somebody  who  is  who  ?|FAIL a woman asks somebody who is who
+a  woman  asks  somebody  who  is  who  ?|OK (1)
 a  woman  asks  somebody  who  is  X  .|OK (1)
 a  woman  asks  somebody  who  Mary  asks  .|OK (1)
 a  woman  asks  somebody  who  somebody  asks  .|OK (1)
@@ -1182,14 +1182,14 @@ a  woman  is  somebody  who  asks  everybody  .|OK (1)
 a  woman  is  somebody  who  asks  Mary  .|OK (1)
 a  woman  is  somebody  who  asks  somebody  .|OK (1)
 a  woman  is  somebody  who  asks  the woman  .|OK (1)
-a  woman  is  somebody  who  asks  who  ?|FAIL a woman is somebody who asks who
+a  woman  is  somebody  who  asks  who  ?|OK (1)
 a  woman  is  somebody  who  asks  X  .|OK (1)
 a  woman  is  somebody  who  everybody  asks  .|OK (1)
 a  woman  is  somebody  who  is  everybody  .|OK (1)
 a  woman  is  somebody  who  is  Mary  .|OK (1)
 a  woman  is  somebody  who  is  somebody  .|OK (1)
 a  woman  is  somebody  who  is  the woman  .|OK (1)
-a  woman  is  somebody  who  is  who  ?|FAIL a woman is somebody who is who
+a  woman  is  somebody  who  is  who  ?|OK (1)
 a  woman  is  somebody  who  is  X  .|OK (1)
 a  woman  is  somebody  who  Mary  asks  .|OK (1)
 a  woman  is  somebody  who  somebody  asks  .|OK (1)
@@ -10278,9 +10278,9 @@ Mary  asks  somebody  who  asks  every  woman  .|OK (1)
 Mary  asks  somebody  who  asks  Mary  .  |OK (1)
 Mary  asks  somebody  who  asks  somebody  .  |OK (1)
 Mary  asks  somebody  who  asks  somebody  X  .|OK (1)
-Mary  asks  somebody  who  asks  which  woman  ?|FAIL Mary asks somebody who asks which
-Mary  asks  somebody  who  asks  which  women  ?|FAIL Mary asks somebody who asks which
-Mary  asks  somebody  who  asks  who  ?  |FAIL Mary asks somebody who asks who
+Mary  asks  somebody  who  asks  which  woman  ?|OK (1)
+Mary  asks  somebody  who  asks  which  women  ?|OK (1)
+Mary  asks  somebody  who  asks  who  ?  |OK (1)
 Mary  asks  somebody  who  asks  X  .  |OK (1)
 Mary  asks  somebody  who  a  woman  asks  .|OK (1)
 Mary  asks  somebody  who  does not  ask  everybody  .|OK (1)
@@ -10314,8 +10314,8 @@ Mary  asks  somebody  who  is  not  who  ?|FAIL Mary asks somebody who is not wh
 Mary  asks  somebody  who  is  not  X  .|OK (1)
 Mary  asks  somebody  who  is  somebody  .  |OK (1)
 Mary  asks  somebody  who  is  somebody  X  .|OK (1)
-Mary  asks  somebody  who  is  which  woman  ?|FAIL Mary asks somebody who is which
-Mary  asks  somebody  who  is  who  ?  |FAIL Mary asks somebody who is who
+Mary  asks  somebody  who  is  which  woman  ?|OK (1)
+Mary  asks  somebody  who  is  who  ?  |OK (1)
 Mary  asks  somebody  who  is  X  .  |OK (1)
 Mary  asks  somebody  who  Mary  asks  .  |OK (1)
 Mary  asks  somebody  who  Mary  does not  ask  .|OK (1)
@@ -11522,9 +11522,9 @@ Mary  is  somebody  who  asks  every  woman  .|OK (1)
 Mary  is  somebody  who  asks  Mary  .  |OK (1)
 Mary  is  somebody  who  asks  somebody  .  |OK (1)
 Mary  is  somebody  who  asks  somebody  X  .|OK (1)
-Mary  is  somebody  who  asks  which  woman  ?|FAIL Mary is somebody who asks which
-Mary  is  somebody  who  asks  which  women  ?|FAIL Mary is somebody who asks which
-Mary  is  somebody  who  asks  who  ?  |FAIL Mary is somebody who asks who
+Mary  is  somebody  who  asks  which  woman  ?|OK (1)
+Mary  is  somebody  who  asks  which  women  ?|OK (1)
+Mary  is  somebody  who  asks  who  ?  |OK (1)
 Mary  is  somebody  who  asks  X  .  |OK (1)
 Mary  is  somebody  who  a  woman  asks  .|OK (1)
 Mary  is  somebody  who  does not  ask  everybody  .|OK (1)
@@ -11558,8 +11558,8 @@ Mary  is  somebody  who  is  not  who  ?|FAIL Mary is somebody who is not who
 Mary  is  somebody  who  is  not  X  .|OK (1)
 Mary  is  somebody  who  is  somebody  .  |OK (1)
 Mary  is  somebody  who  is  somebody  X  .|OK (1)
-Mary  is  somebody  who  is  which  woman  ?|FAIL Mary is somebody who is which
-Mary  is  somebody  who  is  who  ?  |FAIL Mary is somebody who is who
+Mary  is  somebody  who  is  which  woman  ?|OK (1)
+Mary  is  somebody  who  is  who  ?  |OK (1)
 Mary  is  somebody  who  is  X  .  |OK (1)
 Mary  is  somebody  who  Mary  asks  .  |OK (1)
 Mary  is  somebody  who  Mary  does not  ask  .|OK (1)
@@ -13077,9 +13077,9 @@ somebody  asks  somebody  who  asks  every  woman  .|OK (1)
 somebody  asks  somebody  who  asks  Mary  .  |OK (1)
 somebody  asks  somebody  who  asks  somebody  .  |OK (1)
 somebody  asks  somebody  who  asks  somebody  X  .|OK (1)
-somebody  asks  somebody  who  asks  which  woman  ?|FAIL somebody asks somebody who asks which
-somebody  asks  somebody  who  asks  which  women  ?|FAIL somebody asks somebody who asks which
-somebody  asks  somebody  who  asks  who  ?  |FAIL somebody asks somebody who asks who
+somebody  asks  somebody  who  asks  which  woman  ?|OK (1)
+somebody  asks  somebody  who  asks  which  women  ?|OK (1)
+somebody  asks  somebody  who  asks  who  ?  |OK (1)
 somebody  asks  somebody  who  asks  X  .  |OK (1)
 somebody  asks  somebody  who  a  woman  asks  .|OK (1)
 somebody  asks  somebody  who  does not  ask  everybody  .|OK (1)
@@ -13113,8 +13113,8 @@ somebody  asks  somebody  who  is  not  who  ?|FAIL somebody asks somebody who i
 somebody  asks  somebody  who  is  not  X  .|OK (1)
 somebody  asks  somebody  who  is  somebody  .  |OK (1)
 somebody  asks  somebody  who  is  somebody  X  .|OK (1)
-somebody  asks  somebody  who  is  which  woman  ?|FAIL somebody asks somebody who is which
-somebody  asks  somebody  who  is  who  ?  |FAIL somebody asks somebody who is who
+somebody  asks  somebody  who  is  which  woman  ?|OK (1)
+somebody  asks  somebody  who  is  who  ?  |OK (1)
 somebody  asks  somebody  who  is  X  .  |OK (1)
 somebody  asks  somebody  who  Mary  asks  .  |OK (1)
 somebody  asks  somebody  who  Mary  does not  ask  .|OK (1)
@@ -14321,9 +14321,9 @@ somebody  is  somebody  who  asks  every  woman  .|OK (1)
 somebody  is  somebody  who  asks  Mary  .  |OK (1)
 somebody  is  somebody  who  asks  somebody  .  |OK (1)
 somebody  is  somebody  who  asks  somebody  X  .|OK (1)
-somebody  is  somebody  who  asks  which  woman  ?|FAIL somebody is somebody who asks which
-somebody  is  somebody  who  asks  which  women  ?|FAIL somebody is somebody who asks which
-somebody  is  somebody  who  asks  who  ?  |FAIL somebody is somebody who asks who
+somebody  is  somebody  who  asks  which  woman  ?|OK (1)
+somebody  is  somebody  who  asks  which  women  ?|OK (1)
+somebody  is  somebody  who  asks  who  ?  |OK (1)
 somebody  is  somebody  who  asks  X  .  |OK (1)
 somebody  is  somebody  who  a  woman  asks  .|OK (1)
 somebody  is  somebody  who  does not  ask  everybody  .|OK (1)
@@ -14357,8 +14357,8 @@ somebody  is  somebody  who  is  not  who  ?|FAIL somebody is somebody who is no
 somebody  is  somebody  who  is  not  X  .|OK (1)
 somebody  is  somebody  who  is  somebody  .  |OK (1)
 somebody  is  somebody  who  is  somebody  X  .|OK (1)
-somebody  is  somebody  who  is  which  woman  ?|FAIL somebody is somebody who is which
-somebody  is  somebody  who  is  who  ?  |FAIL somebody is somebody who is who
+somebody  is  somebody  who  is  which  woman  ?|OK (1)
+somebody  is  somebody  who  is  who  ?  |OK (1)
 somebody  is  somebody  who  is  X  .  |OK (1)
 somebody  is  somebody  who  Mary  asks  .  |OK (1)
 somebody  is  somebody  who  Mary  does not  ask  .|OK (1)
@@ -15498,13 +15498,13 @@ somebody  X  asks  somebody  and  there is  somebody  .|OK (1)
 somebody  X  asks  somebody  who  asks  everybody  .|OK (1)
 somebody  X  asks  somebody  who  asks  Mary  .|OK (1)
 somebody  X  asks  somebody  who  asks  somebody  .|OK (1)
-somebody  X  asks  somebody  who  asks  who  ?|FAIL somebody X asks somebody who asks who
+somebody  X  asks  somebody  who  asks  who  ?|OK (1)
 somebody  X  asks  somebody  who  asks  X  .|OK (1)
 somebody  X  asks  somebody  who  everybody  asks  .|OK (1)
 somebody  X  asks  somebody  who  is  everybody  .|OK (1)
 somebody  X  asks  somebody  who  is  Mary  .|OK (1)
 somebody  X  asks  somebody  who  is  somebody  .|OK (1)
-somebody  X  asks  somebody  who  is  who  ?|FAIL somebody X asks somebody who is who
+somebody  X  asks  somebody  who  is  who  ?|OK (1)
 somebody  X  asks  somebody  who  is  X  .|OK (1)
 somebody  X  asks  somebody  who  Mary  asks  .|OK (1)
 somebody  X  asks  somebody  who  somebody  asks  .|OK (1)
@@ -15723,13 +15723,13 @@ somebody  X  is  somebody  and  there is  somebody  .|OK (1)
 somebody  X  is  somebody  who  asks  everybody  .|OK (1)
 somebody  X  is  somebody  who  asks  Mary  .|OK (1)
 somebody  X  is  somebody  who  asks  somebody  .|OK (1)
-somebody  X  is  somebody  who  asks  who  ?|FAIL somebody X is somebody who asks who
+somebody  X  is  somebody  who  asks  who  ?|OK (1)
 somebody  X  is  somebody  who  asks  X  .|OK (1)
 somebody  X  is  somebody  who  everybody  asks  .|OK (1)
 somebody  X  is  somebody  who  is  everybody  .|OK (1)
 somebody  X  is  somebody  who  is  Mary  .|OK (1)
 somebody  X  is  somebody  who  is  somebody  .|OK (1)
-somebody  X  is  somebody  who  is  who  ?|FAIL somebody X is somebody who is who
+somebody  X  is  somebody  who  is  who  ?|OK (1)
 somebody  X  is  somebody  who  is  X  .|OK (1)
 somebody  X  is  somebody  who  Mary  asks  .|OK (1)
 somebody  X  is  somebody  who  somebody  asks  .|OK (1)
@@ -18155,9 +18155,9 @@ X  asks  somebody  who  asks  everybody  .  |OK (1)
 X  asks  somebody  who  asks  every  woman  .|OK (1)
 X  asks  somebody  who  asks  Mary  .  |OK (1)
 X  asks  somebody  who  asks  somebody  .  |OK (1)
-X  asks  somebody  who  asks  which  woman  ?|FAIL X asks somebody who asks which
-X  asks  somebody  who  asks  which  women  ?|FAIL X asks somebody who asks which
-X  asks  somebody  who  asks  who  ?  |FAIL X asks somebody who asks who
+X  asks  somebody  who  asks  which  woman  ?|OK (1)
+X  asks  somebody  who  asks  which  women  ?|OK (1)
+X  asks  somebody  who  asks  who  ?  |OK (1)
 X  asks  somebody  who  asks  X  .  |OK (1)
 X  asks  somebody  who  a  woman  asks  .|OK (1)
 X  asks  somebody  who  does not  ask  everybody  .|OK (1)
@@ -18188,8 +18188,8 @@ X  asks  somebody  who  is  not  somebody  .|OK (1)
 X  asks  somebody  who  is  not  who  ?|FAIL X asks somebody who is not who
 X  asks  somebody  who  is  not  X  .|OK (1)
 X  asks  somebody  who  is  somebody  .  |OK (1)
-X  asks  somebody  who  is  which  woman  ?|FAIL X asks somebody who is which
-X  asks  somebody  who  is  who  ?  |FAIL X asks somebody who is who
+X  asks  somebody  who  is  which  woman  ?|OK (1)
+X  asks  somebody  who  is  who  ?  |OK (1)
 X  asks  somebody  who  is  X  .  |OK (1)
 X  asks  somebody  who  Mary  asks  .  |OK (1)
 X  asks  somebody  who  Mary  does not  ask  .|OK (1)
@@ -19251,9 +19251,9 @@ X  is  somebody  who  asks  everybody  .  |OK (1)
 X  is  somebody  who  asks  every  woman  .|OK (1)
 X  is  somebody  who  asks  Mary  .  |OK (1)
 X  is  somebody  who  asks  somebody  .  |OK (1)
-X  is  somebody  who  asks  which  woman  ?|FAIL X is somebody who asks which
-X  is  somebody  who  asks  which  women  ?|FAIL X is somebody who asks which
-X  is  somebody  who  asks  who  ?  |FAIL X is somebody who asks who
+X  is  somebody  who  asks  which  woman  ?|OK (1)
+X  is  somebody  who  asks  which  women  ?|OK (1)
+X  is  somebody  who  asks  who  ?  |OK (1)
 X  is  somebody  who  asks  X  .  |OK (1)
 X  is  somebody  who  a  woman  asks  .|OK (1)
 X  is  somebody  who  does not  ask  everybody  .|OK (1)
@@ -19284,8 +19284,8 @@ X  is  somebody  who  is  not  somebody  .|OK (1)
 X  is  somebody  who  is  not  who  ?|FAIL X is somebody who is not who
 X  is  somebody  who  is  not  X  .|OK (1)
 X  is  somebody  who  is  somebody  .  |OK (1)
-X  is  somebody  who  is  which  woman  ?|FAIL X is somebody who is which
-X  is  somebody  who  is  who  ?  |FAIL X is somebody who is who
+X  is  somebody  who  is  which  woman  ?|OK (1)
+X  is  somebody  who  is  who  ?  |OK (1)
 X  is  somebody  who  is  X  .  |OK (1)
 X  is  somebody  who  Mary  asks  .  |OK (1)
 X  is  somebody  who  Mary  does not  ask  .|OK (1)

@@ -1,4 +1,4 @@
-TestAttempto: baseText (sText (vpS (pnNP mary_PN) (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP mary_PN) (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))
 TestAttemptoAce: Mary is a traveler .
 TestAttemptoEng: Mary is a traveler .
 TestAttemptoFin: Mary on matkustajan .
@@ -7,7 +7,7 @@ TestAttemptoGer: Mary ist eine Reisende .
 TestAttemptoIta: Mary è un viaggiatore .
 TestAttemptoSwe: Mary är en resenär .
 
-TestAttempto: baseText (sText (neg_vpS (pnNP bill_PN) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (neg_vpS (pnNP bill_PN) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))
 TestAttemptoAce: Bill isn't a golfer .
 TestAttemptoEng: Bill isn't a golfer .
 TestAttemptoFin: Bill ei ole golfin .
@@ -16,7 +16,7 @@ TestAttemptoGer: Bill ist nicht ein Golfer .
 TestAttemptoIta: Bill non è un giocatore di golf .
 TestAttemptoSwe: Bill är inte ett golfspelare .
 
-TestAttempto: baseText (sText (np_coord_VPS (pnNP mary_PN) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))))))
+TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (pnNP mary_PN) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))))
 TestAttemptoAce: Mary is an officer or is a golfer .
 TestAttemptoEng: Mary is an officer or is a golfer .
 TestAttemptoFin: [np_coord_VPS] .
@@ -25,7 +25,7 @@ TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
 TestAttemptoSwe: [np_coord_VPS] .
 
-TestAttempto: baseText (sText (np_coord_VPS (pnNP sue_PN) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))))))
+TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (pnNP sue_PN) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
 TestAttemptoAce: Sue is an officer and is a traveler .
 TestAttemptoEng: Sue is an officer and is a traveler .
 TestAttemptoFin: [np_coord_VPS] .
@@ -34,7 +34,7 @@ TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
 TestAttemptoSwe: [np_coord_VPS] .
 
-TestAttempto: baseText (sText (vpS (everyNP (cn_as_VarCN man_N)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (everyNP (cn_as_VarCN man_N)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))
 TestAttemptoAce: every man is a golfer .
 TestAttemptoEng: every man is a golfer .
 TestAttemptoFin: jokainen mies on golfin .
@@ -43,7 +43,7 @@ TestAttemptoGer: jeder Mann ist ein Golfer .
 TestAttemptoIta: ogni uomo è un giocatore di golf .
 TestAttemptoSwe: varje man är ett golfspelare .
 
-TestAttempto: baseText (sText (vpS (noNP (cn_as_VarCN golfer_N)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (noNP (cn_as_VarCN golfer_N)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N)))))))
 TestAttemptoAce: no golfer is a woman .
 TestAttemptoEng: no golfer is a woman .
 TestAttemptoFin: ei mikään golfin on nainen .
@@ -52,7 +52,7 @@ TestAttemptoGer: kein Golfer ist eine Frau .
 TestAttemptoIta: nessuno giocatore di golf è una donna .
 TestAttemptoSwe: inget golfspelare är en kvinna .
 
-TestAttempto: baseText (sText (coordS and_Conj (vpS (everyNP (cn_as_VarCN woman_N)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vpS (everyNP (cn_as_VarCN officer_N)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N)))))))
+TestAttempto: baseText (sText (coordS and_Conj (simpleS_as_S (vpS (everyNP (cn_as_VarCN woman_N)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))) (simpleS_as_S (vpS (everyNP (cn_as_VarCN officer_N)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N))))))))
 TestAttemptoAce: every woman is an officer and every officer is a woman .
 TestAttemptoEng: every woman is an officer and every officer is a woman .
 TestAttemptoFin: jokainen nainen on upseeri ja jokainen upseeri on nainen .
@@ -61,7 +61,7 @@ TestAttemptoGer: jede Frau ist ein Offizier und jeder Offizier ist eine Frau .
 TestAttemptoIta: ogni donna è un ufficiale ed ogni ufficiale è una donna .
 TestAttemptoSwe: varje kvinna är en befäl och varje befäl är en kvinna .
 
-TestAttempto: baseText (sText (vpS (everyNP (relCN (cn_as_VarCN traveler_N) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N))))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (everyNP (relCN (cn_as_VarCN traveler_N) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N))))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))
 TestAttemptoAce: every traveler who isn't a woman is a golfer .
 TestAttemptoEng: every traveler who isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustajan joka ei ole nainen on golfin .
@@ -70,7 +70,7 @@ TestAttemptoGer: jede Reisende die nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoSwe: varje resenär som inte är en kvinna är ett golfspelare .
 
-TestAttempto: baseText (sText (vpS (relNP (everyNP (cn_as_VarCN traveler_N)) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (everyNP (cn_as_VarCN traveler_N)) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))
 TestAttemptoAce: every traveler who isn't a woman is a golfer .
 TestAttemptoEng: every traveler who isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustajan , joka ei ole nainen on golfin .
@@ -79,7 +79,7 @@ TestAttemptoGer: jede Reisende , die nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoSwe: varje resenär , som inte är en kvinna är ett golfspelare .
 
-TestAttempto: baseText (sText (np_coord_VPS (everyNP (cn_as_VarCN man_N)) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))))))
+TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (everyNP (cn_as_VarCN man_N)) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
 TestAttemptoAce: every man is a golfer or is a traveler .
 TestAttemptoEng: every man is a golfer or is a traveler .
 TestAttemptoFin: [np_coord_VPS] .
@@ -88,7 +88,7 @@ TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
 TestAttemptoSwe: [np_coord_VPS] .
 
-TestAttempto: baseText (sText (np_coord_VPS (relNP (thereNP_as_NP (indefPronNP nobody_IPron)) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))))) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))))))
+TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (thereNP_as_NP (indefPronNP nobody_IPron)) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))))) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
 TestAttemptoAce: nobody who is a man or who is a golfer is an officer and is a traveler .
 TestAttemptoEng: nobody who is a man or who is a golfer is an officer and is a traveler .
 TestAttemptoFin: [np_coord_VPS] .
@@ -97,16 +97,7 @@ TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
 TestAttemptoSwe: [np_coord_VPS] .
 
-TestAttempto: baseText (sText (np_coord_VPS (thereNP_as_NP (relThereNP (indefPronNP nobody_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))))))
-TestAttemptoAce: nobody who is a man or who is a golfer is an officer and is a traveler .
-TestAttemptoEng: nobody who is a man or who is a golfer is an officer and is a traveler .
-TestAttemptoFin: [np_coord_VPS] .
-TestAttemptoFre: [np_coord_VPS] .
-TestAttemptoGer: [np_coord_VPS] .
-TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSwe: [np_coord_VPS] .
-
-TestAttempto: baseText (sText (vpS (pnNP lisa_PN) (v2VP see_V2 (pnNP mary_PN))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP lisa_PN) (v2VP see_V2 (pnNP mary_PN)))))
 TestAttemptoAce: Lisa sees Mary .
 TestAttemptoEng: Lisa sees Mary .
 TestAttemptoFin: Lisa näkee Maryn .
@@ -115,7 +106,7 @@ TestAttemptoGer: Lisa sieht Mary .
 TestAttemptoIta: Lisa vede Mary .
 TestAttemptoSwe: Lisa ser Mary .
 
-TestAttempto: baseText (sText (neg_vpS (pnNP mary_PN) (v2VP see_V2 (pnNP tom_PN))))
+TestAttempto: baseText (sText (simpleS_as_S (neg_vpS (pnNP mary_PN) (v2VP see_V2 (pnNP tom_PN)))))
 TestAttemptoAce: Mary doesn't see Tom .
 TestAttemptoEng: Mary doesn't see Tom .
 TestAttemptoFin: Mary ei näe Tomia .
@@ -124,7 +115,7 @@ TestAttemptoGer: Mary sieht Tom nicht .
 TestAttemptoIta: Mary non vede Tom .
 TestAttemptoSwe: Mary ser inte Tom .
 
-TestAttempto: baseText (sText (vpS (pnNP tom_PN) (v2VP buy_V2 (thereNP_as_NP (aNP (cn_as_VarCN picture_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP tom_PN) (v2VP buy_V2 (thereNP_as_NP (aNP (cn_as_VarCN picture_N)))))))
 TestAttemptoAce: Tom buys a picture .
 TestAttemptoEng: Tom buys a picture .
 TestAttemptoFin: Tom ostaa kuvan .
@@ -133,7 +124,7 @@ TestAttemptoGer: Tom kauft einen Bild .
 TestAttemptoIta: Tom compra un immagine .
 TestAttemptoSwe: Tom köper en bild .
 
-TestAttempto: baseText (sText (vpS (pnNP mary_PN) (v2VP see_V2 (noNP (cn_as_VarCN man_N)))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP mary_PN) (v2VP see_V2 (noNP (cn_as_VarCN man_N))))))
 TestAttemptoAce: Mary sees no man .
 TestAttemptoEng: Mary sees no man .
 TestAttemptoFin: Mary näkee ei minkään miehen .
@@ -142,7 +133,7 @@ TestAttemptoGer: Mary sieht keinen Mann .
 TestAttemptoIta: Mary vede nessuno uomo .
 TestAttemptoSwe: Mary ser ingen man .
 
-TestAttempto: baseText (sText (vpS (pnNP john_PN) (v2VP buy_V2 (relNP (thereNP_as_NP (indefPronNP something_IPron)) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN present_N)))))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (v2VP buy_V2 (relNP (thereNP_as_NP (indefPronNP something_IPron)) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN present_N))))))))))
 TestAttemptoAce: John buys something which isn't a present .
 TestAttemptoEng: John buys something which isn't a present .
 TestAttemptoFin: John ostaa jonkin , joka ei ole lahja .
@@ -151,25 +142,16 @@ TestAttemptoGer: John kauft etwas , das nicht ein Geschenk ist .
 TestAttemptoIta: John compra qualche cosa che non è un regalo .
 TestAttemptoSwe: John köper något , som inte är en present .
 
-TestAttempto: baseText (sText (vpS (pnNP john_PN) (v2VP buy_V2 (thereNP_as_NP (relThereNP (indefPronNP something_IPron) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN present_N))))))))))
-TestAttemptoAce: John buys something which isn't a present .
-TestAttemptoEng: John buys something which isn't a present .
-TestAttemptoFin: John ostaa jonkin , joka ei ole lahja .
-TestAttemptoFre: John achète quelque chose qui n' est pas un cadeau .
-TestAttemptoGer: John kauft etwas , das nicht ein Geschenk ist .
-TestAttemptoIta: John compra qualche cosa che non è un regalo .
-TestAttemptoSwe: John köper något , som inte är en present .
-
-TestAttempto: baseText (sText (vpS (pnNP john_PN) (v2VP see_V2 (nothing_butNP (cn_as_VarCN man_N)))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (v2VP see_V2 (nothing_butNP (cn_as_VarCN man_N))))))
 TestAttemptoAce: John sees nothing but men .
 TestAttemptoEng: John sees nothing but men .
-TestAttemptoFin: John näkee ei minkään miehiä lukuunottamatta .
-TestAttemptoFre: John voit rien excepté des hommes .
-TestAttemptoGer: John sieht nichts außer Männern .
-TestAttemptoIta: John vede niente eccetto uomini .
-TestAttemptoSwe: John ser inget utom män .
+TestAttemptoFin: John näkee vain miehet .
+TestAttemptoFre: John voit seulement des hommes .
+TestAttemptoGer: John sieht nur Männer .
+TestAttemptoIta: John vede soltanto uomini .
+TestAttemptoSwe: John ser bara män .
 
-TestAttempto: baseText (sText (vpS (everyNP (cn_as_VarCN man_N)) (v2VP buy_V2 (thereNP_as_NP (aNP (cn_as_VarCN present_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (everyNP (cn_as_VarCN man_N)) (v2VP buy_V2 (thereNP_as_NP (aNP (cn_as_VarCN present_N)))))))
 TestAttemptoAce: every man buys a present .
 TestAttemptoEng: every man buys a present .
 TestAttemptoFin: jokainen mies ostaa lahjan .
@@ -178,7 +160,7 @@ TestAttemptoGer: jeder Mann kauft einen Geschenk .
 TestAttemptoIta: ogni uomo compra un regalo .
 TestAttemptoSwe: varje man köper en present .
 
-TestAttempto: baseText (sText (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2VP buy_V2 (thereNP_as_NP (aNP (cn_as_VarCN present_N)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2VP buy_V2 (thereNP_as_NP (aNP (cn_as_VarCN present_N)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N)))))))
 TestAttemptoAce: everything which buys a present is a man .
 TestAttemptoEng: everything which buys a present is a man .
 TestAttemptoFin: kaikki , joka ostaa lahjan on mies .
@@ -187,43 +169,25 @@ TestAttemptoGer: alles , das einen Geschenk kauft ist ein Mann .
 TestAttemptoIta: tutto che compra un regalo è un uomo .
 TestAttemptoSwe: allting , som köper en present är en man .
 
-TestAttempto: baseText (sText (vpS (thereNP_as_NP (relThereNP (indefPronNP everything_IPron) (predRS which_RP (v2VP buy_V2 (thereNP_as_NP (aNP (cn_as_VarCN present_N))))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N))))))
-TestAttemptoAce: everything which buys a present is a man .
-TestAttemptoEng: everything which buys a present is a man .
-TestAttemptoFin: kaikki , joka ostaa lahjan on mies .
-TestAttemptoFre: tout qui achète un cadeau est un homme .
-TestAttemptoGer: alles , das einen Geschenk kauft ist ein Mann .
-TestAttemptoIta: tutto che compra un regalo è un uomo .
-TestAttemptoSwe: allting , som köper en present är en man .
-
-TestAttempto: baseText (sText (vpS (everyNP (cn_as_VarCN man_N)) (v2VP buy_V2 (nothing_butNP (cn_as_VarCN present_N)))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (everyNP (cn_as_VarCN man_N)) (v2VP buy_V2 (nothing_butNP (cn_as_VarCN present_N))))))
 TestAttemptoAce: every man buys nothing but presents .
 TestAttemptoEng: every man buys nothing but presents .
-TestAttemptoFin: jokainen mies ostaa ei minkään lahjoja lukuunottamatta .
-TestAttemptoFre: chaque homme achète rien excepté des cadeaux .
-TestAttemptoGer: jeder Mann kauft nichts außer Geschenken .
-TestAttemptoIta: ogni uomo compra niente eccetto regali .
-TestAttemptoSwe: varje man köper inget utom presentar .
+TestAttemptoFin: jokainen mies ostaa vain lahjat .
+TestAttemptoFre: chaque homme achète seulement des cadeaux .
+TestAttemptoGer: jeder Mann kauft nur Geschenke .
+TestAttemptoIta: ogni uomo compra soltanto regali .
+TestAttemptoSwe: varje man köper bara presentar .
 
-TestAttempto: baseText (sText (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2VP buy_V2 (nothing_butNP (cn_as_VarCN picture_N))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2VP buy_V2 (nothing_butNP (cn_as_VarCN picture_N))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N)))))))
 TestAttemptoAce: everything which buys nothing but pictures is a woman .
 TestAttemptoEng: everything which buys nothing but pictures is a woman .
-TestAttemptoFin: kaikki , joka ostaa ei minkään kuvia lukuunottamatta on nainen .
-TestAttemptoFre: tout qui achète rien excepté des images est une femme .
-TestAttemptoGer: alles , das nichts außer Bilden kauft ist eine Frau .
-TestAttemptoIta: tutto che compra niente eccetto immagini è una donna .
-TestAttemptoSwe: allting , som köper inget utom bildar är en kvinna .
+TestAttemptoFin: kaikki , joka ostaa vain kuvat on nainen .
+TestAttemptoFre: tout qui achète seulement des images est une femme .
+TestAttemptoGer: alles , das nur Bilde kauft ist eine Frau .
+TestAttemptoIta: tutto che compra soltanto immagini è una donna .
+TestAttemptoSwe: allting , som köper bara bildar är en kvinna .
 
-TestAttempto: baseText (sText (vpS (thereNP_as_NP (relThereNP (indefPronNP everything_IPron) (predRS which_RP (v2VP buy_V2 (nothing_butNP (cn_as_VarCN picture_N)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N))))))
-TestAttemptoAce: everything which buys nothing but pictures is a woman .
-TestAttemptoEng: everything which buys nothing but pictures is a woman .
-TestAttemptoFin: kaikki , joka ostaa ei minkään kuvia lukuunottamatta on nainen .
-TestAttemptoFre: tout qui achète rien excepté des images est une femme .
-TestAttemptoGer: alles , das nichts außer Bilden kauft ist eine Frau .
-TestAttemptoIta: tutto che compra niente eccetto immagini è una donna .
-TestAttemptoSwe: allting , som köper inget utom bildar är en kvinna .
-
-TestAttempto: baseText (sText (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2VP see_V2 (thereNP_as_NP (indefPronNP something_IPron))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2VP see_V2 (thereNP_as_NP (indefPronNP something_IPron))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))
 TestAttemptoAce: everything which sees something is an officer .
 TestAttemptoEng: everything which sees something is an officer .
 TestAttemptoFin: kaikki , joka näkee jonkin on upseeri .
@@ -232,16 +196,7 @@ TestAttemptoGer: alles , das etwas sieht ist ein Offizier .
 TestAttemptoIta: tutto che vede qualche cosa è un ufficiale .
 TestAttemptoSwe: allting , som ser något är en befäl .
 
-TestAttempto: baseText (sText (vpS (thereNP_as_NP (relThereNP (indefPronNP everything_IPron) (predRS which_RP (v2VP see_V2 (thereNP_as_NP (indefPronNP something_IPron)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))
-TestAttemptoAce: everything which sees something is an officer .
-TestAttemptoEng: everything which sees something is an officer .
-TestAttemptoFin: kaikki , joka näkee jonkin on upseeri .
-TestAttemptoFre: tout qui voit quelque chose est un officier .
-TestAttemptoGer: alles , das etwas sieht ist ein Offizier .
-TestAttemptoIta: tutto che vede qualche cosa è un ufficiale .
-TestAttemptoSwe: allting , som ser något är en befäl .
-
-TestAttempto: baseText (sText (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2_byVP love_V2 (thereNP_as_NP (indefPronNP something_IPron))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN person_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2_byVP love_V2 (thereNP_as_NP (indefPronNP something_IPron))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN person_N)))))))
 TestAttemptoAce: everything which is loved by something is a person .
 TestAttemptoEng: everything which is loved by something is a person .
 TestAttemptoFin: kaikki , jota rakastetaan jonkin toimesta on henkilö .
@@ -250,16 +205,7 @@ TestAttemptoGer: alles , das durch etwas geliebt wird ist eine Person .
 TestAttemptoIta: tutto che viene amato da qualche cosa è una persona .
 TestAttemptoSwe: allting , som blir älskat av något är en person .
 
-TestAttempto: baseText (sText (vpS (thereNP_as_NP (relThereNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP love_V2 (thereNP_as_NP (indefPronNP something_IPron)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN person_N))))))
-TestAttemptoAce: everything which is loved by something is a person .
-TestAttemptoEng: everything which is loved by something is a person .
-TestAttemptoFin: kaikki , jota rakastetaan jonkin toimesta on henkilö .
-TestAttemptoFre: tout qui est aimé par quelque chose est une personne .
-TestAttemptoGer: alles , das durch etwas geliebt wird ist eine Person .
-TestAttemptoIta: tutto che viene amato da qualche cosa è una persona .
-TestAttemptoSwe: allting , som blir älskat av något är en person .
-
-TestAttempto: baseText (sText (np_coord_VPS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2VP love_V2 (thereNP_as_NP (indefPronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))))
+TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2VP love_V2 (thereNP_as_NP (indefPronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))))
 TestAttemptoAce: everything which loves something is a traveler or is an officer .
 TestAttemptoEng: everything which loves something is a traveler or is an officer .
 TestAttemptoFin: [np_coord_VPS] .
@@ -268,16 +214,7 @@ TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
 TestAttemptoSwe: [np_coord_VPS] .
 
-TestAttempto: baseText (sText (np_coord_VPS (thereNP_as_NP (relThereNP (indefPronNP everything_IPron) (predRS which_RP (v2VP love_V2 (thereNP_as_NP (indefPronNP something_IPron)))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))))
-TestAttemptoAce: everything which loves something is a traveler or is an officer .
-TestAttemptoEng: everything which loves something is a traveler or is an officer .
-TestAttemptoFin: [np_coord_VPS] .
-TestAttemptoFre: [np_coord_VPS] .
-TestAttemptoGer: [np_coord_VPS] .
-TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSwe: [np_coord_VPS] .
-
-TestAttempto: baseText (sText (np_coord_VPS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2_byVP see_V2 (thereNP_as_NP (indefPronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN aquarium_N))))))))
+TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2_byVP see_V2 (thereNP_as_NP (indefPronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN aquarium_N)))))))))
 TestAttemptoAce: everything which is seen by something is a traveler or is an aquarium .
 TestAttemptoEng: everything which is seen by something is a traveler or is an aquarium .
 TestAttemptoFin: [np_coord_VPS] .
@@ -286,16 +223,7 @@ TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
 TestAttemptoSwe: [np_coord_VPS] .
 
-TestAttempto: baseText (sText (np_coord_VPS (thereNP_as_NP (relThereNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP see_V2 (thereNP_as_NP (indefPronNP something_IPron)))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN aquarium_N))))))))
-TestAttemptoAce: everything which is seen by something is a traveler or is an aquarium .
-TestAttemptoEng: everything which is seen by something is a traveler or is an aquarium .
-TestAttemptoFin: [np_coord_VPS] .
-TestAttemptoFre: [np_coord_VPS] .
-TestAttemptoGer: [np_coord_VPS] .
-TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSwe: [np_coord_VPS] .
-
-TestAttempto: baseText (sText (vpS (pnNP tom_PN) (v2VP love_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN officer_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP tom_PN) (v2VP love_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN officer_N)))))))
 TestAttemptoAce: Tom loves at least 2 officers .
 TestAttemptoEng: Tom loves at least 2 officers .
 TestAttemptoFin: Tom rakastaa vähintään 2 upseeria .
@@ -304,7 +232,7 @@ TestAttemptoGer: Tom liebt wenigstens 2 Offizier .
 TestAttemptoIta: Tom ama almeno 2 ufficiali .
 TestAttemptoSwe: Tom älskar minst 2 befälar .
 
-TestAttempto: baseText (sText (vpS (pnNP lisa_PN) (v2VP buy_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN present_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP lisa_PN) (v2VP buy_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN present_N)))))))
 TestAttemptoAce: Lisa buys at most 1 present .
 TestAttemptoEng: Lisa buys at most 1 present .
 TestAttemptoFin: Lisa ostaa enintään 1 lahjan .
@@ -313,7 +241,7 @@ TestAttemptoGer: Lisa kauft höchstens 1 Geschenk .
 TestAttemptoIta: Lisa compra al massimo 1 regalo .
 TestAttemptoSwe: Lisa köper högst 1 present .
 
-TestAttempto: baseText (sText (vpS (everyNP (cn_as_VarCN traveler_N)) (v2VP see_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN aquarium_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (everyNP (cn_as_VarCN traveler_N)) (v2VP see_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN aquarium_N)))))))
 TestAttemptoAce: every traveler sees at least 2 aquariums .
 TestAttemptoEng: every traveler sees at least 2 aquariums .
 TestAttemptoFin: jokainen matkustajan näkee vähintään 2 akvaariota .
@@ -322,7 +250,7 @@ TestAttemptoGer: jede Reisende sieht wenigstens 2 Aquariume .
 TestAttemptoIta: ogni viaggiatore vede almeno 2 acquari .
 TestAttemptoSwe: varje resenär ser minst 2 akvariumar .
 
-TestAttempto: baseText (sText (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2VP buy_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN present_N)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2VP buy_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN present_N)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))
 TestAttemptoAce: everything which buys at least 2 presents is an officer .
 TestAttemptoEng: everything which buys at least 2 presents is an officer .
 TestAttemptoFin: kaikki , joka ostaa vähintään 2 lahjaa on upseeri .
@@ -331,16 +259,7 @@ TestAttemptoGer: alles , das wenigstens 2 Geschenke kauft ist ein Offizier .
 TestAttemptoIta: tutto che compra almeno 2 regali è un ufficiale .
 TestAttemptoSwe: allting , som köper minst 2 presentar är en befäl .
 
-TestAttempto: baseText (sText (vpS (thereNP_as_NP (relThereNP (indefPronNP everything_IPron) (predRS which_RP (v2VP buy_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN present_N))))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))
-TestAttemptoAce: everything which buys at least 2 presents is an officer .
-TestAttemptoEng: everything which buys at least 2 presents is an officer .
-TestAttemptoFin: kaikki , joka ostaa vähintään 2 lahjaa on upseeri .
-TestAttemptoFre: tout qui achète au moins 2 cadeaux est un officier .
-TestAttemptoGer: alles , das wenigstens 2 Geschenke kauft ist ein Offizier .
-TestAttemptoIta: tutto che compra almeno 2 regali è un ufficiale .
-TestAttemptoSwe: allting , som köper minst 2 presentar är en befäl .
-
-TestAttempto: baseText (sText (vpS (everyNP (cn_as_VarCN officer_N)) (v2VP see_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN aquarium_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (everyNP (cn_as_VarCN officer_N)) (v2VP see_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN aquarium_N)))))))
 TestAttemptoAce: every officer sees at most 1 aquarium .
 TestAttemptoEng: every officer sees at most 1 aquarium .
 TestAttemptoFin: jokainen upseeri näkee enintään 1 akvaarion .
@@ -349,7 +268,7 @@ TestAttemptoGer: jeder Offizier sieht höchstens 1 Aquarium .
 TestAttemptoIta: ogni ufficiale vede al massimo 1 acquario .
 TestAttemptoSwe: varje befäl ser högst 1 akvarium .
 
-TestAttempto: baseText (sText (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))) (v2VP see_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN aquarium_N))))))
+TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))) (v2VP see_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN aquarium_N)))))))
 TestAttemptoAce: everything which is a traveler or which is an officer sees at most 1 aquarium .
 TestAttemptoEng: everything which is a traveler or which is an officer sees at most 1 aquarium .
 TestAttemptoFin: kaikki , joka on matkustajan tai joka on upseeri näkee enintään 1 akvaarion .
@@ -358,16 +277,7 @@ TestAttemptoGer: alles , das eine Reisende ist oder das ein Offizier ist sieht h
 TestAttemptoIta: tutto che è un viaggiatore o che è un ufficiale vede al massimo 1 acquario .
 TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högst 1 akvarium .
 
-TestAttempto: baseText (sText (vpS (thereNP_as_NP (relThereNP (indefPronNP everything_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))) (v2VP see_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN aquarium_N))))))
-TestAttemptoAce: everything which is a traveler or which is an officer sees at most 1 aquarium .
-TestAttemptoEng: everything which is a traveler or which is an officer sees at most 1 aquarium .
-TestAttemptoFin: kaikki , joka on matkustajan tai joka on upseeri näkee enintään 1 akvaarion .
-TestAttemptoFre: tout qui est un voyageur ou qui est un officier voit au plus 1 aquarium .
-TestAttemptoGer: alles , das eine Reisende ist oder das ein Offizier ist sieht höchstens 1 Aquarium .
-TestAttemptoIta: tutto che è un viaggiatore o che è un ufficiale vede al massimo 1 acquario .
-TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högst 1 akvarium .
-
-TestAttempto: baseText (sText (if_thenS (vpS (termNP (var_Term X_Var)) (v2VP help_V2 (termNP (var_Term Y_Var)))) (vpS (termNP (var_Term Y_Var)) (v2VP help_V2 (termNP (var_Term X_Var))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP help_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term Y_Var)) (v2VP help_V2 (termNP (var_Term X_Var)))))))
 TestAttemptoAce: if X helps Y then Y helps X .
 TestAttemptoEng: if X helps Y then Y helps X .
 TestAttemptoFin: jos X auttaa Y niin Y auttaa X .
@@ -376,7 +286,7 @@ TestAttemptoGer: wenn X hilft Y dann Y hilft X .
 TestAttemptoIta: si X aiuta Y allora Y aiuta X .
 TestAttemptoSwe: om X assisterar Y så Y assisterar X .
 
-TestAttempto: baseText (sText (if_thenS (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var)))) (neg_vpS (termNP (var_Term Y_Var)) (v2VP see_V2 (termNP (var_Term X_Var))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (neg_vpS (termNP (var_Term Y_Var)) (v2VP see_V2 (termNP (var_Term X_Var)))))))
 TestAttemptoAce: if X sees Y then Y doesn't see X .
 TestAttemptoEng: if X sees Y then Y doesn't see X .
 TestAttemptoFin: jos X näkee Y niin Y ei näe X .
@@ -385,7 +295,7 @@ TestAttemptoGer: wenn X sieht Y dann Y sieht X nicht .
 TestAttemptoIta: si X vede Y allora Y non vede X .
 TestAttemptoSwe: om X ser Y så Y ser inte X .
 
-TestAttempto: baseText (sText (if_thenS (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (relNP (thereNP_as_NP (indefPronNP somebody_IPron)) (predRS which_RP (v2VP see_V2 (termNP (var_Term Y_Var))))))) (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (relNP (thereNP_as_NP (indefPronNP somebody_IPron)) (predRS which_RP (v2VP see_V2 (termNP (var_Term Y_Var)))))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var)))))))
 TestAttemptoAce: if X sees somebody who sees Y then X sees Y .
 TestAttemptoEng: if X sees somebody who sees Y then X sees Y .
 TestAttemptoFin: jos X näkee jonkun , joka näkee Y niin X näkee Y .
@@ -394,16 +304,7 @@ TestAttemptoGer: wenn X sieht jemanden , das Y sieht dann X sieht Y .
 TestAttemptoIta: si X vede qualcuno che vede Y allora X vede Y .
 TestAttemptoSwe: om X ser någon , som ser Y så X ser Y .
 
-TestAttempto: baseText (sText (if_thenS (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (thereNP_as_NP (relThereNP (indefPronNP somebody_IPron) (predRS which_RP (v2VP see_V2 (termNP (var_Term Y_Var)))))))) (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))))
-TestAttemptoAce: if X sees somebody who sees Y then X sees Y .
-TestAttemptoEng: if X sees somebody who sees Y then X sees Y .
-TestAttemptoFin: jos X näkee jonkun , joka näkee Y niin X näkee Y .
-TestAttemptoFre: si X voit quelqu'un qui voit Y alors X voit Y .
-TestAttemptoGer: wenn X sieht jemanden , das Y sieht dann X sieht Y .
-TestAttemptoIta: si X vede qualcuno che vede Y allora X vede Y .
-TestAttemptoSwe: om X ser någon , som ser Y så X ser Y .
-
-TestAttempto: baseText (sText (if_thenS (vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var)))) (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var)))))))
 TestAttemptoAce: if X admires Y then X sees Y .
 TestAttemptoEng: if X admires Y then X sees Y .
 TestAttemptoFin: jos X ihailee Y niin X näkee Y .
@@ -412,7 +313,7 @@ TestAttemptoGer: wenn X bewundert Y dann X sieht Y .
 TestAttemptoIta: si X ammira Y allora X vede Y .
 TestAttemptoSwe: om X beundrar Y så X ser Y .
 
-TestAttempto: baseText (sText (if_thenS (vpS (termNP (var_Term X_Var)) (v2VP inspect_V2 (termNP (var_Term Y_Var)))) (vpS (termNP (var_Term X_Var)) (v2VP help_V2 (termNP (var_Term Y_Var))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP inspect_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP help_V2 (termNP (var_Term Y_Var)))))))
 TestAttemptoAce: if X inspects Y then X helps Y .
 TestAttemptoEng: if X inspects Y then X helps Y .
 TestAttemptoFin: jos X tarkastaa Y niin X auttaa Y .
@@ -421,7 +322,7 @@ TestAttemptoGer: wenn X inspiziert Y dann X hilft Y .
 TestAttemptoIta: si X ispeziona Y allora X aiuta Y .
 TestAttemptoSwe: om X avsynar Y så X assisterar Y .
 
-TestAttempto: baseText (sText (if_thenS (vpS (termNP (var_Term X_Var)) (v2VP help_V2 (termNP (var_Term Y_Var)))) (vpS (termNP (var_Term Y_Var)) (v2VP admire_V2 (termNP (var_Term X_Var))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP help_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term Y_Var)) (v2VP admire_V2 (termNP (var_Term X_Var)))))))
 TestAttemptoAce: if X helps Y then Y admires X .
 TestAttemptoEng: if X helps Y then Y admires X .
 TestAttemptoFin: jos X auttaa Y niin Y ihailee X .
@@ -430,7 +331,7 @@ TestAttemptoGer: wenn X hilft Y dann Y bewundert X .
 TestAttemptoIta: si X aiuta Y allora Y ammira X .
 TestAttemptoSwe: om X assisterar Y så Y beundrar X .
 
-TestAttempto: baseText (sText (if_thenS (vpS (termNP (var_Term X_Var)) (v2VP love_V2 (termNP (var_Term Y_Var)))) (neg_vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP love_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (neg_vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var)))))))
 TestAttemptoAce: if X loves Y then X doesn't admire Y .
 TestAttemptoEng: if X loves Y then X doesn't admire Y .
 TestAttemptoFin: jos X rakastaa Y niin X ei ihaile Y .
@@ -439,7 +340,7 @@ TestAttemptoGer: wenn X liebt Y dann X bewundert Y nicht .
 TestAttemptoIta: si X ama Y allora X non ammira Y .
 TestAttemptoSwe: om X älskar Y så X beundrar inte Y .
 
-TestAttempto: baseText (sText (if_thenS (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var)))) (neg_vpS (termNP (var_Term Y_Var)) (v2VP love_V2 (termNP (var_Term X_Var))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (neg_vpS (termNP (var_Term Y_Var)) (v2VP love_V2 (termNP (var_Term X_Var)))))))
 TestAttemptoAce: if X sees Y then Y doesn't love X .
 TestAttemptoEng: if X sees Y then Y doesn't love X .
 TestAttemptoFin: jos X näkee Y niin Y ei rakasta X .
@@ -448,7 +349,7 @@ TestAttemptoGer: wenn X sieht Y dann Y liebt X nicht .
 TestAttemptoIta: si X vede Y allora Y non ama X .
 TestAttemptoSwe: om X ser Y så Y älskar inte X .
 
-TestAttempto: consText (sText (if_thenS (vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var)))) (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var)))))) (baseText (sText (if_thenS (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var)))) (vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var)))))))
+TestAttempto: consText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))))) (baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var))))))))
 TestAttemptoAce: if X admires Y then X sees Y . if X sees Y then X admires Y .
 TestAttemptoEng: if X admires Y then X sees Y . if X sees Y then X admires Y .
 TestAttemptoFin: jos X ihailee Y niin X näkee Y . jos X näkee Y niin X ihailee Y .
@@ -457,7 +358,7 @@ TestAttemptoGer: wenn X bewundert Y dann X sieht Y . wenn X sieht Y dann X bewun
 TestAttemptoIta: si X ammira Y allora X vede Y . si X vede Y allora X ammira Y .
 TestAttemptoSwe: om X beundrar Y så X ser Y . om X ser Y så X beundrar Y .
 
-TestAttempto: consText (sText (if_thenS (vpS (termNP (var_Term X_Var)) (v2VP inspect_V2 (termNP (var_Term Y_Var)))) (vpS (termNP (var_Term Y_Var)) (v2VP see_V2 (termNP (var_Term X_Var)))))) (baseText (sText (if_thenS (vpS (termNP (var_Term Y_Var)) (v2VP see_V2 (termNP (var_Term X_Var)))) (vpS (termNP (var_Term X_Var)) (v2VP inspect_V2 (termNP (var_Term Y_Var)))))))
+TestAttempto: consText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP inspect_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term Y_Var)) (v2VP see_V2 (termNP (var_Term X_Var))))))) (baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term Y_Var)) (v2VP see_V2 (termNP (var_Term X_Var))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP inspect_V2 (termNP (var_Term Y_Var))))))))
 TestAttemptoAce: if X inspects Y then Y sees X . if Y sees X then X inspects Y .
 TestAttemptoEng: if X inspects Y then Y sees X . if Y sees X then X inspects Y .
 TestAttemptoFin: jos X tarkastaa Y niin Y näkee X . jos Y näkee X niin X tarkastaa Y .
