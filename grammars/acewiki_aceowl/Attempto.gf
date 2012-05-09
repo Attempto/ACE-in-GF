@@ -15,7 +15,7 @@ cat AP ;
 cat RS ;
 cat Pron ; cat IndefPron ;
 cat Prep ;
-cat S ;
+cat S ; cat SimpleS ;
 cat VP ;
 cat V ;
 cat VS ;
@@ -39,7 +39,7 @@ cat [VPS] {2} ;
 fun aNP : VarCN -> ThereNP ;
 fun theNP : VarCN -> NP ;
 fun cardNP : Card -> VarCN -> ThereNP ;
--- TODO: in full ACE this must be ThereNP [KK]
+-- Note: in full ACE this must be ThereNP [KK]
 fun noNP : VarCN -> NP ;
 fun everyNP : VarCN -> NP ;
 
@@ -74,7 +74,7 @@ fun apposVarCN : CN -> Var -> VarCN ;  -- a man X
 
 fun cn_as_VarCN : CN -> VarCN ;
 
--- TODO: in full ACE this must be ThereNP [KK]
+-- Note: in full ACE this must be ThereNP [KK]
 fun termNP : Term -> NP ;
 
 -- 2.2.2
@@ -102,8 +102,8 @@ fun ofCN : VarCN -> NP -> VarCN ; -- dog of John and Mary
 
 -- 2.3.1
 
-fun vpS : NP -> VP -> S ;
-fun neg_vpS : NP -> VP -> S ;
+fun vpS : NP -> VP -> SimpleS ;
+fun neg_vpS : NP -> VP -> SimpleS ;
 
 fun v2VP : V2 -> NP -> VP ;
 
@@ -113,7 +113,7 @@ fun a2VP : A2 -> NP -> VP ; -- is mad-about NP
 
 -- 3.2
 
-fun thereNP : ThereNP -> S ;  -- there is/are
+fun thereNP : ThereNP -> SimpleS ;  -- there is/are
 
 fun thereNP_as_NP : ThereNP -> NP ;
 
@@ -130,7 +130,7 @@ fun or_Conj : Conj ;
 -- (3) map VPS into S (and QS?) (but definitely not into RS).
 fun vp_as_posVPS : VP -> VPS ;
 fun vp_as_negVPS : VP -> VPS ;
-fun np_coord_VPS : NP -> Conj -> [VPS] -> S ;
+fun np_coord_VPS : NP -> Conj -> [VPS] -> SimpleS ;
 
 -- 3.4.3
 
@@ -139,7 +139,9 @@ fun for_everyS : VarCN -> S -> S ;
 -- 3.4.4
 
 fun if_thenS : S -> S -> S ;
-fun falseS : S -> S ; -- it is false that
+fun falseS : SimpleS -> S ; -- it is false that
+
+fun simpleS_as_S : SimpleS -> S ;
 
 -- 3.5
 

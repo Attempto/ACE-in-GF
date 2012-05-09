@@ -16,7 +16,7 @@ lincat AP = Syntax.AP ;
 lincat RS = Syntax.RS ;
 lincat Pron = Syntax.Pron ; lincat IndefPron = Syntax.NP ;
 lincat Prep = Syntax.Prep ;
-lincat S = Syntax.S ;
+lincat S = Syntax.S ; lincat SimpleS = Syntax.S ;
 lincat VP = Syntax.VP ;
 lincat V = Syntax.V ;
 lincat VS = Syntax.VS ;
@@ -111,6 +111,8 @@ lin thereNP np = mkS (mkCl np) ;
 lin thereNP_as_NP = id Syntax.NP ;
 
 lin cn_as_VarCN = id Syntax.CN ;
+
+lin simpleS_as_S = id Syntax.S ;
 
 
 -- 3.4.1
