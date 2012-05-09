@@ -1,6 +1,7 @@
 *.gf-tags
 *.gfo
 _gf
+/build/gr/precision-test.txt
 /test_*
 /Parser
 /.project
