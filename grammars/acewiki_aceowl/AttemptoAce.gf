@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [slash_ipQS, apposVarCN, indefPronVarNP, vVP] with
+concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [slash_ipQS, neg_slash_ipQS, apposVarCN, indefPronVarNP, vVP] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
   (LexAttempto = LexAttemptoAce) ** open SyntaxAce, ExtraAce, ResAce, SentenceAce, Precedence in {
@@ -14,6 +14,14 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [s
         ipnp = lin NP ( ip ** {a = np.a} ) ;
         cl = PredVP np (ComplV2 v2 ipnp) ;
       } ; -- Mary likes who?
+  lin neg_slash_ipQS ip np v2 =
+      mkQS negativePol (mkQCl ip (mkClSlash np v2))
+    | lin QS {
+        s = \\qf => cl.s ! Pres ! Simul ! CNeg (True|False) ! ODir
+      } where {
+        ipnp = lin NP ( ip ** {a = np.a} ) ;
+        cl = PredVP np (ComplV2 v2 ipnp) ;
+      } ;
 
   -- Variables have genitives [JJC]
   lincat Var = {s : Case => Str};
