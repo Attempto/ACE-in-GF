@@ -32,6 +32,9 @@ Modifications to grammar.pl
 2. Every `of`-noun is also a noun and vice versa. This reflects better ACE
 where there is no explicit `of`-noun category.
 
+3. Add support for `nothing but`, because this construct is used in the
+Ontograph testset.
+
 
 Usage
 -----

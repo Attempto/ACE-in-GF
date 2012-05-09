@@ -268,6 +268,13 @@ np(id:ID, exist:E, rel:R, of:minus, pl:minus, embv:EmbV, qu:Qu, whin:WhIn, whout
  	relcl(subj:ID, rel:R, embv:EmbV, human:H, qu:Qu, whin:WhIn, whout:WhOut).
 
 %% m t
+%% nothing but [KK]
+np(id:ID, exist:plus, of:minus, pl:plus, plquant:plus, copula:minus, whin:Wh, whout:Wh) =>
+	[nothing, but],
+	#ID,
+	$nounpl.
+
+%% m t
 np(id:ID, exist:plus, of:minus, pl:plus, plquant:plus, copula:minus, whin:Wh, whout:Wh) =>
 	num_quant,
 	$number,

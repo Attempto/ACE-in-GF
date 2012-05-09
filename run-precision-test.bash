@@ -12,7 +12,7 @@ out_fail=test_precision_out_fail.txt
 cat="Text"
 # At depth=3 gr can reliably generate 1000s of trees,
 # at higher depths it seems to hang.
-depth="3"
+depth="4"
 # Exclude questions for the time being.
 tree="(baseText (sText ?))"
 
