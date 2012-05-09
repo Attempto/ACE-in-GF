@@ -7,6 +7,7 @@ path = present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/
 grammars = grammars/acewiki_aceowl
 words = words/acewiki_aceowl
 words_onto = words/ontograph_40
+tests_onto = tests/ontograph_40
 
 # Language list. Urdu was giving problems, so we ignore it :(
 languages = Ace Eng Fin Fre Ger Ita Swe
@@ -25,8 +26,12 @@ all_ontograph_40:
 
 # Parse ontograph_40 sentences and linearise into all languages
 lin_ontograph_40:
-	echo "rf -lines -file=tests/ontograph_40/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
+	echo "rf -lines -file=$(tests_onto)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
 	gf --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
+
+lin_ontograph_40_save:
+	echo "rf -lines -file=$(tests_onto)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
+	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf) > $(tests_onto)/lin.txt
 
 # Build the test grammar, as a batch or keeping the GF shell open
 build_test_batch:
