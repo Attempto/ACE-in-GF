@@ -5,23 +5,35 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [s
   (Symbolic = SymbolicAce),
   (LexAttempto = LexAttemptoAce) ** open SyntaxAce, ExtraAce, ResAce, SentenceAce, Precedence in {
 
+  oper
+    ip2np : SyntaxAce.IP -> Agr -> SyntaxAce.NP = \ip,agr -> lin NP ( ip ** {a = agr} ) ;
+
   -- wh-word in object position. Needs closer analysis. [JJC]
   lin slash_ipQS ip np v2 =
       mkQS (mkQCl ip (mkClSlash np v2)) -- who does Mary like?
     | lin QS {
         s = \\qf => cl.s ! Pres ! Simul ! CPos ! ODir
       } where {
-        ipnp = lin NP ( ip ** {a = np.a} ) ;
-        cl = PredVP np (ComplV2 v2 ipnp) ;
+        cl = PredVP np (ComplV2 v2 (ip2np ip np.a))
       } ; -- Mary likes who?
   lin neg_slash_ipQS ip np v2 =
       mkQS negativePol (mkQCl ip (mkClSlash np v2))
     | lin QS {
         s = \\qf => cl.s ! Pres ! Simul ! CNeg (True|False) ! ODir
       } where {
-        ipnp = lin NP ( ip ** {a = np.a} ) ;
-        cl = PredVP np (ComplV2 v2 ipnp) ;
+        cl = PredVP np (ComplV2 v2 (ip2np ip np.a))
       } ;
+
+  -- Using IP in a VP to form a QS [JJC]
+  lin is_NPQ somebody who = Syntax.mkNP (thereNP_as_NP (indefPronNP somebody)) (predRS AttemptoAce.which_RP (npVP (ip2np who somebody.a))) ; -- "somebody who is who"
+  lin v2_NPQ somebody v2 who = Syntax.mkNP (thereNP_as_NP (indefPronNP somebody)) (predRS AttemptoAce.which_RP (v2VP v2 (ip2np who somebody.a))) ; -- "somebody who asks who"
+  lin is_vpq_QS np npq = lin QS { -- "Mary is somebody who is/asks who ?"
+    s = \\qf => (mkCl np npq).s ! Pres ! Simul ! CPos ! ODir
+  } ;
+  lin v2_vpq_QS np v2 npq = lin QS { -- "Mary asks somebody who is/asks who ?"
+    s = \\qf => (mkCl np v2 npq).s ! Pres ! Simul ! CPos ! ODir
+  } ;
+
 
   -- Variables have genitives [JJC]
   lincat Var = {s : Case => Str};
