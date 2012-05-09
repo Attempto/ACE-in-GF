@@ -4,11 +4,7 @@ abstract Attempto =
 -- Use Text to get only single-sentence texts.
 flags startcat = ACEText ;
 
--- Do not delete these categories,
--- even if they are not used below.
--- This way we do not need to modify the
--- other files in this directory.
-cat CN ;
+cat CN ; cat VarCN ;
 cat NP ; cat ThereNP ;
 cat Card ;
 ---cat Numeral ;
@@ -40,12 +36,12 @@ cat VPS ;
 cat [VPS] {2} ;
 
 
-fun aNP : CN -> ThereNP ;
-fun theNP : CN -> NP ;
-fun cardNP : Card -> CN -> ThereNP ;
+fun aNP : VarCN -> ThereNP ;
+fun theNP : VarCN -> NP ;
+fun cardNP : Card -> VarCN -> ThereNP ;
 -- TODO: in full ACE this must be ThereNP [KK]
-fun noNP : CN -> NP ;
-fun everyNP : CN -> NP ;
+fun noNP : VarCN -> NP ;
+fun everyNP : VarCN -> NP ;
 
 fun pnNP : PN -> NP ;
 
@@ -66,15 +62,18 @@ fun nothing_IPron : IndefPron ;
 fun indefPronNP : IndefPron -> ThereNP ;
 fun indefPronVarNP : IndefPron -> Var -> ThereNP ;
 
-fun at_leastNP : Card -> CN -> ThereNP ;
-fun at_mostNP : Card -> CN -> ThereNP ;
-fun more_thanNP : Card -> CN -> ThereNP ;
-fun less_thanNP : Card -> CN -> ThereNP ;
-fun exactlyNP : Card -> CN -> ThereNP ;
+fun at_leastNP : Card -> VarCN -> ThereNP ;
+fun at_mostNP : Card -> VarCN -> ThereNP ;
+fun more_thanNP : Card -> VarCN -> ThereNP ;
+fun less_thanNP : Card -> VarCN -> ThereNP ;
+fun exactlyNP : Card -> VarCN -> ThereNP ;
 
-fun nothing_butNP : CN -> NP ;
+fun nothing_butNP : VarCN -> NP ;
 
-fun apposVarCN : CN -> Var -> CN ;  -- a man X
+fun apposVarCN : CN -> Var -> VarCN ;  -- a man X
+
+fun cn_as_VarCN : CN -> VarCN ;
+
 -- TODO: in full ACE this must be ThereNP [KK]
 fun termNP : Term -> NP ;
 
@@ -83,7 +82,7 @@ fun termNP : Term -> NP ;
 -- Relative clause can be attached to both CNs and NPs.
 -- relCN provides relative clauses in constructs like
 -- `which woman who ...` and `for every woman who ...`
-fun relCN : CN -> RS -> CN ;
+fun relCN : VarCN -> RS -> VarCN ;
 fun relNP : NP -> RS -> NP ;
 fun relThereNP : ThereNP -> RS -> ThereNP ;
 
@@ -99,7 +98,7 @@ fun which_RP : RP ;
 
 -- 2.2.4
 
-fun ofCN : CN -> NP -> CN ; -- dog of John and Mary
+fun ofCN : VarCN -> NP -> VarCN ; -- dog of John and Mary
 
 -- 2.3.1
 
@@ -135,7 +134,7 @@ fun np_coord_VPS : NP -> Conj -> [VPS] -> S ;
 
 -- 3.4.3
 
-fun for_everyS : CN -> S -> S ;
+fun for_everyS : VarCN -> S -> S ;
 
 -- 3.4.4
 
@@ -164,7 +163,7 @@ fun neg_slash_ipQS : IP -> NP -> V2 -> QS ;
 fun whoSg_IP : IP ;
 fun whatSg_IP : IP ;
 
-fun whichIP : IDet -> CN -> IP ;
+fun whichIP : IDet -> VarCN -> IP ;
 fun which_IDet : IDet ;
 fun whichPl_IDet : IDet ;
 
