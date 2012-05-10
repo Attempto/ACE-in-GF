@@ -1,4 +1,4 @@
---# -path=.:/Users/aarne/GF/next-lib/present
+--# -path=.:present
 
 concrete AttemptoGer of Attempto = SymbolsC, NumeralGer ** AttemptoI with
   (Syntax = SyntaxGer),
