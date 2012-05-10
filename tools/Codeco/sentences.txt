@@ -11,3 +11,7 @@ for every man X there is somebody Y .
 a friend is a man of Mary .
 Mary asks nothing but women .
 there are  less than  4  2  men  .
+there are less than 0 men .
+there is less than 1 man .
+there are less than 1 0 men .
+there are less than 1 1 men .

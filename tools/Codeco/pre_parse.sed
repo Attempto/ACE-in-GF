@@ -9,5 +9,6 @@
 s/ *$//
 
 # Convert clusters of digits into '2',
-# which is the only number that the test grammar supports.
-s/[0-9 ]*[0-9][0-9 ]*/ 2 /g
+# because the test grammar only supports 1 and 2.
+s/[0-9 ]*[023456789][0-9 ]*/ 2 /g
+s/ *1 *1[1 ]*/ 2 /g
