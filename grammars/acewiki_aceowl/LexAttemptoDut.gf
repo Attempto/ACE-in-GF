@@ -3,10 +3,10 @@ instance LexAttemptoDut of LexAttempto = open SyntaxDut, ParadigmsDut, Construct
 flags coding=utf8;
 
 oper
-  false_A = ParadigmsDut.mkA "falsch" ;
+  false_A = ParadigmsDut.mkA "onwaar" ;
 
   adj_thatCl : A -> S -> Cl = \a,s -> mkCl (mkVP (mkAP (mkAP a) s)) ;
 
-  exactly_AdN = ConstructX.mkAdN "genau" ;
+  exactly_AdN = ConstructX.mkAdN "precies" ;
 
 }
