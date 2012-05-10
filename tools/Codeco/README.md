@@ -43,11 +43,11 @@ The output (STDOUT) shows for each input sentence on a separate line
 its tokenization (where two spaces mark the token border) and a prefix
 `OK` or `FAIL` depending on whether parsing succeeded or not.
 
-> echo "Mary is a friend of Mary ." | swipl -f parse.pl -g main -t halt -q
+> echo "Mary is a friend of Mary ." | sh run.sh
 
 	OK: Mary  is  a  friend of  Mary  .
 
-> cat sentences.txt | swipl -f parse.pl -g main -t halt -q
+> cat sentences.txt | sh run.sh
 
 	OK: Mary  asks  Mary  .
 	OK: Mary  is  a  friend of  at least  2  women  .  Mary  asks  Mary  .
@@ -57,10 +57,8 @@ its tokenization (where two spaces mark the token border) and a prefix
 
 Parsing the complete test set (19k sentences):
 
-> time cat ../../tests/acewiki_aceowl/sentences.txt | sed "s/ *$//" | swipl -f parse.pl -g main -t halt -q > out.txt
+> time cat ../../tests/acewiki_aceowl/sentences.txt | sh run.sh > out.txt
 
 	real	0m21.224s
 	user	0m21.097s
 	sys	0m0.144s
-	
-
