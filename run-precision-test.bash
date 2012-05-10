@@ -10,9 +10,9 @@ trees_file=build/gr/precision-test.txt
 out=test_precision_out.txt
 out_fail=test_precision_out_fail.txt
 cat="Text"
-# At depth=3 gr can reliably generate 1000s of trees,
+# At depth=7 gr can reliably generate 1000s of trees,
 # at higher depths it seems to hang.
-depth="4"
+depth="7"
 # Exclude questions for the time being.
 tree="(baseText (sText ?))"
 
