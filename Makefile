@@ -24,6 +24,9 @@ all_test:
 all_ontograph_40:
 	gf --batch --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
 
+pgf_ontograph_40:
+	gf --make --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
+
 # Parse ontograph_40 sentences and linearise into all languages
 lin_ontograph_40:
 	echo "rf -lines -file=$(tests_onto)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \

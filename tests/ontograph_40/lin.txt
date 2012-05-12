@@ -250,7 +250,7 @@ TestAttemptoSwe: [np_coord_VPS] .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP tom_PN) (v2VP love_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN officer_N)))))))
 TestAttemptoAce: Tom loves at least 2 officers .
-TestAttemptoDut: 
+TestAttemptoDut: Tom heeft ten minste 2 politieagenten lief .
 TestAttemptoEng: Tom loves at least 2 officers .
 TestAttemptoFin: Tom rakastaa vähintään 2 upseeria .
 TestAttemptoFre: Tom aime au moins 2 officiers .
@@ -260,7 +260,7 @@ TestAttemptoSwe: Tom älskar minst 2 befälar .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP lisa_PN) (v2VP buy_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN present_N)))))))
 TestAttemptoAce: Lisa buys at most 1 present .
-TestAttemptoDut: 
+TestAttemptoDut: Lisa koopt hooguit 1 cadeau .
 TestAttemptoEng: Lisa buys at most 1 present .
 TestAttemptoFin: Lisa ostaa enintään 1 lahjan .
 TestAttemptoFre: Lisa achète au plus 1 cadeau .
@@ -270,7 +270,7 @@ TestAttemptoSwe: Lisa köper högst 1 present .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (everyNP (cn_as_VarCN traveler_N)) (v2VP see_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN aquarium_N)))))))
 TestAttemptoAce: every traveler sees at least 2 aquariums .
-TestAttemptoDut: 
+TestAttemptoDut: elke reiziger ziet ten minste 2 aquariums .
 TestAttemptoEng: every traveler sees at least 2 aquariums .
 TestAttemptoFin: jokainen matkustajan näkee vähintään 2 akvaariota .
 TestAttemptoFre: chaque voyageur voit au moins 2 aquariums .
@@ -280,7 +280,7 @@ TestAttemptoSwe: varje resenär ser minst 2 akvariumar .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (predRS which_RP (v2VP buy_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN present_N)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))
 TestAttemptoAce: everything which buys at least 2 presents is an officer .
-TestAttemptoDut: 
+TestAttemptoDut: alles , dat ten minste 2 cadeau's koopt is een politieagent .
 TestAttemptoEng: everything which buys at least 2 presents is an officer .
 TestAttemptoFin: kaikki , joka ostaa vähintään 2 lahjaa on upseeri .
 TestAttemptoFre: tout qui achète au moins 2 cadeaux est un officier .
@@ -290,7 +290,7 @@ TestAttemptoSwe: allting , som köper minst 2 presentar är en befäl .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (everyNP (cn_as_VarCN officer_N)) (v2VP see_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN aquarium_N)))))))
 TestAttemptoAce: every officer sees at most 1 aquarium .
-TestAttemptoDut: 
+TestAttemptoDut: elke politieagent ziet hooguit 1 aquarium .
 TestAttemptoEng: every officer sees at most 1 aquarium .
 TestAttemptoFin: jokainen upseeri näkee enintään 1 akvaarion .
 TestAttemptoFre: chaque officier voit au plus 1 aquarium .
@@ -300,7 +300,7 @@ TestAttemptoSwe: varje befäl ser högst 1 akvarium .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (thereNP_as_NP (indefPronNP everything_IPron)) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))) (v2VP see_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN aquarium_N)))))))
 TestAttemptoAce: everything which is a traveler or which is an officer sees at most 1 aquarium .
-TestAttemptoDut: 
+TestAttemptoDut: alles , dat een reiziger is of dat een politieagent is ziet hooguit 1 aquarium .
 TestAttemptoEng: everything which is a traveler or which is an officer sees at most 1 aquarium .
 TestAttemptoFin: kaikki , joka on matkustajan tai joka on upseeri näkee enintään 1 akvaarion .
 TestAttemptoFre: tout qui est un voyageur ou qui est un officier voit au plus 1 aquarium .

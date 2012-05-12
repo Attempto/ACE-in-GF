@@ -13,7 +13,7 @@ lin
   woman_N = mkCN L.woman_N ;
   golfer_N = mkkN "golfspeler" ;
   present_N = mkkN "cadeau" ;
-  aquarium_N = mkkN "aquarium" ;
+  aquarium_N = mkCN (mkN "aquarium" "aquariums" het);
   picture_N = mkkN "afbeelding" ;
   person_N = mkCN L.person_N ;
 
