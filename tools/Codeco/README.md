@@ -35,6 +35,10 @@ where there is no explicit `of`-noun category.
 3. Add support for `nothing but`, because this construct is used in the
 Ontograph testset.
 
+4. `it_is_false that` now takes `simple_sentence_1` as its argument (was: `simple_sentence_2`),
+i.e. `it is false that there is ...` is now possible, as well as
+`it is false that it is false that ...`.
+
 
 Usage
 -----

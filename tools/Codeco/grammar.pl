@@ -115,7 +115,7 @@ paragraph:'Uncoordinated sentences are represented in two levels by ''simple_sen
 simple_sentence_1 ~>
 	//,
 	['it is false that'],
-	simple_sentence_2(qu:minus).
+	simple_sentence_1(qu:minus).
 
 %% m t
 simple_sentence_1 =>
