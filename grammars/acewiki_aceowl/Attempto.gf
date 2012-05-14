@@ -13,7 +13,7 @@ cat A ;
 cat A2 ;
 cat AP ;
 cat RS ;
-cat Pron ; cat IndefPron ;
+cat Pron ; IndefPron ; IndefTherePron ;
 cat Prep ;
 cat S ; cat SimpleS ;
 cat VP ;
@@ -44,22 +44,23 @@ fun everyNP : VarCN -> NP ;
 
 fun pnNP : PN -> NP ;
 
--- [JJC]
-fun somebody_IPron : IndefPron ;
-fun something_IPron : IndefPron ;
+-- [JJC] [KK]
+-- - ACE and AceWiki do not allow 'there is every-'
+-- - AceWiki does not allow 'there is no-' (but ACE does)
+-- - ACE and AceWiki allow 'there is some-'
+fun somebody_IPron : IndefTherePron ;
+fun something_IPron : IndefTherePron ;
 fun everybody_IPron : IndefPron ;
 fun everything_IPron : IndefPron ;
 fun nobody_IPron : IndefPron ;
 fun nothing_IPron : IndefPron ;
 
--- [JJC]
--- [KK] TODO: Currently indefinite pronouns can be used with 'there is/are' but
--- the reality is more complex:
--- - ACE and AceWiki do not allow 'there is every-'
--- - AceWiki does not allow 'there is no-' (but ACE does)
--- - ACE and AceWiki allow 'there is some-'
-fun indefPronNP : IndefPron -> ThereNP ;
-fun indefPronVarNP : IndefPron -> Var -> ThereNP ;
+-- [JJC] [KK]
+fun indefTherePronNP : IndefTherePron -> ThereNP ;
+fun indefPronNP : IndefPron -> NP ;
+
+fun indefTherePronVarNP : IndefTherePron -> Var -> ThereNP ;
+fun indefPronVarNP : IndefPron -> Var -> NP ;
 
 fun at_leastNP : Card -> VarCN -> ThereNP ;
 fun at_mostNP : Card -> VarCN -> ThereNP ;
@@ -164,8 +165,8 @@ fun neg_slash_ipQS : IP -> NP -> V2 -> QS ;
 --fun vpq_QS : NP -> IP -> QS ; -- "Mary is who ?"
 --fun vpq_QS : NP -> V2 -> IP -> QS ; -- "Mary asks who ?"
 
-fun is_NPQ : IndefPron -> IP -> NPQ ; -- "somebody who is who"
-fun v2_NPQ : IndefPron -> V2 -> IP -> NPQ ; -- "somebody who asks who"
+fun is_ThereNPQ : IndefTherePron -> IP -> NPQ ; -- "somebody who is who"
+fun v2_ThereNPQ : IndefTherePron -> V2 -> IP -> NPQ ; -- "somebody who asks who"
 fun is_vpq_QS : NP -> NPQ -> QS ; -- "Mary is somebody who is/asks who ?"
 fun v2_vpq_QS : NP -> V2 -> NPQ -> QS ; -- "Mary asks somebody who is/asks who ?"
 

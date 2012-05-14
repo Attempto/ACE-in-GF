@@ -14,7 +14,7 @@ lincat A = Syntax.A ;
 lincat A2 = Syntax.A2 ;
 lincat AP = Syntax.AP ;
 lincat RS = Syntax.RS ;
-lincat Pron = Syntax.Pron ; lincat IndefPron = Syntax.NP ;
+lincat Pron = Syntax.Pron ; IndefPron = Syntax.NP ; IndefTherePron = Syntax.NP ;
 lincat Prep = Syntax.Prep ;
 lincat S = Syntax.S ; lincat SimpleS = Syntax.S ;
 lincat VP = Syntax.VP ;
@@ -51,7 +51,9 @@ lin nobody_IPron = Syntax.nobody_NP ;
 lin nothing_IPron = Syntax.nothing_NP ;
 
 -- [JJC]
+lin indefTherePronNP pr = pr;
 lin indefPronNP pr = pr;
+lin indefTherePronVarNP pr var = symb var ; -- Default ignores pronoun! This sould be overridden [JJC]
 lin indefPronVarNP pr var = symb var ; -- Default ignores pronoun! This sould be overridden [JJC]
 
 lin at_leastNP ca = Syntax.mkNP (Syntax.mkCard at_least_AdN ca) ;

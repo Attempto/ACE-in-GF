@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [slash_ipQS, neg_slash_ipQS, apposVarCN, indefPronVarNP] with
+concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [slash_ipQS, neg_slash_ipQS, apposVarCN, indefTherePronVarNP, indefPronVarNP] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
   (LexAttempto = LexAttemptoAce) ** open SyntaxAce, ExtraAce, ResAce, SentenceAce, Precedence in {
@@ -25,8 +25,9 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [s
       } ;
 
   -- Using IP in a VP to form a QS [JJC]
-  lin is_NPQ somebody who = Syntax.mkNP (thereNP_as_NP (indefPronNP somebody)) (predRS AttemptoAce.which_RP (npVP (ip2np who somebody.a))) ; -- "somebody who is who"
-  lin v2_NPQ somebody v2 who = Syntax.mkNP (thereNP_as_NP (indefPronNP somebody)) (predRS AttemptoAce.which_RP (v2VP v2 (ip2np who somebody.a))) ; -- "somebody who asks who"
+  lin is_ThereNPQ somebody who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (predRS AttemptoAce.which_RP (npVP (ip2np who somebody.a))) ; -- "somebody who is who"
+  lin v2_ThereNPQ somebody v2 who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (predRS AttemptoAce.which_RP (v2VP v2 (ip2np who somebody.a))) ; -- "somebody who asks who"
+
   lin is_vpq_QS np npq = lin QS { -- "Mary is somebody who is/asks who ?"
     s = \\qf => (mkCl np npq).s ! Pres ! Simul ! CPos ! ODir
   } ;
@@ -42,10 +43,16 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [s
   lin Y_Var = {s = regGenitiveS "Y"} ;
   oper NomVar : {s : Case => Str} -> Str = \v -> v.s ! Nom ;
 
-  -- "somebody X" etc [JJC]
+  -- "everybody X" etc [JJC]
   lin indefPronVarNP pr v = lin NP {
     s = \\c => pr.s ! NCase Nom ++ v.s ! (npcase2case c) ; -- with genitive "somebody X's"
 --    s = \\c => pr.s ! NCase Nom ++ v.s ! (npcase2case (NCase Nom)) ; -- no inflection for genitive
+    a = pr.a
+  };
+
+  -- "somebody X" and "something X" [KK]
+  lin indefTherePronVarNP pr v = lin NP {
+    s = \\c => pr.s ! NCase Nom ++ v.s ! (npcase2case c) ; -- with genitive "somebody X's"
     a = pr.a
   };
 
