@@ -3,7 +3,7 @@ clex='/home/kaarel/mywork/APE/lexicon/clex_lexicon_small.pl'
 
 ace="../../lib/src/ace/"
 api="../../lib/src/api/"
-grammar="../../grammars/attempto/"
+grammar="../../grammars/ace/"
 
 path="present:${grammar}:${ace}:${api}"
 

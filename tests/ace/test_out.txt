@@ -2,7 +2,7 @@ there is a man .|OK (1)
 a flat mate runs .|OK (1)
 a dog is good .|OK (1)
 a man waits in a bank .|OK (1)
-a man runs and walks or sleeps .|FAIL a man runs and walks
+a man runs and walks or sleeps .|FAIL a man runs and walks or sleeps
 there is some absinth .|OK (1)
 is there some absinth ?|FAIL is there
 a n : sdfsdfsdfsdfsdf waits .|FAIL a n
@@ -14,7 +14,7 @@ do some men wait ?|OK (1)
 a man does not wait in a bank .|OK (1)
 where does a man wait ?|OK (1)
 John waits .|OK (1)
-the flat mate of John is a clerk .|OK (2)
+the flat mate of John is a clerk .|OK (1)
 the screen blinks and John waits .|OK (1)
 the surface of the card has a green color .|OK (1)
 John's car is fast .|OK (1)
@@ -39,7 +39,7 @@ some men wait . they are happy .|OK (1)
 there is 1 man D . there is 1 park B . D waits in B .|FAIL there is 1 man D
 if there is a man then there is 1 woman .|OK (1)
 if there is a man then there is more than 1 woman .|OK (1)
-there is no laundry .|OK (2)
+there is no laundry .|OK (1)
 there is some laundry .|OK (1)
 there is a laundry .|OK (1)
 2 men see themselves .|FAIL 2 men see themselves
@@ -59,10 +59,10 @@ no men wait .|OK (1)
 for every man a dog barks .|OK (1)
 for each man a dog barks .|OK (1)
 there is a thing A . there is a thing B . if A is true and A implies B then B is true .|FAIL there is a thing A
-what does a man look-at ?|FAIL what
+what does a man look-at ?|OK (1)
 a man looks-at a card .|FAIL a man looks-at
 there is a form . a man fills-in it .|FAIL there is a form . a man fills-in it
-what does a man look at ?|FAIL what
+what does a man look at ?|FAIL what does a man look
 a man looks at a card .|OK (1)
 every man sees every dog .|OK (1)
 for every dog every man sees it .|OK (1)
@@ -75,24 +75,24 @@ a customer inserts some cards manually .|OK (1)
 a customer manually inserts some cards .|FAIL a customer manually
 a customer inserts some cards into a slot .|OK (1)
 John's customer who is new inserts a valid card of Mary manually into a slot A .|FAIL John's customer who is new inserts a valid card of Mary manually into a slot A
-a customer inserts a card and enters a code .|FAIL a customer inserts a card and enters
+a customer inserts a card and enters a code .|OK (1)
 an old and a : trusted customer enters a card and a code .|FAIL an old and a :
-a customer inserts a card or enters a code .|FAIL a customer inserts a card or enters
+a customer inserts a card or enters a code .|OK (1)
 every customer inserts a card .|OK (1)
-there is a card that every customer inserts .|OK (2)
-for every card there is a customer who inserts it .|OK (2)
+there is a card that every customer inserts .|OK (1)
+for every card there is a customer who inserts it .|OK (1)
 a customer does not insert a card .|OK (1)
 a card is not valid .|OK (1)
 no customer inserts more than 2 cards .|OK (1)
-there is no customer who inserts a card .|OK (2)
+there is no customer who inserts a card .|FAIL there is no customer who
 a customer inserts a card .|OK (1)
 does a customer insert a card ?|OK (1)
 a new customer inserts a valid card manually .|OK (1)
 who inserts a card ?|OK (1)
-which customer inserts a card ?|FAIL which
-what does the customer insert ?|FAIL what
+which customer inserts a card ?|OK (1)
+what does the customer insert ?|OK (1)
 how does the customer insert a card ?|FAIL how
-a customer inserts a card that is valid and opens an account .|FAIL a customer inserts a card that is valid and opens
+a customer inserts a card that is valid and opens an account .|OK (2)
 a customer inserts a card that is valid and that opens an account .|OK (2)
 the customer inserts a card with a code .|OK (1)
 the customer inserts a card that carries a code .|OK (2)
@@ -107,9 +107,9 @@ if a card is valid then a customer inserts it .|OK (1)
 a customer enters a card and a code . if a code is valid then SimpleMat accepts a card . if a code is not valid then SimpleMat rejects a card .|FAIL a customer enters a card and a code . if a code is valid then SimpleMat
 a customer enters a card and a code . if it is valid then SimpleMat accepts the card . if it is not valid then SimpleMat rejects the card .|FAIL a customer enters a card and a code . if it is valid then SimpleMat
 a clerk enters every card of himself .|FAIL a clerk enters every card of himself
-a clerk rejects a card or accepts it .|FAIL a clerk rejects a card or accepts
+a clerk rejects a card or accepts it .|OK (1)
 John's new customer is happy .|OK (1)
-what does a man enter ?|FAIL what
+what does a man enter ?|OK (1)
 a man sees a dog that barks .|OK (2)
 if a clerk enters a card then he does not own it .|OK (1)
 a man enters no card .|OK (1)
@@ -133,7 +133,7 @@ a man has 2 kg of apples .|OK (1)
 John is a rich man .|OK (1)
 a man enters a card which is green or which is red .|OK (2)
 there is a green card or there is a red card such that a man enters it .|FAIL there is a green card or there is a red card such
-for each card which is green or which is red a man enters it .|OK (1)
+for each card which is green or which is red a man enters it .|FAIL for each card which
 a man is fond-of a dog .|FAIL a man is fond-of
 everybody gives something to somebody .|OK (1)
 everybody gives somebody something .|OK (1)
@@ -169,19 +169,19 @@ for each money a man waits .|OK (1)
 a man waits-for something .|FAIL a man waits-for
 some cards are green .|OK (1)
 a man is a : reich .|FAIL a man is a :
-a man is good or is bad .|FAIL a man is good or is
-a man is good , or is bad .|FAIL a man is good , or is
-a man is good and is bad .|FAIL a man is good and is
-a man is good , and is bad .|FAIL a man is good , and is
-a man is good and is nice or is bad .|FAIL a man is good and is
-a man is good , and is nice or is bad .|FAIL a man is good , and is
-a man is good or is nice or is bad .|FAIL a man is good or is
-a man is good or is nice , or is bad .|FAIL a man is good or is
-there is a man that eats and that drinks .|OK (2)
+a man is good or is bad .|OK (1)
+a man is good , or is bad .|OK (1)
+a man is good and is bad .|OK (1)
+a man is good , and is bad .|OK (1)
+a man is good and is nice or is bad .|FAIL a man is good and is nice or is
+a man is good , and is nice or is bad .|FAIL a man is good , and is nice or is
+a man is good or is nice or is bad .|FAIL a man is good or is nice or is
+a man is good or is nice , or is bad .|FAIL a man is good or is nice , or is
+there is a man that eats and that drinks .|OK (1)
 there is a man the card of who is green and the code of who is valid .|FAIL there is a man the
 there is a man the card of who is green or the code of who is valid .|FAIL there is a man the
 is there a man that waits ?|FAIL is there
-there is a man that eats and that drinks or that sleeps .|OK (4)
+there is a man that eats and that drinks or that sleeps .|OK (2)
 there is a man that eats , and that drinks or that sleeps .|FAIL there is a man that eats , and that
 there is a man that eats , and that drinks or that sleeps and that waits .|FAIL there is a man that eats , and that
 there is a man that eats , and that drinks or that sleeps , and that waits .|FAIL there is a man that eats , and that
@@ -223,7 +223,7 @@ there is a boy . he sees the boy .|OK (1)
 there is a man . there is a boy . the man sees the boy .|OK (1)
 there is a man . there is a boy . the man sees himself .|FAIL there is a man . there is a boy . the man sees himself
 there is a man . there is a boy . the man sees a boy .|OK (1)
-there are a man and a dog .|OK (1)
+there are a man and a dog .|FAIL there are a
 there is a laundry . the laundry is clean .|OK (1)
 there is some laundry . the laundry is clean .|OK (1)
 a man likes a dog . it barks .|OK (1)
@@ -237,20 +237,20 @@ every man who loves a woman who loves him is happy .|OK (7)
 if there is a man and there is a woman and the man loves the woman and the woman loves the man then the man is happy .|OK (5)
 John owns Mary . he beats her .|OK (1)
 there is a man who sees himself .|FAIL there is a man who sees himself
-there is a boy . there is a man who he sees .|OK (2)
-there is a boy . there is a man who sees him .|OK (2)
-there is a man who the man sees .|OK (2)
-there is a man who sees the man .|OK (2)
+there is a boy . there is a man who he sees .|OK (1)
+there is a boy . there is a man who sees him .|OK (1)
+there is a man who the man sees .|OK (1)
+there is a man who sees the man .|OK (1)
 there is a dog . a man does not see the dog . it is under the bed .|OK (1)
 some abaci are green .|OK (1)
-a man enters a card manually and waits .|FAIL a man enters a card manually and waits
-which man the dog of who sees a bone is there ?|FAIL which
-which man the dog of who sees a bone waits ?|FAIL which
-which man who eats waits ?|FAIL which
-which man whose dog sees a bone waits ?|FAIL which
+a man enters a card manually and waits .|OK (1)
+which man the dog of who sees a bone is there ?|FAIL which man the
+which man the dog of who sees a bone waits ?|FAIL which man the
+which man who eats waits ?|OK (1)
+which man whose dog sees a bone waits ?|FAIL which man whose
 a man hits a dog whose bone is green .|FAIL a man hits a dog whose
-which man is there ?|FAIL which
-who does a man hit ?|FAIL who does a
+which man is there ?|OK (1)
+who does a man hit ?|OK (2)
 a man waits in a room in a bank .|OK (1)
 a man waits quickly in a bank .|OK (1)
 a man waits in a bank quickly .|OK (1)
@@ -259,15 +259,15 @@ a man quickly hits a dog which runs fast .|FAIL a man quickly
 whose card is valid ?|OK (1)
 is the man's card valid ?|OK (1)
 John is small .|OK (1)
-a man hits a green dog that barks .|OK (3)
+a man hits a green dog that barks .|OK (2)
 the card of which man is valid ?|FAIL the card of which
 the card of who is valid ?|FAIL the card of who
-which card of which man is valid ?|FAIL which
+which card of which man is valid ?|FAIL which card of which
 there is a man . if the man enters a card then the card is correct .|OK (1)
 there is a man . if the man enters a card then the card is correct . he sleeps .|OK (1)
 John eats or John drinks .|OK (1)
 John eats or John drinks . Mary eats or Mary drinks or Bill sleeps .|OK (2)
-there are a man X and a man Y and a man Z .|FAIL there are a man X and a man Y and a man Z
+there are a man X and a man Y and a man Z .|FAIL there are a
 there are some men . if they are happy then they wait .|OK (1)
 if John waits then John sleeps .|OK (1)
 if John waits then he sleeps .|OK (1)
@@ -279,8 +279,8 @@ nobody waits .|OK (1)
 nobody sees himself .|FAIL nobody sees himself
 every man who sees himself waits .|FAIL every man who sees himself
 each of some men waits .|OK (1)
-each of some men who eat waits .|OK (1)
-each of some men who see themselves waits .|FAIL each of some men who see themselves
+each of some men who eat waits .|FAIL each of some men who
+each of some men who see themselves waits .|FAIL each of some men who
 a man who walks is happy .|OK (2)
 a man who walks is happy . a man who talks is sad . the man waits .|OK (4)
 a man who walks is happy . a man who talks is sad . the man who walks waits .|OK (8)
@@ -299,10 +299,10 @@ John's dog barks . he is happy .|OK (1)
 a man's man waits . he is happy .|OK (1)
 a man's man waits . the man is happy .|OK (1)
 there is a red card . there is a blue card . the red card is valid .|OK (1)
-there are a red card and a blue card . the card is valid .|OK (1)
-there are a red card and a blue card . the red card is valid .|OK (1)
-there are 384 tests .|FAIL there are 384 tests
-there are 3 things and 4 things . are they 7 things ?|OK (1)
+there are a red card and a blue card . the card is valid .|FAIL there are a
+there are a red card and a blue card . the red card is valid .|FAIL there are a
+there are 384 tests .|FAIL there are 384
+there are 3 things and 4 things . are they 7 things ?|FAIL there are 3 things and 4 things .
 a man's dog barks .|OK (1)
 the man's dog barks .|OK (1)
 a dog of a man barks .|OK (1)
@@ -312,14 +312,14 @@ the dog of the man barks .|OK (1)
 there is a dog . there is a man . the man's dog barks .|OK (1)
 no man sees himself .|FAIL no man sees himself
 for each man a dog sees the man .|OK (1)
-there is a man who feeds every dog . there is a man who feeds every cat . the man who feeds every dog waits .|OK (8)
+there is a man who feeds every dog . there is a man who feeds every cat . the man who feeds every dog waits .|OK (2)
 everybody sees nobody .|OK (1)
 nobody sees everybody .|OK (1)
 somebody sees everybody .|OK (1)
 a man waits . the man walks .|OK (1)
 there is a man . his dog eats . there is a woman . her dog drinks . the dog of the man barks .|OK (1)
 a man waits . the man talks .|OK (1)
-a man waits . the man talks and walks .|FAIL a man waits . the man talks and walks
+a man waits . the man talks and walks .|OK (1)
 some men wait . the men talk .|OK (1)
 some men wait . they talk .|OK (1)
 if John waits then a dog barks .|OK (1)
@@ -359,12 +359,12 @@ a man sees everybody .|OK (1)
 a man sees everybody . he eats .|OK (1)
 not everything sees itself .|FAIL not everything sees itself
 everything barks at itself .|FAIL everything barks at itself
-there is a man who owns a dog . there is a man who owns a cat . John sees the man . John sees the man who owns the dog .|OK (8)
+there is a man who owns a dog . there is a man who owns a cat . John sees the man . John sees the man who owns the dog .|OK (2)
 John goes to Berlin .|OK (1)
 John comes from Berlin .|OK (1)
 John likes a town which he goes to .|FAIL John likes a town which he goes to .
 In which town does John live ?|FAIL In
-John comes from Berlin and goes to Paris .|FAIL John comes from Berlin and goes
+John comes from Berlin and goes to Paris .|OK (1)
 where does John live ?|OK (1)
 there is a man such that he waits .|FAIL there is a man such
 there is a man such that the man sees himself .|FAIL there is a man such
@@ -379,22 +379,22 @@ there are some men . for each of the men a dog barks .|FAIL there are some men .
 a man's dog barks . the dog waits .|OK (1)
 a big man's dog barks . the dog waits .|OK (1)
 there is a man . there is a dog . John beats his dog .|OK (1)
-John beats his own big dog and beats his own small dog . the big dog is sad .|FAIL John beats his own big dog and beats
+John beats his own big dog and beats his own small dog . the big dog is sad .|OK (1)
 there is some laundry . it is clean .|OK (1)
-each of some men who see themselves sees himself .|FAIL each of some men who see themselves
+each of some men who see themselves sees himself .|FAIL each of some men who
 there are 3 men .|OK (1)
 there are 3 men . they talk .|OK (1)
 there are 3 men . the men talk .|OK (1)
 there are 3 men . 3 men talk .|OK (1)
 John waits . John does not sleep .|OK (1)
 there is a man . he sees himself .|FAIL there is a man . he sees himself
-each of some men who own a dog owns a dog .|OK (1)
-each of some men who own the dog owns the dog .|OK (1)
-there is a dog . each of some men who own the dog owns the dog .|OK (1)
-there is a man who sees a big dog . there is a man who sees a small dog . the man who sees a big dog waits .|OK (8)
+each of some men who own a dog owns a dog .|FAIL each of some men who
+each of some men who own the dog owns the dog .|FAIL each of some men who
+there is a dog . each of some men who own the dog owns the dog .|FAIL there is a dog . each of some men who
+there is a man who sees a big dog . there is a man who sees a small dog . the man who sees a big dog waits .|OK (2)
 there are some men . each of the men waits .|OK (1)
-some groups of some men talk .|OK (1)
-some groups of some men see themselves .|FAIL some groups of some men see themselves
+some groups of some men talk .|FAIL some groups of
+some groups of some men see themselves .|FAIL some groups of
 every group of some men waits .|OK (1)
 each of some men does not talk .|OK (1)
 a doctor sees himself / herself .|FAIL a doctor sees himself
@@ -411,7 +411,7 @@ for each of a big man and a small man a dog sees the big man .|FAIL for each of 
 5 men's dog barks .|OK (1)
 3 codes X and Y and Z are valid .|FAIL 3 codes X and Y and Z
 each of some men sees himself .|FAIL each of some men sees himself
-each of some men who see themselves sees himself .|FAIL each of some men who see themselves
+each of some men who see themselves sees himself .|FAIL each of some men who
 a man has 2 kg of laundry .|OK (1)
 there is a child of a man . the child waits .|OK (1)
 the dog that sees the man barks .|OK (2)
@@ -419,7 +419,7 @@ the dog that sees the man barks . the dog eats . the man drinks .|OK (2)
 there is a man . who hits him ?|OK (1)
 there is a man . who hits himself ?|FAIL there is a man . who hits himself
 who sees who ?|FAIL who sees who
-what sees itself ?|FAIL what
+what sees itself ?|FAIL what sees itself
 Mary sees herself . who sees herself ?|FAIL Mary sees herself
 John's dog barks . the dog of John is happy .|OK (1)
 John's dog eats . Mary's dog drinks . the dog of John waits .|OK (1)
@@ -430,9 +430,9 @@ a man's card sees him .|OK (1)
 a man's dog barks . the woman's dog is green .|OK (1)
 somebody ' s dog barks .|FAIL somebody '
 every ancestor of a man's father is the ancestor of the man .|OK (1)
-there is a man who sees John's brother . the man who sees the brother of John waits .|OK (6)
-there is a man who sees John's mother . the man who sees the mother of John waits .|OK (6)
-there is a man who sees a mother of John . the man who sees John's mother waits .|OK (6)
+there is a man who sees John's brother . the man who sees the brother of John waits .|OK (3)
+there is a man who sees John's mother . the man who sees the mother of John waits .|OK (3)
+there is a man who sees a mother of John . the man who sees John's mother waits .|OK (4)
 2 girls lift 2 tables .|OK (1)
 2 girls lift each of 2 tables .|OK (1)
 each of 2 girls lifts 2 tables .|OK (1)
@@ -444,11 +444,11 @@ for each of 2 tables each of 2 girls lifts it .|OK (1)
 there are 2 girls and there are 2 tables such that each of the girls lifts each of the tables .|FAIL there are 2 girls and there are 2 tables such
 there are 2 girls and there are 2 tables . each of the girls lifts each of the tables .|OK (1)
 some men M1 and M2 and M3 drink .|FAIL some men M1
-there are a man and a woman .|OK (1)
+there are a man and a woman .|FAIL there are a
 2 codes X and Y are valid .|OK (1)
 there are 5 big men .|OK (1)
 2 men M1 and M2 drink . M2 talks . they eat .|FAIL 2 men M1
-there are 5 big men who are happy .|OK (3)
+there are 5 big men who are happy .|OK (1)
 there are 5 big men such that they are happy .|FAIL there are 5 big men such
 there is a man who sees himself . there is a man who sees John . John watches the man who sees him . John watches the man who sees himself .|FAIL there is a man who sees himself
 there are some men . for each of them the card is valid .|FAIL there are some men . for each of them
@@ -514,14 +514,14 @@ a customer gives a clerk a card .|OK (1)
 for every code there is a clerk such that he enters it .|FAIL for every code there is a clerk such
 for every code a clerk enters it .|OK (1)
 some water is not drinkable .|OK (1)
-a man enters a card that carries a code and opens an account .|FAIL a man enters a card that carries a code and opens
+a man enters a card that carries a code and opens an account .|OK (2)
 a man who enters a card manually types a code .|OK (2)
 a man sees every dog .|OK (1)
 every man sees a dog .|OK (1)
 a laundry of John collapses .|OK (1)
 there is a man . his laundry smells .|OK (1)
 there is a man a laundry of who collapses .|FAIL there is a man a
-John takes his own card and gets some money for himself .|FAIL John takes his own card and gets
+John takes his own card and gets some money for himself .|FAIL John takes his own card and gets some money for himself
 a man who is richer than John waits .|OK (2)
 there is a dog . there is a man .|OK (1)
 there is a dog . there is a man .|OK (1)
@@ -530,14 +530,14 @@ a clerk enters a card of every customer .|OK (1)
 a clerk enters every customer's card .|OK (1)
 a n : xxx's dog barks .|FAIL a n
 who enters a card ?|OK (1)
-John owns some services that deliver some pizzas .|OK (2)
-John owns some services each of which delivers some pizzas .|OK (2)
+John owns some services that deliver some pizzas .|OK (1)
+John owns some services each of which delivers some pizzas .|OK (1)
 John waits in a bank . he is happy .|OK (1)
 1 man's dog barks .|OK (1)
 a customer waits patiently .|OK (1)
 how does John enter a card ?|FAIL how
 the waters are deep .|OK (1)
-a customer enters a card or drops it . he is angry .|FAIL a customer enters a card or drops
+a customer enters a card or drops it . he is angry .|OK (1)
 a customer enters a card or he drops it . the customer is angry .|OK (1)
 if a customer has a card C then the customer enters C .|FAIL if a customer has a card C
 if a customer has a card C then he enters C .|FAIL if a customer has a card C
@@ -558,14 +558,14 @@ a man is rich and famous .|FAIL a man is rich and famous
 a dog is not a cat .|OK (1)
 John vaguely sees a big dog . the dog barks in the garden of the brother of John .|FAIL John vaguely
 who is in the park in the town ?|OK (1)
-there is no man .|OK (1)
+there is no man .|FAIL there is no man .
 a man waits carefully and manually .|FAIL a man waits carefully and manually
 a man gives a bone to a dog manually and carefully .|FAIL a man gives a bone to a dog manually and carefully
 a man carefully and manually waits .|FAIL a man carefully
-there are a dog and a cat .|OK (1)
+there are a dog and a cat .|FAIL there are a
 for everybody who waits there is a clerk .|FAIL for everybody
 there is a customer . the customer enters a card or he drops it . he is angry .|OK (1)
-there is a customer . the customer enters a card or drops it . he is angry .|FAIL there is a customer . the customer enters a card or drops
+there is a customer . the customer enters a card or drops it . he is angry .|OK (1)
 for everybody there is a dog .|FAIL for everybody
 there is some n : laundry .|FAIL there is some n
 2 kg of laundry waits .|FAIL 2 kg of laundry waits
@@ -574,7 +574,7 @@ there is 1 kg of laundry .|OK (1)
 some men are happy .|OK (1)
 John's laundry waits .|OK (1)
 a dog of some men runs .|OK (1)
-a dog of some men who run barks .|OK (2)
+a dog of some men who run barks .|OK (1)
 some men's dog runs .|OK (1)
 there is a man or there is a woman .|OK (1)
 there is a n : laundry .|FAIL there is a n
@@ -602,14 +602,14 @@ there is a man such that he walks .|FAIL there is a man such
 there is a man A . a is happy .|FAIL there is a man A
 where does a man run ?|OK (1)
 a man of the man waits .|OK (1)
-if a man runs , and walks or eats then a dog barks .|FAIL if a man runs , and walks
+if a man runs , and walks or eats then a dog barks .|FAIL if a man runs , and walks or eats
 if a man does not walk then a dog barks .|OK (1)
 a man waits in a bank which likes him .|OK (2)
 there is a box .|OK (1)
 a man X waits . X sleeps .|OK (1)
 a man sees a cat and a dog and a mouse .|OK (2)
 somebody waits . he sleeps .|OK (1)
-there is no water .|OK (2)
+there is no water .|OK (1)
 something waits . it sleeps .|OK (1)
 John watches a man who sees himself .|FAIL John watches a man who sees himself
 John beats his own donkey .|OK (1)
@@ -644,13 +644,13 @@ a man is interested-in every dog that barks .|FAIL a man is interested-in
 a man is interested-in no dog .|FAIL a man is interested-in
 a man is interested-in not every dog .|FAIL a man is interested-in
 a bank which a man enters is good .|OK (2)
-which bank which a man enters is good ?|FAIL which
+which bank which a man enters is good ?|OK (1)
 the dog which sees the man barks .|OK (2)
 there is a n : aaa which waits . the n : aaa which waits barks .|FAIL there is a n
-there is a man or there is a dog which sees him or there is a cat which sees it .|OK (8)
-there is a man or there is a dog which sees him or there is a cat which sees him .|OK (8)
+there is a man or there is a dog which sees him or there is a cat which sees it .|OK (2)
+there is a man or there is a dog which sees him or there is a cat which sees him .|OK (2)
 for every body which waits there is a clerk .|OK (1)
-some men's dog which runs barks .|OK (2)
+some men's dog which runs barks .|OK (1)
 a dog which runs barks .|OK (2)
 a laundry washes some laundry . it is clean . some water sees a water . it is cold .|OK (1)
 a card which is tired sleeps .|OK (2)
@@ -663,22 +663,22 @@ John who is a man sleeps .|OK (1)
 Christmases wait .|FAIL Christmases
 there is a man X . a man Y brings him his pencil and his own computer .|OK (1)
 is there a man X ?|FAIL is there
-a man X gives his own wife Y a big and red apple .|FAIL a man X gives his own wife Y a big and
+a man X gives his own wife Y a big and red apple .|FAIL a man X gives his own wife Y a
 if John waits then the man X sleeps .|OK (1)
 if John waits then a man X sleeps .|OK (1)
 if a man X waits then he sleeps .|OK (1)
 a man does not like a man X .|OK (1)
-a man X gives an apple to a woman Y . Y accepts the apple and eats it . she is happy and he has no apples .|FAIL a man X gives an apple to a woman Y . Y accepts the apple and eats
-John gives an apple to Mary . Mary accepts the apple and eats it . she is happy and he has no apples .|FAIL John gives an apple to Mary . Mary accepts the apple and eats
+a man X gives an apple to a woman Y . Y accepts the apple and eats it . she is happy and he has no apples .|OK (1)
+John gives an apple to Mary . Mary accepts the apple and eats it . she is happy and he has no apples .|OK (1)
 a man runs easily .|OK (1)
-there is a dog which a man hits .|OK (2)
+there is a dog which a man hits .|OK (1)
 John who is a clerk waits .|OK (1)
 John who is the clerk waits .|OK (1)
 there are at most 2 men X and Y and Z .|FAIL there are at most 2 men X and Y and Z
 a man waits in a bank with John .|OK (1)
 every customer enters every card .|OK (1)
-every customer enters every card or enters every code .|FAIL every customer enters every card or enters
-a customer enters every card and enters every code .|FAIL a customer enters every card and enters
+every customer enters every card or enters every code .|OK (1)
+a customer enters every card and enters every code .|OK (1)
 for every dog if it barks then it does not sleep .|OK (1)
 there is a dog , and there is a man or there is a woman , and there is a cat .|OK (5)
 a dog does not bark or a cat does not sleep .|OK (1)
@@ -704,12 +704,12 @@ somebody is big and small .|FAIL somebody is big and small
 somebody is himself .|FAIL somebody is himself
 a man is himself .|FAIL a man is himself
 there is a dog . a man sees the dog of it .|OK (1)
-a man does not sleep or does not wait .|FAIL a man does not sleep or does
-if there is something that barks then it is a dog .|OK (1)
+a man does not sleep or does not wait .|OK (1)
+if there is something that barks then it is a dog .|FAIL if there is something that
 a dog that a man sees in a park barks .|FAIL a dog that a man sees in
 a dog that a man sees quickly barks .|FAIL a dog that a man sees quickly
-a man gives a dog a bone and gives a cat a cake .|FAIL a man gives a dog a bone and gives
-a man gives a bone to a dog and gives a cake to a cat .|FAIL a man gives a bone to a dog and gives
+a man gives a dog a bone and gives a cat a cake .|OK (1)
+a man gives a bone to a dog and gives a cake to a cat .|OK (1)
 somebody is himself / herself .|FAIL somebody is himself
 there are 2 kg of apples . the apples are red .|OK (1)
 there is 1 kg of dirty laundry .|FAIL there is 1 kg of dirty laundry
@@ -719,9 +719,9 @@ there is a card of every man .|OK (1)
 a dog of every man waits .|OK (1)
 every man's dog waits .|OK (1)
 for every book a database lists its title .|OK (1)
-for every book a database lists its title and lists its code .|FAIL for every book a database lists its title and lists
-for every book a database lists the title of the book and lists the code of the book .|FAIL for every book a database lists the title of the book and lists
-there is no dog that bites every man .|OK (2)
+for every book a database lists its title and lists its code .|OK (1)
+for every book a database lists the title of the book and lists the code of the book .|OK (1)
+there is no dog that bites every man .|FAIL there is no dog that
 for every book the book has a title and the book has a code .|OK (2)
 not for every book the book has a title and the book has a code .|FAIL not for
 a ball is blue .|OK (1)
@@ -744,56 +744,56 @@ a dog sees each of some men .|OK (1)
 a man sees no dog .|OK (1)
 a man sees not every dog .|OK (1)
 a man waits in every bank .|OK (1)
-there is a dog that barks .|OK (2)
-who waits ? what waits ?|FAIL who waits ? what
+there is a dog that barks .|OK (1)
+who waits ? what waits ?|OK (1)
 a service is quick usually .|OK (1)
-which code is there ?|FAIL which
+which code is there ?|OK (1)
 a card of who is valid ?|FAIL a card of who
 a code of a card of who is valid ?|FAIL a code of a card of who
 a card of somebody is valid . a card of who is valid ?|FAIL a card of somebody is valid . a card of who
 a screen of what blinks ?|FAIL a screen of what
 a doctor sees her / his own dog .|FAIL a doctor sees her /
-there is a man who sees a dog that sees a cat .|OK (7)
-there is a man who sees a dog that sees a cat . the man who sees a dog that sees a cat waits .|OK (49)
-there is a man who sees every dog that sees a cat .|OK (7)
-there is a man who sees every dog that sees a cat . the man who sees every dog that sees a cat waits .|OK (49)
-there is a man who sees every dog . the man who sees every dog waits .|OK (4)
+there is a man who sees a dog that sees a cat .|OK (3)
+there is a man who sees a dog that sees a cat . the man who sees a dog that sees a cat waits .|OK (21)
+there is a man who sees every dog that sees a cat .|OK (3)
+there is a man who sees every dog that sees a cat . the man who sees every dog that sees a cat waits .|OK (21)
+there is a man who sees every dog . the man who sees every dog waits .|OK (2)
 there is a n : man that waits .|FAIL there is a n
-there are 1000000000000000000000000000000 men .|FAIL there are 1000000000000000000000000000000 men
+there are 1000000000000000000000000000000 men .|FAIL there are 1000000000000000000000000000000
 a man waits in a bank which likes itself .|FAIL a man waits in a bank which likes itself
 there is a card such that a clerk enters a card of every customer .|FAIL there is a card such
-a man waits or takes John's rook . if John moves his own queen then there is a dog .|FAIL a man waits or takes
+a man waits or takes John's rook . if John moves his own queen then there is a dog .|OK (1)
 John takes a queen Mary .|OK (1)
 if an element is a member of a tail of a list then the element is a member of the list .|OK (2)
 every dog barks or a cat sleeps .|OK (1)
 if there is a dog A then the dog A barks , or a cat D sleeps .|FAIL if there is a dog A
-there is a man who sees no dog . the man who sees no dog waits .|OK (4)
-there is a man who sees a dog or who sees a cat . the man who sees a dog or who sees a cat waits .|OK (4)
+there is a man who sees no dog . the man who sees no dog waits .|OK (2)
+there is a man who sees a dog or who sees a cat . the man who sees a dog or who sees a cat waits .|OK (2)
 John likes a dog and a cat .|OK (1)
-there is no man who has a dog and who likes it .|OK (2)
-there is no man who walks .|OK (2)
+there is no man who has a dog and who likes it .|FAIL there is no man who
+there is no man who walks .|FAIL there is no man who
 every man likes himself .|FAIL every man likes himself
-there is a man who walks and who talks . the man who talks eats .|OK (4)
-there is a man who walks or who talks . the man who talks eats .|OK (4)
-there is a man who walks or who talks . the man who walks or who talks eats .|OK (4)
-there is a man who walks and who talks . the man who walks and who talks eats .|OK (4)
-there is a man who walks and who talks . the man who talks and who walks eats .|OK (4)
-there is a man who walks or who talks . the man who talks or who walks eats .|OK (4)
+there is a man who walks and who talks . the man who talks eats .|OK (2)
+there is a man who walks or who talks . the man who talks eats .|OK (2)
+there is a man who walks or who talks . the man who walks or who talks eats .|OK (2)
+there is a man who walks and who talks . the man who walks and who talks eats .|OK (2)
+there is a man who walks and who talks . the man who talks and who walks eats .|OK (2)
+there is a man who walks or who talks . the man who talks or who walks eats .|OK (2)
 John likes a dog , and a cat and a rat and a mouse see a cheese .|OK (2)
 John likes a dog and a cat , and a rat and a mouse see a cheese .|OK (1)
 there is a man who waits silently and patiently . the man who waits silently eats .|FAIL there is a man who waits silently and patiently
-there is a man who every dog sees . the man who every dog sees eats .|OK (4)
+there is a man who every dog sees . the man who every dog sees eats .|OK (2)
 there is a man who is rich and famous . the man who is rich eats .|FAIL there is a man who is rich and famous
 there is a man who is rich and famous . the man who is famous and rich eats .|FAIL there is a man who is rich and famous
-a man who waits walks and eats .|FAIL a man who waits walks and eats
-a man who waits walks and eats and sleeps .|FAIL a man who waits walks and eats
-there is a man who walks or who talks or who sleeps . the man who talks or who walks or who sleeps eats .|OK (16)
+a man who waits walks and eats .|OK (2)
+a man who waits walks and eats and sleeps .|FAIL a man who waits walks and eats and sleeps
+there is a man who walks or who talks or who sleeps . the man who talks or who walks or who sleeps eats .|OK (8)
 there is a man who walks or who talks , and who sleeps . the man who talks or who walks , and who sleeps eats .|FAIL there is a man who walks or who talks , and who
 John serves a meal to a customer .|OK (1)
 John serves a customer a meal .|OK (1)
-there is a man . every dog sees him and hears him .|FAIL there is a man . every dog sees him and hears
-there is a man who does not see every dog that he sees . the man who sees a dog and who does not see the dog waits .|OK (14)
-there is a man who sees a dog and who the dog does not see .|OK (2)
+there is a man . every dog sees him and hears him .|OK (1)
+there is a man who does not see every dog that he sees . the man who sees a dog and who does not see the dog waits .|OK (6)
+there is a man who sees a dog and who the dog does not see .|OK (1)
 the man looks-at the men , and they v : look-back-at him .|FAIL the man looks-at
 every airline buys 2 aircraft .|OK (1)
 something is green .|OK (1)
@@ -803,13 +803,13 @@ there is a man such that he eats .|FAIL there is a man such
 a man sees somebody and a dog .|OK (1)
 a man sees a dog and the cat .|OK (1)
 a man sees a dog and somebody .|OK (1)
-there is a dog . there is a man who sees the dog .|OK (2)
+there is a dog . there is a man who sees the dog .|OK (1)
 a man dances .|OK (1)
 there is a man or there is a dog that sees him or there is a cat that sees itself and him .|FAIL there is a man or there is a dog that sees him or there is a cat that sees itself
-there is a man or there is a dog that sees him or there is a cat that sees it and him .|OK (8)
+there is a man or there is a dog that sees him or there is a cat that sees it and him .|OK (2)
 a customer enters a card . if it is not valid then SM rejects the card .|OK (1)
 somebody is big and small and waits .|FAIL somebody is big and small
-somebody is big and eats and waits .|FAIL somebody is big and eats
+somebody is big and eats and waits .|FAIL somebody is big and eats and waits
 every man sees John . he waits .|OK (1)
 John runs or he eats . he waits .|OK (1)
 not every man sees John . John waits .|OK (1)
@@ -817,7 +817,7 @@ not every man sees John . he waits .|OK (1)
 5 rich men wait .|OK (1)
 each of 2 girls lifts herself .|FAIL each of 2 girls lifts herself
 John inserts his own card . Bill inserts his own card .|OK (1)
-if there are a dog and a cat then a man waits .|OK (1)
+if there are a dog and a cat then a man waits .|FAIL if there are a
 John is taller than Mary .|OK (1)
 a man has 2 kg of green apples .|OK (1)
 a man has 2 kg of dirty water .|FAIL a man has 2 kg of dirty water
@@ -839,8 +839,8 @@ a man waits in every bank in every morning .|OK (1)
 every man waits in every bank in every morning .|OK (1)
 each of some men a dog of who barks waits .|FAIL each of some men a
 each of some men whose dog barks waits .|FAIL each of some men whose
-there are some men each of who waits .|FAIL there are some men each of who
-there are some men who wait .|OK (2)
+there are some men each of who waits .|FAIL there are some men each
+there are some men who wait .|FAIL there are some men who
 there are some men a dog of who barks .|FAIL there are some men a
 there are some men whose dog barks .|FAIL there are some men whose
 there are some men a dog of each of who barks .|FAIL there are some men a
@@ -849,33 +849,33 @@ p : Kaarel's dog barks .|FAIL p
 each of 3 men sees each of 2 dogs .|OK (1)
 everybody who is a person and who is a female is a woman .|OK (1)
 each of some girls lifts her own table .|OK (1)
-every man likes more than 2 dogs and likes less than 4 dogs .|FAIL every man likes more than 2 dogs and likes
-if there is a man then he is not a woman or is not a dog .|FAIL if there is a man then he is not a woman or is
+every man likes more than 2 dogs and likes less than 4 dogs .|OK (1)
+if there is a man then he is not a woman or is not a dog .|OK (1)
 at least 1 man waits .|OK (1)
 at most 1 man waits .|OK (1)
 more than 1 man waits .|OK (1)
 less than 1 man waits .|OK (1)
 there are 3 kg of apples . each of the apples is red .|OK (1)
-John likes Mary's sister who is not John .|OK (2)
-there is Mary's sister . Mary is richer than her own sister .|OK (1)
+John likes Mary's sister who is not John .|OK (1)
+there is Mary's sister . Mary is richer than her own sister .|FAIL there is Mary's sister
 10 kg of laundry is on the table .|FAIL 10 kg
 10 kg of laundry are on the table .|FAIL 10 kg
-every man who feeds a dog waits . every man feeds a dog and waits .|FAIL every man who feeds a dog waits . every man feeds a dog and waits
+every man who feeds a dog waits . every man feeds a dog and waits .|OK (2)
 a man is not no dog .|OK (1)
 everybody sees at least 1 man .|OK (1)
 a man comes in a day A1 . a boy reads in the day A2 that follows A1 . the book is red in the day that follows A2 .|FAIL a man comes in a day A1
-2 kg of apples of John wait .|OK (1)
+2 kg of apples of John wait .|FAIL 2 kg of apples of
 if there is a carnivore then everybody that it eats is an animal .|OK (1)
 if there is a carnivore then everything that it eats is a meat .|OK (1)
-if there is a thing that does not eat something that is not a meat then the thing is a carnivore .|OK (5)
+if there is a thing that does not eat something that is not a meat then the thing is a carnivore .|OK (2)
 everything is a cat and everything is a dog .|OK (1)
 there is a cat and everything is a dog .|OK (1)
 if there is a thing and everything that it eats is a meat then it is a carnivore .|OK (1)
 2 men wait .|OK (1)
 there are less than 2 kg of milk . there are less than 2 men .|FAIL there are less than 2 kg
-there are 1 kg of water and 2 kg of apples .|OK (1)
+there are 1 kg of water and 2 kg of apples .|FAIL there are 1 kg
 there is a man A who sees A . there is a man who sees John . John watches the man who sees him . John watches the man who sees A .|FAIL there is a man A
-there is a man who owns a dog . there is a man who owns a cat . John sees the man who owns the dog .|OK (8)
+there is a man who owns a dog . there is a man who owns a cat . John sees the man who owns the dog .|OK (2)
 everybody sees John and Mary .|OK (1)
 for all clean laundry a dog barks .|FAIL for all clean
 John enters every card which is his card .|OK (2)
@@ -889,12 +889,12 @@ there is a cat such that everything is a dog .|FAIL there is a cat such
 John feeds his own dogs .|FAIL John feeds his own dogs
 there is a bank . a code is not in the bank .|OK (1)
 if there is a man then a dog of the man waits .|OK (1)
-there is a girl's ball which is blue .|OK (2)
-John sees a girl's ball which is blue .|OK (2)
+there is a girl's ball which is blue .|FAIL there is a girl's ball
+John sees a girl's ball which is blue .|OK (1)
 there is a ball of a girl . Mary sees the girl's ball .|OK (1)
-there is a man who sees John and Mary . the man who sees John and Mary waits .|OK (4)
-there is a man who sees John and Mary . the man who sees Mary and John waits .|OK (4)
-there is a man who sees John and Mary . the man who sees Mary and Bill waits .|OK (4)
+there is a man who sees John and Mary . the man who sees John and Mary waits .|OK (2)
+there is a man who sees John and Mary . the man who sees Mary and John waits .|OK (2)
+there is a man who sees John and Mary . the man who sees Mary and Bill waits .|OK (2)
 there is a company that John awaits a delivery from .|FAIL there is a company that John awaits a
 John's dog barks . John's dog barks .|OK (1)
 it is possible that a man waits .|OK (1)
@@ -905,17 +905,17 @@ it is necessary that a man waits and a dog barks .|OK (2)
 it is possible that a man waits and a dog barks .|OK (2)
 there are 3 men . each of them waits .|FAIL there are 3 men . each of them
 there are 3 men . each of the men waits .|OK (1)
-there is a man . there is the man's dog .|OK (1)
-there is Mary's sister .|OK (1)
+there is a man . there is the man's dog .|FAIL there is a man . there is the man's dog
+there is Mary's sister .|FAIL there is Mary's sister
 there is a man . there is a card of him .|OK (1)
 a contract of a customer and a clerk is green .|OK (1)
 a contract of a customer and a clerk are green .|OK (1)
-some contracts of a customer and a clerk are green .|OK (2)
-there is a man . there is a man . there is the man's dog .|OK (1)
-there are a man's dogs .|FAIL there are a man's dogs
-there is John's dog . the dog barks .|OK (1)
-there is a man . there is his dog that barks .|OK (2)
-there are a man and the man's dog .|OK (1)
+some contracts of a customer and a clerk are green .|FAIL some contracts of
+there is a man . there is a man . there is the man's dog .|FAIL there is a man . there is a man . there is the man's dog
+there are a man's dogs .|FAIL there are a
+there is John's dog . the dog barks .|FAIL there is John's dog
+there is a man . there is his dog that barks .|FAIL there is a man . there is his dog
+there are a man and the man's dog .|FAIL there are a
 a man can wait .|OK (1)
 a man must wait .|OK (1)
 can a man wait ?|OK (1)
@@ -935,47 +935,47 @@ John sees exactly 2 men .|OK (1)
 it is not possible that a man waits .|OK (1)
 for every thing which knows something it knows it .|OK (1)
 for everything which knows something it knows it .|FAIL for everything
-somebody X waits .|FAIL somebody X
+somebody X waits .|OK (1)
 somebody of John waits .|FAIL somebody of
-every dog that sees a cat that sees a rat X sees X .|OK (12)
+every dog that sees a cat that sees a rat X sees X .|OK (7)
 every dog that sees a cat that sees a rat sees the rat .|OK (7)
 every dog that sees a cat that sees a rat sees it .|OK (7)
 every dog that sees a cat that sees something sees it .|OK (7)
 every dog that sees a cat that sees a rat sees itself .|FAIL every dog that sees a cat that sees a rat sees itself
 if there is somebody A and A loves somebody B then A likes B .|FAIL if there is somebody A
-there is something X .|FAIL there is something X
-everybody X waits .|FAIL everybody X
-everything X waits .|FAIL everything X
-nobody X waits .|FAIL nobody X
-nothing X waits .|FAIL nothing X
+there is something X .|OK (1)
+everybody X waits .|OK (1)
+everything X waits .|OK (1)
+nobody X waits .|OK (1)
+nothing X waits .|OK (1)
 everybody of John waits .|FAIL everybody of
 everything of John waits .|FAIL everything of
 nobody of John waits .|FAIL nobody of
 nothing of John waits .|FAIL nothing of
-everybody X of John waits .|FAIL everybody X
-everybody X sees X .|FAIL everybody X
-nobody X sees X .|FAIL nobody X
+everybody X of John waits .|FAIL everybody X of
+everybody X sees X .|OK (1)
+nobody X sees X .|OK (1)
 if there is somebody A then A sees A .|FAIL if there is somebody A
-there is a dog that nobody likes .|OK (2)
+there is a dog that nobody likes .|OK (1)
 a customer of a man who is rich waits .|OK (4)
 a customer of John who is rich waits .|OK (3)
-there is a man that sees a dog that sees a cat .|OK (7)
-there is a man that sees a dog that a cat sees .|OK (7)
-there is a man that sees a dog and that sees a cat .|OK (2)
-there is a man that sees a dog and that a cat sees .|OK (2)
-there is a man that sees a cat and that a cat sees .|OK (2)
-there is a man that sees a cat and that the cat sees .|OK (2)
+there is a man that sees a dog that sees a cat .|OK (3)
+there is a man that sees a dog that a cat sees .|OK (3)
+there is a man that sees a dog and that sees a cat .|OK (1)
+there is a man that sees a dog and that a cat sees .|OK (1)
+there is a man that sees a cat and that a cat sees .|OK (1)
+there is a man that sees a cat and that the cat sees .|OK (1)
 no man who a woman sees waits .|OK (2)
 every goal that a referee counts is a point .|OK (2)
 everybody sees John who waits .|OK (1)
 every man sees John who hears the man .|OK (1)
-there is a man who sees some women .|OK (2)
-there is a man who some women see .|OK (2)
+there is a man who sees some women .|OK (1)
+there is a man who some women see .|OK (1)
 everybody who lives-at a place that he / she works-at is a n : home-worker .|FAIL everybody who lives-at
 if somebody lives-at a place and he / she works-at the place then he / she is a n : home-worker .|FAIL if somebody lives-at
 if somebody lives-at a place and works-at the place then he / she is a n : home-worker .|FAIL if somebody lives-at
 if a thing X likes a thing Y and Y likes a thing Z then X likes Z .|FAIL if a thing X likes a thing Y and Y likes a thing Z
-if something X likes something Y and Y likes something Z then X likes Z .|FAIL if something X
+if something X likes something Y and Y likes something Z then X likes Z .|FAIL if something X likes something Y and Y likes something Z
 everything that v : affiliatedWith something that v : affiliatedWith something v : affiliatedWith it .|FAIL everything that v
 there is nobody .|OK (1)
 every man whose age is an integer is a manager .|FAIL every man whose
@@ -988,7 +988,7 @@ John knows that Mary does not wait .|FAIL John knows that
 John knows something .|OK (1)
 John knows that Mary sees him .|FAIL John knows that
 John wisely knows that Mary waits .|FAIL John wisely
-there is a man that waits and that likes a dog .|OK (2)
+there is a man that waits and that likes a dog .|OK (1)
 John's rich brother waits .|OK (1)
 John does not know that Mary sleeps .|FAIL John does not know that
 does John see that a dog barks ?|FAIL does John see that
@@ -1027,7 +1027,7 @@ John believes that Mary sleeps .|FAIL John believes that
 it is not provable that John waits .|OK (1)
 it is not provable that John waits and Mary sleeps .|OK (2)
 if a customer does not transmit some money and it is not provable that he does not transmit the money then the bank assumes that he transmits the money .|FAIL if a customer does not transmit some money and it is not provable that he does not transmit the money then the bank assumes that
-which dog of which man sleeps ?|FAIL which
+which dog of which man sleeps ?|FAIL which dog of which
 John does not quickly run .|FAIL John does not quickly
 a book is written by a man .|OK (2)
 some books are written by a man .|OK (2)
@@ -1038,15 +1038,15 @@ a book is not quickly written by a man .|FAIL a book is not quickly
 some books are quickly written by a man .|FAIL some books are quickly
 some books are not quickly written by a man .|FAIL some books are not quickly
 a best car wins .|OK (1)
-what is written by a man ?|FAIL what
+what is written by a man ?|OK (2)
 is a book written by a man ?|OK (2)
 is a car blue ?|OK (1)
-everything that is written by somebody is a book or is a paper .|FAIL everything that is written by somebody is a book or is
+everything that is written by somebody is a book or is a paper .|OK (2)
 John is liked by himself .|FAIL John is liked by himself
-which card is seen by John ?|FAIL which
+which card is seen by John ?|OK (2)
 where does a customer enter a card ?|OK (1)
 where is a card entered by a customer ?|OK (2)
-who does not wait ?|FAIL who does not
+who does not wait ?|OK (2)
 it is not possible that John flies .|OK (1)
 it is possible that John flies .|OK (1)
 John can not fly .|OK (1)
@@ -1097,14 +1097,14 @@ a man must be rich .|OK (1)
 a man can not be rich .|OK (1)
 a man does not have to be rich .|OK (1)
 some men do not have to be rich .|OK (1)
-if somebody X is a person and X is a female then X is a woman .|FAIL if somebody X
+if somebody X is a person and X is a female then X is a woman .|OK (1)
 somebody and something wait .|OK (1)
 a man is a dog and a cat .|OK (1)
 a man can give a woman an apple .|OK (1)
 a man can not give a woman an apple .|OK (1)
-there is a man who can eat . the man who can eat drinks .|OK (4)
-there is a man who does not have to eat . the man who does not have to eat drinks .|OK (4)
-there is a man who knows that a dog barks . the man who knows that a dog barks waits .|OK (9)
+there is a man who can eat . the man who can eat drinks .|OK (2)
+there is a man who does not have to eat . the man who does not have to eat drinks .|OK (2)
+there is a man who knows that a dog barks . the man who knows that a dog barks waits .|OK (3)
 does a man enter no card manually ?|OK (1)
 does a man enter every card manually ?|OK (1)
 where does a man enter no card ?|OK (1)
@@ -1122,7 +1122,7 @@ a man runs in a park in a morning fast .|OK (1)
 a man runs fast and quickly in a park .|FAIL a man runs fast and quickly
 a man runs fast in a park manually .|OK (1)
 a man runs in a park fast and manually .|FAIL a man runs in a park fast and manually
-there is a card of John that is correct .|OK (3)
+there is a card of John that is correct .|OK (2)
 there is a case of some beer . it is not the case .|OK (1)
 it is false that a man waits .|OK (1)
 it is not true that a man waits .|FAIL it is not true that
@@ -1161,8 +1161,8 @@ a text is "abcdef" .|FAIL a text is "abcdef"
 1234 is a code .|OK (3)
 everybody whose age is 31 is a grown-up .|FAIL everybody whose
 everybody whose age is 20 can drink some wine in Paris .|FAIL everybody whose
-if there is a man then a dog barks and bites the man .|FAIL if there is a man then a dog barks and bites
-if there is a man then a dog that hates a cat barks and bites the man .|FAIL if there is a man then a dog that hates a cat barks and bites
+if there is a man then a dog barks and bites the man .|OK (1)
+if there is a man then a dog that hates a cat barks and bites the man .|OK (2)
 every man that sleeps can be bitten by a dog that is known by a cat that drinks a milk and that is hated by the dog .|OK (668)
 the book is given by Mary .|OK (2)
 the book is given John by Mary .|FAIL the book is given John
@@ -1178,42 +1178,42 @@ for no man a dog barks .|FAIL for no
 no man is liked by a dog .|OK (2)
 every man who waits is seen by himself .|FAIL every man who waits is seen by himself
 every man likes himself and feeds a cat that sees the man .|FAIL every man likes himself
-every man feeds a cat that sees the man and likes a dog .|FAIL every man feeds a cat that sees the man and likes
-every man feeds a cat that sees the man and likes himself .|FAIL every man feeds a cat that sees the man and likes
-every man feeds a cat that sees the man and likes the man .|FAIL every man feeds a cat that sees the man and likes
+every man feeds a cat that sees the man and likes a dog .|OK (4)
+every man feeds a cat that sees the man and likes himself .|FAIL every man feeds a cat that sees the man and likes himself
+every man feeds a cat that sees the man and likes the man .|OK (4)
 every man X sees the man that waits .|OK (2)
 if there is a man then the man sees a dog and the dog sees a cat and the cat sees the dog and the dog sees a rat and the rat sees a mouse .|OK (42)
 if there is a man then the man sees a rat that sees a mouse and a cat sees the man .|OK (4)
-every man sees a cat that sees the man and sees a rat that sees a mouse .|FAIL every man sees a cat that sees the man and sees
+every man sees a cat that sees the man and sees a rat that sees a mouse .|OK (4)
 nobody knows nothing .|OK (1)
 if there is a man then there is a dog and there is a cat .|OK (2)
 if there is a dog then the dog barks and it is false that there is a cat .|OK (2)
-every man likes a dog and hates a cat .|FAIL every man likes a dog and hates
-every man likes a dog or hates a cat .|FAIL every man likes a dog or hates
-every man does not like a dog or hates a cat .|FAIL every man does not like a dog or hates
-every man likes a dog or does not hate a cat .|FAIL every man likes a dog or does
-every man does not like a dog or does not hate a cat .|FAIL every man does not like a dog or does
+every man likes a dog and hates a cat .|OK (1)
+every man likes a dog or hates a cat .|OK (1)
+every man does not like a dog or hates a cat .|OK (1)
+every man likes a dog or does not hate a cat .|OK (1)
+every man does not like a dog or does not hate a cat .|OK (1)
 every man who does not like a dog or who hates a cat waits .|OK (2)
 every man who eats or who drinks waits .|OK (2)
-every man eats or drinks .|FAIL every man eats or drinks
-every man does not eat or drinks .|FAIL every man does not eat or drinks
-every man eats or does not drink .|FAIL every man eats or does
+every man eats or drinks .|OK (1)
+every man does not eat or drinks .|OK (1)
+every man eats or does not drink .|OK (1)
 every man who eats or who does not drink waits .|OK (2)
 every man who does not eat or who drinks waits .|OK (2)
-no man eats or drinks .|FAIL no man eats or drinks
-every man works and eats or sleeps .|FAIL every man works and eats
-every man works , and eats or sleeps .|FAIL every man works , and eats
+no man eats or drinks .|OK (1)
+every man works and eats or sleeps .|FAIL every man works and eats or sleeps
+every man works , and eats or sleeps .|FAIL every man works , and eats or sleeps
 every man knows a cat that eats or that sleeps .|OK (2)
 2 men X and Y program a n : parser Z the sentences of which nobody understands .|FAIL 2 men X and Y program a n
-some men X and Y program a n : parser Z the sentences of which nobody understands .|FAIL some men X and Y program a n
-every man works or eats or sleeps .|FAIL every man works or eats
-every man works or eats , or sleeps .|FAIL every man works or eats
+some men X and Y program a n : parser Z the sentences of which nobody understands .|FAIL some men X
+every man works or eats or sleeps .|FAIL every man works or eats or sleeps
+every man works or eats , or sleeps .|FAIL every man works or eats , or sleeps
 every dog X hates a cat that X hates .|OK (2)
 Mary waits . John gives a book to her .|OK (1)
 a book is given to Mary by John .|OK (1)
 Mary waits . a book is given to her by John .|OK (1)
 Mary waits . John waits . a book is given to her by him .|OK (1)
-Mary waits . John waits . what is given to her by him ?|FAIL Mary waits . John waits . what
+Mary waits . John waits . what is given to her by him ?|OK (1)
 Mary is sent a book by John .|FAIL Mary is sent a
 there is a book . Mary is sent it by John .|FAIL there is a book . Mary is sent it
 there is a book . Mary is sent to it by John .|OK (1)
@@ -1238,17 +1238,17 @@ a woman waits . a man is interested-in her .|FAIL a woman waits . a man is inter
 a woman waits . a man is interested-in the woman .|FAIL a woman waits . a man is interested-in
 a man is interested-in a woman who waits .|FAIL a man is interested-in
 who is John fond-of ?|FAIL who is John fond-of
-there is X .|OK (1)
+there is X .|FAIL there is X .
 Augusts wait .|FAIL Augusts
-John waits . a man brings him his pencil and brings him his own computer .|FAIL John waits . a man brings him his pencil and brings
+John waits . a man brings him his pencil and brings him his own computer .|OK (1)
 there is a man . John sees Mary and a dog and the man .|OK (2)
-what is written by who ?|FAIL what
+what is written by who ?|FAIL what is written by who
 a man whose age is 31 waits .|FAIL a man whose
 John whose age is 31 waits .|FAIL John whose
 a man whose age is 31 likes a cat .|FAIL a man whose
 a man whose age is 31 likes Mary .|FAIL a man whose
 every dog which barks or which eats does not see a man .|OK (2)
-if there is somebody Y and somebody X does not love Y then X hates Y .|FAIL if there is somebody Y
+if there is somebody Y and somebody X does not love Y then X hates Y .|OK (1)
 a man who sees who waits ?|FAIL a man who sees who waits ?
 there is a man X . it is false that the man X waits .|OK (1)
 at least 0 men wait .|OK (1)
@@ -1256,10 +1256,10 @@ at most 0 men wait .|OK (1)
 every man an age of who is 31 likes a cat .|FAIL every man an
 less than 0 men wait .|OK (1)
 a man's dog barks . the man's dog barks .|OK (1)
-which dog of which cat barks ?|FAIL which
-there is nobody who sees something .|OK (1)
-there is somebody who sees nothing .|OK (1)
-there is nobody who sees nothing .|OK (1)
+which dog of which cat barks ?|FAIL which dog of which
+there is nobody who sees something .|FAIL there is nobody who
+there is somebody who sees nothing .|FAIL there is somebody who
+there is nobody who sees nothing .|FAIL there is nobody who
 if there is a man then he waits and there is a woman .|OK (2)
 if there is a man then he waits and a woman owns a cat .|OK (2)
 there is a man . every man sees the man .|OK (1)
@@ -1268,10 +1268,10 @@ there is a dog . every man likes the dog . there is a dog . every woman hates th
 there is a man X . every man sees X .|OK (1)
 every man who loves a woman who loves the man smiles .|OK (7)
 there is a man X . if X eats then X drinks .|OK (1)
-if there is a man then it is false that it is possible that he sees a cat .|OK (1)
+if there is a man then it is false that it is possible that he sees a cat .|FAIL if there is a man then it is false that it is possible
 John's card is correct .|OK (1)
 Mary is sent some books by John .|FAIL Mary is sent some
-what does John live in ?|FAIL what
+what does John live in ?|FAIL what does John live in
 From what does John come ?|FAIL From
 a man's dog barks . it waits .|OK (1)
 a man's dog barks . the man waits .|OK (1)
@@ -1285,17 +1285,17 @@ every mother of someone is a parent of him / her .|FAIL every mother of someone
 5 men's dog barks . the dog eats .|OK (1)
 5 men's dog barks . the men eat .|OK (1)
 5 men's dog barks . the dog of the men eats .|OK (1)
-there is a man . there is his card .|OK (1)
-there is 5 men's dog .|OK (1)
+there is a man . there is his card .|FAIL there is a man . there is his card
+there is 5 men's dog .|FAIL there is 5 men's dog
 there is a dog of 5 men .|OK (1)
 John's dog waits .|OK (1)
 there is a man . his dog waits .|OK (1)
 if a person X likes the wine then John likes X . Mary likes all wine .|OK (1)
-if a person buys an object from a merchant and keeps it then the person owns the object . if a merchant sells an object to a person then the person buys the object from the merchant . John sells the book "XML Bible" to Mary . Mary keeps the book .|FAIL if a person buys an object from a merchant and keeps
+if a person buys an object from a merchant and keeps it then the person owns the object . if a merchant sells an object to a person then the person buys the object from the merchant . John sells the book "XML Bible" to Mary . Mary keeps the book .|FAIL if a person buys an object from a merchant and keeps it then the person owns the object . if a merchant sells an object to a person then the person buys the object from the merchant . John sells the book "XML
 if there is a man then the man sees a dog that sees a cat that sees a rat and the dog sees a horse .|OK (14)
 if there is a man then the man sees a dog that sees a cat that sees a rat and the dog sees a horse that sees a cow .|OK (28)
 there is a park in which a dog barks .|FAIL there is a park in
-Mary does not like some men who are not rich .|OK (2)
+Mary does not like some men who are not rich .|OK (1)
 everybody does not like a dog that does not bark .|OK (2)
 the furniture is good .|FAIL the furniture
 a cat is not hated by a dog .|OK (2)
@@ -1307,8 +1307,8 @@ a dog of a man and a woman barks .|OK (1)
 Mary is v : given an apple by John .|FAIL Mary is v
 an apple is v : given to John by Mary .|FAIL an apple is v
 John and Mary's dogs bark .|FAIL John and Mary's dogs
-some dogs of Mary and John bark .|OK (2)
-John and some dogs of Mary bark .|OK (1)
+some dogs of Mary and John bark .|FAIL some dogs of
+John and some dogs of Mary bark .|FAIL John and some dogs of
 a customer and a clerk's contracts are valid .|FAIL a customer and a clerk's contracts
 John and Mary's contracts are valid .|FAIL John and Mary's contracts
 5 men's card works .|OK (1)
@@ -1320,7 +1320,7 @@ a dog sees nobody that waits .|OK (1)
 some men's dog barks .|OK (1)
 no man's dog barks .|OK (1)
 there are some men . their dog barks .|OK (1)
-there are a man's dog and a cat .|OK (1)
+there are a man's dog and a cat .|FAIL there are a
 a rich man's dog barks .|OK (1)
 a rich man X's dog barks .|FAIL a rich man X's
 a rich man X's dog barks . X waits .|FAIL a rich man X's
@@ -1332,20 +1332,20 @@ no cards are valid .|OK (1)
 John who has a card enters it .|OK (1)
 there is a man . John does not like the man .|OK (1)
 a man owns a dog . a man owns a cat . John sees the man who owns a dog .|OK (2)
-every goat likes some grass and likes some water and does not like something that is not some grass and that is not some water .|FAIL every goat likes some grass and likes
-every pet is a dog or is a cat , and is not something that is a dog and that is a cat .|FAIL every pet is a dog or is
+every goat likes some grass and likes some water and does not like something that is not some grass and that is not some water .|FAIL every goat likes some grass and likes some water and does
+every pet is a dog or is a cat , and is not something that is a dog and that is a cat .|FAIL every pet is a dog or is a cat , and is
 if there is a pet X then X is a dog or X is a cat , and it is false that X is a dog and that X is a cat .|FAIL if there is a pet X then X is a dog or X is a cat , and it is false that X is a dog and that
-every pet is a dog or is a cat , and is a cow .|FAIL every pet is a dog or is
-every pet is a dog or is a cat , and is not a cow .|FAIL every pet is a dog or is
-every pet is not a cow , and is a dog or is a cat .|FAIL every pet is not a cow , and is
-every man works or eats and sleeps .|FAIL every man works or eats
-every man works or eats , and sleeps or drinks .|FAIL every man works or eats
-every man sees a dog that barks or works .|FAIL every man sees a dog that barks or works
-every man works or sees a dog that barks .|FAIL every man works or sees
+every pet is a dog or is a cat , and is a cow .|FAIL every pet is a dog or is a cat , and is
+every pet is a dog or is a cat , and is not a cow .|FAIL every pet is a dog or is a cat , and is
+every pet is not a cow , and is a dog or is a cat .|FAIL every pet is not a cow , and is a dog or is
+every man works or eats and sleeps .|FAIL every man works or eats and sleeps
+every man works or eats , and sleeps or drinks .|FAIL every man works or eats , and sleeps
+every man sees a dog that barks or works .|OK (2)
+every man works or sees a dog that barks .|OK (2)
 some men are at least 2 men .|OK (1)
 there is a dog of John . there is a dog of Mary . the dog of John barks .|OK (1)
-every man sees a dog that barks or sees himself .|FAIL every man sees a dog that barks or sees
-every man hears a dog that does not bark and sees a cat that does not sleep .|FAIL every man hears a dog that does not bark and sees
+every man sees a dog that barks or sees himself .|FAIL every man sees a dog that barks or sees himself
+every man hears a dog that does not bark and sees a cat that does not sleep .|OK (4)
 if there is a man then he sees a cat X and it is false that X sees a mouse and that X sees a rat .|FAIL if there is a man then he sees a cat X and it is false that X sees a mouse and that
 if there is a man then he sees a cat X and it is possible that X sees a mouse and that X sees a rat .|FAIL if there is a man then he sees a cat X and it is possible that X sees a mouse and that
 if there is a man then he sees a cat X and it is necessary that X sees a mouse and that X sees a rat .|FAIL if there is a man then he sees a cat X and it is necessary that X sees a mouse and that
@@ -1358,12 +1358,12 @@ if there is a man then he sees a cat X and it is necessary that X eats or that X
 if there is a man then he sees a cat X and it is false that X sees a mouse or that X sees a rat .|FAIL if there is a man then he sees a cat X and it is false that X sees a mouse or that
 if there is a man then he sees a cat X and it is necessary that X sees a mouse or that X sees a rat .|FAIL if there is a man then he sees a cat X and it is necessary that X sees a mouse or that
 if there is a man then he sees a cat X and it is possible that X sees a mouse or that X sees a rat .|FAIL if there is a man then he sees a cat X and it is possible that X sees a mouse or that
-every man hears a dog that does not bark and sees a cat that sleeps .|FAIL every man hears a dog that does not bark and sees
-every man hears a dog that barks and sees a cat that sleeps .|FAIL every man hears a dog that barks and sees
-every man hates a dog that knows something or hates a cat that knows something .|FAIL every man hates a dog that knows something or hates
+every man hears a dog that does not bark and sees a cat that sleeps .|OK (4)
+every man hears a dog that barks and sees a cat that sleeps .|OK (4)
+every man hates a dog that knows something or hates a cat that knows something .|OK (4)
 every man sees 2 dogs that see 3 cats .|OK (2)
 every man sees 2 dogs that see a cat .|OK (2)
-Paris is a village or is a city .|FAIL Paris is a village or is
+Paris is a village or is a city .|OK (1)
 a n : named_entity waits .|FAIL a n
 John is 3 .|OK (3)
 2 men are seen by 2 dogs .|OK (2)
@@ -1379,8 +1379,8 @@ if someone X waits then X is a customer . someone X waits .|FAIL if someone
 there is a man X . if X owns a dog then the dog hates a cat .|OK (1)
 can John like Mary ?|OK (1)
 must John like Mary ?|OK (1)
-what can a customer enter ?|FAIL what
-what must a customer enter ?|FAIL what
+what can a customer enter ?|FAIL what can a
+what must a customer enter ?|FAIL what must a
 Into what can a customer enter a card ?|FAIL Into
 where must a customer enter a card ?|OK (1)
 if there is an animal X then an animal Y is smaller than the animal X and the animal X eats the animal Y .|OK (2)
@@ -1397,7 +1397,7 @@ for every dog a cat is not the dog .|OK (1)
 if there is a man then it is necessary that a human is the man .|OK (1)
 if there is a man then it is possible that a human is the man .|OK (1)
 if there is a man then it is not necessary that a human is the man .|OK (1)
-if there is a man then it is not possible that there is a human that is the man .|OK (2)
+if there is a man then it is not possible that there is a human that is the man .|OK (1)
 there is a dog . a man does not hit the dog . the dog barks .|OK (1)
 more than 3 clerks wait . John knows the clerks . less than 2 clerks meet . John knows the clerks .|OK (1)
 a a : x1 n : x2 v : x3 a : x4 .|FAIL a a
@@ -1407,11 +1407,11 @@ One man sleeps .|FAIL One
 a dog sees no man that waits .|OK (2)
 a man sees not everything .|OK (1)
 a man does not see everything .|OK (1)
-there is no man that sees something .|OK (2)
+there is no man that sees something .|FAIL there is no man that
 if there is nobody then a dog barks .|OK (1)
 if nobody waits then a dog barks .|OK (1)
-if there is nobody that waits then a dog barks .|OK (1)
-if there is no man that waits then a dog barks .|OK (2)
+if there is nobody that waits then a dog barks .|FAIL if there is nobody that
+if there is no man that waits then a dog barks .|FAIL if there is no man that
 it is false that every man waits .|OK (1)
 it is true that every man is a human .|FAIL it is true that
 is it true that every man is a human ?|FAIL is it true that
@@ -1444,7 +1444,7 @@ if there is a man X1 then if there is a woman X2 then if there is an apple X3 th
 if someone owns something that contains something X then he / she owns X .|FAIL if someone
 there is a man who Mary is seen by .|FAIL there is a man who Mary is
 John , wait !|FAIL John ,
-there is a man who does not see every dog that he sees . a man who sees a dog and who does not see the dog waits .|OK (14)
+there is a man who does not see every dog that he sees . a man who sees a dog and who does not see the dog waits .|OK (6)
 every customer can access every public resource .|OK (1)
 John , buy a car !|FAIL John ,
 John , buy a car ! Bill , buy a car !|FAIL John ,
@@ -1483,7 +1483,7 @@ the password of an account is known by the owner of the account .|OK (2)
 everybody of John's dog waits .|FAIL everybody of
 there is a man . everybody of his dog waits .|FAIL there is a man . everybody of
 everybody of his dog waits .|FAIL everybody of
-everybody X of a dog of X waits .|FAIL everybody X
+everybody X of a dog of X waits .|FAIL everybody X of
 John knows that Bill is Mary .|FAIL John knows that
 every man whose car a cat sees smiles .|FAIL every man whose
 every man a car of who a cat sees smiles .|FAIL every man a
@@ -1507,13 +1507,13 @@ no men are some humans .|OK (1)
 a man of some water waits .|OK (1)
 there is some water a man of which waits .|FAIL there is some water a
 there is some water whose man waits .|FAIL there is some water whose
-there is a man that owns at least 3 cars . the man that owns at least 3 cars waits .|OK (4)
+there is a man that owns at least 3 cars . the man that owns at least 3 cars waits .|OK (2)
 there is 1 kg of n : laundry .|FAIL there is 1 kg of n
 there is more than 1 kg of laundry .|FAIL there is more than 1 kg
 14 is 15 .|OK (9)
 "" is an empty string .|FAIL ""
 3.14 is a real .|OK (1)
-there are 2 kg of apples of John .|OK (1)
+there are 2 kg of apples of John .|FAIL there are 2 kg of apples of
 2.3 and 88 and "abc" are some values .|FAIL 2.3 and 88 and "abc"
 "&" is a string .|FAIL "&"
 "<" is a string .|FAIL "<"
@@ -1521,17 +1521,17 @@ John's n : home-page is "http://www.example.org/John" .|FAIL John's n
 1 is smaller than 2 .|OK (9)
 3.14 is a ratio of a circumference of a circle to its diameter .|OK (2)
 a man gives a woman "abc" .|FAIL a man gives a woman "abc"
-if a dog of the master of somebody X barks then X sleeps .|OK (3)
-every uncle of the children of somebody X is a brother of X .|OK (3)
-every brother of somebody X is an uncle of the children of X .|OK (2)
+if a dog of the master of somebody X barks then X sleeps .|OK (2)
+every uncle of the children of somebody X is a brother of X .|OK (1)
+every brother of somebody X is an uncle of the children of X .|OK (1)
 if X likes Y then Y likes X .|OK (1)
 at least 2 scores of John are 30 .|OK (3)
 at most 1 man's dog barks .|OK (1)
 everybody sees at most 1 thing .|OK (1)
 every goal is something that at most 1 person scores .|OK (1)
 it is false that there is 1 man .|OK (1)
-a man X gives an apple to a woman Y . Y accepts the apple and eats it . she is happy and he has no apple .|FAIL a man X gives an apple to a woman Y . Y accepts the apple and eats
-John gives an apple to Mary . Mary accepts the apple and eats it . she is happy and he has no apple .|FAIL John gives an apple to Mary . Mary accepts the apple and eats
+a man X gives an apple to a woman Y . Y accepts the apple and eats it . she is happy and he has no apple .|OK (1)
+John gives an apple to Mary . Mary accepts the apple and eats it . she is happy and he has no apple .|OK (1)
 3.14 is real .|OK (1)
 every age of a man is an integer .|OK (1)
 a card of somebody is valid .|OK (1)
@@ -1555,10 +1555,10 @@ John is rich and richer and richest .|FAIL John is rich and richer
 John and Mary wait .|OK (1)
 if a man likes somebody that is a person then the person owns a car .|OK (1)
 if the n : present-value of a n : lease-payment of an asset is greater than 90 percent of something of the fair value of the asset then the asset is a n : finance-lease .|FAIL if the n
-no man is something that likes Mary and hates John .|FAIL no man is something that likes Mary and hates
+no man is something that likes Mary and hates John .|OK (1)
 no man is something that likes Mary and that hates John .|OK (1)
 John does not see less than 3 cars that Bill owns .|OK (2)
-there is a dog which barks and that eats .|OK (2)
+there is a dog which barks and that eats .|OK (1)
 3.1415926536 approximates Pi .|FAIL 3.1415926536 approximates Pi
 how is John ?|FAIL how
 a card is taken manually by John .|OK (1)
@@ -1578,17 +1578,17 @@ who is a child X whose mother is somebody whose husband is somebody whose child 
 John' age is 21 .|FAIL John'
 if a man likes a dog that likes a cat and the man likes a cow that likes a sheep then the man owns a car .|OK (4)
 if there is a man , and the man likes a dog that likes a cat or the man likes a cow that likes a sheep then the man owns a car .|OK (8)
-there is a man that sees a woman that owns a cat . who is the man ? who is the woman ?|OK (7)
-what are some men ?|FAIL what
+there is a man that sees a woman that owns a cat . who is the man ? who is the woman ?|OK (3)
+what are some men ?|FAIL what are
 everyone who is in the n : cc of some mail can access its content .|FAIL everyone
 more than 3 clerks wait . John knows the clerks . less than 2 clerks sit . John knows the clerks .|OK (1)
 p : Peeter owns a car .|FAIL p
 John tries to walk .|FAIL John tries to walk
 John does not have to walk .|OK (1)
-John sees what ?|FAIL John sees what
-if there are a man and a manager then the man is a : officially the manager .|FAIL if there are a man and a manager then the man is a :
+John sees what ?|OK (1)
+if there are a man and a manager then the man is a : officially the manager .|FAIL if there are a
 for every customer the customer has a card and the customer has a code .|OK (2)
-what does John not like ?|FAIL what
+what does John not like ?|OK (1)
 if there is a declaration whose name is a user and whose password is a string and the string is the password of the user then the user is authenticated .|FAIL if there is a declaration whose
 if the id of a user is valid then the user is authenticated .|OK (1)
 if a man likes Mary and Mary hates a dog then the man owns a car .|OK (1)
@@ -1596,17 +1596,17 @@ there is a customer such that the customer has a card and the customer has a cod
 there is a man who does not provably eat . the man who does not provably eat drinks .|FAIL there is a man who does not provably
 a child of who is a patricide whose child is somebody who is not a patricide ?|FAIL a child of who
 if a user is authenticated and his subscription covers a resource then the user can download the resource .|OK (1)
-if a user is authenticated and pays for a resource then he can download it .|FAIL if a user is authenticated and pays
-if a user is happy and pays for something then he can wait .|FAIL if a user is happy and pays
+if a user is authenticated and pays for a resource then he can download it .|OK (1)
+if a user is happy and pays for something then he can wait .|OK (1)
 every customer has at least 2 cards and their associated codes . if a customer C approaches an automatic teller and she inserts her own card that is valid carefully into a slot and types a correct code of the card then the automatic teller accepts the card and displays "Card accepted" and C is happy . no card that does not have a correct code is accepted . it is false that a customer's card is valid , and is expired or is cancelled . if a card is not provably invalid then it is accepted . if a customer owns a card and can prove that it is lost then a bank must replace it .|FAIL every customer has at least 2 cards and their associated codes
-if a user is happy and pays for something then he does not wait .|FAIL if a user is happy and pays
-if a user is happy and pays for something then he sees everything .|FAIL if a user is happy and pays
+if a user is happy and pays for something then he does not wait .|OK (1)
+if a user is happy and pays for something then he sees everything .|OK (1)
 if a user charges the price of a resource then the user pays for the resource .|OK (1)
 there is a price of a resource . the price of a resource is high . the resource is valid .|FAIL there is a price of a resource . the price of a resource is high
 not for each of some men every dog of him barks .|FAIL not for
 not for each of some men every dog of the man barks .|FAIL not for
 not each of 2 girls lifts a table .|FAIL not each of
-if a user is happy and pays for something then he does not wait .|FAIL if a user is happy and pays
+if a user is happy and pays for something then he does not wait .|OK (1)
 there is a man . he waits . his card is correct .|OK (1)
 Him sees a man .|FAIL Him
 there is a man . John sees him . John checks his card . John sees a card in his hand .|OK (1)
@@ -1620,23 +1620,23 @@ if a man owns a book then he does not read it .|OK (1)
 if a man owns a book then he does not provably read it .|FAIL if a man owns a book then he does not provably
 if a user pays for something then he does not wait .|OK (1)
 if a user pays for something then he can wait .|OK (1)
-if a user is authenticated and pays for a resource then a man can download it .|FAIL if a user is authenticated and pays
-if a user is authenticated and pays for a resource then the man can download it .|FAIL if a user is authenticated and pays
+if a user is authenticated and pays for a resource then a man can download it .|OK (1)
+if a user is authenticated and pays for a resource then the man can download it .|OK (1)
 a man who sees a dog and who does not see the dog waits .|OK (2)
-if a user is authenticated and pays for a resource then he does not believe that he can download it .|FAIL if a user is authenticated and pays
+if a user is authenticated and pays for a resource then he does not believe that he can download it .|FAIL if a user is authenticated and pays for a resource then he does not believe that
 if a man waits then his dog barks .|OK (1)
 everybody ' s age is larger than 0 .|FAIL everybody '
 if somebody ' s age is 31 then his address is "Poland" .|FAIL if somebody '
-everybody X's dog barks .|FAIL everybody X's
+everybody X's dog barks .|OK (1)
 not everyone ' s dog barks .|FAIL not everyone
 John sees everybody ' s dogs .|FAIL John sees everybody '
 John sees 3 men whose dog barks .|FAIL John sees 3 men whose
 John and Mary a dog of who barks wait .|FAIL John and Mary a
 there is a man 3 dogs of who bark .|FAIL there is a man 3
-which card of a man is valid ?|FAIL which
-which card of who is valid ?|FAIL which
-which card of who is what ?|FAIL which
-which dog of who likes who ?|FAIL which
+which card of a man is valid ?|OK (1)
+which card of who is valid ?|FAIL which card of who
+which card of who is what ?|FAIL which card of who
+which dog of who likes who ?|FAIL which dog of who
 not each of 4 men waits .|FAIL not each of
 there are 4 men . not each of them waits .|FAIL there are 4 men . not each of
 John likes 3 dogs . not each of them barks .|FAIL John likes 3 dogs . not each of
@@ -1645,11 +1645,11 @@ John likes 3 dogs . not for each of them a cat smiles .|FAIL John likes 3 dogs .
 there is a dog . not for each of a customer and a clerk a code is valid .|FAIL there is a dog . not for
 there is a dog . not each of a customer and a clerk waits .|FAIL there is a dog . not each of
 for each of a customer and a clerk a dog barks .|FAIL for each of a
-there are some men who see a woman a cat of who smiles .|FAIL there are some men who see a woman a
+there are some men who see a woman a cat of who smiles .|FAIL there are some men who
 SimpleMat goes further and sees some abaci .|FAIL SimpleMat
-everybody X's dog likes X .|FAIL everybody X's
-there is somebody X's dog . X likes the dog .|FAIL there is somebody X's
-everybody X's friend likes everybody that likes X .|FAIL everybody X's
+everybody X's dog likes X .|OK (1)
+there is somebody X's dog . X likes the dog .|FAIL there is somebody X's dog
+everybody X's friend likes everybody that likes X .|OK (1)
 a man X and Y's dog waits .|FAIL a man X and Y's
 for every man it is false that a dog barks .|OK (1)
 for no man it is false that a dog barks .|FAIL for no
@@ -1657,11 +1657,11 @@ for no men a dog barks .|FAIL for no
 for no man a dog sees the man .|FAIL for no
 a man who a woman is seen by waits .|FAIL a man who a woman is
 there is somebody . there is something . he waits .|OK (1)
-there is somebody . there is something X . he waits .|FAIL there is somebody . there is something X
-a man sees everything X of Mary that eats .|FAIL a man sees everything X
-a man sees everything X that eats .|FAIL a man sees everything X
-a man sees everything X that eats X .|FAIL a man sees everything X
-a man sees everything X of Mary .|FAIL a man sees everything X
+there is somebody . there is something X . he waits .|OK (1)
+a man sees everything X of Mary that eats .|FAIL a man sees everything X of
+a man sees everything X that eats .|OK (1)
+a man sees everything X that eats X .|OK (1)
+a man sees everything X of Mary .|FAIL a man sees everything X of
 there are 3 men 3 cards of who are valid .|FAIL there are 3 men 3
 John sees 3 men whose dogs bark .|FAIL John sees 3 men whose
 John sees a man whose dogs bark .|FAIL John sees a man whose
@@ -1674,12 +1674,12 @@ there is a man . the red man sleeps .|OK (1)
 there is a red man . the man sleeps .|OK (1)
 there is a man . the man the card of who is valid sleeps .|FAIL there is a man . the man the
 there is a man the card of who is valid . the man sleeps .|FAIL there is a man the
-if there are a number X and a number Y , and X > Y or X < Y then it is false that X = Y .|OK (2)
+if there are a number X and a number Y , and X > Y or X < Y then it is false that X = Y .|FAIL if there are a
 Bill's age is a number X . John believes that X < 40 . Mary knows that X = 45 .|FAIL Bill's age is a number X . John believes that
-if something X is greater than something Y then X > Y .|FAIL if something X
+if something X is greater than something Y then X > Y .|OK (1)
 { 1 , "a" , [ 3 , 4 ] , John } is a set .|FAIL {
 it is not possible that there is a number X and that X = X + 1 .|FAIL it is not possible that there is a number X and that
-if there are a number X and a number Y then the average of them is ( X + Y ) / 2 .|OK (1)
+if there are a number X and a number Y then the average of them is ( X + Y ) / 2 .|FAIL if there are a
 [ 3.141 , { 1 , 2 , 3 } , 4 + X , Y * ( Z - 2 ) , "ace" ] is a list .|FAIL [
 if there is a n : knot-value X of a gale then X > 28 and X < 55 .|FAIL if there is a n
 there is a man at least 3 cars of who are liked by Mary .|FAIL there is a man at
@@ -1696,7 +1696,7 @@ a man gives 2 John .|OK (3)
 there is a man . John sees Mary and a dog and the man . the man waits .|OK (2)
 1 < 2 .|OK (1)
 1 + 2 = 3 .|OK (1)
-it is false that 1 = 2 - 3 .|OK (1)
+it is false that 1 = 2 - 3 .|FAIL it is false that 1 =
 1 < 2 and 2 < 3 .|OK (1)
 1 < 2 or 2 > 3 .|OK (1)
 { 1 } is contained by { 2 , 3 } .|FAIL {
@@ -1705,21 +1705,21 @@ there is a group of each of 3 men .|OK (1)
 for every integer X there are more than 2 integers Y such that X + Y > X .|FAIL for every integer X there are more than 2 integers Y such
 there is a number X . X = X .|OK (1)
 { John } waits .|FAIL {
-there is a natural number X . - 1 < X .|OK (2)
+there is a natural number X . - 1 < X .|OK (1)
 it is false that John sleeps and that John does not sleep .|FAIL it is false that John sleeps and that
 if John and Mary wait then there is a dog and they sleep .|OK (2)
 if John and Mary wait then a dog barks and they sleep .|OK (2)
 if John and Mary wait then a dog barks or they sleep .|OK (2)
 if John and Mary wait then they sleep .|OK (1)
-there are a dog and a cat . they sleep . John sees them . John likes them .|OK (1)
+there are a dog and a cat . they sleep . John sees them . John likes them .|FAIL there are a
 every man knows that every man waits .|FAIL every man knows that
 every man knows that every man knows a man .|FAIL every man knows that
 every man knows that every man drinks and that every woman eats .|FAIL every man knows that
 a number is 3 + 5 - 4 + 9 .|OK (1)
 every man's dog chases a car .|OK (1)
-John likes nothing but meat .|OK (1)
+John likes nothing but meat .|FAIL John likes nothing but meat
 John likes nothing but Mary .|FAIL John likes nothing but Mary
-John likes nobody but Mary .|OK (1)
+John likes nobody but Mary .|FAIL John likes nobody but
 John likes nothing but raw meat .|FAIL John likes nothing but raw meat
 John likes nothing but fast cars .|OK (1)
 John likes nothing but cars of Mary .|OK (1)
@@ -1731,13 +1731,13 @@ are there 3 things and 4 things ?|FAIL are there
 who hits himself ?|FAIL who hits himself
 who sees herself ?|FAIL who sees herself
 where does a man live ?|OK (1)
-what is given to Mary by John ?|FAIL what
+what is given to Mary by John ?|OK (1)
 there is a man X . X's dog barks .|FAIL there is a man X . X's
 there is a man X . there is some food of X's dog .|FAIL there is a man X . there is some food of
-everybody X likes X's dog .|FAIL everybody X
+everybody X likes X's dog .|FAIL everybody X likes X's
 Jyri's dog hates Mari's cat .|FAIL Jyri's
-everybody X's dog hates X's cat .|FAIL everybody X's
-if somebody X's dog Y hates Y's meat then X's cat likes Y .|FAIL if somebody X's
+everybody X's dog hates X's cat .|FAIL everybody X's dog hates X's
+if somebody X's dog Y hates Y's meat then X's cat likes Y .|FAIL if somebody X's dog Y
 2 men X and Y's dog bark .|FAIL 2 men X and Y's
 for everything X a man knows X .|FAIL for everything
 for everything X for nothing Y X likes Y .|FAIL for everything
@@ -1747,35 +1747,35 @@ for every man's dog a cat waits .|FAIL for every man's
 when is Christmas ?|FAIL when is Christmas ?
 where is Bill ?|FAIL where is Bill ?
 when is what ?|FAIL when is what
-what is when ?|FAIL what
+what is when ?|FAIL what is when
 1 = < 2 and 2 > = 1 .|FAIL 1 = <
 who is somebody that somebody that knows who knows ?|FAIL who is somebody that somebody that knows who knows ?
 who is known by somebody that knows who ?|FAIL who is known by somebody that knows who ?
 John is a father of who ?|FAIL John is a father of who
-Bill gives what to who ?|FAIL Bill gives what
-Bill gives what to who where ?|FAIL Bill gives what
+Bill gives what to who ?|FAIL Bill gives what to
+Bill gives what to who where ?|FAIL Bill gives what to
 where does Bill give what to who ?|FAIL where does Bill give what
 Bill lives in which city in which country for which reason ?|FAIL Bill lives in which
-John and Mary like what ?|FAIL John and Mary like what
-Bill gives which flowers to which women ?|FAIL Bill gives which
-which men give which flowers to which women ?|FAIL which
+John and Mary like what ?|OK (1)
+Bill gives which flowers to which women ?|FAIL Bill gives which flowers to
+which men give which flowers to which women ?|FAIL which men give which
 2 kg of sugar are used by John for what ?|FAIL 2 kg of sugar are used by John for what
 is a code entered by a customer ?|OK (2)
-what are the cars of John ?|FAIL what
-who are the children of John ?|OK (1)
+what are the cars of John ?|FAIL what are
+who are the children of John ?|FAIL who are the children of
 at least 3 men and at most 3 men wait . they are tired .|OK (1)
 a man who is John waits . the man who is Bill sleeps .|OK (4)
 a man who is a clerk waits . the man who is a customer sleeps .|OK (4)
-there is a man who owns a dog . there is a man who owns a cat . John sees the man who owns a dog .|OK (8)
+there is a man who owns a dog . there is a man who owns a cat . John sees the man who owns a dog .|OK (2)
 there is a man whose dog barks . the dog of a man sleeps .|FAIL there is a man whose
-there are a man X and a man Y .|OK (1)
+there are a man X and a man Y .|FAIL there are a
 for each of a man X and a man Y there is a card .|FAIL for each of a
 not for each of a man X and a man Y there is a card .|FAIL not for
-John has a dog and has a cat . who has a dog ? who has a cat ?|FAIL John has a dog and has
+John has a dog and has a cat . who has a dog ? who has a cat ?|OK (1)
 there is a man . a dog of him eats . the dog of him barks .|OK (1)
 there is a man . a dog of him eats . the dog of the man barks .|OK (1)
 there is a man a dog of who barks and who eats .|FAIL there is a man a
-there is a man . his dog X eats . there is a woman . her dog drinks . the dog X barks .|OK (1)
+there is a man . his dog X eats . there is a woman . her dog drinks . the dog X barks .|FAIL there is a man . his dog X
 there is a young man who is more fond-of Mary than of Sue . there is an old man who is more fond-of Sue than of Mary . John knows the man who is more fond-of Mary than of Sue .|FAIL there is a young man who is more fond-of
 Mary likes John's red car .|OK (1)
 there is John's fast and red car .|FAIL there is John's fast and
@@ -1786,9 +1786,9 @@ for every card does a customer own it ?|FAIL for every card does
 for no card does a customer own the card ?|FAIL for no
 not for no man a dog barks .|FAIL not for
 not for no man a dog likes John .|FAIL not for
-there is John's dog such that a cat sees the dog .|FAIL there is John's dog such
-there is a man who sleeps on a bank . there is a man who sleeps on a bed . John sees the man who sleeps on a bank .|OK (16)
-there is a man who can wait . the man who can wait sleeps .|OK (4)
+there is John's dog such that a cat sees the dog .|FAIL there is John's dog
+there is a man who sleeps on a bank . there is a man who sleeps on a bed . John sees the man who sleeps on a bank .|OK (4)
+there is a man who can wait . the man who can wait sleeps .|OK (2)
 for every man every dog barks for every cat .|OK (1)
 for every man a dog barks for every cat .|OK (1)
 a card of which man is valid ?|FAIL a card of which
@@ -1797,7 +1797,7 @@ John eats nothing but raw and expensive meat .|FAIL John eats nothing but raw an
 there is a man . his brother sees himself .|FAIL there is a man . his brother sees himself
 there is a man whose dog barks . the dog of the man sleeps .|FAIL there is a man whose
 there is a man whose dog barks . a dog of a man sleeps .|FAIL there is a man whose
-there is a man who sleeps in a bed in the morning . there is a man who sleeps in a bank . the man who sleeps in the morning is tired .|OK (8)
+there is a man who sleeps in a bed in the morning . there is a man who sleeps in a bank . the man who sleeps in the morning is tired .|OK (2)
 there is a man who sleeps safely and soundly . there is a man who sleeps fitfully . the man who sleeps safely is happy .|FAIL there is a man who sleeps safely and soundly
 John sees a man who sleeps with his own eyes .|FAIL John sees a man who sleeps with his own eyes
 a man X1 of a man waits . the man X1 is happy .|FAIL a man X1
@@ -1806,16 +1806,16 @@ a man hits a dog the bone of which is green .|FAIL a man hits a dog the
 a girl whose cat a mouse of which smiles eats waits .|FAIL a girl whose
 there is a company from who John awaits a delivery .|FAIL there is a company from
 if a message is from someone from who John awaits a delivery then the message is important .|FAIL if a message is from someone
-there are some cards each of which is valid .|OK (2)
-there are some cards each of which has a code .|OK (2)
-there are some cards each of which John knows .|OK (2)
+there are some cards each of which is valid .|FAIL there are some cards each
+there are some cards each of which has a code .|FAIL there are some cards each
+there are some cards each of which John knows .|FAIL there are some cards each
 there are some cards the code of each of which is valid .|FAIL there are some cards the
 there are some cards a code of each of which is valid .|FAIL there are some cards a
 there are some cards a code of each of which has a date .|FAIL there are some cards a
 there are some cards a code of each of which John knows .|FAIL there are some cards a
-there are some men each of who is rich .|FAIL there are some men each of who
-there are some men each of who has a car .|FAIL there are some men each of who
-there are some men each of who John knows .|FAIL there are some men each of who
+there are some men each of who is rich .|FAIL there are some men each
+there are some men each of who has a car .|FAIL there are some men each
+there are some men each of who John knows .|FAIL there are some men each
 there are some men the car of each of who is fast .|FAIL there are some men the
 there are some men a car of each of who is fast .|FAIL there are some men a
 there are some men a car of each of who John drives .|FAIL there are some men a
@@ -1852,23 +1852,23 @@ a woman enters her own card .|OK (1)
 a man is in his own garden .|OK (1)
 a man sees a brother of him .|OK (1)
 a man of his group waits .|OK (1)
-there is a card . a man brings it its pencil and brings it his own computer .|FAIL there is a card . a man brings it its pencil and brings
+there is a card . a man brings it its pencil and brings it his own computer .|OK (1)
 there is a card . a man brings it its pencil and its computer .|OK (1)
 there is a card . a man brings it its pencil . the man brings it his own computer .|OK (1)
-there is a card . a man brings it its friend and offers it his own computer .|FAIL there is a card . a man brings it its friend and offers
-there is a card . a man brings it its man and offers it his own computer .|FAIL there is a card . a man brings it its man and offers
-there is a card . a man brings it its pencil and offers it his own computer .|FAIL there is a card . a man brings it its pencil and offers
+there is a card . a man brings it its friend and offers it his own computer .|OK (1)
+there is a card . a man brings it its man and offers it his own computer .|OK (1)
+there is a card . a man brings it its pencil and offers it his own computer .|OK (1)
 there is a card . a man brings it its pencil and his own computer .|OK (1)
 a man brings a dog it .|OK (1)
 there is a dog . a man brings the dog the dog .|OK (1)
 there is a dog . the dog barks . a man brings the dog the dog .|OK (1)
 a man gives John at most 3 apples .|OK (1)
 a man gives at least 3 apples to John .|OK (1)
-there is a man who owns each of 3 dogs . the man who owns each of 3 dogs waits .|OK (4)
-there are 3 dogs . there is a man who owns each of the dogs . the man who owns each of the dogs waits .|OK (4)
+there is a man who owns each of 3 dogs . the man who owns each of 3 dogs waits .|OK (2)
+there are 3 dogs . there is a man who owns each of the dogs . the man who owns each of the dogs waits .|OK (2)
 is every man a human ?|OK (1)
 John tells Mary that he waits .|OK (1)
-what does who see ?|FAIL what
+what does who see ?|FAIL what does who
 who eats and drinks ?|FAIL who eats and
 a man eats quickly and quickly .|FAIL a man eats quickly and quickly
 a man eats how in a park ?|FAIL a man eats how
@@ -1885,10 +1885,10 @@ John's speed is 10 sec / 60 m .|FAIL John's speed is 10 sec
 there is who ?|FAIL there is who
 a value is - 3 kg .|FAIL a value is - 3 kg
 a value is - 3.5 kg .|FAIL a value is - 3.5
-there are 10 h of work .|FAIL there are 10 h
+there are 10 h of work .|FAIL there are 10
 there is 1 h of work .|OK (1)
 a man has 2 t of apples .|OK (1)
-who does John not see ?|FAIL who does John
+who does John not see ?|OK (2)
 is it false that every man is a human ?|FAIL is it false that
 a man has 2 mol of apples .|OK (1)
 is it true that John likes Mary ?|FAIL is it true that
@@ -1898,75 +1898,75 @@ is it false that John likes Mary and that no dog likes every cat ?|FAIL is it fa
 it is false that a customer inserts a card .|OK (1)
 it is false that some men wait .|OK (1)
 it is false that everybody sees somebody .|OK (1)
-it is false that it is false that a man waits .|OK (1)
-it is false that if there is someone then he waits .|FAIL it is false that if there is someone
+it is false that it is false that a man waits .|FAIL it is false that it is false that
+it is false that if there is someone then he waits .|FAIL it is false that if
 it is false that there is some water .|OK (1)
 it is false that no man does not wait .|OK (1)
-it is false that a man waits and a dog barks .|OK (2)
-it is false that there is a man and a dog barks .|OK (2)
-it is false that a man who waits or who eats runs and sleeps .|FAIL it is false that a man who waits or who eats runs and sleeps
-it is false that a man who waits or who eats runs or sleeps .|FAIL it is false that a man who waits or who eats runs or sleeps
-it is false that a man who waits or who eats runs or sleeps and barks .|FAIL it is false that a man who waits or who eats runs or sleeps
-it is false that a man who waits or who eats runs or sleeps , and barks .|FAIL it is false that a man who waits or who eats runs or sleeps
-it is false that there is a dog , and there is a man or there is a woman , and there is a cat .|OK (14)
+it is false that a man waits and a dog barks .|OK (1)
+it is false that there is a man and a dog barks .|OK (1)
+it is false that a man who waits or who eats runs and sleeps .|OK (2)
+it is false that a man who waits or who eats runs or sleeps .|OK (2)
+it is false that a man who waits or who eats runs or sleeps and barks .|FAIL it is false that a man who waits or who eats runs or sleeps and barks
+it is false that a man who waits or who eats runs or sleeps , and barks .|FAIL it is false that a man who waits or who eats runs or sleeps , and barks
+it is false that there is a dog , and there is a man or there is a woman , and there is a cat .|OK (5)
 it is false that there is a dog , and that there is a man or that there is a woman , and there is a cat .|FAIL it is false that there is a dog , and that
 it is false that there is a dog , and that there is a man or that there is a woman , and that there is a cat .|FAIL it is false that there is a dog , and that
 it is false that there is a dog A . there is a man C or there is a woman E . it is false that there is a cat G .|FAIL it is false that there is a dog A
 it is false that there is a man , and that the man sleeps or that the man waits .|FAIL it is false that there is a man , and that
 it is false that there is a dog and that it is false that there is a cat .|FAIL it is false that there is a dog and that
 it is false that John runs . he walks .|OK (1)
-it is false that for every book the book has a title and the book has a code .|OK (3)
-it is false that if there is a book then the book has a title and the book has a code .|OK (3)
+it is false that for every book the book has a title and the book has a code .|FAIL it is false that for
+it is false that if there is a book then the book has a title and the book has a code .|FAIL it is false that if
 it is false that there is a man and that there is a dog or that there is a cat .|FAIL it is false that there is a man and that
 it is false that there is a man and that there is a dog or there is a cat .|FAIL it is false that there is a man and that
-it is false that there is a man , and there is a dog or there is a cat .|OK (5)
+it is false that there is a man , and there is a dog or there is a cat .|OK (2)
 it is false that John likes a dog , and that a cat and a rat and a mouse see a cheese , or that a man waits .|FAIL it is false that John likes a dog , and that
 it is false that John runs . John walks .|OK (1)
 it is false that John walks . he runs .|OK (1)
 John walks . it is false that John runs .|OK (1)
 it is false that there are 2 kg of dirty laundry .|FAIL it is false that there are 2 kg of dirty laundry
-it is false that there is a man or there is a dog .|OK (2)
+it is false that there is a man or there is a dog .|OK (1)
 it is false that there is a man or that there is a dog .|FAIL it is false that there is a man or that
-it is false that it is not provable that John flies .|OK (1)
+it is false that it is not provable that John flies .|FAIL it is false that it is not provable that
 it is false that everybody waits .|OK (1)
-it is false that it is necessary that John waits and that Mary sleeps .|FAIL it is false that it is necessary that John waits and that
+it is false that it is necessary that John waits and that Mary sleeps .|FAIL it is false that it is necessary that
 if John does not eat and it is false that somebody feeds him then John is hungry .|OK (1)
 John is not happy .|OK (1)
-who does not see himself ?|FAIL who does not
+who does not see himself ?|FAIL who does not see himself
 everybody is not seen by who ?|FAIL everybody is not seen by who
 John does wait .|OK (1)
 John does like Mary .|FAIL John does like
 it is false that there is a dog . there is a man or there is a woman , and it is false that there is a cat .|OK (2)
-it is false that there is a dog , and there is a man or there is a woman , and it is false that there is a cat .|OK (14)
-it is false that a man sleeps or waits .|FAIL it is false that a man sleeps or waits
-it is false that there is a man and the man sleeps or the man waits .|OK (5)
-it is false that there is a man , and the man sleeps or the man waits .|OK (5)
-it is false that there is a man and a man sleeps or the man waits .|OK (5)
-it is false that there is a dog and it is false that there is a cat .|OK (2)
+it is false that there is a dog , and there is a man or there is a woman , and it is false that there is a cat .|OK (5)
+it is false that a man sleeps or waits .|OK (1)
+it is false that there is a man and the man sleeps or the man waits .|OK (2)
+it is false that there is a man , and the man sleeps or the man waits .|OK (2)
+it is false that there is a man and a man sleeps or the man waits .|OK (2)
+it is false that there is a dog and it is false that there is a cat .|OK (1)
 it is false that there is a dog . it is false that there is a cat .|OK (1)
 it is false that a man waits and that a dog barks .|FAIL it is false that a man waits and that
 it is false that there is a man and that a dog barks .|FAIL it is false that there is a man and that
 it is false that there is a dog , and that there is a man or there is a woman , and there is a cat .|FAIL it is false that there is a dog , and that
-which man waits ?|FAIL which
-John sees which man ?|FAIL John sees which
+which man waits ?|OK (1)
+John sees which man ?|OK (1)
 a man the card of who is valid or who is green and who is happy waits .|FAIL a man the
-which men wait ?|FAIL which
-which man eats and drinks ?|FAIL which
+which men wait ?|OK (1)
+which man eats and drinks ?|FAIL which man eats and
 there is which man ?|FAIL there is which
 a man 3 dogs of who bark waits .|FAIL a man 3
-which man does not wait ?|FAIL which
-John does not own which car ?|FAIL John does not own which
-which dog of John barks ?|FAIL which
+which man does not wait ?|OK (1)
+John does not own which car ?|OK (1)
+which dog of John barks ?|OK (1)
 whose dogs wait ?|FAIL whose dogs
 whose article whose title is "ACE" does Mary read ?|FAIL whose article whose
 whose article whose title is "ACE" is given to Mary by who ?|FAIL whose article whose
 an item is given to who ?|FAIL an item
-which dogs of John bark ?|FAIL which
-which dog of John waits ?|FAIL which
-which man sees every dog ?|FAIL which
-John does not own which dog ?|FAIL John does not own which
-there is a man X . which man is X ?|FAIL there is a man X . which
-which man's dog barks ?|FAIL which
+which dogs of John bark ?|OK (1)
+which dog of John waits ?|OK (1)
+which man sees every dog ?|OK (1)
+John does not own which dog ?|OK (1)
+there is a man X . which man is X ?|OK (1)
+which man's dog barks ?|FAIL which man's
 there are some cities in which John lives .|FAIL there are some cities in
 there are less than 2 kg of dirty laundry .|FAIL there are less than 2 kg
 there are at most 2 kg of dirty laundry .|FAIL there are at most 2 kg
@@ -1976,7 +1976,7 @@ it is false that there is a man , and that there is a dog or there is a cat .|FA
 a customer can enter what ?|FAIL a customer can enter what
 more than 3 kg of white rice of John rot .|FAIL more than 3 kg
 1 kg of apples wait .|FAIL 1 kg of apples wait
-if there is somebody X of a dog of X then X waits .|FAIL if there is somebody X
+if there is somebody X of a dog of X then X waits .|FAIL if there is somebody X of
 ( ( 1 + 2 ) - 3 ) = 0 .|FAIL ( ( 1 + 2 ) -
 for each of some men for each of some women a dog barks .|FAIL for each of some
 for each of some men for every woman a dog barks .|FAIL for each of some
@@ -2000,20 +2000,20 @@ some men can not wait .|OK (1)
 John can not wait .|OK (1)
 a man can not be rich .|OK (1)
 a man can not give a woman an apple .|OK (1)
-Mary does not like some men who are not rich .|OK (2)
+Mary does not like some men who are not rich .|OK (1)
 everybody does not like a dog that does not bark .|OK (2)
 a cat is not hated by a dog .|OK (2)
-every goat likes some grass and likes some water and does not like something that is not some grass and that is not some water .|FAIL every goat likes some grass and likes
-which code does a customer enter ?|FAIL which
-which code does who enter ?|FAIL which
+every goat likes some grass and likes some water and does not like something that is not some grass and that is not some water .|FAIL every goat likes some grass and likes some water and does
+which code does a customer enter ?|OK (1)
+which code does who enter ?|FAIL which code does who
 who gives what to who ?|FAIL who gives what
-what must a man own ?|FAIL what
-what can a man not have ?|FAIL what
-which customer does not provably wait ?|FAIL which
-which customer does John not provably know ?|FAIL which
-which customer does John not provably not know ?|FAIL which
+what must a man own ?|FAIL what must a
+what can a man not have ?|FAIL what can a
+which customer does not provably wait ?|FAIL which customer does not provably
+which customer does John not provably know ?|FAIL which customer does John not provably
+which customer does John not provably not know ?|FAIL which customer does John not provably
 does John not have to wait ?|FAIL does John not
-which code does a customer have to enter ?|FAIL which
+which code does a customer have to enter ?|FAIL which code does a customer have to
 does John have to wait ?|OK (1)
 John does have to wait .|FAIL John does have
 is a code entered by a customer ?|OK (2)
@@ -2021,11 +2021,11 @@ can a code be entered by a customer ?|OK (3)
 does a code have to be entered by someone ?|FAIL does a code have to be entered by someone
 must every code have a customer ?|OK (1)
 is a customer not provably a clerk ?|FAIL is a customer not provably
-which code does a customer have to enter ?|FAIL which
-which code does a customer not have to enter ?|FAIL which
-which codes must a customer enter ?|FAIL which
-which cards must every customer enter into which slots ?|FAIL which
-what is a dog living in ?|FAIL what
+which code does a customer have to enter ?|FAIL which code does a customer have to
+which code does a customer not have to enter ?|FAIL which code does a customer not have to
+which codes must a customer enter ?|FAIL which codes must a
+which cards must every customer enter into which slots ?|FAIL which cards must every
+what is a dog living in ?|FAIL what is a dog living
 in what is a dog living ?|FAIL in
 in what is a dog living in the morning ?|FAIL in
 in what is a dog living when ?|FAIL in
@@ -2054,7 +2054,7 @@ John knows that "Миша lives in СССР" holds .|FAIL John knows that
 John reads "تراجيديا هاملت Hamlet واحدة من أهم مسرحيات شكسبير . كتبت في عام 1600" .|FAIL John reads "تراجيديا
 a card is manually taken by John .|FAIL a card is manually
 a card is taken by John manually .|OK (2)
-there are some men each of whose dogs barks .|FAIL there are some men each of whose
+there are some men each of whose dogs barks .|FAIL there are some men each
 John is when in Paris ?|FAIL John is when
 John is in Paris when ?|FAIL John is in Paris when
 John is in Paris when with Mary ?|FAIL John is in Paris when
@@ -2062,9 +2062,9 @@ John is rich where ?|FAIL John is rich where
 John is in a park in the park .|OK (1)
 John drinks p : õlu .|FAIL John drinks p
 can a book be written by a man ?|OK (3)
-it is false that there are a man and a woman and that the man waits .|FAIL it is false that there are a man and a woman and that
+it is false that there are a man and a woman and that the man waits .|FAIL it is false that there are a
 John who is larger than his own brother can work carefully in a year that is not 2006 and that is not in [ 1981 , 1983 , 1985 ] .|FAIL John who is larger than his own brother can work carefully in a year that is not 2006 and that is not in [
-if each of some men who are { John , Bill } gives a small text "abc" to a woman then John must buy 2 kg of food or knows that it is not provable that 2 km / ( 2.3 + 4 ) = X * 2 .|FAIL if each of some men who are {
+if each of some men who are { John , Bill } gives a small text "abc" to a woman then John must buy 2 kg of food or knows that it is not provable that 2 km / ( 2.3 + 4 ) = X * 2 .|FAIL if each of some men who
 who is mad-about John who is rich and who is as fond-of Mary as of Sue ?|FAIL who is mad-about
 at most 3 men own more than 5 cars . at most 5 cars are owned by more than 3 men .|OK (2)
 there are at most 3 men . the men wait .|OK (1)
@@ -2090,8 +2090,8 @@ a number X is [ X ] .|FAIL a number X is [
 a number X is [ X ] and { X , X } .|FAIL a number X is [
 there is a number X . [ X , X ] is bigger than { X , X } .|FAIL there is a number X . [
 there are 3 men . there are who ?|FAIL there are 3 men . there are who
-which men are there ?|FAIL which
-which dogs of a man are there ?|FAIL which
+which men are there ?|OK (1)
+which dogs of a man are there ?|OK (1)
 there are which dogs of a man ?|FAIL there are which
 there are 3 men X . there are 4 men Y . John sees X . Mary sees Y . Bill sees X .|OK (1)
 John and Mary wait . Bill gives them them .|OK (1)
@@ -2122,8 +2122,8 @@ there is a red card R . there is a blue card B . the card R is valid .|FAIL ther
 there is a red card R . there is a blue card B . the card is valid .|FAIL there is a red card R
 there is a red card R . there is a blue card B . the red card is valid .|FAIL there is a red card R
 there is a red card R . there is a blue card B . R is valid .|FAIL there is a red card R
-there are a red card R and a blue card B . R is valid .|FAIL there are a red card R
-there are a red card R and a blue card B . they are valid .|FAIL there are a red card R
+there are a red card R and a blue card B . R is valid .|FAIL there are a
+there are a red card R and a blue card B . they are valid .|FAIL there are a
 there are 3 men M3 . M3 talk .|FAIL there are 3 men M3
 there is a dog D . each of some men who own D owns D .|FAIL there is a dog D
 a child C1 of a child C2 of a man M waits .|FAIL a child C1
@@ -2154,22 +2154,22 @@ there is some water . the water is wet .|OK (1)
 there is a water . the water is wet .|OK (1)
 there is some water . there is a water . the water is wet .|OK (1)
 there is a water . there is some water . the water is wet .|OK (1)
-it is false that there is X .|OK (1)
-if there is X then there is Y .|OK (1)
-it is false that there is something X .|FAIL it is false that there is something X
-if there is something X then there is something Y .|FAIL if there is something X
+it is false that there is X .|FAIL it is false that there is X .
+if there is X then there is Y .|FAIL if there is X then
+it is false that there is something X .|OK (1)
+if there is something X then there is something Y .|OK (1)
 if X's pet is Y then X likes Y .|FAIL if X's
 John works at at least 3 banks .|OK (1)
 John looks at at least 4 men at least 3 dogs of who bark .|FAIL John looks at at least 4 men at least
 John sees a man who sleeps in a bed in a morning .|OK (6)
 John sees a man who sleeps soundly in a bed in a morning .|OK (8)
-there is a man who does not sleep soundly in a bed in a morning .|OK (2)
+there is a man who does not sleep soundly in a bed in a morning .|OK (1)
 John sees a man who does not sleep soundly in a bed in a morning .|OK (8)
 John soundly sees a man who sleeps in a bed in a morning .|FAIL John soundly
 John soundly sees a man in a bed in a morning . the man sleeps .|FAIL John soundly
 a customer who manually in a bank enters a card types a code .|FAIL a customer who manually
-there is a man who does not sleep . there is a woman who does not wait . John sees the man who does not sleep .|OK (8)
-there is a man who does not sleep . John sees the man .|OK (2)
+there is a man who does not sleep . there is a woman who does not wait . John sees the man who does not sleep .|OK (2)
+there is a man who does not sleep . John sees the man .|OK (1)
 John sees a man who does not sleep soundly in a bed .|OK (6)
 John soundly sees a man who does not sleep in a bed .|FAIL John soundly
 John soundly and quickly sees a man who does not sleep in a bed .|FAIL John soundly
@@ -2178,11 +2178,11 @@ John sees a man who does not sleep in a bed soundly and quickly .|FAIL John sees
 John sees a man who does not sleep soundly and quickly in a bed .|FAIL John sees a man who does not sleep soundly and quickly
 John sees a man who sleeps in a bed soundly .|OK (6)
 there is a man . John sees the man . the man does not sleep .|OK (1)
-if there is a man who does not sleep and John sees the man then a dog barks .|OK (2)
+if there is a man who does not sleep and John sees the man then a dog barks .|OK (1)
 John is as a : richrich as Mary .|FAIL John is as a :
 John is as a : fondfond-of Mary as Bill .|FAIL John is as a :
-there is a man who does not sleep and John sees the man .|OK (2)
-there is a man who does not sleep or John sees the man .|OK (2)
+there is a man who does not sleep and John sees the man .|OK (1)
+there is a man who does not sleep or John sees the man .|OK (1)
 there is a man or the man does not sleep or John sees the man .|OK (2)
 there is a man or the man does not sleep and John sees the man .|OK (2)
 there is a man or the man does not sleep , and John sees the man .|OK (2)
@@ -2193,12 +2193,12 @@ X is not X .|OK (1)
 X is not Y .|OK (1)
 a man likes Mary . Sue likes the man that likes Mary .|OK (2)
 there is a man that must feed every dog . there is a man that must feed every cat . the man that must feed every dog feeds himself .|FAIL there is a man that must feed every dog . there is a man that must feed every cat . the man that must feed every dog feeds himself
-there is a dog . a man sees the dog and likes it .|FAIL there is a dog . a man sees the dog and likes
+there is a dog . a man sees the dog and likes it .|OK (1)
 there is a boy . a man sees his cat and a dog .|OK (1)
-if there is an animal that is a dog or that is a cat then John sees the animal that is a dog or that is a cat .|OK (4)
-if there is an animal that is not a dog or that is a cat then John sees the animal that is not a dog or that is a cat .|OK (4)
-if there is an animal that is a cat or that is a dog then John sees the animal that is a dog or that is a cat .|OK (4)
-if there is an animal that eats every food then John sees the animal that eats every food .|OK (4)
+if there is an animal that is a dog or that is a cat then John sees the animal that is a dog or that is a cat .|OK (2)
+if there is an animal that is not a dog or that is a cat then John sees the animal that is not a dog or that is a cat .|OK (2)
+if there is an animal that is a cat or that is a dog then John sees the animal that is a dog or that is a cat .|OK (2)
+if there is an animal that eats every food then John sees the animal that eats every food .|OK (2)
 John is his own owner .|OK (1)
 Bill knows that John is his own owner .|FAIL Bill knows that
 Bill knows that John is his owner .|FAIL Bill knows that
@@ -2208,7 +2208,7 @@ a man sees a woman . Mary knows the woman that a man sees .|OK (2)
 a man sees a woman . Mary knows the man that sees the woman .|OK (2)
 a man sees a woman . Mary knows the man that sees a woman .|OK (2)
 a man X and Y's dog can wait .|FAIL a man X and Y's
-there are a man and a dog of something . it is possible that they wait .|OK (1)
+there are a man and a dog of something . it is possible that they wait .|FAIL there are a
 there is a machine . it controls itself .|FAIL there is a machine . it controls
 there is a black man . there is a man who sees himself . John knows the man . John encounters the black man . John watches the man who sees himself .|FAIL there is a black
 there is a black woman . there is a woman who sees herself . John knows the woman . John encounters the black woman . John watches the woman who sees herself .|FAIL there is a black
@@ -2233,8 +2233,8 @@ John should give a present to Mary .|FAIL John should
 John should not be more fond-of Mary than of Sue .|FAIL John should
 John should not swim .|FAIL John should
 should John wait ?|FAIL should
-what is nothing ?|FAIL what
-what is something that is not something ?|FAIL what
+what is nothing ?|OK (1)
+what is something that is not something ?|OK (1)
 if a city overlaps-with something X then X is the city or X is not a city .|FAIL if a city overlaps-with
 every city overlaps-with itself or does not overlap-with a city .|FAIL every city overlaps-with
 every man who owns a car that likes a cat is a dog that is hated by a bike or that likes itself .|FAIL every man who owns a car that likes a cat is a dog that is hated by a bike or that likes itself
@@ -2256,28 +2256,28 @@ somebody M sleeps . a man is the husband of M .|FAIL somebody M
 there is a price of a resource . the price of the resource is high . the resource is valid .|FAIL there is a price of a resource . the price of the resource is high
 a man owns a dog . John sees the man who owns a dog . the dog barks .|OK (2)
 a man owns a dog . John sees the man who owns the dog . the dog barks .|OK (2)
-a card of a man is valid . which man's card is valid ?|FAIL a card of a man is valid . which
+a card of a man is valid . which man's card is valid ?|FAIL a card of a man is valid . which man's
 John beats the donkey of a brother of his own wife .|OK (2)
 John beats a donkey of the brother of his own wife .|OK (2)
 John beats the donkey of the brother of his own wife .|OK (2)
-there is a man who sleeps in the morning in a bed . John sees the man who sleeps in a bed in the morning .|OK (12)
+there is a man who sleeps in the morning in a bed . John sees the man who sleeps in a bed in the morning .|OK (6)
 a man owns a dog . John sees the man who owns a dog .|OK (2)
 a man owns a dog . a man owns a cat . a girl sees the man who owns a dog .|OK (2)
 a man X owns a dog . a man Y owns a cat . John sees the man X .|OK (1)
 a man X owns a dog . a man Y owns a cat . John sees X .|OK (1)
-a red man owns a dog . a red man owns a cat . John sees the red man who owns a dog .|OK (3)
-a man is red and owns a dog . a man is red and owns a cat . John sees the man who is red and who owns a dog .|FAIL a man is red and owns
-there is a man who does not sleep . John sees the man who does not sleep .|OK (4)
-there is a man who does not sleep . there is a man who sleeps . John sees the man who does not sleep .|OK (8)
+a red man owns a dog . a red man owns a cat . John sees the red man who owns a dog .|OK (2)
+a man is red and owns a dog . a man is red and owns a cat . John sees the man who is red and who owns a dog .|OK (2)
+there is a man who does not sleep . John sees the man who does not sleep .|OK (2)
+there is a man who does not sleep . there is a man who sleeps . John sees the man who does not sleep .|OK (2)
 a man can not sleep . John sees the man who can not sleep .|OK (2)
 a man can not sleep . a man can sleep . John sees the man who can not sleep .|OK (2)
 there is a man who must wait patiently . there is a man who can sleep . John sees the man who must wait . Mary expects the man who can sleep .|FAIL there is a man who must wait patiently . there is a man who can sleep . John sees the man who must wait . Mary expects
 a man X must wait . a man Y can sleep . John sees the man X . Mary expects the man Y .|FAIL a man X must wait . a man Y can sleep . John sees the man X . Mary expects
-there is a man who must wait patiently . John sees the man who must wait .|OK (8)
-there is a man who can not wait patiently . John sees the man who can not wait .|OK (8)
+there is a man who must wait patiently . John sees the man who must wait .|OK (4)
+there is a man who can not wait patiently . John sees the man who can not wait .|OK (4)
 there is a man who does not wait patiently . there is a man who does not sleep . John sees the man who does not wait . Mary expects the man who does not sleep .|FAIL there is a man who does not wait patiently . there is a man who does not sleep . John sees the man who does not wait . Mary expects
 a man does not wait patiently . a man does not sleep . John sees the man who does not wait . Mary expects the man who does not sleep .|FAIL a man does not wait patiently . a man does not sleep . John sees the man who does not wait . Mary expects
-a red man who can sleep must wait . a red man who can sleep must work . the man who must wait is tired .|OK (18)
+a red man who can sleep must wait . a red man who can sleep must work . the man who must wait is tired .|OK (8)
 a man owns a dog . a girl sees the man who owns a dog . the dog barks .|OK (2)
 the man sleeps . there is a man .|OK (1)
 the man owns the dog . the dog barks . the dog is red . the man who owns the dog that barks and that is red is happy .|OK (11)
@@ -2285,35 +2285,35 @@ a man does not wait patiently . a man does not sleep . a girl sees the man who d
 a man does not wait patiently . a girl sees the man who does not wait .|OK (2)
 a man does not wait . a girl sees the man who does not wait .|OK (2)
 there is a man who does not wait patiently . there is a man who does not sleep . a girl sees the man who does not wait . a boy expects the man who does not sleep .|FAIL there is a man who does not wait patiently . there is a man who does not sleep . a girl sees the man who does not wait . a boy expects
-there is a man who does not wait patiently . a girl sees the man who does not wait .|OK (4)
-there is a man who does not wait . a girl sees the man who does not wait .|OK (4)
-there is a man who can not wait patiently . a girl sees the man who can not wait .|OK (8)
+there is a man who does not wait patiently . a girl sees the man who does not wait .|OK (2)
+there is a man who does not wait . a girl sees the man who does not wait .|OK (2)
+there is a man who can not wait patiently . a girl sees the man who can not wait .|OK (4)
 a man is red . the red man sleeps .|OK (1)
-a man is red and owns a dog . a man is red and owns a cat . John sees the red man who owns a dog .|FAIL a man is red and owns
-a man waits or sleeps . John sees the man who sleeps or who waits .|FAIL a man waits or sleeps
-a man waits or sleeps . John sees the man who sleeps .|FAIL a man waits or sleeps
+a man is red and owns a dog . a man is red and owns a cat . John sees the red man who owns a dog .|OK (2)
+a man waits or sleeps . John sees the man who sleeps or who waits .|OK (2)
+a man waits or sleeps . John sees the man who sleeps .|OK (2)
 a man waits . John sees the man who sleeps or who waits .|OK (2)
 there is 1 kg of n : laundry .|FAIL there is 1 kg of n
-there is a man who does not sleep soundly in a bed in a morning . John sees the man who does not sleep soundly in a bed in a morning .|OK (16)
+there is a man who does not sleep soundly in a bed in a morning . John sees the man who does not sleep soundly in a bed in a morning .|OK (8)
 at most 3 men X wait . X are tired .|FAIL at most 3 men X wait . X are
 if there is an animal that believes that John is its owner then John sees the animal that believes that John is its owner .|FAIL if there is an animal that believes that
 a man X eats . the man X who eats waits .|OK (2)
 there is a man X1 that owns a dog and there is a man X2 that owns a cat and John sees X1 .|FAIL there is a man X1
-a red man X waits . if the red man X waits then the red man X is a customer .|OK (8)
-the red man X waits . if the red man X waits then the red man X is a customer .|OK (8)
-if the red man X waits then the red man is a customer . a red man X waits .|OK (4)
+a red man X waits . if the red man X waits then the red man X is a customer .|OK (1)
+the red man X waits . if the red man X waits then the red man X is a customer .|OK (1)
+if the red man X waits then the red man is a customer . a red man X waits .|OK (1)
 John watches the man who sees himself .|FAIL John watches the man who sees himself
 there is a man who sees himself . John watches the man who sees himself .|FAIL there is a man who sees himself
-a child of a child X is the child X .|OK (2)
+a child of a child X is the child X .|OK (1)
 there is a child X whose child is the child X .|FAIL there is a child X whose
 there is a child X whose child is not the child X .|FAIL there is a child X whose
 every man X waits and there is a man X .|OK (1)
-a child of a child X is not the child X .|OK (2)
+a child of a child X is not the child X .|OK (1)
 who is a child X whose child is not the child X ?|FAIL who is a child X whose
-there is a man or there is a dog or there is a cat that sees it and him .|OK (4)
-there is a man or there is a dog that sees him or there is a cat that sees him .|OK (8)
-there is a dog that sees the man or there is a cat that sees it .|OK (4)
-there is a man or there is a dog that sees the man or there is a cat that sees it and the man .|OK (8)
+there is a man or there is a dog or there is a cat that sees it and him .|OK (2)
+there is a man or there is a dog that sees him or there is a cat that sees him .|OK (2)
+there is a dog that sees the man or there is a cat that sees it .|OK (1)
+there is a man or there is a dog that sees the man or there is a cat that sees it and the man .|OK (2)
 a dog sees a man and a cat sees it and him .|OK (1)
 a man comes in a day A1 . a boy reads in the day A2 that follows A1 . a book is red in the day that follows A2 .|FAIL a man comes in a day A1
 a man comes in a day A1 . a boy reads in a day A2 that follows A1 . a book is red in a day that follows A2 .|FAIL a man comes in a day A1
@@ -2330,25 +2330,25 @@ Mary sleeps . John sees himself and her .|FAIL Mary sleeps . John sees himself
 if a card X1 is a card of the card X1 then John enters the card X1 .|FAIL if a card X1
 every friend of JohnX is JohnY or it is rich .|FAIL every friend of JohnX
 JohnX is JohnY or it is rich .|FAIL JohnX
-which thing which is good does a man enter ?|FAIL which
-which thing which succeeds exists ?|FAIL which
+which thing which is good does a man enter ?|OK (1)
+which thing which succeeds exists ?|OK (1)
 John sees a man who sleeps soundly in a bed .|OK (6)
 every customer has at least 2 cards and their associated codes . if a customer C approaches an automatic teller and a card of her is valid and she inserts the card carefully into a slot and types a correct code of the card then the automatic teller accepts the card and displays "Card accepted" and C is happy . no card that does not have a correct code is accepted . it is false that a customer's card is valid , and is expired or is cancelled . if a card is not provably invalid then it is accepted . if a customer owns a card and can prove that it is lost then a bank must replace it .|FAIL every customer has at least 2 cards and their associated codes
 a man hits a dog which runs fast in a park .|OK (6)
 a man hits a dog which runs fast in a park quickly .|OK (8)
-Mary inserts her own card that is valid carefully into a slot .|OK (6)
+Mary inserts her own card that is valid carefully into a slot .|OK (3)
 Mary's card is valid and she inserts the card carefully into a slot .|OK (1)
 a card is valid in a slot .|OK (1)
 a card is valid in a slot carefully .|OK (1)
 a card is valid carefully in a slot .|OK (1)
 a card is valid carefully .|OK (1)
 a card is valid in a slot in a bank .|OK (1)
-everybody X of X's dog waits .|FAIL everybody X
-every man's car contains some instructions that code its development .|OK (2)
+everybody X of X's dog waits .|FAIL everybody X of
+every man's car contains some instructions that code its development .|OK (1)
 if there is an animal that believes that John is its owner then John sees the animal .|FAIL if there is an animal that believes that
 a dog of its man barks .|OK (1)
 a card X1 is a card of the card X1 .|FAIL a card X1
-what does John not see ?|FAIL what
+what does John not see ?|OK (1)
 Switzerland borders 4 countries that border Germany .|FAIL Switzerland
 Switzerland borders each of 4 countries that border Germany .|FAIL Switzerland
 John has 0 kg of apples .|OK (1)
@@ -2370,9 +2370,9 @@ John runs more a : ffast .|FAIL John runs more a
 John runs most a : ffast .|FAIL John runs most
 John has 1.83 kg of apples .|FAIL John has 1.83 kg
 John has 0 apples .|OK (1)
-there are at most 2 men X and something Y and something Z .|FAIL there are at most 2 men X and something Y
-there are X . X are some men .|FAIL there are X .
-there are X and Y .|OK (1)
+there are at most 2 men X and something Y and something Z .|FAIL there are at most 2 men X and something Y and something Z
+there are X . X are some men .|FAIL there are X
+there are X and Y .|FAIL there are X
 John tries to hurry and runs .|FAIL John tries to hurry
 every manager manages to manage .|FAIL every manager manages
 every manager manages to manage something .|FAIL every manager manages
@@ -2397,9 +2397,9 @@ if X = X then X = X .|OK (1)
 if X = Y then X = X .|OK (1)
 if X = Y then X = Y .|OK (1)
 if X = Y then Y = X .|OK (1)
-if it is false that X = X then it is false that X = X .|OK (1)
+if it is false that X = X then it is false that X = X .|FAIL if it is false that X =
 if it is false that there is something X1 and that X1 = X1 then it is false that there is something X2 and that X2 = X2 .|FAIL if it is false that there is something X1
-if it is false that X = X then X = X .|OK (1)
+if it is false that X = X then X = X .|FAIL if it is false that X =
 if John = X then it is false that John = X .|FAIL if John =
 if John = John then it is false that John = John .|FAIL if John =
 if John = John then John = John .|FAIL if John =
@@ -2478,7 +2478,7 @@ John patiently in a kitchen wants to wait .|FAIL John patiently
 John in a kitchen patiently wants to wait .|FAIL John in
 John in a kitchen patiently wants that he waits .|FAIL John in
 John patiently in a kitchen wants that he waits .|FAIL John patiently
-there is a dog . a cat sees what ?|FAIL there is a dog . a cat sees what
+there is a dog . a cat sees what ?|OK (1)
 whose child is Mary and is nothing but Mary ?|FAIL whose child is Mary and is
 who sleeps ? John waits .|OK (1)
 John may wait .|FAIL John may
@@ -2513,8 +2513,8 @@ all men sleep .|OK (1)
 Christmases , help yourselves !|FAIL Christmases
 John , see yourself !|FAIL John ,
 John , enter your own card !|FAIL John ,
-every man likes who ?|FAIL every man likes who
-which man likes who ?|FAIL which
+every man likes who ?|OK (2)
+which man likes who ?|FAIL which man likes who
 is it true that a man does not eat or that the man does not drink ?|FAIL is it true that
 is it true that it is false that if there is a man X1 then the man X1 is a human ?|FAIL is it true that
 John in the morning is rich .|FAIL John in
@@ -2625,21 +2625,21 @@ John likes 1 + Mary .|FAIL John likes 1 + Mary
 John likes Mary + 1 .|FAIL John likes Mary +
 there is a car that John buys for himself .|FAIL there is a car that John buys for
 Mary is as young as who ?|FAIL Mary is as young as who
-Mary asks everybody X for X .|FAIL Mary asks everybody X
+Mary asks everybody X for X .|OK (1)
 John sees every woman in every park .|OK (1)
 John is no hero at every time .|FAIL John is no hero at every time
-there is X . X is fast . John shows X to a man .|FAIL there is X . X is fast . John shows
-there is X . X is fast . a man is shown X by John .|FAIL there is X . X is fast . a man is shown
-there is X . X is fast . X is shown to a man by John .|FAIL there is X . X is fast . X is shown
+there is X . X is fast . John shows X to a man .|FAIL there is X .
+there is X . X is fast . a man is shown X by John .|FAIL there is X .
+there is X . X is fast . X is shown to a man by John .|FAIL there is X .
 there is something X1 . X1 is fast . John shows X1 a man .|FAIL there is something X1
 at most 2 men give at most 4 apples to at most 3 women .|OK (1)
 Mary asks John who asks who ?|FAIL Mary asks John who asks who
 Mary who sees Bill who does not see her asks X .|OK (2)
 Mary who X asks does not ask her .|OK (1)
 Mary who asks X is not her .|OK (1)
-Mary who asks everybody X asks X .|FAIL Mary who asks everybody X
+Mary who asks everybody X asks X .|OK (1)
 Mary who does not ask X is X .|OK (1)
-Mary who everybody X asks asks X .|FAIL Mary who everybody X
+Mary who everybody X asks asks X .|OK (1)
 Mary who is X is not her .|OK (1)
 Mary who is not X asks X .|OK (1)
 Mary who which women ask for her waits ?|FAIL Mary who which
@@ -2649,14 +2649,14 @@ a woman carries the woman from who to her ?|FAIL a woman carries the woman from 
 exactly 1 woman who sees a man who loves her waits .|OK (7)
 exactly 1 woman asks a woman of her .|OK (1)
 John sees a cat that likes the cat that smiles .|OK (7)
-there is a cat that smiles . John sees a cat that likes the cat that smiles .|OK (14)
-there is a cat that likes the cat that smiles .|OK (7)
-there is a cat that smiles and that likes the cat that smiles .|OK (7)
-there is a cat that smiles or that likes the cat that smiles .|OK (7)
-there is a cat that smiles or that is not the cat that smiles .|OK (7)
-there is a man that likes a cat and that sees the cat that smiles .|OK (7)
-there is a man that likes a cat and that sees the cat .|OK (2)
-there is a cat that likes the cat that smiles and that smiles .|OK (11)
+there is a cat that smiles . John sees a cat that likes the cat that smiles .|OK (7)
+there is a cat that likes the cat that smiles .|OK (3)
+there is a cat that smiles and that likes the cat that smiles .|OK (3)
+there is a cat that smiles or that likes the cat that smiles .|OK (3)
+there is a cat that smiles or that is not the cat that smiles .|OK (3)
+there is a man that likes a cat and that sees the cat that smiles .|OK (3)
+there is a man that likes a cat and that sees the cat .|OK (1)
+there is a cat that likes the cat that smiles and that smiles .|OK (5)
 every dog uses to run .|FAIL every dog uses to
 John tells that a man waits to Mary .|FAIL John tells that
 every man sees a dog X that sees a cat that sees the dog that sees a rat that sees a mouse .|OK (143)
@@ -2729,25 +2729,25 @@ there is a name . there is a dog . "" is the name of the dog of a man and a woma
 the card of which man whose card is valid is valid ?|FAIL the card of which
 a card of which man whose card is valid is valid ?|FAIL a card of which
 at most 3 men eat or the men drink .|OK (1)
-at most 3 men eat or drink .|FAIL at most 3 men eat or drink
+at most 3 men eat or drink .|OK (1)
 every dog barks or a cat does not sleep .|OK (1)
 the cat of a man whose dog barks sleeps .|FAIL the cat of a man whose
 the dog of a man whose dog barks barks .|FAIL the dog of a man whose
 a dog of a man whose dog barks barks .|FAIL a dog of a man whose
-which man whose dog barks waits ?|FAIL which
+which man whose dog barks waits ?|FAIL which man whose
 a dog of which man who waits barks ?|FAIL a dog of which
 at most 3 men eat or at most 2 men eat .|OK (1)
 Mary knows that John eats or Bill drinks .|FAIL Mary knows that
 Mary knows that John eats or that Bill drinks .|FAIL Mary knows that
 Mary knows that every man eats or that Bill drinks .|FAIL Mary knows that
 Bill drinks or Mary knows that John eats .|FAIL Bill drinks or Mary knows that
-there is a book . a database lists the title of the book and lists the code of the book .|FAIL there is a book . a database lists the title of the book and lists
+there is a book . a database lists the title of the book and lists the code of the book .|OK (1)
 Mary does not know that John eats or Bill drinks .|FAIL Mary does not know that
 there is a man X . every woman likes X or X drinks .|OK (1)
 there is a man X . a dog likes X and every woman likes X or X drinks .|OK (2)
 there is a man X . a dog likes X and every woman likes X or X likes the dog .|OK (2)
-it is false that a cat sleeps and every dog barks or there is a man .|OK (5)
-every dog barks and it is false that a cat sleeps or there is a man .|OK (3)
+it is false that a cat sleeps and every dog barks or there is a man .|OK (2)
+every dog barks and it is false that a cat sleeps or there is a man .|OK (2)
 1 = 1 and every dog barks or a cat sleeps .|OK (2)
 it is false that a man eats or that the man drinks and that the man waits .|FAIL it is false that a man eats or that
 it is false that a man eats and that the man drinks , or that the man waits .|FAIL it is false that a man eats and that
@@ -2762,10 +2762,10 @@ John knows that there is a cat and that 1 = 1 .|FAIL John knows that
 a man sleeps in a bed in a bed .|OK (1)
 a man sleeps in a bed in the bed .|OK (1)
 a man sleeps in the morning in the morning .|OK (1)
-which film contains a role that a person A performs , and contains a role that depicts A and that a person that is not A performs ?|FAIL which
-which film contains a role that which person A performs , and contains a role that depicts A and that a person that is not A performs ?|FAIL which
-which man gives which dog which chases which cat which apple which is what ?|FAIL which
-which man gives which cat which which dog chases which apple which what eats ?|FAIL which
+which film contains a role that a person A performs , and contains a role that depicts A and that a person that is not A performs ?|FAIL which film
+which film contains a role that which person A performs , and contains a role that depicts A and that a person that is not A performs ?|FAIL which film
+which man gives which dog which chases which cat which apple which is what ?|FAIL which man gives which
+which man gives which cat which which dog chases which apple which what eats ?|FAIL which man gives which
 John has a card every code of which is valid .|FAIL John has a card every
 John has a card no code of which is valid .|FAIL John has a card no
 John has a card every code of every copy of which is valid .|FAIL John has a card every

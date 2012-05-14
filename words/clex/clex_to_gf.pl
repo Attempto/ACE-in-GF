@@ -310,13 +310,13 @@ make_concrete_filename(Name, Lang, Filename) :-
 	atomic_list_concat([Name, Lang, '.gf'], Filename).
 
 format_abstract_header(Name) :-
-	format("abstract ~w = Attempto ** {~nfun~n" , [Name]).
+	format("abstract ~w = ACE ** {~nfun~n" , [Name]).
 
 % The GF's non-smart input for mkA is
 % \good,better,best,well
 :- style_check(-atom).
 format_concrete_header(Name, Lang) :-
-	format("concrete ~w~w of ~w = AttemptoAce ** open SyntaxAce, ParadigmsAce in {~n", [Name, Lang, Name]),
+	format("concrete ~w~w of ~w = ACEAce ** open SyntaxAce, ParadigmsAce in {~n", [Name, Lang, Name]),
 	write('
 flags coding=utf8;
 oper

@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [slash_ipQS, neg_slash_ipQS, apposVarCN, indefPronVarNP, vVP] with
+concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [slash_ipQS, neg_slash_ipQS, apposVarCN, indefPronVarNP] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
   (LexAttempto = LexAttemptoAce) ** open SyntaxAce, ExtraAce, ResAce, SentenceAce, Precedence in {

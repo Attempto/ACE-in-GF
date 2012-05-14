@@ -1,20 +1,20 @@
 Parser: <stdin>: hGetLine: end of file
 
-real	1m40.277s
-user	1m39.566s
-sys	0m0.372s
+real	2m24.242s
+user	2m23.225s
+sys	0m0.564s
 Parser: <stdin>: hGetLine: end of file
 
-real	0m0.777s
-user	0m0.688s
-sys	0m0.016s
+real	0m1.403s
+user	0m1.364s
+sys	0m0.036s
 Parser: <stdin>: hGetLine: end of file
 
-real	0m0.199s
-user	0m0.192s
-sys	0m0.004s
+real	0m0.239s
+user	0m0.216s
+sys	0m0.020s
 Parser: <stdin>: hGetLine: end of file
 
-real	0m14.849s
-user	0m14.709s
-sys	0m0.052s
+real	0m18.472s
+user	0m18.305s
+sys	0m0.108s

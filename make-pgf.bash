@@ -18,7 +18,8 @@ ace="lib/src/ace/"
 api="lib/src/api/"
 
 # Full ACE grammar
-grammar="grammars/attempto/"
+grammar_ace="grammars/ace/"
+grammar_acewiki_aceowl="grammars/acewiki_aceowl/"
 
 # Clex lexicon (ACE-only)
 words="words/clex/ClexAce.gf"
@@ -30,7 +31,7 @@ then
 fi
 
 
-path="present:${grammar}:${words}:${ace}:${api}"
+path="present:${grammar_ace}:${grammar_acewiki_aceowl}:${words}:${ace}:${api}"
 
 stack_size="K100M"
 
