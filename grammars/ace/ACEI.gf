@@ -5,6 +5,8 @@ incomplete concrete ACEI of ACE = AttemptoI, SymbolsACEC, Numeral ** open
   LexACE
 in {
 
+lin cardNP d = Syntax.mkNP d ;
+
 lin eachNP = mkNP each_Det ;
 lin notEveryNP cn = mkNP not_Predet (mkNP every_Det cn) ;
 lin notEachNP cn = mkNP not_Predet (mkNP each_Det cn) ;

@@ -28,6 +28,9 @@ cat QS ;
 cat Text ;
 cat RP ;
 
+-- 4 men X
+fun cardNP : Card -> VarCN -> ThereNP ;
+
 fun eachNP : CN -> NP ;
 fun notEveryNP : CN -> NP ;
 fun notEachNP : CN -> NP ;

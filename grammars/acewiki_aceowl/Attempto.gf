@@ -38,7 +38,6 @@ cat [VPS] {2} ;
 
 fun aNP : VarCN -> ThereNP ;
 fun theNP : VarCN -> NP ;
-fun cardNP : Card -> VarCN -> ThereNP ;
 -- Note: in full ACE this must be ThereNP [KK]
 fun noNP : VarCN -> NP ;
 fun everyNP : VarCN -> NP ;

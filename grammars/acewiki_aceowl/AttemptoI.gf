@@ -37,7 +37,6 @@ lincat PP = Syntax.Adv ;
 
 lin aNP = Syntax.mkNP a_Art ;
 lin theNP = Syntax.mkNP the_Art ;
-lin cardNP d = Syntax.mkNP d ;
 lin noNP = Syntax.mkNP no_Quant ;
 lin everyNP = Syntax.mkNP every_Det ;
 
