@@ -87,6 +87,9 @@ i.e. some ACE constructs are not supported, e.g.
   * __(F)__ negated relative clauses (`that is not`, `that does not`, `that CN is not`)
   * __(F)__ negated WH-questions (`who does not like Mary?`)
   * __(F)__ WH-word in object position (`who does Mary not like ?`)
+  * reflexive pronouns (e.g. `itself`)
+  * strings and string concatenation
+  * lists and sets
 
 and it supports some constructs which in ACE do not exist, have been
 deprecated or should be avoided (i.e. create a warning), e.g.
