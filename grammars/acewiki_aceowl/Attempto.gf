@@ -5,7 +5,7 @@ abstract Attempto =
 flags startcat = ACEText ;
 
 cat CN ; cat VarCN ;
-cat NP ; cat ThereNP ; cat NPQ ; -- question NP, e.g. "is who ?"
+cat NP ; cat ThereNP ;
 cat Card ;
 ---cat Numeral ;
 cat PN ;
@@ -161,15 +161,6 @@ fun slash_ipQS : IP -> NP -> V2 -> QS ;
 
 -- who does Mary not like?
 fun neg_slash_ipQS : IP -> NP -> V2 -> QS ;
-
---fun vpq_QS : NP -> IP -> QS ; -- "Mary is who ?"
---fun vpq_QS : NP -> V2 -> IP -> QS ; -- "Mary asks who ?"
-
-fun is_ThereNPQ : IndefTherePron -> IP -> NPQ ; -- "somebody who is who"
-fun v2_ThereNPQ : IndefTherePron -> V2 -> IP -> NPQ ; -- "somebody who asks who"
-fun is_vpq_QS : NP -> NPQ -> QS ; -- "Mary is somebody who is/asks who ?"
-fun v2_vpq_QS : NP -> V2 -> NPQ -> QS ; -- "Mary asks somebody who is/asks who ?"
-
 
 fun whoSg_IP : IP ;
 fun whatSg_IP : IP ;

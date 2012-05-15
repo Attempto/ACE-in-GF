@@ -6,7 +6,7 @@ incomplete concrete AttemptoI of Attempto = SymbolsC, Numeral ** open
 in {
 
 lincat CN = Syntax.CN ; VarCN = Syntax.CN ;
-lincat NP = Syntax.NP ; lincat ThereNP = Syntax.NP ; lincat NPQ = Syntax.NP ;
+lincat NP = Syntax.NP ; lincat ThereNP = Syntax.NP ;
 lincat Card = Syntax.Card ;
 --lincat Numeral = Syntax.Numeral ;
 lincat PN = Syntax.PN ;
