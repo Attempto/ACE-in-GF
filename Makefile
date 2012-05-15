@@ -64,5 +64,6 @@ test_ontograph_40:
 
 # Test the precision by generating random trees and parsing them with Codeco
 test_precision:
-	bash run-precision-test.bash 1000
+	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttempto{Ace,}.gf"
+	bash run-precision-test.bash 100
 #	bash run-precision-test.bash
