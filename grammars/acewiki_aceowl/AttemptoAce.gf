@@ -1,31 +1,13 @@
 --# -path=.:present
 
-concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [slash_ipQS, neg_slash_ipQS, apposVarCN, indefTherePronVarNP, indefPronVarNP] with
+concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [apposVarCN, indefTherePronVarNP, indefPronVarNP] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
   (LexAttempto = LexAttemptoAce) ** open SyntaxAce, ExtraAce, ResAce, SentenceAce, Precedence in {
 
+  -- All the functions below deal with having wh-words in object position. [JJC]
   oper
     ip2np : SyntaxAce.IP -> Agr -> SyntaxAce.NP = \ip,agr -> lin NP ( ip ** {a = agr} ) ;
-
-  -- wh-word in object position. Needs closer analysis. [JJC]
-  lin slash_ipQS ip np v2 =
-      mkQS (mkQCl ip (mkClSlash np v2)) -- who does Mary ask?
-    -- | lin QS { -- Mary asks who?
-    --     s = \\qf => cl.s ! Pres ! Simul ! CPos ! ODir
-    --   } where {
-    --     cl = PredVP np (ComplV2 v2 (ip2np ip np.a))
-    --   } ;
-;
-
-  lin neg_slash_ipQS ip np v2 =
-      mkQS negativePol (mkQCl ip (mkClSlash np v2))
-    -- | lin QS {
-    --     s = \\qf => cl.s ! Pres ! Simul ! CNeg (True|False) ! ODir
-    --   } where {
-    --     cl = PredVP np (ComplV2 v2 (ip2np ip np.a))
-    --   } ;
-;
 
   -- Using IP in a VP to form a QS [JJC]
   lin is_ThereNPQ somebody who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (predRS AttemptoAce.which_RP (npVP (ip2np who somebody.a))) ; -- "somebody who is who"
@@ -37,7 +19,12 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [s
   lin v2_vpq_QS np v2 npq = lin QS { -- "Mary asks somebody who is/asks who ?"
     s = \\qf => (mkCl np v2 npq).s ! Pres ! Simul ! CPos ! ODir
   } ;
+  lin a2_vpq_QS np a2 npq = lin QS { -- "Mary is mad-about who ?"
+    s = \\qf => (mkCl np a2 npq).s ! Pres ! Simul ! CPos ! ODir
+  } ;
   lin ipNPQ ip = lin NPQ ( ip2np ip (AgP3Sg Neutr) ) ; -- I think AgP3Sg Neutr is suitable for all cases..? [JJC]
+
+  -- end of wh-word object pos stuff
 
   -- Variables have genitives [JJC]
   lincat Var = {s : Case => Str};

@@ -166,11 +166,9 @@ fun is_ThereNPQ : IndefTherePron -> IP -> NPQ ; -- "somebody who is who"
 fun v2_ThereNPQ : IndefTherePron -> V2 -> IP -> NPQ ; -- "somebody who asks who"
 fun is_vpq_QS : NP -> NPQ -> QS ; -- "Mary is somebody who is/asks who ?"
 fun v2_vpq_QS : NP -> V2 -> NPQ -> QS ; -- "Mary asks somebody who is/asks who ?"
+fun a2_vpq_QS : NP -> A2 -> NPQ -> QS ; -- "Mary is mad-about who ?"
 
---fun is_NPQ_QS : NP -> IndefTherePron -> QS ; -- "Mary is who ?"
---fun v2_NPQ_QS : NP -> V2 -> IndefTherePron -> QS ; -- "Mary asks who ?"
-
-fun ipNPQ : IP -> NPQ ;
+fun ipNPQ : IP -> NPQ ; -- [JJC]
 
 fun whoSg_IP : IP ;
 fun whatSg_IP : IP ;
