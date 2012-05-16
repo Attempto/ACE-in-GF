@@ -33,10 +33,13 @@ failed=`cat $out | grep "|FAIL" | wc -l`
 total=`cat $out | wc -l`
 
 echo "Parsed:"
-echo $parsed "("$((parsed*100/total))"%) - ("$((parsed_unambig*100/parsed))"% unambiguous)"
+parsed_pc=`echo "scale=2;${parsed}*100/${total}" | bc -l`
+unambig_pc=`echo "scale=2;${parsed_unambig}*100/${parsed}" | bc -l`
+echo "${parsed} (${parsed_pc}%) - (${unambig_pc}% unambiguous)"
 
 echo "NOT parsed:"
-echo $failed "("$((failed*100/total))"%)"
+failed_pc=`echo "scale=2;${failed}*100/${total}" | bc -l`
+echo "${failed} (${failed_pc}%)"
 
 echo "Creating ${out_fail}"
 cat $out | grep "|FAIL" | sed "s/^.*|FAIL //" | sort | uniq -c | sort -nr > ${out_fail}
