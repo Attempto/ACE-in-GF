@@ -162,6 +162,7 @@ fun slash_ipQS : IP -> NP -> V2 -> QS ;
 -- who does Mary not like?
 fun neg_slash_ipQS : IP -> NP -> V2 -> QS ;
 
+fun ipNPQ : IP -> NPQ ; -- [JJC]
 fun is_ThereNPQ : IndefTherePron -> IP -> NPQ ; -- "somebody who is who"
 fun v2_ThereNPQ : IndefTherePron -> V2 -> IP -> NPQ ; -- "somebody who asks who"
 fun a2_ThereNPQ : IndefTherePron -> A2 -> IP -> NPQ ; -- "somebody who is mad-about who"
@@ -169,7 +170,8 @@ fun is_vpq_QS : NP -> NPQ -> QS ; -- "Mary is somebody who is/asks who ?"
 fun v2_vpq_QS : NP -> V2 -> NPQ -> QS ; -- "Mary asks somebody who is/asks who ?"
 fun a2_vpq_QS : NP -> A2 -> NPQ -> QS ; -- "Mary is mad-about who ?"
 
-fun ipNPQ : IP -> NPQ ; -- [JJC]
+-- A question coordinated with a VP, eg "Mary is who and likes John?"
+fun qs_and_VP : QS -> VP -> QS ;
 
 fun whoSg_IP : IP ;
 fun whatSg_IP : IP ;
