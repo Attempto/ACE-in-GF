@@ -10,19 +10,22 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [s
 
   -- wh-word in object position. Needs closer analysis. [JJC]
   lin slash_ipQS ip np v2 =
-      mkQS (mkQCl ip (mkClSlash np v2)) -- who does Mary like?
-    | lin QS {
-        s = \\qf => cl.s ! Pres ! Simul ! CPos ! ODir
-      } where {
-        cl = PredVP np (ComplV2 v2 (ip2np ip np.a))
-      } ; -- Mary likes who?
+      mkQS (mkQCl ip (mkClSlash np v2)) -- who does Mary ask?
+    -- | lin QS { -- Mary asks who?
+    --     s = \\qf => cl.s ! Pres ! Simul ! CPos ! ODir
+    --   } where {
+    --     cl = PredVP np (ComplV2 v2 (ip2np ip np.a))
+    --   } ;
+;
+
   lin neg_slash_ipQS ip np v2 =
       mkQS negativePol (mkQCl ip (mkClSlash np v2))
-    | lin QS {
-        s = \\qf => cl.s ! Pres ! Simul ! CNeg (True|False) ! ODir
-      } where {
-        cl = PredVP np (ComplV2 v2 (ip2np ip np.a))
-      } ;
+    -- | lin QS {
+    --     s = \\qf => cl.s ! Pres ! Simul ! CNeg (True|False) ! ODir
+    --   } where {
+    --     cl = PredVP np (ComplV2 v2 (ip2np ip np.a))
+    --   } ;
+;
 
   -- Using IP in a VP to form a QS [JJC]
   lin is_ThereNPQ somebody who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (predRS AttemptoAce.which_RP (npVP (ip2np who somebody.a))) ; -- "somebody who is who"
@@ -34,7 +37,7 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [s
   lin v2_vpq_QS np v2 npq = lin QS { -- "Mary asks somebody who is/asks who ?"
     s = \\qf => (mkCl np v2 npq).s ! Pres ! Simul ! CPos ! ODir
   } ;
-
+  lin ipNPQ ip = lin NPQ ( ip2np ip (AgP3Sg Neutr) ) ; -- I think AgP3Sg Neutr is suitable for all cases..? [JJC]
 
   -- Variables have genitives [JJC]
   lincat Var = {s : Case => Str};
