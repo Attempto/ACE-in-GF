@@ -4,7 +4,7 @@ TestAttemptoDut: Mary is een reiziger .
 TestAttemptoEng: Mary is a traveler .
 TestAttemptoFin: Mary on matkustajan .
 TestAttemptoFre: Mary est un voyageur .
-TestAttemptoGer: Mary ist eine Reisende .
+TestAttemptoGer: Mary ist ein Reisende .
 TestAttemptoIta: Mary è un viaggiatore .
 TestAttemptoSwe: Mary är en resenär .
 
@@ -74,7 +74,7 @@ TestAttemptoDut: elke reiziger die niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler who isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustajan joka ei ole nainen on golfin .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
-TestAttemptoGer: jede Reisende die nicht eine Frau ist ist ein Golfer .
+TestAttemptoGer: jeder Reisende der nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoSwe: varje resenär som inte är en kvinna är ett golfspelare .
 
@@ -84,7 +84,7 @@ TestAttemptoDut: elke reiziger , dat niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler who isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustajan , joka ei ole nainen on golfin .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
-TestAttemptoGer: jede Reisende , die nicht eine Frau ist ist ein Golfer .
+TestAttemptoGer: jeder Reisende , der nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoSwe: varje resenär , som inte är en kvinna är ett golfspelare .
 
@@ -134,7 +134,7 @@ TestAttemptoDut: Tom koopt een schilderij .
 TestAttemptoEng: Tom buys a picture .
 TestAttemptoFin: Tom ostaa kuvan .
 TestAttemptoFre: Tom achète une image .
-TestAttemptoGer: Tom kauft einen Bild .
+TestAttemptoGer: Tom kauft ein Bild .
 TestAttemptoIta: Tom compra un immagine .
 TestAttemptoSwe: Tom köper en bild .
 
@@ -174,7 +174,7 @@ TestAttemptoDut: elke man koopt een cadeau .
 TestAttemptoEng: every man buys a present .
 TestAttemptoFin: jokainen mies ostaa lahjan .
 TestAttemptoFre: chaque homme achète un cadeau .
-TestAttemptoGer: jeder Mann kauft einen Geschenk .
+TestAttemptoGer: jeder Mann kauft ein Geschenk .
 TestAttemptoIta: ogni uomo compra un regalo .
 TestAttemptoSwe: varje man köper en present .
 
@@ -184,7 +184,7 @@ TestAttemptoDut: alles , dat een cadeau koopt is een man .
 TestAttemptoEng: everything which buys a present is a man .
 TestAttemptoFin: kaikki , joka ostaa lahjan on mies .
 TestAttemptoFre: tout qui achète un cadeau est un homme .
-TestAttemptoGer: alles , das einen Geschenk kauft ist ein Mann .
+TestAttemptoGer: alles , das ein Geschenk kauft ist ein Mann .
 TestAttemptoIta: tutto che compra un regalo è un uomo .
 TestAttemptoSwe: allting , som köper en present är en man .
 
@@ -204,7 +204,7 @@ TestAttemptoDut: alles , dat slechts schilderijen koopt is een vrouw .
 TestAttemptoEng: everything which buys nothing but pictures is a woman .
 TestAttemptoFin: kaikki , joka ostaa vain kuvat on nainen .
 TestAttemptoFre: tout qui achète seulement des images est une femme .
-TestAttemptoGer: alles , das nur Bilde kauft ist eine Frau .
+TestAttemptoGer: alles , das nur Bilder kauft ist eine Frau .
 TestAttemptoIta: tutto che compra soltanto immagini è una donna .
 TestAttemptoSwe: allting , som köper bara bildar är en kvinna .
 
@@ -254,7 +254,7 @@ TestAttemptoDut: Tom heeft ten minste 2 officieren lief .
 TestAttemptoEng: Tom loves at least 2 officers .
 TestAttemptoFin: Tom rakastaa vähintään 2 upseeria .
 TestAttemptoFre: Tom aime au moins 2 officiers .
-TestAttemptoGer: Tom liebt wenigstens 2 Offizier .
+TestAttemptoGer: Tom liebt wenigstens 2 Offiziere .
 TestAttemptoIta: Tom ama almeno 2 ufficiali .
 TestAttemptoSwe: Tom älskar minst 2 befälar .
 
@@ -274,7 +274,7 @@ TestAttemptoDut: elke reiziger ziet ten minste 2 aquaria .
 TestAttemptoEng: every traveler sees at least 2 aquariums .
 TestAttemptoFin: jokainen matkustajan näkee vähintään 2 akvaariota .
 TestAttemptoFre: chaque voyageur voit au moins 2 aquariums .
-TestAttemptoGer: jede Reisende sieht wenigstens 2 Aquariume .
+TestAttemptoGer: jeder Reisende sieht wenigstens 2 Aquariume .
 TestAttemptoIta: ogni viaggiatore vede almeno 2 acquari .
 TestAttemptoSwe: varje resenär ser minst 2 akvariumar .
 
@@ -304,7 +304,7 @@ TestAttemptoDut: alles , dat een reiziger is of dat een officier is ziet hooguit
 TestAttemptoEng: everything which is a traveler or which is an officer sees at most 1 aquarium .
 TestAttemptoFin: kaikki , joka on matkustajan tai joka on upseeri näkee enintään 1 akvaarion .
 TestAttemptoFre: tout qui est un voyageur ou qui est un officier voit au plus 1 aquarium .
-TestAttemptoGer: alles , das eine Reisende ist oder das ein Offizier ist sieht höchstens 1 Aquarium .
+TestAttemptoGer: alles , das ein Reisende ist oder das ein Offizier ist sieht höchstens 1 Aquarium .
 TestAttemptoIta: tutto che è un viaggiatore o che è un ufficiale vede al massimo 1 acquario .
 TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högst 1 akvarium .
 
