@@ -172,6 +172,7 @@ fun a2_vpq_QS : NP -> A2 -> NPQ -> QS ; -- "Mary is mad-about who ?"
 
 -- A question coordinated with a VP, eg "Mary is who and likes John?"
 fun qs_and_VP : QS -> VP -> QS ;
+fun qs_and_negVP : QS -> VP -> QS ;
 
 fun whoSg_IP : IP ;
 fun whatSg_IP : IP ;

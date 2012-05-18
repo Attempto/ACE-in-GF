@@ -25,6 +25,10 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [a
       vps = ExtraAce.MkVPS (mkTemp presentTense simultaneousAnt) positivePol vp ;
       s:Str = (mkS SyntaxAce.and_Conj (lin S (ss (qs.s ! QDir))) (lin S (ss (vps.s ! agrP3 Sg)))).s ;
     } ;
+    qs_and_negVP qs vp = ssQS s where {
+      vps = ExtraAce.MkVPS (mkTemp presentTense simultaneousAnt) UncNeg vp ;
+      s:Str = (mkS SyntaxAce.and_Conj (lin S (ss (qs.s ! QDir))) (lin S (ss (vps.s ! agrP3 Sg)))).s ;
+    } ;
   -- end of wh-word object pos stuff
 
   -- Variables have genitives [JJC]
