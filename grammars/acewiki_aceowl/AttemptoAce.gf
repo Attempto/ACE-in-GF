@@ -1,30 +1,40 @@
 --# -path=.:present
 
 concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
-  AttemptoI - [NP, ThereNP, aNP, theNP, noNP, everyNP, pnNP,
+  AttemptoI - [NP, VP, ThereNP, aNP, theNP, noNP, everyNP, pnNP,
                  indefTherePronNP, indefPronNP, indefTherePronVarNP, indefPronVarNP, at_leastNP, at_mostNP, more_thanNP, less_thanNP, exactlyNP,
-                 nothing_butNP, termNP, relNP, slashRS, neg_slashRS, ofCN, vpS, neg_vpS, v2VP, a2VP, thereNP, thereNP_as_NP, slash_ipQS, neg_slash_ipQS, npVP, v2_byVP,
+                 nothing_butNP, termNP, relNP, predRS, neg_predRS, slashRS, neg_slashRS, ofCN, vpS, neg_vpS, v2VP, a2VP, thereNP, thereNP_as_NP,
+                 ipQS, neg_ipQS, slash_ipQS, neg_slash_ipQS, npVP, v2_byVP,
                  apposVarCN] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
   (LexAttempto = LexAttemptoAce) ** open SyntaxAce, ExtraAce, ResAce, SentenceAce, Precedence in {
 
   lincat
-    -- Supplement NP with a paramter for indicating it is a question
+    -- Supplement NP with a parameter for indicating it is a question
     -- e.g. Direct: a friend of John
     --       Quest: a friend of who
     NP = Syntax.NP ** {o:Order} ;
     ThereNP = Syntax.NP ** {o:Order} ;
+    VP = Syntax.VP ** {o:Order} ;
 
   -- All the functions below deal with having wh-words in object position. [JJC]
   oper
     ip2np : SyntaxAce.IP -> Agr -> SyntaxAce.NP = \ip,agr -> lin NP ( ip ** {a = agr} ) ;
     ssQS : Str -> SyntaxAce.QS = \s -> lin QS {s = \\_ => s} ;
 
-    AceNP2EngNP : AttemptoAce.NP -> SyntaxAce.NP = \np -> np;
-    EngNP2AceNP : SyntaxAce.NP -> Order -> AttemptoAce.NP = \np,ord -> np ** {o=ord};
+    np2np = overload {
+      np2np : AttemptoAce.NP -> SyntaxAce.NP = \np -> np ;
+      np2np : SyntaxAce.NP -> Order -> AttemptoAce.NP = \np,ord -> np ** {o=ord} ;
+    } ;
     directNP : SyntaxAce.NP -> AttemptoAce.NP = \np -> np ** {o=ODir};
     questNP : SyntaxAce.NP -> AttemptoAce.NP = \np -> np ** {o=OQuest};
+    vp2vp = overload {
+      vp2vp : AttemptoAce.VP -> SyntaxAce.VP = \vp -> vp ;
+      vp2vp : SyntaxAce.VP -> Order -> AttemptoAce.VP = \vp,ord -> vp ** {o=ord} ;
+    } ;
+    directVP : SyntaxAce.VP -> AttemptoAce.VP = \vp -> vp ** {o=ODir};
+    questVP : SyntaxAce.VP -> AttemptoAce.VP = \vp -> vp ** {o=OQuest};
 
   lin aNP vcn = directNP (Syntax.mkNP a_Art vcn) ;
   lin theNP vcn = directNP (Syntax.mkNP the_Art vcn) ;
@@ -47,28 +57,31 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
 
   lin termNP x = directNP (symb (ss x.s)) ;
 
-  lin relNP np rs = EngNP2AceNP (SyntaxAce.mkNP (AceNP2EngNP np) rs) np.o;
-  
-  lin slashRS rp np v2 = mkRS (mkRCl rp (AceNP2EngNP np) v2) ;
-  lin neg_slashRS rp np v2 = mkRS negativePol (mkRCl rp (AceNP2EngNP np) v2) ;
+  lin relNP np rs = np2np (SyntaxAce.mkNP (np2np np) rs) np.o;
+  lin predRS rp vp = mkRS (mkRCl rp (vp2vp vp)) ;
+  lin neg_predRS rp vp = mkRS negativePol (mkRCl rp (vp2vp vp)) ;
+  lin slashRS rp np v2 = mkRS (mkRCl rp (np2np np) v2) ;
+  lin neg_slashRS rp np v2 = mkRS negativePol (mkRCl rp (np2np np) v2) ;
 
-  lin ofCN cn np = mkCN cn (mkAdv possess_Prep (AceNP2EngNP np)) ;
+  lin ofCN cn np = mkCN cn (mkAdv possess_Prep (np2np np)) ;
 
-  lin vpS np vp = mkS (mkCl (AceNP2EngNP np) vp);
-  lin neg_vpS np vp = mkS negativePol (mkCl (AceNP2EngNP np) vp) ;
+  lin vpS np vp = mkS (mkCl (np2np np) (vp2vp vp));
+  lin neg_vpS np vp = mkS negativePol (mkCl (np2np np) (vp2vp vp)) ;
 
-  lin v2VP v2 np = mkVP v2 (AceNP2EngNP np) ;
+  lin v2VP v2 np = vp2vp (mkVP v2 (np2np np)) np.o ;
 
-  lin a2VP a2 np = mkVP a2 (AceNP2EngNP np) ;
+  lin a2VP a2 np = vp2vp (mkVP a2 (np2np np)) np.o ;
 
-  lin thereNP tnp = mkS (mkCl (AceNP2EngNP tnp)) ;
+  lin thereNP tnp = mkS (mkCl (np2np tnp)) ;
   lin thereNP_as_NP np = np ;
 
-  lin slash_ipQS ip np v2 = mkQS (mkQCl ip (mkClSlash (AceNP2EngNP np) v2)) ;
-  lin neg_slash_ipQS ip np v2 = mkQS negativePol (mkQCl ip (mkClSlash (AceNP2EngNP np) v2)) ;
+  lin ipQS ip vp = mkQS (mkQCl ip (vp2vp vp)) ;
+  lin neg_ipQS ip vp = mkQS negativePol (mkQCl ip (vp2vp vp)) ;
+  lin slash_ipQS ip np v2 = mkQS (mkQCl ip (mkClSlash (np2np np) v2)) ;
+  lin neg_slash_ipQS ip np v2 = mkQS negativePol (mkQCl ip (mkClSlash (np2np np) v2)) ;
 
-  lin npVP np = mkVP (AceNP2EngNP np) ;
-  lin v2_byVP v2 np = mkVP (passiveVP v2) (mkAdv by8agent_Prep (AceNP2EngNP np)) ;
+  lin npVP np = vp2vp (mkVP (np2np np)) np.o ;
+  lin v2_byVP v2 np = vp2vp (mkVP (passiveVP v2) (mkAdv by8agent_Prep (np2np np))) np.o ;
 
 {-
     ipNPQ ip = lin NPQ ( ip2np ip (agrP3 Sg) ) ; -- Is agrP3 Sg suitable for all cases..? [JJC]
