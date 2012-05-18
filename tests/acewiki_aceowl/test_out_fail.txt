@@ -135,6 +135,7 @@
       2 X is X and asks which
       2 X is somebody who who
       2 X is somebody who which
+      2 X is somebody who asks which
       2 X is somebody and asks which
       2 X is not a friend of which
       2 X is Mary who who
@@ -147,6 +148,7 @@
       2 X asks X and asks which
       2 X asks somebody who who
       2 X asks somebody who which
+      2 X asks somebody who asks which
       2 X asks somebody and asks which
       2 X asks Mary who who
       2 X asks Mary who which
@@ -159,6 +161,7 @@
       2 somebody is X and asks which
       2 somebody is somebody who who
       2 somebody is somebody who which
+      2 somebody is somebody who asks which
       2 somebody is somebody and asks which
       2 somebody is not a friend of which
       2 somebody is Mary who who
@@ -171,6 +174,7 @@
       2 somebody asks X and asks which
       2 somebody asks somebody who who
       2 somebody asks somebody who which
+      2 somebody asks somebody who asks which
       2 somebody asks somebody and asks which
       2 somebody asks Mary who who
       2 somebody asks Mary who which
@@ -179,6 +183,7 @@
       2 Mary is X and asks which
       2 Mary is somebody who who
       2 Mary is somebody who which
+      2 Mary is somebody who asks which
       2 Mary is somebody and asks which
       2 Mary is not a friend of which
       2 Mary is Mary who who
@@ -191,6 +196,7 @@
       2 Mary asks X and asks which
       2 Mary asks somebody who who
       2 Mary asks somebody who which
+      2 Mary asks somebody who asks which
       2 Mary asks somebody and asks which
       2 Mary asks Mary who who
       2 Mary asks Mary who which
@@ -219,10 +225,13 @@
       1 X is X and is asked by who
       1 X is X and does not ask who
       1 X is X and asks who
+      1 X is somebody who is who
+      1 X is somebody who is which
       1 X is somebody who is not who
       1 X is somebody who is mad-about who
       1 X is somebody who is asked by who
       1 X is somebody who does not ask who
+      1 X is somebody who asks who
       1 X is somebody and is who
       1 X is somebody and is which
       1 X is somebody and is not who
@@ -314,10 +323,13 @@
       1 X asks X and is asked by who
       1 X asks X and does not ask who
       1 X asks X and asks who
+      1 X asks somebody who is who
+      1 X asks somebody who is which
       1 X asks somebody who is not who
       1 X asks somebody who is mad-about who
       1 X asks somebody who is asked by who
       1 X asks somebody who does not ask who
+      1 X asks somebody who asks who
       1 X asks somebody and is who
       1 X asks somebody and is which
       1 X asks somebody and is not who
@@ -358,6 +370,8 @@
       1 somebody X is X and is who
       1 somebody X is X and asks who
       1 somebody X is somebody who who
+      1 somebody X is somebody who is who
+      1 somebody X is somebody who asks who
       1 somebody X is somebody and is who
       1 somebody X is somebody and asks who
       1 somebody X is not who
@@ -378,6 +392,8 @@
       1 somebody X asks X and is who
       1 somebody X asks X and asks who
       1 somebody X asks somebody who who
+      1 somebody X asks somebody who is who
+      1 somebody X asks somebody who asks who
       1 somebody X asks somebody and is who
       1 somebody X asks somebody and asks who
       1 somebody X asks Mary who who
@@ -464,10 +480,13 @@
       1 somebody is somebody X who asks who
       1 somebody is somebody X and is who
       1 somebody is somebody X and asks who
+      1 somebody is somebody who is who
+      1 somebody is somebody who is which
       1 somebody is somebody who is not who
       1 somebody is somebody who is mad-about who
       1 somebody is somebody who is asked by who
       1 somebody is somebody who does not ask who
+      1 somebody is somebody who asks who
       1 somebody is somebody and is who
       1 somebody is somebody and is which
       1 somebody is somebody and is not who
@@ -564,10 +583,13 @@
       1 somebody asks somebody X who asks who
       1 somebody asks somebody X and is who
       1 somebody asks somebody X and asks who
+      1 somebody asks somebody who is who
+      1 somebody asks somebody who is which
       1 somebody asks somebody who is not who
       1 somebody asks somebody who is mad-about who
       1 somebody asks somebody who is asked by who
       1 somebody asks somebody who does not ask who
+      1 somebody asks somebody who asks who
       1 somebody asks somebody and is who
       1 somebody asks somebody and is which
       1 somebody asks somebody and is not who
@@ -674,10 +696,13 @@
       1 Mary is somebody X who asks who
       1 Mary is somebody X and is who
       1 Mary is somebody X and asks who
+      1 Mary is somebody who is who
+      1 Mary is somebody who is which
       1 Mary is somebody who is not who
       1 Mary is somebody who is mad-about who
       1 Mary is somebody who is asked by who
       1 Mary is somebody who does not ask who
+      1 Mary is somebody who asks who
       1 Mary is somebody and is who
       1 Mary is somebody and is which
       1 Mary is somebody and is not who
@@ -774,10 +799,13 @@
       1 Mary asks somebody X who asks who
       1 Mary asks somebody X and is who
       1 Mary asks somebody X and asks who
+      1 Mary asks somebody who is who
+      1 Mary asks somebody who is which
       1 Mary asks somebody who is not who
       1 Mary asks somebody who is mad-about who
       1 Mary asks somebody who is asked by who
       1 Mary asks somebody who does not ask who
+      1 Mary asks somebody who asks who
       1 Mary asks somebody and is who
       1 Mary asks somebody and is which
       1 Mary asks somebody and is not who
@@ -847,6 +875,8 @@
       1 a woman is the woman and is who
       1 a woman is the woman and asks who
       1 a woman is somebody who who
+      1 a woman is somebody who is who
+      1 a woman is somebody who asks who
       1 a woman is somebody and is who
       1 a woman is somebody and asks who
       1 a woman is not who
@@ -869,6 +899,8 @@
       1 a woman asks the woman and is who
       1 a woman asks the woman and asks who
       1 a woman asks somebody who who
+      1 a woman asks somebody who is who
+      1 a woman asks somebody who asks who
       1 a woman asks somebody and is who
       1 a woman asks somebody and asks who
       1 a woman asks Mary who who

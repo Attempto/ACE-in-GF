@@ -1,18 +1,17 @@
 Generating with GF and parsing with APE
 =======================================
 
+Usage
+-----
+
 Set up the APE webservice:
 
 > ape.exe -httpserver -port 8000
 
+Set up the PGF:
+
+> make pgf_acewiki_aceowl
+
 Generate and parse:
 
 > bash generate-and-check.bash ../../TestAttempto.pgf
-
-Output example:
-
-	IN: 999 >= - ( - ( - 999 ) ) * X .
-	OUT: drs([],[])
-
-	IN: who is there ?
-	OUT: drs([],[question(drs([A],[query(A,who)-1/1]))])

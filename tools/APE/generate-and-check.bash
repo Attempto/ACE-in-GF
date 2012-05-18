@@ -13,7 +13,7 @@
 
 cat="Text"
 depth=7
-number=100
+number=200
 # Exclude questions for the time being.
 tree="(baseText (sText ?))"
 
