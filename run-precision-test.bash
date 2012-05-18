@@ -3,7 +3,7 @@
 # [JJC]
 
 # Usage:
-#   bash run-precision-test.bash [ NUMBER | TREES_FILE ]
+#   bash run-precision-test.bash [ NUMBER [DEPTH] | TREES_FILE ]
 
 pgf=ACE-0_0_2.pgf
 trees_file=build/gr/precision-test.txt
@@ -16,14 +16,19 @@ depth="7"
 # Exclude questions for the time being.
 tree="(baseText (sText ?))"
 
-if [ $# -eq 1 ]; then
+if [ $# -ge 1 ]; then
     if [[ $1 =~ ^[0-9]+$ ]]; then
-        # Argument was a number, so we generate new trees
+        # First argument was a number, so we generate new trees
         gr_number=$1
-        echo "Generating ${gr_number} trees for category ${cat} ..."
+
+        # Specified depth
+        if [ $# -ge 2 ]; then depth=$2 ; fi
+
+        echo "Generating ${gr_number} trees of depth ${depth} for category ${cat} ..."
         echo "gr -cat=${cat} -number=${gr_number} -depth=${depth} ${tree} | l -lang=Ace -bind" | gf --run ${pgf} > ${trees_file}
     else
         # Treat argument as a filename
+        echo "Using trees file ${trees_file}"
         trees_file=$1
     fi
 fi
