@@ -310,101 +310,101 @@ TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högs
 
 TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP help_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term Y_Var)) (v2VP help_V2 (termNP (var_Term X_Var)))))))
 TestAttemptoAce: if X helps Y then Y helps X .
-TestAttemptoDut: als X helpt Y dan Y helpt X .
+TestAttemptoDut: als X Y helpt , dan helpt Y X .
 TestAttemptoEng: if X helps Y then Y helps X .
 TestAttemptoFin: jos X auttaa Y niin Y auttaa X .
 TestAttemptoFre: si X aide Y alors Y aide X .
-TestAttemptoGer: wenn X hilft Y dann Y hilft X .
+TestAttemptoGer: wenn X Y hilft , dann hilft Y X .
 TestAttemptoIta: si X aiuta Y allora Y aiuta X .
 TestAttemptoSwe: om X assisterar Y så Y assisterar X .
 
 TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (neg_vpS (termNP (var_Term Y_Var)) (v2VP see_V2 (termNP (var_Term X_Var)))))))
 TestAttemptoAce: if X sees Y then Y doesn't see X .
-TestAttemptoDut: als X ziet Y dan Y ziet niet X .
+TestAttemptoDut: als X Y ziet , dan ziet Y niet X .
 TestAttemptoEng: if X sees Y then Y doesn't see X .
 TestAttemptoFin: jos X näkee Y niin Y ei näe X .
 TestAttemptoFre: si X voit Y alors Y ne voit pas X .
-TestAttemptoGer: wenn X sieht Y dann Y sieht X nicht .
+TestAttemptoGer: wenn X Y sieht , dann sieht Y X nicht .
 TestAttemptoIta: si X vede Y allora Y non vede X .
 TestAttemptoSwe: om X ser Y så Y ser inte X .
 
 TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (relNP (thereNP_as_NP (indefTherePronNP somebody_IPron)) (predRS which_RP (v2VP see_V2 (termNP (var_Term Y_Var)))))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var)))))))
 TestAttemptoAce: if X sees somebody who sees Y then X sees Y .
-TestAttemptoDut: als X ziet iemand , die Y ziet dan X ziet Y .
+TestAttemptoDut: als X iemand , die Y ziet ziet , dan ziet X Y .
 TestAttemptoEng: if X sees somebody who sees Y then X sees Y .
 TestAttemptoFin: jos X näkee jonkun , joka näkee Y niin X näkee Y .
 TestAttemptoFre: si X voit quelqu'un qui voit Y alors X voit Y .
-TestAttemptoGer: wenn X sieht jemanden , das Y sieht dann X sieht Y .
+TestAttemptoGer: wenn X jemanden , das Y sieht sieht , dann sieht X Y .
 TestAttemptoIta: si X vede qualcuno che vede Y allora X vede Y .
 TestAttemptoSwe: om X ser någon , som ser Y så X ser Y .
 
 TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var)))))))
 TestAttemptoAce: if X admires Y then X sees Y .
-TestAttemptoDut: als X bewondert Y dan X ziet Y .
+TestAttemptoDut: als X Y bewondert , dan ziet X Y .
 TestAttemptoEng: if X admires Y then X sees Y .
 TestAttemptoFin: jos X ihailee Y niin X näkee Y .
 TestAttemptoFre: si X admire Y alors X voit Y .
-TestAttemptoGer: wenn X bewundert Y dann X sieht Y .
+TestAttemptoGer: wenn X Y bewundert , dann sieht X Y .
 TestAttemptoIta: si X ammira Y allora X vede Y .
 TestAttemptoSwe: om X beundrar Y så X ser Y .
 
 TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP inspect_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP help_V2 (termNP (var_Term Y_Var)))))))
 TestAttemptoAce: if X inspects Y then X helps Y .
-TestAttemptoDut: als X inspecteert Y dan X helpt Y .
+TestAttemptoDut: als X Y inspecteert , dan helpt X Y .
 TestAttemptoEng: if X inspects Y then X helps Y .
 TestAttemptoFin: jos X tarkastaa Y niin X auttaa Y .
 TestAttemptoFre: si X inspecte Y alors X aide Y .
-TestAttemptoGer: wenn X inspiziert Y dann X hilft Y .
+TestAttemptoGer: wenn X Y inspiziert , dann hilft X Y .
 TestAttemptoIta: si X ispeziona Y allora X aiuta Y .
 TestAttemptoSwe: om X avsynar Y så X assisterar Y .
 
 TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP help_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term Y_Var)) (v2VP admire_V2 (termNP (var_Term X_Var)))))))
 TestAttemptoAce: if X helps Y then Y admires X .
-TestAttemptoDut: als X helpt Y dan Y bewondert X .
+TestAttemptoDut: als X Y helpt , dan bewondert Y X .
 TestAttemptoEng: if X helps Y then Y admires X .
 TestAttemptoFin: jos X auttaa Y niin Y ihailee X .
 TestAttemptoFre: si X aide Y alors Y admire X .
-TestAttemptoGer: wenn X hilft Y dann Y bewundert X .
+TestAttemptoGer: wenn X Y hilft , dann bewundert Y X .
 TestAttemptoIta: si X aiuta Y allora Y ammira X .
 TestAttemptoSwe: om X assisterar Y så Y beundrar X .
 
 TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP love_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (neg_vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var)))))))
 TestAttemptoAce: if X loves Y then X doesn't admire Y .
-TestAttemptoDut: als X heeft Y lief dan X bewondert niet Y .
+TestAttemptoDut: als X Y lief heeft , dan bewondert X niet Y .
 TestAttemptoEng: if X loves Y then X doesn't admire Y .
 TestAttemptoFin: jos X rakastaa Y niin X ei ihaile Y .
 TestAttemptoFre: si X aime Y alors X n' admire pas Y .
-TestAttemptoGer: wenn X liebt Y dann X bewundert Y nicht .
+TestAttemptoGer: wenn X Y liebt , dann bewundert X Y nicht .
 TestAttemptoIta: si X ama Y allora X non ammira Y .
 TestAttemptoSwe: om X älskar Y så X beundrar inte Y .
 
 TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (neg_vpS (termNP (var_Term Y_Var)) (v2VP love_V2 (termNP (var_Term X_Var)))))))
 TestAttemptoAce: if X sees Y then Y doesn't love X .
-TestAttemptoDut: als X ziet Y dan Y heeft niet X lief .
+TestAttemptoDut: als X Y ziet , dan heeft Y niet X lief .
 TestAttemptoEng: if X sees Y then Y doesn't love X .
 TestAttemptoFin: jos X näkee Y niin Y ei rakasta X .
 TestAttemptoFre: si X voit Y alors Y n' aime pas X .
-TestAttemptoGer: wenn X sieht Y dann Y liebt X nicht .
+TestAttemptoGer: wenn X Y sieht , dann liebt Y X nicht .
 TestAttemptoIta: si X vede Y allora Y non ama X .
 TestAttemptoSwe: om X ser Y så Y älskar inte X .
 
 TestAttempto: consText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))))) (baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var))))))))
 TestAttemptoAce: if X admires Y then X sees Y . if X sees Y then X admires Y .
-TestAttemptoDut: als X bewondert Y dan X ziet Y . als X ziet Y dan X bewondert Y .
+TestAttemptoDut: als X Y bewondert , dan ziet X Y . als X Y ziet , dan bewondert X Y .
 TestAttemptoEng: if X admires Y then X sees Y . if X sees Y then X admires Y .
 TestAttemptoFin: jos X ihailee Y niin X näkee Y . jos X näkee Y niin X ihailee Y .
 TestAttemptoFre: si X admire Y alors X voit Y . si X voit Y alors X admire Y .
-TestAttemptoGer: wenn X bewundert Y dann X sieht Y . wenn X sieht Y dann X bewundert Y .
+TestAttemptoGer: wenn X Y bewundert , dann sieht X Y . wenn X Y sieht , dann bewundert X Y .
 TestAttemptoIta: si X ammira Y allora X vede Y . si X vede Y allora X ammira Y .
 TestAttemptoSwe: om X beundrar Y så X ser Y . om X ser Y så X beundrar Y .
 
 TestAttempto: consText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP inspect_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term Y_Var)) (v2VP see_V2 (termNP (var_Term X_Var))))))) (baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term Y_Var)) (v2VP see_V2 (termNP (var_Term X_Var))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP inspect_V2 (termNP (var_Term Y_Var))))))))
 TestAttemptoAce: if X inspects Y then Y sees X . if Y sees X then X inspects Y .
-TestAttemptoDut: als X inspecteert Y dan Y ziet X . als Y ziet X dan X inspecteert Y .
+TestAttemptoDut: als X Y inspecteert , dan ziet Y X . als Y X ziet , dan inspecteert X Y .
 TestAttemptoEng: if X inspects Y then Y sees X . if Y sees X then X inspects Y .
 TestAttemptoFin: jos X tarkastaa Y niin Y näkee X . jos Y näkee X niin X tarkastaa Y .
 TestAttemptoFre: si X inspecte Y alors Y voit X . si Y voit X alors X inspecte Y .
-TestAttemptoGer: wenn X inspiziert Y dann Y sieht X . wenn Y sieht X dann X inspiziert Y .
+TestAttemptoGer: wenn X Y inspiziert , dann sieht Y X . wenn Y X sieht , dann inspiziert X Y .
 TestAttemptoIta: si X ispeziona Y allora Y vede X . si Y vede X allora X ispeziona Y .
 TestAttemptoSwe: om X avsynar Y så Y ser X . om Y ser X så X avsynar Y .
 
