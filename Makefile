@@ -37,10 +37,10 @@ lin_ontograph_40_save:
 	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf) > $(tests_onto)/lin.txt
 
 # Build the test grammar, as a batch or keeping the GF shell open
-build_test_batch:
+build_test:
 	clear
 	gf --batch --path=$(path) $(words)/TestAttemptoAce.gf
-build_test_interactive:
+interactive:
 	gf --path=$(path) $(words)/TestAttemptoAce.gf
 
 # Clean all gfo files everywhere
