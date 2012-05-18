@@ -162,7 +162,8 @@ fun slash_ipQS : IP -> NP -> V2 -> QS ;
 -- who does Mary not like?
 fun neg_slash_ipQS : IP -> NP -> V2 -> QS ;
 
-fun ipNPQ : IP -> NPQ ; -- [JJC]
+fun ipNPQ : IP -> NPQ ; -- "who"
+fun ofNPQ : NP -> IP -> NPQ ; -- "a friend of who"
 fun is_ThereNPQ : IndefTherePron -> IP -> NPQ ; -- "somebody who is who"
 fun v2_ThereNPQ : IndefTherePron -> V2 -> IP -> NPQ ; -- "somebody who asks who"
 fun a2_ThereNPQ : IndefTherePron -> A2 -> IP -> NPQ ; -- "somebody who is mad-about who"
