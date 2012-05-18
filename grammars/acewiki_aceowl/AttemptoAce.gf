@@ -21,17 +21,18 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
   -- All the functions below deal with having wh-words in object position. [JJC]
   oper
     ip2np : SyntaxAce.IP -> Agr -> SyntaxAce.NP = \ip,agr -> lin NP ( ip ** {a = agr} ) ;
-    ssQS : Str -> SyntaxAce.QS = \s -> lin QS {s = \\_ => s} ;
+    Cl2QS : Cl -> SyntaxAce.QS = \cl -> lin QS {s = \\_ =>cl.s ! Pres ! Simul ! CPos ! ODir} ;
+    Cl2QS_neg : Cl -> SyntaxAce.QS = \cl -> lin QS {s = \\_ =>cl.s ! Pres ! Simul ! CNeg (True|False) ! ODir} ;
 
-    np2np = overload {
-      np2np : AttemptoAce.NP -> SyntaxAce.NP = \np -> np ;
-      np2np : SyntaxAce.NP -> Order -> AttemptoAce.NP = \np,ord -> np ** {o=ord} ;
+    NP2NP = overload {
+      NP2NP : AttemptoAce.NP -> SyntaxAce.NP = \np -> np ;
+      NP2NP : SyntaxAce.NP -> Order -> AttemptoAce.NP = \np,ord -> np ** {o=ord} ;
     } ;
     directNP : SyntaxAce.NP -> AttemptoAce.NP = \np -> np ** {o=ODir};
     questNP : SyntaxAce.NP -> AttemptoAce.NP = \np -> np ** {o=OQuest};
-    vp2vp = overload {
-      vp2vp : AttemptoAce.VP -> SyntaxAce.VP = \vp -> vp ;
-      vp2vp : SyntaxAce.VP -> Order -> AttemptoAce.VP = \vp,ord -> vp ** {o=ord} ;
+    VP2VP = overload {
+      VP2VP : AttemptoAce.VP -> SyntaxAce.VP = \vp -> vp ;
+      VP2VP : SyntaxAce.VP -> Order -> AttemptoAce.VP = \vp,ord -> vp ** {o=ord} ;
     } ;
     directVP : SyntaxAce.VP -> AttemptoAce.VP = \vp -> vp ** {o=ODir};
     questVP : SyntaxAce.VP -> AttemptoAce.VP = \vp -> vp ** {o=OQuest};
@@ -57,61 +58,71 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
 
   lin termNP x = directNP (symb (ss x.s)) ;
 
-  lin relNP np rs = np2np (SyntaxAce.mkNP (np2np np) rs) np.o;
-  lin predRS rp vp = mkRS (mkRCl rp (vp2vp vp)) ;
-  lin neg_predRS rp vp = mkRS negativePol (mkRCl rp (vp2vp vp)) ;
-  lin slashRS rp np v2 = mkRS (mkRCl rp (np2np np) v2) ;
-  lin neg_slashRS rp np v2 = mkRS negativePol (mkRCl rp (np2np np) v2) ;
+  lin relNP np rs = NP2NP (SyntaxAce.mkNP (NP2NP np) rs) np.o;
+  lin predRS rp vp = mkRS (mkRCl rp (VP2VP vp)) ;
+  lin neg_predRS rp vp = mkRS negativePol (mkRCl rp (VP2VP vp)) ;
+  lin slashRS rp np v2 = mkRS (mkRCl rp (NP2NP np) v2) ;
+  lin neg_slashRS rp np v2 = mkRS negativePol (mkRCl rp (NP2NP np) v2) ;
 
-  lin ofCN cn np = mkCN cn (mkAdv possess_Prep (np2np np)) ;
+  lin ofCN cn np = mkCN cn (mkAdv possess_Prep (NP2NP np)) ;
 
-  lin vpS np vp = mkS (mkCl (np2np np) (vp2vp vp));
-  lin neg_vpS np vp = mkS negativePol (mkCl (np2np np) (vp2vp vp)) ;
+  lin vpS np vp = mkS (mkCl (NP2NP np) (VP2VP vp));
+  lin neg_vpS np vp = mkS negativePol (mkCl (NP2NP np) (VP2VP vp)) ;
 
-  lin v2VP v2 np = vp2vp (mkVP v2 (np2np np)) np.o ;
+  lin v2VP v2 np = VP2VP (mkVP v2 (NP2NP np)) np.o ;
 
-  lin a2VP a2 np = vp2vp (mkVP a2 (np2np np)) np.o ;
+  lin a2VP a2 np = VP2VP (mkVP a2 (NP2NP np)) np.o ;
 
-  lin thereNP tnp = mkS (mkCl (np2np tnp)) ;
+  lin thereNP tnp = mkS (mkCl (NP2NP tnp)) ;
   lin thereNP_as_NP np = np ;
 
-  lin ipQS ip vp = mkQS (mkQCl ip (vp2vp vp)) ;
-  lin neg_ipQS ip vp = mkQS negativePol (mkQCl ip (vp2vp vp)) ;
-  lin slash_ipQS ip np v2 = mkQS (mkQCl ip (mkClSlash (np2np np) v2)) ;
-  lin neg_slash_ipQS ip np v2 = mkQS negativePol (mkQCl ip (mkClSlash (np2np np) v2)) ;
+  lin ipQS ip vp = mkQS (mkQCl ip (VP2VP vp)) ;
+  lin neg_ipQS ip vp = mkQS negativePol (mkQCl ip (VP2VP vp)) ;
+  lin slash_ipQS ip np v2 = mkQS (mkQCl ip (mkClSlash (NP2NP np) v2)) ;
+  lin neg_slash_ipQS ip np v2 = mkQS negativePol (mkQCl ip (mkClSlash (NP2NP np) v2)) ;
 
-  lin npVP np = vp2vp (mkVP (np2np np)) np.o ;
-  lin v2_byVP v2 np = vp2vp (mkVP (passiveVP v2) (mkAdv by8agent_Prep (np2np np))) np.o ;
+  lin whobject_QS np vp = case vp.o of {
+        OQuest => Cl2QS (mkCl (NP2NP np) (VP2VP vp)) ; -- "Mary is who ?"
+        _ => lin QS {s=\\_=>[]} -- TODO is this right?
+      };
+  lin neg_whobject_QS np vp = case vp.o of {
+        OQuest => Cl2QS_neg (mkCl (NP2NP np) (VP2VP vp)) ; -- "Mary isn't who ?"
+        _ => lin QS {s=\\_=>[]} -- TODO is this right?
+      };
 
-{-
-    ipNPQ ip = lin NPQ ( ip2np ip (agrP3 Sg) ) ; -- Is agrP3 Sg suitable for all cases..? [JJC]
-    ofNPQ np ip = lin NPQ ( SyntaxAce.mkNP np (mkAdv possess_Prep (ip2np ip (agrP3 Sg))) ) ;
-    is_ThereNPQ somebody who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (predRS AttemptoAce.which_RP (npVP (ip2np who somebody.a))) ; -- "somebody who is who"
-    v2_ThereNPQ somebody v2 who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (predRS AttemptoAce.which_RP (v2VP v2 (ip2np who somebody.a))) ; -- "somebody who asks who"
-    a2_ThereNPQ somebody a2 who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (predRS AttemptoAce.which_RP (a2VP a2 (ip2np who somebody.a))) ; -- "somebody who is mad-about who"
-    neg_is_ThereNPQ somebody who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (neg_predRS AttemptoAce.which_RP (npVP (ip2np who somebody.a))) ; -- "somebody who is not who"
-    neg_v2_ThereNPQ somebody v2 who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (neg_predRS AttemptoAce.which_RP (v2VP v2 (ip2np who somebody.a))) ; -- "somebody who does not ask who"
-    neg_a2_ThereNPQ somebody a2 who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (neg_predRS AttemptoAce.which_RP (a2VP a2 (ip2np who somebody.a))) ; -- "somebody who is not mad-about who"
+  lin npVP np = VP2VP (mkVP (NP2NP np)) np.o ;
+  lin v2_byVP v2 np = VP2VP (mkVP (passiveVP v2) (mkAdv by8agent_Prep (NP2NP np))) np.o ;
 
-    is_npq_QS np npq = ssQS ((mkCl np npq).s ! Pres ! Simul ! CPos ! ODir) ; -- "Mary is who ?"
-    v2_npq_QS np v2 npq = ssQS ((mkCl np v2 npq).s ! Pres ! Simul ! CPos ! ODir) ; -- "Mary asks who ?"
-    v2passive_npq_QS np v2 npq = ssQS ((mkCl np (v2_byVP v2 npq)).s ! Pres ! Simul ! CPos ! ODir) ; -- "Mary is asked by who ?"
-    a2_npq_QS np a2 npq = ssQS ((mkCl np a2 npq).s ! Pres ! Simul ! CPos ! ODir) ; -- "Mary is mad-about who ?"
-    neg_is_npq_QS np npq = ssQS ((mkCl np npq).s ! Pres ! Simul ! CNeg (True|False) ! ODir) ; -- "Mary is not who ?"
-    neg_v2_npq_QS np v2 npq = ssQS ((mkCl np v2 npq).s ! Pres ! Simul ! CNeg (True|False) ! ODir) ; -- "Mary does not ask who ?"
-    neg_v2passive_npq_QS np v2 npq = ssQS ((mkCl np (v2_byVP v2 npq)).s ! Pres ! Simul ! CNeg (True|False) ! ODir) ; -- "Mary is not asked by who ?"
-    neg_a2_npq_QS np a2 npq = ssQS ((mkCl np a2 npq).s ! Pres ! Simul ! CNeg (True|False) ! ODir) ; -- "Mary is not mad-about who ?"
+  -- Use IP as an NP (which then cascades up to make a question) [JJC]
+  lin ipNP ip = questNP ( ip2np ip (agrP3 Sg) ) ;
 
-    qs_and_VP qs vp = ssQS s where {
-      vps = ExtraAce.MkVPS (mkTemp presentTense simultaneousAnt) positivePol vp ;
-      s:Str = (mkS SyntaxAce.and_Conj (lin S (ss (qs.s ! QDir))) (lin S (ss (vps.s ! agrP3 Sg)))).s ;
-    } ;
-    qs_and_negVP qs vp = ssQS s where {
-      vps = ExtraAce.MkVPS (mkTemp presentTense simultaneousAnt) AnyNeg vp ;
-      s:Str = (mkS SyntaxAce.and_Conj (lin S (ss (qs.s ! QDir))) (lin S (ss (vps.s ! agrP3 Sg)))).s ;
-    } ;
-  -- end of wh-word object pos stuff
--}
+    -- ipNPQ ip = lin NPQ ( ip2np ip (agrP3 Sg) ) ; -- Is agrP3 Sg suitable for all cases..? [JJC]
+    -- ofNPQ np ip = lin NPQ ( SyntaxAce.mkNP np (mkAdv possess_Prep (ip2np ip (agrP3 Sg))) ) ;
+    -- is_ThereNPQ somebody who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (predRS AttemptoAce.which_RP (npVP (ip2np who somebody.a))) ; -- "somebody who is who"
+    -- v2_ThereNPQ somebody v2 who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (predRS AttemptoAce.which_RP (v2VP v2 (ip2np who somebody.a))) ; -- "somebody who asks who"
+    -- a2_ThereNPQ somebody a2 who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (predRS AttemptoAce.which_RP (a2VP a2 (ip2np who somebody.a))) ; -- "somebody who is mad-about who"
+    -- neg_is_ThereNPQ somebody who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (neg_predRS AttemptoAce.which_RP (npVP (ip2np who somebody.a))) ; -- "somebody who is not who"
+    -- neg_v2_ThereNPQ somebody v2 who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (neg_predRS AttemptoAce.which_RP (v2VP v2 (ip2np who somebody.a))) ; -- "somebody who does not ask who"
+    -- neg_a2_ThereNPQ somebody a2 who = Syntax.mkNP (thereNP_as_NP (indefTherePronNP somebody)) (neg_predRS AttemptoAce.which_RP (a2VP a2 (ip2np who somebody.a))) ; -- "somebody who is not mad-about who"
+
+    -- is_npq_QS np npq = ssQS ((mkCl np npq).s ! Pres ! Simul ! CPos ! ODir) ; -- "Mary is who ?"
+    -- v2_npq_QS np v2 npq = ssQS ((mkCl np v2 npq).s ! Pres ! Simul ! CPos ! ODir) ; -- "Mary asks who ?"
+    -- v2passive_npq_QS np v2 npq = ssQS ((mkCl np (v2_byVP v2 npq)).s ! Pres ! Simul ! CPos ! ODir) ; -- "Mary is asked by who ?"
+    -- a2_npq_QS np a2 npq = ssQS ((mkCl np a2 npq).s ! Pres ! Simul ! CPos ! ODir) ; -- "Mary is mad-about who ?"
+    -- neg_is_npq_QS np npq = ssQS ((mkCl np npq).s ! Pres ! Simul ! CNeg (True|False) ! ODir) ; -- "Mary is not who ?"
+    -- neg_v2_npq_QS np v2 npq = ssQS ((mkCl np v2 npq).s ! Pres ! Simul ! CNeg (True|False) ! ODir) ; -- "Mary does not ask who ?"
+    -- neg_v2passive_npq_QS np v2 npq = ssQS ((mkCl np (v2_byVP v2 npq)).s ! Pres ! Simul ! CNeg (True|False) ! ODir) ; -- "Mary is not asked by who ?"
+    -- neg_a2_npq_QS np a2 npq = ssQS ((mkCl np a2 npq).s ! Pres ! Simul ! CNeg (True|False) ! ODir) ; -- "Mary is not mad-about who ?"
+
+    -- qs_and_VP qs vp = ssQS s where {
+    --   vps = ExtraAce.MkVPS (mkTemp presentTense simultaneousAnt) positivePol vp ;
+    --   s:Str = (mkS SyntaxAce.and_Conj (lin S (ss (qs.s ! QDir))) (lin S (ss (vps.s ! agrP3 Sg)))).s ;
+    -- } ;
+    -- qs_and_negVP qs vp = ssQS s where {
+    --   vps = ExtraAce.MkVPS (mkTemp presentTense simultaneousAnt) AnyNeg vp ;
+    --   s:Str = (mkS SyntaxAce.and_Conj (lin S (ss (qs.s ! QDir))) (lin S (ss (vps.s ! agrP3 Sg)))).s ;
+    -- } ;
+
   -- Variables have genitives [JJC]
   lincat Var = {s : Case => Str};
   lin var_Term v = mkpConst (NomVar v) ;
