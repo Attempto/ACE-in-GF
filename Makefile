@@ -25,6 +25,9 @@ all_test:
 all_ontograph_40:
 	gf --batch --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
 
+pgf_acewiki_aceowl:
+	gf --make --path=$(path) $(foreach lang,$(languages),$(words)/TestAttempto$(lang).gf)
+
 pgf_ontograph_40:
 	gf --make --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
 
