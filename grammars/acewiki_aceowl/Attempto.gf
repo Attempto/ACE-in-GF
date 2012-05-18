@@ -166,9 +166,15 @@ fun ipNPQ : IP -> NPQ ; -- [JJC]
 fun is_ThereNPQ : IndefTherePron -> IP -> NPQ ; -- "somebody who is who"
 fun v2_ThereNPQ : IndefTherePron -> V2 -> IP -> NPQ ; -- "somebody who asks who"
 fun a2_ThereNPQ : IndefTherePron -> A2 -> IP -> NPQ ; -- "somebody who is mad-about who"
+fun neg_is_ThereNPQ : IndefTherePron -> IP -> NPQ ; -- "somebody who is not who"
+fun neg_v2_ThereNPQ : IndefTherePron -> V2 -> IP -> NPQ ; -- "somebody who does not ask who"
+fun neg_a2_ThereNPQ : IndefTherePron -> A2 -> IP -> NPQ ; -- "somebody who is not mad-about who"
 fun is_vpq_QS : NP -> NPQ -> QS ; -- "Mary is somebody who is/asks who ?"
 fun v2_vpq_QS : NP -> V2 -> NPQ -> QS ; -- "Mary asks somebody who is/asks who ?"
 fun a2_vpq_QS : NP -> A2 -> NPQ -> QS ; -- "Mary is mad-about who ?"
+fun neg_is_vpq_QS : NP -> NPQ -> QS ; -- "Mary is not somebody who is/asks who ?"
+fun neg_v2_vpq_QS : NP -> V2 -> NPQ -> QS ; -- "Mary does not ask somebody who is/asks who ?"
+fun neg_a2_vpq_QS : NP -> A2 -> NPQ -> QS ; -- "Mary is not mad-about who ?"
 
 -- A question coordinated with a VP, eg "Mary is who and likes John?"
 fun qs_and_VP : QS -> VP -> QS ;
