@@ -6,6 +6,7 @@
 path = present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/api
 grammars = grammars/acewiki_aceowl
 words = words/acewiki_aceowl
+tests = tests/acewiki_aceowl
 words_onto = words/ontograph_40
 tests_onto = tests/ontograph_40
 
@@ -35,6 +36,11 @@ lin_ontograph_40:
 lin_ontograph_40_save:
 	echo "rf -lines -file=$(tests_onto)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
 	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf) > $(tests_onto)/lin.txt
+
+# This does not fail if one of the sentences fails (unlike "rf -lines | p")
+lin_acewiki_aceowl_save:
+	cat $(tests)/sentences.txt | sed -f tools/make_gf_parse_lin_command.sed | \
+	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words)/TestAttempto$(lang).gf) > $(tests)/lin.txt
 
 # Build the test grammar, as a batch or keeping the GF shell open
 build_test_batch:
