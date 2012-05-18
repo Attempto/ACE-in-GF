@@ -21,9 +21,9 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [a
     v2_vpq_QS np v2 npq = ssQS ((mkCl np v2 npq).s ! Pres ! Simul ! CPos ! ODir) ; -- "Mary asks somebody who is/asks who ?"
     a2_vpq_QS np a2 npq = ssQS ((mkCl np a2 npq).s ! Pres ! Simul ! CPos ! ODir) ; -- "Mary is mad-about who ?"
 
-    -- TODO: mkSC is wrong here. need to look into how VPS coord is done and take from there
     qs_and_VP qs vp = ssQS s where {
-      s:Str = (mkS SyntaxAce.and_Conj (lin S (ss (qs.s ! QDir))) (lin S (mkSC vp))).s
+      vps = ExtraAce.MkVPS (mkTemp presentTense simultaneousAnt) positivePol vp ;
+      s:Str = (mkS SyntaxAce.and_Conj (lin S (ss (qs.s ! QDir))) (lin S (ss (vps.s ! agrP3 Sg)))).s ;
     } ;
   -- end of wh-word object pos stuff
 
