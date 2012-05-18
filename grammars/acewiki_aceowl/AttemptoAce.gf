@@ -26,7 +26,7 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [a
       s:Str = (mkS SyntaxAce.and_Conj (lin S (ss (qs.s ! QDir))) (lin S (ss (vps.s ! agrP3 Sg)))).s ;
     } ;
     qs_and_negVP qs vp = ssQS s where {
-      vps = ExtraAce.MkVPS (mkTemp presentTense simultaneousAnt) UncNeg vp ;
+      vps = ExtraAce.MkVPS (mkTemp presentTense simultaneousAnt) AnyNeg vp ;
       s:Str = (mkS SyntaxAce.and_Conj (lin S (ss (qs.s ! QDir))) (lin S (ss (vps.s ! agrP3 Sg)))).s ;
     } ;
   -- end of wh-word object pos stuff
@@ -62,7 +62,7 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [a
     BaseVPS = ExtraAce.BaseVPS ;
     ConsVPS = ExtraAce.ConsVPS ;
     vp_as_posVPS = MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
-    vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) UncNeg ;
+    vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) AnyNeg ;
     np_coord_VPS np conj vpss = ExtraAce.PredVPS np (ExtraAce.ConjVPS conj vpss);
 
 }
