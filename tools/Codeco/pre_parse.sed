@@ -27,5 +27,20 @@ s/^the  *\([a-zA-Z-]*\) / a \1 /g
 s/ the  *\([a-zA-Z-]*\)  *[XY] / a \1 /g
 s/ the  *\([a-zA-Z-]*\) / a \1 /g
 # We remove the variable also from indefinite pronouns
-s/body  *[XY] /body /g
-s/thing  *[XY] /thing /g
+#s/body  *[XY] /body /g
+#s/thing  *[XY] /thing /g
+# Nope, this is too aggressive, consider:
+# "if John is everybody then for every woman of nobody X is everything ."
+# where removing 'X' would create a syntactically incorrect sentence.
+# So we number the variables instead:
+s/ [XY] / X1 /
+s/ [XY] / X2 /
+s/ [XY] / X3 /
+s/ [XY] / X4 /
+s/ [XY] / X4 /
+s/ [XY] / X5 /
+s/ [XY] / X6 /
+s/ [XY] / X7 /
+s/ [XY] / X8 /
+s/ [XY] / X9 /
+# etc.
