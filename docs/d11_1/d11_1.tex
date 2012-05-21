@@ -54,17 +54,66 @@ The ACE toolchain includes a parser that maps ACE sentences into a concrete
 DRS form \cite{ifi-2010.0010} and further into formats supported by existing
 automatic reasoners (e.g. OWL, SWRL, TPTP).
 
+The current version of ACE, version 6.6, offers many language constructs, most
+important of which are
+countable and mass nouns;
+proper names;
+generalized quantifiers (e.g. `at least');
+indefinite pronouns (e.g. `somebody');
+intransitive, transitive and ditransitive verbs;
+negation, conjunction and disjunction of
+noun phrases, verb phrases, relative clauses and sentences;
+and anaphoric references to noun phrases through proper names,
+definite noun phrases, pronouns, and variables.
 End-users working with ACE can specify a lexicon that maps English
-wordforms (nouns, verbs, adjectives, ...) into logical atoms, which the users
+wordforms of nouns, verbs, adjectives and adverbs into logical atoms,
+which the users
 can interpret as they wish, but otherwise the ACE grammar or its mapping to
 DRS cannot be changed.
 
 Grammatical Framework (GF) \cite{ranta:book2011}
 is a framework for defining multilingual grammars.
+GF provides a functional programming language in which
+the grammar author implements an abstract syntax and its corresponding
+concrete syntaxes and by doing that
+describes a bidirectional mapping between concrete language strings and
+their corresponding abstract syntax trees. This architecture supports
+multilingual translation as strings of any concrete language can be parsed into
+abstract trees which can be further linearized as strings in any concrete
+language.
 
-This paper is structured in the following way. In section ...
+GF is optimized to handle natural language features like morphological
+variation, agreement, long-distance dependencies, etc.
+GF comes with various tools that
+cover grammar authoring, compatibility with many popular programming languages,
+conversion into other grammar formats, and a reusable grammar library covering
+many world natural languages and providing a language-neutral API to a large
+number of linguistic categories (e.g. NP, VP) and constructs
+(e.g. combination of NP and VP into a sentence).
+
+The purpose of this report is to study whether it is possible and useful to
+implement the grammar of ACE in GF, with the main goal of turning ACE into
+a multilingual controlled natural language (CNL).
+In section \ref{section:Goals_and_requirements} we describe the goals of the
+GF-based implementation of ACE;
+in section \ref{section:Existing_work} we point out existing implementations;
+in section \ref{section:Implementing_ACE_in_GF} we describe our implementation;
+in section \ref{section:Multilinguality} we describe the novelty of this work,
+namely multilinguality;
+in section \ref{section:Evaluation} we evaluate the implementation by comparing
+it to existing implementations of the ACE grammar;
+in section \ref{section:Future_work} we describe possible extensions to this
+work.
+
+The developed grammar as well as the test sets, development tools and
+documentation are available under the LGPL license on the GitHub repository
+
+\begin{quote}
+\url{https://github.com/Attempto/ACE-in-GF}
+\end{quote}
 
 \section{Goals and requirements}
+\label{section:Goals_and_requirements}
 
 The overall goal of this work is to make ACE available to users who have little
 English skills by turning ACE-based systems like
@@ -81,7 +130,9 @@ speech recognition grammar formats, etc.
 \centering
 \includegraphics[width=0.7\textwidth]{languages}
 \caption[Languages]
-{Languages}
+{Bidirectional mapping between a formal language like OWL and a natural
+language like Finnish facilitated by the multilingual GF-implementation of
+ACE and various mappings between ACE and other formal languages.}
 \label{fig:languages}
 \end{figure}
 
@@ -94,17 +145,16 @@ controlled natural language?
 and what are the benefits of such an implementation?
 \end{itemize}
 
-Our goals are the following:
+Our goal is to demonstrate that a large fragment of the ACE syntax
+can be implemented in a language-neutral way and ported to a large number
+of different natural languages. This involves showing that
 
 \begin{itemize}
-\item demonstrate that the ACE syntax can be implemented in a language-neutral
-way and ported to a large number ($\sim$10) of different natural languages
-\item make adding support for new languages straight-forward
-\item make extending the grammar towards full ACE coverage straight-forward
-\item syntactic coverage and precision close to 100\%
-\item multilingual translations preserve the precise
-meaning assigned to the ACE sentences
-\item translation ambiguity close almost nonexistent
+\item extending and modifying the grammar to reflect possible
+changes in the ACE specification is straight-forward;
+\item multilingual translations of the same abstract tree preserve the precise
+and unambiguous meaning assigned to the ACE sentences;
+\item adding support for new languages is straight-forward.
 \end{itemize}
 
 Note that this report describes the implementation of the ACE syntax,
@@ -115,17 +165,17 @@ back into ACE which can be used to paraphrase the original text).
 
 
 \section{Existing work}
+\label{section:Existing_work}
 
 Our work builds on \cite{ranta:cnl2009_revised} which implements the syntax
 of ACE v6.0 (by following \cite{ACE_6.0_Construction_Rules}) and makes it
 available in 7 languages (English, French, German, Italian, Swedish, Finnish
 and Urdu) via the GF Resource Grammar Library (RGL) \cite{ranta:lilt2009}.
-Our goal is to update this implementation to ACE v6.6 and make it precisely
-cover an important subset of ACE which we will refer to as the AceWiki subset.
-Our second goal is to extend the number of natural languages to which
-the grammar is ported.
+Our goal is to update this implementation to ACE v6.6, make it precisely
+cover a large subset of ACE, and increase the number of natural languages to
+which the grammar is ported.
 
-Another work that already implements ACE in GF is
+Another existing work that implements ACE in GF is
 ``ACE compliant controlled Latvian for ontology authoring and verbalization''
 \footnote{\url{http://valoda.ailab.lv/cnl/}}
 \cite{gruzitis:phd}. The goal of this work is to bidirectionally map Latvian
@@ -141,21 +191,25 @@ a starting point of the work described in this document.
 
 
 \section{Implementing ACE in GF}
+\label{section:Implementing_ACE_in_GF}
 
-We chose to focus on the subset of ACE 6.6
-\cite{ACE_6.6_Construction_Rules} that is used by the AceWiki semantic wiki
-system.
-This subset is
-quite expressive, roughly matching the expressivity of the OWL ontology
+Rather than directly building a grammar for the
+full ACE v6.6\cite{ACE_6.6_Construction_Rules}, we chose to focus
+on the subset of ACE that is used by the AceWiki semantic wiki system. The
+resulting grammar can be seen as a core module which can be used by AceWiki
+without any change and which can be extended by a separate grammar
+towards full ACE as need arises. The AceWiki subset is a relatively expressive
+fragment of ACE, roughly matching the expressivity of the OWL ontology
 language
 \cite{OWL_2_Web_Ontology_Language_Document_Overview}
 without data properties.
 This makes the subset relevant in (Semantic Web) ontology editing applications.
-The AceWiki subset is formally defined by a Codeco grammar
-\cite{kuhn:cnl2010_revised}
+The other benefit of the AceWiki subset is that it is formally defined by a
+Codeco grammar \cite{kuhn:cnl2010_revised}
 \footnote{\url{http://attempto.ifi.uzh.ch/site/docs/acewikijava/ch/uzh/ifi/attempto/acewiki/aceowl/acewiki_grammar.html}},
 which provides both parsing and generation and thus gives us an excellent
-reference implementation against which we can test.
+reference implementation against which we can easily test our GF-based
+implementation.
 With Codeco we can perform exhaustive generation of syntactically legal
 sentences. Also the Codeco grammar can be used to implement look-ahead
 editors, similarly to GF, which provides for us another point of comparison.
@@ -193,9 +247,13 @@ anaphoric references in GF we will not try to precisely model this aspect of
 ACE, i.e. our GF grammar will over-generate in the sense that it will allow
 impossible anaphoric references (`The man likes Mary.').
 
+[TODO: go over the Codeco features and see what corresponds to them
+in GF, if it should belong to the concrete or the abstract part.]
+
 \subsection{Structure}
 
-The multilingual ACE grammar is implemented in GF as a set of modules
+Closely following the original implementation in \cite{ranta:cnl2009_revised},
+the multilingual ACE grammar is implemented in GF as a set of modules
 (see figure \ref{fig:modules}) the most important of which are:
 
 \begin{itemize}
@@ -231,10 +289,11 @@ long.
 {Relations between the modules, using German (Ger) as an example
 of one of the many concrete languages. To add support for a new language,
 e.g. Dutch, one must implement three files:
-AttemptoDut, which just
-instantiates the functor AttemptoI with Dutch-specific resources from the RGL;
-TestAttemptoDut, which contains the domain lexicon; and
-LexAttemptoDut, which implements the Dutch-specific resources that
+\texttt{AttemptoDut}, which just
+instantiates the functor \texttt{AttemptoI} with Dutch-specific resources
+from the RGL;
+\texttt{TestAttemptoDut}, which contains the domain lexicon; and
+\texttt{LexAttemptoDut}, which implements the Dutch-specific resources that
 do not come from the RGL. The implementation of the lexicon can also
 rely on the resources (Dutch morphological paradigms) implemented
 in the RGL.}
@@ -243,10 +302,12 @@ in the RGL.}
 
 \subsection{Lexicon}
 
-ACE makes a clear separation of lexicon and the rest of the syntax.
-The 27 word form types can be added and redefined by the users
-\cite{ACE_6.6_Lexicon_Specification}. The AceWiki subset uses a much smaller
-but also a slightly different set of lexical categories.
+ACE makes a clear separation of lexicon and the rest of the syntax. The ACE
+lexicon is a simple mapping of word forms to their corresponding lemmas, which
+can be easily added and redefined by the users
+\cite{ACE_6.6_Lexicon_Specification}. While the full ACE knows 27 types of
+word forms (singular common noun, transitive verb, ...), the AceWiki subset
+uses a smaller but also a slightly different set of lexical categories.
 
 \begin{itemize}
 \item proper name (with possible abbreviation and \emph{the}-prefix)
@@ -257,15 +318,26 @@ forms)
 \item transitive adjective (e.g. `fond of')
 \end{itemize}
 
-We map these categories to GF categories as shown in
-table \ref{mapping_acewiki_to_gf}.
+GF does not make a clear separation between words and the rest of the grammar.
+Furthermore, words can be described by complex structures holding information
+about their gender, case, discontinuity, depending on the language. Most of
+this necessary complexity is hidden by the RGL, which operates with common
+lexical categories (e.g. \texttt{PN}, \texttt{V2}) and common constructors
+(e.g. \texttt{mkN} takes two strings as arguments, for the singular and plural
+forms of the noun, an guesses the missing information (e.g. gender).
+Most of the ACE lexical categories are supported by the RGL and the internal
+repsentations of words can be generated using RGL operators.
+Table \ref{mapping_acewiki_to_gf} shows the mapping of AceWiki categories
+to GF RGL English operators.
 [TODO: we have to ignore certain things, e.g.  the the-PNs?]
 
 \begin{table}
 \begin{center}
 \caption{Mapping of AceWiki lexical categories
 to GF RGL API categories and GF English
-morphological paradigms.\protect\label{mapping_acewiki_to_gf}}
+morphological paradigms. Underscore marks the ommision of wordforms that
+cannot occur in ACE but that are required by the GF RGL
+operator.\protect\label{mapping_acewiki_to_gf}}
 \begin{tabular}{ l l l }
 \hline
 AceWiki category & GF Cat & GF Eng oper \\
@@ -299,15 +371,41 @@ transitive adjective & A2 & \xp{mkA2 (mkA fond) (mkPrep of)} \\
 %\end{center}
 %\end{table}
 
+\subsection{Summary}
+
+Mapping an ACE grammar (such as the one described by Codeco) to a GF grammar
+is non-trivial for the following reasons.
+
+\begin{itemize}
+\item ACE is written in the unification style vs. GF grammar is written
+by separating the abstract syntax from the concrete
+\item ACE offers support for anaphoric references (a feature present in most
+logical rule and ontology languages) vs. GF does not provide similar support
+\end{itemize}
+
 \section{Multilinguality}
+\label{section:Multilinguality}
 
-\subsection{GF languages}
+The architecture described in the previous section makes adding support
+for a new language relatively straight-forward provided that the language
+is supported by the RGL. Adding a new language involves
+implementing all the functions not present in \texttt{AttemptoI},
+overriding the \texttt{AttemptoI} implementation for functions which would
+otherwise deliver a semantically or pragmatically wrong linearization,
+implementing the (small number of) operators that are not provided by the RGL,
+and providing the domain vocabulary for the application.
 
-We selected the following languages which are supported by the GF RGL.
+We selected a number of RGL-supported languages to evaluate how easy it
+is to add a new language in practice and to evaluate the feasability of
+representing the language ACE in a language other than ACE. The chosen
+languages are
 English, German, Finnish, Urdu, Italian, French, Swedish, Dutch
-(, Hindi, Spanish, Catalan?).
+(, Hindi, Spanish, Catalan?). [TODO: why these languages]
 
-\subsection{ACE vs English}
+\subsection{ACE}
+
+ACE was implemented by extending the English resource grammar but
+overriding some of its constructs and adding some variants.
 
 Does it make sense to treat ACE and English as separate languages in the
 grammar, and expose them as different languages to the end user?
@@ -327,7 +425,11 @@ API of the resource library. Some exceptions to this can then be done for
 those languages that do not preserve syntactic structure in translation,
 but still using the library. [TODO: example]
 
+Some issues: RGL does not provide some functions for all the languages,
+e.g. VP coordination.
+
 \section{Evaluation}
+\label{section:Evaluation}
 
 To test the coverage and performance of the GF implementation of the
 AceWiki subset we have used
@@ -425,16 +527,8 @@ base is stored as a set of GF abstract trees and linearized into a
 multilingual presentation on demand in a few minutes.
 
 
-\section{Availability}
-
-The developed grammar as well as the test sets, development tools and
-documentation are available under the LGPL license on the GitHub repository
-
-\begin{quote}
-\url{https://github.com/Attempto/ACE-in-GF}
-\end{quote}
-
 \section{Future work}
+\label{section:Future_work}
 
 In the
 future, one might want to extend the implementation (using
