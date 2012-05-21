@@ -53,14 +53,8 @@ incomplete concrete QuestionsAce of Attempto =
 
   lin predRSQ = predRS ;
   lin neg_predRSQ = neg_predRS ;
+  lin slashRSQ = slashRS ;
+  lin neg_slashRSQ = neg_slashRS ;
 
-    -- qs_and_VP qs vp = ssQS s where {
-    --   vps = ExtraAce.MkVPS (mkTemp presentTense simultaneousAnt) positivePol vp ;
-    --   s:Str = (mkS SyntaxAce.and_Conj (lin S (ss (qs.s ! QDir))) (lin S (ss (vps.s ! agrP3 Sg)))).s ;
-    -- } ;
-    -- qs_and_negVP qs vp = ssQS s where {
-    --   vps = ExtraAce.MkVPS (mkTemp presentTense simultaneousAnt) AnyNeg vp ;
-    --   s:Str = (mkS SyntaxAce.and_Conj (lin S (ss (qs.s ! QDir))) (lin S (ss (vps.s ! agrP3 Sg)))).s ;
-    -- } ;
 
 }

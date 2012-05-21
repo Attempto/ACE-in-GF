@@ -205,7 +205,7 @@ fun v2_byVPQ : V2 -> NPQ -> VPQ ; -- "is asked by who"
 
 -- Co-ordination
 cat VPSQ ; [VPSQ] {2} ; -- a VPS which contains at least one VPQ (ie the sentence should be a question)
-fun vp_as_posVPSQ, vp_as_negVPSQ : VP -> VPSQ ; -- allow heterogenouns lists of VP/VPQ's
+fun vp_as_posVPSQ, vp_as_negVPSQ : VP -> VPSQ ; -- this allows heterogenous lists of VP/VPQ's
 fun vpq_as_posVPSQ, vpq_as_negVPSQ : VPQ -> VPSQ ;
 fun np_coord_VPSQ : NP -> Conj -> [VPSQ] -> QS ;
 fun npq_coord_VPS : NPQ -> Conj -> [VPS] -> QS ;
@@ -223,6 +223,8 @@ fun relNPQ : NP -> RSQ -> NPQ ; -- "somebody who is a friend of who" ?
 -- RSQ
 fun predRSQ : RP -> VPQ -> RSQ ; -- "who is who" ?
 fun neg_predRSQ : RP -> VPQ -> RSQ ; -- "who isn't who" ?
+fun slashRSQ : RP -> NPQ -> V2 -> RSQ ; -- "who who asks" ?
+fun neg_slashRSQ : RP -> NPQ -> V2 -> RSQ ; -- "who who doesn't ask"?
 
 
 }
