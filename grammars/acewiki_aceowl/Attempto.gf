@@ -1,5 +1,5 @@
 abstract Attempto =
-  Numeral, Symbols ** {
+  Numeral, Symbols, Questions ** {
 
 -- Use Text to get only single-sentence texts.
 flags startcat = ACEText ;
@@ -149,16 +149,11 @@ fun simpleS_as_S : SimpleS -> S ;
 
 -- 3.5
 
--- who likes Mary?
-fun ipQS : IP -> VP -> QS ;
-
--- who does not like Mary?
-fun neg_ipQS : IP -> VP -> QS ;
-
--- WH-word in object position.
--- Note that AceWiki only supports `Mary likes who?' but because
--- it is DRS-equivalent to `who does Mary like?' in (full) ACE,
--- supporting just the latter in the GF implementation can be considered enough.
+-- These have been replaced by the more generic function npqQS, which allows
+-- for wh-words in the object position of a relative clause as subject
+-- e.g. "somebody who is who is a man?"
+--fun ipQS : IP -> VP -> QS ;
+--fun neg_ipQS : IP -> VP -> QS ;
 
 -- who does Mary like?
 fun slash_ipQS : IP -> NP -> V2 -> QS ;

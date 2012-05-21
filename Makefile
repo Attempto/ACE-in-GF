@@ -46,11 +46,20 @@ lin_acewiki_aceowl_save:
 	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words)/TestAttempto$(lang).gf) > $(tests)/lin.txt
 
 # Build the test grammar, as a batch or keeping the GF shell open
-build_test_batch:
+build_test:
 	clear
 	gf --batch --path=$(path) $(words)/TestAttemptoAce.gf
-build_test_interactive:
+interactive:
 	gf --path=$(path) $(words)/TestAttemptoAce.gf
+
+build_questions:
+	clear
+	gf --batch --path=$(path) $(words)/TestQuestionsAce.gf
+make_questions:
+	clear
+	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestQuestions{Ace,}.gf"
+interactive_questions:
+	gf --path=$(path) $(words)/TestQuestionsAce.gf
 
 # Clean all gfo files everywhere
 clean:
@@ -75,4 +84,13 @@ test_ontograph_40:
 test_precision:
 	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttempto{Ace,}.gf"
 	bash run-precision-test.bash 100
-#	bash run-precision-test.bash
+test_precision_range:
+	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttempto{Ace,}.gf"
+	bash run-precision-test.bash 100 1
+	bash run-precision-test.bash 100 2
+	bash run-precision-test.bash 100 3
+	bash run-precision-test.bash 100 4
+	bash run-precision-test.bash 100 5
+	bash run-precision-test.bash 100 6
+	bash run-precision-test.bash 100 7
+
