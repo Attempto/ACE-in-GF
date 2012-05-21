@@ -26,7 +26,7 @@ TestAttemptoFin: [np_coord_VPS] .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSwe: [np_coord_VPS] .
+TestAttemptoSwe: Mary är en befäl eller är ett golfspelare .
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (pnNP sue_PN) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
 TestAttemptoAce: Sue is an officer and is a traveler .
@@ -36,7 +36,7 @@ TestAttemptoFin: [np_coord_VPS] .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSwe: [np_coord_VPS] .
+TestAttemptoSwe: Sue är en befäl och är en resenär .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (everyNP (cn_as_VarCN man_N)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))
 TestAttemptoAce: every man is a golfer .
@@ -96,7 +96,7 @@ TestAttemptoFin: [np_coord_VPS] .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSwe: [np_coord_VPS] .
+TestAttemptoSwe: varje man är ett golfspelare eller är en resenär .
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP nobody_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))))) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
 TestAttemptoAce: nobody who is a man or who is a golfer is an officer and is a traveler .
@@ -106,7 +106,7 @@ TestAttemptoFin: [np_coord_VPS] .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSwe: [np_coord_VPS] .
+TestAttemptoSwe: ingen , som är en man eller som är ett golfspelare är en befäl och är en resenär .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP lisa_PN) (v2VP see_V2 (pnNP mary_PN)))))
 TestAttemptoAce: Lisa sees Mary .
@@ -236,7 +236,7 @@ TestAttemptoFin: [np_coord_VPS] .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSwe: [np_coord_VPS] .
+TestAttemptoSwe: allting , som älskar något är en resenär eller är en befäl .
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP see_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN aquarium_N)))))))))
 TestAttemptoAce: everything which is seen by something is a traveler or is an aquarium .
@@ -246,7 +246,7 @@ TestAttemptoFin: [np_coord_VPS] .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSwe: [np_coord_VPS] .
+TestAttemptoSwe: allting , som blir sett av något är en resenär eller är en akvarium .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP tom_PN) (v2VP love_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN officer_N)))))))
 TestAttemptoAce: Tom loves at least 2 officers .
