@@ -1,7 +1,5 @@
 % Parses lines from STDIN.
-% Requires SWI-Prolog (tested with v6.0.0).
-%
-% NB: Very preliminary!
+% Requires SWI-Prolog (tested with v6.1.4).
 %
 % Usage:
 %

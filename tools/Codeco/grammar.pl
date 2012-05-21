@@ -659,6 +659,33 @@ $tradj => ['mad-about'].
 $variable(text:'X') => ['X'].
 $reference(text:'X') => ['X'].
 
+$variable(text:'X1') => ['X1'].
+$reference(text:'X1') => ['X1'].
+
+$variable(text:'X2') => ['X2'].
+$reference(text:'X2') => ['X2'].
+
+$variable(text:'X3') => ['X3'].
+$reference(text:'X3') => ['X3'].
+
+$variable(text:'X4') => ['X4'].
+$reference(text:'X4') => ['X4'].
+
+$variable(text:'X5') => ['X5'].
+$reference(text:'X5') => ['X5'].
+
+$variable(text:'X6') => ['X6'].
+$reference(text:'X6') => ['X6'].
+
+$variable(text:'X7') => ['X7'].
+$reference(text:'X7') => ['X7'].
+
+$variable(text:'X8') => ['X8'].
+$reference(text:'X8') => ['X8'].
+
+$variable(text:'X9') => ['X9'].
+$reference(text:'X9') => ['X9'].
+
 $variable(text:'Y') => ['Y'].
 $reference(text:'Y') => ['Y'].
 

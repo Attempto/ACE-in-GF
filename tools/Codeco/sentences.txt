@@ -16,3 +16,4 @@ there is less than 1 man .
 there are less than 1 0 men .
 there are less than 1 1 men .
 it is false that there are at least 2 women .
+if John is everybody then for every woman of nobody Y is everything Y .

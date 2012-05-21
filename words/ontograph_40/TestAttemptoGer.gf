@@ -6,15 +6,17 @@ concrete TestAttemptoGer of TestAttempto = AttemptoGer **
 flags coding=utf8;
 
 oper mkkN : Str -> AttemptoGer.CN = \n -> mkCN (mkN n) ;
+oper mk2N : Str -> Str -> Gender -> AttemptoGer.CN =
+	\sg,pl,gen -> mkCN (mkN sg pl gen) ;
 
-lin officer_N = mkkN "Offizier" ;
-lin traveler_N = mkkN "Reisende" ; -- der
+lin officer_N = mk2N "Offizier" "Offiziere" masculine ;
+lin traveler_N = mk2N "Reisende" "Reisenden" masculine ;
 lin man_N = mkCN LexiconGer.man_N ;
 lin woman_N = mkCN LexiconGer.woman_N ;
 lin golfer_N = mkkN "Golfer" ;
-lin present_N = mkkN "Geschenk" ;
-lin aquarium_N = mkkN "Aquarium" ;
-lin picture_N = mkkN "Bild" ;
+lin present_N = mk2N "Geschenk" "Geschenke" neuter ;
+lin aquarium_N = mk2N "Aquarium" "Aquarien" neuter ;
+lin picture_N = mk2N "Bild" "Bilder" neuter ;
 lin person_N = mkCN LexiconGer.person_N ;
 
 lin mary_PN = mkPN "Mary" ;

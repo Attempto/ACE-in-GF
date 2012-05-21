@@ -304,7 +304,7 @@ transitive adjective & A2 & \xp{mkA2 (mkA fond) (mkPrep of)} \\
 \subsection{GF languages}
 
 We selected the following languages which are supported by the GF RGL.
-English, German, Finnish, Urdu, Italian, French, Swedish
+English, German, Finnish, Urdu, Italian, French, Swedish, Dutch
 (, Hindi, Spanish, Catalan?).
 
 \subsection{ACE vs English}
@@ -332,8 +332,10 @@ but still using the library. [TODO: example]
 To test the coverage and performance of the GF implementation of the
 AceWiki subset we have used
 the AceWiki Codeco test set which
-is an exhaustive set of sentences with length of up to 10 tokens
-(19718 sentences in total).
+is an exhaustive set of sentences with length of up to 10 tokens.
+The original testset contains 19718 sentences, we removed sentences which
+contain the `such that' construction which was deprecated in a recent
+version of ACE, arriving at our test set of 19422.
 
 To test the precision (i.e. possible over-generation) we have used GF's
 random generation facility.
@@ -394,6 +396,10 @@ is desirable (even though AceWiki does not completely support it).
 
 \subsection{Multilinguality}
 
+[TODO: We did a closer evaluation of 7 languages.]
+
+[TODO: VPCoord is not supported in all languages]
+
 [TODO: interesting examples where the straight-forward translation produces
 a completely different meaning]
 
@@ -404,7 +410,15 @@ translation?]
 
 \subsection{Performance}
 
-[TODO: the GF parser is very fast]
+The GF implementation of ACE is relatively fast. It is capable of parsing
+all the $\sim$20,000 Codeco test sentences in 35 seconds
+(i.e. 571 sentences/sec), and linearizing the
+resulting parse trees into 8 languages in an additional 9 minutes, measured
+on an i3 laptop with 4GB of RAM. (Note that we did not measure what was
+the contribution of each language to the overall runtime.)
+Such performance enables applications where a relatively large ACE knowledge
+base is stored as a set of GF abstract trees and linearized into a
+multilingual presentation on demand in a few minutes.
 
 \section{Availability}
 

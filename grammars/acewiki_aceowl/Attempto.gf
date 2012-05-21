@@ -96,9 +96,13 @@ fun neg_slashRS : RP -> NP -> V2 -> RS ;
 
 fun which_RP : RP ;
 
--- 2.2.4
-
-fun ofCN : VarCN -> NP -> VarCN ; -- dog of John and Mary
+-- of-construction
+-- example: dog of John and Mary
+-- This version does not allow 'dog X of John' which is supported
+-- by full ACE but not in AceWiki. Note that naively changing the rule to
+-- "VarCN -> NP -> VarCN" would allow complex of-structures,
+-- e.g. ((dog of X) of X), most of which ACE does not allow. [KK]
+fun ofCN : CN -> NP -> VarCN ;
 
 -- 2.3.1
 
