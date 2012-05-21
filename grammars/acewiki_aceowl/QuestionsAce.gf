@@ -12,13 +12,6 @@ incomplete concrete QuestionsAce of Attempto =
   oper
     ip2np : SyntaxAce.IP -> Agr -> SyntaxAce.NP = \ip,agr -> lin NP ( ip ** {a = agr} ) ;
     S2QS : SyntaxAce.S -> SyntaxAce.QS = \s -> lin QS {s = \\_ => s.s} ;
-    -- Cl2QS : Cl -> SyntaxAce.QS = \cl -> lin QS {s = \\_ => cl.s ! Pres ! Simul ! CPos ! ODir} ;
-    -- Cl2QS_neg : Cl -> SyntaxAce.QS = \cl -> lin QS {s = \\_ => cl.s ! Pres ! Simul ! CNeg (True|False) ! ODir} ;
-
-    -- npq2np : NPQ -> NP = \npq -> lin NP npq ;
-    -- np2npq : NP -> NPQ = \np -> lin NPQ np ;
-    -- vpq2vp : VPQ -> SyntaxAce.VP = \vpq -> lin VP vpq ;
-    -- vp2vpq : SyntaxAce.VP -> VPQ = \vp -> lin VPQ vp ;
 
   lin vpqQS np vpq = S2QS (vpS np vpq) ;
   lin neg_vpqQS np vpq = S2QS (neg_vpS np vpq) ;
@@ -55,6 +48,5 @@ incomplete concrete QuestionsAce of Attempto =
   lin neg_predRSQ = neg_predRS ;
   lin slashRSQ = slashRS ;
   lin neg_slashRSQ = neg_slashRS ;
-
 
 }
