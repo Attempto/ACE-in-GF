@@ -410,20 +410,25 @@ translation?]
 
 \subsection{Performance}
 
-The GF implementation of ACE is relatively fast. It is capable of parsing
-all the $\sim$20,000 Codeco test sentences in 35 seconds
-(i.e. 571 sentences/sec), and linearizing the
-resulting parse trees into 8 languages in an additional 9 minutes, measured
-on an i3 laptop with 4GB of RAM. (Note that we did not measure what was
+We measured the performance of the grammar implementation on an i3 laptop
+with 4GB of RAM.
+The implementation is relatively fast. It is capable of parsing
+all the $\sim$20,000 Codeco test sentences in 55 seconds
+(i.e. 363 sentences/sec). In comparison, the Codeco DCG implementation parses
+the same set in 25 seconds.
+In order to linearize the
+resulting parse trees into 8 languages an additional 9 minutes is needed
+(Note that we did not measure what was
 the contribution of each language to the overall runtime.)
 Such performance enables applications where a relatively large ACE knowledge
 base is stored as a set of GF abstract trees and linearized into a
 multilingual presentation on demand in a few minutes.
 
+
 \section{Availability}
 
-The developed grammar is available under the LGPL license on the GitHub
-repository
+The developed grammar as well as the test sets, development tools and
+documentation are available under the LGPL license on the GitHub repository
 
 \begin{quote}
 \url{https://github.com/Attempto/ACE-in-GF}

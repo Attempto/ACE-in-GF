@@ -53,7 +53,6 @@
       3 there is a black
       3 there are which
       3 there are some cards each
-      3 the card of which
       3 Mary knows that
       3 John wants to
       3 John usually
@@ -79,8 +78,6 @@
       3 a man is more interested-in
       3 a man comes in a day A1
       3 a girl whose
-      3 a dog of who
-      3 a card of which
       3 ""
       2 XYZ
       2 whose article whose
@@ -98,8 +95,6 @@
       2 where can which
       2 where can an escaped
       2 what must a
-      2 what can a
-      2 what are
       2 the United-Nations
       2 there is someone
       2 there is no man who
@@ -197,8 +192,8 @@
       1 who sees himself
       1 who sees herself
       1 whose dogs
-      1 whose child is Mary and is
-      1 who runs and
+      1 whose child is Mary and is nothing but Mary
+      1 who runs and hits himself
       1 who likes nothing but raw meat
       1 who likes nothing but Mary
       1 who is somebody that somebody that knows who knows ?
@@ -207,14 +202,11 @@
       1 who is John fond-of
       1 who hits who
       1 who hits himself
-      1 who eats or
-      1 who eats and
       1 who does not see himself
       1 who are the children of
       1 which men give which
       1 which man's
       1 which man likes who
-      1 which man eats and
       1 which dog of who
       1 which customer does not provably
       1 which codes must a
@@ -237,6 +229,9 @@
       1 what does who
       1 what does John live in
       1 what does a man look
+      1 what can a man not
+      1 what can a customer enter
+      1 what are the cars of
       1 VisaCards
       1 the size of a box is 3 cm *
       1 there is who
@@ -252,10 +247,12 @@
       1 there is somebody such
       1 there is somebody . somebody gives himself
       1 there is somebody . somebody gives him himself
+      1 there is nothing .
       1 there is no man that
       1 there is no man .
       1 there is no dog that
       1 there is no customer who
+      1 there is nobody .
       1 there is more than 1 kg
       1 there is John's most fast
       1 there is John's fast and
@@ -356,10 +353,10 @@
       1 there are 10
       1 the man whose
       1 the furniture
-      1 the dog of who
       1 the dog of a man whose
       1 the cat of a man whose
-      1 the card of who
+      1 the card of which man whose
+      1 the card of which man the
       1 the book is given John
       1 Sun is the Sun
       1 something sees itself
@@ -404,14 +401,13 @@
       1 no analysis
       1 more than 3 kg
       1 may
-      1 Mary who which
+      1 Mary who which women ask for
       1 Mary sleeps . John sees himself
       1 Mary sees herself
       1 Mary is sent some
       1 Mary is sent a
       1 Mary is as young as who
       1 Mary does not know that
-      1 Mary asks John who asks who
       1 Jyri's
       1 JohnX
       1 John wisely
@@ -475,7 +471,6 @@
       1 John is ""John"
       1 John is in a park hit
       1 John is everything of
-      1 John is a father of who
       1 John is a customer of someone
       1 John hits himself
       1 John hates a man who John can
@@ -547,6 +542,7 @@
       1 if there is somebody X of
       1 if there is somebody X1
       1 if there is no man that
+      1 if there is nobody then
       1 if there is nobody that
       1 if there is a pet X then X is a dog or X is a cat , and it is false that X is a dog and that
       1 if there is an animal such
@@ -610,6 +606,7 @@
       1 for all clean
       1 for all cats
       1 "Fido"
+      1 every uncle of the children of somebody X is
       1 everything that knows something that hears something sees itself
       1 everything of
       1 everything barks at itself
@@ -635,7 +632,7 @@
       1 every man sleeps where
       1 every man sees a dog that barks or sees himself
       1 every man M
-      1 every man is who
+      1 every man is who in
       1 every man is where
       1 every man is rich in the morning where
       1 every man is in the morning where
@@ -654,10 +651,10 @@
       1 every dog that sees a cat that sees a rat sees itself
       1 every comment
       1 every city overlaps-with
+      1 every brother of somebody X is an uncle of the children of X .
       1 everybody X's dog hates X's
       1 everybody X likes X's
-      1 everybody who which
-      1 everybody is not seen by who
+      1 everybody who which women ask for
       1 everybody a
       1 everybody '
       1 each of some men whose
@@ -689,7 +686,6 @@
       1 a set is in itself
       1 a set is a member in itself
       1 a set exists in itself
-      1 a screen of what
       1 a red and red
       1 a quick and quick
       1 a person sees himself
@@ -706,7 +702,6 @@
       1 a man writes a book the hero of which
       1 a man works manually and quickly
       1 a man who waits walks and eats and sleeps
-      1 a man who sees who waits ?
       1 a man who is happy and sad
       1 a man who in
       1 a man who a woman is
@@ -757,7 +752,6 @@
       1 a girl sees every man whose
       1 a dog that a man sees quickly
       1 a dog that a man sees in
-      1 a dog of which
       1 a dog of a man whose
       1 a dog is good and bad
       1 a doctor sees himself
@@ -773,17 +767,16 @@
       1 a customer can enter what
       1 a customer and a clerk's contracts
       1 a comment
-      1 a code of a card of who
       1 a clerk enters the card of himself
       1 a clerk enters every card of himself
       1 a clerk enters a card of himself
-      1 a child of who
+      1 a child of who is a patricide whose
       1 a child C1
       1 a car runs more speedily
       1 a card X1
       1 a card the
-      1 a card of who
-      1 a card of somebody is valid . a card of who
+      1 a card of which man whose
+      1 a card of which man the
       1 a card of a man the
       1 a card of a man is valid . which man's
       1 a card of a man a
