@@ -52,15 +52,6 @@ build_test:
 interactive:
 	gf --path=$(path) $(words)/TestAttemptoAce.gf
 
-build_questions:
-	clear
-	gf --batch --path=$(path) $(words)/TestQuestionsAce.gf
-make_questions:
-	clear
-	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestQuestions{Ace,}.gf"
-interactive_questions:
-	gf --path=$(path) $(words)/TestQuestionsAce.gf
-
 # Clean all gfo files everywhere
 clean:
 	find -name *.gfo | xargs rm
@@ -86,11 +77,8 @@ test_precision:
 	bash run-precision-test.bash 100
 test_precision_range:
 	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttempto{Ace,}.gf"
-	bash run-precision-test.bash 100 1
-	bash run-precision-test.bash 100 2
 	bash run-precision-test.bash 100 3
 	bash run-precision-test.bash 100 4
 	bash run-precision-test.bash 100 5
 	bash run-precision-test.bash 100 6
-	bash run-precision-test.bash 100 7
 
