@@ -1,4 +1,4 @@
-incomplete concrete AttemptoI of Attempto = SymbolsC, Numeral ** open 
+incomplete concrete AttemptoI of Attempto = SymbolsC, Numeral ** open
   Syntax, 
   Symbolic,
   Prelude,
@@ -164,5 +164,49 @@ lin qsText = mkText ;
 lin npVP = mkVP ;
 lin digitsCard n = Syntax.mkCard <lin Digits n : Digits> ;
 lin v2_byVP v2 np = mkVP (passiveVP v2) (mkAdv by8agent_Prep np) ;
+
+
+-- Question-related functions to handle wh-words in object potisions
+-- Ideally everything in this section would be placed in another incomplete module QuestionsI
+-- but I can't that working, so they are here.
+
+  lincat
+    VarCNQ = Syntax.CN ;
+    NPQ = Syntax.NP ;
+    VPQ = Syntax.VP ;
+    RSQ = Syntax.RS ;
+
+  oper S2QS : Syntax.S -> Syntax.QS ;
+
+  lin vpqQS np vpq = S2QS (vpS np vpq) ;
+  lin neg_vpqQS np vpq = S2QS (neg_vpS np vpq) ;
+  lin npqQS npq vp = S2QS (mkS (mkCl npq vp)) ;
+  lin neg_npqQS npq vp = S2QS (mkS negativePol (mkCl npq vp)) ;
+
+  lin npqVPQ = npVP ;
+  lin v2VPQ = v2VP ;
+  lin a2VPQ = a2VP ;
+  lin v2_byVPQ = v2_byVP ;
+
+  lin vp_as_posVPSQ = vp_as_posVPS ;
+  lin vp_as_negVPSQ = vp_as_negVPS ;
+  lin vpq_as_posVPSQ = vp_as_posVPS ;
+  lin vpq_as_negVPSQ = vp_as_negVPS ;
+
+  lin np_coord_VPSQ np conj vpsqs = S2QS ( np_coord_VPS np conj vpsqs ) ;
+  lin npq_coord_VPS npq conj vpss = S2QS ( np_coord_VPS npq conj vpss ) ;
+
+  lin ofnpqCN = ofCN ;
+  lin aNPQ = aNP ;
+  lin theNPQ = theNP ;
+  lin noNPQ = noNP ;
+  lin everyNPQ = everyNP ;
+
+  lin relNPQ = relNP ;
+
+  lin predRSQ = predRS ;
+  lin neg_predRSQ = neg_predRS ;
+  lin slashRSQ = slashRS ;
+  lin neg_slashRSQ = neg_slashRS ;
 
 }
