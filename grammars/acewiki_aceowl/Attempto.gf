@@ -145,16 +145,11 @@ fun simpleS_as_S : SimpleS -> S ;
 
 -- 3.5
 
--- who likes Mary?
-fun ipQS : IP -> VP -> QS ;
-
--- who does not like Mary?
-fun neg_ipQS : IP -> VP -> QS ;
-
--- WH-word in object position.
--- Note that AceWiki only supports `Mary likes who?' but because
--- it is DRS-equivalent to `who does Mary like?' in (full) ACE,
--- supporting just the latter in the GF implementation can be considered enough.
+-- These have been replaced by the more generic function npqQS, which allows
+-- for wh-words in the object position of a relative clause as subject
+-- e.g. "somebody who is who is a man?"
+--fun ipQS : IP -> VP -> QS ;
+--fun neg_ipQS : IP -> VP -> QS ;
 
 -- who does Mary like?
 fun slash_ipQS : IP -> NP -> V2 -> QS ;
@@ -198,6 +193,10 @@ cat RSQ ; -- question RS, e.g. somebody "who is who" ?
 fun vpqQS : NP -> VPQ -> QS ; -- "Mary is who ?"
 fun neg_vpqQS : NP -> VPQ -> QS ; -- "Mary isn't who ?"
 
+-- These replace the ipQS functions, i.e. "who is a man ?"
+fun npqQS : NPQ -> VP -> QS ; -- "somebody who is who is a man ?"
+fun neg_npqQS : NPQ -> VP -> QS ; -- "somebody who isn't who is a man ?"
+
 -- VPQ
 fun npqVPQ : NPQ -> VPQ ; -- "is who"
 fun v2VPQ : V2 -> NPQ -> VPQ ; -- "likes who"
@@ -217,8 +216,6 @@ fun relNPQ : NP -> RSQ -> NPQ ; -- "somebody who is a friend of who" ?
 -- RSQ
 fun predRSQ : RP -> VPQ -> RSQ ; -- "who is who" ?
 fun neg_predRSQ : RP -> VPQ -> RSQ ; -- "who isn't who" ?
-
-
 
 
 }
