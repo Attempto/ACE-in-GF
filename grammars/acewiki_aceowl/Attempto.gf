@@ -197,11 +197,15 @@ fun neg_vpqQS : NP -> VPQ -> QS ; -- "Mary isn't who ?"
 fun npqQS : NPQ -> VP -> QS ; -- "somebody who is who is a man ?"
 fun neg_npqQS : NPQ -> VP -> QS ; -- "somebody who isn't who is a man ?"
 
--- VPQ
+-- VPQ, VPS
 fun npqVPQ : NPQ -> VPQ ; -- "is who"
 fun v2VPQ : V2 -> NPQ -> VPQ ; -- "likes who"
 fun a2VPQ : A2 -> NPQ -> VPQ ; -- "is mad-about who"
 fun v2_byVPQ : V2 -> NPQ -> VPQ ; -- "is asked by who"
+
+--fun vpq_as_posVPSQ : VPQ -> VPSQ ;
+--fun vpq_as_negVPSQ : VPQ -> VPSQ ;
+fun npq_coord_VPS : NPQ -> Conj -> [VPS] -> QS ;
 
 -- VarCNQ, NPQ
 fun ofnpqCN : VarCN -> NPQ -> VarCNQ ; -- "friend of who" ?
