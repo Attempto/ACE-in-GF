@@ -30,6 +30,16 @@ incomplete concrete QuestionsAce of Attempto =
   lin a2VPQ = a2VP ;
   lin v2_byVPQ = v2_byVP ;
 
+  lincat VPSQ = ExtraAce.VPS ;
+  lincat [VPSQ] = ExtraAce.ListVPS ;
+  lin BaseVPSQ = ExtraAce.BaseVPS ;
+  lin ConsVPSQ = ExtraAce.ConsVPS ;
+  lin vp_as_posVPSQ = vp_as_posVPS ;
+  lin vp_as_negVPSQ = vp_as_negVPS ;
+  lin vpq_as_posVPSQ = vp_as_posVPS ;
+  lin vpq_as_negVPSQ = vp_as_negVPS ;
+
+  lin np_coord_VPSQ np conj vpsqs = S2QS ( np_coord_VPS np conj vpsqs ) ;
   lin npq_coord_VPS npq conj vpss = S2QS ( np_coord_VPS npq conj vpss ) ;
 
   lin ofnpqCN cn np = mkCN cn (mkAdv possess_Prep np) ;

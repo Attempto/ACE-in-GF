@@ -203,8 +203,11 @@ fun v2VPQ : V2 -> NPQ -> VPQ ; -- "likes who"
 fun a2VPQ : A2 -> NPQ -> VPQ ; -- "is mad-about who"
 fun v2_byVPQ : V2 -> NPQ -> VPQ ; -- "is asked by who"
 
---fun vpq_as_posVPSQ : VPQ -> VPSQ ;
---fun vpq_as_negVPSQ : VPQ -> VPSQ ;
+-- Co-ordination
+cat VPSQ ; [VPSQ] {2} ; -- a VPS which contains at least one VPQ (ie the sentence should be a question)
+fun vp_as_posVPSQ, vp_as_negVPSQ : VP -> VPSQ ; -- allow heterogenouns lists of VP/VPQ's
+fun vpq_as_posVPSQ, vpq_as_negVPSQ : VPQ -> VPSQ ;
+fun np_coord_VPSQ : NP -> Conj -> [VPSQ] -> QS ;
 fun npq_coord_VPS : NPQ -> Conj -> [VPS] -> QS ;
 
 -- VarCNQ, NPQ
