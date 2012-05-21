@@ -43,6 +43,15 @@ build_test:
 interactive:
 	gf --path=$(path) $(words)/TestAttemptoAce.gf
 
+build_questions:
+	clear
+	gf --batch --path=$(path) $(words)/TestQuestionsAce.gf
+make_questions:
+	clear
+	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestQuestions{Ace,}.gf"
+interactive_questions:
+	gf --path=$(path) $(words)/TestQuestionsAce.gf
+
 # Clean all gfo files everywhere
 clean:
 	find -name *.gfo | xargs rm

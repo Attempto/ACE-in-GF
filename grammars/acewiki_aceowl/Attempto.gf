@@ -185,4 +185,40 @@ fun npVP  : NP -> VP ;              -- is a bank
 fun digitsCard : Digits -> Card ;   -- 8 banks
 fun v2_byVP : V2 -> NP -> VP ;      -- is bought by a customer
 
+
+-- ===== Question Stuff to be moved (ugh) =====
+
+-- Categories
+cat VarCNQ ; -- question CN, e.g. "friend of who" ?
+cat NPQ ; -- question NP, e.g. "a friend of who" ?
+cat VPQ ; -- question VP, e.g. "is who" ?
+cat RSQ ; -- question RS, e.g. somebody "who is who" ?
+
+-- Syntax
+fun vpqQS : NP -> VPQ -> QS ; -- "Mary is who ?"
+fun neg_vpqQS : NP -> VPQ -> QS ; -- "Mary isn't who ?"
+
+-- VPQ
+fun npqVPQ : NPQ -> VPQ ; -- "is who"
+fun v2VPQ : V2 -> NPQ -> VPQ ; -- "likes who"
+fun a2VPQ : A2 -> NPQ -> VPQ ; -- "is mad-about who"
+fun v2_byVPQ : V2 -> NPQ -> VPQ ; -- "is asked by who"
+
+-- VarCNQ, NPQ
+fun ofnpqCN : VarCN -> NPQ -> VarCNQ ; -- "friend of who" ?
+fun aNPQ : VarCNQ -> NPQ ;
+fun theNPQ : VarCNQ -> NPQ ;
+fun noNPQ : VarCNQ -> NPQ ;
+fun everyNPQ : VarCNQ -> NPQ ;
+
+fun ipNPQ : IP -> NPQ ; -- "who"
+fun relNPQ : NP -> RSQ -> NPQ ; -- "somebody who is a friend of who" ?
+
+-- RSQ
+fun predRSQ : RP -> VPQ -> RSQ ; -- "who is who" ?
+fun neg_predRSQ : RP -> VPQ -> RSQ ; -- "who isn't who" ?
+
+
+
+
 }
