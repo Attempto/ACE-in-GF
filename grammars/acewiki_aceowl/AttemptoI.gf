@@ -181,7 +181,6 @@ lin v2_byVP v2 np = mkVP (passiveVP v2) (mkAdv by8agent_Prep np) ;
   -- Another common one:
   -- oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = s.s} ;
 
-
   lin vpqQS np vpq = S2QS (vpS np vpq) ;
   lin neg_vpqQS np vpq = S2QS (neg_vpS np vpq) ;
   lin npqQS npq vp = S2QS (mkS (mkCl npq vp)) ;
