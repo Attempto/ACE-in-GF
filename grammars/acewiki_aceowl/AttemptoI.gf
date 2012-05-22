@@ -72,7 +72,7 @@ lincat Unit = Syntax.CN ;
 
 lin apposVarCN cn v = mkCN cn (symb v) ;
 
-lin termNP x = symb (ss x.s) ;
+lin termNP x = symb (Prelude.ss x.s) ;
 
 -- 2.2.2
 

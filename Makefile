@@ -10,8 +10,8 @@ tests = tests/acewiki_aceowl
 words_onto = words/ontograph_40
 tests_onto = tests/ontograph_40
 
-# Language list. Urdu was giving problems, so we ignore it :(
-languages = Ace Eng Fin Fre Ger Ita Swe Dut
+# Language list
+languages = Ace Eng Fin Fre Ger Ita Swe Dut Urd
 
 # Compile application grammars in all languages
 all_grammars:
