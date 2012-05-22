@@ -1,7 +1,7 @@
 --# -path=.:present
 
 concrete AttemptoFre of Attempto = NumeralFre, SymbolsC, NullVPS **
-  AttemptoI - [S2QS] with
+  AttemptoI with
   (Syntax = SyntaxFre),
   (Symbolic = SymbolicFre),
   (LexAttempto = LexAttemptoFre) ** open CommonRomance in {

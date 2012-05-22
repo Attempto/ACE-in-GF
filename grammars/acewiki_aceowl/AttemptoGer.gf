@@ -1,7 +1,7 @@
 --# -path=.:present
 
 concrete AttemptoGer of Attempto = SymbolsC, NumeralGer, NullVPS **
-  AttemptoI - [if_thenS, S2QS] with
+  AttemptoI - [if_thenS] with
   (Syntax = SyntaxGer),
   (Symbolic = SymbolicGer),
   (LexAttempto = LexAttemptoGer) ** open SentenceGer, ResGer, Prelude in {

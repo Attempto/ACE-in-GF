@@ -1,11 +1,10 @@
-instance LexAttemptoAce of LexAttempto =
-  open
-   ExtraAce,
-   SyntaxAce,
-   ParadigmsAce,
-   ConstructX,
-   (M = MakeStructuralAce),
-   IrregAce in {
+instance LexAttemptoAce of LexAttempto = open
+  ExtraAce,
+  SyntaxAce,
+  ParadigmsAce,
+  ConstructX,
+  (M = MakeStructuralAce),
+  IrregAce in {
 
 flags coding=utf8;
 

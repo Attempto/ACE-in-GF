@@ -1,6 +1,7 @@
 --# -path=.:present
 
-concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [apposVarCN, indefTherePronVarNP, indefPronVarNP] with
+concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
+  AttemptoI - [apposVarCN, indefTherePronVarNP, indefPronVarNP] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
   (LexAttempto = LexAttemptoAce) ** open ExtraAce, ResAce, Precedence in {
@@ -40,6 +41,8 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [a
     np_coord_VPS np conj vpss = ExtraAce.PredVPS np (ExtraAce.ConjVPS conj vpss);
 
   -- Questions
+  oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s} ;
+
   lincat VPSQ = ExtraAce.VPS ;
   lincat [VPSQ] = ExtraAce.ListVPS ;
   lin BaseVPSQ = ExtraAce.BaseVPS ;

@@ -1,6 +1,10 @@
-instance LexAttemptoSwe of LexAttempto = 
-  open ExtraSwe, SyntaxSwe, ParadigmsSwe, ConstructX, 
-    MakeStructuralSwe, IrregSwe in {
+instance LexAttemptoSwe of LexAttempto = open
+  ExtraSwe,
+  SyntaxSwe,
+--  ParadigmsSwe,
+  ConstructX, 
+  MakeStructuralSwe,
+  IrregSwe in {
 
 flags coding=utf8;
 
@@ -9,5 +13,5 @@ oper
 
   adj_thatCl : A -> S -> Cl = \a,s -> mkCl (mkVP (mkAP (mkAP a) s)) ;
 
-  exactly_AdN = mkAdN "exakt" ;
+  exactly_AdN = ConstructX.mkAdN "exakt" ;
 }

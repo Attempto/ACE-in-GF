@@ -1,7 +1,7 @@
 --# -path=.:present
 
 concrete AttemptoFin of Attempto = NumeralFin, SymbolsC, NullVPS **
-  AttemptoI - [S2QS] with
+  AttemptoI with
   (Syntax = SyntaxFin),
   (Symbolic = SymbolicFin),
   (LexAttempto = LexAttemptoFin) ** open ResFin in {
