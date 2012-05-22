@@ -45,6 +45,6 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [a
   lin BaseVPSQ = ExtraAce.BaseVPS ;
   lin ConsVPSQ = ExtraAce.ConsVPS ;
 
-  lin ipNPQ ip = lin NPQ ( (lin NP ip) ** {a = agrP3 (Sg|Pl)} ) ; -- TODO this variant is probably very naughty
+  lin ipNPQ ip = lin NPQ ( (lin NP ip) ** {a = agrP3 ip.n} ) ;
 
 }
