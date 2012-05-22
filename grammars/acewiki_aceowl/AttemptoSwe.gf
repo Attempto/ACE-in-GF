@@ -4,7 +4,7 @@ concrete AttemptoSwe of Attempto = NumeralSwe, SymbolsC **
   AttemptoI with
   (Syntax = SyntaxSwe),
   (Symbolic = SymbolicSwe),
-  (LexAttempto = LexAttemptoSwe) ** open (E=ExtraSwe), CommonScand in { -- opened with E= to stop inheritance of unqualified names
+  (LexAttempto = LexAttemptoSwe) ** open (E=ExtraSwe), CommonScand, ResSwe in { -- opened with E= to stop inheritance of unqualified names
 
   -- VP coordination
   lincat
@@ -25,13 +25,6 @@ concrete AttemptoSwe of Attempto = NumeralSwe, SymbolsC **
   lin BaseVPSQ = E.BaseVPS ;
   lin ConsVPSQ = E.ConsVPS ;
 
-  lin ipNPQ ip = lin NPQ ( (lin NP ip ** {a = agr} ) )
-        where {
-          agr = lin Agr {
-            g = ip.g ;
-            n = ip.n;
-            p = P3
-          }
-        } ;
+  lin ipNPQ ip = lin NP (ip ** {a = agrP3 ip.g ip.n}) ;
 
 }

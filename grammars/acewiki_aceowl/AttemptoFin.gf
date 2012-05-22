@@ -8,7 +8,7 @@ concrete AttemptoFin of Attempto = NumeralFin, SymbolsC, NullVPS **
 
   oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = s.s} ;
        
-  lin ipNPQ ip = lin NPQ ( (lin NP ip) ** {a = agrP3 ip.n ; isPron = True} ) ;
+  lin ipNPQ ip = lin NP (ip ** {a = agrP3 ip.n ; isPron = True}) ;
 
 }
 

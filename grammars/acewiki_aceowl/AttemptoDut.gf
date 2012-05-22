@@ -1,9 +1,10 @@
 --# -path=.:present
 
-concrete AttemptoDut of Attempto = SymbolsC, NumeralDut ** AttemptoI - [if_thenS] with
+concrete AttemptoDut of Attempto = SymbolsC, NumeralDut, NullVPS **
+  AttemptoI - [if_thenS] with
   (Syntax = SyntaxDut),
   (Symbolic = SymbolicDut),
-  (LexAttempto = LexAttemptoDut) ** open SentenceDut, Prelude in {
+  (LexAttempto = LexAttemptoDut) ** open SentenceDut, ResDut, Prelude in {
 
 oper then_Adv = ss "dan" ;
 
@@ -16,5 +17,9 @@ oper then_Adv = ss "dan" ;
 -- mkAdv : Subj -> S -> Adv
 -- mkS : Adv -> S -> S
 lin if_thenS p q = ExtAdvS (mkAdv if_Subj p) (mkS then_Adv q) ;
+
+  oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s ! Main} ;
+
+  lin ipNPQ ip = lin NP (ip ** {a = agrP3 ip.n ; isPron = True}) ;
 
 }
