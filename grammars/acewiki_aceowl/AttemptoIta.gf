@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoIta of Attempto = NumeralIta [Digits], SymbolsC, NullVPS **
+concrete AttemptoIta of Attempto = NumeralIta, SymbolsC, NullVPS **
   AttemptoI with
   (Syntax = SyntaxIta),
   (Symbolic = SymbolicIta),

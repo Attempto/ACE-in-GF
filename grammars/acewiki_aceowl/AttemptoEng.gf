@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoEng of Attempto = SymbolsC, NumeralEng [Digits] **
+concrete AttemptoEng of Attempto = SymbolsC, NumeralEng **
   AttemptoI - [which_RP] with
   (Syntax = SyntaxEng),
   (Symbolic = SymbolicEng),

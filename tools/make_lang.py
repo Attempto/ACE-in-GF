@@ -37,7 +37,7 @@ oper
 
 template_conc = Template("""--# -path=.:present
 
-concrete Attempto${lang} of Attempto = SymbolsC, Numeral${lang} [Digits], NullVPS ** AttemptoI with
+concrete Attempto${lang} of Attempto = SymbolsC, Numeral${lang}, NullVPS ** AttemptoI with
   (Syntax = Syntax${lang}),
   (Symbolic = Symbolic${lang}),
   (LexAttempto = LexAttempto${lang}) ** {

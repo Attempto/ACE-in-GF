@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce [Digits] **
+concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
   AttemptoI - [apposVarCN, indefTherePronVarNP, indefPronVarNP] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),

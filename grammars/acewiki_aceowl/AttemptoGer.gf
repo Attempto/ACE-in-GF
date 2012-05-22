@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoGer of Attempto = SymbolsC, NumeralGer [Digits], NullVPS **
+concrete AttemptoGer of Attempto = SymbolsC, NumeralGer, NullVPS **
   AttemptoI - [if_thenS] with
   (Syntax = SyntaxGer),
   (Symbolic = SymbolicGer),

@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoSwe of Attempto = SymbolsC, NumeralSwe [Digits] **
+concrete AttemptoSwe of Attempto = SymbolsC, NumeralSwe **
   AttemptoI with
   (Syntax = SyntaxSwe),
   (Symbolic = SymbolicSwe),
