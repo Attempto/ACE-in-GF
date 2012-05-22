@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce, QuestionsAce ** AttemptoI - [apposVarCN, indefTherePronVarNP, indefPronVarNP] with
+concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce ** AttemptoI - [apposVarCN, indefTherePronVarNP, indefPronVarNP] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
   (LexAttempto = LexAttemptoAce) ** open ExtraAce, ResAce, Precedence in {
@@ -38,5 +38,13 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce, QuestionsAce ** 
     vp_as_posVPS = MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
     vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) AnyNeg ;
     np_coord_VPS np conj vpss = ExtraAce.PredVPS np (ExtraAce.ConjVPS conj vpss);
+
+  -- Questions
+  lincat VPSQ = ExtraAce.VPS ;
+  lincat [VPSQ] = ExtraAce.ListVPS ;
+  lin BaseVPSQ = ExtraAce.BaseVPS ;
+  lin ConsVPSQ = ExtraAce.ConsVPS ;
+
+  lin ipNPQ ip = lin NPQ ( (lin NP ip) ** {a = agrP3 (Sg|Pl)} ) ; -- TODO this variant is probably very naughty
 
 }
