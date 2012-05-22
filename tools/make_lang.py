@@ -30,18 +30,24 @@ oper
 
   adj_thatCl : A -> S -> Cl = \\a,s -> mkCl (mkVP (mkAP (mkAP a) s)) ;
 
-  exactly_AdN = mkAdN "exactly" ;
+  exactly_AdN = ConstructX.mkAdN "exactly" ;
 
-}
+} ;
 """)
 
 template_conc = Template("""--# -path=.:present
 
-concrete Attempto${lang} of Attempto = Numeral${lang}, SymbolsC ** AttemptoI with
+concrete Attempto${lang} of Attempto = SymbolsC, Numeral${lang} [Digits], NullVPS ** AttemptoI with
   (Syntax = Syntax${lang}),
   (Symbolic = Symbolic${lang}),
-  (LexAttempto = LexAttempto${lang})
-;""")
+  (LexAttempto = LexAttempto${lang}) ** {
+
+  oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\\\_ => s.s} ; -- TODO
+       
+  lin ipNPQ ip = lin NP ( ip ** { } ) ; -- TODO
+
+} ;
+""")
 
 
 template_words = Template("""--# -path=.:present
@@ -74,7 +80,9 @@ lin help_V2 = mkV2 (mkV "help") ;
 lin admire_V2 = mkV2 (mkV "admire") ;
 lin love_V2 = L.love_V2 ;
 lin inspect_V2 = mkV2 (mkV "inspect") ;
-}""")
+
+} ;
+""")
 
 
 def write_file(dir, filename, content):
