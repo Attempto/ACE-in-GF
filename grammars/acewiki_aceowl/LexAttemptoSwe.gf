@@ -1,7 +1,7 @@
 instance LexAttemptoSwe of LexAttempto = open
   ExtraSwe,
   SyntaxSwe,
---  ParadigmsSwe,
+  ParadigmsSwe,
   ConstructX, 
   MakeStructuralSwe,
   IrregSwe in {

@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoFre of Attempto = NumeralFre, SymbolsC, NullVPS **
+concrete AttemptoFre of Attempto = NumeralFre [Digits], SymbolsC, NullVPS **
   AttemptoI with
   (Syntax = SyntaxFre),
   (Symbolic = SymbolicFre),

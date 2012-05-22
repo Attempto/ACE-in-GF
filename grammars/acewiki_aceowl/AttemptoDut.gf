@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoDut of Attempto = SymbolsC, NumeralDut, NullVPS **
+concrete AttemptoDut of Attempto = SymbolsC, NumeralDut [Digits], NullVPS **
   AttemptoI - [if_thenS] with
   (Syntax = SyntaxDut),
   (Symbolic = SymbolicDut),

@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoFin of Attempto = NumeralFin, SymbolsC, NullVPS **
+concrete AttemptoFin of Attempto = NumeralFin [Digits], SymbolsC, NullVPS **
   AttemptoI with
   (Syntax = SyntaxFin),
   (Symbolic = SymbolicFin),
