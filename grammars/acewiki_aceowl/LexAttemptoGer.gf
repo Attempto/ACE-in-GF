@@ -1,7 +1,10 @@
-instance LexAttemptoGer of LexAttempto = 
-  open ExtraGer, SyntaxGer, ParadigmsGer, ConstructX,
-    MakeStructuralGer, 
-    IrregGer, Prelude in {
+instance LexAttemptoGer of LexAttempto = open
+  ExtraGer,
+  SyntaxGer,
+  ParadigmsGer,
+  ConstructX,
+  MakeStructuralGer, 
+  IrregGer in {
 
 flags coding=utf8;
 
@@ -10,6 +13,6 @@ oper
 
   adj_thatCl : A -> S -> Cl = \a,s -> mkCl (mkVP (mkAP (mkAP a) s)) ;
 
-  exactly_AdN = mkAdN "genau" ;
+  exactly_AdN = ConstructX.mkAdN "genau" ;
 
 }
