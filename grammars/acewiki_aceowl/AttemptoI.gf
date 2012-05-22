@@ -177,8 +177,10 @@ lin v2_byVP v2 np = mkVP (passiveVP v2) (mkAdv by8agent_Prep np) ;
     RSQ = Syntax.RS ;
 
   -- This function must be overridden in languages where QS isn't of type {s : QForm => Str}
-  oper S2QS : Syntax.S -> Syntax.QS ;
-  oper S2QS s = lin QS {s = \\_ => s.s} ;
+  oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s} ;
+  -- Another common one:
+  -- oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = s.s} ;
+
 
   lin vpqQS np vpq = S2QS (vpS np vpq) ;
   lin neg_vpqQS np vpq = S2QS (neg_vpS np vpq) ;
@@ -195,6 +197,7 @@ lin v2_byVP v2 np = mkVP (passiveVP v2) (mkAdv by8agent_Prep np) ;
   -- lincat [VPSQ] = Extra.ListVPS ;
   -- lin BaseVPSQ = Extra.BaseVPS ;
   -- lin ConsVPSQ = Extra.ConsVPS ;
+
   lin vp_as_posVPSQ = vp_as_posVPS ;
   lin vp_as_negVPSQ = vp_as_negVPS ;
   lin vpq_as_posVPSQ = vp_as_posVPS ;
