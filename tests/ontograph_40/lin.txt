@@ -7,6 +7,7 @@ TestAttemptoFin: Mary on matkustajan .
 TestAttemptoFre: Mary est un voyageur .
 TestAttemptoGer: Mary ist ein Reisende .
 TestAttemptoIta: Mary è un viaggiatore .
+TestAttemptoSpa: Mary es un viajero .
 TestAttemptoSwe: Mary är en resenär .
 TestAttemptoUrd: Mary اك مسافر ہے
 
@@ -19,6 +20,7 @@ TestAttemptoFin: Bill ei ole golfin .
 TestAttemptoFre: Bill n' est pas un golfeur .
 TestAttemptoGer: Bill ist ein Golfer nicht .
 TestAttemptoIta: Bill non è un giocatore di golf .
+TestAttemptoSpa: Bill no es una golfista .
 TestAttemptoSwe: Bill är inte ett golfspelare .
 TestAttemptoUrd: Bill اك گولفر نہیں ہے
 
@@ -31,6 +33,7 @@ TestAttemptoFin: [np_coord_VPS] .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
+TestAttemptoSpa: [np_coord_VPS] .
 TestAttemptoSwe: Mary är en befäl eller är ett golfspelare .
 TestAttemptoUrd: [np_coord_VPS]
 
@@ -43,6 +46,7 @@ TestAttemptoFin: [np_coord_VPS] .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
+TestAttemptoSpa: [np_coord_VPS] .
 TestAttemptoSwe: Sue är en befäl och är en resenär .
 TestAttemptoUrd: [np_coord_VPS]
 
@@ -55,6 +59,7 @@ TestAttemptoFin: jokainen mies on golfin .
 TestAttemptoFre: chaque homme est un golfeur .
 TestAttemptoGer: jeder Mann ist ein Golfer .
 TestAttemptoIta: ogni uomo è un giocatore di golf .
+TestAttemptoSpa: cada hombre es una golfista .
 TestAttemptoSwe: varje man är ett golfspelare .
 TestAttemptoUrd: ہر آدمی اك گولفر ہے
 
@@ -67,6 +72,7 @@ TestAttemptoFin: ei mikään golfin on nainen .
 TestAttemptoFre: aucun golfeur est une femme .
 TestAttemptoGer: kein Golfer ist eine Frau .
 TestAttemptoIta: nessuno giocatore di golf è una donna .
+TestAttemptoSpa: hacia golfista es una mujer .
 TestAttemptoSwe: inget golfspelare är en kvinna .
 TestAttemptoUrd: كوی نہیں گولفر اك عورت ہے
 
@@ -79,6 +85,7 @@ TestAttemptoFin: jokainen nainen on upseeri ja jokainen upseeri on nainen .
 TestAttemptoFre: chaque femme est un officier et chaque officier est une femme .
 TestAttemptoGer: jede Frau ist ein Offizier und jeder Offizier ist eine Frau .
 TestAttemptoIta: ogni donna è un ufficiale ed ogni ufficiale è una donna .
+TestAttemptoSpa: cada mujer es un funcionario y cada funcionario es una mujer .
 TestAttemptoSwe: varje kvinna är en befäl och varje befäl är en kvinna .
 TestAttemptoUrd: ہر عورت اك افسر ہے اور ہر افسر اك عورت ہے
 
@@ -91,6 +98,7 @@ TestAttemptoFin: jokainen matkustajan joka ei ole nainen on golfin .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende der eine Frau nicht ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
+TestAttemptoSpa: cada viajero que no es una mujer es una golfista .
 TestAttemptoSwe: varje resenär som inte är en kvinna är ett golfspelare .
 TestAttemptoUrd: ہر مسافر جو اك عورت نہیں ہے اك گولفر ہے
 
@@ -103,6 +111,7 @@ TestAttemptoFin: jokainen matkustajan , joka ei ole nainen on golfin .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende , der eine Frau nicht ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
+TestAttemptoSpa: cada viajero que no es una mujer es una golfista .
 TestAttemptoSwe: varje resenär , som inte är en kvinna är ett golfspelare .
 TestAttemptoUrd: ہر مسافر , جو اك عورت نہیں ہے اك گولفر ہے
 
@@ -115,6 +124,7 @@ TestAttemptoFin: [np_coord_VPS] .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
+TestAttemptoSpa: [np_coord_VPS] .
 TestAttemptoSwe: varje man är ett golfspelare eller är en resenär .
 TestAttemptoUrd: [np_coord_VPS]
 
@@ -127,6 +137,7 @@ TestAttemptoFin: [np_coord_VPS] .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
+TestAttemptoSpa: [np_coord_VPS] .
 TestAttemptoSwe: ingen , som är en man eller som är ett golfspelare är en befäl och är en resenär .
 TestAttemptoUrd: [np_coord_VPS]
 
@@ -139,6 +150,7 @@ TestAttemptoFin: Lisa näkee Maryn .
 TestAttemptoFre: Lisa voit Mary .
 TestAttemptoGer: Lisa sieht Mary .
 TestAttemptoIta: Lisa vede Mary .
+TestAttemptoSpa: Lisa ve Mary .
 TestAttemptoSwe: Lisa ser Mary .
 TestAttemptoUrd: Lisa Mary دیكھتا ہے
 
@@ -151,6 +163,7 @@ TestAttemptoFin: Mary ei näe Tomia .
 TestAttemptoFre: Mary ne voit pas Tom .
 TestAttemptoGer: Mary sieht Tom nicht .
 TestAttemptoIta: Mary non vede Tom .
+TestAttemptoSpa: Mary no ve Tom .
 TestAttemptoSwe: Mary ser inte Tom .
 TestAttemptoUrd: Mary Tom نہیں دیكھتا ہے
 
@@ -163,6 +176,7 @@ TestAttemptoFin: Tom ostaa kuvan .
 TestAttemptoFre: Tom achète une image .
 TestAttemptoGer: Tom kauft ein Bild .
 TestAttemptoIta: Tom compra un immagine .
+TestAttemptoSpa: Tom compra un imagen .
 TestAttemptoSwe: Tom köper en bild .
 TestAttemptoUrd: Tom اك تصویر كو خریدتا ہے
 
@@ -175,6 +189,7 @@ TestAttemptoFin: Mary näkee ei minkään miehen .
 TestAttemptoFre: Mary voit aucun homme .
 TestAttemptoGer: Mary sieht keinen Mann .
 TestAttemptoIta: Mary vede nessuno uomo .
+TestAttemptoSpa: Mary ve hacia hombre .
 TestAttemptoSwe: Mary ser ingen man .
 TestAttemptoUrd: Mary كوی نہیں آدمی دیكھتا ہے
 
@@ -187,6 +202,7 @@ TestAttemptoFin: John ostaa jonkin , joka ei ole lahja .
 TestAttemptoFre: John achète quelque chose qui n' est pas un cadeau .
 TestAttemptoGer: John kauft etwas , das ein Geschenk nicht ist .
 TestAttemptoIta: John compra qualche cosa che non è un regalo .
+TestAttemptoSpa: John compra algo que no es un regalo .
 TestAttemptoSwe: John köper något , som inte är en present .
 TestAttemptoUrd: John كوی چیز , جو اك پیش نہیں ہے كو خریدتا ہے
 
@@ -199,6 +215,7 @@ TestAttemptoFin: John näkee vain miehet .
 TestAttemptoFre: John voit seulement des hommes .
 TestAttemptoGer: John sieht nur Männer .
 TestAttemptoIta: John vede soltanto uomini .
+TestAttemptoSpa: John ve solamente hombres .
 TestAttemptoSwe: John ser bara män .
 TestAttemptoUrd: John صرف آدمی دیكھتا ہے
 
@@ -211,6 +228,7 @@ TestAttemptoFin: jokainen mies ostaa lahjan .
 TestAttemptoFre: chaque homme achète un cadeau .
 TestAttemptoGer: jeder Mann kauft ein Geschenk .
 TestAttemptoIta: ogni uomo compra un regalo .
+TestAttemptoSpa: cada hombre compra un regalo .
 TestAttemptoSwe: varje man köper en present .
 TestAttemptoUrd: ہر آدمی اك پیش كو خریدتا ہے
 
@@ -223,6 +241,7 @@ TestAttemptoFin: kaikki , joka ostaa lahjan on mies .
 TestAttemptoFre: tout qui achète un cadeau est un homme .
 TestAttemptoGer: alles , das ein Geschenk kauft ist ein Mann .
 TestAttemptoIta: tutto che compra un regalo è un uomo .
+TestAttemptoSpa: todo que compra un regalo es un hombre .
 TestAttemptoSwe: allting , som köper en present är en man .
 TestAttemptoUrd: ہر چیز , جو اك پیش كو خریدتا ہے اك آدمی ہے
 
@@ -235,6 +254,7 @@ TestAttemptoFin: jokainen mies ostaa vain lahjat .
 TestAttemptoFre: chaque homme achète seulement des cadeaux .
 TestAttemptoGer: jeder Mann kauft nur Geschenke .
 TestAttemptoIta: ogni uomo compra soltanto regali .
+TestAttemptoSpa: cada hombre compra solamente regalos .
 TestAttemptoSwe: varje man köper bara presentar .
 TestAttemptoUrd: ہر آدمی صرف پیش كو خریدتا ہے
 
@@ -247,6 +267,7 @@ TestAttemptoFin: kaikki , joka ostaa vain kuvat on nainen .
 TestAttemptoFre: tout qui achète seulement des images est une femme .
 TestAttemptoGer: alles , das nur Bilder kauft ist eine Frau .
 TestAttemptoIta: tutto che compra soltanto immagini è una donna .
+TestAttemptoSpa: todo que compra solamente imagenes es una mujer .
 TestAttemptoSwe: allting , som köper bara bildar är en kvinna .
 TestAttemptoUrd: ہر چیز , جو صرف تصویر كو خریدتا ہے اك عورت ہے
 
@@ -259,6 +280,7 @@ TestAttemptoFin: kaikki , joka näkee jonkin on upseeri .
 TestAttemptoFre: tout qui voit quelque chose est un officier .
 TestAttemptoGer: alles , das etwas sieht ist ein Offizier .
 TestAttemptoIta: tutto che vede qualche cosa è un ufficiale .
+TestAttemptoSpa: todo que ve algo es un funcionario .
 TestAttemptoSwe: allting , som ser något är en befäl .
 TestAttemptoUrd: ہر چیز , جو كوی چیز دیكھتا ہے اك افسر ہے
 
@@ -271,6 +293,7 @@ TestAttemptoFin: kaikki , jota rakastetaan jonkin toimesta on henkilö .
 TestAttemptoFre: tout qui est aimé par quelque chose est une personne .
 TestAttemptoGer: alles , das durch etwas geliebt wird ist eine Person .
 TestAttemptoIta: tutto che viene amato da qualche cosa è una persona .
+TestAttemptoSpa: todo que es amado por algo es una persona .
 TestAttemptoSwe: allting , som blir älskat av något är en person .
 TestAttemptoUrd: ہر چیز , جو كوی چیز سے پیار كرتا ہے اك شخص ہے
 
@@ -283,6 +306,7 @@ TestAttemptoFin: [np_coord_VPS] .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
+TestAttemptoSpa: [np_coord_VPS] .
 TestAttemptoSwe: allting , som älskar något är en resenär eller är en befäl .
 TestAttemptoUrd: [np_coord_VPS]
 
@@ -295,6 +319,7 @@ TestAttemptoFin: [np_coord_VPS] .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
+TestAttemptoSpa: [np_coord_VPS] .
 TestAttemptoSwe: allting , som blir sett av något är en resenär eller är en akvarium .
 TestAttemptoUrd: [np_coord_VPS]
 
@@ -307,6 +332,7 @@ TestAttemptoFin: Tom rakastaa vähintään 2 upseeria .
 TestAttemptoFre: Tom aime au moins 2 officiers .
 TestAttemptoGer: Tom liebt wenigstens 2 Offiziere .
 TestAttemptoIta: Tom ama almeno 2 ufficiali .
+TestAttemptoSpa: Tom ama al menos 2 funcionarios .
 TestAttemptoSwe: Tom älskar minst 2 befälar .
 TestAttemptoUrd: Tom كم از كم ۲ افسر كو پیار كرتا ہے
 
@@ -319,6 +345,7 @@ TestAttemptoFin: Lisa ostaa enintään 1 lahjan .
 TestAttemptoFre: Lisa achète au plus 1 cadeau .
 TestAttemptoGer: Lisa kauft höchstens 1 Geschenk .
 TestAttemptoIta: Lisa compra al massimo 1 regalo .
+TestAttemptoSpa: Lisa compra a lo más 1 regalo .
 TestAttemptoSwe: Lisa köper högst 1 present .
 TestAttemptoUrd: Lisa اك زیادہ سے زیادہ ۱ پیش كو خریدتا ہے
 
@@ -331,6 +358,7 @@ TestAttemptoFin: jokainen matkustajan näkee vähintään 2 akvaariota .
 TestAttemptoFre: chaque voyageur voit au moins 2 aquariums .
 TestAttemptoGer: jeder Reisende sieht wenigstens 2 Aquariume .
 TestAttemptoIta: ogni viaggiatore vede almeno 2 acquari .
+TestAttemptoSpa: cada viajero ve al menos 2 acuarios .
 TestAttemptoSwe: varje resenär ser minst 2 akvariumar .
 TestAttemptoUrd: ہر مسافر كم از كم ۲ ایکویریم دیكھتا ہے
 
@@ -343,6 +371,7 @@ TestAttemptoFin: kaikki , joka ostaa vähintään 2 lahjaa on upseeri .
 TestAttemptoFre: tout qui achète au moins 2 cadeaux est un officier .
 TestAttemptoGer: alles , das wenigstens 2 Geschenke kauft ist ein Offizier .
 TestAttemptoIta: tutto che compra almeno 2 regali è un ufficiale .
+TestAttemptoSpa: todo que compra al menos 2 regalos es un funcionario .
 TestAttemptoSwe: allting , som köper minst 2 presentar är en befäl .
 TestAttemptoUrd: ہر چیز , جو كم از كم ۲ پیش كو خریدتا ہے اك افسر ہے
 
@@ -355,6 +384,7 @@ TestAttemptoFin: jokainen upseeri näkee enintään 1 akvaarion .
 TestAttemptoFre: chaque officier voit au plus 1 aquarium .
 TestAttemptoGer: jeder Offizier sieht höchstens 1 Aquarium .
 TestAttemptoIta: ogni ufficiale vede al massimo 1 acquario .
+TestAttemptoSpa: cada funcionario ve a lo más 1 acuario .
 TestAttemptoSwe: varje befäl ser högst 1 akvarium .
 TestAttemptoUrd: ہر افسر اك زیادہ سے زیادہ ۱ ایکویریم دیكھتا ہے
 
@@ -367,6 +397,7 @@ TestAttemptoFin: kaikki , joka on matkustajan tai joka on upseeri näkee enintä
 TestAttemptoFre: tout qui est un voyageur ou qui est un officier voit au plus 1 aquarium .
 TestAttemptoGer: alles , das ein Reisende ist oder das ein Offizier ist sieht höchstens 1 Aquarium .
 TestAttemptoIta: tutto che è un viaggiatore o che è un ufficiale vede al massimo 1 acquario .
+TestAttemptoSpa: todo que es un viajero o que es un funcionario ve a lo más 1 acuario .
 TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högst 1 akvarium .
 TestAttemptoUrd: ہر چیز , جو اك مسافر ہے یا جو اك افسر ہے اك زیادہ سے زیادہ ۱ ایکویریم دیكھتا ہے
 
@@ -379,6 +410,7 @@ TestAttemptoFin: jos X auttaa Y niin Y auttaa X .
 TestAttemptoFre: si X aide Y alors Y aide X .
 TestAttemptoGer: wenn X Y hilft , dann hilft Y X .
 TestAttemptoIta: si X aiuta Y allora Y aiuta X .
+TestAttemptoSpa: si X ayuda Y entonces Y ayuda X .
 TestAttemptoSwe: om X assisterar Y så Y assisterar X .
 TestAttemptoUrd: اگر X Y متا ہے تو Y X متا ہے
 
@@ -391,6 +423,7 @@ TestAttemptoFin: jos X näkee Y niin Y ei näe X .
 TestAttemptoFre: si X voit Y alors Y ne voit pas X .
 TestAttemptoGer: wenn X Y sieht , dann sieht Y X nicht .
 TestAttemptoIta: si X vede Y allora Y non vede X .
+TestAttemptoSpa: si X ve Y entonces Y no ve X .
 TestAttemptoSwe: om X ser Y så Y ser inte X .
 TestAttemptoUrd: اگر X Y دیكھتا ہے تو Y X نہیں دیكھتا ہے
 
@@ -403,6 +436,7 @@ TestAttemptoFin: jos X näkee jonkun , joka näkee Y niin X näkee Y .
 TestAttemptoFre: si X voit quelqu'un qui voit Y alors X voit Y .
 TestAttemptoGer: wenn X jemanden , das Y sieht sieht , dann sieht X Y .
 TestAttemptoIta: si X vede qualcuno che vede Y allora X vede Y .
+TestAttemptoSpa: si X ve algún que ve Y entonces X ve Y .
 TestAttemptoSwe: om X ser någon , som ser Y så X ser Y .
 TestAttemptoUrd: اگر X كوی , جو Y دیكھتا ہے دیكھتا ہے تو X Y دیكھتا ہے
 
@@ -415,6 +449,7 @@ TestAttemptoFin: jos X ihailee Y niin X näkee Y .
 TestAttemptoFre: si X admire Y alors X voit Y .
 TestAttemptoGer: wenn X Y bewundert , dann sieht X Y .
 TestAttemptoIta: si X ammira Y allora X vede Y .
+TestAttemptoSpa: si X admira Y entonces X ve Y .
 TestAttemptoSwe: om X beundrar Y så X ser Y .
 TestAttemptoUrd: اگر X Y کی تعریفتا ہے تو X Y دیكھتا ہے
 
@@ -427,6 +462,7 @@ TestAttemptoFin: jos X tarkastaa Y niin X auttaa Y .
 TestAttemptoFre: si X inspecte Y alors X aide Y .
 TestAttemptoGer: wenn X Y inspiziert , dann hilft X Y .
 TestAttemptoIta: si X ispeziona Y allora X aiuta Y .
+TestAttemptoSpa: si X inspecciona Y entonces X ayuda Y .
 TestAttemptoSwe: om X avsynar Y så X assisterar Y .
 TestAttemptoUrd: اگر X Y معائتا ہے تو X Y متا ہے
 
@@ -439,6 +475,7 @@ TestAttemptoFin: jos X auttaa Y niin Y ihailee X .
 TestAttemptoFre: si X aide Y alors Y admire X .
 TestAttemptoGer: wenn X Y hilft , dann bewundert Y X .
 TestAttemptoIta: si X aiuta Y allora Y ammira X .
+TestAttemptoSpa: si X ayuda Y entonces Y admira X .
 TestAttemptoSwe: om X assisterar Y så Y beundrar X .
 TestAttemptoUrd: اگر X Y متا ہے تو Y X کی تعریفتا ہے
 
@@ -451,6 +488,7 @@ TestAttemptoFin: jos X rakastaa Y niin X ei ihaile Y .
 TestAttemptoFre: si X aime Y alors X n' admire pas Y .
 TestAttemptoGer: wenn X Y liebt , dann bewundert X Y nicht .
 TestAttemptoIta: si X ama Y allora X non ammira Y .
+TestAttemptoSpa: si X ama Y entonces X no admira Y .
 TestAttemptoSwe: om X älskar Y så X beundrar inte Y .
 TestAttemptoUrd: اگر X Y كو پیار كرتا ہے تو X Y نہیں کی تعریفتا ہے
 
@@ -463,6 +501,7 @@ TestAttemptoFin: jos X näkee Y niin Y ei rakasta X .
 TestAttemptoFre: si X voit Y alors Y n' aime pas X .
 TestAttemptoGer: wenn X Y sieht , dann liebt Y X nicht .
 TestAttemptoIta: si X vede Y allora Y non ama X .
+TestAttemptoSpa: si X ve Y entonces Y no ama X .
 TestAttemptoSwe: om X ser Y så Y älskar inte X .
 TestAttemptoUrd: اگر X Y دیكھتا ہے تو Y X كو نہیں پیار كرتا ہے
 
@@ -475,6 +514,7 @@ TestAttemptoFin: jos X ihailee Y niin X näkee Y . jos X näkee Y niin X ihailee
 TestAttemptoFre: si X admire Y alors X voit Y . si X voit Y alors X admire Y .
 TestAttemptoGer: wenn X Y bewundert , dann sieht X Y . wenn X Y sieht , dann bewundert X Y .
 TestAttemptoIta: si X ammira Y allora X vede Y . si X vede Y allora X ammira Y .
+TestAttemptoSpa: si X admira Y entonces X ve Y . si X ve Y entonces X admira Y .
 TestAttemptoSwe: om X beundrar Y så X ser Y . om X ser Y så X beundrar Y .
 TestAttemptoUrd: اگر X Y کی تعریفتا ہے تو X Y دیكھتا ہے اگر X Y دیكھتا ہے تو X Y کی تعریفتا ہے
 
@@ -487,6 +527,7 @@ TestAttemptoFin: jos X tarkastaa Y niin Y näkee X . jos Y näkee X niin X tarka
 TestAttemptoFre: si X inspecte Y alors Y voit X . si Y voit X alors X inspecte Y .
 TestAttemptoGer: wenn X Y inspiziert , dann sieht Y X . wenn Y X sieht , dann inspiziert X Y .
 TestAttemptoIta: si X ispeziona Y allora Y vede X . si Y vede X allora X ispeziona Y .
+TestAttemptoSpa: si X inspecciona Y entonces Y ve X . si Y ve X entonces X inspecciona Y .
 TestAttemptoSwe: om X avsynar Y så Y ser X . om Y ser X så X avsynar Y .
 TestAttemptoUrd: اگر X Y معائتا ہے تو Y X دیكھتا ہے اگر Y X دیكھتا ہے تو X Y معائتا ہے
 
