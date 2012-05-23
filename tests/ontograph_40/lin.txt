@@ -15,7 +15,7 @@ TestAttemptoDut: Bill is niet een golfer .
 TestAttemptoEng: Bill isn't a golfer .
 TestAttemptoFin: Bill ei ole golfin .
 TestAttemptoFre: Bill n' est pas un golfeur .
-TestAttemptoGer: Bill ist nicht ein Golfer .
+TestAttemptoGer: Bill ist ein Golfer nicht .
 TestAttemptoIta: Bill non è un giocatore di golf .
 TestAttemptoSwe: Bill är inte ett golfspelare .
 TestAttemptoUrd: Bill اك گولفر نہیں ہے
@@ -81,7 +81,7 @@ TestAttemptoDut: elke reiziger die niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler who isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustajan joka ei ole nainen on golfin .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
-TestAttemptoGer: jeder Reisende der nicht eine Frau ist ist ein Golfer .
+TestAttemptoGer: jeder Reisende der eine Frau nicht ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoSwe: varje resenär som inte är en kvinna är ett golfspelare .
 TestAttemptoUrd: ہر مسافر جو اك عورت نہیں ہے اك گولفر ہے
@@ -92,7 +92,7 @@ TestAttemptoDut: elke reiziger , dat niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler who isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustajan , joka ei ole nainen on golfin .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
-TestAttemptoGer: jeder Reisende , der nicht eine Frau ist ist ein Golfer .
+TestAttemptoGer: jeder Reisende , der eine Frau nicht ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoSwe: varje resenär , som inte är en kvinna är ett golfspelare .
 TestAttemptoUrd: ہر مسافر , جو اك عورت نہیں ہے اك گولفر ہے
@@ -169,7 +169,7 @@ TestAttemptoDut: John koopt iets , die niet een cadeau is .
 TestAttemptoEng: John buys something which isn't a present .
 TestAttemptoFin: John ostaa jonkin , joka ei ole lahja .
 TestAttemptoFre: John achète quelque chose qui n' est pas un cadeau .
-TestAttemptoGer: John kauft etwas , das nicht ein Geschenk ist .
+TestAttemptoGer: John kauft etwas , das ein Geschenk nicht ist .
 TestAttemptoIta: John compra qualche cosa che non è un regalo .
 TestAttemptoSwe: John köper något , som inte är en present .
 TestAttemptoUrd: John كوی چیز , جو اك پیش نہیں ہے كو خریدتا ہے
