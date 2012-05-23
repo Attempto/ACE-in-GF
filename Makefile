@@ -11,7 +11,7 @@ words_onto = words/ontograph_40
 tests_onto = tests/ontograph_40
 
 # Language list
-languages = Ace Eng Fin Fre Ger Ita Swe Dut Urd
+languages = Ace Cat Eng Fin Fre Ger Ita Swe Dut Urd
 
 # Compile application grammars in all languages
 all_grammars:
