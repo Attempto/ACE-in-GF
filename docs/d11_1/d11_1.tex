@@ -27,7 +27,7 @@
 This report describes the implementation of a large part of the
 Attempto Controlled English (ACE) syntax ---
 the subset of ACE that is accepted by the AceWiki semantic wiki system ---
-in Grammatical Framework (GF) and making it available via [TODO: 10]
+in Grammatical Framework (GF) and making it available via 10
 languages that are supported by the GF Resource Grammar Library (RGL).
 As a result, ACE becomes available in multiple languages, making
 ACE-based knowledge representation possible also in languages other than
@@ -48,7 +48,7 @@ syntax and semantics understandable by automatic theorem proving software.
 ACE texts are deterministically interpreted
 via Discourse Representation Structures (DRS) \cite{kamp:drt1993}.
 The syntactically legal sentence structures and their
-unambiguous interpretation is explained in the end-user documentation of
+unambiguous interpretation are explained in the end-user documentation of
 \emph{construction} and \emph{interpretation} rules.
 The ACE toolchain includes a parser that maps ACE sentences into a concrete
 DRS form \cite{ifi-2010.0010} and further into formats supported by existing
@@ -104,15 +104,16 @@ implement the grammar of ACE in GF, with the main goal of turning ACE into
 a multilingual CNL.
 In section \ref{section:Goals_and_requirements} we describe the goals and
 requirements that a GF-based implementation of ACE should meet;
-in section \ref{section:Existing_work} we point out existing implementations;
-in section \ref{section:Implementing_ACE_in_GF} we describe our implementation;
+in section \ref{section:Existing_work} we point out two existing
+GF implementations of ACE;
+in section \ref{section:ACE_in_GF} we describe our implementation;
 in section \ref{section:Multilinguality} we describe the most important feature
 of this implementation, namely multilinguality;
 in section \ref{section:Evaluation} we evaluate the implementation by comparing
 it to existing implementations of the ACE grammar and discuss the multilingual
 representations of ACE sentences;
-in section \ref{section:Future_work} we describe possible extensions to this
-work.
+in section \ref{section:Conclusions} we summarize the work and
+describe its possible extensions.
 
 The developed grammar as well as the test sets, development tools and
 documentation are available under the LGPL license on the GitHub repository
@@ -206,8 +207,8 @@ The system is also not built with multilinguality in mind
 a starting point of the work described in this report.
 
 
-\section{Implementing ACE in GF}
-\label{section:Implementing_ACE_in_GF}
+\section{Implementation of ACE in GF}
+\label{section:ACE_in_GF}
 
 Rather than directly building a grammar for the
 full ACE v6.6\cite{ACE_6.6_Construction_Rules}, we chose to focus
@@ -230,7 +231,7 @@ With Codeco we can perform exhaustive generation of syntactically legal
 sentences. Also the Codeco grammar can be used to implement look-ahead
 editors, similarly to GF, which provides for us another point of comparison.
 
-\subsection{Short comparison of Codeco and GF}
+\subsection{Comparison of Codeco and GF}
 \label{subsection:Codeco}
 
 Codeco is a unification grammar formalism with special support for describing
@@ -257,10 +258,10 @@ unify, e.g. nouns in the noun phrases match.
 The definite NP cannot be used after `there is' because the
 declared features \verb!def:+! and \verb!def:-! do not unify.
 
-Most of the features are syntactic in nature and must be therefore implemented
-in GF's concrete grammar which offers structures similar to Codeco's feature
+Most of the Codeco features are syntactic in nature and therefore map to
+GF's concrete grammar which offers structures similar to Codeco's feature
 sets and operations similar to Codeco's unification. However, some of the
-features are semantic in nature (e.g. `exists') and should be therefore
+Codeco features are semantic in nature (e.g. `exists') and should be therefore
 implemented in GF's abstract grammar where such unification-style rules are
 not possible. In neither case is a direct mapping of Codeco grammar rules
 and features to a GF grammar functions and categories possible.
@@ -290,23 +291,41 @@ we decided not to precisely model the ACE support for anaphoric references.
 Our implementation covers the legal anaphoric constructions but additionally
 fails to detect the illegal ones (e.g. the ones listed above).
 
-\subsection{Structure}
+\subsection{Grammar module structure}
 
-Closely following the original implementation in \cite{ranta:cnl2009_revised},
-the multilingual ACE grammar is implemented in GF as a set of modules
+We followed the main structure of the ACE-in-GF implementation developed
+in \cite{ranta:cnl2009_revised} but separated it into two parts, one that
+implements the AceWiki subset and the other that extends this implementation
+towards full ACE. We did not further develop the full ACE implementation, the
+extension serves for the time being as a placeholder that preserves the
+original \cite{ranta:cnl2009_revised} implementation. We only focused on the
+AceWiki subset for the reasons listed above.
+
+The multilingual ACE grammar is implemented in GF as a set of modules
 (see figure \ref{fig:modules}) the most important of which are:
 
 \begin{itemize}
-\item abstract syntax \texttt{Attempto} which defines the ACE syntax as
+\item the abstract grammar \texttt{Attempto} which defines the ACE syntax as
 a set of $\sim$100 language-independent functions
-(e.g. \verb!everyNP : CN -> NP!)
-that operate on language-independent categories (\texttt{CN}, \texttt{NP});
-\item incomplete concrete syntax \texttt{AttemptoI} which uses the GF RGL
-to provide concrete linearizations for the abstract functions. This module
+that operate on language-independent categories such as \texttt{CN},
+\texttt{NP}, \texttt{S}, e.g.
+\begin{itemize}
+\item \verb!fun everyNP : CN -> NP!
+\item \verb!fun if_thenS : S -> S -> S!
+\end{itemize}
+
+\item the incomplete concrete grammar \texttt{AttemptoI} which uses the GF RGL
+to provide concrete linearizations for the abstract functions
+This module
 is language-independent in the sense that the linearizations are provided
 via the RGL API which is common to all the languages that are supported by the
-RGL;
-\item (complete) concrete syntax \texttt{Attempto\textit{Lan}}, where
+RGL. Examples of API calls are:
+\begin{itemize}
+\item \verb!lin everyNP = mkNP every_Det!
+\item \verb!lin if_thenS = mkS if_then_Conj!
+\end{itemize}
+
+\item the (complete) concrete grammar \texttt{Attempto\textit{Lan}}, where
 \textit{Lan} is a 3-letter language code of the concrete language. This
 module instantiates \texttt{AttemptoI} with the concrete language, but
 additionally offers the possibility of language-specific fine-tuning of the
@@ -318,10 +337,10 @@ linearizations that are not given in \texttt{AttemptoI}.
 \centering
 \includegraphics[width=0.99\textwidth]{modules}
 \caption[Relations between the ACE grammar modules]
-{Relations between the modules, using German (Ger) as an example
+{Relations between the ACE grammar modules, using German (Ger) as an example
 of one of the many concrete languages. To add support for a new language,
 e.g. Dutch, one must implement three files:
-\texttt{AttemptoDut}, which just
+\texttt{AttemptoDut}, which
 instantiates the functor \texttt{AttemptoI} with Dutch-specific resources
 from the RGL;
 \texttt{TestAttemptoDut}, which contains the domain lexicon; and
@@ -331,7 +350,6 @@ rely on the resources (Dutch morphological paradigms) implemented
 in the RGL.}
 \label{fig:modules}
 \end{figure}
-
 
 This architecture makes it easy to plug in support for new languages ---
 one only needs to implement \texttt{Attempto\textit{Lan}} for the new language
@@ -345,6 +363,16 @@ and add additional functions and their linearizations, and possibly
 redefine existing functions if they implement restrictions that are not
 present in full ACE.
 
+The GF implementation follows the Codeco implementation, assigning a function
+to each grammar rule unless it is too specific to ACE, in which case it
+can be implemented as an ACE-only variant. [TODO: improve]
+To correctly implement the ACE syntax, a new ACE-specific resource library
+was created. For the most part it borrows all the operators from GF's English
+resource library, but overrides certain constructions which in ACE have a
+more specific form than in English, e.g. the ACE form for transitive
+adjectives (`fond of') requires the preposition to be attached with
+the hyphen (`fond-of'). The overall grammar thus treats ACE and English as
+separate languages.
 
 \subsection{Lexicon}
 
@@ -368,11 +396,13 @@ GF does not make a clear separation between words and the rest of the grammar.
 Furthermore, words can be described by complex structures holding information
 about their gender, case, discontinuity, depending on the language. Most of
 this necessary complexity is hidden by the RGL, which operates with common
-lexical categories (e.g. \texttt{PN}, \texttt{V2}) and common constructors
-(e.g. \texttt{mkN} takes two strings as arguments, for the singular and plural
-forms of the noun, an guesses the missing information (e.g. gender).
-Most of the ACE lexical categories are supported by the RGL and the internal
-representations of words can be generated using RGL operators.
+lexical categories (e.g. \texttt{PN}, \texttt{V2}), and common and ``smart''
+constructors (e.g. the simplest form of \texttt{mkN} takes one string as an
+argument,
+interprets this as the singular form of the noun, and guesses the remaining
+unspecified information, e.g. the plural form and the gender).
+Most of the ACE lexical categories are directly supported by the RGL and the
+internal representations of words can be generated using RGL operators.
 Table \ref{mapping_acewiki_to_gf} shows the mapping of AceWiki categories
 to GF RGL English operators.
 [TODO: we have to ignore certain things, e.g.  the the-PNs?]
@@ -417,33 +447,15 @@ transitive adjective & A2 & \xp{mkA2 (mkA fond) (mkPrep of)} \\
 %\end{center}
 %\end{table}
 
-\subsection{Design decisions}
-
-[TODO: the implementation follows the ACE grammar, assigning a function to
-each grammar rule unless it is too specific to English, in which case it can
-be implemented as an English-only variant.]
-
-\subsection{Summary}
-
-The result is a grammar module that covers the AceWiki subset and also
-has a preliminary extension towards the full ACE.
-
-Mapping an ACE grammar (such as the one described by Codeco) to a GF grammar
-is non-trivial for the following reasons.
-
-\begin{itemize}
-\item ACE is written in the unification style vs. GF grammar is written
-by separating the abstract syntax from the concrete
-\item ACE offers support for anaphoric references (a feature present in most
-logical rule and ontology languages) vs. GF does not provide similar support
-\end{itemize}
-
 
 \section{Multilinguality}
 \label{section:Multilinguality}
 
-The architecture described in the previous section makes adding support
-for a new language relatively straight-forward provided that the language
+[TODO: JJC]
+
+The architecture described in section \ref{section:ACE_in_GF} not only supports
+multilinguality but also makes implementing a new language in the grammar
+relatively straight-forward provided that the language
 is supported by the RGL. Adding a new language involves
 implementing all the functions not present in \texttt{AttemptoI},
 overriding the \texttt{AttemptoI} implementation for functions which would
@@ -451,38 +463,35 @@ otherwise deliver a semantically or pragmatically wrong linearization,
 implementing the (small number of) operators that are not provided by the RGL,
 and providing the domain vocabulary for the application.
 
-We selected a number of RGL-supported languages to evaluate how easy it
-is to add a new language in practice and to evaluate the feasibility of
-representing the language ACE in a language other than ACE. The chosen
-languages are
-English, German, Finnish, Urdu, Italian, French, Swedish, Dutch
-(, Hindi, Spanish, Catalan?). [TODO: why these languages]
+It should be noted that some syntactic constructs, while described in the RGL,
+are not implemented for all the languages (they are located in the RGL
+Extra-modules). For our ACE implementation this is the case for VP coordination
+which the RGL implements only for English and the Scandinavian languages.
+This means that (ACE) sentences which feature VP coordination cannot be
+translated into all the languages. An end-user application must therefore deal
+with this issue, e.g. by asking the user to reformulate such sentences in a way
+that preserves their meaning but uses a different syntactic form. For example,
+VP coordination can be reformulated as relative clause coordination ---
+`John owns a car or owns a bike' is in ACE equivalent to
+`John is something that owns a car or that owns a bike'.
 
-\subsection{ACE}
+We included a number of different RGL-supported languages in the ACE-in-GF
+implementation to discover the possible issues that a grammar engineer faces
+when adding a new language. We also evaluated the resulting
+translations for several of the included languages.
+The currently included languages are
+ACE,
+Catalan,
+Dutch,
+English (almost identical to ACE),
+Finnish,
+French,
+German,
+Italian,
+Spanish,
+Swedish, and
+Urdu.
 
-ACE was implemented by extending the English resource grammar but
-overriding some of its constructs and adding some variants.
-
-Does it make sense to treat ACE and English as separate languages in the
-grammar, and expose them as different languages to the end user?
-
-\subsection{Main issues}
-
-[TODO: currently copied from \cite{ranta:cnl2009_revised}]
-The translation from one language to another using the abstract syntax of the
-resource grammar preserves syntactic structure. But it does not always give
-the intended result. [TODO: ACE-specific example]
-Thus the resource grammar should rather be used as a \emph{library} for
-defining the domain grammar. In those cases where direct syntax-based
-translation still works (which in practice does cover most cases), a lot of
-work can be saved, because the linearization function for a given abstract
-function can then be defined once and for all using the language-independent
-API of the resource library. Some exceptions to this can then be done for
-those languages that do not preserve syntactic structure in translation,
-but still using the library. [TODO: example]
-
-Some issues: RGL does not provide some functions for all the languages,
-e.g. VP coordination.
 
 \section{Evaluation}
 \label{section:Evaluation}
@@ -512,7 +521,7 @@ forms which the actual language does not support.
 i.e. do the translations of ACE sentences into other languages keep the
 intended meaning of the original ACE sentences. Multilingual correctness allows
 for knowledge engineering applications where users read and edit the underlying
-knowledge-base in multiple languages, understanding its content in the same
+knowledge base in multiple languages, understanding its content in the same
 way regardless of the language.
 
 \item[Performance]
@@ -533,7 +542,7 @@ tokens \cite{kuhn2010doctoralthesis}. Each word
 type is represented by a single word (e.g. `Mary' represents the proper name)
 to make sure that all the sentences are pairwise syntactically different, i.e.
 do not differ only by choice of words.
-The original testset contains 19718 sentences, we removed sentences which
+The original testset contains 19718 sentences, but we removed sentences which
 contain the `such that' construct which in ACE v6.6 is deprecated,
 arriving at our test set of 19422 sentences.
 
@@ -558,64 +567,102 @@ go from shorter to longer sentences --- at relatively low depths the
 sentences become already so long and complex that checking them for the
 sources of errors becomes cumbersome.
 
-The evaluation ignores the illegal anaphoric references as these are not
-modelled as discussed in section \ref{subsection:Codeco}.
+We measured the precision by randomly generating large numbers of sentences
+at different tree depths and parsing them with the full ACE parser (APE) and
+the Codeco parser. As
+a processing step after generation but before parsing we rewrote the sentences
+to remove illegal anaphoric references as these are not
+modeled in our grammar as discussed in section \ref{subsection:Codeco}.
 
-[TODO: other interesting cases?]
+Against full ACE the precision was about 90\% but against the AceWiki subset
+the precision was drastically lower as the AceWiki subset sets several
+restrictions on the sentence patterns that it supports, e.g. a negated
+NP is not allowed in existential sentences (`there is nobody'),
+an NP with a generalized quantifier cannot take a relative clause
+(`less than 3 men that own a car`). The AceWiki subset also does not support
+some variants (e.g. the contracted forms such as `isn't' and `doesn't').
+We decided not to restrict our grammar in a similar fashion as this would
+have caused a blowup of grammar rules. This relaxing of restrictions and
+introduction of syntactic sugar which make our
+implementation deviate from the AceWiki subset and move it towards full ACE
+is often actually compatible with the subset of ACE that can be mapped to OWL
+which is the main motivation of the AceWiki subset as well, i.e. some of
+these constructs could be also added to the AceWiki subset.
 
-There are also
-places where the AceWiki subset could be extended (rather that its GF
-implementation restricted), e.g. AceWiki currently rejects ``every man
-likes less than 3 men that own a cat.'' because an NP with a
-generalized quantifier (less than 3) cannot be followed by a relative
-clause. But this sentence is supported by the ACE-OWL translator
-so there is no real reason why it should not be allowed in the
-AceWiki subset.
+[TODO: better motiviation needed]
+
+%There are also
+%places where the AceWiki subset could be extended (rather that its GF
+%implementation restricted), e.g. AceWiki currently rejects ``every man
+%likes less than 3 men that own a cat.'' because an NP with a
+%generalized quantifier (less than 3) cannot be followed by a relative
+%clause. But this sentence is supported by the ACE-OWL translator
+%so there is no real reason why it should not be allowed in the
+%AceWiki subset.
 
 % AceWiki does support: ``... that Mary likes``
-Also, support for object relative clauses (``.. that Mary is mad-about'')
-is desirable (even though AceWiki does not completely support it).
+%Also, support for object relative clauses (``.. that Mary is mad-about'')
+%is desirable (even though AceWiki does not completely support it).
 
 % AceWiki does not support: who does Mary (not) like?
 % (only: Mary likes (does not like) who?)
 
 \subsection{Ambiguity}
 
-[TODO: does the grammar sometimes assign multiple trees to a sentence?]
+We measured the occurrence of ambiguous parses also on the Codeco test set.
+In rare cases (3\% of the sentences) the grammar assigns two abstract trees
+to an input ACE sentence. This is always semantically harmless ambiguity
+(i.e. it would not manifest itself in translations) resulting from the rules
+for common nouns and noun phrases which accept similar input structures.
+
+[TODO: analyze better the reasons for ambiguity,
+most of it seems to be spurious ambiguity,
+but there are also cases like
+``for every  woman  there is  somebody  and  there is  somebody  .'',
+the Codeco testset might also be too small to reveal certain kinds of
+ambiguities.]
+
 
 \subsection{Multilinguality}
 
-[TODO: this test can not be automated]
-
 To test the correctness of the multilingual translations we have used
-the sentences from the
+the ACE sentences from the
 Ontograph
 Framework\footnote{\url{http://attempto.ifi.uzh.ch/site/docs/ontograph/}}
-\cite{kuhn2009cnlmain}. These sentences cover all the main sentence
-patters of the AceWiki subset and they have been used before in user
-evaluations of how well the users understand the precise formal meaning
-of the sentences.
-These 40 sentences cover all the main AceWiki sentence patterns and have
-a very clear set-theoretic meaning, e.g.
+\cite{kuhn2009cnlmain}. The selected 40 sentences cover all the main sentence
+patters of the AceWiki subset and have been used before in user
+evaluations of how well the users understand the precise formal meaning ACE.
+The sentences have a very clear set-theoretic meaning, e.g.
 ``Everything that is a traveler or that is an officer sees
 at most 1 aquarium.'' means that the union of the sets \emph{traveler} and
 \emph{officer} is a subset of the set of all instances that participate in
 the 1st argument position in at most one \emph{sees}-relation with an
 instance from the set \emph{aquarium}.
-The question is if this meaning is understood in the same way via all the
-languages.
+The hypothesis to be confirmed is whether this meaning is understood in
+the same way via all the languages.
 
-[TODO: We did a closer evaluation of 7 languages.]
+While the tests of coverage and precision can be automated, the test of
+multilingual correctness requires that (native) speakers of the evaluated
+languages manually check the translations. We set up a Google Docs form that
+presents the list of 40 sentences each translated into 9 languages
+(Catalan, Dutch, Finnish, French, German, Italian, Spanish, Swedish and Urdu),
+and asked native speakers of these languages to check the list and report
+the syntactic, semantic and pragmatic (naturalness) errors in the sentences.
+In order to judge the semantic correctness of the translations, the
+evaluator must also consider the original ACE sentence. The evaluation form
+therefore comes with a short description of ACE and its interpretation rules
+that are relevant for the presented sentences.
+The evaluators were also asked to ignore the lack of translations caused by
+the missing support for VP coordination.
 
-[TODO: VPCoord is not supported in all languages]
-
-[TODO: interesting examples where the straight-forward translation produces
+[TODO: JJS: write about the results and
+interesting examples where the straight-forward translation produces
 a completely different meaning]
 
-[TODO: the Ontograph test set does not cover some core ACE equivalences,
-e.g. \emph{if-then} equals \emph{every}, double negation equals no negation.
-How are these equivalences preserved under the direct syntax-based
-translation?]
+%[TODO: the Ontograph test set does not cover some core ACE equivalences,
+%e.g. \emph{if-then} equals \emph{every}, double negation equals no negation.
+%How are these equivalences preserved under the direct syntax-based
+%translation?]
 
 \subsection{Performance}
 
@@ -623,26 +670,49 @@ We measured the performance of the grammar implementation on an i3 laptop
 with 4GB of RAM.
 The implementation is relatively fast. It is capable of parsing
 all the $\sim$20,000 Codeco test sentences in 55 seconds
-(i.e. 363 sentences/sec). In comparison, the Codeco DCG implementation parses
+(i.e. 363 sentences/sec). In comparison, the Codeco parser (transformed into
+Definite Clause Grammar and executed by SWI-Prolog) parses
 the same set in 25 seconds.
 In order to linearize the
 resulting parse trees into 8 languages an additional 9 minutes is needed
 (Note that we did not measure what was
 the contribution of each language to the overall runtime.)
-Such performance enables applications where a relatively large ACE knowledge
-base is stored as a set of GF abstract trees and linearized into a
+In general,
+the measured performance enables applications where a relatively large ACE
+knowledge base is stored as a set of GF abstract trees and linearized into a
 multilingual presentation on demand in a few minutes.
 
+\section{Conclusions and future work}
+\label{section:Conclusions}
 
-\section{Future work}
-\label{section:Future_work}
+We have presented a set of GF grammar modules that implement the AceWiki
+subset of ACE and make it available in multiple natural languages. The design
+of the grammar makes it easily extendable to more languages and to a larger
+coverage of ACE.
+We have also described the main differences between the grammar formalisms
+used to describe the ACE grammar so far and the GF formalism.
+These differences make the grammar engineering non-trivial and a fully
+precise grammar cannot be easily obtained.
+We have also described a testing and evaluation framework that can be used
+during and after the development.
 
-In the
-future, one might want to extend the implementation (using
-the standard GF extension mechanism) to also cover full ACE.
+Future work includes plugging in new languages as support for them becomes
+available in the RGL as well as adding more ACE constructs. We also plan
+to use the developed grammar as a module in the AceWiki semantic wiki system
+to power the look-ahead editor and offer multilingual viewing and editing
+of the wiki content. Using the grammar in an actual application also offers
+new ways to evaluate the notion of multilingual controlled natural language.
 
 \bibliography{bib}
 \bibliographystyle{alpha}
 %\bibliographystyle{plain}
 
 \end{document}
+
+% Recycle Bin follows
+\begin{itemize}
+\item ACE is written in the unification style vs. GF grammar is written
+by separating the abstract syntax from the concrete
+\item ACE offers support for anaphoric references (a feature present in most
+logical rule and ontology languages) vs. GF does not provide similar support
+\end{itemize}
