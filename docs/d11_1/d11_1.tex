@@ -58,7 +58,7 @@ The current version of ACE, version 6.6, offers many language constructs, most
 important of which are
 countable and mass nouns (`man', `water');
 proper names (e.g. `John');
-generalized quantifiers (e.g. `at least');
+generalised quantifiers (e.g. `at least');
 indefinite pronouns (e.g. `somebody');
 intransitive, transitive and ditransitive verbs (`sleep', `like', `give');
 negation, conjunction and disjunction of
@@ -87,10 +87,10 @@ concrete grammars and by doing that
 describes a bidirectional mapping between concrete language strings and
 their corresponding abstract syntax trees. This architecture supports
 multilingual translation as strings of any concrete language can be parsed into
-abstract trees which can be further linearized as strings in any concrete
+abstract trees which can be further linearised as strings in any concrete
 language.
 
-GF is an expressive formalism optimized to handle natural language features
+GF is an expressive formalism optimised to handle natural language features
 like morphological variation, agreement, long-distance dependencies, etc.
 GF comes with various tools that
 cover grammar authoring, compatibility with many popular programming languages,
@@ -112,7 +112,7 @@ of this implementation, namely multilinguality;
 in section \ref{section:Evaluation} we evaluate the implementation by comparing
 it to existing implementations of the ACE grammar and discuss the multilingual
 representations of ACE sentences;
-in section \ref{section:Conclusions} we summarize the work and
+in section \ref{section:Conclusions} we summarise the work and
 describe its possible extensions.
 
 The developed grammar as well as the test sets, development tools and
@@ -177,7 +177,7 @@ i.e. not its DRS mapping. The latter is not necessary for the purposes of a
 multilingual grammar. As most usages of ACE involve its DRS mapping, also
 most usages of the our GF implementation
 will have to combine it with the existing ACE parser, which provides the
-mapping to DRS and further into other logical forms (including a verbalization
+mapping to DRS and further into other logical forms (including a verbalisation
 back into ACE which can be used to paraphrase the original text).
 
 
@@ -193,7 +193,7 @@ cover a large subset of ACE, and increase the number of natural languages to
 which the grammar is ported.
 
 Another existing work that implements ACE in GF is
-``ACE compliant controlled Latvian for ontology authoring and verbalization''
+``ACE compliant controlled Latvian for ontology authoring and verbalisation''
 \footnote{\url{http://valoda.ailab.lv/cnl/}}
 \cite{gruzitis:phd}. The goal of this work is to bidirectionally map Latvian
 language sentences to OWL axioms and queries. The developed system
@@ -315,9 +315,9 @@ that operate on language-independent categories such as \texttt{CN},
 \end{itemize}
 
 \item the incomplete concrete grammar \texttt{AttemptoI} which uses the GF RGL
-to provide concrete linearizations for the abstract functions
+to provide concrete linearisations for the abstract functions
 This module
-is language-independent in the sense that the linearizations are provided
+is language-independent in the sense that the linearisations are provided
 via the RGL API which is common to all the languages that are supported by the
 RGL. Examples of API calls are:
 \begin{itemize}
@@ -329,8 +329,8 @@ RGL. Examples of API calls are:
 \textit{Lan} is a 3-letter language code of the concrete language. This
 module instantiates \texttt{AttemptoI} with the concrete language, but
 additionally offers the possibility of language-specific fine-tuning of the
-linearizations assigned by \texttt{AttemptoI} or the implementation of
-linearizations that are not given in \texttt{AttemptoI}.
+linearisations assigned by \texttt{AttemptoI} or the implementation of
+linearisations that are not given in \texttt{AttemptoI}.
 \end{itemize}
 
 \begin{figure}[ht]
@@ -359,7 +359,7 @@ the new module \texttt{Attempto\textit{Lan}} will be just a couple of lines
 long.
 This architecture makes it also easy to extend the grammar towards full ACE.
 One needs to implement a set of new modules which import the existing modules
-and add additional functions and their linearizations, and possibly
+and add additional functions and their linearisations, and possibly
 redefine existing functions if they implement restrictions that are not
 present in full ACE.
 
@@ -571,7 +571,7 @@ knowledge base in multiple languages, understanding its content in the same
 way regardless of the language.
 
 \item[Performance]
-i.e. how fast is the parser/linearizer. A certain speed is required to embed
+i.e. how fast is the parser/lineariser. A certain speed is required to embed
 parsing and linearization into a user interface component, e.g. a look-ahead
 editor.
 \end{description}
@@ -588,7 +588,7 @@ tokens \cite{kuhn2010doctoralthesis}. Each word
 type is represented by a single word (e.g. `Mary' represents the proper name)
 to make sure that all the sentences are pairwise syntactically different, i.e.
 do not differ only by choice of words.
-The original testset contains 19718 sentences, but we removed sentences which
+The original test set contains 19718 sentences, but we removed sentences which
 contain the `such that' construct which in ACE v6.6 is deprecated,
 arriving at our test set of 19422 sentences.
 
@@ -603,10 +603,10 @@ several years, as APE does not support exhaustive generation.)
 \subsection{Syntactic precision}
 
 To test the precision (i.e. possible over-generation) we have used the
-random generation facility of the GF commandline tool
+random generation facility of the GF command line tool
 (\verb!generate_random!). This allows us to randomly generate abstract trees
 given the shape of the tree, its depth and its category. A resulting tree
-can be then linearized as an ACE string which can be parsed with a
+can be then linearised as an ACE string which can be parsed with a
 reference ACE parser.
 This way of measuring precision is somewhat unnatural as one cannot gradually
 go from shorter to longer sentences --- at relatively low depths the
@@ -618,13 +618,13 @@ at different tree depths and parsing them with the full ACE parser (APE) and
 the Codeco parser. As
 a processing step after generation but before parsing we rewrote the sentences
 to remove illegal anaphoric references as these are not
-modeled in our grammar as discussed in section \ref{subsection:Codeco}.
+modelled in our grammar as discussed in section \ref{subsection:Codeco}.
 
 Against full ACE the precision was about 90\% but against the AceWiki subset
 the precision was drastically lower as the AceWiki subset sets several
 restrictions on the sentence patterns that it supports, e.g. a negated
 NP is not allowed in existential sentences (`there is nobody'),
-an NP with a generalized quantifier cannot take a relative clause
+an NP with a generalised quantifier cannot take a relative clause
 (`less than 3 men that own a car`). The AceWiki subset also does not support
 some variants (e.g. the contracted forms such as `isn't' and `doesn't').
 We decided not to restrict our grammar in a similar fashion as this would
@@ -635,7 +635,7 @@ is often actually compatible with the subset of ACE that can be mapped to OWL
 which is the main motivation of the AceWiki subset as well, i.e. some of
 these constructs could be also added to the AceWiki subset.
 
-[TODO: better motiviation needed]
+[TODO: better motivation needed]
 
 %There are also
 %places where the AceWiki subset could be extended (rather that its GF
@@ -661,11 +661,11 @@ to an input ACE sentence. This is always semantically harmless ambiguity
 (i.e. it would not manifest itself in translations) resulting from the rules
 for common nouns and noun phrases which accept similar input structures.
 
-[TODO: analyze better the reasons for ambiguity,
+[TODO: analyse better the reasons for ambiguity,
 most of it seems to be spurious ambiguity,
 but there are also cases like
 ``for every  woman  there is  somebody  and  there is  somebody  .'',
-the Codeco testset might also be too small to reveal certain kinds of
+the Codeco test set might also be too small to reveal certain kinds of
 ambiguities.]
 
 
@@ -725,7 +725,7 @@ resulting parse trees into 8 languages an additional 9 minutes is needed
 the contribution of each language to the overall runtime.)
 In general,
 the measured performance enables applications where a relatively large ACE
-knowledge base is stored as a set of GF abstract trees and linearized into a
+knowledge base is stored as a set of GF abstract trees and linearised into a
 multilingual presentation on demand in a few minutes.
 
 \section{Conclusions and future work}
