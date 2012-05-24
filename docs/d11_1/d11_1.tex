@@ -593,7 +593,7 @@ contain the `such that' construct which in ACE v6.6 is deprecated,
 arriving at our test set of 19,422 sentences.
 
 Our implementation successfully covers 100\% of the test set sentences, however
-a tradeoff between syntactic coverage and ambiguity has been noted in the
+a trade-off between syntactic coverage and ambiguity has been noted in the
 grammar implementation. For more see section \ref{subsection:ambiguity}.
 
 The AceWiki-specific implementation covers $\sim$50\% of full ACE, measured
@@ -605,38 +605,71 @@ several years, as APE does not support exhaustive generation.)
 
 To test the precision (i.e. possible over-generation) we have used the
 random generation facility of the GF command line tool
-(\verb!generate_random!). This allows us to randomly generate abstract trees
-given the shape of the tree, its depth and its category. A resulting tree
-can be then linearised as an ACE string which can be parsed with a
-reference ACE parser.
-This way of measuring precision is somewhat unnatural as one cannot gradually
-go from shorter to longer sentences --- at relatively low depths the
-sentences become already so long and complex that checking them for the
-sources of errors becomes cumbersome.
+(\verb!generate_random!). This allows us to randomly generate abstract
+trees given the shape of the tree, its depth and its category. A
+resulting tree can be then linearised as an ACE string which can be
+parsed with a reference ACE parser.  This way of measuring precision
+is somewhat unnatural as one cannot gradually go from shorter to
+longer sentences --- at relatively low depths the sentences become
+already so long and complex that checking them for the sources of
+errors becomes cumbersome.
 
-We measured the precision by randomly generating large numbers of sentences
-at different tree depths and parsing them with the full ACE parser (APE) and
-the Codeco parser. As
-a processing step after generation but before parsing we rewrote the sentences
-to remove illegal anaphoric references as these are not
-modelled in our grammar as discussed in section \ref{subsection:Codeco}.
+We measured the precision by randomly generating large numbers of
+sentences at different tree depths and parsing them with the full ACE
+parser (APE) and the Codeco parser. As a processing step after
+generation but before parsing we rewrote the sentences to remove
+illegal anaphoric references as these are not modelled in our grammar
+as discussed in section \ref{subsection:Codeco}.  The precision values
+obtained at various tree depths are shown in table
+\ref{table:precision_scores}. It is clear from these results that the
+precision of the grammar varies hugely according the depth of tree
+used. Unfortunately we do not currently have any measure of how the grammar
+precision degrades with sentence length.
 
-Against full ACE the precision was about 90\% but against the AceWiki subset
-the precision was drastically lower as the AceWiki subset sets several
-restrictions on the sentence patterns that it supports, e.g. a negated
-NP is not allowed in existential sentences (`there is nobody'),
-an NP with a generalised quantifier cannot take a relative clause
-(`less than 3 men that own a car`). The AceWiki subset also does not support
-some variants (e.g. the contracted forms such as `isn't' and `doesn't').
-We decided not to restrict our grammar in a similar fashion as this would
-have caused a blowup of grammar rules. This relaxing of restrictions and
-introduction of syntactic sugar which make our
-implementation deviate from the AceWiki subset and move it towards full ACE
-is often actually compatible with the subset of ACE that can be mapped to OWL
-which is the main motivation of the AceWiki subset as well, i.e. some of
-these constructs could be also added to the AceWiki subset.
+In addition, the GF \verb!generate_random! function makes no
+guarantees over the completeness of the generated trees'
+coverage. Despite generating hundreds of trees in each test case, it
+is very probable that some parts of the grammar are overused or
+conversely untouched in the resulting test set.
 
-[TODO: better motivation needed]
+\begin{table}
+\begin{center}
+\caption{Precision scores at various abstract syntax tree depths, as
+  tested against the AceWiki subset reference parser. 500 sentences
+  were generated and parsed in each case.\protect\label{table:precision_scores}}
+\begin{tabular}{ c c }
+\hline
+Depth & Precision (\%) \\
+\hline
+3 & 100.0 \\
+4 & 98.0 \\
+5 & 51.6 \\
+6 & 40.8 \\
+7 & 28.8 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% "the precision was about 90\%" - not very clear since we are giving
+% info about tree depth too
+One should note that testing these generated sentences against full
+ACE would hugely improve the precision measures, as the AceWiki subset
+sets several restrictions on the sentence patterns that it supports,
+e.g. a negated NP is not allowed in existential sentences (`there is
+nobody'), an NP with a generalised quantifier cannot take a relative
+clause (`less than 3 men that own a car`). The AceWiki subset also
+does not support some variants (e.g. the contracted forms such as
+`isn't' and `doesn't').  We decided not to restrict our grammar in a
+similar fashion as this would have caused a blowup of grammar
+rules. This relaxing of restrictions and introduction of syntactic
+sugar makes our implementation deviate somewhat from the AceWiki subset
+and move it closer towards full ACE.
+These deviations are often actually still compatible with the
+subset of ACE that can be mapped to OWL, which is the main motivation
+of the AceWiki subset as well. In other words, the case could be 
+made for actually including these constructs to the AceWiki subset, rather
+than restricting the GF implementation.
 
 %There are also
 %places where the AceWiki subset could be extended (rather that its GF
@@ -673,13 +706,37 @@ able to achieve 99.2\% coverage with 3.3\% ambiguity, or 100\%
 coverage but with 13.6\% ambiguity, but retaining full coverage while
 bringing the ambiguity down proved to be problematic.
 
-[TODO: analyse better the reasons for ambiguity,
-most of it seems to be spurious ambiguity,
-but there are also cases like
-``for every  woman  there is  somebody  and  there is  somebody  .'',
-the Codeco test set might also be too small to reveal certain kinds of
-ambiguities.]
+%% [TODO: analyse better the reasons for ambiguity,
+%% most of it seems to be spurious ambiguity,
+%% but there are also cases like
+%% ``for every  woman  there is  somebody  and  there is  somebody  .'',
+%% .]
 
+Having some numeric indication of ambiguity is one thing, however
+properly understanding the source of such ambiguities is a less
+obvious task. Ambiguities occur in grammars when separate rules or
+chains of rules have the same effective type signature. For example,
+attempting to parse the sentence fragment ``a woman who asks Mary''
+returns two viable parse trees:
+
+{\footnotesize
+\begin{verbatim}
+aNP (relCN (cn_as_VarCN woman_CN) (predRS which_RP (v2VP ask_V2 (pnNP mary_PN))))
+relThereNP (aNP (cn_as_VarCN woman_CN)) (predRS which_RP (v2VP ask_V2 (pnNP mary_PN)))
+\end{verbatim}
+}
+
+As in the ACE parser itself, such a fragment should only have a single
+parse tree, which corresponds to the former tree given above. This
+indicates some undesired generality in the \verb|relThereNP| function,
+which should clearly be factored out of the grammar. However the task
+of removing ambiguity while preserving coverage is non-trivial,
+requires a close analysis of the problem cases and understanding of
+the grammar as a whole.
+It should also be noted that the Codeco test set used might also be
+too small to reveal certain kinds of ambiguities; the measure of precision we 
+have is only as good as our test set, which was not specifically designed for
+testing such grammar attributes.
 
 \subsection{Multilinguality}
 
