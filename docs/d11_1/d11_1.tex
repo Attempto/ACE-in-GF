@@ -451,30 +451,6 @@ transitive adjective & A2 & \xp{mkA2 (mkA fond) (mkPrep of)} \\
 \section{Multilinguality}
 \label{section:Multilinguality}
 
-[TODO: JJC]
-
-The architecture described in section \ref{section:ACE_in_GF} not only supports
-multilinguality but also makes implementing a new language in the grammar
-relatively straight-forward provided that the language
-is supported by the RGL. Adding a new language involves
-implementing all the functions not present in \texttt{AttemptoI},
-overriding the \texttt{AttemptoI} implementation for functions which would
-otherwise deliver a semantically or pragmatically wrong linearization,
-implementing the (small number of) operators that are not provided by the RGL,
-and providing the domain vocabulary for the application.
-
-It should be noted that some syntactic constructs, while described in the RGL,
-are not implemented for all the languages (they are located in the RGL
-Extra-modules). For our ACE implementation this is the case for VP coordination
-which the RGL implements only for English and the Scandinavian languages.
-This means that (ACE) sentences which feature VP coordination cannot be
-translated into all the languages. An end-user application must therefore deal
-with this issue, e.g. by asking the user to reformulate such sentences in a way
-that preserves their meaning but uses a different syntactic form. For example,
-VP coordination can be reformulated as relative clause coordination ---
-`John owns a car or owns a bike' is in ACE equivalent to
-`John is something that owns a car or that owns a bike'.
-
 We included a number of different RGL-supported languages in the ACE-in-GF
 implementation to discover the possible issues that a grammar engineer faces
 when adding a new language. We also evaluated the resulting
@@ -491,6 +467,76 @@ Italian,
 Spanish,
 Swedish, and
 Urdu.
+
+The architecture described in section \ref{section:ACE_in_GF} not only
+supports multilinguality but also makes implementing a new language in
+the grammar relatively straight-forward provided that the language is
+supported by the RGL. Adding a new language involves implementing all
+the functions not present in \texttt{AttemptoI}, overriding the
+\texttt{AttemptoI} implementation for functions which would otherwise
+deliver a semantically or pragmatically wrong linearization,
+implementing the few operators that are not provided by the RGL, and
+providing the domain vocabulary for the application.
+
+\paragraph{Non-universal constructs}
+It should be noted that some syntactic constructs described in the RGL
+are not present for all the languages, but provided as add-ons to the
+API via the Extra-modules.  For our ACE implementation this is the
+case for VP coordination, which the RGL implements completely only for
+English and in a restricted form for the Scandinavian languages.  This
+means that (ACE) sentences which feature VP coordination cannot be
+translated into all the languages. An end-user application must
+therefore deal with this issue, e.g. by asking the user to reformulate
+such sentences in a way that preserves their meaning but uses a
+different syntactic form. For example, VP coordination can be
+reformulated as relative clause coordination --- `John owns a car or
+owns a bike' is in ACE equivalent to `John is something that owns a
+car or that owns a bike'.
+
+\paragraph{New word addition}
+The standard RGL lexicon of around 350 words could be used in certain
+cases, but most of the time did not contain the words required for our
+small application grammar. Some languages such as French and Swedish
+do come with large dictionaries (in the order of tens of thousands of
+words), however in general the work of porting the ACE grammar to new
+languages requires the adding of at least some words. This is not
+unusual when writing application grammars, however it must be noted
+that writing such implementations requires knowledge of both the
+language itself, and of how the smart paradigms provided for that
+particular language work.
+
+Most of the language implementations written for ACE were done so
+\emph{without} the input of such language experts but merely on a
+best-guess basis. For languages with which the developers are vaguely
+familiar with, the quality of the language produced is expected to be
+fine, given that GF's smart paradigms take care of everything given
+that the word is constructed using the correct form. In the case of
+Urdu however, the unfamiliar script meant that this addition of words
+was practically done blindly, so the quality of the translations from
+ACE to Urdu would be expected to be lower.
+
+\paragraph{Low-level implementations}
+One particular feature introduced in the Attempto grammar is the use of a
+pronoun as a noun phrase, which is used for handling ACE question sentences with
+the \emph{wh}-word in the object position, e.g. ``Mary is a friend of who?''.
+As no such coercion exists in the RGL, neither as 
+a straight function nor as a combination of multiple API constructors,
+this conversion had to be implemented for each individual language.
+In each case required looking into the RGL source code for that language
+to determine the linearisation types of each respective categories
+and how one could be coerced into the other.
+This work arguably oversteps the normal boundary within which application
+grammarians are expected to work.
+
+\paragraph{RGL inconsistencies}
+Finally, the use of the RGL did uncover some inconsistencies between
+language implementations. Specifically, the \verb|Numerals| module of
+a number of languages in the RGL exposed many lexical categories which
+they should not have, leading to conflicting category
+inheritance. Furthermore, some languages were found to be incomplete,
+in the sense that not all API functions were implemented. Such errors
+in the RGL were patched accordingly so that work on the ACE
+application grammar could continue.
 
 
 \section{Evaluation}
