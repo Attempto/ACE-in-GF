@@ -476,24 +476,24 @@ the functions not present in \texttt{AttemptoI}, overriding the
 \texttt{AttemptoI} implementation for functions which would otherwise
 deliver a semantically or pragmatically wrong linearization,
 implementing the few operators that are not provided by the RGL, and
-providing the domain vocabulary for the application.
+providing the domain vocabulary for the application. Below are the
+salient issues encountered during this process.
 
 \paragraph{Non-universal constructs}
-It should be noted that some syntactic constructs described in the RGL
-are not present for all the languages, but provided as add-ons to the
-API via the Extra-modules.  For our ACE implementation this is the
-case for VP coordination, which the RGL implements completely only for
-English and in a restricted form for the Scandinavian languages.  This
-means that (ACE) sentences which feature VP coordination cannot be
-translated into all the languages. An end-user application must
-therefore deal with this issue, e.g. by asking the user to reformulate
-such sentences in a way that preserves their meaning but uses a
-different syntactic form. For example, VP coordination can be
-reformulated as relative clause coordination --- `John owns a car or
-owns a bike' is in ACE equivalent to `John is something that owns a
-car or that owns a bike'.
+Some syntactic constructs described in the RGL are not present for all
+languages, but provided as add-ons to the API via the \verb|Extra|
+modules.  For our ACE implementation this is the case for VP
+coordination, which the RGL implements completely only for English and
+in a restricted form for the Scandinavian languages.  This means that
+(ACE) sentences which feature VP coordination cannot be translated
+into all the languages. An end-user application must therefore deal
+with this issue, e.g. by asking the user to reformulate such sentences
+in a way that preserves their meaning but uses a different syntactic
+form. For example, VP coordination can be reformulated as relative
+clause coordination --- `John owns a car or owns a bike' is in ACE
+equivalent to `John is something that owns a car or that owns a bike'.
 
-\paragraph{New word addition}
+\paragraph{Vocabulary}
 The standard RGL lexicon of around 350 words could be used in certain
 cases, but most of the time did not contain the words required for our
 small application grammar. Some languages such as French and Swedish
@@ -555,7 +555,7 @@ of ACE sentences. The goal is to have a 100\% coverage of the AceWiki subset.
 i.e. how many abstract trees are assigned on average to an accepted ACE
 sentence. The goal is to parse each ACE sentence into to a single abstract
 tree. However, some ambiguity can be tolerated if it is visible only internally,
-it does not result in multiple different translations.
+and it does not result in multiple different translations.
 
 \item[Precision]
 i.e. how many syntactically incorrect ACE sentences does the grammar generate.
@@ -590,10 +590,11 @@ to make sure that all the sentences are pairwise syntactically different, i.e.
 do not differ only by choice of words.
 The original test set contains 19718 sentences, but we removed sentences which
 contain the `such that' construct which in ACE v6.6 is deprecated,
-arriving at our test set of 19422 sentences.
+arriving at our test set of 19,422 sentences.
 
-[TODO: our implementation achieves X\% coverage, the remaining sentences
-cannot be parsed because ...]
+Our implementation successfully covers 100\% of the test set sentences, however
+a tradeoff between syntactic coverage and ambiguity has been noted in the
+grammar implementation. For more see section \ref{subsection:ambiguity}.
 
 The AceWiki-specific implementation covers $\sim$50\% of full ACE, measured
 on the $\sim$3000 sentences of the ACE parser (APE) regression test set.
@@ -654,12 +655,23 @@ these constructs could be also added to the AceWiki subset.
 % (only: Mary likes (does not like) who?)
 
 \subsection{Ambiguity}
+\label{subsection:ambiguity}
 
-We measured the occurrence of ambiguous parses also on the Codeco test set.
-In rare cases (3\% of the sentences) the grammar assigns two abstract trees
+We measured the occurrence of ambiguous parses also on the Codeco test set,
+and were able to achieve an ambiguity level as low as 3.3\%.
+In these relatively rare cases, the grammar assigns two abstract trees
 to an input ACE sentence. This is always semantically harmless ambiguity
 (i.e. it would not manifest itself in translations) resulting from the rules
 for common nouns and noun phrases which accept similar input structures.
+
+However a distinct trade-off between syntactic coverage and ambiguity
+has been noted in our implementation.  Specifically, the single rule
+covering the ``there is'' construct, for example ``there is somebody
+who is a woman'' covers 159 sentences from the test set (0.8\%), but
+also pushes the ambiguity down by over 10\%. In other words, we are
+able to achieve 99.2\% coverage with 3.3\% ambiguity, or 100\%
+coverage but with 13.6\% ambiguity, but retaining full coverage while
+bringing the ambiguity down proved to be problematic.
 
 [TODO: analyse better the reasons for ambiguity,
 most of it seems to be spurious ambiguity,
@@ -701,7 +713,7 @@ that are relevant for the presented sentences.
 The evaluators were also asked to ignore the lack of translations caused by
 the missing support for VP coordination.
 
-[TODO: JJS: write about the results and
+[TODO: JJC: write about the results and
 interesting examples where the straight-forward translation produces
 a completely different meaning]
 
