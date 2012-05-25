@@ -357,6 +357,8 @@ one only needs to implement \texttt{Attempto\textit{Lan}} for the new language
 already provides most of the implementation, then
 the new module \texttt{Attempto\textit{Lan}} will be just a couple of lines
 long.
+(Note that the same idea is used in \cite{ranta:cnl2010_revised} to implement
+a multilingual tourist phrasebook.)
 This architecture makes it also easy to extend the grammar towards full ACE.
 One needs to implement a set of new modules which import the existing modules
 and add additional functions and their linearisations, and possibly
@@ -636,16 +638,18 @@ conversely untouched in the resulting test set.
 \begin{center}
 \caption{Precision scores at various abstract syntax tree depths, as
   tested against the AceWiki subset reference parser. 500 sentences
-  were generated and parsed in each case.\protect\label{table:precision_scores}}
-\begin{tabular}{ c c }
+  were generated and parsed in each case. The average sentence length
+  in tokens is provided as an indication of
+  sentence complexity.\protect\label{table:precision_scores}}
+\begin{tabular}{ c r r }
 \hline
-Depth & Precision (\%) \\
+Depth & Avg. length & Precision (\%) \\
 \hline
-3 & 100.0 \\
-4 & 98.0 \\
-5 & 51.6 \\
-6 & 40.8 \\
-7 & 28.8 \\
+3 & 6 & 100.0 \\
+4 & 11 & 98.0 \\
+5 & 15 & 51.6 \\
+6 & 23 & 40.8 \\
+7 & 28 & 28.8 \\
 \hline
 \end{tabular}
 \end{center}
@@ -817,6 +821,10 @@ to use the developed grammar as a module in the AceWiki semantic wiki system
 to power the look-ahead editor and offer multilingual viewing and editing
 of the wiki content. Using the grammar in an actual application also offers
 new ways to evaluate the notion of multilingual controlled natural language.
+
+\section*{Acknowledgment}
+
+[TODO: thank those who participated in the evaluation]
 
 \bibliography{bib}
 \bibliographystyle{alpha}
