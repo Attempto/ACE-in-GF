@@ -3,7 +3,7 @@ TestAttemptoAce: Mary is a traveler .
 TestAttemptoCat: Mary és un viatger .
 TestAttemptoDut: Mary is een reiziger .
 TestAttemptoEng: Mary is a traveler .
-TestAttemptoFin: Mary on matkustajan .
+TestAttemptoFin: Mary on matkustaja .
 TestAttemptoFre: Mary est un voyageur .
 TestAttemptoGer: Mary ist ein Reisende .
 TestAttemptoIta: Mary è un viaggiatore .
@@ -16,7 +16,7 @@ TestAttemptoAce: Bill isn't a golfer .
 TestAttemptoCat: Bill no és una golfista .
 TestAttemptoDut: Bill is niet een golfer .
 TestAttemptoEng: Bill isn't a golfer .
-TestAttemptoFin: Bill ei ole golfin .
+TestAttemptoFin: Bill ei ole golfaaja .
 TestAttemptoFre: Bill n' est pas un golfeur .
 TestAttemptoGer: Bill ist ein Golfer nicht .
 TestAttemptoIta: Bill non è un giocatore di golf .
@@ -29,7 +29,7 @@ TestAttemptoAce: Mary is an officer or is a golfer .
 TestAttemptoCat: [np_coord_VPS] .
 TestAttemptoDut: [np_coord_VPS] .
 TestAttemptoEng: Mary is an officer or is a golfer .
-TestAttemptoFin: Mary on upseeri tai on golfin .
+TestAttemptoFin: Mary on upseeri tai on golfaaja .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
@@ -42,7 +42,7 @@ TestAttemptoAce: Sue is an officer and is a traveler .
 TestAttemptoCat: [np_coord_VPS] .
 TestAttemptoDut: [np_coord_VPS] .
 TestAttemptoEng: Sue is an officer and is a traveler .
-TestAttemptoFin: Sue on upseeri ja on matkustajan .
+TestAttemptoFin: Sue on upseeri ja on matkustaja .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
@@ -55,7 +55,7 @@ TestAttemptoAce: every man is a golfer .
 TestAttemptoCat: cada home és una golfista .
 TestAttemptoDut: elke man is een golfer .
 TestAttemptoEng: every man is a golfer .
-TestAttemptoFin: jokainen mies on golfin .
+TestAttemptoFin: jokainen mies on golfaaja .
 TestAttemptoFre: chaque homme est un golfeur .
 TestAttemptoGer: jeder Mann ist ein Golfer .
 TestAttemptoIta: ogni uomo è un giocatore di golf .
@@ -68,7 +68,7 @@ TestAttemptoAce: no golfer is a woman .
 TestAttemptoCat: cap golfista és una dona .
 TestAttemptoDut: geen golfer is een vrouw .
 TestAttemptoEng: no golfer is a woman .
-TestAttemptoFin: mikään golfin on nainen .
+TestAttemptoFin: mikään golfaaja on nainen .
 TestAttemptoFre: aucun golfeur est une femme .
 TestAttemptoGer: kein Golfer ist eine Frau .
 TestAttemptoIta: nessuno giocatore di golf è una donna .
@@ -94,7 +94,7 @@ TestAttemptoAce: every traveler who isn't a woman is a golfer .
 TestAttemptoCat: cada viatger que no és una dona és una golfista .
 TestAttemptoDut: elke reiziger die niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler who isn't a woman is a golfer .
-TestAttemptoFin: jokainen matkustajan joka ei ole nainen on golfin .
+TestAttemptoFin: jokainen matkustaja joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende der eine Frau nicht ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
@@ -107,7 +107,7 @@ TestAttemptoAce: every traveler who isn't a woman is a golfer .
 TestAttemptoCat: cada viatger que no és una dona és una golfista .
 TestAttemptoDut: elke reiziger , dat niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler who isn't a woman is a golfer .
-TestAttemptoFin: jokainen matkustajan , joka ei ole nainen on golfin .
+TestAttemptoFin: jokainen matkustaja , joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende , der eine Frau nicht ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
@@ -120,7 +120,7 @@ TestAttemptoAce: every man is a golfer or is a traveler .
 TestAttemptoCat: [np_coord_VPS] .
 TestAttemptoDut: [np_coord_VPS] .
 TestAttemptoEng: every man is a golfer or is a traveler .
-TestAttemptoFin: jokainen mies on golfin tai on matkustajan .
+TestAttemptoFin: jokainen mies on golfaaja tai on matkustaja .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
@@ -133,7 +133,7 @@ TestAttemptoAce: nobody who is a man or who is a golfer is an officer and is a t
 TestAttemptoCat: [np_coord_VPS] .
 TestAttemptoDut: [np_coord_VPS] .
 TestAttemptoEng: nobody who is a man or who is a golfer is an officer and is a traveler .
-TestAttemptoFin: kukaan , joka on mies tai joka on golfin on upseeri ja on matkustajan .
+TestAttemptoFin: kukaan , joka on mies tai joka on golfaaja on upseeri ja on matkustaja .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
@@ -302,7 +302,7 @@ TestAttemptoAce: everything which loves something is a traveler or is an officer
 TestAttemptoCat: [np_coord_VPS] .
 TestAttemptoDut: [np_coord_VPS] .
 TestAttemptoEng: everything which loves something is a traveler or is an officer .
-TestAttemptoFin: kaikki , joka rakastaa jotakin on matkustajan tai on upseeri .
+TestAttemptoFin: kaikki , joka rakastaa jotakin on matkustaja tai on upseeri .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
@@ -315,7 +315,7 @@ TestAttemptoAce: everything which is seen by something is a traveler or is an aq
 TestAttemptoCat: [np_coord_VPS] .
 TestAttemptoDut: [np_coord_VPS] .
 TestAttemptoEng: everything which is seen by something is a traveler or is an aquarium .
-TestAttemptoFin: kaikki , joka nähdään jonkin toimesta on matkustajan tai on akvaario .
+TestAttemptoFin: kaikki , joka nähdään jonkin toimesta on matkustaja tai on akvaario .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
@@ -354,7 +354,7 @@ TestAttemptoAce: every traveler sees at least 2 aquariums .
 TestAttemptoCat: cada viatger veu almenys 2 aquarins .
 TestAttemptoDut: elke reiziger ziet ten minste 2 aquaria .
 TestAttemptoEng: every traveler sees at least 2 aquariums .
-TestAttemptoFin: jokainen matkustajan näkee vähintään 2 akvaariota .
+TestAttemptoFin: jokainen matkustaja näkee vähintään 2 akvaariota .
 TestAttemptoFre: chaque voyageur voit au moins 2 aquariums .
 TestAttemptoGer: jeder Reisende sieht wenigstens 2 Aquariume .
 TestAttemptoIta: ogni viaggiatore vede almeno 2 acquari .
@@ -393,7 +393,7 @@ TestAttemptoAce: everything which is a traveler or which is an officer sees at m
 TestAttemptoCat: tot que és un viatger o que és un oficial veu com a màxim 1 aquari .
 TestAttemptoDut: alles , dat een reiziger is of dat een officier is ziet hooguit 1 aquarium .
 TestAttemptoEng: everything which is a traveler or which is an officer sees at most 1 aquarium .
-TestAttemptoFin: kaikki , joka on matkustajan tai joka on upseeri näkee enintään 1 akvaarion .
+TestAttemptoFin: kaikki , joka on matkustaja tai joka on upseeri näkee enintään 1 akvaarion .
 TestAttemptoFre: tout qui est un voyageur ou qui est un officier voit au plus 1 aquarium .
 TestAttemptoGer: alles , das ein Reisende ist oder das ein Offizier ist sieht höchstens 1 Aquarium .
 TestAttemptoIta: tutto che è un viaggiatore o che è un ufficiale vede al massimo 1 acquario .

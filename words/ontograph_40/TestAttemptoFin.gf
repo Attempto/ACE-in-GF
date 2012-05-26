@@ -6,10 +6,10 @@ concrete TestAttemptoFin of TestAttempto = AttemptoFin **
 flags coding=utf8;
 
 lin officer_N = mkCN (mkN "upseeri") ;
-lin traveler_N = mkCN (mkN "matkustajan") ;
+lin traveler_N = mkCN (mkN "matkustaja") ;
 lin woman_N = mkCN L.woman_N ;
 lin man_N = mkCN L.man_N ;
-lin golfer_N = mkCN (mkN "golfin" "pelaaja") ;
+lin golfer_N = mkCN (mkN "golfaaja") ;
 lin present_N = mkCN (mkN "lahja") ;
 lin aquarium_N = mkCN (mkN "akvaario") ;
 lin picture_N = mkCN (mkN "kuva") ;
