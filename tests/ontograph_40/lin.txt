@@ -29,7 +29,7 @@ TestAttemptoAce: Mary is an officer or is a golfer .
 TestAttemptoCat: [np_coord_VPS] .
 TestAttemptoDut: [np_coord_VPS] .
 TestAttemptoEng: Mary is an officer or is a golfer .
-TestAttemptoFin: [np_coord_VPS] .
+TestAttemptoFin: Mary on upseeri tai on golfin .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
@@ -42,7 +42,7 @@ TestAttemptoAce: Sue is an officer and is a traveler .
 TestAttemptoCat: [np_coord_VPS] .
 TestAttemptoDut: [np_coord_VPS] .
 TestAttemptoEng: Sue is an officer and is a traveler .
-TestAttemptoFin: [np_coord_VPS] .
+TestAttemptoFin: Sue on upseeri ja on matkustajan .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
@@ -120,7 +120,7 @@ TestAttemptoAce: every man is a golfer or is a traveler .
 TestAttemptoCat: [np_coord_VPS] .
 TestAttemptoDut: [np_coord_VPS] .
 TestAttemptoEng: every man is a golfer or is a traveler .
-TestAttemptoFin: [np_coord_VPS] .
+TestAttemptoFin: jokainen mies on golfin tai on matkustajan .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
@@ -133,7 +133,7 @@ TestAttemptoAce: nobody who is a man or who is a golfer is an officer and is a t
 TestAttemptoCat: [np_coord_VPS] .
 TestAttemptoDut: [np_coord_VPS] .
 TestAttemptoEng: nobody who is a man or who is a golfer is an officer and is a traveler .
-TestAttemptoFin: [np_coord_VPS] .
+TestAttemptoFin: kukaan , joka on mies tai joka on golfin on upseeri ja on matkustajan .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
@@ -302,7 +302,7 @@ TestAttemptoAce: everything which loves something is a traveler or is an officer
 TestAttemptoCat: [np_coord_VPS] .
 TestAttemptoDut: [np_coord_VPS] .
 TestAttemptoEng: everything which loves something is a traveler or is an officer .
-TestAttemptoFin: [np_coord_VPS] .
+TestAttemptoFin: kaikki , joka rakastaa jotakin on matkustajan tai on upseeri .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
@@ -315,7 +315,7 @@ TestAttemptoAce: everything which is seen by something is a traveler or is an aq
 TestAttemptoCat: [np_coord_VPS] .
 TestAttemptoDut: [np_coord_VPS] .
 TestAttemptoEng: everything which is seen by something is a traveler or is an aquarium .
-TestAttemptoFin: [np_coord_VPS] .
+TestAttemptoFin: kaikki , joka nähdään jonkin toimesta on matkustajan tai on akvaario .
 TestAttemptoFre: [np_coord_VPS] .
 TestAttemptoGer: [np_coord_VPS] .
 TestAttemptoIta: [np_coord_VPS] .
