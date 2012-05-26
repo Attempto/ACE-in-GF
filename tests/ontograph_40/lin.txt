@@ -68,7 +68,7 @@ TestAttemptoAce: no golfer is a woman .
 TestAttemptoCat: cap golfista és una dona .
 TestAttemptoDut: geen golfer is een vrouw .
 TestAttemptoEng: no golfer is a woman .
-TestAttemptoFin: ei mikään golfin on nainen .
+TestAttemptoFin: mikään golfin on nainen .
 TestAttemptoFre: aucun golfeur est une femme .
 TestAttemptoGer: kein Golfer ist eine Frau .
 TestAttemptoIta: nessuno giocatore di golf è una donna .
@@ -185,7 +185,7 @@ TestAttemptoAce: Mary sees no man .
 TestAttemptoCat: Mary veu cap home .
 TestAttemptoDut: Mary ziet geen man .
 TestAttemptoEng: Mary sees no man .
-TestAttemptoFin: Mary näkee ei minkään miehen .
+TestAttemptoFin: Mary näkee minkään miehen .
 TestAttemptoFre: Mary voit aucun homme .
 TestAttemptoGer: Mary sieht keinen Mann .
 TestAttemptoIta: Mary vede nessuno uomo .
@@ -211,7 +211,7 @@ TestAttemptoAce: John sees nothing but men .
 TestAttemptoCat: John veu nomÈs homes .
 TestAttemptoDut: John ziet slechts mannen .
 TestAttemptoEng: John sees nothing but men .
-TestAttemptoFin: John näkee vain miehet .
+TestAttemptoFin: John näkee vain miehiä .
 TestAttemptoFre: John voit seulement des hommes .
 TestAttemptoGer: John sieht nur Männer .
 TestAttemptoIta: John vede soltanto uomini .
@@ -250,7 +250,7 @@ TestAttemptoAce: every man buys nothing but presents .
 TestAttemptoCat: cada home compra nomÈs presentars .
 TestAttemptoDut: elke man koopt slechts cadeaus .
 TestAttemptoEng: every man buys nothing but presents .
-TestAttemptoFin: jokainen mies ostaa vain lahjat .
+TestAttemptoFin: jokainen mies ostaa vain lahjoja .
 TestAttemptoFre: chaque homme achète seulement des cadeaux .
 TestAttemptoGer: jeder Mann kauft nur Geschenke .
 TestAttemptoIta: ogni uomo compra soltanto regali .
@@ -263,7 +263,7 @@ TestAttemptoAce: everything which buys nothing but pictures is a woman .
 TestAttemptoCat: tot que compra nomÈs imatges és una dona .
 TestAttemptoDut: alles , dat slechts schilderijen koopt is een vrouw .
 TestAttemptoEng: everything which buys nothing but pictures is a woman .
-TestAttemptoFin: kaikki , joka ostaa vain kuvat on nainen .
+TestAttemptoFin: kaikki , joka ostaa vain kuvia on nainen .
 TestAttemptoFre: tout qui achète seulement des images est une femme .
 TestAttemptoGer: alles , das nur Bilder kauft ist eine Frau .
 TestAttemptoIta: tutto che compra soltanto immagini è una donna .

@@ -113,7 +113,7 @@ deprecated or should be avoided (i.e. create a warning), e.g.
 Building
 --------
 
-_Note: Urd and Fin are currently not included_
+_Note: based on GF darcs version: 2012-05-26 10:16:00 CEST_
 
 In order to build the PGF-file execute:
 
@@ -123,7 +123,7 @@ In order to build the PGF-file execute:
 
 (Note that it is important that you use `bash`.)
 
-The building will take about a minute on i3 given that _Fin_ is included.
+The building will take about a minute on i3.
 The GF libraries are expected to be found in a system-wide location, e.g.:
 
   * ~/.cabal/share/gf-3.3/lib/present/
@@ -238,15 +238,10 @@ generated from existing terminology databases.
 Status
 ------
 
-Status of this project in terms of ACE-compliance of the GF grammars
-measured in different ways. We look at:
+We measure the status of this project in various ways, see more:
 
-  * various ACE subsets
-  * GF parsing
-  * GF generation
-  * GF translation correctness (?)
-
-_Note: So far we have only looked at how many known ACE sentences the GF parser can parse. See more in the `tests`-directory._
+  - [Evaluation wiki](https://github.com/Attempto/ACE-in-GF/wiki/Evaluation)
+  - [tests-directory](https://github.com/Attempto/ACE-in-GF/tree/master/tests)
 
 
 Structure of the grammar
