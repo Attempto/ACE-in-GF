@@ -27,7 +27,7 @@ TestAttemptoUrd: Bill اك گولفر نہیں ہے
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (pnNP mary_PN) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))))
 TestAttemptoAce: Mary is an officer or is a golfer .
 TestAttemptoCat: [np_coord_VPS] .
-TestAttemptoDut: [np_coord_VPS] .
+TestAttemptoDut: Mary is een officier of is een golfer .
 TestAttemptoEng: Mary is an officer or is a golfer .
 TestAttemptoFin: Mary on upseeri tai on golfaaja .
 TestAttemptoFre: [np_coord_VPS] .
@@ -40,7 +40,7 @@ TestAttemptoUrd: [np_coord_VPS]
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (pnNP sue_PN) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
 TestAttemptoAce: Sue is an officer and is a traveler .
 TestAttemptoCat: [np_coord_VPS] .
-TestAttemptoDut: [np_coord_VPS] .
+TestAttemptoDut: Sue is een officier en is een reiziger .
 TestAttemptoEng: Sue is an officer and is a traveler .
 TestAttemptoFin: Sue on upseeri ja on matkustaja .
 TestAttemptoFre: [np_coord_VPS] .
@@ -118,7 +118,7 @@ TestAttemptoUrd: ہر مسافر , جو اك عورت نہیں ہے اك گول�
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (everyNP (cn_as_VarCN man_N)) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
 TestAttemptoAce: every man is a golfer or is a traveler .
 TestAttemptoCat: [np_coord_VPS] .
-TestAttemptoDut: [np_coord_VPS] .
+TestAttemptoDut: elke man is een golfer of is een reiziger .
 TestAttemptoEng: every man is a golfer or is a traveler .
 TestAttemptoFin: jokainen mies on golfaaja tai on matkustaja .
 TestAttemptoFre: [np_coord_VPS] .
@@ -131,7 +131,7 @@ TestAttemptoUrd: [np_coord_VPS]
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP nobody_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))))) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
 TestAttemptoAce: nobody who is a man or who is a golfer is an officer and is a traveler .
 TestAttemptoCat: [np_coord_VPS] .
-TestAttemptoDut: [np_coord_VPS] .
+TestAttemptoDut: niemand , die een man is of die een golfer is is een officier en is een reiziger .
 TestAttemptoEng: nobody who is a man or who is a golfer is an officer and is a traveler .
 TestAttemptoFin: kukaan , joka on mies tai joka on golfaaja on upseeri ja on matkustaja .
 TestAttemptoFre: [np_coord_VPS] .
@@ -300,7 +300,7 @@ TestAttemptoUrd: ہر چیز , جو كوی چیز سے پیار كرتا ہے ا
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP love_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))))
 TestAttemptoAce: everything which loves something is a traveler or is an officer .
 TestAttemptoCat: [np_coord_VPS] .
-TestAttemptoDut: [np_coord_VPS] .
+TestAttemptoDut: alles , dat iets lief heeft is een reiziger of is een officier .
 TestAttemptoEng: everything which loves something is a traveler or is an officer .
 TestAttemptoFin: kaikki , joka rakastaa jotakin on matkustaja tai on upseeri .
 TestAttemptoFre: [np_coord_VPS] .
@@ -313,7 +313,7 @@ TestAttemptoUrd: [np_coord_VPS]
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP see_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN aquarium_N)))))))))
 TestAttemptoAce: everything which is seen by something is a traveler or is an aquarium .
 TestAttemptoCat: [np_coord_VPS] .
-TestAttemptoDut: [np_coord_VPS] .
+TestAttemptoDut: alles , dat door iets gezien wordt is een reiziger of is een aquarium .
 TestAttemptoEng: everything which is seen by something is a traveler or is an aquarium .
 TestAttemptoFin: kaikki , joka nähdään jonkin toimesta on matkustaja tai on akvaario .
 TestAttemptoFre: [np_coord_VPS] .
