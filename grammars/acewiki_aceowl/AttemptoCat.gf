@@ -11,6 +11,7 @@ concrete AttemptoCat of Attempto = SymbolsC, NumeralCat, NullVPS ** AttemptoI wi
   lin ipNPQ ip = lin NP {
     s = \\c => {comp,ton = ip.s ! c ; c1,c2 = []} ;
     a = Ag ip.a.g ip.a.n P3 ;
+    isNeg = False ;
     hasClit = False ;
     isPol = False
   } ;

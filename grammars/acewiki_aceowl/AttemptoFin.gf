@@ -24,6 +24,6 @@ concrete AttemptoFin of Attempto = NumeralFin, SymbolsC **
   lin BaseVPSQ = E.BaseVPS ;
   lin ConsVPSQ = E.ConsVPS ;
 
-  lin ipNPQ ip = lin NP (ip ** {a = agrP3 ip.n ; isPron = True}) ;
+  lin ipNPQ ip = lin NP (ip ** {a = agrP3 ip.n ; isNeg = False ; isPron = True}) ;
 
 }

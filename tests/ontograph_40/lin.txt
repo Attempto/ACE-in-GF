@@ -18,7 +18,7 @@ TestAttemptoDut: Bill is niet een golfer .
 TestAttemptoEng: Bill isn't a golfer .
 TestAttemptoFin: Bill ei ole golfaaja .
 TestAttemptoFre: Bill n' est pas un golfeur .
-TestAttemptoGer: Bill ist ein Golfer nicht .
+TestAttemptoGer: Bill ist nicht ein Golfer .
 TestAttemptoIta: Bill non è un giocatore di golf .
 TestAttemptoSpa: Bill no es una golfista .
 TestAttemptoSwe: Bill är inte ett golfspelare .
@@ -68,8 +68,8 @@ TestAttemptoAce: no golfer is a woman .
 TestAttemptoCat: cap golfista és una dona .
 TestAttemptoDut: geen golfer is een vrouw .
 TestAttemptoEng: no golfer is a woman .
-TestAttemptoFin: mikään golfaaja on nainen .
-TestAttemptoFre: aucun golfeur est une femme .
+TestAttemptoFin: mikään golfaaja ei ole nainen .
+TestAttemptoFre: aucun golfeur n' est une femme .
 TestAttemptoGer: kein Golfer ist eine Frau .
 TestAttemptoIta: nessuno giocatore di golf è una donna .
 TestAttemptoSpa: hacia golfista es una mujer .
@@ -96,7 +96,7 @@ TestAttemptoDut: elke reiziger die niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler who isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustaja joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
-TestAttemptoGer: jeder Reisende der eine Frau nicht ist ist ein Golfer .
+TestAttemptoGer: jeder Reisende der nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoSpa: cada viajero que no es una mujer es una golfista .
 TestAttemptoSwe: varje resenär som inte är en kvinna är ett golfspelare .
@@ -109,7 +109,7 @@ TestAttemptoDut: elke reiziger , dat niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler who isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustaja , joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
-TestAttemptoGer: jeder Reisende , der eine Frau nicht ist ist ein Golfer .
+TestAttemptoGer: jeder Reisende , der nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoSpa: cada viajero que no es una mujer es una golfista .
 TestAttemptoSwe: varje resenär , som inte är en kvinna är ett golfspelare .
@@ -182,14 +182,14 @@ TestAttemptoUrd: Tom اك تصویر كو خریدتا ہے
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP mary_PN) (v2VP see_V2 (noNP (cn_as_VarCN man_N))))))
 TestAttemptoAce: Mary sees no man .
-TestAttemptoCat: Mary veu cap home .
+TestAttemptoCat: Mary no veu cap home .
 TestAttemptoDut: Mary ziet geen man .
 TestAttemptoEng: Mary sees no man .
-TestAttemptoFin: Mary näkee minkään miehen .
-TestAttemptoFre: Mary voit aucun homme .
+TestAttemptoFin: Mary ei näe mitään miestä .
+TestAttemptoFre: Mary ne voit aucun homme .
 TestAttemptoGer: Mary sieht keinen Mann .
-TestAttemptoIta: Mary vede nessuno uomo .
-TestAttemptoSpa: Mary ve hacia hombre .
+TestAttemptoIta: Mary non vede nessuno uomo .
+TestAttemptoSpa: Mary no ve hacia hombre .
 TestAttemptoSwe: Mary ser ingen man .
 TestAttemptoUrd: Mary كوی نہیں آدمی دیكھتا ہے
 
@@ -200,7 +200,7 @@ TestAttemptoDut: John koopt iets , die niet een cadeau is .
 TestAttemptoEng: John buys something which isn't a present .
 TestAttemptoFin: John ostaa jonkin , joka ei ole lahja .
 TestAttemptoFre: John achète quelque chose qui n' est pas un cadeau .
-TestAttemptoGer: John kauft etwas , das ein Geschenk nicht ist .
+TestAttemptoGer: John kauft etwas , das nicht ein Geschenk ist .
 TestAttemptoIta: John compra qualche cosa che non è un regalo .
 TestAttemptoSpa: John compra algo que no es un regalo .
 TestAttemptoSwe: John köper något , som inte är en present .
