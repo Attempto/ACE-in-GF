@@ -22,7 +22,9 @@
 \hyphenation{alpha-numeric}
 \hyphenation{ex-pe-ri-ment-al}
 
-\maketitle
+\input{titlepage}
+
+%\maketitle
 \begin{abstract}
 This report describes the implementation of a large part of the
 Attempto Controlled English (ACE) syntax ---
@@ -36,6 +38,12 @@ Additionally, the GF-based implementation of the ACE language provides
 ACE users with new (GF-based) editing tools.
 \end{abstract}
 
+\clearpage
+\thispagestyle{empty}
+\tableofcontents
+
+\clearpage
+\setcounter{page}{1}
 \section{Introduction}
 
 \ace{} (ACE) \cite{fuchs:reasoningweb2008} is a controlled natural language
@@ -330,7 +338,7 @@ that operate on language-independent categories such as \texttt{CN},
 
 \item the incomplete concrete grammar \texttt{AttemptoI} which uses the
 GF Resource Grammar Library (RGL)
-to provide concrete linearisations for the abstract functions
+to provide concrete linearisations for the abstract functions.
 This module
 is language-independent in the sense that the linearisations are provided
 via the RGL API which is common to all the languages that are supported by the
@@ -426,11 +434,6 @@ to GF RGL English operators.
 
 \begin{table}
 \begin{center}
-\caption{Mapping of AceWiki lexical categories
-to GF RGL API categories and GF English
-morphological paradigms. Underscore marks the omission of wordforms that
-cannot occur in ACE but that are required by the GF RGL
-operator.\protect\label{mapping_acewiki_to_gf}}
 \begin{tabular}{ l l l }
 \hline
 AceWiki category & GF Cat & GF Eng oper \\
@@ -443,6 +446,11 @@ transitive adjective & A2 & \xp{mkA2 (mkA fond) (mkPrep of)} \\
 \hline
 \end{tabular}
 \end{center}
+\caption{Mapping of AceWiki lexical categories
+to GF RGL API categories and GF English
+morphological paradigms. Underscore marks the omission of wordforms that
+cannot occur in ACE but that are required by the GF RGL
+operator.\protect\label{mapping_acewiki_to_gf}}
 \end{table}
 
 %Mapping the ACE lexical categories to GF RGL categories and morphological
@@ -658,11 +666,6 @@ conversely untouched in the resulting test set.
 
 \begin{table}
 \begin{center}
-\caption{Precision scores at various abstract syntax tree depths, as
-  tested against the AceWiki subset reference parser. 500 sentences
-  were generated and parsed in each case. The average sentence length
-  in tokens is provided as an indication of
-  sentence complexity.\protect\label{table:precision_scores}}
 \begin{tabular}{ c r r }
 \hline
 Depth & Avg. length & Precision (\%) \\
@@ -675,6 +678,11 @@ Depth & Avg. length & Precision (\%) \\
 \hline
 \end{tabular}
 \end{center}
+\caption{Precision scores at various abstract syntax tree depths, as
+  tested against the AceWiki subset reference parser. 500 sentences
+  were generated and parsed in each case. The average sentence length
+  in tokens is provided as an indication of
+  sentence complexity.\protect\label{table:precision_scores}}
 \end{table}
 
 % "the precision was about 90\%" - not very clear since we are giving
