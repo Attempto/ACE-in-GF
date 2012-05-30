@@ -77,8 +77,6 @@ fun cn_as_VarCN : CN -> VarCN ;
 -- Note: in full ACE this must be ThereNP [KK]
 fun termNP : Term -> NP ;
 
--- 2.2.2
-
 -- Relative clause can be attached to both CNs and NPs.
 -- relCN provides relative clauses in constructs like
 -- `which woman who ...` and `for every woman who ...`
@@ -104,24 +102,16 @@ fun which_RP : RP ;
 -- e.g. ((dog of X) of X), most of which ACE does not allow. [KK]
 fun ofCN : CN -> NP -> VarCN ;
 
--- 2.3.1
-
 fun vpS : NP -> VP -> SimpleS ;
 fun neg_vpS : NP -> VP -> SimpleS ;
 
 fun v2VP : V2 -> NP -> VP ;
 
--- 2.3.2 [JJC]
-
 fun a2VP : A2 -> NP -> VP ; -- is mad-about NP
-
--- 3.2
 
 fun thereNP : ThereNP -> SimpleS ;  -- there is/are
 
 fun thereNP_as_NP : ThereNP -> NP ;
-
--- 3.4.1
 
 fun coordS : Conj -> S -> S -> S ;
 
@@ -136,18 +126,12 @@ fun vp_as_posVPS : VP -> VPS ;
 fun vp_as_negVPS : VP -> VPS ;
 fun np_coord_VPS : NP -> Conj -> [VPS] -> SimpleS ;
 
--- 3.4.3
-
 fun for_everyS : VarCN -> S -> S ;
-
--- 3.4.4
 
 fun if_thenS : S -> S -> S ;
 fun falseS : SimpleS -> S ; -- it is false that
 
 fun simpleS_as_S : SimpleS -> S ;
-
--- 3.5
 
 -- These have been replaced by the more generic function npqQS, which allows
 -- for wh-words in the object position of a relative clause as subject
@@ -168,8 +152,6 @@ fun whichIP : IDet -> VarCN -> IP ;
 fun which_IDet : IDet ;
 fun whichPl_IDet : IDet ;
 
--- 4
-
 cat ACEText ;
 fun consText : Text -> ACEText -> ACEText ;
 
@@ -177,8 +159,6 @@ fun baseText : Text -> ACEText ;
 
 fun sText : S -> Text ;
 fun qsText : QS -> Text ;
-
--- more
 
 fun npVP  : NP -> VP ;              -- is a bank
 fun digitsCard : Digits -> Card ;   -- 8 banks

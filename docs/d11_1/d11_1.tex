@@ -274,15 +274,17 @@ unify, e.g. nouns in the noun phrases match.
 The definite NP cannot be used after `there is' because the
 declared features \verb!def:+! and \verb!def:-! do not unify.
 
-Most of the Codeco features are syntactic in nature and therefore map to
+Most of the Codeco features are syntactic in nature (e.g. `case', `pl', `whin')
+and can be therefore handled in
 GF's concrete grammar which offers structures similar to Codeco's feature
 sets and operations similar to Codeco's unification. However, some of the
-Codeco features are semantic in nature (e.g. `exists') and should therefore be
+Codeco features are semantic in nature (e.g. `def', `exist')
+and should therefore be
 implemented in GF's abstract grammar where such unification-style rules are
 not possible. In neither case is a direct mapping of Codeco grammar rules
 and features to a GF grammar functions and categories possible.
-[TODO: go over the Codeco features and see what corresponds to them
-in GF, if it should belong to the concrete or the abstract part.]
+%[TODO: go over the Codeco features and see what corresponds to them
+%in GF, if it should belong to the concrete or the abstract part.]
 
 In the Codeco subset anaphoric references can be made via definite noun
 phrases (`the man') and variables (`X'). In order for an anaphoric reference
@@ -390,7 +392,7 @@ present in full ACE.
 
 The GF implementation follows the Codeco implementation, assigning a function
 to each grammar rule unless it is too specific to ACE, in which case it
-can be implemented as an ACE-only variant. [TODO: improve]
+can be implemented as an ACE-only variant.
 To correctly implement the ACE syntax, a new ACE-specific resource library
 was created. For the most part it borrows all the operators from GF's English
 resource library, but overrides certain constructions which in ACE have a
@@ -430,7 +432,7 @@ Most of the ACE lexical categories are directly supported by the RGL and the
 internal representations of words can be generated using RGL operators.
 Table \ref{mapping_acewiki_to_gf} shows the mapping of AceWiki categories
 to GF RGL English operators.
-[TODO: we have to ignore certain things, e.g.  the the-PNs?]
+%[TODO: we have to ignore certain things, e.g.  the the-PNs?]
 
 \begin{table}
 \begin{center}
