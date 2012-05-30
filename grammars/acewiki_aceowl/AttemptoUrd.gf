@@ -7,7 +7,6 @@ concrete AttemptoUrd of Attempto = NumeralUrd, SymbolsC, NullVPS **
                np_coord_VPS, np_coord_VPSQ, npq_coord_VPS] with
   (Syntax = SyntaxUrd),
   (Symbolic = SymbolicUrd),
-  (Extra = ExtraAttempto),
   (LexAttempto = LexAttemptoUrd) ** open CommonHindustani in {
 
 oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s} ;
