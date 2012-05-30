@@ -1,8 +1,9 @@
 incomplete concrete AttemptoI of Attempto = SymbolsC, Numeral ** open
-  Syntax, 
+  Syntax,
   Symbolic,
   Prelude,
-  LexAttempto 
+  LexAttempto,
+  Extra
 in {
 
 lincat CN = Syntax.CN ; VarCN = Syntax.CN ;
@@ -91,7 +92,7 @@ lin which_RP = Syntax.which_RP ;
 
 -- 2.2.4
 
-lin ofCN cn np = mkCN cn (mkAdv possess_Prep np) ;
+lin ofCN cn np = mkCN cn (Syntax.mkAdv possess_Prep np) ;
 
 -- 2.3.1
 
@@ -127,7 +128,7 @@ lin or_Conj = Syntax.or_Conj ;
 
 -- 3.4.3
 
-lin for_everyS cn = mkS (mkAdv for_Prep (Syntax.mkNP every_Det cn)) ;
+lin for_everyS cn = mkS (Syntax.mkAdv for_Prep (Syntax.mkNP every_Det cn)) ;
 
 -- 3.4.4
 
@@ -163,7 +164,7 @@ lin qsText = mkText ;
 
 lin npVP = mkVP ;
 lin digitsCard n = Syntax.mkCard <lin Digits n : Digits> ;
-lin v2_byVP v2 np = mkVP (passiveVP v2) (mkAdv by8agent_Prep np) ;
+lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv by8agent_Prep np) ;
 
 
 -- Question-related functions to handle wh-words in object potisions
@@ -217,5 +218,20 @@ lin v2_byVP v2 np = mkVP (passiveVP v2) (mkAdv by8agent_Prep np) ;
   lin neg_predRSQ = neg_predRS ;
   lin slashRSQ = slashRS ;
   lin neg_slashRSQ = neg_slashRS ;
+
+  lincat
+    VPS = Extra.VPS ;
+    [VPS] = Extra.ListVPS ;
+  lin
+    BaseVPS = Extra.BaseVPS ;
+    ConsVPS = Extra.ConsVPS ;
+    vp_as_posVPS = Extra.MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
+    vp_as_negVPS = Extra.MkVPS (mkTemp presentTense simultaneousAnt) negativePol ;
+    np_coord_VPS np conj vpss = Extra.PredVPS np (Extra.ConjVPS conj vpss);
+
+  lincat VPSQ = Extra.VPS ;
+  lincat [VPSQ] = Extra.ListVPS ;
+  lin BaseVPSQ = Extra.BaseVPS ;
+  lin ConsVPSQ = Extra.ConsVPS ;
 
 }

@@ -1,9 +1,10 @@
 --# -path=.:present
 
-concrete AttemptoGer of Attempto = SymbolsC, NumeralGer, NullVPS **
+concrete AttemptoGer of Attempto = SymbolsC, NumeralGer **
   AttemptoI - [if_thenS] with
   (Syntax = SyntaxGer),
   (Symbolic = SymbolicGer),
+  (Extra = ExtraGer),
   (LexAttempto = LexAttemptoGer) ** open SentenceGer, ResGer, Prelude in {
 
 oper then_Adv = ss "dann" ;
