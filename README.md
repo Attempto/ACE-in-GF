@@ -184,15 +184,17 @@ Testing
 
 ### Parsing ACE sentences
 
-The following 3 commands
-
-  - compile a Haskell script that applies a PGF file to a text file,
-  - compile a PGF file from a given GF source (grammar and vocabulary),
-  - run a test on a given text file.
+The commands
 
 	ghc --make -o Parser Parser.hs
 	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttempto{Ace,}.gf"
 	bash run-test.bash tests/acewiki_aceowl/sentences.txt
+
+do the following:
+
+  - compile a Haskell script that applies a PGF file to a text file,
+  - compile a PGF file from a given GF source (grammar and vocabulary),
+  - run a test on a given text file.
 
 The test script creates two output files
 
@@ -206,7 +208,7 @@ To run a test with the full ACE grammar and the 1000-word vocabulary on all the 
 
 The output files are created into the subdirectories of the tests-directory.
 
-Many additional test-targets are provided by the Makefile, translation tests have the prefix `lin_`.
+Additional test-targets are provided by the Makefile.
 
 ### Translating from ACE to other languages
 

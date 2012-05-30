@@ -2,11 +2,11 @@ Tests
 =====
 
 Each subdirectory stands for a test, i.e. contains the test input (sentences)
-and test output.
+and test output. The main tests are listed below.
 
 ### ace
 
-Full ACE.
+_Full ACE_
 
 Since there is no generator, we use the APE regression test set.
 We take all the snippets that APE parsed correctly into a non-empty DRS.
@@ -24,7 +24,7 @@ Results (somewhat older) with the large Clex as the lexicon:
 
 ### acewiki_aceowl
 
-__AceWiki-supported fragment of ACE OWL__
+_AceWiki-supported fragment of ACE OWL_
 
 AceWiki test set obtained by exhaustive generation with the Codeco grammar.
 Content words: ask, Mary, woman, friend, mad-about.
@@ -35,13 +35,9 @@ Content words: ask, Mary, woman, friend, mad-about.
 Test using `test_acewiki_aceowl_with_diff`.
 
 
-### aceeditor
-
-_Work in progress_
-
-The ACE Editor subset is between AceWiki ACEOWL and full ACE.
-
 ### ontograph_40
+
+Sentences for the evaluation of translation correctness.
 
   - Coverage test: `test_ontograph_40`
   - Multilinguality test: `lin_ontograph_40_save`
