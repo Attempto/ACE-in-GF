@@ -11,7 +11,7 @@ concrete TestAttemptoFre of TestAttempto = AttemptoFre **
   lin wait_V       = mkV L.wait_V2 ;
   lin ask_V2       = mkV2 (regV "demander") ;
   lin mad_A        = mkA "furieux" "furieuse" ;
---  lin mad_about_A2 = mkA2 mad_A (mkPrep "about") ;
+  lin mad_about_A2 = mkA2 mad_A (mkPrep "TODO") ;
   lin happy_A      = mkA "joyeux" "joyeuse" ;
 
 }
