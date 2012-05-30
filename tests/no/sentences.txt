@@ -1,0 +1,8 @@
+every man loves a woman .
+every man loves no woman .
+every man does not love a woman .
+every man does not love no woman .
+no man loves a woman .
+no man loves no woman .
+no man does not love a woman .
+no man does not love no woman .

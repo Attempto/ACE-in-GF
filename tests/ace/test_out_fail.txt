@@ -95,6 +95,8 @@
       2 where can which
       2 where can an escaped
       2 what must a
+      2 what can a
+      2 what are
       2 the United-Nations
       2 there is someone
       2 there is no man who
@@ -229,9 +231,6 @@
       1 what does who
       1 what does John live in
       1 what does a man look
-      1 what can a man not
-      1 what can a customer enter
-      1 what are the cars of
       1 VisaCards
       1 the size of a box is 3 cm *
       1 there is who
