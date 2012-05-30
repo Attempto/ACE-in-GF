@@ -1,9 +1,10 @@
 --# -path=.:present
 
-concrete AttemptoIta of Attempto = NumeralIta, SymbolsC, NullVPS **
+concrete AttemptoIta of Attempto = NumeralIta, SymbolsC **
   AttemptoI with
   (Syntax = SyntaxIta),
   (Symbolic = SymbolicIta),
+  (Extra = ExtraIta),
   (LexAttempto = LexAttemptoIta) ** open CommonRomance in {
 
   oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s ! Indic} ; -- TODO: Indic ?

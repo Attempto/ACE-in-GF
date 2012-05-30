@@ -1,9 +1,10 @@
 --# -path=.:present
 
 concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
-  AttemptoI - [apposVarCN, indefTherePronVarNP, indefPronVarNP] with
+  AttemptoI - [apposVarCN, indefTherePronVarNP, indefPronVarNP, vp_as_negVPS] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
+  (Extra = ExtraAce),
   (LexAttempto = LexAttemptoAce) ** open ExtraAce, ResAce, Precedence in {
 
   -- Variables have genitives [JJC]
@@ -29,24 +30,10 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
   -- We override this because of the linearisation of Var [JJC]
   lin apposVarCN cn v = mkCN cn (symb (NomVar v)) ;
 
-  -- VP coordination
-  lincat
-    VPS = ExtraAce.VPS ;
-    [VPS] = ExtraAce.ListVPS ;
-  lin
-    BaseVPS = ExtraAce.BaseVPS ;
-    ConsVPS = ExtraAce.ConsVPS ;
-    vp_as_posVPS = MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
-    vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) AnyNeg ;
-    np_coord_VPS np conj vpss = ExtraAce.PredVPS np (ExtraAce.ConjVPS conj vpss);
+  lin vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) AnyNeg ;
 
   -- Questions
   oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s} ;
-
-  lincat VPSQ = ExtraAce.VPS ;
-  lincat [VPSQ] = ExtraAce.ListVPS ;
-  lin BaseVPSQ = ExtraAce.BaseVPS ;
-  lin ConsVPSQ = ExtraAce.ConsVPS ;
 
   lin ipNPQ ip = lin NP (ip ** {a = agrP3 ip.n}) ;
 
