@@ -309,7 +309,7 @@ would make the grammar overly complicated,
 we decided not to precisely model the ACE support for anaphoric references.
 Our implementation covers the legal anaphoric constructions but additionally
 fails to detect the illegal ones (e.g. the ones listed above). This
-overgeneration is not observable in some usages of the parser, e.g. when
+over-generation is not observable in some usages of the parser, e.g. when
 translating existing ACE sentences, but is visible in e.g. interactive editors
 that help the user by suggesting possible completions of an unfinished
 sentence. In such tools a form of post processing must remove the illegal
@@ -808,7 +808,7 @@ that are relevant for the presented sentences.
 The evaluation provided valuable native speaker feedback that will
 allow us to correct various morphological and syntactic errors. It
 also pointed out some semantic issues, which can be mostly fixed by
-making language-specific customization to the grammar. In the worst
+making language-specific customisation to the grammar. In the worst
 case, if an ACE construct cannot be made available in a language, then
 it would generate a zero-linearization which would inform the grammar
 user that this construct is not available in all the languages and
@@ -816,13 +816,13 @@ therefore should not be used. ACE offers some amount of syntactic
 sugar, so things can usually be reformulated. This was the case for
 VP-coordination in Urdu, where the evaluators were asked to ignore the
 lack of translations caused by the missing support for the construct.
-The issues arising from this preliminary evalaution step are described
+The issues arising from this preliminary evaluation step are described
 below.
 
 \paragraph{RGL Errors}
 A few errors in the test linearisations were traced to errors in the
 Resource Grammar Library, and not in the Attempto grammar itself.
-These includede indefinite article and other missing articles in Urdu,
+These included indefinite article and other missing articles in Urdu,
 and the plural indefinite accusative case in Finnish.
 
 
@@ -852,7 +852,7 @@ of distinction is actually a limitation in the AceWiki subset itself.
 Negation in German also raised some issues amongst the evaluators.  An
 initial bug in the grammar produced the sentence ``Bill ist ein Golfer
 nicht'', which is grammatically wrong.  Fixing this gave the new
-setnence ``Bill ist nicht ein Golfer'', which is grammatically
+sentence ``Bill ist nicht ein Golfer'', which is grammatically
 acceptable, but pragmatically questionable.  The only truly correct
 translation into German is ``Bill ist kein Golfer'', however this
 would then create an ambiguity between ``Bill isn't a golfer'' and
@@ -864,7 +864,7 @@ would then create an ambiguity between ``Bill isn't a golfer'' and
 
 \paragraph{Negative determiners}
 
-Perhaps the biggest issue brought up through this evalution was the
+Perhaps the biggest issue brought up through this evaluation was the
 use of negative determiners, e.g. ``no man''.  Translating such
 determiners on a syntactic level can easily result in meaning shifts
 between languages, if the grammar author is not careful. The problem
@@ -992,7 +992,7 @@ to power the look-ahead editor and offer multilingual viewing and editing
 of the wiki content. Using the grammar in an actual application also offers
 new ways to evaluate the notion of multilingual controlled natural language.
 
-\section*{Acknowledgment}
+\section*{Acknowledgement}
 
 We would like to thank 
 Olga Caprotti,
@@ -1004,7 +1004,7 @@ Jordi Saludes,
 and
 Shafqat Virk
 for their time in completing our
-evalution and the valuable contributions they provided.
+evaluation and the valuable contributions they provided.
 
 \bibliography{bib}
 \bibliographystyle{alpha}
