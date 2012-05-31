@@ -1,8 +1,9 @@
 incomplete concrete AttemptoI of Attempto = SymbolsC, Numeral ** open
-  Syntax, 
+  Syntax,
   Symbolic,
   Prelude,
-  LexAttempto 
+  LexAttempto,
+  Extra
 in {
 
 lincat CN = Syntax.CN ; VarCN = Syntax.CN ;
@@ -74,8 +75,6 @@ lin apposVarCN cn v = mkCN cn (symb v) ;
 
 lin termNP x = symb (Prelude.ss x.s) ;
 
--- 2.2.2
-
 lin relCN = mkCN ;
 lin relNP = Syntax.mkNP ;
 --lin relThereNP = Syntax.mkNP ; [JJC]
@@ -89,22 +88,14 @@ lin slashRS rp np v2 = mkRS (mkRCl rp np v2) ;
 lin neg_slashRS rp np v2 = mkRS negativePol (mkRCl rp np v2) ;
 lin which_RP = Syntax.which_RP ;
 
--- 2.2.4
-
-lin ofCN cn np = mkCN cn (mkAdv possess_Prep np) ;
-
--- 2.3.1
+lin ofCN cn np = mkCN cn (Syntax.mkAdv possess_Prep np) ;
 
 lin vpS np vp = mkS (mkCl np vp) ;
 lin neg_vpS np vp = mkS negativePol (mkCl np vp) ;
 
 lin v2VP = mkVP ;
 
--- 2.3.2 [JJC]
-
 lin a2VP = mkVP ; -- is mad-about NP
-
--- 3.2
 
 lin thereNP np = mkS (mkCl np) ;
 
@@ -118,25 +109,17 @@ lin cn_as_VarCN = id Syntax.CN ;
 lin simpleS_as_S = id Syntax.S ;
 
 
--- 3.4.1
-
 lin coordS = mkS ;
 
 lin and_Conj = Syntax.and_Conj ;
 lin or_Conj = Syntax.or_Conj ;
 
--- 3.4.3
-
-lin for_everyS cn = mkS (mkAdv for_Prep (Syntax.mkNP every_Det cn)) ;
-
--- 3.4.4
+lin for_everyS cn = mkS (Syntax.mkAdv for_Prep (Syntax.mkNP every_Det cn)) ;
 
 lin if_thenS = mkS if_then_Conj ;
 
 lin falseS s = mkS (adj_thatCl false_A s) ;
 
-
--- 3.5
 
 -- lin ipQS ip vp = mkQS (mkQCl ip vp) ;
 -- lin neg_ipQS ip vp = mkQS negativePol (mkQCl ip vp) ;
@@ -151,19 +134,15 @@ lin whichIP = Syntax.mkIP ;
 lin which_IDet = Syntax.which_IDet ;
 lin whichPl_IDet = Syntax.whichPl_IDet ;
 
--- 3.6
-
 lin consText = mkText ;
 lin baseText t = t ;
 lin sText = mkText ;
 lin qsText = mkText ;
 
 
---- more
-
 lin npVP = mkVP ;
 lin digitsCard n = Syntax.mkCard <lin Digits n : Digits> ;
-lin v2_byVP v2 np = mkVP (passiveVP v2) (mkAdv by8agent_Prep np) ;
+lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv by8agent_Prep np) ;
 
 
 -- Question-related functions to handle wh-words in object potisions
@@ -189,12 +168,6 @@ lin v2_byVP v2 np = mkVP (passiveVP v2) (mkAdv by8agent_Prep np) ;
   lin a2VPQ = a2VP ;
   lin v2_byVPQ = v2_byVP ;
 
-  -- These functions are language-specific
-  -- lincat VPSQ = Extra.VPS ;
-  -- lincat [VPSQ] = Extra.ListVPS ;
-  -- lin BaseVPSQ = Extra.BaseVPS ;
-  -- lin ConsVPSQ = Extra.ConsVPS ;
-
   lin vp_as_posVPSQ = vp_as_posVPS ;
   lin vp_as_negVPSQ = vp_as_negVPS ;
   lin vpq_as_posVPSQ = vp_as_posVPS ;
@@ -217,5 +190,20 @@ lin v2_byVP v2 np = mkVP (passiveVP v2) (mkAdv by8agent_Prep np) ;
   lin neg_predRSQ = neg_predRS ;
   lin slashRSQ = slashRS ;
   lin neg_slashRSQ = neg_slashRS ;
+
+  lincat
+    VPS = Extra.VPS ;
+    [VPS] = Extra.ListVPS ;
+  lin
+    BaseVPS = Extra.BaseVPS ;
+    ConsVPS = Extra.ConsVPS ;
+    vp_as_posVPS = Extra.MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
+    vp_as_negVPS = Extra.MkVPS (mkTemp presentTense simultaneousAnt) negativePol ;
+    np_coord_VPS np conj vpss = Extra.PredVPS np (Extra.ConjVPS conj vpss);
+
+  lincat VPSQ = Extra.VPS ;
+  lincat [VPSQ] = Extra.ListVPS ;
+  lin BaseVPSQ = Extra.BaseVPS ;
+  lin ConsVPSQ = Extra.ConsVPS ;
 
 }

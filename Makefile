@@ -75,11 +75,12 @@ test_ontograph_40:
 test_precision:
 	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttempto{Ace,}.gf"
 	bash run-precision-test.bash 100
+
 test_precision_range:
 	bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttempto{Ace,}.gf"
-	bash run-precision-test.bash 500 3
-	bash run-precision-test.bash 500 4
-	bash run-precision-test.bash 500 5
-	bash run-precision-test.bash 500 6
-	bash run-precision-test.bash 500 7
+	bash run-precision-test.bash 100 3
+	bash run-precision-test.bash 100 4
+	bash run-precision-test.bash 100 5
+	bash run-precision-test.bash 100 6
+	bash run-precision-test.bash 100 7
 

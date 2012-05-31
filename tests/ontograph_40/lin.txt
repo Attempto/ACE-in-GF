@@ -3,7 +3,7 @@ TestAttemptoAce: Mary is a traveler .
 TestAttemptoCat: Mary és un viatger .
 TestAttemptoDut: Mary is een reiziger .
 TestAttemptoEng: Mary is a traveler .
-TestAttemptoFin: Mary on matkustajan .
+TestAttemptoFin: Mary on matkustaja .
 TestAttemptoFre: Mary est un voyageur .
 TestAttemptoGer: Mary ist ein Reisende .
 TestAttemptoIta: Mary è un viaggiatore .
@@ -16,9 +16,9 @@ TestAttemptoAce: Bill isn't a golfer .
 TestAttemptoCat: Bill no és una golfista .
 TestAttemptoDut: Bill is niet een golfer .
 TestAttemptoEng: Bill isn't a golfer .
-TestAttemptoFin: Bill ei ole golfin .
+TestAttemptoFin: Bill ei ole golfaaja .
 TestAttemptoFre: Bill n' est pas un golfeur .
-TestAttemptoGer: Bill ist ein Golfer nicht .
+TestAttemptoGer: Bill ist nicht ein Golfer .
 TestAttemptoIta: Bill non è un giocatore di golf .
 TestAttemptoSpa: Bill no es una golfista .
 TestAttemptoSwe: Bill är inte ett golfspelare .
@@ -26,27 +26,27 @@ TestAttemptoUrd: Bill اك گولفر نہیں ہے
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (pnNP mary_PN) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))))
 TestAttemptoAce: Mary is an officer or is a golfer .
-TestAttemptoCat: [np_coord_VPS] .
-TestAttemptoDut: [np_coord_VPS] .
+TestAttemptoCat: Mary és un oficial o és una golfista .
+TestAttemptoDut: Mary is een officier of is een golfer .
 TestAttemptoEng: Mary is an officer or is a golfer .
-TestAttemptoFin: [np_coord_VPS] .
-TestAttemptoFre: [np_coord_VPS] .
-TestAttemptoGer: [np_coord_VPS] .
-TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSpa: [np_coord_VPS] .
+TestAttemptoFin: Mary on upseeri tai on golfaaja .
+TestAttemptoFre: Mary est un officier ou il est un golfeur .
+TestAttemptoGer: Mary ist ein Offizier oder ist ein Golfer .
+TestAttemptoIta: Mary è un ufficiale o è un giocatore di golf .
+TestAttemptoSpa: Mary es un funcionario o es una golfista .
 TestAttemptoSwe: Mary är en befäl eller är ett golfspelare .
 TestAttemptoUrd: [np_coord_VPS]
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (pnNP sue_PN) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
 TestAttemptoAce: Sue is an officer and is a traveler .
-TestAttemptoCat: [np_coord_VPS] .
-TestAttemptoDut: [np_coord_VPS] .
+TestAttemptoCat: Sue és un oficial i és un viatger .
+TestAttemptoDut: Sue is een officier en is een reiziger .
 TestAttemptoEng: Sue is an officer and is a traveler .
-TestAttemptoFin: [np_coord_VPS] .
-TestAttemptoFre: [np_coord_VPS] .
-TestAttemptoGer: [np_coord_VPS] .
-TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSpa: [np_coord_VPS] .
+TestAttemptoFin: Sue on upseeri ja on matkustaja .
+TestAttemptoFre: Sue est un officier et elle est un voyageur .
+TestAttemptoGer: Sue ist ein Offizier und ist ein Reisende .
+TestAttemptoIta: Sue è un ufficiale ed è un viaggiatore .
+TestAttemptoSpa: Sue es un funcionario y es un viajero .
 TestAttemptoSwe: Sue är en befäl och är en resenär .
 TestAttemptoUrd: [np_coord_VPS]
 
@@ -55,7 +55,7 @@ TestAttemptoAce: every man is a golfer .
 TestAttemptoCat: cada home és una golfista .
 TestAttemptoDut: elke man is een golfer .
 TestAttemptoEng: every man is a golfer .
-TestAttemptoFin: jokainen mies on golfin .
+TestAttemptoFin: jokainen mies on golfaaja .
 TestAttemptoFre: chaque homme est un golfeur .
 TestAttemptoGer: jeder Mann ist ein Golfer .
 TestAttemptoIta: ogni uomo è un giocatore di golf .
@@ -68,8 +68,8 @@ TestAttemptoAce: no golfer is a woman .
 TestAttemptoCat: cap golfista és una dona .
 TestAttemptoDut: geen golfer is een vrouw .
 TestAttemptoEng: no golfer is a woman .
-TestAttemptoFin: ei mikään golfin on nainen .
-TestAttemptoFre: aucun golfeur est une femme .
+TestAttemptoFin: mikään golfaaja ei ole nainen .
+TestAttemptoFre: aucun golfeur n' est une femme .
 TestAttemptoGer: kein Golfer ist eine Frau .
 TestAttemptoIta: nessuno giocatore di golf è una donna .
 TestAttemptoSpa: hacia golfista es una mujer .
@@ -94,9 +94,9 @@ TestAttemptoAce: every traveler who isn't a woman is a golfer .
 TestAttemptoCat: cada viatger que no és una dona és una golfista .
 TestAttemptoDut: elke reiziger die niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler who isn't a woman is a golfer .
-TestAttemptoFin: jokainen matkustajan joka ei ole nainen on golfin .
+TestAttemptoFin: jokainen matkustaja joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
-TestAttemptoGer: jeder Reisende der eine Frau nicht ist ist ein Golfer .
+TestAttemptoGer: jeder Reisende der nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoSpa: cada viajero que no es una mujer es una golfista .
 TestAttemptoSwe: varje resenär som inte är en kvinna är ett golfspelare .
@@ -107,9 +107,9 @@ TestAttemptoAce: every traveler who isn't a woman is a golfer .
 TestAttemptoCat: cada viatger que no és una dona és una golfista .
 TestAttemptoDut: elke reiziger , dat niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler who isn't a woman is a golfer .
-TestAttemptoFin: jokainen matkustajan , joka ei ole nainen on golfin .
+TestAttemptoFin: jokainen matkustaja , joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
-TestAttemptoGer: jeder Reisende , der eine Frau nicht ist ist ein Golfer .
+TestAttemptoGer: jeder Reisende , der nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoSpa: cada viajero que no es una mujer es una golfista .
 TestAttemptoSwe: varje resenär , som inte är en kvinna är ett golfspelare .
@@ -117,27 +117,27 @@ TestAttemptoUrd: ہر مسافر , جو اك عورت نہیں ہے اك گول�
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (everyNP (cn_as_VarCN man_N)) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
 TestAttemptoAce: every man is a golfer or is a traveler .
-TestAttemptoCat: [np_coord_VPS] .
-TestAttemptoDut: [np_coord_VPS] .
+TestAttemptoCat: cada home és una golfista o és un viatger .
+TestAttemptoDut: elke man is een golfer of is een reiziger .
 TestAttemptoEng: every man is a golfer or is a traveler .
-TestAttemptoFin: [np_coord_VPS] .
-TestAttemptoFre: [np_coord_VPS] .
-TestAttemptoGer: [np_coord_VPS] .
-TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSpa: [np_coord_VPS] .
+TestAttemptoFin: jokainen mies on golfaaja tai on matkustaja .
+TestAttemptoFre: chaque homme est un golfeur ou il est un voyageur .
+TestAttemptoGer: jeder Mann ist ein Golfer oder ist ein Reisende .
+TestAttemptoIta: ogni uomo è un giocatore di golf o è un viaggiatore .
+TestAttemptoSpa: cada hombre es una golfista o es un viajero .
 TestAttemptoSwe: varje man är ett golfspelare eller är en resenär .
 TestAttemptoUrd: [np_coord_VPS]
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP nobody_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))))) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
 TestAttemptoAce: nobody who is a man or who is a golfer is an officer and is a traveler .
-TestAttemptoCat: [np_coord_VPS] .
-TestAttemptoDut: [np_coord_VPS] .
+TestAttemptoCat: ningú que és un home o que és una golfista és un oficial i és un viatger .
+TestAttemptoDut: niemand , die een man is of die een golfer is is een officier en is een reiziger .
 TestAttemptoEng: nobody who is a man or who is a golfer is an officer and is a traveler .
-TestAttemptoFin: [np_coord_VPS] .
-TestAttemptoFre: [np_coord_VPS] .
-TestAttemptoGer: [np_coord_VPS] .
-TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSpa: [np_coord_VPS] .
+TestAttemptoFin: kukaan , joka on mies tai joka on golfaaja on upseeri ja on matkustaja .
+TestAttemptoFre: personne qui est un homme ou qui est un golfeur n' est un officier et elle n' est un voyageur .
+TestAttemptoGer: niemand , das ein Mann ist oder das ein Golfer ist ist ein Offizier und ist ein Reisende .
+TestAttemptoIta: nessuno che è un uomo o che è un giocatore di golf è un ufficiale ed è un viaggiatore .
+TestAttemptoSpa: nadie que es un hombre o que es una golfista es un funcionario y es un viajero .
 TestAttemptoSwe: ingen , som är en man eller som är ett golfspelare är en befäl och är en resenär .
 TestAttemptoUrd: [np_coord_VPS]
 
@@ -182,14 +182,14 @@ TestAttemptoUrd: Tom اك تصویر كو خریدتا ہے
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP mary_PN) (v2VP see_V2 (noNP (cn_as_VarCN man_N))))))
 TestAttemptoAce: Mary sees no man .
-TestAttemptoCat: Mary veu cap home .
+TestAttemptoCat: Mary no veu cap home .
 TestAttemptoDut: Mary ziet geen man .
 TestAttemptoEng: Mary sees no man .
-TestAttemptoFin: Mary näkee ei minkään miehen .
-TestAttemptoFre: Mary voit aucun homme .
+TestAttemptoFin: Mary ei näe mitään miestä .
+TestAttemptoFre: Mary ne voit aucun homme .
 TestAttemptoGer: Mary sieht keinen Mann .
-TestAttemptoIta: Mary vede nessuno uomo .
-TestAttemptoSpa: Mary ve hacia hombre .
+TestAttemptoIta: Mary non vede nessuno uomo .
+TestAttemptoSpa: Mary no ve hacia hombre .
 TestAttemptoSwe: Mary ser ingen man .
 TestAttemptoUrd: Mary كوی نہیں آدمی دیكھتا ہے
 
@@ -200,7 +200,7 @@ TestAttemptoDut: John koopt iets , die niet een cadeau is .
 TestAttemptoEng: John buys something which isn't a present .
 TestAttemptoFin: John ostaa jonkin , joka ei ole lahja .
 TestAttemptoFre: John achète quelque chose qui n' est pas un cadeau .
-TestAttemptoGer: John kauft etwas , das ein Geschenk nicht ist .
+TestAttemptoGer: John kauft etwas , das nicht ein Geschenk ist .
 TestAttemptoIta: John compra qualche cosa che non è un regalo .
 TestAttemptoSpa: John compra algo que no es un regalo .
 TestAttemptoSwe: John köper något , som inte är en present .
@@ -211,7 +211,7 @@ TestAttemptoAce: John sees nothing but men .
 TestAttemptoCat: John veu nomÈs homes .
 TestAttemptoDut: John ziet slechts mannen .
 TestAttemptoEng: John sees nothing but men .
-TestAttemptoFin: John näkee vain miehet .
+TestAttemptoFin: John näkee vain miehiä .
 TestAttemptoFre: John voit seulement des hommes .
 TestAttemptoGer: John sieht nur Männer .
 TestAttemptoIta: John vede soltanto uomini .
@@ -250,7 +250,7 @@ TestAttemptoAce: every man buys nothing but presents .
 TestAttemptoCat: cada home compra nomÈs presentars .
 TestAttemptoDut: elke man koopt slechts cadeaus .
 TestAttemptoEng: every man buys nothing but presents .
-TestAttemptoFin: jokainen mies ostaa vain lahjat .
+TestAttemptoFin: jokainen mies ostaa vain lahjoja .
 TestAttemptoFre: chaque homme achète seulement des cadeaux .
 TestAttemptoGer: jeder Mann kauft nur Geschenke .
 TestAttemptoIta: ogni uomo compra soltanto regali .
@@ -263,7 +263,7 @@ TestAttemptoAce: everything which buys nothing but pictures is a woman .
 TestAttemptoCat: tot que compra nomÈs imatges és una dona .
 TestAttemptoDut: alles , dat slechts schilderijen koopt is een vrouw .
 TestAttemptoEng: everything which buys nothing but pictures is a woman .
-TestAttemptoFin: kaikki , joka ostaa vain kuvat on nainen .
+TestAttemptoFin: kaikki , joka ostaa vain kuvia on nainen .
 TestAttemptoFre: tout qui achète seulement des images est une femme .
 TestAttemptoGer: alles , das nur Bilder kauft ist eine Frau .
 TestAttemptoIta: tutto che compra soltanto immagini è una donna .
@@ -299,27 +299,27 @@ TestAttemptoUrd: ہر چیز , جو كوی چیز سے پیار كرتا ہے ا
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP love_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))))
 TestAttemptoAce: everything which loves something is a traveler or is an officer .
-TestAttemptoCat: [np_coord_VPS] .
-TestAttemptoDut: [np_coord_VPS] .
+TestAttemptoCat: tot que estima quelcom és un viatger o és un oficial .
+TestAttemptoDut: alles , dat iets lief heeft is een reiziger of is een officier .
 TestAttemptoEng: everything which loves something is a traveler or is an officer .
-TestAttemptoFin: [np_coord_VPS] .
-TestAttemptoFre: [np_coord_VPS] .
-TestAttemptoGer: [np_coord_VPS] .
-TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSpa: [np_coord_VPS] .
+TestAttemptoFin: kaikki , joka rakastaa jotakin on matkustaja tai on upseeri .
+TestAttemptoFre: tout qui aime quelque chose est un voyageur ou il est un officier .
+TestAttemptoGer: alles , das etwas liebt ist ein Reisende oder ist ein Offizier .
+TestAttemptoIta: tutto che ama qualche cosa è un viaggiatore o è un ufficiale .
+TestAttemptoSpa: todo que ama algo es un viajero o es un funcionario .
 TestAttemptoSwe: allting , som älskar något är en resenär eller är en befäl .
 TestAttemptoUrd: [np_coord_VPS]
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP see_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN aquarium_N)))))))))
 TestAttemptoAce: everything which is seen by something is a traveler or is an aquarium .
-TestAttemptoCat: [np_coord_VPS] .
-TestAttemptoDut: [np_coord_VPS] .
+TestAttemptoCat: tot que és vist per quelcom és un viatger o és un aquari .
+TestAttemptoDut: alles , dat door iets gezien wordt is een reiziger of is een aquarium .
 TestAttemptoEng: everything which is seen by something is a traveler or is an aquarium .
-TestAttemptoFin: [np_coord_VPS] .
-TestAttemptoFre: [np_coord_VPS] .
-TestAttemptoGer: [np_coord_VPS] .
-TestAttemptoIta: [np_coord_VPS] .
-TestAttemptoSpa: [np_coord_VPS] .
+TestAttemptoFin: kaikki , joka nähdään jonkin toimesta on matkustaja tai on akvaario .
+TestAttemptoFre: tout qui est vu par quelque chose est un voyageur ou il est un aquarium .
+TestAttemptoGer: alles , das durch etwas gesehen wird ist ein Reisende oder ist ein Aquarium .
+TestAttemptoIta: tutto che viene visto da qualche cosa è un viaggiatore o è un acquario .
+TestAttemptoSpa: todo que es visto por algo es un viajero o es un acuario .
 TestAttemptoSwe: allting , som blir sett av något är en resenär eller är en akvarium .
 TestAttemptoUrd: [np_coord_VPS]
 
@@ -354,7 +354,7 @@ TestAttemptoAce: every traveler sees at least 2 aquariums .
 TestAttemptoCat: cada viatger veu almenys 2 aquarins .
 TestAttemptoDut: elke reiziger ziet ten minste 2 aquaria .
 TestAttemptoEng: every traveler sees at least 2 aquariums .
-TestAttemptoFin: jokainen matkustajan näkee vähintään 2 akvaariota .
+TestAttemptoFin: jokainen matkustaja näkee vähintään 2 akvaariota .
 TestAttemptoFre: chaque voyageur voit au moins 2 aquariums .
 TestAttemptoGer: jeder Reisende sieht wenigstens 2 Aquariume .
 TestAttemptoIta: ogni viaggiatore vede almeno 2 acquari .
@@ -393,7 +393,7 @@ TestAttemptoAce: everything which is a traveler or which is an officer sees at m
 TestAttemptoCat: tot que és un viatger o que és un oficial veu com a màxim 1 aquari .
 TestAttemptoDut: alles , dat een reiziger is of dat een officier is ziet hooguit 1 aquarium .
 TestAttemptoEng: everything which is a traveler or which is an officer sees at most 1 aquarium .
-TestAttemptoFin: kaikki , joka on matkustajan tai joka on upseeri näkee enintään 1 akvaarion .
+TestAttemptoFin: kaikki , joka on matkustaja tai joka on upseeri näkee enintään 1 akvaarion .
 TestAttemptoFre: tout qui est un voyageur ou qui est un officier voit au plus 1 aquarium .
 TestAttemptoGer: alles , das ein Reisende ist oder das ein Offizier ist sieht höchstens 1 Aquarium .
 TestAttemptoIta: tutto che è un viaggiatore o che è un ufficiale vede al massimo 1 acquario .

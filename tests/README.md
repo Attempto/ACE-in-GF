@@ -1,14 +1,12 @@
 Tests
 =====
 
-Each subdirectory stands for an ACE subset.
-
-Subsets
--------
+Each subdirectory stands for a test, i.e. contains the test input (sentences)
+and test output. The main tests are listed below.
 
 ### ace
 
-Full ACE.
+_Full ACE_
 
 Since there is no generator, we use the APE regression test set.
 We take all the snippets that APE parsed correctly into a non-empty DRS.
@@ -17,7 +15,7 @@ Some normalization is performed, e.g.
   * sentence-initial function words are lowercased
   * punctuation marks are separated from the words
 
-Results with the large Clex as the lexicon:
+Results (somewhat older) with the large Clex as the lexicon:
 
   * Parsed: 1212
   * NOT parsed: 1560
@@ -26,39 +24,23 @@ Results with the large Clex as the lexicon:
 
 ### acewiki_aceowl
 
-__AceWiki-supported fragment of ACE OWL__
+_AceWiki-supported fragment of ACE OWL_
 
 AceWiki test set obtained by exhaustive generation with the Codeco grammar.
 Content words: ask, Mary, woman, friend, mad-about.
 
-  * Total: 19718
-  * Runtime: ~39 sec
+  * Total: 19422
+  * Runtime: ~55 sec
 
-> bash make-pgf.bash grammars/acewiki_aceowl/ "words/acewiki_aceowl/TestAttemptoAce.gf"
+Test using `test_acewiki_aceowl_with_diff`.
 
-
-### aceeditor
-
-_Work in progress_
-
-The ACE Editor subset is between AceWiki ACEOWL and full ACE.
 
 ### ontograph_40
 
-Coverage test:
+Sentences for the evaluation of translation correctness.
 
-> bash make-pgf.bash grammars/acewiki_aceowl/ "words/ontograph_40/TestAttemptoAce.gf"
-
-> bash run-test.bash tests/ontograph_40/sentences.txt
-
-> cat test_out_fail.txt
-
-
-Multilinguality test:
-
-> bash make-pgf.bash grammars/acewiki_aceowl/ "words/ontograph_40/TestAttempto{Ace,Ger}.gf"
-
-> cat tests/ontograph_40/sentences.txt | ./Translator ACE-0_0_2.pgf
+  - Coverage test: `test_ontograph_40`
+  - Multilinguality test: `lin_ontograph_40_save`
 
 
 Test files
@@ -72,10 +54,12 @@ Input sentences for the test.
 
 ### test_out.txt
 
-Output of the test on the test sentences.
-Each sentence is classified as __OK__ or __FAIL__.
-In the latter case, the successfully parsed beginning of the sentence
-is also provided.
+Output of the test on the input sentences.
+Each sentence is classified as __OK__ or __FAIL__, depending on
+whether it was successfully parsed or not.
+In case of __OK__, the ambiguity (number of corresponding abstract trees)
+is shown in parentheses.
+In case of __FAIL__, the successfully parsed beginning of the sentence is shown.
 
 ### test_out_fail.txt
 

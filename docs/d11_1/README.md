@@ -6,9 +6,13 @@ Building
 
 To create the PDF file, simply run
 
-> make
+	make
 
 (Tested on Ubuntu 11.10)
+
+After the addition of the title page, this does not work anymore, use instead
+
+	sh make.sh
 
 
 Editing
@@ -16,3 +20,10 @@ Editing
 
 Each line in the tex-file is shorter than 80 characters.
 The purpose of this is to make diffing (`git diff`) simpler.
+
+Spelling
+--------
+
+Obey British-English spelling.
+
+	aspell --lang en_UK -c d11_1.tex

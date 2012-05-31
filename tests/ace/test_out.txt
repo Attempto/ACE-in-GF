@@ -84,7 +84,7 @@ there is no customer who inserts a card .|FAIL there is no customer who
 a customer inserts a card .|OK (1)
 does a customer insert a card ?|OK (1)
 a new customer inserts a valid card manually .|OK (1)
-who inserts a card ?|OK (2)
+who inserts a card ?|OK (1)
 which customer inserts a card ?|OK (1)
 what does the customer insert ?|OK (1)
 how does the customer insert a card ?|FAIL how
@@ -193,7 +193,7 @@ John's code is red . John's code is blue .|OK (1)
 a man sees a dog and a cat .|OK (1)
 a man sees a dog and a man .|OK (1)
 a man hits his own dog . the man is happy .|OK (1)
-who waits ?|OK (2)
+who waits ?|OK (1)
 who hits who ?|FAIL who hits who
 who gives who who ?|FAIL who gives who
 who gives who what ?|FAIL who gives who
@@ -210,7 +210,7 @@ who sees himself ?|FAIL who sees himself
 somebody sees himself / herself .|FAIL somebody sees himself
 who see themselves ?|FAIL who see themselves
 who runs and hits himself ?|FAIL who runs and hits himself
-who wait ?|OK (2)
+who wait ?|OK (1)
 John waits . John runs .|OK (1)
 there is a man . there is a boy . he sees him .|OK (1)
 there is a man . there is a boy . he sees himself .|FAIL there is a man . there is a boy . he sees himself
@@ -411,7 +411,7 @@ a man has 2 kg of laundry .|OK (1)
 there is a child of a man . the child waits .|OK (1)
 the dog that sees the man barks .|OK (2)
 the dog that sees the man barks . the dog eats . the man drinks .|OK (2)
-there is a man . who hits him ?|OK (2)
+there is a man . who hits him ?|OK (1)
 there is a man . who hits himself ?|FAIL there is a man . who hits himself
 who sees who ?|FAIL who sees who
 what sees itself ?|FAIL what sees itself
@@ -488,8 +488,8 @@ a dog of a boy barks . the boy waits .|OK (1)
 a man lives in a town .|OK (1)
 a man lives in a town . where does the man live ?|OK (1)
 where does the man live ?|OK (1)
-where does the man live ? who lives in the town ?|OK (2)
-a man lives in a town . where does the man live ? who lives in the town ?|OK (2)
+where does the man live ? who lives in the town ?|OK (1)
+a man lives in a town . where does the man live ? who lives in the town ?|OK (1)
 a girl of a boy waits . the girl eats .|OK (1)
 there is a man a dog of who barks . the dog eats .|FAIL there is a man a
 there is a man a dog of who barks . the man eats .|FAIL there is a man a
@@ -520,7 +520,7 @@ there is a dog . there is a man .|OK (1)
 a man carefully waits .|FAIL a man carefully
 a clerk enters a card of every customer .|OK (1)
 a clerk enters every customer's card .|OK (1)
-who enters a card ?|OK (2)
+who enters a card ?|OK (1)
 John owns some services that deliver some pizzas .|OK (1)
 John owns some services each of which delivers some pizzas .|OK (1)
 John waits in a bank . he is happy .|OK (1)
@@ -546,7 +546,7 @@ a man enters all laundry .|OK (1)
 a man is rich and famous .|FAIL a man is rich and famous
 a dog is not a cat .|OK (1)
 John vaguely sees a big dog . the dog barks in the garden of the brother of John .|FAIL John vaguely
-who is in the park in the town ?|OK (2)
+who is in the park in the town ?|OK (1)
 there is no man .|FAIL there is no man .
 a man waits carefully and manually .|FAIL a man waits carefully and manually
 a man gives a bone to a dog manually and carefully .|FAIL a man gives a bone to a dog manually and carefully
@@ -730,7 +730,7 @@ a man sees no dog .|OK (1)
 a man sees not every dog .|OK (1)
 a man waits in every bank .|OK (1)
 there is a dog that barks .|OK (1)
-who waits ? what waits ?|OK (2)
+who waits ? what waits ?|OK (1)
 a service is quick usually .|OK (1)
 which code is there ?|OK (1)
 a card of who is valid ?|OK (2)
@@ -1351,7 +1351,7 @@ if someone X waits then X is a customer . someone X waits .|FAIL if someone
 there is a man X . if X owns a dog then the dog hates a cat .|OK (1)
 can John like Mary ?|OK (1)
 must John like Mary ?|OK (1)
-what can a customer enter ?|FAIL what can a customer enter
+what can a customer enter ?|FAIL what can a
 what must a customer enter ?|FAIL what must a
 Into what can a customer enter a card ?|FAIL Into
 where must a customer enter a card ?|OK (1)
@@ -1541,8 +1541,8 @@ who is a child X whose mother is somebody whose husband is somebody whose child 
 John' age is 21 .|FAIL John'
 if a man likes a dog that likes a cat and the man likes a cow that likes a sheep then the man owns a car .|OK (4)
 if there is a man , and the man likes a dog that likes a cat or the man likes a cow that likes a sheep then the man owns a car .|OK (8)
-there is a man that sees a woman that owns a cat . who is the man ? who is the woman ?|OK (12)
-what are some men ?|OK (1)
+there is a man that sees a woman that owns a cat . who is the man ? who is the woman ?|OK (3)
+what are some men ?|FAIL what are
 more than 3 clerks wait . John knows the clerks . less than 2 clerks sit . John knows the clerks .|OK (1)
 John tries to walk .|FAIL John tries to walk
 John does not have to walk .|OK (1)
@@ -1720,7 +1720,7 @@ Bill gives which flowers to which women ?|FAIL Bill gives which flowers to
 which men give which flowers to which women ?|FAIL which men give which
 2 kg of sugar are used by John for what ?|FAIL 2 kg of sugar are used by John for what
 is a code entered by a customer ?|OK (2)
-what are the cars of John ?|FAIL what are the cars of
+what are the cars of John ?|FAIL what are
 who are the children of John ?|FAIL who are the children of
 at least 3 men and at most 3 men wait . they are tired .|OK (1)
 a man who is John waits . the man who is Bill sleeps .|OK (4)
@@ -1730,7 +1730,7 @@ there is a man whose dog barks . the dog of a man sleeps .|FAIL there is a man w
 there are a man X and a man Y .|FAIL there are a
 for each of a man X and a man Y there is a card .|FAIL for each of a
 not for each of a man X and a man Y there is a card .|FAIL not for
-John has a dog and has a cat . who has a dog ? who has a cat ?|OK (4)
+John has a dog and has a cat . who has a dog ? who has a cat ?|OK (1)
 there is a man . a dog of him eats . the dog of him barks .|OK (1)
 there is a man . a dog of him eats . the dog of the man barks .|OK (1)
 there is a man a dog of who barks and who eats .|FAIL there is a man a
@@ -1828,7 +1828,7 @@ there are 3 dogs . there is a man who owns each of the dogs . the man who owns e
 is every man a human ?|OK (1)
 John tells Mary that he waits .|OK (1)
 what does who see ?|FAIL what does who
-who eats and drinks ?|OK (2)
+who eats and drinks ?|OK (1)
 a man eats quickly and quickly .|FAIL a man eats quickly and quickly
 a man eats how in a park ?|FAIL a man eats how
 a man eats how in a park in a morning ?|FAIL a man eats how
@@ -1836,7 +1836,7 @@ a man eats in a park how in a morning ?|FAIL a man eats in a park how
 a man eats in a park in a morning how ?|FAIL a man eats in a park in a morning how
 a man eats quickly in a park .|OK (1)
 a man eats in a park quickly .|OK (1)
-who eats or sleeps ?|OK (2)
+who eats or sleeps ?|OK (1)
 John's height is 180 cm .|FAIL John's height is 180 cm
 John lifts 50.5 kg .|FAIL John lifts 50.5 kg
 the size of a box is 3 cm * 44 mm * 1 m .|FAIL the size of a box is 3 cm *
@@ -1967,7 +1967,7 @@ which code does a customer enter ?|OK (1)
 which code does who enter ?|FAIL which code does who
 who gives what to who ?|FAIL who gives what
 what must a man own ?|FAIL what must a
-what can a man not have ?|FAIL what can a man not
+what can a man not have ?|FAIL what can a
 which customer does not provably wait ?|FAIL which customer does not provably
 which customer does John not provably know ?|FAIL which customer does John not provably
 which customer does John not provably not know ?|FAIL which customer does John not provably
@@ -2419,7 +2419,7 @@ John in a kitchen patiently wants that he waits .|FAIL John in
 John patiently in a kitchen wants that he waits .|FAIL John patiently
 there is a dog . a cat sees what ?|OK (1)
 whose child is Mary and is nothing but Mary ?|FAIL whose child is Mary and is nothing but Mary
-who sleeps ? John waits .|OK (2)
+who sleeps ? John waits .|OK (1)
 John may wait .|FAIL John may
 John may not sleep .|FAIL John may
 John may be rich .|FAIL John may

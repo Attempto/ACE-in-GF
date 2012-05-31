@@ -33,15 +33,18 @@ if [ $# -ge 1 ]; then
     fi
 fi
 
-echo "Parsing..."
+#echo "Parsing into ${out}..."
 egrep ".+" ${trees_file} | tools/Codeco/run.sh 1>${out}
-echo "Output is in ${out}"
+
+length=`cat ${trees_file} | python tools/length.py | python tools/avg.py`
 
 total=`cat ${out} | wc --lines`
 parsed=`egrep "^OK:" ${out} | wc --lines`
 failed=`egrep "^FAIL:" ${out} | wc --lines`
 echo "Parsed: ${parsed}, Failed: ${failed}"
 echo "Precision:" $((parsed*100/total))"%"
+echo "Depth: ${depth}"
+echo "Average length: ${length}"
 
-echo "Creating ${out_fail}"
+#echo "Creating ${out_fail}"
 egrep "^FAIL:" ${out} | sed "s/^FAIL: //" | sort | uniq > ${out_fail}

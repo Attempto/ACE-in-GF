@@ -1,9 +1,10 @@
 --# -path=.:present
 
-concrete AttemptoDut of Attempto = SymbolsC, NumeralDut, NullVPS **
+concrete AttemptoDut of Attempto = SymbolsC, NumeralDut **
   AttemptoI - [if_thenS] with
   (Syntax = SyntaxDut),
   (Symbolic = SymbolicDut),
+  (Extra = ExtraDut),
   (LexAttempto = LexAttemptoDut) ** open SentenceDut, ResDut, Prelude in {
 
 oper then_Adv = ss "dan" ;

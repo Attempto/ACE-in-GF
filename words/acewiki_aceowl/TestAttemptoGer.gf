@@ -11,7 +11,7 @@ concrete TestAttemptoGer of TestAttempto = AttemptoGer **
   lin wait_V       = regV "warten" ;
   lin ask_V2       = mkV2 (regV "fragen") ;
   lin mad_A        = mkA "wütend" ;
---  lin mad_about_A2 = mkA2 mad_A (mkPrep "about") ;
+  lin mad_about_A2 = mkA2 (mkA "verrückt") after_Prep ;
   lin happy_A      = mkA "glücklich" ;
 
 }
