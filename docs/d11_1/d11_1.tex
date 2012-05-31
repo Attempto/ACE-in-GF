@@ -12,7 +12,6 @@
 
 \graphicspath{{./images/}}
 
-\def\uid#1{\texttt{#1}}
 \def\xp#1{\texttt{#1}}
 \newcommand\ace{Attempto Controlled English}
 
@@ -22,6 +21,7 @@
 
 \hyphenation{alpha-numeric}
 \hyphenation{ex-pe-ri-ment-al}
+\hyphenation{in-de-pend-ent}
 
 \input{titlepage}
 
@@ -68,7 +68,7 @@ The current version 6.6 of ACE offers many language constructs, the most
 important of which are
 countable and mass nouns (`man', `water');
 proper names (`John');
-generalised quantifiers (`at least');
+generalised quantifiers (`at least 2');
 indefinite pronouns (`somebody');
 intransitive, transitive and ditransitive verbs (`sleep', `like', `give');
 negation, conjunction and disjunction of
@@ -287,7 +287,7 @@ and features to a GF grammar functions and categories possible.
 %[TODO: go over the Codeco features and see what corresponds to them
 %in GF, if it should belong to the concrete or the abstract part.]
 
-In the Codeco subset anaphoric references can be made via definite noun
+Anaphoric references can be made in the AceWiki subset via definite noun
 phrases (`the man') and variables (`X'). In order for an anaphoric reference
 to occur there must exist a declaration of an antecedent (`a man') which must
 be syntactically accessible (by the Discourse Representation Theory rules)
@@ -406,7 +406,7 @@ separate languages.
 
 ACE makes a clear separation of lexicon and the rest of the syntax. The ACE
 lexicon is a simple mapping of word forms to their corresponding lemmas, which
-can be easily added and redefined by the users
+can be easily redefined by the users
 \cite{ACE_6.6_Lexicon_Specification}. While the full ACE knows 27 types of
 word forms (singular common noun, transitive verb, ...), the AceWiki subset
 uses a smaller but also a slightly different set of lexical categories.
@@ -417,7 +417,7 @@ uses a smaller but also a slightly different set of lexical categories.
 \item noun in an \emph{of}-construct (e.g. `part', `child')
 \item transitive verb (with 3rd singular, bare infinitive and past participle
 forms)
-\item transitive adjective (e.g. `fond of')
+\item transitive adjective (e.g. `fond-of')
 \end{itemize}
 
 GF does not make a clear separation between words and the rest of the grammar.
@@ -427,13 +427,13 @@ this necessary complexity is hidden by the RGL, which operates with common
 lexical categories (e.g. \texttt{PN}, \texttt{V2}), and common and ``smart''
 constructors (e.g. the simplest form of \texttt{mkN} takes one string as an
 argument,
-interprets this as the singular form of the noun, and guesses the remaining
+interprets this as the singular nominative form of the noun,
+and guesses the remaining
 unspecified information, e.g. the plural form and the gender).
 Most of the ACE lexical categories are directly supported by the RGL and the
 internal representations of words can be generated using RGL operators.
 Table \ref{mapping_acewiki_to_gf} shows the mapping of AceWiki categories
 to GF RGL English operators.
-%[TODO: we have to ignore certain things, e.g.  the the-PNs?]
 
 \begin{table}
 \begin{center}
@@ -453,7 +453,12 @@ transitive adjective & A2 & \xp{mkA2 (mkA fond) (mkPrep of)} \\
 to GF RGL API categories and GF English
 morphological paradigms. Underscore marks the omission of wordforms that
 cannot occur in ACE but that are required by the GF RGL
-operator.\protect\label{mapping_acewiki_to_gf}}
+operator. The AceWiki subset additionally
+supports proper names which start with `the' (`the United Nations')
+and abbreviated proper names (`the UN'),
+the first feature can be handled by considering `the'
+as a part of the proper name, the second can be implemented as a GF
+variant.\protect\label{mapping_acewiki_to_gf}}
 \end{table}
 
 %Mapping the ACE lexical categories to GF RGL categories and morphological
@@ -546,7 +551,7 @@ ACE to Urdu would be expected to be lower.
 One particular feature introduced in the ACE grammar is the use of a
 pronoun as a noun phrase, which is used for handling ACE question sentences with
 the \emph{wh}-word in the object position, e.g. ``Mary is a friend of who?''.
-As no such coercion exists in the RGL, neither as 
+As no such coercion exists in the RGL, neither as
 a straight function nor as a combination of multiple API constructors,
 this conversion had to be implemented for each individual language.
 In each case it required looking into the RGL source code for that language
@@ -593,8 +598,8 @@ That is if the ambiguity in one language is mapped to the same ambiguity in
 another language.
 
 \item[Multilingual correctness]
-i.e. do the translations of ACE sentences into other languages keep the
-intended meaning of the original ACE sentences. Multilingual correctness allows
+i.e. do the translations of an ACE sentence into other languages keep the
+intended meaning of the original ACE sentence. Multilingual correctness allows
 for knowledge engineering applications where users read and edit the underlying
 knowledge base in multiple languages, understanding its content in the same
 way regardless of the language.
@@ -606,7 +611,8 @@ editor.
 \end{description}
 
 In the following we mainly measure the grammar against the existing
-Codeco grammar, and sometimes also against the full ACE parser APE.
+Codeco grammar, and sometimes also against the full ACE parser APE
+(ACE Parsing Engine).
 
 \subsection{Syntactic coverage}
 
@@ -621,8 +627,8 @@ The original test set contains 19718 sentences, but we removed sentences which
 contain the `such that' construct which in ACE v6.6 is deprecated,
 arriving at our test set of 19,422 sentences.
 
-To measure the full ACE coverage, we used the $\sim$3000 sentences of the ACE
-parser (APE) regression test set. These are sentences and text
+To measure the full ACE coverage, we used the $\sim$3000 sentences of the
+APE regression test set. These are sentences and text
 snippets that have been manually collected over several years. The sentences
 can be of any length and use a large vocabulary, which we converted into
 a GF grammar for the coverage test.
@@ -649,8 +655,8 @@ already so long and complex that checking them for the sources of
 errors becomes cumbersome.
 
 We measured the precision by randomly generating large numbers of
-sentences at different tree depths and parsing them with the full ACE
-parser (APE) and the Codeco parser. As a processing step after
+sentences at different tree depths and parsing them with both APE
+and the Codeco parser. As a processing step after
 generation but before parsing we rewrote the sentences to remove
 illegal anaphoric references as these are not modelled in our grammar
 as discussed in section \ref{subsection:Codeco}.  The precision values
@@ -703,7 +709,7 @@ sugar makes our implementation deviate somewhat from the AceWiki subset
 and move it closer towards full ACE.
 These deviations are often actually still compatible with the
 subset of ACE that can be mapped to OWL, which is the main motivation
-of the AceWiki subset as well. In other words, the case could be 
+of the AceWiki subset as well. In other words, the case could be
 made for actually including these constructs to the AceWiki subset, rather
 than restricting the GF implementation.
 
@@ -735,7 +741,7 @@ for common nouns and noun phrases which accept similar input structures.
 
 However a distinct trade-off between syntactic coverage and ambiguity
 has been noted in our implementation.  Specifically, the single rule
-covering the ``there is'' construct, for example ``there is somebody
+covering the `there is' construct, for example ``there is somebody
 who is a woman'' covers 159 sentences from the test set (0.8\%), but
 also pushes the ambiguity down by over 10\%. In other words, we are
 able to achieve 99.2\% coverage with 3.3\% ambiguity, or 100\%
@@ -770,7 +776,7 @@ of removing ambiguity while preserving coverage is non-trivial,
 requires a close analysis of the problem cases and an understanding of
 the grammar as a whole.
 It should also be noted that the Codeco test set used might also be
-too small to reveal certain kinds of ambiguities; the measure of precision we 
+too small to reveal certain kinds of ambiguities; the measure of precision we
 have is only as good as our test set, which was not specifically designed for
 testing such grammar attributes.
 
@@ -803,7 +809,7 @@ and pragmatic (naturalness) errors in the sentences.  In order to
 judge the semantic correctness of the translations, the evaluator must
 also consider the original ACE sentence. The evaluation form therefore
 comes with a short description of ACE and its interpretation rules
-that are relevant for the presented sentences.  
+that are relevant for the presented sentences.
 
 The evaluation provided valuable native speaker feedback that will
 allow us to correct various morphological and syntactic errors. It
@@ -813,7 +819,7 @@ case, if an ACE construct cannot be made available in a language, then
 it would generate a zero-linearization which would inform the grammar
 user that this construct is not available in all the languages and
 therefore should not be used. ACE offers some amount of syntactic
-sugar, so things can usually be reformulated. This was the case for
+sugar, so sentences can usually be reformulated. This was the case for
 VP-coordination in Urdu, where the evaluators were asked to ignore the
 lack of translations caused by the missing support for the construct.
 The issues arising from this preliminary evaluation step are described
@@ -828,9 +834,9 @@ and the plural indefinite accusative case in Finnish.
 
 \paragraph{Incorrect use of smart paradigms}
 Other mistakes in the test sentences were caused by using the RGL's
-smart paradigms using incorrect word forms. For example
-\verb|mkN "matkustajan"| instead of the correct form
-\verb|mkN "matkustaja"| in Finnish.  Such errors are easy to fix,
+smart paradigms with incorrect input forms. For example
+\verb|mkN "matkustajan"| (genitive) instead of the correct form
+\verb|mkN "matkustaja"| (nominative) in Finnish. Such errors are easy to fix,
 however they underscore the need for language experts who are familiar
 with the smart paradigms in the RGL, even when implementing minor
 vocabularies such as in our case. This problem was even more
@@ -856,7 +862,8 @@ sentence ``Bill ist nicht ein Golfer'', which is grammatically
 acceptable, but pragmatically questionable.  The only truly correct
 translation into German is ``Bill ist kein Golfer'', however this
 would then create an ambiguity between ``Bill isn't a golfer'' and
-``Bill is no golfer'', which are distinct ACE sentences.
+``Bill is no golfer'', which are distinct ACE sentences having different
+DRSs (although which are interpreted as semantically equivalent).
 
 % Though both sentences are distinct and generate distinct DRSs, RACE
 % determines that "Bill isn't a golfer." is logically equivalent to
@@ -897,7 +904,7 @@ golfaajaa'').  If you apply this to a sentence with two such
 determiners, you end up converting ``no man loves no woman'' into
 ``any man doesn't know any woman'' (``mik\"a\"an mies ei tunne mit\"a\"an
 naista''), which means that no double negation is created.
-The situation is similar in the romance languages, 
+The situation is similar in the Romance languages,
 % no man is a golfer -> aucun homme n'est un golfeur
 % no man loves a woman -> aucun homme n'aime aucune femme
 confirming that negative determiners are a problem in a multilingual
@@ -905,8 +912,8 @@ setting, if compositional semantics is desired.
 
 This was eventually handled by extending the RGL to include noun
 phrase polarity.  The idea is that NP's have a boolean feature
-\verb|isNeg|, which tells if the element is negative (e.g. nobody, no
-man). If any NP in a clause is negative, the \textbf{positive} form of
+\verb|isNeg|, which tells if the element is negative (e.g. `nobody', `no
+man'). If any NP in a clause is negative, the \textbf{positive} form of
 the clause gets a negation. Thus in Italian ``nobody sleeps'' becomes
 ``nessuno non dorme'', whereas ``no man sees nothing'' is translated
 to ``nessun uomo non vede niente''.  In French, the negation without
@@ -937,12 +944,19 @@ German.
 
 \paragraph{Suitability of test set}
 
-[TODO: Kaarel]
+The Ontograph test set was originally not developed to evaluate multilingual
+correctness. Therefore, a future evaluation should use a more customized
+set of sentences, e.g. which takes the distinctive features of each language
+into account.
+Also the current set of 40 sentences did not contain some important ACE
+constructs, e.g. questions and sentence negation.
 
-The Ontograph test set does not cover some core ACE equivalences,
-e.g. \emph{if-then} equals \emph{every}, double negation equals no negation.
-How are these equivalences preserved under the direct syntax-based
-translation?
+%[TODO: this was covered to some extent by the Help-sheet that accompanied
+% the evaluation]
+%does not cover some core ACE equivalences,
+%e.g. \emph{if-then} equals \emph{every}, double negation equals no negation.
+%How are these equivalences preserved under the direct syntax-based
+%translation?
 
 \paragraph{Evaluation format}
 Using a spreadsheet to tabulate the linearised sentences along with
@@ -956,13 +970,13 @@ the most out of human evaluators.
 
 We measured the performance of the grammar implementation on an i3 laptop
 with 4GB of RAM.
-The implementation is relatively fast. It is capable of parsing
-all the $\sim$20,000 Codeco test sentences in 55 seconds
-(i.e. 363 sentences/sec). In comparison, the Codeco parser (transformed into
+The implementation is relatively fast, being capable of parsing
+all the 19,422 Codeco test sentences in 55 seconds
+(i.e. 353 sentences/sec). In comparison, the Codeco parser (transformed into
 Definite Clause Grammar and executed by SWI-Prolog) parses
 the same set in 25 seconds.
 In order to linearize the
-resulting parse trees into 11 languages an additional 18 minutes is needed
+resulting parse trees into 11 languages an additional 18 minutes is needed.
 (Note that we did not measure what was
 the contribution of each language to the overall runtime.)
 In general,
@@ -979,9 +993,10 @@ subset of ACE and make it available in multiple natural languages. The design
 of the grammar makes it easily extendable to more languages and to a larger
 coverage of ACE.
 We have also described the main differences between the grammar formalisms
-used to describe the ACE grammar so far and the GF formalism.
-These differences make the grammar engineering non-trivial and a fully
-precise grammar cannot be easily obtained.
+of Codeco (in which the AceWiki subset is originally defined) and GF. Directly
+translating the Codeco grammar to GF proved to be impossible which made the
+engineering of the AceWiki subset in GF non-trivial and a fully
+precise grammar could not be obtained.
 We have also described a testing and evaluation framework that can be used
 during and after the development.
 
@@ -994,12 +1009,11 @@ new ways to evaluate the notion of multilingual controlled natural language.
 
 \section*{Acknowledgement}
 
-We would like to thank 
+We would like to thank
 Olga Caprotti,
-% Norbert E. Fuchs, JJC: author?
 Tobias Kuhn,
 K.V.S. Prasad,
-% Aarne Ranta, JJC: author?
+Aarne Ranta,
 Jordi Saludes,
 and
 Shafqat Virk

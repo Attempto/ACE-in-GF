@@ -5,10 +5,12 @@ concrete TestAttemptoSwe of TestAttempto = AttemptoSwe **
 
 flags coding=utf8;
 
+-- TODO: override gender (ett befäl)
 lin officer_N = mkCN (mkN "befäl") ;
 lin traveler_N = mkCN (mkN "resenär") ;
 lin woman_N = mkCN L.woman_N ;
 lin man_N = mkCN L.man_N ;
+-- TODO: override gender (en golfspelare)
 lin golfer_N = mkCN (mkN "golfspelare") ;
 lin present_N = mkCN (mkN "present") ;
 lin aquarium_N = mkCN (mkN "akvarium") ;
