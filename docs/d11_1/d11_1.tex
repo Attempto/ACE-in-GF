@@ -4,6 +4,7 @@
 \usepackage{a4wide}
 \usepackage{hyperref}
 \usepackage{times}
+\usepackage{mdwlist}
 
 % TODO: get UTF to work in biblio (Normunds' citation)
 %\usepackage[utf8]{inputenc}
@@ -510,12 +511,11 @@ salient issues encountered during this process.
 Some syntactic constructs described in the RGL are not present for all
 languages, but provided as add-ons to the API via the \verb|Extra|
 modules.  For our ACE implementation this is the case for VP
-coordination, which the RGL implements completely only for English and
-in a restricted form for the Scandinavian languages.  This means that
-(ACE) sentences which feature VP coordination cannot be translated
-into all the languages. An end-user application must therefore deal
-with this issue, e.g. by asking the user to reformulate such sentences
-in a way that preserves their meaning but uses a different syntactic
+coordination, which does not exist in Urdu. This means that (ACE)
+sentences which feature VP coordination could not be translated into
+all the languages. An end-user application must therefore deal with
+this issue, e.g. by asking the user to reformulate such sentences in a
+way that preserves their meaning but uses a different syntactic
 form. For example, VP coordination can be reformulated as relative
 clause coordination --- `John owns a car or owns a bike' is in ACE
 equivalent to `John is somebody that owns a car or that owns a bike'.
@@ -792,28 +792,165 @@ instance from the set \emph{aquarium}.
 The hypothesis to be confirmed is whether this meaning is understood in
 the same way via all the languages.
 
-While the tests of coverage and precision can be automated, the test of
-multilingual correctness requires that (native) speakers of the evaluated
-languages manually check the translations. We set up a Google Docs form that
-presents the list of 40 sentences each translated into 9 languages
-(Catalan, Dutch, Finnish, French, German, Italian, Spanish, Swedish and Urdu),
-and asked native speakers of these languages to check the list and report
-the syntactic, semantic and pragmatic (naturalness) errors in the sentences.
-In order to judge the semantic correctness of the translations, the
-evaluator must also consider the original ACE sentence. The evaluation form
-therefore comes with a short description of ACE and its interpretation rules
-that are relevant for the presented sentences.
-The evaluators were also asked to ignore the lack of translations caused by
-the missing support for VP coordination.
+While the tests of coverage and precision can be automated, the test
+of multilingual correctness requires that (native) speakers of the
+evaluated languages manually check the translations. We set up a
+Google Docs form that presents the list of 40 sentences each
+translated into 9 languages (Catalan, Dutch, Finnish, French, German,
+Italian, Spanish, Swedish and Urdu), and asked native speakers of
+these languages to check the list and report the syntactic, semantic
+and pragmatic (naturalness) errors in the sentences.  In order to
+judge the semantic correctness of the translations, the evaluator must
+also consider the original ACE sentence. The evaluation form therefore
+comes with a short description of ACE and its interpretation rules
+that are relevant for the presented sentences.  
 
-[TODO: JJC: write about the results and
-interesting examples where the straight-forward translation produces
-a completely different meaning]
+The evaluation provided valuable native speaker feedback that will
+allow us to correct various morphological and syntactic errors. It
+also pointed out some semantic issues, which can be mostly fixed by
+making language-specific customization to the grammar. In the worst
+case, if an ACE construct cannot be made available in a language, then
+it would generate a zero-linearization which would inform the grammar
+user that this construct is not available in all the languages and
+therefore should not be used. ACE offers some amount of syntactic
+sugar, so things can usually be reformulated. This was the case for
+VP-coordination in Urdu, where the evaluators were asked to ignore the
+lack of translations caused by the missing support for the construct.
+The issues arising from this preliminary evalaution step are described
+below.
 
-%[TODO: the Ontograph test set does not cover some core ACE equivalences,
-%e.g. \emph{if-then} equals \emph{every}, double negation equals no negation.
-%How are these equivalences preserved under the direct syntax-based
-%translation?]
+\paragraph{RGL Errors}
+A few errors in the test linearisations were traced to errors in the
+Resource Grammar Library, and not in the Attempto grammar itself.
+These includede indefinite article and other missing articles in Urdu,
+and the plural indefinite accusative case in Finnish.
+
+
+\paragraph{Incorrect use of smart paradigms}
+Other mistakes in the test sentences were caused by using the RGL's
+smart paradigms using incorrect word forms. For example
+\verb|mkN "matkustajan"| instead of the correct form
+\verb|mkN "matkustaja"| in Finnish.  Such errors are easy to fix,
+however they underscore the need for language experts who are familiar
+with the smart paradigms in the RGL, even when implementing minor
+vocabularies such as in our case. This problem was even more
+pronounced in the case of Urdu, where the grammar developers did not
+have any knowledge of the language's script, let alone its vocabulary.
+
+% Word order problems in Urdu when combining Roman/Persian scripts
+
+\paragraph{Stylistic issues}
+In Finnish for example, for human nouns like ``mies'' (man), it is
+preferable to use the pronoun ``kukaan'' instead of ``mik\"a\"an''. This
+could be solved by a feature saying if a noun is (semantically)
+human. Moreover, this is not true in all positions: ``John is no
+golfer'' should be ``John ei ole mik\"a\"an golfaaja'', so getting this
+correct would require significantly more work and language-expert
+input than initially used.  However it should be noted that this lack
+of distinction is actually a limitation in the AceWiki subset itself.
+
+Negation in German also raised some issues amongst the evaluators.  An
+initial bug in the grammar produced the sentence ``Bill ist ein Golfer
+nicht'', which is grammatically wrong.  Fixing this gave the new
+setnence ``Bill ist nicht ein Golfer'', which is grammatically
+acceptable, but pragmatically questionable.  The only truly correct
+translation into German is ``Bill ist kein Golfer'', however this
+would then create an ambiguity between ``Bill isn't a golfer'' and
+``Bill is no golfer'', which are distinct ACE sentences.
+
+% Though both sentences are distinct and generate distinct DRSs, RACE
+% determines that "Bill isn't a golfer." is logically equivalent to
+% "Bill is no golfer." since both sentences generate the same model.
+
+\paragraph{Negative determiners}
+
+Perhaps the biggest issue brought up through this evalution was the
+use of negative determiners, e.g. ``no man''.  Translating such
+determiners on a syntactic level can easily result in meaning shifts
+between languages, if the grammar author is not careful. The problem
+is that the translations do not always preserve the meaning of
+sentences like:
+\begin{itemize*}
+  \item every man loves a woman .
+%  \item every man loves no woman .
+%  \item every man does not love a woman .
+  \item every man does not love no woman .
+%  \item no man loves a woman .
+  \item no man loves no woman .
+  \item no man does not love a woman .
+%  \item no man does not love no woman .
+\end{itemize*}
+Some of which in ACE are semantically equivalent either because they
+have the exact same (i.e. lexically identical) DRS, or because they
+have DRSs which are interpreted as equivalent in first order logic.
+
+% ACE sentences with double negation for instance ``no man loves no
+% woman'' have different meanings in different languages, and also
+% their syntax can be rather special.
+
+Finnish for example has no equivalent of the \emph{no} determiner, but
+has to express it with \emph{any} and \emph{not}.  Thus ``no
+man is a golfer'' must be paraphrased as ``any man is not a golfer''
+(``mik\"a\"an mies ei ole golfaaja''), and ``John knows no golfer'' must
+become ``John doesn't know any golfer'' (``John ei tunne mit\"a\"an
+golfaajaa'').  If you apply this to a sentence with two such
+determiners, you end up converting ``no man loves no woman'' into
+``any man doesn't know any woman'' (``mik\"a\"an mies ei tunne mit\"a\"an
+naista''), which means that no double negation is created.
+The situation is similar in the romance languages, 
+% no man is a golfer -> aucun homme n'est un golfeur
+% no man loves a woman -> aucun homme n'aime aucune femme
+confirming that negative determiners are a problem in a multilingual
+setting, if compositional semantics is desired.
+
+This was eventually handled by extending the RGL to include noun
+phrase polarity.  The idea is that NP's have a boolean feature
+\verb|isNeg|, which tells if the element is negative (e.g. nobody, no
+man). If any NP in a clause is negative, the \textbf{positive} form of
+the clause gets a negation. Thus in Italian ``nobody sleeps'' becomes
+``nessuno non dorme'', whereas ``no man sees nothing'' is translated
+to ``nessun uomo non vede niente''.  In French, the negation without
+\emph{pas} is used, i.e. becoming ``personne ne dort'' and ``aucun
+homme ne voit rien'' respectively.
+%% Notice that if there are two negative elements, the natural interpretation
+%% changes. As a variant of this principle, if the English sentence has a
+%% negation, it has no effect on the Italian sentence:
+%%   nobody doesn't sleep -> nessuno non dorme
+%% In French, nowever, the "stronger" ("ordinary") negation is then used:
+%%   personne ne dort pas
+%% which can be interpreted as a double negation.
+However although this creates grammatical translations in all cases,
+in sentences which contain more than one negative element, the
+semantic meaning changes.
+
+In the case of German, this can be achieved either through sentence
+negation or noun phrase negation as above.
+% - sentence negation: ich habe einen Menschen gesehen ->
+%   ich habe nicht einen Menschen gesehen, \verb|mkS negativePol (...a_Det...)|
+% - noun phrase negation: ich habe keinen Menschen gesehen,
+%   \verb|mkS positivePol (...no_Det...)|
+This is up to the application grammarian to select the type of
+negation desired, which of course requires a good intuition on German.
+Dutch has similar problems with \emph{geen} and \emph{niet}, and
+moreover the placing of \emph{niet} is sometimes different from
+German.
+
+\paragraph{Suitability of test set}
+
+[TODO: Kaarel]
+
+The Ontograph test set does not cover some core ACE equivalences,
+e.g. \emph{if-then} equals \emph{every}, double negation equals no negation.
+How are these equivalences preserved under the direct syntax-based
+translation?
+
+\paragraph{Evaluation format}
+Using a spreadsheet to tabulate the linearised sentences along with
+the evaluator's feedback was quick and easy to do, but some
+dissatisfaction was expressed over the inconvenience with the
+layout. Even with this relatively small test set, it was clear that
+more effort must be put into evaluation interfaces in order to make
+the most out of human evaluators.
 
 \subsection{Performance}
 
@@ -857,7 +994,17 @@ new ways to evaluate the notion of multilingual controlled natural language.
 
 \section*{Acknowledgment}
 
-[TODO: thank those who participated in the evaluation]
+We would like to thank 
+Olga Caprotti,
+% Norbert E. Fuchs, JJC: author?
+Tobias Kuhn,
+K.V.S. Prasad,
+% Aarne Ranta, JJC: author?
+Jordi Saludes,
+and
+Shafqat Virk
+for their time in completing our
+evalution and the valuable contributions they provided.
 
 \bibliography{bib}
 \bibliographystyle{alpha}
