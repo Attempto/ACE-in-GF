@@ -1,0 +1,66 @@
+\NeedsTeXFormat {LaTeX2e}[1994/12/01]
+\def \filename {molto_titlepage.sty}
+\def \filedate {2012/06/01}
+\def \fileversion {0.1}
+\ProvidesPackage {molto_titlepage}[\filedate\space\fileversion\space LaTeX2e package]
+
+\typeout{Package: molto_titlepage \fileversion\space <\filedate>}
+\typeout{Document Style Option molto_titlepage for LaTeX2e.}
+
+\def\distributionLevel#1{\gdef\@distributionLevel{#1}}
+\def\id#1{\gdef\@id{#1}}
+\def\title#1{\gdef\@title{#1}}
+\def\author#1{\gdef\@author{#1}}
+\def\version#1{\gdef\@version{#1}}
+\def\type#1{\gdef\@type{#1}}
+\def\dateContractual#1{\gdef\@dateContractual{#1}}
+\def\dateActual#1{\gdef\@dateActual{#1}}
+\def\siteResponsible#1{\gdef\@siteResponsible{#1}}
+\def\siteContributors#1{\gdef\@siteContributors{#1}}
+
+\def\moltotitlepage{\newpage}
+\def\endmoltotitlepage{\makemoltotitlepage}
+
+\def\makemoltotitlepage{
+
+\thispagestyle{empty}
+
+\begin{minipage}{0.99\textwidth}
+\begin{flushleft}
+\includegraphics[width=0.4\textwidth]{molto_logo}
+
+{\normalsize Published on Multilingual Online Translation (\url{http://www.molto-project.eu})}
+\end{flushleft}
+\end{minipage}
+
+\rule[15pt]{0.9\textwidth}{0.5pt}
+
+{\LARGE \@id \space \@title}
+
+\begin{center}
+\begin{tabular}{ | l | l | }
+\hline
+Contract No.: & FP7-ICT-247914 \\
+\hline
+Project full title: & MOLTO --- Multilingual Online Translation \\
+\hline
+Deliverable: & \@id \space \@title \\
+\hline
+Security (distribution level): & \@distributionLevel \\
+\hline
+Contractual date of delivery: & \@dateContractual \\
+\hline
+Actual date of delivery: & \@dateActual \\
+\hline
+Type: & \@type \\
+\hline
+Status version: & v\@version \\
+\hline
+Author(s): & \@author \\
+\hline
+Task responsible: & \@siteResponsible \\
+\hline
+Other contributors: & \@siteContributors \\
+\hline
+\end{tabular}
+\end{center}}

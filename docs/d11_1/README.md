@@ -10,10 +10,6 @@ To create the PDF file, simply run
 
 (Tested on Ubuntu 11.10)
 
-After the addition of the title page, this does not work anymore, use instead
-
-	sh make.sh
-
 
 Editing
 -------
