@@ -5,6 +5,7 @@
 \usepackage{hyperref}
 \usepackage{times}
 \usepackage{mdwlist}
+\usepackage{molto_titlepage}
 
 % TODO: get UTF to work in biblio (Normunds' citation)
 %\usepackage[utf8]{inputenc}
@@ -16,16 +17,24 @@
 \newcommand\ace{Attempto Controlled English}
 
 \begin{document}
-\title{Attempto Controlled English in Grammatical Framework}
-\author{DRAFT}
+
+\begin{moltotitlepage}
+\id{D11.1}
+\title{ACE Grammar Library}
+\author{John J. Camilleri, Norbert E. Fuchs, Kaarel Kaljurand}
+\distributionLevel{Public}
+\type{Prototype}
+\version{1.0}
+\dateContractual{M27}
+\dateActual{2012-06-01}
+\siteResponsible{UZH}
+\siteContributors{UGOT}
+\end{moltotitlepage}
 
 \hyphenation{alpha-numeric}
 \hyphenation{ex-pe-ri-ment-al}
 \hyphenation{in-de-pend-ent}
 
-\input{titlepage}
-
-%\maketitle
 \begin{abstract}
 This report describes the implementation of a large part of the
 Attempto Controlled English (ACE) syntax ---
