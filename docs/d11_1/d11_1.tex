@@ -8,8 +8,8 @@
 \usepackage{molto_titlepage}
 
 % TODO: get UTF to work in biblio (Normunds' citation)
-%\usepackage[utf8]{inputenc}
-%\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 
 \graphicspath{{./images/}}
 
@@ -61,7 +61,7 @@ ACE users with new (GF-based) editing tools.
 first-order language (FOL)
 with English syntax.
 ACE can be viewed as both a natural language understandable by every
-English speaker, as well as a formal language with a precisely defined
+English speaker, and a formal language with a precisely defined
 syntax and semantics understandable by automatic theorem provers.
 ACE texts are deterministically interpreted
 via Discourse Representation Structures (DRS) \cite{kamp:drt1993}.
@@ -329,10 +329,10 @@ suggestions.
 We followed the main structure of the ACE-in-GF implementation developed
 in \cite{ranta:cnl2009_revised} but separated it into two parts, one that
 implements the AceWiki subset and the other that extends this implementation
-towards full ACE. For the time begin, we did not further develop the full ACE
+towards full ACE. For now, we did not further develop the full ACE
 implementation,
 so the extension serves only as a placeholder that preserves the
-original \cite{ranta:cnl2009_revised} implementation. We only focused on the
+original \cite{ranta:cnl2009_revised} implementation. We focused on the
 AceWiki subset for the reasons listed above.
 
 The multilingual ACE grammar is implemented in GF as a set of modules
@@ -531,8 +531,8 @@ all the languages. An end-user application must therefore deal with
 this issue, e.g. by asking the user to reformulate such sentences in a
 way that preserves their meaning but uses a different syntactic
 form. For example, VP coordination can be reformulated as relative
-clause coordination --- `John owns a car or owns a bike' is in ACE
-equivalent to `John is somebody that owns a car or that owns a bike'.
+clause coordination --- ``John owns a car or owns a bike'' is in ACE
+equivalent to ``John is somebody who owns a car or who owns a bike.''
 
 \paragraph{Vocabulary}
 The standard RGL lexicon of around 350 words could be used in certain
@@ -549,12 +549,12 @@ particular language work.
 Most of the language implementations written for ACE were done so
 \emph{without} the input of such language experts but merely on a
 best-guess basis. For languages with which the developers are vaguely
-familiar, the quality of the language produced is expected to be
-fine, given that GF's smart paradigms take care of everything given
-that the word is constructed using the correct form. In the case of
-Urdu however, the unfamiliar script meant that this addition of words
-was practically done blindly, so the quality of the translations from
-ACE to Urdu would be expected to be lower.
+familiar, the quality of the output produced is expected to be
+fine, given that the correct GF smart paradigm is applied to the
+correct wordform.
+In the case of Urdu however, the unfamiliar script meant that adding words was
+practically done blindly, so the quality of the translations from ACE to Urdu
+is expected to be lower.
 
 \paragraph{Low-level implementations}
 One particular feature introduced in the ACE grammar is the use of a
@@ -614,14 +614,13 @@ knowledge base in multiple languages, understanding its content in the same
 way regardless of the language.
 
 \item[Performance]
-i.e. how fast is the parser/lineariser. A certain speed is required to embed
+i.e. how fast is the parser/lineariser. A minimal speed is required to embed
 parsing and linearization into a user interface component, e.g. a look-ahead
 editor.
 \end{description}
 
 In the following we mainly measure the grammar against the existing
-Codeco grammar, and sometimes also against the full ACE parser APE
-(ACE Parsing Engine).
+Codeco grammar, and sometimes also against the full ACE Parsing Engine (APE).
 
 \subsection{Syntactic coverage}
 
@@ -630,23 +629,21 @@ AceWiki subset we have used the AceWiki Codeco test set which
 is an exhaustive set of sentences with length of up to 10
 tokens \cite{kuhn2010doctoralthesis}. Each word
 type is represented by a single word (e.g. `Mary' represents the proper name)
-to make sure that all the sentences are pairwise syntactically different, i.e.
+to make sure that all sentences are pairwise syntactically different, i.e.
 do not differ only by choice of words.
 The original test set contains 19718 sentences, but we removed sentences which
 contain the `such that' construct which in ACE v6.6 is deprecated,
 arriving at our test set of 19,422 sentences.
+On the Codeco test set, our implementation successfully covers 100\% of the
+sentences, however
+a trade-off between syntactic coverage and ambiguity has been noted in the
+grammar implementation. For more see section \ref{subsection:ambiguity}.
 
 To measure the full ACE coverage, we used the $\sim$3000 sentences of the
 APE regression test set. These are sentences and text
 snippets that have been manually collected over several years. The sentences
 can be of any length and use a large vocabulary, which we converted into
 a GF grammar for the coverage test.
-
-On the Codeco test set, our implementation successfully covers 100\% of the
-sentences, however
-a trade-off between syntactic coverage and ambiguity has been noted in the
-grammar implementation. For more see section \ref{subsection:ambiguity}.
-
 On the APE regression test set, our AceWiki-specific implementation covers
 $\sim$50\% of full ACE.
 
@@ -784,7 +781,7 @@ which should clearly be factored out of the grammar. However the task
 of removing ambiguity while preserving coverage is non-trivial,
 requires a close analysis of the problem cases and an understanding of
 the grammar as a whole.
-It should also be noted that the Codeco test set used might also be
+It should also be noted that the Codeco test set used might be
 too small to reveal certain kinds of ambiguities; the measure of precision we
 have is only as good as our test set, which was not specifically designed for
 testing such grammar attributes.
@@ -795,7 +792,7 @@ To test the correctness of the multilingual translations we have used
 the ACE sentences from the
 Ontograph
 Framework\footnote{\url{http://attempto.ifi.uzh.ch/site/docs/ontograph/}}
-\cite{kuhn2009cnlmain}. The selected 40 sentences cover all the main sentence
+\cite{kuhn2009cnlmain}. The selected 40 sentences cover all main sentence
 patterns of the AceWiki subset and have been used before in user
 evaluations of how well the users understand the precise formal meaning of ACE.
 The sentences have a very clear set-theoretic meaning, e.g.
@@ -871,8 +868,9 @@ sentence ``Bill ist nicht ein Golfer'', which is grammatically
 acceptable, but pragmatically questionable.  The only truly correct
 translation into German is ``Bill ist kein Golfer'', however this
 would then create an ambiguity between ``Bill isn't a golfer'' and
-``Bill is no golfer'', which are distinct ACE sentences having different
-DRSs (although which are interpreted as semantically equivalent).
+``Bill is no golfer'',
+which are distinct ACE sentences having distinct DRSs,
+though these are interpreted as semantically equivalent.
 
 % Though both sentences are distinct and generate distinct DRSs, RACE
 % determines that "Bill isn't a golfer." is logically equivalent to
@@ -907,11 +905,11 @@ have DRSs which are interpreted as equivalent in first order logic.
 Finnish for example has no equivalent of the \emph{no} determiner, but
 has to express it with \emph{any} and \emph{not}.  Thus ``no
 man is a golfer'' must be paraphrased as ``any man is not a golfer''
-(``mik\"a\"an mies ei ole golfaaja''), and ``John knows no golfer'' must
-become ``John doesn't know any golfer'' (``John ei tunne mit\"a\"an
+(``mikään mies ei ole golfaaja''), and ``John knows no golfer'' must
+become ``John doesn't know any golfer'' (``John ei tunne mitään
 golfaajaa'').  If you apply this to a sentence with two such
 determiners, you end up converting ``no man loves no woman'' into
-``any man doesn't know any woman'' (``mik\"a\"an mies ei tunne mit\"a\"an
+``any man doesn't love any woman'' (``mikään mies ei tunne mitään
 naista''), which means that no double negation is created.
 The situation is similar in the Romance languages,
 % no man is a golfer -> aucun homme n'est un golfeur
@@ -980,7 +978,7 @@ the most out of human evaluators.
 We measured the performance of the grammar implementation on an i3 laptop
 with 4GB of RAM.
 The implementation is relatively fast, being capable of parsing
-all the 19,422 Codeco test sentences in 55 seconds
+all 19,422 Codeco test sentences in 55 seconds
 (i.e. 353 sentences/sec). In comparison, the Codeco parser (transformed into
 Definite Clause Grammar and executed by SWI-Prolog) parses
 the same set in 25 seconds.
