@@ -853,10 +853,10 @@ have any knowledge of the language's script, let alone its vocabulary.
 
 \paragraph{Stylistic issues}
 In Finnish for example, for human nouns like ``mies'' (man), it is
-preferable to use the pronoun ``kukaan'' instead of ``mik\"a\"an''. This
+preferable to use the pronoun ``kukaan'' instead of ``mikään''. This
 could be solved by a feature saying if a noun is (semantically)
 human. Moreover, this is not true in all positions: ``John is no
-golfer'' should be ``John ei ole mik\"a\"an golfaaja'', so getting this
+golfer'' should be ``John ei ole mikään golfaaja'', so getting this
 correct would require significantly more work and language-expert
 input than initially used.  However it should be noted that this lack
 of distinction is actually a limitation in the AceWiki subset itself.
@@ -872,9 +872,6 @@ would then create an ambiguity between ``Bill isn't a golfer'' and
 which are distinct ACE sentences having distinct DRSs,
 though these are interpreted as semantically equivalent.
 
-% Though both sentences are distinct and generate distinct DRSs, RACE
-% determines that "Bill isn't a golfer." is logically equivalent to
-% "Bill is no golfer." since both sentences generate the same model.
 
 \paragraph{Negative determiners}
 
@@ -908,8 +905,8 @@ man is a golfer'' must be paraphrased as ``any man is not a golfer''
 (``mikään mies ei ole golfaaja''), and ``John knows no golfer'' must
 become ``John doesn't know any golfer'' (``John ei tunne mitään
 golfaajaa'').  If you apply this to a sentence with two such
-determiners, you end up converting ``no man loves no woman'' into
-``any man doesn't love any woman'' (``mikään mies ei tunne mitään
+determiners, you end up converting ``no man knows no woman'' into
+``any man doesn't know any woman'' (``mikään mies ei tunne mitään
 naista''), which means that no double negation is created.
 The situation is similar in the Romance languages,
 % no man is a golfer -> aucun homme n'est un golfeur
