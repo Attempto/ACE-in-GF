@@ -84,3 +84,8 @@ test_precision_range:
 	bash run-precision-test.bash 100 6
 	bash run-precision-test.bash 100 7
 
+Parser: Parser.hs
+	ghc --make -o Parser Parser.hs
+
+Translator: Translator.hs
+	ghc --make -o Translator Translator.hs

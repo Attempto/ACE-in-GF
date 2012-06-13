@@ -53,7 +53,10 @@ echo "Building PGF from:"
 eval echo ${words}
 # TODO: for some reason the output-dir parameter has no influence,
 # so we don't use it, and the PGF is dropped into the current directory.
+# TODO: optimize-pgf seems to give much better performance,
+# but doesn't always work with multiple languages (parsing fails).
 gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --name $name --path $path `eval echo ${words}`
+#gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --mk-index --name $name --path $path `eval echo ${words}`
 
 # Commented out because always creates empty output.
 # It would be cool though to find out some day if ACE can be converted into a
