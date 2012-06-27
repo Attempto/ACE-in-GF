@@ -24,7 +24,7 @@
 \author{John J. Camilleri, Norbert E. Fuchs, Kaarel Kaljurand}
 \distributionLevel{Public}
 \type{Prototype}
-\version{1.0}
+\version{1.1 (2012-06-27)}
 \dateContractual{M27}
 \dateActual{2012-06-01}
 \siteResponsible{UZH}
@@ -979,10 +979,12 @@ all 19,422 Codeco test sentences in 55 seconds
 (i.e. 353 sentences/sec). In comparison, the Codeco parser (transformed into
 Definite Clause Grammar and executed by SWI-Prolog) parses
 the same set in 25 seconds.
+(Note that we did not measure the performance of parsing languages other than
+ACE.)
 In order to linearize the
-resulting parse trees into 11 languages an additional 18 minutes is needed.
-(Note that we did not measure what was
-the contribution of each language to the overall runtime.)
+resulting parse trees into 11 languages an additional 30 seconds is needed.
+The linearization speed does not depend on the target language.
+
 In general,
 the measured performance enables applications where a relatively large ACE
 knowledge base is stored as a set of GF abstract trees and linearised into a

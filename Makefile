@@ -10,6 +10,12 @@ tests = tests/acewiki_aceowl
 words_onto = words/ontograph_40
 tests_onto = tests/ontograph_40
 
+# Start category of the grammar.
+# This is explicitly provided for the PGF-compiler in order
+# not to rely on the guessing of it, which in some cases
+# seems to fail.
+startcat = ACEText
+
 # Language list
 languages = Ace Cat Dut Eng Fin Fre Ger Ita Spa Swe Urd
 
@@ -26,10 +32,10 @@ all_ontograph_40:
 	gf --batch --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
 
 pgf_acewiki_aceowl:
-	gf --make --path=$(path) $(foreach lang,$(languages),$(words)/TestAttempto$(lang).gf)
+	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(languages),$(words)/TestAttempto$(lang).gf)
 
 pgf_ontograph_40:
-	gf --make --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
+	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
 
 # Parse ontograph_40 sentences and linearise into all languages
 lin_ontograph_40:
@@ -41,9 +47,10 @@ lin_ontograph_40_save:
 	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf) > $(tests_onto)/lin.txt
 
 # This does not fail if one of the sentences fails (unlike "rf -lines | p")
-lin_acewiki_aceowl_save:
+# TODO: We assume that pgf_acewiki_aceowl produces TestAttempto.pgf with all the languages
+lin_acewiki_aceowl_save: pgf_acewiki_aceowl
 	cat $(tests)/sentences.txt | sed -f tools/make_gf_parse_lin_command.sed | \
-	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words)/TestAttempto$(lang).gf) > $(tests)/lin.txt
+	gf --run TestAttempto.pgf > $(tests)/lin.txt
 
 # Build the test grammar, as a batch or keeping the GF shell open
 build_test:
