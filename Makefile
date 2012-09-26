@@ -10,6 +10,8 @@ tests = tests/acewiki_aceowl
 words_onto = words/ontograph_40
 tests_onto = tests/ontograph_40
 
+Roundtripper = Roundtripper
+
 # Start category of the grammar.
 # This is explicitly provided for the PGF-compiler in order
 # not to rely on the guessing of it, which in some cases
@@ -96,3 +98,6 @@ Parser: Parser.hs
 
 Translator: Translator.hs
 	ghc --make -o Translator Translator.hs
+
+Roundtripper: $(Roundtripper).hs
+	ghc --make -o $(Roundtripper) $(Roundtripper).hs
