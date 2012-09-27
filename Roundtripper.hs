@@ -2,23 +2,37 @@ module Main where
 
 -- This program helps to analyze the amount of ambiguity present
 -- in the given PGF. It takes a set of trees from STDIN and outputs
--- the "roundtrip report" to STDOUT. Each line in the report corresponds
--- to a single tree and has 3 fields:
---   1. chosen linearization of the tree
+-- the "roundtrip report" to STDOUT. Roundtrip is done by first linearizing the
+-- tree into a concrete language and then parsing the linearization
+-- and obtaining one or more trees one of which is the original tree.
+-- In the report, the trees are represented in a chosen linearization language
+-- which the user has specified on the commandline. Ideally it should correspond
+-- to a disambiguation language, i.e. a language which has a bijective
+-- mapping to the trees.
+--
+-- Each line in the report corresponds to a single tree and has
+-- 3 or 4 tab-separated fields:
+--   1. tag
 --   2. language ID
---   3. parse result
+--   3. chosen linearization of the tree
+--   4. parse result (missing if SAME_TREE or SAME_LIN)
 -- where
---   "chosen linearization" is the linearization of the tree into a language that
---     the user has specified on the commandline. Ideally it should
---     correspond to a disambiguation language, i.e. a language
---     which has the "most bijective" mapping to the trees
+--   "tag" is one of
+--     a) SAME_TREE: result tree matches input tree,
+--     b) SAME_LIN: linearization of result tree matches linearization of input tree,
+--     c) EMPTY_LIN: linearization of result tree is empty
+--        (in this case parse result == serialization of the tree),
+--     d) DIFF_ORDER: linearizations differ only in word order,
+--     e) DIFF_WORDS1: lin1 uses more words than lin2,
+--     f) DIFF_WORDS2: lin2 uses more words than lin1,
+--     g) DIFF: linearizations differ in other ways.
 --   "language ID" is a name of the concrete language that is used to linearize
---     the tree
+--     the tree in the round-trip.
+--   "chosen linearization" is the linearization of the tree into a language that
+--     the user has specified on the commandline.
 --   "parse result" is one of the results of parsing the linearization. One of
---     a) "SAME_TREE" if the resulting tree matches the input tree,
---     b) "SAME_LIN" if the chosen linearization matches the chosen linearization of the input tree,
---     c) the chosen linearization,
---     d) serialization of the tree in case the chosen linearization is empty.
+--     a) the chosen linearization,
+--     b) serialization of the tree in case the chosen linearization is empty.
 --
 -- The output format is designed to be easily processable with Unix commandline tools, e.g.
 --
@@ -30,26 +44,46 @@ module Main where
 -- Input parameters:
 --
 --   file: PGF file name
---   cat: start category (TODO: should be optional)
 --   lang: language that is used to present the tree (should be disambiguation language)
 --
--- Usage example:
+-- Usage examples:
 --
---   cat trees.txt | ./Roundtripper TestAttempto.pgf ACEText TestAttemptoAce
+--   cat trees.txt | ./Roundtripper TestAttempto.pgf TestAttemptoAce
+--   echo "gr -number=10" | gf --run TestAttempto.pgf | ./Roundtripper TestAttempto.pgf TestAttemptoAce | grep DIFF
+--
+-- Output example (where the chosen lin language is English):
+--
+--   SAME_TREE  \t Est \t John likes Mary .
+--   DIFF_ORDER \t Est \t John likes Mary . \t Mary likes John .
+--
+-- means that the input was a tree whose English lin is "John likes Mary.",
+-- however if this tree is linearized into Estonian which is then parsed then
+-- we obtain two trees, one is identical to the original, the other is different.
+-- The English lin of the 2nd tree has a different word order than the English
+-- lin of the 1st tree, indicating that the Estonian parser might have a bug.
+--
+-- TODO: learn Haskell and make this code elegant
+-- TODO: add support for &+
+-- TODO: allow startcat to be user-specified: (fromJust (readType cat))
+-- TODO: do not print an error message when STDIN ends
+-- TODO: handle parsing errors better
+-- TODO: add more DIFF types
 --
 
 import PGF
 import Data.Maybe
+import Data.Set (isProperSubsetOf, fromList)
+import Data.List
 import System.Environment (getArgs)
 
 -- Parses the input parameters and starts the loop
 main :: IO ()
 main = do
-	file:cat:lang:_ <- getArgs
+	file:lang:_ <- getArgs
 	pgf <- readPGF file
 	loop (showAmb
 		pgf
-		(fromJust (readType cat))
+		(startCat pgf)
 		(fromJust (readLanguage lang))
 		(languages pgf))
 
@@ -107,27 +141,45 @@ getTrees pgf cat lang s =
 	case parse_ pgf lang cat (Just 4) s of
 		(ParseFailed num, _) -> []
 		(ParseOk trees, _) -> trees
-		_ -> error $ "ERROR: Unknown error: " ++ s
+		_ -> []
 
 
--- Pretty-prints the result in a tab-separated 3-column format
 ppResult :: PGF -> Tree -> Language -> Language -> Tree -> String
 ppResult pgf tree1 disambLang lang tree2 =
-	let lin1 = (ppLinearize pgf disambLang tree1)
+	let lin1 = (linWithBind pgf disambLang tree1)
 	in if tree1 == tree2
-		then lin1 ++ "\t" ++ (showLanguage lang) ++ "\tSAME_TREE"
+		then ppLine3 "SAME_TREE" lang lin1
 		else
-			let lin2 = (ppLinearize pgf disambLang tree2)
-			in if lin1 == lin2
-				then lin1 ++ "\t" ++ (showLanguage lang) ++ "\tSAME_LIN"
-				else lin1 ++ "\t" ++ (showLanguage lang) ++ "\t" ++ lin2
+			let lin2 = (linWithBind pgf disambLang tree2)
+			in if lin2 == ""
+				then ppLine4 "EMPTY_LIN" lang lin1 (showExpr [] tree2)
+				else if lin1 == lin2
+					then ppLine3 "SAME_LIN" lang lin1
+					else if (sort . words) lin1 == (sort . words) lin2
+						then ppLine4 "DIFF_ORDER" lang lin1 lin2
+						else if usesLessWords lin2 lin1
+							then ppLine4 "DIFF_WORDS1" lang lin1 lin2
+							else if usesLessWords lin1 lin2
+								then ppLine4 "DIFF_WORDS2" lang lin1 lin2
+								else ppLine4 "DIFF" lang lin1 lin2
+
+-- Uses less (unique) words
+usesLessWords :: String -> String -> Bool
+usesLessWords s1 s2 =
+	isProperSubsetOf ((fromList . words) s1) ((fromList . words) s2)
 
 
--- If linearization fails (i.e. produces an empty string)
--- then return the tree itself.
-ppLinearize :: PGF -> Language -> Tree -> String
-ppLinearize pgf lang tree =
-	let lin = linearize pgf lang tree
-	in case lin of
-		"" -> (showExpr [] tree)
-		_  -> lin
+-- TODO: add glue (&+) handling
+linWithBind :: PGF -> Language -> Tree -> String
+linWithBind pgf lang tree =
+	linearize pgf lang tree
+
+
+-- Pretty-prints the result line
+ppLine4 :: String -> Language -> String -> String -> String
+ppLine4 tag lang lin1 lin2 =
+	tag ++ "\t" ++ (showLanguage lang) ++ "\t" ++ lin1 ++ "\t" ++ lin2
+
+ppLine3 :: String -> Language -> String -> String
+ppLine3 tag lang lin1 =
+	tag ++ "\t" ++ (showLanguage lang) ++ "\t" ++ lin1
