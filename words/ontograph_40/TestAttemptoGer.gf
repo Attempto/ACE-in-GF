@@ -10,6 +10,8 @@ oper mk2N : Str -> Str -> Gender -> AttemptoGer.CN =
 	\sg,pl,gen -> mkCN (mkN sg pl gen) ;
 
 lin officer_N = mk2N "Offizier" "Offiziere" masculine ;
+-- TODO: specify both plurals: Reisende and Reisenden
+-- http://www.canoo.net/services/Controller?dispatch=inflection&input=Reisende&features=(Cat+N)&lang=de
 lin traveler_N = mk2N "Reisende" "Reisenden" masculine ;
 lin man_N = mkCN LexiconGer.man_N ;
 lin woman_N = mkCN LexiconGer.woman_N ;

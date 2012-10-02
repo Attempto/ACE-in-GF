@@ -220,7 +220,7 @@ See the Makefile targets, that have the prefix `test_precision`.
 
 ### Analyzing tree round-tripping
 
-	echo "gr -number=10" | gf --run TestAttempto.pgf | ./Roundtripper TestAttempto.pgf TestAttemptoAce | grep DIFF
+	echo "gr -number=10" | gf --run TestAttempto.pgf | ./Roundtripper -f TestAttempto.pgf -l TestAttemptoAce | grep DIFF
 
 
 

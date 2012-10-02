@@ -54,6 +54,12 @@ lin_acewiki_aceowl_save: pgf_acewiki_aceowl
 	cat $(tests)/sentences.txt | sed -f tools/make_gf_parse_lin_command.sed | \
 	gf --run TestAttempto.pgf > $(tests)/lin.txt
 
+# Print out the trees that correspond to the ontograph_40 test sentences
+tree_ontograph_40: pgf_ontograph_40
+	echo "rf -lines -file=$(tests_onto)/sentences.txt | p -lang=Ace -cat=ACEText" | \
+	gf --run TestAttempto.pgf
+
+
 # Build the test grammar, as a batch or keeping the GF shell open
 build_test:
 	clear

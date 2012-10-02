@@ -48,8 +48,8 @@ module Main where
 --
 -- Usage examples:
 --
---   cat trees.txt | ./Roundtripper TestAttempto.pgf TestAttemptoAce
---   echo "gr -number=10" | gf --run TestAttempto.pgf | ./Roundtripper TestAttempto.pgf TestAttemptoAce | grep DIFF
+--   cat trees.txt | ./Roundtripper -f TestAttempto.pgf -l TestAttemptoAce
+--   echo "gr -number=10" | gf --run TestAttempto.pgf | ./Roundtripper -f TestAttempto.pgf -l TestAttemptoAce | grep DIFF
 --
 -- Output example (where the chosen lin language is English):
 --
@@ -65,26 +65,100 @@ module Main where
 -- TODO: learn Haskell and make this code elegant
 -- TODO: add support for &+
 -- TODO: allow startcat to be user-specified: (fromJust (readType cat))
--- TODO: do not print an error message when STDIN ends
 -- TODO: handle parsing errors better
 -- TODO: add more DIFF types
+-- TODO: better commandline args parser
+-- TODO: catch cases where there are very many parse trees
 --
 
+import Control.Monad
 import PGF
 import Data.Maybe
 import Data.Set (isProperSubsetOf, fromList)
 import Data.List
-import System.Environment (getArgs)
+import System.Console.GetOpt
+import System.IO
+import System.Exit
+import System.Environment (getArgs, getProgName)
+
+
+-- The commandline parameter handling is based on
+-- http://www.haskell.org/haskellwiki/High-level_option_handling_with_GetOpt
+-- TODO: support an optional startcat: Startcat (Maybe String)
+data Flag = Verbose
+			| Version
+			| Input String
+			| Lang Language
+
+data Options = Options { optVerbose :: Bool
+						, optInput  :: String
+						, optLang   :: Language
+						}
+
+startOptions :: Options
+startOptions = Options { optVerbose = False
+						, optInput  = "TestAttempto.pgf"
+						, optLang   = (fromJust (readLanguage "TestAttemptoAce"))
+						}
+
+options :: [ OptDescr (Options -> IO Options) ]
+options =
+	[ Option "f" ["file"]
+		(ReqArg
+			(\arg opt -> return opt { optInput = arg })
+			"PGF")
+		"PGF file"
+
+	, Option "l" ["lang"]
+		(ReqArg
+			(\arg opt -> return opt { optLang = (fromJust (readLanguage arg))})
+			"LANG")
+		"Concrete language for presentation, e.g. TestAttemptoAce"
+
+	, Option "v" ["verbose"]
+		(NoArg
+			(\opt -> return opt { optVerbose = True }))
+		"Enable verbose messages"
+
+	, Option "V" ["version"]
+		(NoArg
+			(\_ -> do
+				hPutStrLn stderr "Version 0.01"
+				exitWith ExitSuccess))
+		"Print version"
+
+	, Option "h" ["help"]
+		(NoArg
+			(\_ -> do
+				prg <- getProgName
+				hPutStrLn stderr (usageInfo prg options)
+				exitWith ExitSuccess))
+		"Show help"
+	]
 
 -- Parses the input parameters and starts the loop
 main :: IO ()
 main = do
-	file:lang:_ <- getArgs
-	pgf <- readPGF file
+	args <- getArgs
+
+	-- Parse options, getting a list of option actions
+	let (actions, nonOptions, errors) = getOpt RequireOrder options args
+
+	-- Here we thread startOptions through all supplied option actions
+	opts <- foldl (>>=) (return startOptions) actions
+
+	let Options { optVerbose = verbose
+				, optInput = input
+				, optLang = lang
+				} = opts
+
+	when verbose (hPutStrLn stderr "Verbose!")
+
+	pgf <- readPGF input
 	loop (showAmb
 		pgf
 		(startCat pgf)
-		(fromJust (readLanguage lang))
+		lang
 		(languages pgf))
 
 
@@ -92,9 +166,13 @@ main = do
 -- about each tree to STDOUT.
 loop :: (String -> String) -> IO ()
 loop showAmb = do
-	s <- getLine
-	putStrLn $ showAmb s
-	loop showAmb
+	end <- isEOF
+	if end
+		then putStr ""
+	else do
+		s <- getLine
+		putStrLn $ showAmb s
+		loop showAmb
 
 
 -- Shows the ambiguity of a given string.
