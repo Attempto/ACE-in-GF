@@ -627,4 +627,89 @@ TestAttemptoRon: este fals cã cineva nu cumpără exact 3 jucător de goalfe .
 TestAttemptoSpa: es falso que algún no compra exactamente 3 golfistas .
 TestAttemptoSwe: det är falskt att någon inte köper exakt 3 golfspelaren .
 
+TestAttempto: baseText (qsText (slash_ipQS whatSg_IP (pnNP john_PN) buy_V2))
+TestAttemptoAce: what does John buy ?
+TestAttemptoCat: què compra John ?
+TestAttemptoDan: hvad køber John ?
+TestAttemptoDut: wat koopt John ?
+TestAttemptoEng: what does John buy ?
+TestAttemptoFin: minkä John ostaa ?
+TestAttemptoFre: qu' achète John ?
+TestAttemptoGer: was kauft John ?
+TestAttemptoIta: che compra John ?
+TestAttemptoLav: ko John pērk ?
+TestAttemptoNor: hva kjøper John ?
+TestAttemptoPol: co kupi Jan ?
+TestAttemptoRon: ce cumpără John ?
+TestAttemptoSpa: ¿ qué compra John ?
+TestAttemptoSwe: vad köper John ?
+
+TestAttempto: baseText (qsText (neg_npqQS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN golfer_N))) (v2VP help_V2 (pnNP mary_PN))))
+TestAttemptoAce: which golfers don't help Mary ?
+TestAttemptoCat: quins golfistes no ajuden Mary ?
+TestAttemptoDan: hvilke golfspillerer hjælper ikke Mary ?
+TestAttemptoDut: welke golfers helpen niet Mary ?
+TestAttemptoEng: which golfers don't help Mary ?
+TestAttemptoFin: mitkä golfaajat eivät auta Maryä ?
+TestAttemptoFre: quels golfeurs n' aident pas Mary ?
+TestAttemptoGer: welche Golfer helfen Mary nicht ?
+TestAttemptoIta: quali giocatori di golf non aiutano Mary ?
+TestAttemptoLav: [neg_npqQS] ?
+TestAttemptoNor: hvilke golfspillerer hjelper ikke Mary ?
+TestAttemptoPol: [neg_npqQS] ?
+TestAttemptoRon: [neg_npqQS] ?
+TestAttemptoSpa: ¿ qué golfistas no ayudan Mary ?
+TestAttemptoSwe: vilka golfspelaren assisterar inte Mary ?
+
+TestAttempto: baseText (qsText (vpqQS (everyNP (cn_as_VarCN man_N)) (v2VPQ see_V2 (ipNPQ whatSg_IP))))
+TestAttemptoAce: every man sees what ?
+TestAttemptoCat: cada home veu què ?
+TestAttemptoDan: hver mand ser hvad ?
+TestAttemptoDut: elke man ziet wat ?
+TestAttemptoEng: every man sees what ?
+TestAttemptoFin: jokainen mies näkee minkä ?
+TestAttemptoFre: chaque homme voit que ?
+TestAttemptoGer: jeder Mann sieht was ?
+TestAttemptoIta: ogni uomo vede che ?
+TestAttemptoLav: [vpqQS] ?
+TestAttemptoNor: hver mann ser hva ?
+TestAttemptoPol: [vpqQS] ?
+TestAttemptoRon: [vpqQS] ?
+TestAttemptoSpa: ¿ cada hombre ve qué ?
+TestAttemptoSwe: varje man ser vad ?
+
+TestAttempto: baseText (qsText (np_coord_VPSQ (everyNP (cn_as_VarCN man_N)) or_Conj (BaseVPSQ (vpq_as_posVPSQ (v2VPQ see_V2 (ipNPQ whatSg_IP))) (vpq_as_negVPSQ (v2VPQ admire_V2 (ipNPQ whoSg_IP))))))
+TestAttemptoAce: every man sees what or doesn't admire who ?
+TestAttemptoCat: cada home veu què o no admira qui ?
+TestAttemptoDan: hver mand ser hvad eller beundrer ikke hvem ?
+TestAttemptoDut: elke man ziet wat of bewondert wie niet ?
+TestAttemptoEng: every man sees what or doesn't admire who ?
+TestAttemptoFin: jokainen mies näkee minkä tai ei ihaile ketä ?
+TestAttemptoFre: chaque homme voit qu' ou il n' admire pas qui ?
+TestAttemptoGer: jeder Mann sieht was oder bewundert wen nicht ?
+TestAttemptoIta: ogni uomo vede che o non ammira chi ?
+TestAttemptoLav: [np_coord_VPSQ] ?
+TestAttemptoNor: hver mann ser hva eller beundrer ikke hvem ?
+TestAttemptoPol: [np_coord_VPSQ] ?
+TestAttemptoRon: [np_coord_VPSQ] ?
+TestAttemptoSpa: ¿ cada hombre ve qué o no admira quién ?
+TestAttemptoSwe: varje man ser vad eller beundrar inte vem ?
+
+TestAttempto: baseText (qsText (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN man_N))) (v2VP love_V2 (thereNP_as_NP (indefTherePronVarNP somebody_IPron X_Var)))))
+TestAttemptoAce: which man loves somebody X ?
+TestAttemptoCat: quin home estima X ?
+TestAttemptoDan: hvilken mand elsker X ?
+TestAttemptoDut: welke man heeft X lief ?
+TestAttemptoEng: which man loves somebody X ?
+TestAttemptoFin: mikä mies rakastaa X ?
+TestAttemptoFre: quel homme aime X ?
+TestAttemptoGer: welcher Mann liebt X ?
+TestAttemptoIta: quale uomo ama X ?
+TestAttemptoLav: [npqQS] ?
+TestAttemptoNor: hvilken mann elsker X ?
+TestAttemptoPol: [npqQS] ?
+TestAttemptoRon: [npqQS] ?
+TestAttemptoSpa: ¿ qué hombre ama X ?
+TestAttemptoSwe: vilken man älskar X ?
+
 

@@ -34,3 +34,8 @@ if X admires Y then X sees Y .
 if X helps Y then Y admires X .
 if X loves Y then X does not admire Y .
 it is false that somebody does not buy exactly 3 golfers .
+what does John buy ?
+which golfers don't help Mary ?
+every man sees what ?
+every man sees what or does not admire who ?
+which man loves somebody X ?
