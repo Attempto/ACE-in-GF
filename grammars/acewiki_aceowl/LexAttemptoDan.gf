@@ -1,6 +1,5 @@
 instance LexAttemptoDan of LexAttempto =
   open
-   ExtraDan,
    SyntaxDan,
    ParadigmsDan,
    ConstructX,

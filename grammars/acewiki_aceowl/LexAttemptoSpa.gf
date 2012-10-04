@@ -1,6 +1,5 @@
 instance LexAttemptoSpa of LexAttempto =
   open
-   ExtraSpa,
    SyntaxSpa,
    ParadigmsSpa,
    ConstructX,

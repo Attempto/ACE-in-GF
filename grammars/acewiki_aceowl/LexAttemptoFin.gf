@@ -1,6 +1,5 @@
 instance LexAttemptoFin of LexAttempto = 
   open 
-   ExtraFin,  
    SyntaxFin, 
    ParadigmsFin, 
    ConstructX, 

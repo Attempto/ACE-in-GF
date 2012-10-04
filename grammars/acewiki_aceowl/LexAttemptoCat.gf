@@ -1,6 +1,5 @@
 instance LexAttemptoCat of LexAttempto =
   open
-   ExtraCat,
    SyntaxCat,
    ParadigmsCat,
    ConstructX,

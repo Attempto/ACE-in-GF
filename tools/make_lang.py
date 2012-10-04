@@ -15,7 +15,6 @@ from string import Template
 
 template_lex = Template("""instance LexAttempto${lang} of LexAttempto =
   open
-   Extra${lang},
    Syntax${lang},
    Paradigms${lang},
    ConstructX,
