@@ -20,8 +20,9 @@ Roundtripper = Roundtripper
 startcat = ACEText
 
 # Language list
+# TODO: Bul Rus Ron Pol
 # TODO: add back Urd
-languages = Ace Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor
+languages = Ace Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav
 
 # Compile application grammars in all languages
 all_grammars:
