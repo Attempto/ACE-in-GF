@@ -20,7 +20,7 @@ startcat = ACEText
 
 # Language list
 # TODO: add back Urd
-languages = Ace Cat Dut Eng Fin Fre Ger Ita Spa Swe
+languages = Ace Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan
 
 # Compile application grammars in all languages
 all_grammars:
