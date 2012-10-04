@@ -69,6 +69,7 @@ module Main where
 -- TODO: add more DIFF types
 -- TODO: better commandline args parser
 -- TODO: catch cases where there are very many parse trees
+-- TODO: cmdline arg to include/exclude languages
 --
 
 import Control.Monad

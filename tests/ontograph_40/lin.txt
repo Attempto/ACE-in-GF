@@ -8,6 +8,7 @@ TestAttemptoFin: Mary on matkustaja .
 TestAttemptoFre: Mary est un voyageur .
 TestAttemptoGer: Mary ist ein Reisende .
 TestAttemptoIta: Mary è un viaggiatore .
+TestAttemptoNor: Mary er ei reisende .
 TestAttemptoSpa: Mary es un viajero .
 TestAttemptoSwe: Mary är en resenär .
 
@@ -21,6 +22,7 @@ TestAttemptoFin: Bill ei ole golfaaja .
 TestAttemptoFre: Bill n' est pas un golfeur .
 TestAttemptoGer: Bill ist nicht ein Golfer .
 TestAttemptoIta: Bill non è un giocatore di golf .
+TestAttemptoNor: Bill er ikke en golfspiller .
 TestAttemptoSpa: Bill no es una golfista .
 TestAttemptoSwe: Bill är inte ett golfspelare .
 
@@ -34,6 +36,7 @@ TestAttemptoFin: Mary on upseeri tai on golfaaja .
 TestAttemptoFre: Mary est un officier ou il est un golfeur .
 TestAttemptoGer: Mary ist ein Offizier oder ist ein Golfer .
 TestAttemptoIta: Mary è un ufficiale o è un giocatore di golf .
+TestAttemptoNor: Mary er en offiser eller er en golfspiller .
 TestAttemptoSpa: Mary es un funcionario o es una golfista .
 TestAttemptoSwe: Mary är en befäl eller är ett golfspelare .
 
@@ -47,6 +50,7 @@ TestAttemptoFin: Sue on upseeri ja on matkustaja .
 TestAttemptoFre: Sue est un officier et elle est un voyageur .
 TestAttemptoGer: Sue ist ein Offizier und ist ein Reisende .
 TestAttemptoIta: Sue è un ufficiale ed è un viaggiatore .
+TestAttemptoNor: Sue er en offiser og er ei reisende .
 TestAttemptoSpa: Sue es un funcionario y es un viajero .
 TestAttemptoSwe: Sue är en befäl och är en resenär .
 
@@ -60,6 +64,7 @@ TestAttemptoFin: jokainen mies on golfaaja .
 TestAttemptoFre: chaque homme est un golfeur .
 TestAttemptoGer: jeder Mann ist ein Golfer .
 TestAttemptoIta: ogni uomo è un giocatore di golf .
+TestAttemptoNor: hver mann er en golfspiller .
 TestAttemptoSpa: cada hombre es una golfista .
 TestAttemptoSwe: varje man är ett golfspelare .
 
@@ -73,6 +78,7 @@ TestAttemptoFin: mikään golfaaja ei ole nainen .
 TestAttemptoFre: aucun golfeur n' est une femme .
 TestAttemptoGer: kein Golfer ist eine Frau .
 TestAttemptoIta: nessuno giocatore di golf è una donna .
+TestAttemptoNor: 
 TestAttemptoSpa: hacia golfista es una mujer .
 TestAttemptoSwe: inget golfspelare är en kvinna .
 
@@ -86,6 +92,7 @@ TestAttemptoFin: jokainen nainen on upseeri ja jokainen upseeri on nainen .
 TestAttemptoFre: chaque femme est un officier et chaque officier est une femme .
 TestAttemptoGer: jede Frau ist ein Offizier und jeder Offizier ist eine Frau .
 TestAttemptoIta: ogni donna è un ufficiale ed ogni ufficiale è una donna .
+TestAttemptoNor: hver kvinne er en offiser og hver offiser er ei kvinne .
 TestAttemptoSpa: cada mujer es un funcionario y cada funcionario es una mujer .
 TestAttemptoSwe: varje kvinna är en befäl och varje befäl är en kvinna .
 
@@ -99,6 +106,7 @@ TestAttemptoFin: jokainen matkustaja joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende der nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
+TestAttemptoNor: hver reisende som ikke er ei kvinne er en golfspiller .
 TestAttemptoSpa: cada viajero que no es una mujer es una golfista .
 TestAttemptoSwe: varje resenär som inte är en kvinna är ett golfspelare .
 
@@ -112,6 +120,7 @@ TestAttemptoFin: jokainen matkustaja , joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende , der nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
+TestAttemptoNor: hver reisende , som ikke er ei kvinne er en golfspiller .
 TestAttemptoSpa: cada viajero que no es una mujer es una golfista .
 TestAttemptoSwe: varje resenär , som inte är en kvinna är ett golfspelare .
 
@@ -125,6 +134,7 @@ TestAttemptoFin: jokainen mies on golfaaja tai on matkustaja .
 TestAttemptoFre: chaque homme est un golfeur ou il est un voyageur .
 TestAttemptoGer: jeder Mann ist ein Golfer oder ist ein Reisende .
 TestAttemptoIta: ogni uomo è un giocatore di golf o è un viaggiatore .
+TestAttemptoNor: hver mann er en golfspiller eller er ei reisende .
 TestAttemptoSpa: cada hombre es una golfista o es un viajero .
 TestAttemptoSwe: varje man är ett golfspelare eller är en resenär .
 
@@ -138,6 +148,7 @@ TestAttemptoFin: kukaan , joka on mies tai joka on golfaaja on upseeri ja on mat
 TestAttemptoFre: personne qui est un homme ou qui est un golfeur n' est un officier et elle n' est un voyageur .
 TestAttemptoGer: niemand , das ein Mann ist oder das ein Golfer ist ist ein Offizier und ist ein Reisende .
 TestAttemptoIta: nessuno che è un uomo o che è un giocatore di golf è un ufficiale ed è un viaggiatore .
+TestAttemptoNor: ingen , som er en mann eller som er en golfspiller er en offiser og er ei reisende .
 TestAttemptoSpa: nadie que es un hombre o que es una golfista es un funcionario y es un viajero .
 TestAttemptoSwe: ingen , som är en man eller som är ett golfspelare är en befäl och är en resenär .
 
@@ -151,6 +162,7 @@ TestAttemptoFin: Lisa näkee Maryn .
 TestAttemptoFre: Lisa voit Mary .
 TestAttemptoGer: Lisa sieht Mary .
 TestAttemptoIta: Lisa vede Mary .
+TestAttemptoNor: Lisa ser Mary .
 TestAttemptoSpa: Lisa ve Mary .
 TestAttemptoSwe: Lisa ser Mary .
 
@@ -164,6 +176,7 @@ TestAttemptoFin: Mary ei näe Tomia .
 TestAttemptoFre: Mary ne voit pas Tom .
 TestAttemptoGer: Mary sieht Tom nicht .
 TestAttemptoIta: Mary non vede Tom .
+TestAttemptoNor: Mary ser ikke Tom .
 TestAttemptoSpa: Mary no ve Tom .
 TestAttemptoSwe: Mary ser inte Tom .
 
@@ -177,6 +190,7 @@ TestAttemptoFin: Tom ostaa kuvan .
 TestAttemptoFre: Tom achète une image .
 TestAttemptoGer: Tom kauft ein Bild .
 TestAttemptoIta: Tom compra un immagine .
+TestAttemptoNor: Tom kjøper ei bilde .
 TestAttemptoSpa: Tom compra un imagen .
 TestAttemptoSwe: Tom köper en bild .
 
@@ -190,6 +204,7 @@ TestAttemptoFin: Mary ei näe mitään miestä .
 TestAttemptoFre: Mary ne voit aucun homme .
 TestAttemptoGer: Mary sieht keinen Mann .
 TestAttemptoIta: Mary non vede nessuno uomo .
+TestAttemptoNor: 
 TestAttemptoSpa: Mary no ve hacia hombre .
 TestAttemptoSwe: Mary ser ingen man .
 
@@ -203,6 +218,7 @@ TestAttemptoFin: John ostaa jonkin , joka ei ole lahja .
 TestAttemptoFre: John achète quelque chose qui n' est pas un cadeau .
 TestAttemptoGer: John kauft etwas , das nicht ein Geschenk ist .
 TestAttemptoIta: John compra qualche cosa che non è un regalo .
+TestAttemptoNor: John kjøper noe , som ikke er ei gave .
 TestAttemptoSpa: John compra algo que no es un regalo .
 TestAttemptoSwe: John köper något , som inte är en present .
 
@@ -216,6 +232,7 @@ TestAttemptoFin: John näkee vain miehiä .
 TestAttemptoFre: John voit seulement des hommes .
 TestAttemptoGer: John sieht nur Männer .
 TestAttemptoIta: John vede soltanto uomini .
+TestAttemptoNor: John ser kun menn .
 TestAttemptoSpa: John ve solamente hombres .
 TestAttemptoSwe: John ser bara män .
 
@@ -229,6 +246,7 @@ TestAttemptoFin: jokainen mies ostaa lahjan .
 TestAttemptoFre: chaque homme achète un cadeau .
 TestAttemptoGer: jeder Mann kauft ein Geschenk .
 TestAttemptoIta: ogni uomo compra un regalo .
+TestAttemptoNor: hver mann kjøper ei gave .
 TestAttemptoSpa: cada hombre compra un regalo .
 TestAttemptoSwe: varje man köper en present .
 
@@ -242,6 +260,7 @@ TestAttemptoFin: kaikki , joka ostaa lahjan on mies .
 TestAttemptoFre: tout qui achète un cadeau est un homme .
 TestAttemptoGer: alles , das ein Geschenk kauft ist ein Mann .
 TestAttemptoIta: tutto che compra un regalo è un uomo .
+TestAttemptoNor: alt , som kjøper ei gave er en mann .
 TestAttemptoSpa: todo que compra un regalo es un hombre .
 TestAttemptoSwe: allting , som köper en present är en man .
 
@@ -255,6 +274,7 @@ TestAttemptoFin: jokainen mies ostaa vain lahjoja .
 TestAttemptoFre: chaque homme achète seulement des cadeaux .
 TestAttemptoGer: jeder Mann kauft nur Geschenke .
 TestAttemptoIta: ogni uomo compra soltanto regali .
+TestAttemptoNor: hver mann kjøper kun gaver .
 TestAttemptoSpa: cada hombre compra solamente regalos .
 TestAttemptoSwe: varje man köper bara presentar .
 
@@ -268,6 +288,7 @@ TestAttemptoFin: kaikki , joka ostaa vain kuvia on nainen .
 TestAttemptoFre: tout qui achète seulement des images est une femme .
 TestAttemptoGer: alles , das nur Bilder kauft ist eine Frau .
 TestAttemptoIta: tutto che compra soltanto immagini è una donna .
+TestAttemptoNor: alt , som kjøper kun bilder er ei kvinne .
 TestAttemptoSpa: todo que compra solamente imagenes es una mujer .
 TestAttemptoSwe: allting , som köper bara bildar är en kvinna .
 
@@ -281,6 +302,7 @@ TestAttemptoFin: kaikki , joka näkee jonkin on upseeri .
 TestAttemptoFre: tout qui voit quelque chose est un officier .
 TestAttemptoGer: alles , das etwas sieht ist ein Offizier .
 TestAttemptoIta: tutto che vede qualche cosa è un ufficiale .
+TestAttemptoNor: alt , som ser noe er en offiser .
 TestAttemptoSpa: todo que ve algo es un funcionario .
 TestAttemptoSwe: allting , som ser något är en befäl .
 
@@ -294,6 +316,7 @@ TestAttemptoFin: kaikki , jota rakastetaan jonkin toimesta on henkilö .
 TestAttemptoFre: tout qui est aimé par quelque chose est une personne .
 TestAttemptoGer: alles , das durch etwas geliebt wird ist eine Person .
 TestAttemptoIta: tutto che viene amato da qualche cosa è una persona .
+TestAttemptoNor: alt , som blir elska av noe er en person .
 TestAttemptoSpa: todo que es amado por algo es una persona .
 TestAttemptoSwe: allting , som blir älskat av något är en person .
 
@@ -307,6 +330,7 @@ TestAttemptoFin: kaikki , joka rakastaa jotakin on matkustaja tai on upseeri .
 TestAttemptoFre: tout qui aime quelque chose est un voyageur ou il est un officier .
 TestAttemptoGer: alles , das etwas liebt ist ein Reisende oder ist ein Offizier .
 TestAttemptoIta: tutto che ama qualche cosa è un viaggiatore o è un ufficiale .
+TestAttemptoNor: alt , som elsker noe er ei reisende eller er en offiser .
 TestAttemptoSpa: todo que ama algo es un viajero o es un funcionario .
 TestAttemptoSwe: allting , som älskar något är en resenär eller är en befäl .
 
@@ -320,6 +344,7 @@ TestAttemptoFin: kaikki , joka nähdään jonkin toimesta on matkustaja tai on a
 TestAttemptoFre: tout qui est vu par quelque chose est un voyageur ou il est un aquarium .
 TestAttemptoGer: alles , das durch etwas gesehen wird ist ein Reisende oder ist ein Aquarium .
 TestAttemptoIta: tutto che viene visto da qualche cosa è un viaggiatore o è un acquario .
+TestAttemptoNor: alt , som blir sett av noe er ei reisende eller er en akvarium .
 TestAttemptoSpa: todo que es visto por algo es un viajero o es un acuario .
 TestAttemptoSwe: allting , som blir sett av något är en resenär eller är en akvarium .
 
@@ -333,6 +358,7 @@ TestAttemptoFin: Tom rakastaa vähintään 2 upseeria .
 TestAttemptoFre: Tom aime au moins 2 officiers .
 TestAttemptoGer: Tom liebt wenigstens 2 Offiziere .
 TestAttemptoIta: Tom ama almeno 2 ufficiali .
+TestAttemptoNor: Tom elsker minst 2 offiserer .
 TestAttemptoSpa: Tom ama al menos 2 funcionarios .
 TestAttemptoSwe: Tom älskar minst 2 befälar .
 
@@ -346,6 +372,7 @@ TestAttemptoFin: Lisa ostaa enintään 1 lahjan .
 TestAttemptoFre: Lisa achète au plus 1 cadeau .
 TestAttemptoGer: Lisa kauft höchstens 1 Geschenk .
 TestAttemptoIta: Lisa compra al massimo 1 regalo .
+TestAttemptoNor: Lisa kjøper høyst 1 gave .
 TestAttemptoSpa: Lisa compra a lo más 1 regalo .
 TestAttemptoSwe: Lisa köper högst 1 present .
 
@@ -359,6 +386,7 @@ TestAttemptoFin: jokainen matkustaja näkee vähintään 2 akvaariota .
 TestAttemptoFre: chaque voyageur voit au moins 2 aquariums .
 TestAttemptoGer: jeder Reisende sieht wenigstens 2 Aquariume .
 TestAttemptoIta: ogni viaggiatore vede almeno 2 acquari .
+TestAttemptoNor: hver reisende ser minst 2 akvariumer .
 TestAttemptoSpa: cada viajero ve al menos 2 acuarios .
 TestAttemptoSwe: varje resenär ser minst 2 akvariumar .
 
@@ -372,6 +400,7 @@ TestAttemptoFin: kaikki , joka ostaa vähintään 2 lahjaa on upseeri .
 TestAttemptoFre: tout qui achète au moins 2 cadeaux est un officier .
 TestAttemptoGer: alles , das wenigstens 2 Geschenke kauft ist ein Offizier .
 TestAttemptoIta: tutto che compra almeno 2 regali è un ufficiale .
+TestAttemptoNor: alt , som kjøper minst 2 gaver er en offiser .
 TestAttemptoSpa: todo que compra al menos 2 regalos es un funcionario .
 TestAttemptoSwe: allting , som köper minst 2 presentar är en befäl .
 
@@ -385,6 +414,7 @@ TestAttemptoFin: jokainen upseeri näkee enintään 1 akvaarion .
 TestAttemptoFre: chaque officier voit au plus 1 aquarium .
 TestAttemptoGer: jeder Offizier sieht höchstens 1 Aquarium .
 TestAttemptoIta: ogni ufficiale vede al massimo 1 acquario .
+TestAttemptoNor: hver offiser ser høyst 1 akvarium .
 TestAttemptoSpa: cada funcionario ve a lo más 1 acuario .
 TestAttemptoSwe: varje befäl ser högst 1 akvarium .
 
@@ -398,6 +428,7 @@ TestAttemptoFin: kaikki , joka on matkustaja tai joka on upseeri näkee enintä�
 TestAttemptoFre: tout qui est un voyageur ou qui est un officier voit au plus 1 aquarium .
 TestAttemptoGer: alles , das ein Reisende ist oder das ein Offizier ist sieht höchstens 1 Aquarium .
 TestAttemptoIta: tutto che è un viaggiatore o che è un ufficiale vede al massimo 1 acquario .
+TestAttemptoNor: alt , som er ei reisende eller som er en offiser ser høyst 1 akvarium .
 TestAttemptoSpa: todo que es un viajero o que es un funcionario ve a lo más 1 acuario .
 TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högst 1 akvarium .
 
@@ -411,6 +442,7 @@ TestAttemptoFin: jos X auttaa Y niin Y auttaa X .
 TestAttemptoFre: si X aide Y alors Y aide X .
 TestAttemptoGer: wenn X Y hilft , dann hilft Y X .
 TestAttemptoIta: si X aiuta Y allora Y aiuta X .
+TestAttemptoNor: hvis X hjelper Y så Y hjelper X .
 TestAttemptoSpa: si X ayuda Y entonces Y ayuda X .
 TestAttemptoSwe: om X assisterar Y så Y assisterar X .
 
@@ -424,6 +456,7 @@ TestAttemptoFin: jos X näkee Y niin Y ei näe X .
 TestAttemptoFre: si X voit Y alors Y ne voit pas X .
 TestAttemptoGer: wenn X Y sieht , dann sieht Y X nicht .
 TestAttemptoIta: si X vede Y allora Y non vede X .
+TestAttemptoNor: hvis X ser Y så Y ser ikke X .
 TestAttemptoSpa: si X ve Y entonces Y no ve X .
 TestAttemptoSwe: om X ser Y så Y ser inte X .
 
@@ -437,6 +470,7 @@ TestAttemptoFin: jos X näkee jonkun , joka näkee Y niin X näkee Y .
 TestAttemptoFre: si X voit quelqu'un qui voit Y alors X voit Y .
 TestAttemptoGer: wenn X jemanden , das Y sieht sieht , dann sieht X Y .
 TestAttemptoIta: si X vede qualcuno che vede Y allora X vede Y .
+TestAttemptoNor: hvis X ser noen , som ser Y så X ser Y .
 TestAttemptoSpa: si X ve algún que ve Y entonces X ve Y .
 TestAttemptoSwe: om X ser någon , som ser Y så X ser Y .
 
@@ -450,6 +484,7 @@ TestAttemptoFin: jos X ihailee Y niin X näkee Y .
 TestAttemptoFre: si X admire Y alors X voit Y .
 TestAttemptoGer: wenn X Y bewundert , dann sieht X Y .
 TestAttemptoIta: si X ammira Y allora X vede Y .
+TestAttemptoNor: hvis X beundrer Y så X ser Y .
 TestAttemptoSpa: si X admira Y entonces X ve Y .
 TestAttemptoSwe: om X beundrar Y så X ser Y .
 
@@ -463,6 +498,7 @@ TestAttemptoFin: jos X tarkastaa Y niin X auttaa Y .
 TestAttemptoFre: si X inspecte Y alors X aide Y .
 TestAttemptoGer: wenn X Y inspiziert , dann hilft X Y .
 TestAttemptoIta: si X ispeziona Y allora X aiuta Y .
+TestAttemptoNor: hvis X inspiserer Y så X hjelper Y .
 TestAttemptoSpa: si X inspecciona Y entonces X ayuda Y .
 TestAttemptoSwe: om X avsynar Y så X assisterar Y .
 
@@ -476,6 +512,7 @@ TestAttemptoFin: jos X auttaa Y niin Y ihailee X .
 TestAttemptoFre: si X aide Y alors Y admire X .
 TestAttemptoGer: wenn X Y hilft , dann bewundert Y X .
 TestAttemptoIta: si X aiuta Y allora Y ammira X .
+TestAttemptoNor: hvis X hjelper Y så Y beundrer X .
 TestAttemptoSpa: si X ayuda Y entonces Y admira X .
 TestAttemptoSwe: om X assisterar Y så Y beundrar X .
 
@@ -489,6 +526,7 @@ TestAttemptoFin: jos X rakastaa Y niin X ei ihaile Y .
 TestAttemptoFre: si X aime Y alors X n' admire pas Y .
 TestAttemptoGer: wenn X Y liebt , dann bewundert X Y nicht .
 TestAttemptoIta: si X ama Y allora X non ammira Y .
+TestAttemptoNor: hvis X elsker Y så X beundrer ikke Y .
 TestAttemptoSpa: si X ama Y entonces X no admira Y .
 TestAttemptoSwe: om X älskar Y så X beundrar inte Y .
 
@@ -502,6 +540,7 @@ TestAttemptoFin: jos X näkee Y niin Y ei rakasta X .
 TestAttemptoFre: si X voit Y alors Y n' aime pas X .
 TestAttemptoGer: wenn X Y sieht , dann liebt Y X nicht .
 TestAttemptoIta: si X vede Y allora Y non ama X .
+TestAttemptoNor: hvis X ser Y så Y elsker ikke X .
 TestAttemptoSpa: si X ve Y entonces Y no ama X .
 TestAttemptoSwe: om X ser Y så Y älskar inte X .
 
@@ -515,6 +554,7 @@ TestAttemptoFin: jos X ihailee Y niin X näkee Y . jos X näkee Y niin X ihailee
 TestAttemptoFre: si X admire Y alors X voit Y . si X voit Y alors X admire Y .
 TestAttemptoGer: wenn X Y bewundert , dann sieht X Y . wenn X Y sieht , dann bewundert X Y .
 TestAttemptoIta: si X ammira Y allora X vede Y . si X vede Y allora X ammira Y .
+TestAttemptoNor: hvis X beundrer Y så X ser Y . hvis X ser Y så X beundrer Y .
 TestAttemptoSpa: si X admira Y entonces X ve Y . si X ve Y entonces X admira Y .
 TestAttemptoSwe: om X beundrar Y så X ser Y . om X ser Y så X beundrar Y .
 
@@ -528,6 +568,7 @@ TestAttemptoFin: jos X tarkastaa Y niin Y näkee X . jos Y näkee X niin X tarka
 TestAttemptoFre: si X inspecte Y alors Y voit X . si Y voit X alors X inspecte Y .
 TestAttemptoGer: wenn X Y inspiziert , dann sieht Y X . wenn Y X sieht , dann inspiziert X Y .
 TestAttemptoIta: si X ispeziona Y allora Y vede X . si Y vede X allora X ispeziona Y .
+TestAttemptoNor: hvis X inspiserer Y så Y ser X . hvis Y ser X så X inspiserer Y .
 TestAttemptoSpa: si X inspecciona Y entonces Y ve X . si Y ve X entonces X inspecciona Y .
 TestAttemptoSwe: om X avsynar Y så Y ser X . om Y ser X så X avsynar Y .
 

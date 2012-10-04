@@ -21,7 +21,7 @@ startcat = ACEText
 
 # Language list
 # TODO: add back Urd
-languages = Ace Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan
+languages = Ace Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor
 
 # Compile application grammars in all languages
 all_grammars:

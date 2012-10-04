@@ -222,6 +222,15 @@ See the Makefile targets, that have the prefix `test_precision`.
 
 	echo "gr -number=10" | gf --run TestAttempto.pgf | ./Roundtripper -f TestAttempto.pgf -l TestAttemptoAce | grep DIFF
 
+	echo "rf -lines -file=tests/ontograph_ext/sentences.txt | p -lang=Ace -cat=ACEText" |\
+	gf --run TestAttempto.pgf | ./Roundtripper -f TestAttempto.pgf -l TestAttemptoAce | grep DIFF
+
+Currently this results in (TODO: fix these):
+
+	Tom buys a picture  ->  Tom buys the picture (article changes, in Fin)
+	Mary sees no man  ->  Mary doesn't see no man (negation added, several languages)
+	if X sees somebody who sees Y ...  ->  if X sees somebody who Y sees ... (word order changes, in Ger and Dut)
+	what does Tom buy ?  ->  what buys Tom ? (word order changes, all langs but ACE and Eng)
 
 
 Changing

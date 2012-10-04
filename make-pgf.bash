@@ -11,7 +11,6 @@
 # Usage examples:
 #
 # bash make-pgf.bash grammars/acewiki_aceowl/ "words/ontograph_40/TestAttempto{Ace,}.gf"
-# bash make-pgf.bash grammars/attempto/ "words/test/TestAttempto{Ace,Eng,Ger,Ita,Fre,Swe}.gf"
 
 # ACE RG files
 ace="lib/src/ace/"
