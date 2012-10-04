@@ -5,6 +5,15 @@ incomplete concrete ACEI of ACE = AttemptoI, SymbolsACEC, Numeral ** open
   LexACE
 in {
 
+-- Categories that full ACE adds on top of the AceWiki subset
+--lincat A = Syntax.A ;
+lincat AP = Syntax.AP ;
+lincat Prep = Syntax.Prep ;
+lincat VS = Syntax.VS ;
+lincat V3 = Syntax.V3 ;
+lincat Adv = Syntax.Adv ;
+lincat IAdv = Syntax.IAdv ;
+
 lin cardNP d = Syntax.mkNP d ;
 
 lin eachNP = mkNP each_Det ;
