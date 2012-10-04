@@ -1,6 +1,5 @@
 instance LexAttemptoNor of LexAttempto =
   open
-   ExtraNor,
    SyntaxNor,
    ParadigmsNor,
    ConstructX,

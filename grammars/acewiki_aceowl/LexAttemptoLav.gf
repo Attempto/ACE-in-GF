@@ -1,6 +1,5 @@
 instance LexAttemptoLav of LexAttempto =
   open
-   ExtraLav,
    SyntaxLav,
    ParadigmsLav,
    ConstructX,
