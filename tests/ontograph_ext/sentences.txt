@@ -1,0 +1,36 @@
+Mary is a traveler .
+Bill is not a golfer .
+Mary is an officer or is a golfer .
+Sue is an officer and is a traveler .
+every man is a golfer .
+no golfer is a woman .
+every woman is an officer and every officer is a woman .
+every traveler who is not a woman is a golfer .
+every man is a golfer or is a traveler .
+nobody who is a man or who is a golfer is an officer and is a traveler .
+Lisa sees Mary .
+Mary does not see Tom .
+Tom buys a picture .
+Mary sees no man .
+John buys something that is not a present .
+John sees nothing but men .
+every man buys a present .
+everything that buys a present is a man .
+every man buys nothing but presents .
+everything that buys nothing but pictures is a woman .
+everything that sees something is an officer .
+everything that is loved by something is a person .
+everything that loves something is a traveler or is an officer .
+everything that is seen by something is a traveler or is an aquarium .
+Tom loves at least 2 officers .
+Lisa buys at most 1 present .
+every traveler sees at least 2 aquariums .
+everything that buys at least 2 presents is an officer .
+every officer sees at most 1 aquarium .
+everything that is a traveler or that is an officer sees at most 1 aquarium .
+if X sees Y then Y does not love X .
+if X sees somebody who sees Y then X sees Y .
+if X admires Y then X sees Y .
+if X helps Y then Y admires X .
+if X loves Y then X does not admire Y .
+it is false that somebody does not buy exactly 3 golfers .

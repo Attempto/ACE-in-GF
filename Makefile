@@ -9,6 +9,7 @@ words = words/acewiki_aceowl
 tests = tests/acewiki_aceowl
 words_onto = words/ontograph_40
 tests_onto = tests/ontograph_40
+tests_onto_ext = tests/ontograph_ext
 
 Roundtripper = Roundtripper
 
@@ -48,6 +49,10 @@ lin_ontograph_40:
 lin_ontograph_40_save:
 	echo "rf -lines -file=$(tests_onto)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
 	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf) > $(tests_onto)/lin.txt
+
+lin_ontograph_ext_save:
+	echo "rf -lines -file=$(tests_onto_ext)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
+	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf) > $(tests_onto_ext)/lin.txt
 
 # This does not fail if one of the sentences fails (unlike "rf -lines | p")
 # TODO: We assume that pgf_acewiki_aceowl produces TestAttempto.pgf with all the languages
