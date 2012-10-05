@@ -12,6 +12,7 @@ TestAttemptoLav: Mary ir ceļotājs .
 TestAttemptoNor: Mary er ei reisende .
 TestAttemptoPol: Paryż jest mężczyzną .
 TestAttemptoRon: Mary este un călător .
+TestAttemptoRus: Maryа путешественник .
 TestAttemptoSpa: Mary es un viajero .
 TestAttemptoSwe: Mary är en resenär .
 
@@ -29,6 +30,7 @@ TestAttemptoLav: Bill nav golfa spēlētājs .
 TestAttemptoNor: Bill er ikke en golfspiller .
 TestAttemptoPol: Paryż nie jest mężczyzną .
 TestAttemptoRon: Bill nu este un jucător de golf .
+TestAttemptoRus: Bill не игрок в гольф .
 TestAttemptoSpa: Bill no es una golfista .
 TestAttemptoSwe: Bill är inte ett golfspelare .
 
@@ -46,6 +48,7 @@ TestAttemptoLav: [np_coord_VPS] .
 TestAttemptoNor: Mary er en offiser eller er en golfspiller .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
+TestAttemptoRus: [np_coord_VPS] .
 TestAttemptoSpa: Mary es un funcionario o es una golfista .
 TestAttemptoSwe: Mary är en befäl eller är ett golfspelare .
 
@@ -63,6 +66,7 @@ TestAttemptoLav: [np_coord_VPS] .
 TestAttemptoNor: Sue er en offiser og er ei reisende .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
+TestAttemptoRus: [np_coord_VPS] .
 TestAttemptoSpa: Sue es un funcionario y es un viajero .
 TestAttemptoSwe: Sue är en befäl och är en resenär .
 
@@ -80,6 +84,7 @@ TestAttemptoLav: ikviens vīrietis ir golfa spēlētājs .
 TestAttemptoNor: hver mann er en golfspiller .
 TestAttemptoPol: każdy mężczyzna jest mężczyzną .
 TestAttemptoRon: orice om este un jucător de golf .
+TestAttemptoRus: каждый человек игрок в гольф .
 TestAttemptoSpa: cada hombre es una golfista .
 TestAttemptoSwe: varje man är ett golfspelare .
 
@@ -97,6 +102,7 @@ TestAttemptoLav:
 TestAttemptoNor: 
 TestAttemptoPol: żaden mężczyzna jest kobietą .
 TestAttemptoRon: niciun jucător de golf este o femeie .
+TestAttemptoRus: 
 TestAttemptoSpa: hacia golfista es una mujer .
 TestAttemptoSwe: inget golfspelare är en kvinna .
 
@@ -114,6 +120,7 @@ TestAttemptoLav: ikviena sieviete ir amatpersona un ikviena amatpersona ir sievi
 TestAttemptoNor: hver kvinne er en offiser og hver offiser er ei kvinne .
 TestAttemptoPol: każda kobieta jest mężczyzną i każdy mężczyzna jest kobietą .
 TestAttemptoRon: orice femeie este un ofițer şi orice ofițer este o femeie .
+TestAttemptoRus: каждая женщина офицер и каждый офицер женщина .
 TestAttemptoSpa: cada mujer es un funcionario y cada funcionario es una mujer .
 TestAttemptoSwe: varje kvinna är en befäl och varje befäl är en kvinna .
 
@@ -131,6 +138,7 @@ TestAttemptoLav: ikviens ceļotājs , kurš nav sieviete ir golfa spēlētājs .
 TestAttemptoNor: hver reisende som ikke er ei kvinne er en golfspiller .
 TestAttemptoPol: każdy mężczyzna , który nie jest kobietą jest mężczyzną .
 TestAttemptoRon: orice călător care nu este o femeie este un jucător de golf .
+TestAttemptoRus: каждый путешественник , который женщина игрок в гольф .
 TestAttemptoSpa: cada viajero que no es una mujer es una golfista .
 TestAttemptoSwe: varje resenär som inte är en kvinna är ett golfspelare .
 
@@ -148,6 +156,7 @@ TestAttemptoLav: ikviens ceļotājs , kurš nav sieviete ir golfa spēlētājs .
 TestAttemptoNor: hver reisende , som ikke er ei kvinne er en golfspiller .
 TestAttemptoPol: każdy mężczyzna , który nie jest kobietą jest mężczyzną .
 TestAttemptoRon: orice călător care nu este o femeie este un jucător de golf .
+TestAttemptoRus: каждый путешественник , который женщина игрок в гольф .
 TestAttemptoSpa: cada viajero que no es una mujer es una golfista .
 TestAttemptoSwe: varje resenär , som inte är en kvinna är ett golfspelare .
 
@@ -165,6 +174,7 @@ TestAttemptoLav: [np_coord_VPS] .
 TestAttemptoNor: hver mann er en golfspiller eller er ei reisende .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
+TestAttemptoRus: [np_coord_VPS] .
 TestAttemptoSpa: cada hombre es una golfista o es un viajero .
 TestAttemptoSwe: varje man är ett golfspelare eller är en resenär .
 
@@ -182,6 +192,7 @@ TestAttemptoLav: [np_coord_VPS] .
 TestAttemptoNor: ingen , som er en mann eller som er en golfspiller er en offiser og er ei reisende .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
+TestAttemptoRus: [np_coord_VPS] .
 TestAttemptoSpa: nadie que es un hombre o que es una golfista es un funcionario y es un viajero .
 TestAttemptoSwe: ingen , som är en man eller som är ett golfspelare är en befäl och är en resenär .
 
@@ -199,6 +210,7 @@ TestAttemptoLav: Lisa redz Mary .
 TestAttemptoNor: Lisa ser Mary .
 TestAttemptoPol: Paryż widzi Paryż .
 TestAttemptoRon: Lisa o vede pe Mary .
+TestAttemptoRus: Lisaа видит Maryу .
 TestAttemptoSpa: Lisa ve Mary .
 TestAttemptoSwe: Lisa ser Mary .
 
@@ -216,6 +228,7 @@ TestAttemptoLav: Mary neredz Tom .
 TestAttemptoNor: Mary ser ikke Tom .
 TestAttemptoPol: Paryż nie widzi Paryża .
 TestAttemptoRon: Mary nu îl vede pe Tom .
+TestAttemptoRus: Maryа не видит Tomа .
 TestAttemptoSpa: Mary no ve Tom .
 TestAttemptoSwe: Mary ser inte Tom .
 
@@ -233,6 +246,7 @@ TestAttemptoLav: Tom pērk attēlu .
 TestAttemptoNor: Tom kjøper ei bilde .
 TestAttemptoPol: Paryż kupi mężczyznę .
 TestAttemptoRon: Tom cumpără o imagine .
+TestAttemptoRus: Tom покупает картину .
 TestAttemptoSpa: Tom compra un imagen .
 TestAttemptoSwe: Tom köper en bild .
 
@@ -250,6 +264,7 @@ TestAttemptoLav:
 TestAttemptoNor: 
 TestAttemptoPol: Paryż widzi żadnego mężczyznę .
 TestAttemptoRon: Mary vede niciun om .
+TestAttemptoRus: 
 TestAttemptoSpa: Mary no ve hacia hombre .
 TestAttemptoSwe: Mary ser ingen man .
 
@@ -267,6 +282,7 @@ TestAttemptoLav: John pērk kaut ku , kurš nav klāt .
 TestAttemptoNor: John kjøper noe , som ikke er ei gave .
 TestAttemptoPol: Jan kupi coś , które nie jest mężczyzną .
 TestAttemptoRon: John cumpără ceva care nu este un cadou .
+TestAttemptoRus: Иван покупает что-то , который подарок .
 TestAttemptoSpa: John compra algo que no es un regalo .
 TestAttemptoSwe: John köper något , som inte är en present .
 
@@ -284,6 +300,7 @@ TestAttemptoLav: John redz tikai vīriešus .
 TestAttemptoNor: John ser kun menn .
 TestAttemptoPol: Jan widzi tylko mężczyzn .
 TestAttemptoRon: John vede doar nişte oameni .
+TestAttemptoRus: Иван видит единственные человеков .
 TestAttemptoSpa: John ve solamente hombres .
 TestAttemptoSwe: John ser bara män .
 
@@ -301,6 +318,7 @@ TestAttemptoLav: ikviens vīrietis pērk klāt .
 TestAttemptoNor: hver mann kjøper ei gave .
 TestAttemptoPol: każdy mężczyzna kupi mężczyznę .
 TestAttemptoRon: orice om cumpără un cadou .
+TestAttemptoRus: каждый человек покупает подарок .
 TestAttemptoSpa: cada hombre compra un regalo .
 TestAttemptoSwe: varje man köper en present .
 
@@ -318,6 +336,7 @@ TestAttemptoLav: viss , kurš pērk klāt ir vīrietis .
 TestAttemptoNor: alt , som kjøper ei gave er en mann .
 TestAttemptoPol: wszystko , które kupi mężczyznę jest mężczyzną .
 TestAttemptoRon: 
+TestAttemptoRus: всё , которое покупает подарок человек .
 TestAttemptoSpa: todo que compra un regalo es un hombre .
 TestAttemptoSwe: allting , som köper en present är en man .
 
@@ -335,6 +354,7 @@ TestAttemptoLav: ikviens vīrietis pērk tikai klāt .
 TestAttemptoNor: hver mann kjøper kun gaver .
 TestAttemptoPol: każdy mężczyzna kupi tylko mężczyzn .
 TestAttemptoRon: orice om cumpără doar nişte caoaoe .
+TestAttemptoRus: каждый человек покупает единственные подароков .
 TestAttemptoSpa: cada hombre compra solamente regalos .
 TestAttemptoSwe: varje man köper bara presentar .
 
@@ -352,6 +372,7 @@ TestAttemptoLav: viss , kurš pērk tikai attēlu ir sieviete .
 TestAttemptoNor: alt , som kjøper kun bilder er ei kvinne .
 TestAttemptoPol: wszystko , które kupi tylko mężczyzn jest kobietą .
 TestAttemptoRon: 
+TestAttemptoRus: всё , которое покупает единственные картин женщина .
 TestAttemptoSpa: todo que compra solamente imagenes es una mujer .
 TestAttemptoSwe: allting , som köper bara bildar är en kvinna .
 
@@ -369,6 +390,7 @@ TestAttemptoLav: viss , kurš redz kaut ku ir amatpersona .
 TestAttemptoNor: alt , som ser noe er en offiser .
 TestAttemptoPol: wszystko , które widzi coś jest mężczyzną .
 TestAttemptoRon: 
+TestAttemptoRus: всё , которое видит что-то офицер .
 TestAttemptoSpa: todo que ve algo es un funcionario .
 TestAttemptoSwe: allting , som ser något är en befäl .
 
@@ -386,6 +408,7 @@ TestAttemptoLav: viss , kurš mīl NON_EXISTENT kaut ka ir cilvēks .
 TestAttemptoNor: alt , som blir elska av noe er en person .
 TestAttemptoPol: wszystko , które przez coś jest kochane jest mężczyzną .
 TestAttemptoRon: 
+TestAttemptoRus: всё , которое с помощью чего-то любдится лицo .
 TestAttemptoSpa: todo que es amado por algo es una persona .
 TestAttemptoSwe: allting , som blir älskat av något är en person .
 
@@ -403,6 +426,7 @@ TestAttemptoLav: [np_coord_VPS] .
 TestAttemptoNor: alt , som elsker noe er ei reisende eller er en offiser .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
+TestAttemptoRus: [np_coord_VPS] .
 TestAttemptoSpa: todo que ama algo es un viajero o es un funcionario .
 TestAttemptoSwe: allting , som älskar något är en resenär eller är en befäl .
 
@@ -420,6 +444,7 @@ TestAttemptoLav: [np_coord_VPS] .
 TestAttemptoNor: alt , som blir sett av noe er ei reisende eller er en akvarium .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
+TestAttemptoRus: [np_coord_VPS] .
 TestAttemptoSpa: todo que es visto por algo es un viajero o es un acuario .
 TestAttemptoSwe: allting , som blir sett av något är en resenär eller är en akvarium .
 
@@ -437,6 +462,7 @@ TestAttemptoLav: Tom mīl vismaz 2 amatpersonas .
 TestAttemptoNor: Tom elsker minst 2 offiserer .
 TestAttemptoPol: Paryż kocha co najmniej 2 mężczyzn .
 TestAttemptoRon: Tom iubeşte cel puţin 2 ofițere .
+TestAttemptoRus: Tom любдит по крайней мере 2 офицера .
 TestAttemptoSpa: Tom ama al menos 2 funcionarios .
 TestAttemptoSwe: Tom älskar minst 2 befälar .
 
@@ -454,6 +480,7 @@ TestAttemptoLav: Lisa pērk ne vairāk kā 1 klāt .
 TestAttemptoNor: Lisa kjøper høyst 1 gave .
 TestAttemptoPol: Paryż kupi co najwyżej 1 mężczyznę .
 TestAttemptoRon: Lisa cumpără cel mult 1 cadou .
+TestAttemptoRus: Lisaа покупает не более 1 подарок .
 TestAttemptoSpa: Lisa compra a lo más 1 regalo .
 TestAttemptoSwe: Lisa köper högst 1 present .
 
@@ -471,6 +498,7 @@ TestAttemptoLav: ikviens ceļotājs redz vismaz 2 akvāriju .
 TestAttemptoNor: hver reisende ser minst 2 akvariumer .
 TestAttemptoPol: każdy mężczyzna widzi co najmniej 2 mężczyzn .
 TestAttemptoRon: orice călător vede cel puţin 2 acvarii .
+TestAttemptoRus: каждый путешественник видит по крайней мере 2 аквариума .
 TestAttemptoSpa: cada viajero ve al menos 2 acuarios .
 TestAttemptoSwe: varje resenär ser minst 2 akvariumar .
 
@@ -488,6 +516,7 @@ TestAttemptoLav: viss , kurš pērk vismaz 2 klāt ir amatpersona .
 TestAttemptoNor: alt , som kjøper minst 2 gaver er en offiser .
 TestAttemptoPol: wszystko , które kupi co najmniej 2 mężczyzn jest mężczyzną .
 TestAttemptoRon: 
+TestAttemptoRus: всё , которое покупает по крайней мере 2 подарока офицер .
 TestAttemptoSpa: todo que compra al menos 2 regalos es un funcionario .
 TestAttemptoSwe: allting , som köper minst 2 presentar är en befäl .
 
@@ -505,25 +534,27 @@ TestAttemptoLav: ikviena amatpersona redz ne vairāk kā 1 akvāriju .
 TestAttemptoNor: hver offiser ser høyst 1 akvarium .
 TestAttemptoPol: każdy mężczyzna widzi co najwyżej 1 mężczyznę .
 TestAttemptoRon: orice ofițer vede cel mult 1 acvariu .
+TestAttemptoRus: каждый офицер видит не более 1 аквариум .
 TestAttemptoSpa: cada funcionario ve a lo más 1 acuario .
 TestAttemptoSwe: varje befäl ser högst 1 akvarium .
 
-TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (indefPronNP everything_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))) (v2VP see_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN aquarium_N)))))))
-TestAttemptoAce: everything which is a traveler or which is an officer sees at most 1 aquarium .
-TestAttemptoCat: tot que és un viatger o que és un oficial veu com a màxim 1 aquari .
-TestAttemptoDan: alt , som er en rejsende eller som er en officer ser højst 1 akvarium .
-TestAttemptoDut: alles , dat een reiziger is of dat een officier is ziet hooguit 1 aquarium .
-TestAttemptoEng: everything which is a traveler or which is an officer sees at most 1 aquarium .
-TestAttemptoFin: kaikki , joka on matkustaja tai joka on upseeri näkee enintään 1 akvaarion .
-TestAttemptoFre: tout qui est un voyageur ou qui est un officier voit au plus 1 aquarium .
-TestAttemptoGer: alles , das ein Reisende ist oder das ein Offizier ist sieht höchstens 1 Aquarium .
-TestAttemptoIta: tutto che è un viaggiatore o che è un ufficiale vede al massimo 1 acquario .
-TestAttemptoLav: viss , kurš ir ceļotājs vai kurš ir amatpersona redz ne vairāk kā 1 akvāriju .
-TestAttemptoNor: alt , som er ei reisende eller som er en offiser ser høyst 1 akvarium .
-TestAttemptoPol: wszystko , które jest mężczyzną lub , które jest mężczyzną widzi co najwyżej 1 mężczyznę .
+TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (indefPronNP everything_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))) (v2VP see_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_2)) (cn_as_VarCN aquarium_N)))))))
+TestAttemptoAce: everything which is a traveler or which is an officer sees at most 2 aquariums .
+TestAttemptoCat: tot que és un viatger o que és un oficial veu com a màxim 2 aquarins .
+TestAttemptoDan: alt , som er en rejsende eller som er en officer ser højst 2 akvariumer .
+TestAttemptoDut: alles , dat een reiziger is of dat een officier is ziet hooguit 2 aquaria .
+TestAttemptoEng: everything which is a traveler or which is an officer sees at most 2 aquariums .
+TestAttemptoFin: kaikki , joka on matkustaja tai joka on upseeri näkee enintään 2 akvaariota .
+TestAttemptoFre: tout qui est un voyageur ou qui est un officier voit au plus 2 aquariums .
+TestAttemptoGer: alles , das ein Reisende ist oder das ein Offizier ist sieht höchstens 2 Aquariume .
+TestAttemptoIta: tutto che è un viaggiatore o che è un ufficiale vede al massimo 2 acquari .
+TestAttemptoLav: viss , kurš ir ceļotājs vai kurš ir amatpersona redz ne vairāk kā 2 akvāriju .
+TestAttemptoNor: alt , som er ei reisende eller som er en offiser ser høyst 2 akvariumer .
+TestAttemptoPol: wszystko , które jest mężczyzną lub , które jest mężczyzną widzi co najwyżej 2 mężczyzn .
 TestAttemptoRon: 
-TestAttemptoSpa: todo que es un viajero o que es un funcionario ve a lo más 1 acuario .
-TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högst 1 akvarium .
+TestAttemptoRus: всё , которое путешественник или , которое офицер видит не более 2 аквариума .
+TestAttemptoSpa: todo que es un viajero o que es un funcionario ve a lo más 2 acuarios .
+TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högst 2 akvariumar .
 
 TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (neg_vpS (termNP (var_Term Y_Var)) (v2VP love_V2 (termNP (var_Term X_Var)))))))
 TestAttemptoAce: if X sees Y then Y doesn't love X .
@@ -539,6 +570,7 @@ TestAttemptoLav: ja X redz Y tad Y nemīl X .
 TestAttemptoNor: hvis X ser Y så Y elsker ikke X .
 TestAttemptoPol: jeżeli X widzi Y , to Y nie kocha X .
 TestAttemptoRon: dacă X îl vede pe Y atunci Y nu îl iubeşte pe X .
+TestAttemptoRus: если X видит Y то Y не любдит X .
 TestAttemptoSpa: si X ve Y entonces Y no ama X .
 TestAttemptoSwe: om X ser Y så Y älskar inte X .
 
@@ -556,6 +588,7 @@ TestAttemptoLav: ja X redz kādu , kurš redz Y tad X redz Y .
 TestAttemptoNor: hvis X ser noen , som ser Y så X ser Y .
 TestAttemptoPol: jeżeli X widzi kogoś , który widzi Y , to X widzi Y .
 TestAttemptoRon: dacă X vede pe cineva care îl vede pe Y atunci X îl vede pe Y .
+TestAttemptoRus: если X видит кого-то , который видит Y то X видит Y .
 TestAttemptoSpa: si X ve algún que ve Y entonces X ve Y .
 TestAttemptoSwe: om X ser någon , som ser Y så X ser Y .
 
@@ -573,6 +606,7 @@ TestAttemptoLav: ja X gribē Y tad X redz Y .
 TestAttemptoNor: hvis X beundrer Y så X ser Y .
 TestAttemptoPol: jeżeli X czyta Y , to X widzi Y .
 TestAttemptoRon: dacă X îl admirează pe Y atunci X îl vede pe Y .
+TestAttemptoRus: если X боет Y то X видит Y .
 TestAttemptoSpa: si X admira Y entonces X ve Y .
 TestAttemptoSwe: om X beundrar Y så X ser Y .
 
@@ -590,6 +624,7 @@ TestAttemptoLav: ja X palīdzē Y tad Y gribē X .
 TestAttemptoNor: hvis X hjelper Y så Y beundrer X .
 TestAttemptoPol: jeżeli X czyta Y , to Y czyta X .
 TestAttemptoRon: dacă X îl ajutează pe Y atunci Y îl admirează pe X .
+TestAttemptoRus: если X толкает Y то Y боет X .
 TestAttemptoSpa: si X ayuda Y entonces Y admira X .
 TestAttemptoSwe: om X assisterar Y så Y beundrar X .
 
@@ -607,6 +642,7 @@ TestAttemptoLav: ja X mīl Y tad X negribē Y .
 TestAttemptoNor: hvis X elsker Y så X beundrer ikke Y .
 TestAttemptoPol: jeżeli X kocha Y , to X nie czyta Y .
 TestAttemptoRon: dacă X îl iubeşte pe Y atunci X nu îl admirează pe Y .
+TestAttemptoRus: если X любдит Y то X не боет Y .
 TestAttemptoSpa: si X ama Y entonces X no admira Y .
 TestAttemptoSwe: om X älskar Y så X beundrar inte Y .
 
@@ -624,6 +660,7 @@ TestAttemptoLav: ir nepatiesa , ka kāds nepērk tieši 3 golfa spēlētājus .
 TestAttemptoNor: det er falsk at noen ikke kjøper nøyaktig 3 golfspillerer .
 TestAttemptoPol: jest źle , że ktoś nie kupi dokładnie 3 mężczyzn .
 TestAttemptoRon: este fals cã cineva nu cumpără exact 3 jucător de goalfe .
+TestAttemptoRus: неверно , что кто-то не покупает ровно 3 игрок в гольфа .
 TestAttemptoSpa: es falso que algún no compra exactamente 3 golfistas .
 TestAttemptoSwe: det är falskt att någon inte köper exakt 3 golfspelaren .
 
@@ -641,6 +678,7 @@ TestAttemptoLav: ko John pērk ?
 TestAttemptoNor: hva kjøper John ?
 TestAttemptoPol: co kupi Jan ?
 TestAttemptoRon: ce cumpără John ?
+TestAttemptoRus: что Иван покупает ?
 TestAttemptoSpa: ¿ qué compra John ?
 TestAttemptoSwe: vad köper John ?
 
@@ -658,6 +696,7 @@ TestAttemptoLav: [neg_npqQS] ?
 TestAttemptoNor: hvilke golfspillerer hjelper ikke Mary ?
 TestAttemptoPol: [neg_npqQS] ?
 TestAttemptoRon: [neg_npqQS] ?
+TestAttemptoRus: [neg_npqQS] ?
 TestAttemptoSpa: ¿ qué golfistas no ayudan Mary ?
 TestAttemptoSwe: vilka golfspelaren assisterar inte Mary ?
 
@@ -675,6 +714,7 @@ TestAttemptoLav: [vpqQS] ?
 TestAttemptoNor: hver mann ser hva ?
 TestAttemptoPol: [vpqQS] ?
 TestAttemptoRon: [vpqQS] ?
+TestAttemptoRus: [vpqQS] ?
 TestAttemptoSpa: ¿ cada hombre ve qué ?
 TestAttemptoSwe: varje man ser vad ?
 
@@ -692,6 +732,7 @@ TestAttemptoLav: [np_coord_VPSQ] ?
 TestAttemptoNor: hver mann ser hva eller beundrer ikke hvem ?
 TestAttemptoPol: [np_coord_VPSQ] ?
 TestAttemptoRon: [np_coord_VPSQ] ?
+TestAttemptoRus: [np_coord_VPSQ] ?
 TestAttemptoSpa: ¿ cada hombre ve qué o no admira quién ?
 TestAttemptoSwe: varje man ser vad eller beundrar inte vem ?
 
@@ -709,6 +750,7 @@ TestAttemptoLav: [npqQS] ?
 TestAttemptoNor: hvilken mann elsker X ?
 TestAttemptoPol: [npqQS] ?
 TestAttemptoRon: [npqQS] ?
+TestAttemptoRus: [npqQS] ?
 TestAttemptoSpa: ¿ qué hombre ama X ?
 TestAttemptoSwe: vilken man älskar X ?
 

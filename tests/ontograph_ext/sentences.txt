@@ -27,7 +27,7 @@ Lisa buys at most 1 present .
 every traveler sees at least 2 aquariums .
 everything that buys at least 2 presents is an officer .
 every officer sees at most 1 aquarium .
-everything that is a traveler or that is an officer sees at most 1 aquarium .
+everything that is a traveler or that is an officer sees at most 2 aquariums .
 if X sees Y then Y does not love X .
 if X sees somebody who sees Y then X sees Y .
 if X admires Y then X sees Y .
