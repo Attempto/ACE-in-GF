@@ -8,7 +8,7 @@ TestAttemptoFin: Mary on matkustaja .
 TestAttemptoFre: Mary est un voyageur .
 TestAttemptoGer: Mary ist ein Reisende .
 TestAttemptoIta: Mary è un viaggiatore .
-TestAttemptoLav: Mary ir ceļotājs .
+TestAttemptoLav: Mērija ir ceļotājs .
 TestAttemptoNor: Mary er ei reisende .
 TestAttemptoPol: Paryż jest mężczyzną .
 TestAttemptoRon: Mary este un călător .
@@ -26,7 +26,7 @@ TestAttemptoFin: Bill ei ole golfaaja .
 TestAttemptoFre: Bill n' est pas un golfeur .
 TestAttemptoGer: Bill ist nicht ein Golfer .
 TestAttemptoIta: Bill non è un giocatore di golf .
-TestAttemptoLav: Bill nav golfa spēlētājs .
+TestAttemptoLav: Bils nav golferis .
 TestAttemptoNor: Bill er ikke en golfspiller .
 TestAttemptoPol: Paryż nie jest mężczyzną .
 TestAttemptoRon: Bill nu este un jucător de golf .
@@ -80,7 +80,7 @@ TestAttemptoFin: jokainen mies on golfaaja .
 TestAttemptoFre: chaque homme est un golfeur .
 TestAttemptoGer: jeder Mann ist ein Golfer .
 TestAttemptoIta: ogni uomo è un giocatore di golf .
-TestAttemptoLav: ikviens vīrietis ir golfa spēlētājs .
+TestAttemptoLav: ikviens vīrietis ir golferis .
 TestAttemptoNor: hver mann er en golfspiller .
 TestAttemptoPol: każdy mężczyzna jest mężczyzną .
 TestAttemptoRon: orice om este un jucător de golf .
@@ -98,7 +98,7 @@ TestAttemptoFin: mikään golfaaja ei ole nainen .
 TestAttemptoFre: aucun golfeur n' est une femme .
 TestAttemptoGer: kein Golfer ist eine Frau .
 TestAttemptoIta: nessuno giocatore di golf è una donna .
-TestAttemptoLav: 
+TestAttemptoLav: neviens golferis ir sieviete .
 TestAttemptoNor: 
 TestAttemptoPol: żaden mężczyzna jest kobietą .
 TestAttemptoRon: niciun jucător de golf este o femeie .
@@ -134,7 +134,7 @@ TestAttemptoFin: jokainen matkustaja joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende der nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
-TestAttemptoLav: ikviens ceļotājs , kurš nav sieviete ir golfa spēlētājs .
+TestAttemptoLav: ikviens ceļotājs , kurš nav sieviete ir golferis .
 TestAttemptoNor: hver reisende som ikke er ei kvinne er en golfspiller .
 TestAttemptoPol: każdy mężczyzna , który nie jest kobietą jest mężczyzną .
 TestAttemptoRon: orice călător care nu este o femeie este un jucător de golf .
@@ -152,7 +152,7 @@ TestAttemptoFin: jokainen matkustaja , joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende , der nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
-TestAttemptoLav: ikviens ceļotājs , kurš nav sieviete ir golfa spēlētājs .
+TestAttemptoLav: ikviens ceļotājs , kurš nav sieviete ir golferis .
 TestAttemptoNor: hver reisende , som ikke er ei kvinne er en golfspiller .
 TestAttemptoPol: każdy mężczyzna , który nie jest kobietą jest mężczyzną .
 TestAttemptoRon: orice călător care nu este o femeie este un jucător de golf .
@@ -206,7 +206,7 @@ TestAttemptoFin: Lisa näkee Maryn .
 TestAttemptoFre: Lisa voit Mary .
 TestAttemptoGer: Lisa sieht Mary .
 TestAttemptoIta: Lisa vede Mary .
-TestAttemptoLav: Lisa redz Mary .
+TestAttemptoLav: Līza redz Mēriju .
 TestAttemptoNor: Lisa ser Mary .
 TestAttemptoPol: Paryż widzi Paryż .
 TestAttemptoRon: Lisa o vede pe Mary .
@@ -224,7 +224,7 @@ TestAttemptoFin: Mary ei näe Tomia .
 TestAttemptoFre: Mary ne voit pas Tom .
 TestAttemptoGer: Mary sieht Tom nicht .
 TestAttemptoIta: Mary non vede Tom .
-TestAttemptoLav: Mary neredz Tom .
+TestAttemptoLav: Mērija neredz Tomu .
 TestAttemptoNor: Mary ser ikke Tom .
 TestAttemptoPol: Paryż nie widzi Paryża .
 TestAttemptoRon: Mary nu îl vede pe Tom .
@@ -242,7 +242,7 @@ TestAttemptoFin: Tom ostaa kuvan .
 TestAttemptoFre: Tom achète une image .
 TestAttemptoGer: Tom kauft ein Bild .
 TestAttemptoIta: Tom compra un immagine .
-TestAttemptoLav: Tom pērk attēlu .
+TestAttemptoLav: Toms pērk attēlu .
 TestAttemptoNor: Tom kjøper ei bilde .
 TestAttemptoPol: Paryż kupi mężczyznę .
 TestAttemptoRon: Tom cumpără o imagine .
@@ -260,7 +260,7 @@ TestAttemptoFin: Mary ei näe mitään miestä .
 TestAttemptoFre: Mary ne voit aucun homme .
 TestAttemptoGer: Mary sieht keinen Mann .
 TestAttemptoIta: Mary non vede nessuno uomo .
-TestAttemptoLav: 
+TestAttemptoLav: Mērija redz nevienu vīrieti .
 TestAttemptoNor: 
 TestAttemptoPol: Paryż widzi żadnego mężczyznę .
 TestAttemptoRon: Mary vede niciun om .
@@ -278,7 +278,7 @@ TestAttemptoFin: John ostaa jonkin , joka ei ole lahja .
 TestAttemptoFre: John achète quelque chose qui n' est pas un cadeau .
 TestAttemptoGer: John kauft etwas , das nicht ein Geschenk ist .
 TestAttemptoIta: John compra qualche cosa che non è un regalo .
-TestAttemptoLav: John pērk kaut ku , kurš nav klāt .
+TestAttemptoLav: Džons pērk kaut ku , kurš nav dāvana .
 TestAttemptoNor: John kjøper noe , som ikke er ei gave .
 TestAttemptoPol: Jan kupi coś , które nie jest mężczyzną .
 TestAttemptoRon: John cumpără ceva care nu este un cadou .
@@ -296,7 +296,7 @@ TestAttemptoFin: John näkee vain miehiä .
 TestAttemptoFre: John voit seulement des hommes .
 TestAttemptoGer: John sieht nur Männer .
 TestAttemptoIta: John vede soltanto uomini .
-TestAttemptoLav: John redz tikai vīriešus .
+TestAttemptoLav: Džons redz tikai vīriešus .
 TestAttemptoNor: John ser kun menn .
 TestAttemptoPol: Jan widzi tylko mężczyzn .
 TestAttemptoRon: John vede doar nişte oameni .
@@ -314,7 +314,7 @@ TestAttemptoFin: jokainen mies ostaa lahjan .
 TestAttemptoFre: chaque homme achète un cadeau .
 TestAttemptoGer: jeder Mann kauft ein Geschenk .
 TestAttemptoIta: ogni uomo compra un regalo .
-TestAttemptoLav: ikviens vīrietis pērk klāt .
+TestAttemptoLav: ikviens vīrietis pērk dāvanu .
 TestAttemptoNor: hver mann kjøper ei gave .
 TestAttemptoPol: każdy mężczyzna kupi mężczyznę .
 TestAttemptoRon: orice om cumpără un cadou .
@@ -332,7 +332,7 @@ TestAttemptoFin: kaikki , joka ostaa lahjan on mies .
 TestAttemptoFre: tout qui achète un cadeau est un homme .
 TestAttemptoGer: alles , das ein Geschenk kauft ist ein Mann .
 TestAttemptoIta: tutto che compra un regalo è un uomo .
-TestAttemptoLav: viss , kurš pērk klāt ir vīrietis .
+TestAttemptoLav: viss , kurš pērk dāvanu ir vīrietis .
 TestAttemptoNor: alt , som kjøper ei gave er en mann .
 TestAttemptoPol: wszystko , które kupi mężczyznę jest mężczyzną .
 TestAttemptoRon: 
@@ -350,7 +350,7 @@ TestAttemptoFin: jokainen mies ostaa vain lahjoja .
 TestAttemptoFre: chaque homme achète seulement des cadeaux .
 TestAttemptoGer: jeder Mann kauft nur Geschenke .
 TestAttemptoIta: ogni uomo compra soltanto regali .
-TestAttemptoLav: ikviens vīrietis pērk tikai klāt .
+TestAttemptoLav: ikviens vīrietis pērk tikai dāvanas .
 TestAttemptoNor: hver mann kjøper kun gaver .
 TestAttemptoPol: każdy mężczyzna kupi tylko mężczyzn .
 TestAttemptoRon: orice om cumpără doar nişte caoaoe .
@@ -368,7 +368,7 @@ TestAttemptoFin: kaikki , joka ostaa vain kuvia on nainen .
 TestAttemptoFre: tout qui achète seulement des images est une femme .
 TestAttemptoGer: alles , das nur Bilder kauft ist eine Frau .
 TestAttemptoIta: tutto che compra soltanto immagini è una donna .
-TestAttemptoLav: viss , kurš pērk tikai attēlu ir sieviete .
+TestAttemptoLav: viss , kurš pērk tikai attēlus ir sieviete .
 TestAttemptoNor: alt , som kjøper kun bilder er ei kvinne .
 TestAttemptoPol: wszystko , które kupi tylko mężczyzn jest kobietą .
 TestAttemptoRon: 
@@ -458,7 +458,7 @@ TestAttemptoFin: Tom rakastaa vähintään 2 upseeria .
 TestAttemptoFre: Tom aime au moins 2 officiers .
 TestAttemptoGer: Tom liebt wenigstens 2 Offiziere .
 TestAttemptoIta: Tom ama almeno 2 ufficiali .
-TestAttemptoLav: Tom mīl vismaz 2 amatpersonas .
+TestAttemptoLav: Toms mīl vismaz 2 amatpersonas .
 TestAttemptoNor: Tom elsker minst 2 offiserer .
 TestAttemptoPol: Paryż kocha co najmniej 2 mężczyzn .
 TestAttemptoRon: Tom iubeşte cel puţin 2 ofițere .
@@ -476,7 +476,7 @@ TestAttemptoFin: Lisa ostaa enintään 1 lahjan .
 TestAttemptoFre: Lisa achète au plus 1 cadeau .
 TestAttemptoGer: Lisa kauft höchstens 1 Geschenk .
 TestAttemptoIta: Lisa compra al massimo 1 regalo .
-TestAttemptoLav: Lisa pērk ne vairāk kā 1 klāt .
+TestAttemptoLav: Līza pērk ne vairāk kā 1 dāvanu .
 TestAttemptoNor: Lisa kjøper høyst 1 gave .
 TestAttemptoPol: Paryż kupi co najwyżej 1 mężczyznę .
 TestAttemptoRon: Lisa cumpără cel mult 1 cadou .
@@ -494,7 +494,7 @@ TestAttemptoFin: jokainen matkustaja näkee vähintään 2 akvaariota .
 TestAttemptoFre: chaque voyageur voit au moins 2 aquariums .
 TestAttemptoGer: jeder Reisende sieht wenigstens 2 Aquariume .
 TestAttemptoIta: ogni viaggiatore vede almeno 2 acquari .
-TestAttemptoLav: ikviens ceļotājs redz vismaz 2 akvāriju .
+TestAttemptoLav: ikviens ceļotājs redz vismaz 2 akvārijus .
 TestAttemptoNor: hver reisende ser minst 2 akvariumer .
 TestAttemptoPol: każdy mężczyzna widzi co najmniej 2 mężczyzn .
 TestAttemptoRon: orice călător vede cel puţin 2 acvarii .
@@ -512,7 +512,7 @@ TestAttemptoFin: kaikki , joka ostaa vähintään 2 lahjaa on upseeri .
 TestAttemptoFre: tout qui achète au moins 2 cadeaux est un officier .
 TestAttemptoGer: alles , das wenigstens 2 Geschenke kauft ist ein Offizier .
 TestAttemptoIta: tutto che compra almeno 2 regali è un ufficiale .
-TestAttemptoLav: viss , kurš pērk vismaz 2 klāt ir amatpersona .
+TestAttemptoLav: viss , kurš pērk vismaz 2 dāvanas ir amatpersona .
 TestAttemptoNor: alt , som kjøper minst 2 gaver er en offiser .
 TestAttemptoPol: wszystko , które kupi co najmniej 2 mężczyzn jest mężczyzną .
 TestAttemptoRon: 
@@ -566,7 +566,7 @@ TestAttemptoFin: jos X auttaa Y niin Y auttaa X .
 TestAttemptoFre: si X aide Y alors Y aide X .
 TestAttemptoGer: wenn X Y hilft , dann hilft Y X .
 TestAttemptoIta: si X aiuta Y allora Y aiuta X .
-TestAttemptoLav: ja X palīdzē Y tad Y palīdzē X .
+TestAttemptoLav: ja X palīdz Y tad Y palīdz X .
 TestAttemptoNor: hvis X hjelper Y så Y hjelper X .
 TestAttemptoPol: jeżeli X czyta Y , to Y czyta X .
 TestAttemptoRon: dacă X îl ajutează pe Y atunci Y îl ajutează pe X .
@@ -620,7 +620,7 @@ TestAttemptoFin: jos X ihailee Y niin X näkee Y .
 TestAttemptoFre: si X admire Y alors X voit Y .
 TestAttemptoGer: wenn X Y bewundert , dann sieht X Y .
 TestAttemptoIta: si X ammira Y allora X vede Y .
-TestAttemptoLav: ja X gribē Y tad X redz Y .
+TestAttemptoLav: ja X apbrīno Y tad X redz Y .
 TestAttemptoNor: hvis X beundrer Y så X ser Y .
 TestAttemptoPol: jeżeli X czyta Y , to X widzi Y .
 TestAttemptoRon: dacă X îl admirează pe Y atunci X îl vede pe Y .
@@ -638,7 +638,7 @@ TestAttemptoFin: jos X tarkastaa Y niin X auttaa Y .
 TestAttemptoFre: si X inspecte Y alors X aide Y .
 TestAttemptoGer: wenn X Y inspiziert , dann hilft X Y .
 TestAttemptoIta: si X ispeziona Y allora X aiuta Y .
-TestAttemptoLav: ja X apskatī Y tad X palīdzē Y .
+TestAttemptoLav: ja X apskata Y tad X palīdz Y .
 TestAttemptoNor: hvis X inspiserer Y så X hjelper Y .
 TestAttemptoPol: jeżeli X czyta Y , to X czyta Y .
 TestAttemptoRon: dacă X îl inspectează pe Y atunci X îl ajutează pe Y .
@@ -656,7 +656,7 @@ TestAttemptoFin: jos X auttaa Y niin Y ihailee X .
 TestAttemptoFre: si X aide Y alors Y admire X .
 TestAttemptoGer: wenn X Y hilft , dann bewundert Y X .
 TestAttemptoIta: si X aiuta Y allora Y ammira X .
-TestAttemptoLav: ja X palīdzē Y tad Y gribē X .
+TestAttemptoLav: ja X palīdz Y tad Y apbrīno X .
 TestAttemptoNor: hvis X hjelper Y så Y beundrer X .
 TestAttemptoPol: jeżeli X czyta Y , to Y czyta X .
 TestAttemptoRon: dacă X îl ajutează pe Y atunci Y îl admirează pe X .
@@ -674,7 +674,7 @@ TestAttemptoFin: jos X rakastaa Y niin X ei ihaile Y .
 TestAttemptoFre: si X aime Y alors X n' admire pas Y .
 TestAttemptoGer: wenn X Y liebt , dann bewundert X Y nicht .
 TestAttemptoIta: si X ama Y allora X non ammira Y .
-TestAttemptoLav: ja X mīl Y tad X negribē Y .
+TestAttemptoLav: ja X mīl Y tad X neapbrīno Y .
 TestAttemptoNor: hvis X elsker Y så X beundrer ikke Y .
 TestAttemptoPol: jeżeli X kocha Y , to X nie czyta Y .
 TestAttemptoRon: dacă X îl iubeşte pe Y atunci X nu îl admirează pe Y .
@@ -710,7 +710,7 @@ TestAttemptoFin: jos X ihailee Y niin X näkee Y . jos X näkee Y niin X ihailee
 TestAttemptoFre: si X admire Y alors X voit Y . si X voit Y alors X admire Y .
 TestAttemptoGer: wenn X Y bewundert , dann sieht X Y . wenn X Y sieht , dann bewundert X Y .
 TestAttemptoIta: si X ammira Y allora X vede Y . si X vede Y allora X ammira Y .
-TestAttemptoLav: ja X gribē Y tad X redz Y . ja X redz Y tad X gribē Y .
+TestAttemptoLav: ja X apbrīno Y tad X redz Y . ja X redz Y tad X apbrīno Y .
 TestAttemptoNor: hvis X beundrer Y så X ser Y . hvis X ser Y så X beundrer Y .
 TestAttemptoPol: jeżeli X czyta Y , to X widzi Y . jeżeli X widzi Y , to X czyta Y .
 TestAttemptoRon: dacă X îl admirează pe Y atunci X îl vede pe Y . dacă X îl vede pe Y atunci X îl admirează pe Y .
@@ -728,7 +728,7 @@ TestAttemptoFin: jos X tarkastaa Y niin Y näkee X . jos Y näkee X niin X tarka
 TestAttemptoFre: si X inspecte Y alors Y voit X . si Y voit X alors X inspecte Y .
 TestAttemptoGer: wenn X Y inspiziert , dann sieht Y X . wenn Y X sieht , dann inspiziert X Y .
 TestAttemptoIta: si X ispeziona Y allora Y vede X . si Y vede X allora X ispeziona Y .
-TestAttemptoLav: ja X apskatī Y tad Y redz X . ja Y redz X tad X apskatī Y .
+TestAttemptoLav: ja X apskata Y tad Y redz X . ja Y redz X tad X apskata Y .
 TestAttemptoNor: hvis X inspiserer Y så Y ser X . hvis Y ser X så X inspiserer Y .
 TestAttemptoPol: jeżeli X czyta Y , to Y widzi X . jeżeli Y widzi X , to X czyta Y .
 TestAttemptoRon: dacă X îl inspectează pe Y atunci Y îl vede pe X . dacă Y îl vede pe X atunci X îl inspectează pe Y .
