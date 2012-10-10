@@ -3,7 +3,9 @@
 # JJC
 
 # Paths to things
-path = present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/api
+path_base = present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/api
+path = $(path_base)
+#path = $(GF_EST_SRC)/estonian:$(GF_EST_SRC)/api:$(path_base)
 grammars = grammars/acewiki_aceowl
 words = words/acewiki_aceowl
 tests = tests/acewiki_aceowl
@@ -22,6 +24,7 @@ startcat = ACEText
 # Language list
 # TODO: Bul
 # TODO: add back Urd
+# TODO: Est
 languages = Ace Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav Pol Ron Rus
 
 # Compile application grammars in all languages
