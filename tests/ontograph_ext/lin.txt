@@ -754,4 +754,166 @@ TestAttemptoRus: [npqQS] ?
 TestAttemptoSpa: ¿ qué hombre ama X ?
 TestAttemptoSwe: vilken man älskar X ?
 
+TestAttempto: baseText (qsText (npqQS (ipNPQ whatSg_IP) (v2_byVP buy_V2 (pnNP john_PN))))
+TestAttemptoAce: what is bought by John ?
+TestAttemptoCat: què és comprat per John ?
+TestAttemptoDan: hvad bliver købt af John ?
+TestAttemptoDut: wat wordt door John gekocht ?
+TestAttemptoEng: what is bought by John ?
+TestAttemptoFin: minkä ostetaan Johnin toimesta ?
+TestAttemptoFre: qu' est acheté par John ?
+TestAttemptoGer: was wird durch John gekauft ?
+TestAttemptoIta: che viene comprata da John ?
+TestAttemptoLav: [npqQS] ?
+TestAttemptoNor: hva blir kjøpt av John ?
+TestAttemptoPol: [npqQS] ?
+TestAttemptoRon: [npqQS] ?
+TestAttemptoRus: [npqQS] ?
+TestAttemptoSpa: ¿ qué es comprado por John ?
+TestAttemptoSwe: vad blir köpt av John ?
+
+TestAttempto: baseText (qsText (neg_npqQS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN golfer_N))) (v2_byVP help_V2 (pnNP mary_PN))))
+TestAttemptoAce: which golfers aren't helped by Mary ?
+TestAttemptoCat: quins golfistes no són ajudades per Mary ?
+TestAttemptoDan: hvilke golfspillerer bliver ikke hjælpete af Mary ?
+TestAttemptoDut: welke golfers worden niet door Mary gehelpt ?
+TestAttemptoEng: which golfers aren't helped by Mary ?
+TestAttemptoFin: mitä golfaajia ei auteta Maryn toimesta ?
+TestAttemptoFre: quels golfeurs ne sont pas aidés par Mary ?
+TestAttemptoGer: welche Golfer werden nicht durch Mary geholfen ?
+TestAttemptoIta: quali giocatori di golf non vengono aiutati da Mary ?
+TestAttemptoLav: [neg_npqQS] ?
+TestAttemptoNor: hvilke golfspillerer blir ikke hjelpa av Mary ?
+TestAttemptoPol: [neg_npqQS] ?
+TestAttemptoRon: [neg_npqQS] ?
+TestAttemptoRus: [neg_npqQS] ?
+TestAttemptoSpa: ¿ qué golfistas no son ayudadas por Mary ?
+TestAttemptoSwe: vilka golfspelaren blir inte assisterade av Mary ?
+
+TestAttempto: baseText (qsText (npqQS (ipNPQ whatSg_IP) (v2_byVP see_V2 (everyNP (cn_as_VarCN man_N)))))
+TestAttemptoAce: what is seen by every man ?
+TestAttemptoCat: què és vist per cada home ?
+TestAttemptoDan: hvad bliver set af hver mand ?
+TestAttemptoDut: wat wordt door elke man gezien ?
+TestAttemptoEng: what is seen by every man ?
+TestAttemptoFin: minkä nähdään jokaisen miehen toimesta ?
+TestAttemptoFre: qu' est vu par chaque homme ?
+TestAttemptoGer: was wird durch jeden Mann gesehen ?
+TestAttemptoIta: che viene vista ogni uomo ?
+TestAttemptoLav: [npqQS] ?
+TestAttemptoNor: hva blir sett av hver mann ?
+TestAttemptoPol: [npqQS] ?
+TestAttemptoRon: [npqQS] ?
+TestAttemptoRus: [npqQS] ?
+TestAttemptoSpa: ¿ qué es visto por cada hombre ?
+TestAttemptoSwe: vad blir sett av varje man ?
+
+TestAttempto: baseText (qsText (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN man_N))) (v2_byVP love_V2 (thereNP_as_NP (indefTherePronVarNP somebody_IPron X_Var)))))
+TestAttemptoAce: which man is loved by somebody X ?
+TestAttemptoCat: quin home és estimat per X ?
+TestAttemptoDan: hvilken mand bliver elsket af X ?
+TestAttemptoDut: welke man wordt door X liefgehad ?
+TestAttemptoEng: which man is loved by somebody X ?
+TestAttemptoFin: mitä miestä rakastetaan X toimesta ?
+TestAttemptoFre: quel homme est aimé par X ?
+TestAttemptoGer: welcher Mann wird durch X geliebt ?
+TestAttemptoIta: quale uomo viene amato da X ?
+TestAttemptoLav: [npqQS] ?
+TestAttemptoNor: hvilken mann blir elska av X ?
+TestAttemptoPol: [npqQS] ?
+TestAttemptoRon: [npqQS] ?
+TestAttemptoRus: [npqQS] ?
+TestAttemptoSpa: ¿ qué hombre es amado por X ?
+TestAttemptoSwe: vilken man blir älskad av X ?
+
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (v2VP inspect_V2 (thereNP_as_NP (aNP (ofCN picture_N (thereNP_as_NP (aNP (cn_as_VarCN man_N))))))))))
+TestAttemptoAce: John inspects a picture of a man .
+TestAttemptoCat: John inspecciona un imatge d' un home .
+TestAttemptoDan: John inspicerer en billede af en mand .
+TestAttemptoDut: John inspecteert een schilderij van een man .
+TestAttemptoEng: John inspects a picture of a man .
+TestAttemptoFin: John tarkastaa kuvan miehen .
+TestAttemptoFre: John inspecte une image d' un homme .
+TestAttemptoGer: John inspiziert ein Bild von einem Mann .
+TestAttemptoIta: John ispeziona un immagine di un uomo .
+TestAttemptoLav: Džons apskata attēlu vīrieša .
+TestAttemptoNor: John inspiserer ei bilde av en mann .
+TestAttemptoPol: Jan czyta mężczyznę mężczyzny .
+TestAttemptoRon: John inspectează o imagine unui om .
+TestAttemptoRus: Иван кушает картину человека .
+TestAttemptoSpa: John inspecciona un imagen de un hombre .
+TestAttemptoSwe: John avsynar en bild av en man .
+
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (ofCN man_N (pnNP mary_PN))))))))
+TestAttemptoAce: John is a man of Mary .
+TestAttemptoCat: John és un home de Mary .
+TestAttemptoDan: John er en mand af Mary .
+TestAttemptoDut: John is een man van Mary .
+TestAttemptoEng: John is a man of Mary .
+TestAttemptoFin: John on mies Maryn .
+TestAttemptoFre: John est un homme de Mary .
+TestAttemptoGer: John ist ein Mann von Mary .
+TestAttemptoIta: John è un uomo di Mary .
+TestAttemptoLav: Džons ir vīrietis Mērijas .
+TestAttemptoNor: John er en mann av Mary .
+TestAttemptoPol: Jan jest mężczyzną Paryża .
+TestAttemptoRon: John este un om lui Mary .
+TestAttemptoRus: Иван человек Maryи .
+TestAttemptoSpa: John es un hombre de Mary .
+TestAttemptoSwe: John är en man av Mary .
+
+TestAttempto: baseText (sText (simpleS_as_S (vpS (everyNP (ofCN picture_N (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))) (v2_byVP see_V2 (pnNP mary_PN)))))
+TestAttemptoAce: every picture of a golfer is seen by Mary .
+TestAttemptoCat: cada imatge d' una golfista és vist per Mary .
+TestAttemptoDan: hver billede af en golfspiller bliver set af Mary .
+TestAttemptoDut: elk schilderij van een golfer wordt door Mary gezien .
+TestAttemptoEng: every picture of a golfer is seen by Mary .
+TestAttemptoFin: jokainen kuva golfaajan nähdään Maryn toimesta .
+TestAttemptoFre: chaque image d' un golfeur est vue par Mary .
+TestAttemptoGer: jedes Bild von einem Golfer wird durch Mary gesehen .
+TestAttemptoIta: ogni immagine di un giocatore di golf viene visto da Mary .
+TestAttemptoLav: ikviens attēls golfera redz Mēriju .
+TestAttemptoNor: hver bilde av en golfspiller blir sett av Mary .
+TestAttemptoPol: każdy mężczyzna mężczyzny przez Paryż jest widziany .
+TestAttemptoRon: orice imagine unui jucător de golf este văzută de către Mary .
+TestAttemptoRus: каждая картина игрок в гольфа видится с помощью Maryи .
+TestAttemptoSpa: cada imagen de una golfista es visto por Mary .
+TestAttemptoSwe: varje bild av ett golfspelare blir sedd av Mary .
+
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP lisa_PN) (npVP (thereNP_as_NP (aNP (ofCN officer_N (everyNP (cn_as_VarCN aquarium_N)))))))))
+TestAttemptoAce: Lisa is an officer of every aquarium .
+TestAttemptoCat: Lisa és un oficial cada aquari .
+TestAttemptoDan: Lisa er en officer af hver akvarium .
+TestAttemptoDut: Lisa is een officier van elk aquarium .
+TestAttemptoEng: Lisa is an officer of every aquarium .
+TestAttemptoFin: Lisa on upseeri jokaisen akvaarion .
+TestAttemptoFre: Lisa est un officier de chaque aquarium .
+TestAttemptoGer: Lisa ist ein Offizier von jedem Aquarium .
+TestAttemptoIta: Lisa è un ufficiale ogni acquario .
+TestAttemptoLav: Līza ir amatpersona ikviena akvārija .
+TestAttemptoNor: Lisa er en offiser av hver akvarium .
+TestAttemptoPol: Paryż jest mężczyzną każdego mężczyzny .
+TestAttemptoRon: Lisa este un ofițer oricărui acvariu .
+TestAttemptoRus: Lisaа офицер каждого аквариума .
+TestAttemptoSpa: Lisa es un funcionario cada acuario .
+TestAttemptoSwe: Lisa är en befäl av varje akvarium .
+
+TestAttempto: baseText (qsText (vpqQS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN officer_N))) (npqVPQ (aNPQ (ofnpqCN (cn_as_VarCN present_N) (ipNPQ whatSg_IP))))))
+TestAttemptoAce: exactly 2 officers are a present of what ?
+TestAttemptoCat: exactament 2 oficials són un presentar de què ?
+TestAttemptoDan: præcis 2 officerer er en gave af hvad ?
+TestAttemptoDut: precies 2 officieren zijn een cadeau van wat ?
+TestAttemptoEng: exactly 2 officers are a present of what ?
+TestAttemptoFin: tasan 2 upseeria on lahja minkä ?
+TestAttemptoFre: exactement 2 officiers sont un cadeau de que ?
+TestAttemptoGer: genau 2 Offiziere sind ein Geschenk was ?
+TestAttemptoIta: esattamente 2 ufficiali sono un regalo di che ?
+TestAttemptoLav: [vpqQS] ?
+TestAttemptoNor: nøyaktig 2 offiserer er ei gave av hva ?
+TestAttemptoPol: [vpqQS] ?
+TestAttemptoRon: [vpqQS] ?
+TestAttemptoRus: [vpqQS] ?
+TestAttemptoSpa: ¿ exactamente 2 funcionarios son un regalo de qué ?
+TestAttemptoSwe: exakt 2 befälar är en present av vad ?
+
 

@@ -7,3 +7,4 @@ extensions in order to offer a more useful evaluation set.
   - remove: some if-then sentences
   - add: sentence negation
   - add: questions
+  - add: of-constructions
