@@ -260,7 +260,7 @@ TestAttemptoFin: Mary ei näe mitään miestä .
 TestAttemptoFre: Mary ne voit aucun homme .
 TestAttemptoGer: Mary sieht keinen Mann .
 TestAttemptoIta: Mary non vede nessuno uomo .
-TestAttemptoLav: Mērija redz nevienu vīrieti .
+TestAttemptoLav: Mērija neredz nevienu vīrieti .
 TestAttemptoNor: 
 TestAttemptoPol: Paryż widzi żadnego mężczyznę .
 TestAttemptoRon: Mary vede niciun om .
