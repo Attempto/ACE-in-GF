@@ -103,7 +103,7 @@ TestAttemptoNor:
 TestAttemptoPol: żaden mężczyzna jest kobietą .
 TestAttemptoRon: niciun jucător de golf este o femeie .
 TestAttemptoRus: 
-TestAttemptoSpa: hacia golfista es una mujer .
+TestAttemptoSpa: ninguna golfista es una mujer .
 TestAttemptoSwe: inget golfspelare är en kvinna .
 
 TestAttempto: baseText (sText (coordS and_Conj (simpleS_as_S (vpS (everyNP (cn_as_VarCN woman_N)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))) (simpleS_as_S (vpS (everyNP (cn_as_VarCN officer_N)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N))))))))
@@ -265,7 +265,7 @@ TestAttemptoNor:
 TestAttemptoPol: Paryż widzi żadnego mężczyznę .
 TestAttemptoRon: Mary vede niciun om .
 TestAttemptoRus: 
-TestAttemptoSpa: Mary no ve hacia hombre .
+TestAttemptoSpa: Mary no ve ningún hombre .
 TestAttemptoSwe: Mary ser ingen man .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (v2VP buy_V2 (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN present_N))))))))))
@@ -607,7 +607,7 @@ TestAttemptoNor: hvis X ser noen , som ser Y så X ser Y .
 TestAttemptoPol: jeżeli X widzi kogoś , który widzi Y , to X widzi Y .
 TestAttemptoRon: dacă X vede pe cineva care îl vede pe Y atunci X îl vede pe Y .
 TestAttemptoRus: если X видит кого-то , который видит Y то X видит Y .
-TestAttemptoSpa: si X ve algún que ve Y entonces X ve Y .
+TestAttemptoSpa: si X ve alguien que ve Y entonces X ve Y .
 TestAttemptoSwe: om X ser någon , som ser Y så X ser Y .
 
 TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var)))))))

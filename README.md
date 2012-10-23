@@ -113,7 +113,7 @@ deprecated or should be avoided (i.e. create a warning), e.g.
 Building
 --------
 
-_Note: based on GF darcs version: 2012-10-03 15:54:35 CEST_
+_Note: based on GF darcs version: 2012-10-23 02:12:36 CEST_
 
 The ACE-in-GF grammar can be turned into a PGF file in various ways
 depending on
