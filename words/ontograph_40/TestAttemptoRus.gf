@@ -1,3 +1,5 @@
+--# -path=.:present
+
 concrete TestAttemptoRus of TestAttempto = AttemptoRus **
   open SyntaxRus, (L = LexiconRus), ResRus, ParadigmsRus in {
 

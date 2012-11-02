@@ -1,3 +1,5 @@
+--# -path=.:present
+
 concrete TestAttemptoPol of TestAttempto = AttemptoPol **
   open SyntaxPol, (L = LexiconPol), ParadigmsPol in {
 

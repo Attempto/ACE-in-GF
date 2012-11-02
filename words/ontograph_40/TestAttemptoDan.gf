@@ -1,3 +1,5 @@
+--# -path=.:present
+
 concrete TestAttemptoDan of TestAttempto = AttemptoDan **
   open SyntaxDan, (L = LexiconDan), ParadigmsDan in {
 

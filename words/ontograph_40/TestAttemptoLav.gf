@@ -1,3 +1,5 @@
+--# -path=.:present
+
 concrete TestAttemptoLav of TestAttempto = AttemptoLav **
   open SyntaxLav, (L = LexiconLav), ParadigmsLav, ResLav in {
 

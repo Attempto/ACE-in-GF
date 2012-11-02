@@ -1,3 +1,5 @@
+--# -path=.:present
+
 concrete TestAttemptoNor of TestAttempto = AttemptoNor **
   open SyntaxNor, (L = LexiconNor), ParadigmsNor in {
 

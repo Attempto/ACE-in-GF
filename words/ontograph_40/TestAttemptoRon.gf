@@ -1,3 +1,5 @@
+--# -path=.:present
+
 concrete TestAttemptoRon of TestAttempto = AttemptoRon **
   open SyntaxRon, (L = LexiconRon), ParadigmsRon in {
 
