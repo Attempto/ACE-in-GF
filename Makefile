@@ -25,7 +25,7 @@ startcat = ACEText
 # TODO: Bul
 # TODO: add back Urd
 # TODO: Est
-languages = Ace Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav Pol Ron Rus
+languages = Ace Ape Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav Pol Ron Rus
 
 # Compile application grammars in all languages
 all_grammars:
