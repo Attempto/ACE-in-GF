@@ -4,12 +4,6 @@ resource ParadigmsAce = ParadigmsEng - [mkA2, mkA2S, mkA2V, prepA2] ** open CatA
 
   oper
 
-  -- In ACE there are only 3 verb forms: infpl, finsg, pp
-  -- TODO: there exists probably a cleaner way to do this,
-  -- we currently use GF's 5-arg mkV and insert dummy
-  -- arguments for forms that we do not need.
-  aceV2 : (_,_,_:Str) -> V2 = \go,goes,gone -> mkV2 (mkV go goes "~" gone "~") ;
-
   -- Physically glue preposition to adjective, i.e. "mad-about" [JJC]
   prepA2 : A -> Prep -> A2 ;
   prepA2 a p = lin A2 {
@@ -36,6 +30,5 @@ resource ParadigmsAce = ParadigmsEng - [mkA2, mkA2S, mkA2V, prepA2] ** open CatA
   } ;
   -- mkA2S v p = lin A (prepA2 v p) ;
   -- mkA2V v p = prepA2 v p ;
-
 
 } ;

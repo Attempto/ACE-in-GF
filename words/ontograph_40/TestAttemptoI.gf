@@ -18,11 +18,11 @@ person_N = aceN human "person" ;
 
 -- proper names
 mary_PN = acePN "Mary" ;
-tom_PN = acePN "Tom" ;
-lisa_PN = acePN "Lisa" ;
-john_PN = acePN "John" ;
-sue_PN = acePN "Sue" ;
-bill_PN = acePN "Bill" ;
+tom_PN = acePN masculine "Tom" ;
+lisa_PN = acePN feminine "Lisa" ;
+john_PN = acePN masculine "John" ;
+sue_PN = acePN feminine "Sue" ;
+bill_PN = acePN masculine "Bill" ;
 
 -- transitive verbs
 see_V2 = aceV2 "see" "sees" "seen" ;

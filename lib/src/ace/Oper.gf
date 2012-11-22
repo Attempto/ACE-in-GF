@@ -5,5 +5,5 @@
 interface Oper = open Syntax in {
   oper
     aceV2 : (_,_,_:Str) -> V2 ;
-    acePN : Str -> PN ;
+    --acePN : Str -> PN ;
 }

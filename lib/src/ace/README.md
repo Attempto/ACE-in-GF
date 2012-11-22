@@ -10,12 +10,21 @@ The deviations from the English resource grammar are:
 - removal of comma `,` between an NP and its relative clause
 - `nothing but` 
 
-**Inheritence hierarchy**
+Inheritence hierarchy
+---------------------
 
 ![ACE RG dependancy graph](https://github.com/Attempto/ACE-in-GF/raw/master/lib/src/ace/dg.png)
 
-**Changelog**
+Changelog
+---------
 
+- 2012-11-22: added OperAce and OperApe to provide a link to APE lexicon
 - 2012-04-25: the relative pronouns `who`, `which` and `that` are allowed with any noun (phrase)
 - 2012-04-23 (`a8e4745`): Re-implemented ACE RG as descendent of English rather
 than an individual library.
+
+TODO
+----
+
+  - maybe rename Oper{Ace|Ape} to Paradimgs{Ace|Ape}
+  - in Oper{Ace|Ape}, rename acePN -> mkPN, etc.

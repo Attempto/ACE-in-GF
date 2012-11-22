@@ -19,7 +19,7 @@ TestAttemptoSwe: Mary är en resenär .
 
 TestAttempto: baseText (sText (simpleS_as_S (neg_vpS (pnNP bill_PN) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))
 TestAttemptoAce: Bill isn't a golfer .
-TestAttemptoApe: pn_sg('Bill','Bill_PN',neutr) isn't a golfer .
+TestAttemptoApe: pn_sg('Bill','Bill_PN',masc) isn't a golfer .
 TestAttemptoCat: Bill no és una golfista .
 TestAttemptoDan: Bill er ikke en golfspiller .
 TestAttemptoDut: Bill is niet een golfer .
@@ -57,7 +57,7 @@ TestAttemptoSwe: Mary är en befäl eller är ett golfspelare .
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (pnNP sue_PN) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
 TestAttemptoAce: Sue is an officer and is a traveler .
-TestAttemptoApe: pn_sg('Sue','Sue_PN',neutr) is an officer and is a traveler .
+TestAttemptoApe: pn_sg('Sue','Sue_PN',fem) is an officer and is a traveler .
 TestAttemptoCat: Sue és un oficial i és un viatger .
 TestAttemptoDan: Sue er en officer og er en rejsende .
 TestAttemptoDut: Sue is een officier en is een reiziger .
@@ -209,7 +209,7 @@ TestAttemptoSwe: ingen , som är en man eller som är ett golfspelare är en bef
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP lisa_PN) (v2VP see_V2 (pnNP mary_PN)))))
 TestAttemptoAce: Lisa sees Mary .
-TestAttemptoApe: pn_sg('Lisa','Lisa_PN',neutr) tv_infpl('sees','see_V2') pn_sg('Mary','Mary_PN',neutr) .
+TestAttemptoApe: pn_sg('Lisa','Lisa_PN',fem) tv_infpl('sees','see_V2') pn_sg('Mary','Mary_PN',neutr) .
 TestAttemptoCat: Lisa veu Mary .
 TestAttemptoDan: Lisa ser Mary .
 TestAttemptoDut: Lisa ziet Mary .
@@ -228,7 +228,7 @@ TestAttemptoSwe: Lisa ser Mary .
 
 TestAttempto: baseText (sText (simpleS_as_S (neg_vpS (pnNP mary_PN) (v2VP see_V2 (pnNP tom_PN)))))
 TestAttemptoAce: Mary doesn't see Tom .
-TestAttemptoApe: pn_sg('Mary','Mary_PN',neutr) doesn't tv_finsg('see','see_V2') pn_sg('Tom','Tom_PN',neutr) .
+TestAttemptoApe: pn_sg('Mary','Mary_PN',neutr) doesn't tv_finsg('see','see_V2') pn_sg('Tom','Tom_PN',masc) .
 TestAttemptoCat: Mary no veu Tom .
 TestAttemptoDan: Mary ser ikke Tom .
 TestAttemptoDut: Mary ziet niet Tom .
@@ -247,7 +247,7 @@ TestAttemptoSwe: Mary ser inte Tom .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP tom_PN) (v2VP buy_V2 (thereNP_as_NP (aNP (cn_as_VarCN picture_N)))))))
 TestAttemptoAce: Tom buys a picture .
-TestAttemptoApe: pn_sg('Tom','Tom_PN',neutr) tv_infpl('buys','buy_V2') a picture .
+TestAttemptoApe: pn_sg('Tom','Tom_PN',masc) tv_infpl('buys','buy_V2') a picture .
 TestAttemptoCat: Tom compra un imatge .
 TestAttemptoDan: Tom køber en billede .
 TestAttemptoDut: Tom koopt een schilderij .
@@ -285,7 +285,7 @@ TestAttemptoSwe: Mary ser ingen man .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (v2VP buy_V2 (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN present_N))))))))))
 TestAttemptoAce: John buys something which isn't a present .
-TestAttemptoApe: pn_sg('John','John_PN',neutr) tv_infpl('buys','buy_V2') something which isn't a present .
+TestAttemptoApe: pn_sg('John','John_PN',masc) tv_infpl('buys','buy_V2') something which isn't a present .
 TestAttemptoCat: John compra quelcom que no és un presentar .
 TestAttemptoDan: John køber noget , som ikke er en gave .
 TestAttemptoDut: John koopt iets , die niet een cadeau is .
@@ -304,7 +304,7 @@ TestAttemptoSwe: John köper något , som inte är en present .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (v2VP see_V2 (nothing_butNP (cn_as_VarCN man_N))))))
 TestAttemptoAce: John sees nothing but men .
-TestAttemptoApe: pn_sg('John','John_PN',neutr) tv_infpl('sees','see_V2') nothing but noun_pl('men','men',masc) .
+TestAttemptoApe: pn_sg('John','John_PN',masc) tv_infpl('sees','see_V2') nothing but noun_pl('men','men',masc) .
 TestAttemptoCat: John veu nomÈs homes .
 TestAttemptoDan: John ser kun mænd .
 TestAttemptoDut: John ziet slechts mannen .
@@ -475,7 +475,7 @@ TestAttemptoSwe: allting , som blir sett av något är en resenär eller är en 
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP tom_PN) (v2VP love_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN officer_N)))))))
 TestAttemptoAce: Tom loves at least 2 officers .
-TestAttemptoApe: pn_sg('Tom','Tom_PN',neutr) tv_infpl('loves','love_V2') at least 2 officers .
+TestAttemptoApe: pn_sg('Tom','Tom_PN',masc) tv_infpl('loves','love_V2') at least 2 officers .
 TestAttemptoCat: Tom estima almenys 2 oficials .
 TestAttemptoDan: Tom elsker mindst 2 officerer .
 TestAttemptoDut: Tom heeft ten minste 2 officieren lief .
@@ -494,7 +494,7 @@ TestAttemptoSwe: Tom älskar minst 2 befälar .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP lisa_PN) (v2VP buy_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN present_N)))))))
 TestAttemptoAce: Lisa buys at most 1 present .
-TestAttemptoApe: pn_sg('Lisa','Lisa_PN',neutr) tv_infpl('buys','buy_V2') at most 1 present .
+TestAttemptoApe: pn_sg('Lisa','Lisa_PN',fem) tv_infpl('buys','buy_V2') at most 1 present .
 TestAttemptoCat: Lisa compra com a màxim 1 presentar .
 TestAttemptoDan: Lisa køber højst 1 gave .
 TestAttemptoDut: Lisa koopt hooguit 1 cadeau .
@@ -703,7 +703,7 @@ TestAttemptoSwe: det är falskt att någon inte köper exakt 3 golfspelaren .
 
 TestAttempto: baseText (qsText (slash_ipQS whatSg_IP (pnNP john_PN) buy_V2))
 TestAttemptoAce: what does John buy ?
-TestAttemptoApe: what does pn_sg('John','John_PN',neutr) tv_finsg('buy','buy_V2') ?
+TestAttemptoApe: what does pn_sg('John','John_PN',masc) tv_finsg('buy','buy_V2') ?
 TestAttemptoCat: què compra John ?
 TestAttemptoDan: hvad køber John ?
 TestAttemptoDut: wat koopt John ?
@@ -798,7 +798,7 @@ TestAttemptoSwe: vilken man älskar X ?
 
 TestAttempto: baseText (qsText (npqQS (ipNPQ whatSg_IP) (v2_byVP buy_V2 (pnNP john_PN))))
 TestAttemptoAce: what is bought by John ?
-TestAttemptoApe: what is tv_pp('bought','buy_V2') by pn_sg('John','John_PN',neutr) ?
+TestAttemptoApe: what is tv_pp('bought','buy_V2') by pn_sg('John','John_PN',masc) ?
 TestAttemptoCat: què és comprat per John ?
 TestAttemptoDan: hvad bliver købt af John ?
 TestAttemptoDut: wat wordt door John gekocht ?
@@ -874,7 +874,7 @@ TestAttemptoSwe: vilken man blir älskad av X ?
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (v2VP inspect_V2 (thereNP_as_NP (aNP (ofCN picture_N (thereNP_as_NP (aNP (cn_as_VarCN man_N))))))))))
 TestAttemptoAce: John inspects a picture of a man .
-TestAttemptoApe: pn_sg('John','John_PN',neutr) tv_infpl('inspects','inspect_V2') a picture of a noun_sg('man','men',masc) .
+TestAttemptoApe: pn_sg('John','John_PN',masc) tv_infpl('inspects','inspect_V2') a picture of a noun_sg('man','men',masc) .
 TestAttemptoCat: John inspecciona un imatge d' un home .
 TestAttemptoDan: John inspicerer en billede af en mand .
 TestAttemptoDut: John inspecteert een schilderij van een man .
@@ -893,7 +893,7 @@ TestAttemptoSwe: John avsynar en bild av en man .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (ofCN man_N (pnNP mary_PN))))))))
 TestAttemptoAce: John is a man of Mary .
-TestAttemptoApe: pn_sg('John','John_PN',neutr) is a noun_sg('man','men',masc) of pn_sg('Mary','Mary_PN',neutr) .
+TestAttemptoApe: pn_sg('John','John_PN',masc) is a noun_sg('man','men',masc) of pn_sg('Mary','Mary_PN',neutr) .
 TestAttemptoCat: John és un home de Mary .
 TestAttemptoDan: John er en mand af Mary .
 TestAttemptoDut: John is een man van Mary .
@@ -931,7 +931,7 @@ TestAttemptoSwe: varje bild av ett golfspelare blir sedd av Mary .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP lisa_PN) (npVP (thereNP_as_NP (aNP (ofCN officer_N (everyNP (cn_as_VarCN aquarium_N)))))))))
 TestAttemptoAce: Lisa is an officer of every aquarium .
-TestAttemptoApe: pn_sg('Lisa','Lisa_PN',neutr) is an officer of every aquarium .
+TestAttemptoApe: pn_sg('Lisa','Lisa_PN',fem) is an officer of every aquarium .
 TestAttemptoCat: Lisa és un oficial cada aquari .
 TestAttemptoDan: Lisa er en officer af hver akvarium .
 TestAttemptoDut: Lisa is een officier van elk aquarium .
