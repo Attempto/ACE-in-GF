@@ -1,19 +1,17 @@
---# -path=.:../abstract:../../prelude:../common
-
 instance OperAce of Oper =
-  ParadigmsEng - [mkA2, mkA2S, mkA2V, prepA2] ** open CatAce, ResAce in {
+  ParadigmsEng - [mkA2, mkA2S, mkA2V, prepA2] ** open SyntaxAce, CatAce, ResAce in {
   oper
     aceV2 : (_,_,_:Str) -> V2 = \go,goes,gone -> mkV2 (mkV go goes "~" gone "~") ;
-    acePN : (_:Str) -> PN = \john -> mkPN john ;
+    acePN : Str -> PN = \john -> mkPN john ;
 
-{--
-    aceCN = overload {
-      aceCN : (dog : Str) -> CN = aceCN_1 ;
-      aceCN : (mouse,mice : Str) -> CN = aceCN_2 ;
+    aceN = overload {
+      aceN : (dog : Str) -> CN = aceN_1 nonhuman ;
+      aceN : (man,men : Str) -> CN = aceN_2 nonhuman ;
+      aceN : Gender -> Str -> CN = aceN_1 ;
+      aceN : Gender -> (man,men : Str) -> CN = aceN_2 ;
     };
 
-    aceCN_1 : Str -> CN = \sg -> mkCN (mkN sg (sg + "s")) ;
+    aceN_1 : Gender -> Str -> CN = \g,sg -> mkCN (mkN g (mkN sg)) ;
+    aceN_2 : Gender -> Str -> Str -> CN = \g,sg,pl -> mkCN (mkN g (mkN sg pl)) ;
 
-    aceCN_2 : Str -> Str -> CN = \sg,pl -> mkCN (mkN sg pl) ;
---}
 }

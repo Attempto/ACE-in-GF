@@ -1,6 +1,3 @@
 --# -path=.:present
 
-concrete TestAttemptoApe of TestAttempto = AttemptoAce **
-  TestAttemptoI with
-    (Syntax = SyntaxAce),
-	(Oper = OperApe) ;
+concrete TestAttemptoApe of TestAttempto = AttemptoAce ** TestAttemptoI with (Oper = OperApe) ;

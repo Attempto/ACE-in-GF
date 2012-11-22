@@ -1,32 +1,35 @@
 --# -path=.:present
 
 incomplete concrete TestAttemptoI of TestAttempto = AttemptoAce **
-  open Syntax, Oper in {
+  open Oper in {
 
-oper mkkN : Str -> AttemptoAce.CN = \n -> mkCN (mkN n) ;
+lin
 
-lin officer_N = mkkN "officer" ;
-lin traveler_N = mkCN (mkN human (mkN "traveler")) ;
-lin man_N = mkCN (mkN masculine (mkN "man" "men")) ;
-lin woman_N = mkCN (mkN feminine (mkN "woman" "women")) ;
-lin golfer_N = mkkN "golfer" ;
-lin present_N = mkkN "present" ;
-lin aquarium_N = mkkN "aquarium" ;
-lin picture_N = mkkN "picture" ;
-lin person_N = mkkN "person" ;
+-- nouns
+officer_N = aceN human "officer" ;
+traveler_N = aceN human "traveler" ;
+man_N = aceN masculine "man" "men" ;
+woman_N = aceN feminine "woman" "women" ;
+golfer_N = aceN human "golfer" ;
+present_N = aceN "present" ;
+aquarium_N = aceN "aquarium" ;
+picture_N = aceN "picture" ;
+person_N = aceN human "person" ;
 
-lin mary_PN = acePN "Mary" ;
-lin tom_PN = acePN "Tom" ;
-lin lisa_PN = acePN "Lisa" ;
-lin john_PN = acePN "John" ;
-lin sue_PN = acePN "Sue" ;
-lin bill_PN = acePN "Bill" ;
+-- proper names
+mary_PN = acePN "Mary" ;
+tom_PN = acePN "Tom" ;
+lisa_PN = acePN "Lisa" ;
+john_PN = acePN "John" ;
+sue_PN = acePN "Sue" ;
+bill_PN = acePN "Bill" ;
 
-lin see_V2 = aceV2 "see" "sees" "seen" ;
-lin buy_V2 = aceV2 "buy" "buys" "bought" ;
-lin help_V2 = aceV2 "help" "helps" "helped" ;
-lin admire_V2 = aceV2 "admire" "admires" "admired" ;
-lin love_V2 = aceV2 "love" "loves" "loved" ;
-lin inspect_V2 = aceV2 "inspect" "inspects" "inspected" ;
+-- transitive verbs
+see_V2 = aceV2 "see" "sees" "seen" ;
+buy_V2 = aceV2 "buy" "buys" "bought" ;
+help_V2 = aceV2 "help" "helps" "helped" ;
+admire_V2 = aceV2 "admire" "admires" "admired" ;
+love_V2 = aceV2 "love" "loves" "loved" ;
+inspect_V2 = aceV2 "inspect" "inspects" "inspected" ;
 
 }
