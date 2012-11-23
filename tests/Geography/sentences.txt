@@ -1,0 +1,6 @@
+every country borders a country or is bordered by a sea .
+Switzerland borders no sea .
+Zurich is contained by Switzerland .
+what is Switzerland ?
+which countries border at least 5 countries ?
+which countries that Germany borders border Switzerland ?

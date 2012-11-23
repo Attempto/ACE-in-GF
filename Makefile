@@ -7,11 +7,16 @@ path_base = present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib
 path = $(path_base)
 #path = $(GF_EST_SRC)/estonian:$(GF_EST_SRC)/api:$(path_base)
 grammars = grammars/acewiki_aceowl
+
 words = words/acewiki_aceowl
-tests = tests/acewiki_aceowl
 words_onto = words/ontograph_40
+
+tests = tests/acewiki_aceowl
 tests_onto = tests/ontograph_40
 tests_onto_ext = tests/ontograph_ext
+
+# Words
+geography = Geography
 
 Roundtripper = Roundtripper
 
@@ -26,6 +31,8 @@ startcat = ACEText
 # TODO: add back Urd
 # TODO: Est
 languages = Ace Ape Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav Pol Ron Rus
+
+langs_geography = Ace Ape Ger
 
 # Compile application grammars in all languages
 all_grammars:
@@ -45,6 +52,9 @@ pgf_acewiki_aceowl:
 pgf_ontograph_40:
 	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
 
+pgf_geography:
+	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_geography),words/$(geography)/$(geography)$(lang).gf)
+
 # Parse ontograph_40 sentences and linearise into all languages
 lin_ontograph_40:
 	echo "rf -lines -file=$(tests_onto)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
@@ -57,6 +67,10 @@ lin_ontograph_40_save:
 lin_ontograph_ext_save:
 	echo "rf -lines -file=$(tests_onto_ext)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
 	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf) > $(tests_onto_ext)/lin.txt
+
+lin_geography_save:
+	echo "rf -lines -file=tests/$(geography)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
+	gf --run --verbose=0 --path=$(path) $(foreach lang,$(langs_geography),words/$(geography)/$(geography)$(lang).gf) > tests/$(geography)/lin.txt
 
 # This does not fail if one of the sentences fails (unlike "rf -lines | p")
 # TODO: We assume that pgf_acewiki_aceowl produces TestAttempto.pgf with all the languages
