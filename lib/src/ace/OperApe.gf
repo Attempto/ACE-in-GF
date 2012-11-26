@@ -62,8 +62,8 @@ aceV2 : (_,_,_:Str) -> V2 = \go,goes,gone ->
     l = go + "_V2"
   in
   mkV2 (mkV
-    (aceVLex TV_FINSG go l)
-    (aceVLex TV_INFPL goes l)
+    (aceVLex TV_INFPL go l)
+    (aceVLex TV_FINSG goes l)
     DUMMY
     (aceVLex TV_PP gone l)
     DUMMY) ;
