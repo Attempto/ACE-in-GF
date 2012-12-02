@@ -7,13 +7,14 @@ incomplete concrete AttemptoI of Attempto = SymbolsC, Numeral ** open
 in {
 
 lincat CN = Syntax.CN ; VarCN = Syntax.CN ;
-lincat NP = Syntax.NP ; lincat ThereNP = Syntax.NP ;
+lincat NP = Syntax.NP ;
+lincat NPType = Str ;
 lincat Card = Syntax.Card ;
 lincat PN = Syntax.PN ;
 lincat A = Syntax.A ;
 lincat A2 = Syntax.A2 ;
 lincat RS = Syntax.RS ;
-lincat Pron = Syntax.Pron ; IndefPron = Syntax.NP ; IndefTherePron = Syntax.NP ;
+lincat Pron = Syntax.Pron ; IndefPron = Syntax.NP ;
 lincat S = Syntax.S ; lincat SimpleS = Syntax.S ;
 lincat VP = Syntax.VP ;
 lincat V = Syntax.V ;
@@ -28,6 +29,10 @@ lincat RP = Syntax.RP ;
 
 lincat MCN = Syntax.CN ;
 lincat PP = Syntax.Adv ;
+
+-- TODO: is this the right way to do it?
+lin exist_plus = "exist_plus";
+lin exist_minus = "exist_minus";
 
 lin aNP = Syntax.mkNP a_Art ;
 lin theNP = Syntax.mkNP the_Art ;
@@ -45,10 +50,8 @@ lin nobody_IPron = Syntax.nobody_NP ;
 lin nothing_IPron = Syntax.nothing_NP ;
 
 -- [JJC]
-lin indefTherePronNP pr = pr;
-lin indefPronNP pr = pr;
-lin indefTherePronVarNP pr var = symb var ; -- Default ignores pronoun! This sould be overridden [JJC]
-lin indefPronVarNP pr var = symb var ; -- Default ignores pronoun! This sould be overridden [JJC]
+lin indefPronNP _ pr = pr;
+lin indefPronVarNP _ pr var = symb var ; -- Default ignores pronoun! This sould be overridden [JJC]
 
 lin at_leastNP ca = Syntax.mkNP (Syntax.mkCard at_least_AdN ca) ;
 lin at_mostNP ca = Syntax.mkNP (Syntax.mkCard at_most_AdN ca) ;
@@ -66,10 +69,10 @@ lincat Unit = Syntax.CN ;
 
 lin apposVarCN cn v = mkCN cn (symb v) ;
 
-lin termNP x = symb (Prelude.ss x.s) ;
+lin termNP _ x = symb (Prelude.ss x.s) ;
 
 lin relCN = mkCN ;
-lin relNP = Syntax.mkNP ;
+lin relNP _ = Syntax.mkNP ;
 --lin relThereNP = Syntax.mkNP ; [JJC]
 
 lin andRS = mkRS Syntax.and_Conj ;
@@ -77,18 +80,18 @@ lin orRS = mkRS Syntax.or_Conj ;
 
 lin predRS rp vp = mkRS (mkRCl rp vp) ;
 lin neg_predRS rp vp = mkRS negativePol (mkRCl rp vp) ;
-lin slashRS rp np v2 = mkRS (mkRCl rp np v2) ;
-lin neg_slashRS rp np v2 = mkRS negativePol (mkRCl rp np v2) ;
+lin slashRS _ rp np v2 = mkRS (mkRCl rp np v2) ;
+lin neg_slashRS _ rp np v2 = mkRS negativePol (mkRCl rp np v2) ;
 lin which_RP = Syntax.which_RP ;
 
-lin ofCN cn np = mkCN cn (Syntax.mkAdv possess_Prep np) ;
+lin ofCN _ cn np = mkCN cn (Syntax.mkAdv possess_Prep np) ;
 
-lin vpS np vp = mkS (mkCl np vp) ;
-lin neg_vpS np vp = mkS negativePol (mkCl np vp) ;
+lin vpS _ np vp = mkS (mkCl np vp) ;
+lin neg_vpS _ np vp = mkS negativePol (mkCl np vp) ;
 
-lin v2VP = mkVP ;
+lin v2VP _ = mkVP ;
 
-lin a2VP = mkVP ; -- is mad-about NP
+lin a2VP _ = mkVP ; -- is mad-about NP
 
 lin thereNP np = mkS (mkCl np) ;
 
@@ -117,8 +120,8 @@ lin falseS s = mkS (adj_thatCl false_A s) ;
 -- lin ipQS ip vp = mkQS (mkQCl ip vp) ;
 -- lin neg_ipQS ip vp = mkQS negativePol (mkQCl ip vp) ;
 
-lin slash_ipQS ip np v2 = mkQS (mkQCl ip (mkClSlash np v2)) ;
-lin neg_slash_ipQS ip np v2 = mkQS negativePol (mkQCl ip (mkClSlash np v2)) ;
+lin slash_ipQS _ ip np v2 = mkQS (mkQCl ip (mkClSlash np v2)) ;
+lin neg_slash_ipQS _ ip np v2 = mkQS negativePol (mkQCl ip (mkClSlash np v2)) ;
 
 lin whoSg_IP = Syntax.whoSg_IP ;
 lin whatSg_IP = Syntax.whatSg_IP ;
@@ -133,12 +136,12 @@ lin sText = mkText ;
 lin qsText = mkText ;
 
 
-lin npVP = mkVP ;
+lin npVP _ = mkVP ;
 lin digitsCard n = Syntax.mkCard <lin Digits n : Digits> ;
-lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv by8agent_Prep np) ;
+lin v2_byVP _ v2 np = mkVP (passiveVP v2) (Syntax.mkAdv by8agent_Prep np) ;
 
 
--- Question-related functions to handle wh-words in object potisions
+-- Question-related functions to handle wh-words in object positions
 -- Ideally everything in this section would be placed in another incomplete module QuestionsI
 -- but I can't that working, so they are here.
 
@@ -151,10 +154,12 @@ lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv by8agent_Prep np) ;
   -- This oper must be implemented in all languages
   -- oper S2QS : Syntax.S -> Syntax.QS ;
 
-  lin vpqQS np vpq = S2QS (vpS np vpq) ;
-  lin neg_vpqQS np vpq = S2QS (neg_vpS np vpq) ;
-  lin npqQS npq vp = S2QS (mkS (mkCl npq vp)) ;
-  lin neg_npqQS npq vp = S2QS (mkS negativePol (mkCl npq vp)) ;
+  -- TODO: vpS requires one extra argument, how to specify it?
+  -- lin vpqQS _ np vpq = S2QS (vpS np vpq) ;
+  -- TODO: neg_vpS requires one extra argument, how?
+  -- lin neg_vpqQS _ np vpq = S2QS (neg_vpS np vpq) ;
+  lin npqQS _ npq vp = S2QS (mkS (mkCl npq vp)) ;
+  lin neg_npqQS _ npq vp = S2QS (mkS negativePol (mkCl npq vp)) ;
 
   lin npqVPQ = npVP ;
   lin v2VPQ = v2VP ;
@@ -166,14 +171,15 @@ lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv by8agent_Prep np) ;
   lin vpq_as_posVPSQ = vp_as_posVPS ;
   lin vpq_as_negVPSQ = vp_as_negVPS ;
 
-  lin np_coord_VPSQ np conj vpsqs = S2QS ( np_coord_VPS np conj vpsqs ) ;
-  lin npq_coord_VPS npq conj vpss = S2QS ( np_coord_VPS npq conj vpss ) ;
+  -- TODO: np_coord_VPS requires one extra argument, how?
+  -- lin np_coord_VPSQ _ np conj vpsqs = S2QS ( np_coord_VPS np conj vpsqs ) ;
+  -- lin npq_coord_VPS _ npq conj vpss = S2QS ( np_coord_VPS npq conj vpss ) ;
 
   lin ofnpqCN = ofCN ;
-  lin aNPQ = aNP ;
-  lin theNPQ = theNP ;
-  lin noNPQ = noNP ;
-  lin everyNPQ = everyNP ;
+  lin aNPQ _ = aNP ;
+  lin theNPQ _ = theNP ;
+  lin noNPQ _ = noNP ;
+  lin everyNPQ _ = everyNP ;
 
   -- This function is language-specific
   -- lin ipNPQ
@@ -192,7 +198,7 @@ lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv by8agent_Prep np) ;
     ConsVPS = Extra.ConsVPS ;
     vp_as_posVPS = Extra.MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
     vp_as_negVPS = Extra.MkVPS (mkTemp presentTense simultaneousAnt) negativePol ;
-    np_coord_VPS np conj vpss = Extra.PredVPS np (Extra.ConjVPS conj vpss);
+    np_coord_VPS _ np conj vpss = Extra.PredVPS np (Extra.ConjVPS conj vpss);
 
   lincat VPSQ = Extra.VPS ;
   lincat [VPSQ] = Extra.ListVPS ;

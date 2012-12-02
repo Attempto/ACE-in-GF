@@ -1,7 +1,7 @@
 --# -path=.:present
 
 concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
-  AttemptoI - [apposVarCN, indefTherePronVarNP, indefPronVarNP, vp_as_negVPS] with
+  AttemptoI - [apposVarCN, indefPronVarNP, vp_as_negVPS] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
   (Extra = ExtraAce),
@@ -15,15 +15,9 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
   oper NomVar : {s : Case => Str} -> Str = \v -> v.s ! Nom ;
 
   -- "everybody X" etc [JJC]
-  lin indefPronVarNP pr v = lin NP {
+  lin indefPronVarNP _ pr v = lin NP {
     s = \\c => pr.s ! NCase Nom ++ v.s ! (npcase2case c) ; -- with genitive "somebody X's"
 --    s = \\c => pr.s ! NCase Nom ++ v.s ! (npcase2case (NCase Nom)) ; -- no inflection for genitive
-    a = pr.a
-  };
-
-  -- "somebody X" and "something X" [KK]
-  lin indefTherePronVarNP pr v = lin NP {
-    s = \\c => pr.s ! NCase Nom ++ v.s ! (npcase2case c) ; -- with genitive "somebody X's"
     a = pr.a
   };
 
@@ -35,6 +29,6 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
   -- Questions
   oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s} ;
 
-  lin ipNPQ ip = lin NP (ip ** {a = agrP3 ip.n}) ;
+  lin ipNPQ _ ip = lin NP (ip ** {a = agrP3 ip.n}) ;
 
 }

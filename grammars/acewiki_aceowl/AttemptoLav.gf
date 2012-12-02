@@ -12,8 +12,8 @@ concrete AttemptoLav of Attempto = SymbolsC, NumeralLav, NullVPS **
 
   oper S2QS : Syntax.S -> Syntax.QS = variants {} ;
 
-  lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv v2.p np) ;
+  lin v2_byVP _ v2 np = mkVP (passiveVP v2) (Syntax.mkAdv v2.p np) ;
 
-  lin ipNPQ ip = variants {} ;
+  lin ipNPQ _ ip = variants {} ;
 
 } ;

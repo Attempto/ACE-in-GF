@@ -21,6 +21,6 @@ lin if_thenS p q = ExtAdvS (mkAdv if_Subj p) (mkS then_Adv q) ;
 
   oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s ! Main} ;
 
-  lin ipNPQ ip = lin NP (ip ** {a = agrP3 ip.n ; isPron = True}) ;
+  lin ipNPQ _ ip = lin NP (ip ** {a = agrP3 ip.n ; isPron = True}) ;
 
 }
