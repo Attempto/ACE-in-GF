@@ -967,4 +967,61 @@ TestAttemptoRus: [vpqQS] ?
 TestAttemptoSpa: ¿ exactamente 2 funcionarios son un regalo de qué ?
 TestAttemptoSwe: exakt 2 befälar är en present av vad ?
 
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (npVP (pnNP tom_PN)))))
+TestAttemptoAce: John is Tom .
+TestAttemptoApe: pn_sg('John','John_PN',masc) is pn_sg('Tom','Tom_PN',masc) .
+TestAttemptoCat: John és Tom .
+TestAttemptoDan: John er Tom .
+TestAttemptoDut: John is Tom .
+TestAttemptoEng: John is Tom .
+TestAttemptoFin: John on Tom .
+TestAttemptoFre: John est Tom .
+TestAttemptoGer: John ist Tom .
+TestAttemptoIta: John è Tom .
+TestAttemptoLav: Džons ir Toms .
+TestAttemptoNor: John er Tom .
+TestAttemptoPol: Jan jest Paryżem .
+TestAttemptoRon: John este Tom .
+TestAttemptoRus: Иван Tom .
+TestAttemptoSpa: John es Tom .
+TestAttemptoSwe: John är Tom .
+
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (npVP (everyNP (cn_as_VarCN man_N))))))
+TestAttemptoAce: John is every man .
+TestAttemptoApe: pn_sg('John','John_PN',masc) is every noun_sg('man','man_N',masc) .
+TestAttemptoCat: John és cada home .
+TestAttemptoDan: John er hver mand .
+TestAttemptoDut: John is elke man .
+TestAttemptoEng: John is every man .
+TestAttemptoFin: John on jokainen mies .
+TestAttemptoFre: John est chaque homme .
+TestAttemptoGer: John ist jeder Mann .
+TestAttemptoIta: John è ogni uomo .
+TestAttemptoLav: Džons ir ikviens vīrietis .
+TestAttemptoNor: John er hver mann .
+TestAttemptoPol: Jan jest każdym mężczyzną .
+TestAttemptoRon: John este orice om .
+TestAttemptoRus: Иван каждый человек .
+TestAttemptoSpa: John es cada hombre .
+TestAttemptoSwe: John är varje man .
+
+TestAttempto: baseText (sText (simpleS_as_S (vpS (nothing_butNP (cn_as_VarCN man_N)) (v2VP see_V2 (pnNP mary_PN)))))
+TestAttemptoAce: nothing but men see Mary .
+TestAttemptoApe: nothing but noun_pl('men','man_N',masc) tv_infpl('see','see_V2') pn_sg('Mary','Mary_PN',neutr) .
+TestAttemptoCat: nomÈs homes veuen Mary .
+TestAttemptoDan: kun mænd ser Mary .
+TestAttemptoDut: slechts mannen zien Mary .
+TestAttemptoEng: nothing but men see Mary .
+TestAttemptoFin: vain miehet näkevät Maryn .
+TestAttemptoFre: seulement des hommes voient Mary .
+TestAttemptoGer: nur Männer sehen Mary .
+TestAttemptoIta: soltanto uomini vedono Mary .
+TestAttemptoLav: tikai vīrieši redz Mēriju .
+TestAttemptoNor: kun menn ser Mary .
+TestAttemptoPol: tylko mężczyzn widzą Paryż .
+TestAttemptoRon: doar nişte oameni o văd pe Mary .
+TestAttemptoRus: единственные человеков видят Maryу .
+TestAttemptoSpa: solamente hombres ven Mary .
+TestAttemptoSwe: bara män ser Mary .
+
 
