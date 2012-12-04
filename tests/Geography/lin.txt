@@ -1,14 +1,14 @@
-Geography: baseText (sText (simpleS_as_S (np_coord_VPS (everyNP (cn_as_VarCN country_N)) or_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_N))))) (vp_as_posVPS (v2_byVP border_V2 (thereNP_as_NP (aNP (cn_as_VarCN sea_N)))))))))
+Geography: baseText (sText (simpleS_as_S (np_coord_VPS (everyNP (cn_as_VarCN country_CN)) or_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))) (vp_as_posVPS (v2_byVP border_V2 (thereNP_as_NP (aNP (cn_as_VarCN sea_CN)))))))))
 GeographyAce: every country borders a country or is bordered by a sea .
 GeographyApe: every noun_sg('country','country_N',neutr) tv_finsg('borders','border_V2') a noun_sg('country','country_N',neutr) or is tv_pp('bordered','border_V2') by a noun_sg('sea','sea_N',neutr) .
 GeographyGer: jedes Land grenzt an ein Land oder wird durch ein Meer gegrenzt .
 
-Geography: baseText (sText (simpleS_as_S (vpS (noNP (apposVarCN country_N X_Var)) (v2VP border_V2 (termNP (var_Term X_Var))))))
+Geography: baseText (sText (simpleS_as_S (vpS (noNP (apposVarCN country_CN X_Var)) (v2VP border_V2 (termNP (var_Term X_Var))))))
 GeographyAce: no country X borders X .
 GeographyApe: no noun_sg('country','country_N',neutr) X tv_finsg('borders','border_V2') X .
 GeographyGer: kein Land X grenzt an X .
 
-Geography: baseText (sText (for_everyS (apposVarCN country_N X_Var) (simpleS_as_S (neg_vpS (termNP (var_Term X_Var)) (v2VP border_V2 (termNP (var_Term X_Var)))))))
+Geography: baseText (sText (for_everyS (apposVarCN country_CN X_Var) (simpleS_as_S (neg_vpS (termNP (var_Term X_Var)) (v2VP border_V2 (termNP (var_Term X_Var)))))))
 GeographyAce: for every country X X doesn't border X .
 GeographyApe: for every noun_sg('country','country_N',neutr) X X doesn't tv_infpl('border','border_V2') X .
 GeographyGer: für jedes Land X grenzt X an X nicht .
@@ -18,52 +18,77 @@ GeographyAce: if X borders Y then Y borders X .
 GeographyApe: if X tv_finsg('borders','border_V2') Y then Y tv_finsg('borders','border_V2') X .
 GeographyGer: wenn X an Y grenzt , dann grenzt Y an X .
 
-Geography: baseText (sText (simpleS_as_S (vpS (pnNP switzerland_PN) (v2VP border_V2 (noNP (cn_as_VarCN sea_N))))))
+Geography: baseText (sText (simpleS_as_S (vpS (pnNP Switzerland_PN) (v2VP border_V2 (noNP (cn_as_VarCN sea_CN))))))
 GeographyAce: Switzerland borders no sea .
 GeographyApe: pn_sg('Switzerland','Switzerland_PN',neutr) tv_finsg('borders','border_V2') no noun_sg('sea','sea_N',neutr) .
 GeographyGer: die Schweiz grenzt an kein Meer .
 
-Geography: baseText (sText (simpleS_as_S (vpS (pnNP zurich_PN) (v2_byVP contain_V2 (pnNP switzerland_PN)))))
+Geography: baseText (sText (simpleS_as_S (vpS (pnNP Zurich_PN) (v2_byVP contain_V2 (pnNP Switzerland_PN)))))
 GeographyAce: Zurich is contained by Switzerland .
 GeographyApe: pn_sg('Zurich','Zurich_PN',neutr) is tv_pp('contained','contain_V2') by pn_sg('Switzerland','Switzerland_PN',neutr) .
 GeographyGer: Zürich wird durch die Schweiz enthalten .
 
-Geography: baseText (qsText (npqQS (ipNPQ whatSg_IP) (npVP (pnNP switzerland_PN))))
+Geography: baseText (sText (simpleS_as_S (vpS (pnNP German_PN) (npVP (thereNP_as_NP (aNP (ofCN official_language_CN (pnNP European_Union_PN))))))))
+GeographyAce: German is an official-language of the EU .
+GeographyApe: pn_sg('German','German_PN',neutr) is a noun_sg('official-language','official-language_N',neutr) of pn_sg('the EU','the EU_PN',neutr) .
+GeographyGer: Deutsch ist eine offizielle Sprache von Europäische Union .
+
+Geography: baseText (sText (simpleS_as_S (neg_vpS (everyNP (cn_as_VarCN city_CN)) (npVP (thereNP_as_NP (aNP (ofCN capital_CN (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))))))))
+GeographyAce: every city isn't a capital of a country .
+GeographyApe: every noun_sg('city','city_N',neutr) isn't a noun_sg('capital','capital_N',neutr) of a noun_sg('country','country_N',neutr) .
+GeographyGer: jeder Stadt ist nicht ein Hauptstadt von einem Land .
+
+Geography: baseText (sText (simpleS_as_S (thereNP (aNP (relCN (cn_as_VarCN city_CN) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (ofCN capital_CN (thereNP_as_NP (aNP (cn_as_VarCN country_CN)))))))))))))
+GeographyAce: there is a city which isn't a capital of a country .
+GeographyApe: there is a noun_sg('city','city_N',neutr) which isn't a noun_sg('capital','capital_N',neutr) of a noun_sg('country','country_N',neutr) .
+GeographyGer: es gibt einen Stadt der nicht ein Hauptstadt von einem Land ist .
+
+Geography: baseText (sText (simpleS_as_S (vpS (noNP (cn_as_VarCN city_CN)) (npVP (thereNP_as_NP (aNP (ofCN capital_CN (thereNP_as_NP (more_thanNP (digitsCard (IDig D_1)) (cn_as_VarCN country_CN))))))))))
+GeographyAce: no city is a capital of more than 1 country .
+GeographyApe: no noun_sg('city','city_N',neutr) is a noun_sg('capital','capital_N',neutr) of more than 1 noun_sg('country','country_N',neutr) .
+GeographyGer: kein Stadt ist ein Hauptstadt von mehr als 1 Land .
+
+Geography: baseText (sText (simpleS_as_S (vpS (pnNP European_Union_PN) (npVP (pnNP European_Union_PN)))))
+GeographyAce: the EU is the EU .
+GeographyApe: pn_sg('the EU','the EU_PN',neutr) is pn_sg('the EU','the EU_PN',neutr) .
+GeographyGer: Europäische Union ist Europäische Union .
+
+Geography: baseText (qsText (npqQS (ipNPQ whatSg_IP) (npVP (pnNP Switzerland_PN))))
 GeographyAce: what is Switzerland ?
 GeographyApe: what is pn_sg('Switzerland','Switzerland_PN',neutr) ?
 GeographyGer: was ist die Schweiz ?
 
-Geography: baseText (qsText (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN country_N))) (v2VP border_V2 (pnNP switzerland_PN))))
+Geography: baseText (qsText (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN country_CN))) (v2VP border_V2 (pnNP Switzerland_PN))))
 GeographyAce: which country borders Switzerland ?
 GeographyApe: which noun_sg('country','country_N',neutr) tv_finsg('borders','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) ?
 GeographyGer: welches Land grenzt an die Schweiz ?
 
-Geography: baseText (qsText (npqQS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_N))) (v2VP border_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_5)) (cn_as_VarCN country_N))))))
+Geography: baseText (qsText (npqQS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) (v2VP border_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_5)) (cn_as_VarCN country_CN))))))
 GeographyAce: which countries border at least 5 countries ?
 GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') at least 5 noun_pl('countries','country_N',neutr) ?
 GeographyGer: welche Länder grenzen an wenigstens 5 Länder ?
 
-Geography: baseText (qsText (npqQS (ipNPQ (whichIP whichPl_IDet (relCN (cn_as_VarCN country_N) (slashRS which_RP (pnNP germany_PN) border_V2)))) (v2VP border_V2 (pnNP switzerland_PN))))
+Geography: baseText (qsText (npqQS (ipNPQ (whichIP whichPl_IDet (relCN (cn_as_VarCN country_CN) (slashRS which_RP (pnNP Germany_PN) border_V2)))) (v2VP border_V2 (pnNP Switzerland_PN))))
 GeographyAce: which countries who Germany borders border Switzerland ?
 GeographyApe: which noun_pl('countries','country_N',neutr) who pn_sg('Germany','Germany_PN',neutr) tv_finsg('borders','border_V2') tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) ?
 GeographyGer: welche Länder an die Deutschland grenzt grenzen an die Schweiz ?
 
-Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_N))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (pnNP switzerland_PN))) (vp_as_posVPS (v2VP border_V2 (relNP (thereNP_as_NP (exactlyNP (digitsCard (IDig D_1)) (cn_as_VarCN country_N))) (slashRS which_RP (pnNP switzerland_PN) border_V2)))))))
+Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (pnNP Switzerland_PN))) (vp_as_posVPS (v2VP border_V2 (relNP (thereNP_as_NP (exactlyNP (digitsCard (IDig D_1)) (cn_as_VarCN country_CN))) (slashRS which_RP (pnNP Switzerland_PN) border_V2)))))))
 GeographyAce: which countries border Switzerland and border exactly 1 country which Switzerland borders ?
 GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) and tv_infpl('border','border_V2') exactly 1 noun_sg('country','country_N',neutr) which pn_sg('Switzerland','Switzerland_PN',neutr) tv_finsg('borders','border_V2') ?
 GeographyGer: welche Länder grenzen an die Schweiz und grenzen an genau 1 Land , an das die Schweiz grenzt ?
 
-Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_N))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (pnNP switzerland_PN))) (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (exactlyNP (digitsCard (IDig D_1)) (relCN (cn_as_VarCN country_N) (slashRS which_RP (pnNP switzerland_PN) border_V2)))))))))
+Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (pnNP Switzerland_PN))) (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (exactlyNP (digitsCard (IDig D_1)) (relCN (cn_as_VarCN country_CN) (slashRS which_RP (pnNP Switzerland_PN) border_V2)))))))))
 GeographyAce: which countries border Switzerland and border exactly 1 country which Switzerland borders ?
 GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) and tv_infpl('border','border_V2') exactly 1 noun_sg('country','country_N',neutr) which pn_sg('Switzerland','Switzerland_PN',neutr) tv_finsg('borders','border_V2') ?
 GeographyGer: welche Länder grenzen an die Schweiz und grenzen an genau 1 Land an das die Schweiz grenzt ?
 
-Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_N))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (relNP (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN country_N))) (predRS which_RP (v2_byVP border_V2 (pnNP switzerland_PN)))))) (vp_as_negVPS (v2VP border_V2 (pnNP switzerland_PN))))))
+Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (relNP (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN country_CN))) (predRS which_RP (v2_byVP border_V2 (pnNP Switzerland_PN)))))) (vp_as_negVPS (v2VP border_V2 (pnNP Switzerland_PN))))))
 GeographyAce: which countries border exactly 2 countries who are bordered by Switzerland and don't border Switzerland ?
 GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') exactly 2 noun_pl('countries','country_N',neutr) who are tv_pp('bordered','border_V2') by pn_sg('Switzerland','Switzerland_PN',neutr) and don't tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) ?
 GeographyGer: welche Länder grenzen an genau 2 Länder , die durch die Schweiz gegrenzt werden und grenzen an die Schweiz nicht ?
 
-Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_N))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (relCN (cn_as_VarCN country_N) (predRS which_RP (v2_byVP border_V2 (pnNP switzerland_PN)))))))) (vp_as_negVPS (v2VP border_V2 (pnNP switzerland_PN))))))
+Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (relCN (cn_as_VarCN country_CN) (predRS which_RP (v2_byVP border_V2 (pnNP Switzerland_PN)))))))) (vp_as_negVPS (v2VP border_V2 (pnNP Switzerland_PN))))))
 GeographyAce: which countries border exactly 2 countries who are bordered by Switzerland and don't border Switzerland ?
 GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') exactly 2 noun_pl('countries','country_N',neutr) who are tv_pp('bordered','border_V2') by pn_sg('Switzerland','Switzerland_PN',neutr) and don't tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) ?
 GeographyGer: welche Länder grenzen an genau 2 Länder die durch die Schweiz gegrenzt werden und grenzen an die Schweiz nicht ?

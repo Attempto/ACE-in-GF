@@ -4,6 +4,11 @@ for every country X X does not border X .
 if X borders Y then Y borders X .
 Switzerland borders no sea .
 Zurich is contained by Switzerland .
+German is an official-language of the European Union .
+every city is not a capital of a country .
+there is a city that is not a capital of a country .
+no city is a capital of more than 1 country .
+the EU is the European Union .
 what is Switzerland ?
 which country borders Switzerland ?
 which countries border at least 5 countries ?

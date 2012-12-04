@@ -1,15 +1,25 @@
+--# -path=.:present
 abstract Geography = Attempto ** {
-
 fun
-
-  country_N : CN ;
-  sea_N : CN ;
-
-  switzerland_PN : PN ;
-  germany_PN : PN ;
-  zurich_PN : PN ;
-
-  border_V2 : V2 ;
-  contain_V2 : V2 ;
-
+Austria_PN : PN ;
+Bern_PN : PN ;
+border_V2 : V2 ;
+capital_CN : CN ;
+city_CN : CN ;
+contain_V2 : V2 ;
+country_CN : CN ;
+European_Union_PN : PN ;
+France_PN : PN ;
+French_PN : PN ;
+German_PN : PN ;
+Germany_PN : PN ;
+Italian_PN : PN ;
+Italy_PN : PN ;
+language_CN : CN ;
+Liechtenstein_PN : PN ;
+member_CN : CN ;
+official_language_CN : CN ;
+sea_CN : CN ;
+Switzerland_PN : PN ;
+Zurich_PN : PN ;
 }
