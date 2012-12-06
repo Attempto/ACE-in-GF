@@ -1,0 +1,24 @@
+English lemma,cat,I,Ger,Ita,Dut,Spa,Fin
+,abstract ${name} = Attempto **,incomplete concrete GeographyI of Geography = AttemptoAce ** open Oper in,"concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang}, Oper${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in"
+capital,CN,"aceN ""capital""","aceN ""Hauptstadt""",capitale,hoofdstad,capital,pääoma
+city,CN,"aceN ""city""","aceN ""Stadt""",città,stad,ciudad,kaupunki
+country,CN,"aceN ""country""","aceN neuter ""Land"" ""Länder""",paese,land,país,maa
+language,CN,"aceN ""language""","aceN ""Sprache""",lingua,taal,idioma,kieli
+member,CN,"aceN ""member""","aceN ""Mitglied""",membro,lid,miembro,jäsen
+official language,CN,"aceN ""official-language""","aceN ""offizielle Sprache""",lingua ufficiale,officiële taal,idioma oficial,virallisella kielellä
+sea,CN,"aceN ""sea""","aceN neuter ""Meer"" ""Meere""",mare,zee,mar,meri
+Austria,PN,"acePN ""Austria""","acePN ""Österreich""",Austria,Oostenrijk,Austria,Itävalta
+Belgium,PN,"acePN ""Belgium""","acePN ""Belgien""",Belgio,België,Bélgica,Belgia
+Bern,PN,"acePN ""Bern""","acePN ""Bern""",Bern,Bern,Berna,Bern
+European Union,PN,"acePN ""the EU"" | acePN ""the European Union""","acePN ""Europäische Union""",Unione Europea,Europese Unie,Unión Europea,Euroopan unioni
+France,PN,"acePN ""France""","acePN ""Frankreich""",Francia,Frankrijk,Francia,Ranska
+French language,PN,"acePN ""French""","acePN ""Französisch""",Lingua francese,Franse taal,Idioma francés,Ranskan kieli
+German language,PN,"acePN ""German""","acePN ""Deutsch""",Lingua tedesca,Duitse taal,Alemán,Saksan kieli
+Germany,PN,"acePN ""Germany""","acePN ""Deutschland""",Germania,Duitsland,Alemania,Saksa
+Italian language,PN,"acePN ""Italian""","acePN ""Italienisch""",Lingua italiana,Italiaanse taal,Lengua italiana,Italian kieli
+Italy,PN,"acePN ""Italy""","acePN ""Italien""",Italia,Italië,Italia,Italia
+Liechtenstein,PN,"acePN ""Liechtenstein""","acePN ""Liechtenstein""",Liechtenstein,Liechtenstein,Liechtenstein,Liechtenstein
+Switzerland,PN,"acePN ""Switzerland""","acePN ""die Schweiz"" ""die Schweiz"" ""der Schweiz"" ""der Schweiz""",Svizzera,Zwitserland,Suiza,Sveitsi
+Zurich,PN,"acePN ""Zurich""","acePN ""Zürich""",Zurigo,Zürich,Zurich,Zurich
+border,V2,"aceV2 ""border"" ""borders"" ""bordered""","prepV2 (regV ""grenzen"") (mkPrep ""an"" accusative)",confine,grens,frontera,raja
+contain,V2,"aceV2 ""contain"" ""contains"" ""contained""","mkV2 (aceV ""enthalten"" ""enthält"" ""enthalten"") accusative",contenere,bevatten,contener,sisältää

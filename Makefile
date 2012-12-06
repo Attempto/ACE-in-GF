@@ -16,7 +16,7 @@ tests_onto = tests/ontograph_40
 tests_onto_ext = tests/ontograph_ext
 
 # Words
-geography = Geography
+Geography = Geography
 
 Roundtripper = Roundtripper
 
@@ -32,7 +32,7 @@ startcat = ACEText
 # TODO: Est
 languages = Ace Ape Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav Pol Ron Rus
 
-langs_geography = Ace Ape Ger
+langs_Geography = Ace Ape Dut Ger Ita Spa
 
 # Compile application grammars in all languages
 all_grammars:
@@ -52,8 +52,8 @@ pgf_acewiki_aceowl:
 pgf_ontograph_40:
 	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
 
-pgf_geography:
-	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_geography),words/$(geography)/$(geography)$(lang).gf)
+pgf_Geography:
+	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf)
 
 # Parse ontograph_40 sentences and linearise into all languages
 lin_ontograph_40:
@@ -68,9 +68,9 @@ lin_ontograph_ext_save:
 	echo "rf -lines -file=$(tests_onto_ext)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
 	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf) > $(tests_onto_ext)/lin.txt
 
-lin_geography_save:
-	echo "rf -lines -file=tests/$(geography)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
-	gf --run --verbose=0 --path=$(path) $(foreach lang,$(langs_geography),words/$(geography)/$(geography)$(lang).gf) > tests/$(geography)/lin.txt
+lin_Geography_save:
+	echo "rf -lines -file=tests/$(Geography)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
+	gf --run --verbose=0 --path=$(path) $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf) > tests/$(Geography)/lin.txt
 
 # This does not fail if one of the sentences fails (unlike "rf -lines | p")
 # TODO: We assume that pgf_acewiki_aceowl produces TestAttempto.pgf with all the languages
