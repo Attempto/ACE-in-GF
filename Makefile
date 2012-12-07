@@ -49,6 +49,9 @@ all_ontograph_40:
 pgf_acewiki_aceowl:
 	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(languages),$(words)/TestAttempto$(lang).gf)
 
+pgf_acewiki_aceowl_old_comp:
+	gf --old-comp --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(languages),$(words)/TestAttempto$(lang).gf)
+
 pgf_ontograph_40:
 	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
 
@@ -93,7 +96,7 @@ interactive:
 
 # Clean all gfo files everywhere
 clean:
-	find -name *.gfo | xargs rm
+	find -name *.gfo | xargs rm -f
 
 # Test the syntactic coverage and ambiguity of Ace against the codeco test-set
 test_acewiki_aceowl:
