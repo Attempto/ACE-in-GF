@@ -1,5 +1,5 @@
 English lemma,cat,I,Ger,Ita,Dut,Spa,Fin
-,abstract ${name} = Attempto **,incomplete concrete GeographyI of Geography = AttemptoAce ** open Oper in,"concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang}, Oper${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in"
+,abstract ${name} = Attempto **,incomplete concrete GeographyI of Geography = AttemptoAce ** open Oper in,"concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang}, Oper${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang}, (I=Irreg${lang}) in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in"
 capital,CN,"aceN ""capital""","aceN ""Hauptstadt""",capitale,hoofdstad,capital,pääoma
 city,CN,"aceN ""city""","aceN ""Stadt""",città,stad,ciudad,kaupunki
 country,CN,"aceN ""country""","aceN neuter ""Land"" ""Länder""",paese,land,país,maa
@@ -20,5 +20,5 @@ Italy,PN,"acePN ""Italy""","acePN ""Italien""",Italia,Italië,Italia,Italia
 Liechtenstein,PN,"acePN ""Liechtenstein""","acePN ""Liechtenstein""",Liechtenstein,Liechtenstein,Liechtenstein,Liechtenstein
 Switzerland,PN,"acePN ""Switzerland""","acePN ""die Schweiz"" ""die Schweiz"" ""der Schweiz"" ""der Schweiz""",Svizzera,Zwitserland,Suiza,Sveitsi
 Zurich,PN,"acePN ""Zurich""","acePN ""Zürich""",Zurigo,Zürich,Zurich,Zurich
-border,V2,"aceV2 ""border"" ""borders"" ""bordered""","prepV2 (regV ""grenzen"") (mkPrep ""an"" accusative)",confine,grens,frontera,raja
-contain,V2,"aceV2 ""contain"" ""contains"" ""contained""","mkV2 (aceV ""enthalten"" ""enthält"" ""enthalten"") accusative",contenere,bevatten,contener,sisältää
+border,V2,"aceV2 ""border"" ""borders"" ""bordered""","prepV2 (regV ""grenzen"") (mkPrep ""an"" accusative)",confine,grens,frontera,rajaa
+contain,V2,"aceV2 ""contain"" ""contains"" ""contained""","mkV2 (aceV ""enthalten"" ""enthält"" ""enthalten"") accusative",contenere,bevatten,mkV2 (I.contener_V),sisältää

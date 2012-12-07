@@ -32,7 +32,7 @@ startcat = ACEText
 # TODO: Est
 languages = Ace Ape Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav Pol Ron Rus
 
-langs_Geography = Ace Ape Dut Ger Ita Spa
+langs_Geography = Ace Ape Dut Fin Ger Ita Spa
 
 # Compile application grammars in all languages
 all_grammars:

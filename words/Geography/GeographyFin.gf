@@ -5,7 +5,7 @@ lin
 Austria_PN = mkPN "Itävalta" ;
 Belgium_PN = mkPN "Belgia" ;
 Bern_PN = mkPN "Bern" ;
-border_V2 = mkV2 (mkV "raja") ;
+border_V2 = mkV2 (mkV "rajaa") ;
 capital_CN = mkCN (mkN "pääoma") ;
 city_CN = mkCN (mkN "kaupunki") ;
 contain_V2 = mkV2 (mkV "sisältää") ;
