@@ -20,5 +20,5 @@ Italy,PN,"acePN ""Italy""","acePN ""Italien""",Italia,Italië,Italia,Italia
 Liechtenstein,PN,"acePN ""Liechtenstein""","acePN ""Liechtenstein""",Liechtenstein,Liechtenstein,Liechtenstein,Liechtenstein
 Switzerland,PN,"acePN ""Switzerland""","acePN ""die Schweiz"" ""die Schweiz"" ""der Schweiz"" ""der Schweiz""",Svizzera,Zwitserland,Suiza,Sveitsi
 Zurich,PN,"acePN ""Zurich""","acePN ""Zürich""",Zurigo,Zürich,Zurich,Zurich
-border,V2,"aceV2 ""border"" ""borders"" ""bordered""","prepV2 (regV ""grenzen"") (mkPrep ""an"" accusative)",confine,grens,frontera,rajaa
+border,V2,"aceV2 ""border"" ""borders"" ""bordered""","prepV2 (regV ""grenzen"") (mkPrep ""an"" accusative)",confine,grenzen,frontera,rajaa
 contain,V2,"aceV2 ""contain"" ""contains"" ""contained""","mkV2 (aceV ""enthalten"" ""enthält"" ""enthalten"") accusative",contenere,bevatten,mkV2 (I.contener_V),sisältää

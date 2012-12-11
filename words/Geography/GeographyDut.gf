@@ -5,7 +5,7 @@ lin
 Austria_PN = mkPN "Oostenrijk" ;
 Belgium_PN = mkPN "België" ;
 Bern_PN = mkPN "Bern" ;
-border_V2 = mkV2 (mkV "grens") ;
+border_V2 = mkV2 (mkV "grenzen") ;
 capital_CN = mkCN (mkN "hoofdstad") ;
 city_CN = mkCN (mkN "stad") ;
 contain_V2 = mkV2 (mkV "bevatten") ;

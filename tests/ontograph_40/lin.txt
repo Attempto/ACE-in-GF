@@ -419,7 +419,7 @@ TestAttemptoSwe: allting , som ser något är en befäl .
 TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP love_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN person_N)))))))
 TestAttemptoAce: everything which is loved by something is a person .
 TestAttemptoApe: everything which is tv_pp('loved','love_V2') by something is a noun_sg('person','person_N',masc) .
-TestAttemptoCat: tot que és estimat per quelcom és una persona .
+TestAttemptoCat: tot que està estimat per quelcom és una persona .
 TestAttemptoDan: alt , som bliver elsket af noget er en person .
 TestAttemptoDut: alles , dat door iets liefgehad wordt is een persoon .
 TestAttemptoEng: everything which is loved by something is a person .
@@ -432,7 +432,7 @@ TestAttemptoNor: alt , som blir elska av noe er en person .
 TestAttemptoPol: wszystko , które przez coś jest kochane jest mężczyzną .
 TestAttemptoRon: 
 TestAttemptoRus: всё , которое с помощью чего-то любдится лицo .
-TestAttemptoSpa: todo que es amado por algo es una persona .
+TestAttemptoSpa: todo que está amado por algo es una persona .
 TestAttemptoSwe: allting , som blir älskat av något är en person .
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP love_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))))
@@ -457,7 +457,7 @@ TestAttemptoSwe: allting , som älskar något är en resenär eller är en befä
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP see_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN aquarium_N)))))))))
 TestAttemptoAce: everything which is seen by something is a traveler or is an aquarium .
 TestAttemptoApe: everything which is tv_pp('seen','see_V2') by something is a noun_sg('traveler','traveler_N',masc) or is a noun_sg('aquarium','aquarium_N',neutr) .
-TestAttemptoCat: tot que és vist per quelcom és un viatger o és un aquari .
+TestAttemptoCat: tot que està vist per quelcom és un viatger o és un aquari .
 TestAttemptoDan: alt , som bliver set af noget er en rejsende eller er en akvarium .
 TestAttemptoDut: alles , dat door iets gezien wordt is een reiziger of is een aquarium .
 TestAttemptoEng: everything which is seen by something is a traveler or is an aquarium .
@@ -470,7 +470,7 @@ TestAttemptoNor: alt , som blir sett av noe er ei reisende eller er en akvarium 
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
 TestAttemptoRus: [np_coord_VPS] .
-TestAttemptoSpa: todo que es visto por algo es un viajero o es un acuario .
+TestAttemptoSpa: todo que está visto por algo es un viajero o es un acuario .
 TestAttemptoSwe: allting , som blir sett av något är en resenär eller är en akvarium .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP tom_PN) (v2VP love_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN officer_N)))))))
