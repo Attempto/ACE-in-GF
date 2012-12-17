@@ -80,8 +80,8 @@ GeographyIta: ogni città non è un capitale di un paese .
 GeographySpa: cada ciudad no es un capital de un país .
 
 Geography: baseText (sText (simpleS_as_S (thereNP (aNP (relCN (cn_as_VarCN city_CN) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (ofCN capital_CN (thereNP_as_NP (aNP (cn_as_VarCN country_CN)))))))))))))
-GeographyAce: there is a city which isn't a capital of a country .
-GeographyApe: there is a noun_sg('city','city_N',neutr) which isn't a noun_sg('capital','capital_N',neutr) of a noun_sg('country','country_N',neutr) .
+GeographyAce: there is a city that isn't a capital of a country .
+GeographyApe: there is a noun_sg('city','city_N',neutr) that isn't a noun_sg('capital','capital_N',neutr) of a noun_sg('country','country_N',neutr) .
 GeographyDut: er is een stad die niet een hoofdstad van een land is .
 GeographyFin: on olemassa kaupunki joka ei ole pääoma maan .
 GeographyGer: es gibt einen Stadt der nicht ein Hauptstadt von einem Land ist .
@@ -134,8 +134,8 @@ GeographyIta: quali paesi confano almeno 5 paesi ?
 GeographySpa: ¿ qué países frontean al menos 5 países ?
 
 Geography: baseText (qsText (npqQS (ipNPQ (whichIP whichPl_IDet (relCN (cn_as_VarCN country_CN) (slashRS which_RP (pnNP Germany_PN) border_V2)))) (v2VP border_V2 (pnNP Switzerland_PN))))
-GeographyAce: which countries who Germany borders border Switzerland ?
-GeographyApe: which noun_pl('countries','country_N',neutr) who pn_sg('Germany','Germany_PN',neutr) tv_finsg('borders','border_V2') tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) ?
+GeographyAce: which countries that Germany borders border Switzerland ?
+GeographyApe: which noun_pl('countries','country_N',neutr) that pn_sg('Germany','Germany_PN',neutr) tv_finsg('borders','border_V2') tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) ?
 GeographyDut: welke landen die Duitsland grenst grenzen Zwitserland ?
 GeographyFin: mitkä maat jotka Saksa rajaa rajavat Sveitsin ?
 GeographyGer: welche Länder an die Deutschland grenzt grenzen an die Schweiz ?
@@ -143,8 +143,8 @@ GeographyIta: quali paesi che Germania confa confano Svizzera ?
 GeographySpa: ¿ qué países que Alemania frontea frontean Suiza ?
 
 Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (pnNP Switzerland_PN))) (vp_as_posVPS (v2VP border_V2 (relNP (thereNP_as_NP (exactlyNP (digitsCard (IDig D_1)) (cn_as_VarCN country_CN))) (slashRS which_RP (pnNP Switzerland_PN) border_V2)))))))
-GeographyAce: which countries border Switzerland and border exactly 1 country which Switzerland borders ?
-GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) and tv_infpl('border','border_V2') exactly 1 noun_sg('country','country_N',neutr) which pn_sg('Switzerland','Switzerland_PN',neutr) tv_finsg('borders','border_V2') ?
+GeographyAce: which countries border Switzerland and border exactly 1 country that Switzerland borders ?
+GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) and tv_infpl('border','border_V2') exactly 1 noun_sg('country','country_N',neutr) that pn_sg('Switzerland','Switzerland_PN',neutr) tv_finsg('borders','border_V2') ?
 GeographyDut: welke landen grenzen Zwitserland en grenzen precies 1 land , dat Zwitserland grenst ?
 GeographyFin: mitkä maat rajavat Sveitsin ja rajavat tasan 1 maan , jonka Sveitsi rajaa ?
 GeographyGer: welche Länder grenzen an die Schweiz und grenzen an genau 1 Land , an das die Schweiz grenzt ?
@@ -152,8 +152,8 @@ GeographyIta: quali paesi confano Svizzera e confano esattamente 1 paese che Svi
 GeographySpa: ¿ qué países frontean Suiza y frontean exactamente 1 país que Suiza frontea ?
 
 Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (pnNP Switzerland_PN))) (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (exactlyNP (digitsCard (IDig D_1)) (relCN (cn_as_VarCN country_CN) (slashRS which_RP (pnNP Switzerland_PN) border_V2)))))))))
-GeographyAce: which countries border Switzerland and border exactly 1 country which Switzerland borders ?
-GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) and tv_infpl('border','border_V2') exactly 1 noun_sg('country','country_N',neutr) which pn_sg('Switzerland','Switzerland_PN',neutr) tv_finsg('borders','border_V2') ?
+GeographyAce: which countries border Switzerland and border exactly 1 country that Switzerland borders ?
+GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) and tv_infpl('border','border_V2') exactly 1 noun_sg('country','country_N',neutr) that pn_sg('Switzerland','Switzerland_PN',neutr) tv_finsg('borders','border_V2') ?
 GeographyDut: welke landen grenzen Zwitserland en grenzen precies 1 land die Zwitserland grenst ?
 GeographyFin: mitkä maat rajavat Sveitsin ja rajavat tasan 1 maan jonka Sveitsi rajaa ?
 GeographyGer: welche Länder grenzen an die Schweiz und grenzen an genau 1 Land an das die Schweiz grenzt ?
@@ -161,8 +161,8 @@ GeographyIta: quali paesi confano Svizzera e confano esattamente 1 paese che Svi
 GeographySpa: ¿ qué países frontean Suiza y frontean exactamente 1 país que Suiza frontea ?
 
 Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (relNP (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN country_CN))) (predRS which_RP (v2_byVP border_V2 (pnNP Switzerland_PN)))))) (vp_as_negVPS (v2VP border_V2 (pnNP Switzerland_PN))))))
-GeographyAce: which countries border exactly 2 countries who are bordered by Switzerland and don't border Switzerland ?
-GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') exactly 2 noun_pl('countries','country_N',neutr) who are tv_pp('bordered','border_V2') by pn_sg('Switzerland','Switzerland_PN',neutr) and don't tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) ?
+GeographyAce: which countries border exactly 2 countries that are bordered by Switzerland and don't border Switzerland ?
+GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') exactly 2 noun_pl('countries','country_N',neutr) that are tv_pp('bordered','border_V2') by pn_sg('Switzerland','Switzerland_PN',neutr) and don't tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) ?
 GeographyDut: welke landen grenzen precies 2 landen , die door Zwitserland gegrensd worden en grenzen niet Zwitserland ?
 GeographyFin: mitkä maat rajavat tasan 2 maata , joka rajetaan Sveitsin toimesta ja eivät raja Sveitsiä ?
 GeographyGer: welche Länder grenzen an genau 2 Länder , die durch die Schweiz gegrenzt werden und grenzen an die Schweiz nicht ?
@@ -170,8 +170,8 @@ GeographyIta: quali paesi confano esattamente 2 paesi che vengono confati da Svi
 GeographySpa: ¿ qué países frontean exactamente 2 países que están fronteados por Suiza y no frontean Suiza ?
 
 Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (relCN (cn_as_VarCN country_CN) (predRS which_RP (v2_byVP border_V2 (pnNP Switzerland_PN)))))))) (vp_as_negVPS (v2VP border_V2 (pnNP Switzerland_PN))))))
-GeographyAce: which countries border exactly 2 countries who are bordered by Switzerland and don't border Switzerland ?
-GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') exactly 2 noun_pl('countries','country_N',neutr) who are tv_pp('bordered','border_V2') by pn_sg('Switzerland','Switzerland_PN',neutr) and don't tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) ?
+GeographyAce: which countries border exactly 2 countries that are bordered by Switzerland and don't border Switzerland ?
+GeographyApe: which noun_pl('countries','country_N',neutr) tv_infpl('border','border_V2') exactly 2 noun_pl('countries','country_N',neutr) that are tv_pp('bordered','border_V2') by pn_sg('Switzerland','Switzerland_PN',neutr) and don't tv_infpl('border','border_V2') pn_sg('Switzerland','Switzerland_PN',neutr) ?
 GeographyDut: welke landen grenzen precies 2 landen die door Zwitserland gegrensd worden en grenzen niet Zwitserland ?
 GeographyFin: mitkä maat rajavat tasan 2 maata joka rajetaan Sveitsin toimesta ja eivät raja Sveitsiä ?
 GeographyGer: welche Länder grenzen an genau 2 Länder die durch die Schweiz gegrenzt werden und grenzen an die Schweiz nicht ?

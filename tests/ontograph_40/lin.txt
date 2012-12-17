@@ -132,12 +132,12 @@ TestAttemptoSpa: cada mujer es un funcionario y cada funcionario es una mujer .
 TestAttemptoSwe: varje kvinna är en befäl och varje befäl är en kvinna .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (everyNP (relCN (cn_as_VarCN traveler_N) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N))))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))
-TestAttemptoAce: every traveler who isn't a woman is a golfer .
-TestAttemptoApe: every noun_sg('traveler','traveler_N',masc) who isn't a noun_sg('woman','woman_N',fem) is a noun_sg('golfer','golfer_N',masc) .
+TestAttemptoAce: every traveler that isn't a woman is a golfer .
+TestAttemptoApe: every noun_sg('traveler','traveler_N',masc) that isn't a noun_sg('woman','woman_N',fem) is a noun_sg('golfer','golfer_N',masc) .
 TestAttemptoCat: cada viatger que no és una dona és una golfista .
 TestAttemptoDan: hver rejsende som ikke er en kvinde er en golfspiller .
 TestAttemptoDut: elke reiziger die niet een vrouw is is een golfer .
-TestAttemptoEng: every traveler who isn't a woman is a golfer .
+TestAttemptoEng: every traveler that isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustaja joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende der nicht eine Frau ist ist ein Golfer .
@@ -151,12 +151,12 @@ TestAttemptoSpa: cada viajero que no es una mujer es una golfista .
 TestAttemptoSwe: varje resenär som inte är en kvinna är ett golfspelare .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (everyNP (cn_as_VarCN traveler_N)) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))
-TestAttemptoAce: every traveler who isn't a woman is a golfer .
-TestAttemptoApe: every noun_sg('traveler','traveler_N',masc) who isn't a noun_sg('woman','woman_N',fem) is a noun_sg('golfer','golfer_N',masc) .
+TestAttemptoAce: every traveler that isn't a woman is a golfer .
+TestAttemptoApe: every noun_sg('traveler','traveler_N',masc) that isn't a noun_sg('woman','woman_N',fem) is a noun_sg('golfer','golfer_N',masc) .
 TestAttemptoCat: cada viatger que no és una dona és una golfista .
 TestAttemptoDan: hver rejsende , som ikke er en kvinde er en golfspiller .
 TestAttemptoDut: elke reiziger , dat niet een vrouw is is een golfer .
-TestAttemptoEng: every traveler who isn't a woman is a golfer .
+TestAttemptoEng: every traveler that isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustaja , joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende , der nicht eine Frau ist ist ein Golfer .
@@ -189,12 +189,12 @@ TestAttemptoSpa: cada hombre es una golfista o es un viajero .
 TestAttemptoSwe: varje man är ett golfspelare eller är en resenär .
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP nobody_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))))) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))
-TestAttemptoAce: nobody who is a man or who is a golfer is an officer and is a traveler .
-TestAttemptoApe: nobody who is a noun_sg('man','man_N',masc) or who is a noun_sg('golfer','golfer_N',masc) is a noun_sg('officer','officer_N',masc) and is a noun_sg('traveler','traveler_N',masc) .
+TestAttemptoAce: nobody that is a man or that is a golfer is an officer and is a traveler .
+TestAttemptoApe: nobody that is a noun_sg('man','man_N',masc) or that is a noun_sg('golfer','golfer_N',masc) is a noun_sg('officer','officer_N',masc) and is a noun_sg('traveler','traveler_N',masc) .
 TestAttemptoCat: ningú que és un home o que és una golfista és un oficial i és un viatger .
 TestAttemptoDan: ingen , som er en mand eller som er en golfspiller er en officer og er en rejsende .
 TestAttemptoDut: niemand , die een man is of die een golfer is is een officier en is een reiziger .
-TestAttemptoEng: nobody who is a man or who is a golfer is an officer and is a traveler .
+TestAttemptoEng: nobody that is a man or that is a golfer is an officer and is a traveler .
 TestAttemptoFin: kukaan , joka on mies tai joka on golfaaja on upseeri ja on matkustaja .
 TestAttemptoFre: personne qui est un homme ou qui est un golfeur n' est un officier et elle n' est un voyageur .
 TestAttemptoGer: niemand , das ein Mann ist oder das ein Golfer ist ist ein Offizier und ist ein Reisende .
@@ -284,12 +284,12 @@ TestAttemptoSpa: Mary no ve ningún hombre .
 TestAttemptoSwe: Mary ser ingen man .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (v2VP buy_V2 (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN present_N))))))))))
-TestAttemptoAce: John buys something which isn't a present .
-TestAttemptoApe: pn_sg('John','John_PN',masc) tv_finsg('buys','buy_V2') something which isn't a noun_sg('present','present_N',neutr) .
+TestAttemptoAce: John buys something that isn't a present .
+TestAttemptoApe: pn_sg('John','John_PN',masc) tv_finsg('buys','buy_V2') something that isn't a noun_sg('present','present_N',neutr) .
 TestAttemptoCat: John compra quelcom que no és un presentar .
 TestAttemptoDan: John køber noget , som ikke er en gave .
 TestAttemptoDut: John koopt iets , die niet een cadeau is .
-TestAttemptoEng: John buys something which isn't a present .
+TestAttemptoEng: John buys something that isn't a present .
 TestAttemptoFin: John ostaa jonkin , joka ei ole lahja .
 TestAttemptoFre: John achète quelque chose qui n' est pas un cadeau .
 TestAttemptoGer: John kauft etwas , das nicht ein Geschenk ist .
@@ -341,12 +341,12 @@ TestAttemptoSpa: cada hombre compra un regalo .
 TestAttemptoSwe: varje man köper en present .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP buy_V2 (thereNP_as_NP (aNP (cn_as_VarCN present_N)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N)))))))
-TestAttemptoAce: everything which buys a present is a man .
-TestAttemptoApe: everything which tv_finsg('buys','buy_V2') a noun_sg('present','present_N',neutr) is a noun_sg('man','man_N',masc) .
+TestAttemptoAce: everything that buys a present is a man .
+TestAttemptoApe: everything that tv_finsg('buys','buy_V2') a noun_sg('present','present_N',neutr) is a noun_sg('man','man_N',masc) .
 TestAttemptoCat: tot que compra un presentar és un home .
 TestAttemptoDan: alt , som køber en gave er en mand .
 TestAttemptoDut: alles , dat een cadeau koopt is een man .
-TestAttemptoEng: everything which buys a present is a man .
+TestAttemptoEng: everything that buys a present is a man .
 TestAttemptoFin: kaikki , joka ostaa lahjan on mies .
 TestAttemptoFre: tout qui achète un cadeau est un homme .
 TestAttemptoGer: alles , das ein Geschenk kauft ist ein Mann .
@@ -379,12 +379,12 @@ TestAttemptoSpa: cada hombre compra solamente regalos .
 TestAttemptoSwe: varje man köper bara presentar .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP buy_V2 (nothing_butNP (cn_as_VarCN picture_N))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN woman_N)))))))
-TestAttemptoAce: everything which buys nothing but pictures is a woman .
-TestAttemptoApe: everything which tv_finsg('buys','buy_V2') nothing but noun_pl('pictures','picture_N',neutr) is a noun_sg('woman','woman_N',fem) .
+TestAttemptoAce: everything that buys nothing but pictures is a woman .
+TestAttemptoApe: everything that tv_finsg('buys','buy_V2') nothing but noun_pl('pictures','picture_N',neutr) is a noun_sg('woman','woman_N',fem) .
 TestAttemptoCat: tot que compra nomÈs imatges és una dona .
 TestAttemptoDan: alt , som køber kun billeder er en kvinde .
 TestAttemptoDut: alles , dat slechts schilderijen koopt is een vrouw .
-TestAttemptoEng: everything which buys nothing but pictures is a woman .
+TestAttemptoEng: everything that buys nothing but pictures is a woman .
 TestAttemptoFin: kaikki , joka ostaa vain kuvia on nainen .
 TestAttemptoFre: tout qui achète seulement des images est une femme .
 TestAttemptoGer: alles , das nur Bilder kauft ist eine Frau .
@@ -398,12 +398,12 @@ TestAttemptoSpa: todo que compra solamente imagenes es una mujer .
 TestAttemptoSwe: allting , som köper bara bildar är en kvinna .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP see_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))
-TestAttemptoAce: everything which sees something is an officer .
-TestAttemptoApe: everything which tv_finsg('sees','see_V2') something is a noun_sg('officer','officer_N',masc) .
+TestAttemptoAce: everything that sees something is an officer .
+TestAttemptoApe: everything that tv_finsg('sees','see_V2') something is a noun_sg('officer','officer_N',masc) .
 TestAttemptoCat: tot que veu quelcom és un oficial .
 TestAttemptoDan: alt , som ser noget er en officer .
 TestAttemptoDut: alles , dat iets ziet is een officier .
-TestAttemptoEng: everything which sees something is an officer .
+TestAttemptoEng: everything that sees something is an officer .
 TestAttemptoFin: kaikki , joka näkee jonkin on upseeri .
 TestAttemptoFre: tout qui voit quelque chose est un officier .
 TestAttemptoGer: alles , das etwas sieht ist ein Offizier .
@@ -417,12 +417,12 @@ TestAttemptoSpa: todo que ve algo es un funcionario .
 TestAttemptoSwe: allting , som ser något är en befäl .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP love_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN person_N)))))))
-TestAttemptoAce: everything which is loved by something is a person .
-TestAttemptoApe: everything which is tv_pp('loved','love_V2') by something is a noun_sg('person','person_N',masc) .
+TestAttemptoAce: everything that is loved by something is a person .
+TestAttemptoApe: everything that is tv_pp('loved','love_V2') by something is a noun_sg('person','person_N',masc) .
 TestAttemptoCat: tot que està estimat per quelcom és una persona .
 TestAttemptoDan: alt , som bliver elsket af noget er en person .
 TestAttemptoDut: alles , dat door iets liefgehad wordt is een persoon .
-TestAttemptoEng: everything which is loved by something is a person .
+TestAttemptoEng: everything that is loved by something is a person .
 TestAttemptoFin: kaikki , jota rakastetaan jonkin toimesta on henkilö .
 TestAttemptoFre: tout qui est aimé par quelque chose est une personne .
 TestAttemptoGer: alles , das durch etwas geliebt wird ist eine Person .
@@ -436,12 +436,12 @@ TestAttemptoSpa: todo que está amado por algo es una persona .
 TestAttemptoSwe: allting , som blir älskat av något är en person .
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP love_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))))
-TestAttemptoAce: everything which loves something is a traveler or is an officer .
-TestAttemptoApe: everything which tv_finsg('loves','love_V2') something is a noun_sg('traveler','traveler_N',masc) or is a noun_sg('officer','officer_N',masc) .
+TestAttemptoAce: everything that loves something is a traveler or is an officer .
+TestAttemptoApe: everything that tv_finsg('loves','love_V2') something is a noun_sg('traveler','traveler_N',masc) or is a noun_sg('officer','officer_N',masc) .
 TestAttemptoCat: tot que estima quelcom és un viatger o és un oficial .
 TestAttemptoDan: alt , som elsker noget er en rejsende eller er en officer .
 TestAttemptoDut: alles , dat iets lief heeft is een reiziger of is een officier .
-TestAttemptoEng: everything which loves something is a traveler or is an officer .
+TestAttemptoEng: everything that loves something is a traveler or is an officer .
 TestAttemptoFin: kaikki , joka rakastaa jotakin on matkustaja tai on upseeri .
 TestAttemptoFre: tout qui aime quelque chose est un voyageur ou il est un officier .
 TestAttemptoGer: alles , das etwas liebt ist ein Reisende oder ist ein Offizier .
@@ -455,12 +455,12 @@ TestAttemptoSpa: todo que ama algo es un viajero o es un funcionario .
 TestAttemptoSwe: allting , som älskar något är en resenär eller är en befäl .
 
 TestAttempto: baseText (sText (simpleS_as_S (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP see_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN aquarium_N)))))))))
-TestAttemptoAce: everything which is seen by something is a traveler or is an aquarium .
-TestAttemptoApe: everything which is tv_pp('seen','see_V2') by something is a noun_sg('traveler','traveler_N',masc) or is a noun_sg('aquarium','aquarium_N',neutr) .
+TestAttemptoAce: everything that is seen by something is a traveler or is an aquarium .
+TestAttemptoApe: everything that is tv_pp('seen','see_V2') by something is a noun_sg('traveler','traveler_N',masc) or is a noun_sg('aquarium','aquarium_N',neutr) .
 TestAttemptoCat: tot que està vist per quelcom és un viatger o és un aquari .
 TestAttemptoDan: alt , som bliver set af noget er en rejsende eller er en akvarium .
 TestAttemptoDut: alles , dat door iets gezien wordt is een reiziger of is een aquarium .
-TestAttemptoEng: everything which is seen by something is a traveler or is an aquarium .
+TestAttemptoEng: everything that is seen by something is a traveler or is an aquarium .
 TestAttemptoFin: kaikki , joka nähdään jonkin toimesta on matkustaja tai on akvaario .
 TestAttemptoFre: tout qui est vu par quelque chose est un voyageur ou il est un aquarium .
 TestAttemptoGer: alles , das durch etwas gesehen wird ist ein Reisende oder ist ein Aquarium .
@@ -531,12 +531,12 @@ TestAttemptoSpa: cada viajero ve al menos 2 acuarios .
 TestAttemptoSwe: varje resenär ser minst 2 akvariumar .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP buy_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN present_N)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))
-TestAttemptoAce: everything which buys at least 2 presents is an officer .
-TestAttemptoApe: everything which tv_finsg('buys','buy_V2') at least 2 noun_pl('presents','present_N',neutr) is a noun_sg('officer','officer_N',masc) .
+TestAttemptoAce: everything that buys at least 2 presents is an officer .
+TestAttemptoApe: everything that tv_finsg('buys','buy_V2') at least 2 noun_pl('presents','present_N',neutr) is a noun_sg('officer','officer_N',masc) .
 TestAttemptoCat: tot que compra almenys 2 presentars és un oficial .
 TestAttemptoDan: alt , som køber mindst 2 gaver er en officer .
 TestAttemptoDut: alles , dat ten minste 2 cadeaus koopt is een officier .
-TestAttemptoEng: everything which buys at least 2 presents is an officer .
+TestAttemptoEng: everything that buys at least 2 presents is an officer .
 TestAttemptoFin: kaikki , joka ostaa vähintään 2 lahjaa on upseeri .
 TestAttemptoFre: tout qui achète au moins 2 cadeaux est un officier .
 TestAttemptoGer: alles , das wenigstens 2 Geschenke kauft ist ein Offizier .
@@ -569,12 +569,12 @@ TestAttemptoSpa: cada funcionario ve a lo más 1 acuario .
 TestAttemptoSwe: varje befäl ser högst 1 akvarium .
 
 TestAttempto: baseText (sText (simpleS_as_S (vpS (relNP (indefPronNP everything_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))) (v2VP see_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN aquarium_N)))))))
-TestAttemptoAce: everything which is a traveler or which is an officer sees at most 1 aquarium .
-TestAttemptoApe: everything which is a noun_sg('traveler','traveler_N',masc) or which is a noun_sg('officer','officer_N',masc) tv_finsg('sees','see_V2') at most 1 noun_sg('aquarium','aquarium_N',neutr) .
+TestAttemptoAce: everything that is a traveler or that is an officer sees at most 1 aquarium .
+TestAttemptoApe: everything that is a noun_sg('traveler','traveler_N',masc) or that is a noun_sg('officer','officer_N',masc) tv_finsg('sees','see_V2') at most 1 noun_sg('aquarium','aquarium_N',neutr) .
 TestAttemptoCat: tot que és un viatger o que és un oficial veu com a màxim 1 aquari .
 TestAttemptoDan: alt , som er en rejsende eller som er en officer ser højst 1 akvarium .
 TestAttemptoDut: alles , dat een reiziger is of dat een officier is ziet hooguit 1 aquarium .
-TestAttemptoEng: everything which is a traveler or which is an officer sees at most 1 aquarium .
+TestAttemptoEng: everything that is a traveler or that is an officer sees at most 1 aquarium .
 TestAttemptoFin: kaikki , joka on matkustaja tai joka on upseeri näkee enintään 1 akvaarion .
 TestAttemptoFre: tout qui est un voyageur ou qui est un officier voit au plus 1 aquarium .
 TestAttemptoGer: alles , das ein Reisende ist oder das ein Offizier ist sieht höchstens 1 Aquarium .
@@ -626,12 +626,12 @@ TestAttemptoSpa: si X ve Y entonces Y no ve X .
 TestAttemptoSwe: om X ser Y så Y ser inte X .
 
 TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (relNP (thereNP_as_NP (indefTherePronNP somebody_IPron)) (predRS which_RP (v2VP see_V2 (termNP (var_Term Y_Var)))))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var)))))))
-TestAttemptoAce: if X sees somebody who sees Y then X sees Y .
-TestAttemptoApe: if X tv_finsg('sees','see_V2') somebody who tv_finsg('sees','see_V2') Y then X tv_finsg('sees','see_V2') Y .
+TestAttemptoAce: if X sees somebody that sees Y then X sees Y .
+TestAttemptoApe: if X tv_finsg('sees','see_V2') somebody that tv_finsg('sees','see_V2') Y then X tv_finsg('sees','see_V2') Y .
 TestAttemptoCat: si X veu alg˙ que veu Y llavors X veu Y .
 TestAttemptoDan: hvis X ser nogen , som ser Y så X ser Y .
 TestAttemptoDut: als X iemand , die Y ziet ziet , dan ziet X Y .
-TestAttemptoEng: if X sees somebody who sees Y then X sees Y .
+TestAttemptoEng: if X sees somebody that sees Y then X sees Y .
 TestAttemptoFin: jos X näkee jonkun , joka näkee Y niin X näkee Y .
 TestAttemptoFre: si X voit quelqu'un qui voit Y alors X voit Y .
 TestAttemptoGer: wenn X jemanden , das Y sieht sieht , dann sieht X Y .
