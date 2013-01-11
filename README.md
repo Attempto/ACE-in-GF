@@ -6,7 +6,8 @@ Introduction
 
 This project implements the syntax of Attempto Controlled English (ACE)
 (version 6.6) in Grammatical Framework (GF) and ports it to
-additional natural languages (_Ger_, _Ita_, ...).
+additional natural languages (see the Makefile for the currently supported
+languages).
 Note that this project does not implement
 the mapping of ACE sentences to discourse representation structures.
 
@@ -113,7 +114,7 @@ deprecated or should be avoided (i.e. create a warning), e.g.
 Building
 --------
 
-_Note: based on GF darcs version: 2012-10-23 02:12:36 CEST_
+_Note: based on GF darcs version: 2013-01-11 16:43:32 CET_
 
 The ACE-in-GF grammar can be turned into a PGF file in various ways
 depending on
@@ -212,7 +213,14 @@ Additional test-targets are provided by the Makefile.
 
 ### Translating from ACE to other languages
 
-See the Makefile targets, that have the prefix `lin_`.
+Use the following Makefile targets to generate and store the linearizations.
+
+	lin_ontograph_40_save
+	lin_ontograph_ext_save
+	lin_Geography_save
+	lin_acewiki_aceowl_save
+
+All the linearizations except for `acewiki_aceowl` are also under version control.
 
 ### Generating with ACE-in-GF and parsing with Codeco
 

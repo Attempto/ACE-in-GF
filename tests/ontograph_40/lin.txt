@@ -13,7 +13,7 @@ TestAttemptoLav: Mērija ir ceļotājs .
 TestAttemptoNor: Mary er ei reisende .
 TestAttemptoPol: Paryż jest mężczyzną .
 TestAttemptoRon: Mary este un călător .
-TestAttemptoRus: Maryа путешественник .
+TestAttemptoRus: Mary путешественник .
 TestAttemptoSpa: Mary es un viajero .
 TestAttemptoSwe: Mary är en resenär .
 
@@ -222,7 +222,7 @@ TestAttemptoLav: Līza redz Mēriju .
 TestAttemptoNor: Lisa ser Mary .
 TestAttemptoPol: Paryż widzi Paryż .
 TestAttemptoRon: Lisa o vede pe Mary .
-TestAttemptoRus: Lisaа видит Maryу .
+TestAttemptoRus: Lisa видит Mary .
 TestAttemptoSpa: Lisa ve Mary .
 TestAttemptoSwe: Lisa ser Mary .
 
@@ -241,7 +241,7 @@ TestAttemptoLav: Mērija neredz Tomu .
 TestAttemptoNor: Mary ser ikke Tom .
 TestAttemptoPol: Paryż nie widzi Paryża .
 TestAttemptoRon: Mary nu îl vede pe Tom .
-TestAttemptoRus: Maryа не видит Tomа .
+TestAttemptoRus: Mary не видит Tom .
 TestAttemptoSpa: Mary no ve Tom .
 TestAttemptoSwe: Mary ser inte Tom .
 
@@ -317,7 +317,7 @@ TestAttemptoLav: Džons redz tikai vīriešus .
 TestAttemptoNor: John ser kun menn .
 TestAttemptoPol: Jan widzi tylko mężczyzn .
 TestAttemptoRon: John vede doar nişte oameni .
-TestAttemptoRus: Иван видит единственные человеков .
+TestAttemptoRus: Иван видит единственных людь .
 TestAttemptoSpa: John ve solamente hombres .
 TestAttemptoSwe: John ser bara män .
 
@@ -374,7 +374,7 @@ TestAttemptoLav: ikviens vīrietis pērk tikai dāvanas .
 TestAttemptoNor: hver mann kjøper kun gaver .
 TestAttemptoPol: każdy mężczyzna kupi tylko mężczyzn .
 TestAttemptoRon: orice om cumpără doar nişte caoaoe .
-TestAttemptoRus: каждый человек покупает единственные подароков .
+TestAttemptoRus: каждый человек покупает единственные подароки .
 TestAttemptoSpa: cada hombre compra solamente regalos .
 TestAttemptoSwe: varje man köper bara presentar .
 
@@ -393,7 +393,7 @@ TestAttemptoLav: jebkas , kas pērk tikai attēlus ir sieviete .
 TestAttemptoNor: alt , som kjøper kun bilder er ei kvinne .
 TestAttemptoPol: wszystko , które kupi tylko mężczyzn jest kobietą .
 TestAttemptoRon: 
-TestAttemptoRus: всё , которое покупает единственные картин женщина .
+TestAttemptoRus: всё , которое покупает единственные картины женщина .
 TestAttemptoSpa: todo que compra solamente imagenes es una mujer .
 TestAttemptoSwe: allting , som köper bara bildar är en kvinna .
 
@@ -488,7 +488,7 @@ TestAttemptoLav: Toms mīl vismaz 2 amatpersonas .
 TestAttemptoNor: Tom elsker minst 2 offiserer .
 TestAttemptoPol: Paryż kocha co najmniej 2 mężczyzn .
 TestAttemptoRon: Tom iubeşte cel puţin 2 ofițere .
-TestAttemptoRus: Tom любдит по крайней мере 2 офицера .
+TestAttemptoRus: Tom любдит по крайней мере 2 офицеры .
 TestAttemptoSpa: Tom ama al menos 2 funcionarios .
 TestAttemptoSwe: Tom älskar minst 2 befälar .
 
@@ -507,7 +507,7 @@ TestAttemptoLav: Līza pērk ne vairāk kā 1 dāvanu .
 TestAttemptoNor: Lisa kjøper høyst 1 gave .
 TestAttemptoPol: Paryż kupi co najwyżej 1 mężczyznę .
 TestAttemptoRon: Lisa cumpără cel mult 1 cadou .
-TestAttemptoRus: Lisaа покупает не более 1 подарок .
+TestAttemptoRus: Lisa покупает не более 1 подарок .
 TestAttemptoSpa: Lisa compra a lo más 1 regalo .
 TestAttemptoSwe: Lisa köper högst 1 present .
 
@@ -526,7 +526,7 @@ TestAttemptoLav: ikviens ceļotājs redz vismaz 2 akvārijus .
 TestAttemptoNor: hver reisende ser minst 2 akvariumer .
 TestAttemptoPol: każdy mężczyzna widzi co najmniej 2 mężczyzn .
 TestAttemptoRon: orice călător vede cel puţin 2 acvarii .
-TestAttemptoRus: каждый путешественник видит по крайней мере 2 аквариума .
+TestAttemptoRus: каждый путешественник видит по крайней мере 2 аквариумы .
 TestAttemptoSpa: cada viajero ve al menos 2 acuarios .
 TestAttemptoSwe: varje resenär ser minst 2 akvariumar .
 
@@ -545,7 +545,7 @@ TestAttemptoLav: jebkas , kas pērk vismaz 2 dāvanas ir amatpersona .
 TestAttemptoNor: alt , som kjøper minst 2 gaver er en offiser .
 TestAttemptoPol: wszystko , które kupi co najmniej 2 mężczyzn jest mężczyzną .
 TestAttemptoRon: 
-TestAttemptoRus: всё , которое покупает по крайней мере 2 подарока офицер .
+TestAttemptoRus: всё , которое покупает по крайней мере 2 подароки офицер .
 TestAttemptoSpa: todo que compra al menos 2 regalos es un funcionario .
 TestAttemptoSwe: allting , som köper minst 2 presentar är en befäl .
 

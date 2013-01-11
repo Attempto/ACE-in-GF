@@ -13,7 +13,7 @@ TestAttemptoLav: Mērija ir ceļotājs .
 TestAttemptoNor: Mary er ei reisende .
 TestAttemptoPol: Paryż jest mężczyzną .
 TestAttemptoRon: Mary este un călător .
-TestAttemptoRus: Maryа путешественник .
+TestAttemptoRus: Mary путешественник .
 TestAttemptoSpa: Mary es un viajero .
 TestAttemptoSwe: Mary är en resenär .
 
@@ -222,7 +222,7 @@ TestAttemptoLav: Līza redz Mēriju .
 TestAttemptoNor: Lisa ser Mary .
 TestAttemptoPol: Paryż widzi Paryż .
 TestAttemptoRon: Lisa o vede pe Mary .
-TestAttemptoRus: Lisaа видит Maryу .
+TestAttemptoRus: Lisa видит Mary .
 TestAttemptoSpa: Lisa ve Mary .
 TestAttemptoSwe: Lisa ser Mary .
 
@@ -241,7 +241,7 @@ TestAttemptoLav: Mērija neredz Tomu .
 TestAttemptoNor: Mary ser ikke Tom .
 TestAttemptoPol: Paryż nie widzi Paryża .
 TestAttemptoRon: Mary nu îl vede pe Tom .
-TestAttemptoRus: Maryа не видит Tomа .
+TestAttemptoRus: Mary не видит Tom .
 TestAttemptoSpa: Mary no ve Tom .
 TestAttemptoSwe: Mary ser inte Tom .
 
@@ -317,7 +317,7 @@ TestAttemptoLav: Džons redz tikai vīriešus .
 TestAttemptoNor: John ser kun menn .
 TestAttemptoPol: Jan widzi tylko mężczyzn .
 TestAttemptoRon: John vede doar nişte oameni .
-TestAttemptoRus: Иван видит единственные человеков .
+TestAttemptoRus: Иван видит единственных людь .
 TestAttemptoSpa: John ve solamente hombres .
 TestAttemptoSwe: John ser bara män .
 
@@ -374,7 +374,7 @@ TestAttemptoLav: ikviens vīrietis pērk tikai dāvanas .
 TestAttemptoNor: hver mann kjøper kun gaver .
 TestAttemptoPol: każdy mężczyzna kupi tylko mężczyzn .
 TestAttemptoRon: orice om cumpără doar nişte caoaoe .
-TestAttemptoRus: каждый человек покупает единственные подароков .
+TestAttemptoRus: каждый человек покупает единственные подароки .
 TestAttemptoSpa: cada hombre compra solamente regalos .
 TestAttemptoSwe: varje man köper bara presentar .
 
@@ -393,7 +393,7 @@ TestAttemptoLav: jebkas , kas pērk tikai attēlus ir sieviete .
 TestAttemptoNor: alt , som kjøper kun bilder er ei kvinne .
 TestAttemptoPol: wszystko , które kupi tylko mężczyzn jest kobietą .
 TestAttemptoRon: 
-TestAttemptoRus: всё , которое покупает единственные картин женщина .
+TestAttemptoRus: всё , которое покупает единственные картины женщина .
 TestAttemptoSpa: todo que compra solamente imagenes es una mujer .
 TestAttemptoSwe: allting , som köper bara bildar är en kvinna .
 
@@ -488,7 +488,7 @@ TestAttemptoLav: Toms mīl vismaz 2 amatpersonas .
 TestAttemptoNor: Tom elsker minst 2 offiserer .
 TestAttemptoPol: Paryż kocha co najmniej 2 mężczyzn .
 TestAttemptoRon: Tom iubeşte cel puţin 2 ofițere .
-TestAttemptoRus: Tom любдит по крайней мере 2 офицера .
+TestAttemptoRus: Tom любдит по крайней мере 2 офицеры .
 TestAttemptoSpa: Tom ama al menos 2 funcionarios .
 TestAttemptoSwe: Tom älskar minst 2 befälar .
 
@@ -507,7 +507,7 @@ TestAttemptoLav: Līza pērk ne vairāk kā 1 dāvanu .
 TestAttemptoNor: Lisa kjøper høyst 1 gave .
 TestAttemptoPol: Paryż kupi co najwyżej 1 mężczyznę .
 TestAttemptoRon: Lisa cumpără cel mult 1 cadou .
-TestAttemptoRus: Lisaа покупает не более 1 подарок .
+TestAttemptoRus: Lisa покупает не более 1 подарок .
 TestAttemptoSpa: Lisa compra a lo más 1 regalo .
 TestAttemptoSwe: Lisa köper högst 1 present .
 
@@ -526,7 +526,7 @@ TestAttemptoLav: ikviens ceļotājs redz vismaz 2 akvārijus .
 TestAttemptoNor: hver reisende ser minst 2 akvariumer .
 TestAttemptoPol: każdy mężczyzna widzi co najmniej 2 mężczyzn .
 TestAttemptoRon: orice călător vede cel puţin 2 acvarii .
-TestAttemptoRus: каждый путешественник видит по крайней мере 2 аквариума .
+TestAttemptoRus: каждый путешественник видит по крайней мере 2 аквариумы .
 TestAttemptoSpa: cada viajero ve al menos 2 acuarios .
 TestAttemptoSwe: varje resenär ser minst 2 akvariumar .
 
@@ -545,7 +545,7 @@ TestAttemptoLav: jebkas , kas pērk vismaz 2 dāvanas ir amatpersona .
 TestAttemptoNor: alt , som kjøper minst 2 gaver er en offiser .
 TestAttemptoPol: wszystko , które kupi co najmniej 2 mężczyzn jest mężczyzną .
 TestAttemptoRon: 
-TestAttemptoRus: всё , которое покупает по крайней мере 2 подарока офицер .
+TestAttemptoRus: всё , которое покупает по крайней мере 2 подароки офицер .
 TestAttemptoSpa: todo que compra al menos 2 regalos es un funcionario .
 TestAttemptoSwe: allting , som köper minst 2 presentar är en befäl .
 
@@ -583,7 +583,7 @@ TestAttemptoLav: jebkas , kas ir ceļotājs vai kas ir amatpersona redz ne vair�
 TestAttemptoNor: alt , som er ei reisende eller som er en offiser ser høyst 2 akvariumer .
 TestAttemptoPol: wszystko , które jest mężczyzną lub , które jest mężczyzną widzi co najwyżej 2 mężczyzn .
 TestAttemptoRon: 
-TestAttemptoRus: всё , которое путешественник или , которое офицер видит не более 2 аквариума .
+TestAttemptoRus: всё , которое путешественник или , которое офицер видит не более 2 аквариумы .
 TestAttemptoSpa: todo que es un viajero o que es un funcionario ve a lo más 2 acuarios .
 TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högst 2 akvariumar .
 
@@ -697,7 +697,7 @@ TestAttemptoLav: ir tiesa , ka kāds nepērk tieši 3 golferus .
 TestAttemptoNor: det er falsk at noen ikke kjøper nøyaktig 3 golfspillerer .
 TestAttemptoPol: jest źle , że ktoś nie kupi dokładnie 3 mężczyzn .
 TestAttemptoRon: este fals cã cineva nu cumpără exact 3 jucător de goalfe .
-TestAttemptoRus: неверно , что кто-то не покупает ровно 3 игрок в гольфа .
+TestAttemptoRus: неверно , что кто-то не покупает ровно 3 игрок в гольфы .
 TestAttemptoSpa: es falso que alguien no compra exactamente 3 golfistas .
 TestAttemptoSwe: det är falskt att någon inte köper exakt 3 golfspelaren .
 
@@ -906,7 +906,7 @@ TestAttemptoLav: Džons ir vīrietis Mērijas .
 TestAttemptoNor: John er en mann av Mary .
 TestAttemptoPol: Jan jest mężczyzną Paryża .
 TestAttemptoRon: John este un om lui Mary .
-TestAttemptoRus: Иван человек Maryи .
+TestAttemptoRus: Иван человек Maryа .
 TestAttemptoSpa: John es un hombre de Mary .
 TestAttemptoSwe: John är en man av Mary .
 
@@ -925,7 +925,7 @@ TestAttemptoLav: ikviens attēls golfera redz Mēriju .
 TestAttemptoNor: hver bilde av en golfspiller blir sett av Mary .
 TestAttemptoPol: każdy mężczyzna mężczyzny przez Paryż jest widziany .
 TestAttemptoRon: orice imagine unui jucător de golf este văzută de către Mary .
-TestAttemptoRus: каждая картина игрок в гольфа видится с помощью Maryи .
+TestAttemptoRus: каждая картина игрок в гольфа видится с помощью Maryа .
 TestAttemptoSpa: cada imagen de una golfista está visto por Mary .
 TestAttemptoSwe: varje bild av ett golfspelare blir sedd av Mary .
 
@@ -944,7 +944,7 @@ TestAttemptoLav: Līza ir amatpersona ikviena akvārija .
 TestAttemptoNor: Lisa er en offiser av hver akvarium .
 TestAttemptoPol: Paryż jest mężczyzną każdego mężczyzny .
 TestAttemptoRon: Lisa este un ofițer oricărui acvariu .
-TestAttemptoRus: Lisaа офицер каждого аквариума .
+TestAttemptoRus: Lisa офицер каждого аквариума .
 TestAttemptoSpa: Lisa es un funcionario de cada acuario .
 TestAttemptoSwe: Lisa är en befäl av varje akvarium .
 
@@ -1020,7 +1020,7 @@ TestAttemptoLav: tikai vīrieši redz Mēriju .
 TestAttemptoNor: kun menn ser Mary .
 TestAttemptoPol: tylko mężczyzn widzą Paryż .
 TestAttemptoRon: doar nişte oameni o văd pe Mary .
-TestAttemptoRus: единственные человеков видят Maryу .
+TestAttemptoRus: единственные людь видят Mary .
 TestAttemptoSpa: solamente hombres ven Mary .
 TestAttemptoSwe: bara män ser Mary .
 

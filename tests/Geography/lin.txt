@@ -63,7 +63,7 @@ GeographySpa: Zurich está contenido por Suiza .
 
 Geography: baseText (sText (simpleS_as_S (vpS (pnNP German_language_PN) (npVP (thereNP_as_NP (aNP (ofCN official_language_CN (pnNP European_Union_PN))))))))
 GeographyAce: German is an official-language of the EU .
-GeographyApe: pn_sg('German','German_PN',neutr) is a noun_sg('official-language','official-language_N',neutr) of thethethethe thethethethe EU_PN',neutr) .
+GeographyApe: pn_sg('German','German_PN',neutr) is a noun_sg('official-language','official-language_N',neutr) of pn_sg('the EU','the EU_PN',neutr) .
 GeographyDut: Duitse taal is een officiële taal van Europese Unie .
 GeographyFin: Saksan kieli on virallisella kielellä Euroopan unionin .
 GeographyGer: Deutsch ist eine offizielle Sprache von Europäische Union .
@@ -99,7 +99,7 @@ GeographySpa: ningún ciudad es un capital de más que 1 país .
 
 Geography: baseText (sText (simpleS_as_S (vpS (pnNP European_Union_PN) (npVP (pnNP European_Union_PN)))))
 GeographyAce: the EU is the EU .
-GeographyApe: thethethethe thethethethe EU_PN',neutr) is thethethethe thethethethe EU_PN',neutr) .
+GeographyApe: pn_sg('the EU','the EU_PN',neutr) is pn_sg('the EU','the EU_PN',neutr) .
 GeographyDut: Europese Unie is Europese Unie .
 GeographyFin: Euroopan unioni on Euroopan unioni .
 GeographyGer: Europäische Union ist Europäische Union .
