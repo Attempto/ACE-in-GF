@@ -46,11 +46,11 @@ aceGen : Gender -> Str = \g -> case g of {
 -- Generates ACE lexicon entries for nouns and proper names,
 -- i.e. things that have a gender.
 -- Input: predicate name, word form, logical symbol, gender
-aceNLex : (_,_,_:Str) -> Gender -> Str = \p,f,l,g -> p + "('" + f + "','" + l + "'," + aceGen g + ")" ;
+aceNLex : (_,_,_:Str) -> Gender -> Str = \p,f,l,g -> f + "|" + p + "|" + l + "|" + aceGen g ;
 
 -- Generates ACE lexicon entries for verbs.
 -- Input: predicate name, word form, logical symbol
-aceVLex : (_,_,_:Str) -> Str = \p,f,l -> p + "('" + f + "','" + l + "')" ;
+aceVLex : (_,_,_:Str) -> Str = \p,f,l -> f + "|" + p + "|" + l ;
 
 -- ACE transitive verbs (V2)
 --
@@ -130,7 +130,7 @@ mkAceNoun g n =
 -- Physically glue preposition to adjective, i.e. "mad-about" [JJC]
 ace_prepA2 : A -> Prep -> A2 ;
 ace_prepA2 a p = lin A2 {
-  s = \\aform => ADJ_TR + "('" + (a.s ! aform) + "-" + p.s + "','" + (a.s ! aform) + "-" + p.s + "_A2','" + p.s + "')" ;
+  s = \\aform => (a.s ! aform) + "-" + p.s + "|" + ADJ_TR + "|" + (a.s ! aform) + "-" + p.s + "_A2|" + p.s ;
   c2 = [] -- unused
 };
 
