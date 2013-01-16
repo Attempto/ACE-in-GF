@@ -7,6 +7,9 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
   (Extra = ExtraAce),
   (LexAttempto = LexAttemptoAce) ** open ExtraAce, ResAce, Precedence in {
 
+  -- The (preferred) locale of ACE is "en" (without any qualifiers).
+  flags language = en ;
+
   -- Variables have genitives [JJC]
   lincat Var = {s : Case => Str};
   lin var_Term v = mkpConst (NomVar v) ;
