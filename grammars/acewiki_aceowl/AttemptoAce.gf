@@ -1,7 +1,10 @@
 --# -path=.:present
 
 concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
-  AttemptoI - [apposVarCN, indefTherePronVarNP, indefPronVarNP, vp_as_negVPS] with
+  AttemptoI - [
+    CN, PN, V2,
+    apposVarCN, indefTherePronVarNP, indefPronVarNP, vp_as_negVPS
+  ] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
   (Extra = ExtraAce),
@@ -10,8 +13,19 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
   -- The (preferred) locale of ACE is "en" (without any qualifiers).
   flags language = en ;
 
+  printname cat CN = "common noun" ;
+  lincat CN = Syntax.CN ;
+
+  printname cat PN = "proper name" ;
+  lincat PN = Syntax.PN ;
+
+  printname cat V2 = "transitive verb" ;
+  lincat V2 = Syntax.V2 ;
+
   -- Variables have genitives [JJC]
+  printname cat Var = "reference" ;
   lincat Var = {s : Case => Str};
+
   lin var_Term v = mkpConst (NomVar v) ;
   lin X_Var = {s = regGenitiveS "X"} ;
   lin Y_Var = {s = regGenitiveS "Y"} ;

@@ -1,11 +1,26 @@
 --# -path=.:present
 
 concrete AttemptoGer of Attempto = SymbolsC, NumeralGer **
-  AttemptoI - [if_thenS] with
+  AttemptoI - [
+    CN, PN, V2,
+    if_thenS
+  ] with
   (Syntax = SyntaxGer),
   (Symbolic = SymbolicGer),
   (Extra = ExtraGer),
   (LexAttempto = LexAttemptoGer) ** open SentenceGer, ResGer, Prelude in {
+
+  flags language = de_DE ;
+
+  printname cat CN = "Substantiv" ;
+  lincat CN = Syntax.CN ;
+
+  printname cat PN = "Eigenname" ;
+  lincat PN = Syntax.PN ;
+
+  printname cat V2 = "Verb" ;
+  lincat V2 = Syntax.V2 ;
+
 
 oper then_Adv = ss "dann" ;
 
