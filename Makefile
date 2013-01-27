@@ -18,6 +18,7 @@ tests_onto_ext = tests/ontograph_ext
 # Words
 Geography = Geography
 Simple = Simple
+Words300 = Words300
 
 Roundtripper = Roundtripper
 
@@ -35,6 +36,7 @@ languages = Ace Ape Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav Pol Ron Rus
 
 langs_Geography = Ace Ape Dut Fin Ger Ita Spa
 langs_Simple = Ace
+langs_Words300 = Ace Fin Ger Ita Ron Spa
 
 # Compile application grammars in all languages
 all_grammars:
@@ -62,6 +64,9 @@ pgf_Geography:
 
 pgf_Simple:
 	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_Simple),words/$(Simple)/$(Simple)$(lang).gf)
+
+pgf_Words300:
+	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_Words300),words/$(Words300)/$(Words300)$(lang).gf)
 
 # Parse ontograph_40 sentences and linearise into all languages
 lin_ontograph_40:
