@@ -36,7 +36,7 @@ languages = Ace Ape Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav Pol Ron Rus
 
 langs_Geography = Ace Ape Dut Fin Ger Ita Spa
 langs_Simple = Ace
-langs_Words300 = Ace Fin Ger Ita Ron Spa
+langs_Words300 = Ace Cat Dan Dut Fin Fre Ger Ita Lav Nor Pol Ron Rus Spa Swe
 
 # Compile application grammars in all languages
 all_grammars:
@@ -135,6 +135,9 @@ test_precision_range:
 	bash run-precision-test.bash 100 5
 	bash run-precision-test.bash 100 6
 	bash run-precision-test.bash 100 7
+
+gr_Words300: pgf_Words300
+	echo "gr -cat=QS -number=10 -probs=words/Words300/Words300.probs | l -treebank -bind" | gf --run Words300.pgf
 
 Parser: Parser.hs
 	ghc --make -o Parser Parser.hs
