@@ -137,7 +137,8 @@ test_precision_range:
 	bash run-precision-test.bash 100 7
 
 gr_Words300: pgf_Words300
-	echo "gr -cat=QS -number=10 -probs=words/Words300/Words300.probs | l -treebank -bind" | gf --run Words300.pgf
+	echo "gr -cat=S -number=5 -probs=probs/exclude_for_every.probs | l -treebank -bind" | gf --run Words300.pgf
+	echo "gr -cat=QS -number=5 | l -treebank -bind" | gf --run Words300.pgf
 
 Parser: Parser.hs
 	ghc --make -o Parser Parser.hs
