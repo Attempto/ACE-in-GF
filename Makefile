@@ -137,8 +137,13 @@ test_precision_range:
 	bash run-precision-test.bash 100 7
 
 gr_Words300: pgf_Words300
-	echo "gr -cat=S -number=5 -probs=probs/exclude_for_every.probs | l -treebank -bind" | gf --run Words300.pgf
-	echo "gr -cat=QS -number=5 | l -treebank -bind" | gf --run Words300.pgf
+	echo "gr -lang=Words300Ace -cat=S -number=5 -probs=probs/combined.probs | l -treebank -bind" | gf --run Words300.pgf
+	echo "gr -lang=Words300Ace -cat=QS -number=5 -probs=probs/combined.probs | l -treebank -bind" | gf --run Words300.pgf
+
+gr_Words300_with_abstract: pgf_Words300
+	rm -f $(Words300).tb
+	echo "gr -cat=S -number=100 -probs=probs/combined.probs" | gf --run --path=$(path) grammars/acewiki_aceowl/Attempto.gf words/$(Words300)/$(Words300).gf > $(Words300).tb
+	echo "rf -file=$(Words300).tb -lines -tree | l -treebank -bind" | gf --run Words300.pgf
 
 Parser: Parser.hs
 	ghc --make -o Parser Parser.hs
