@@ -29,6 +29,7 @@ concrete AttemptoAce of Attempto = NumeralAce **
 
   lin X_Var = {s = regGenitiveS "X"} ;
   lin Y_Var = {s = regGenitiveS "Y"} ;
+  lin Z_Var = {s = regGenitiveS "Z"} ;
   oper NomVar : {s : Case => Str} -> Str = \v -> v.s ! Nom ;
 
   -- "everybody X" etc [JJC]

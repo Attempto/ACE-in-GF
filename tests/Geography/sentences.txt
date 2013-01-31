@@ -3,6 +3,7 @@ no country X borders X .
 for every country X X does not border X .
 if X borders Y then Y borders X .
 if X contains Y then Y does not contain X .
+if X contains Y and Y contains Z then Z is contained by X .
 Switzerland borders no sea .
 Zurich is contained by Switzerland .
 German is an official-language of the European Union .

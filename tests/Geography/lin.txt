@@ -43,6 +43,15 @@ GeographyGer: wenn X Y enthält , dann enthält Y X nicht .
 GeographyIta: si X contena Y allora Y non contena X .
 GeographySpa: si X contiene Y entonces Y no contiene X .
 
+Geography: baseText (sText (if_thenS (coordS and_Conj (simpleS_as_S (vpS (termNP X_Var) (v2VP contain_V2 (termNP Y_Var)))) (simpleS_as_S (vpS (termNP Y_Var) (v2VP contain_V2 (termNP Z_Var))))) (simpleS_as_S (vpS (termNP Z_Var) (v2_byVP contain_V2 (termNP X_Var))))))
+GeographyAce: if X contains Y and Y contains Z then Z is contained by X .
+GeographyApe: if X contains|tv_finsg|contain_V2 Y and Y contains|tv_finsg|contain_V2 Z then Z is contained|tv_pp|contain_V2 by X .
+GeographyDut: als X Y bevat en Y Z bevat , dan wordt Z door X gebevat .
+GeographyFin: jos X sisältää Y:n ja Y sisältää Z:n niin Z sisälletään X:n toimesta .
+GeographyGer: wenn X Y enthält und Y Z enthält , dann wird Z durch X enthalten .
+GeographyIta: si X contena Y e Y contena Z allora Z viene contenato da X .
+GeographySpa: si X contiene Y y Y contiene Z entonces Z está contenido por X .
+
 Geography: baseText (sText (simpleS_as_S (vpS (pnNP Switzerland_PN) (v2VP border_V2 (noNP (cn_as_VarCN sea_CN))))))
 GeographyAce: Switzerland borders no sea .
 GeographyApe: Switzerland|pn_sg|Switzerland_PN|neutr borders|tv_finsg|border_V2 no sea|noun_sg|sea_N|neutr .

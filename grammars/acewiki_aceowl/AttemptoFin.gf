@@ -31,6 +31,7 @@ concrete AttemptoFin of Attempto = NumeralFin **
 
   lin X_Var = M.nForms2N (M.dSDP "X") ;
   lin Y_Var = M.nForms2N (M.dSDP "Y") ;
+  lin Z_Var = M.nForms2N (M.dSDP "Z") ;
 
   -- "everybody X" etc
   -- "somebody X" and "something X"

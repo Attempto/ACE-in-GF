@@ -4,5 +4,6 @@ lincat Var = SS ;
 
 lin X_Var = ss "X" ;
 lin Y_Var = ss "Y" ;
+lin Z_Var = ss "Z" ;
 
 }
