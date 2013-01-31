@@ -10,6 +10,8 @@ every city is not a capital of a country .
 there is a city that is not a capital of a country .
 no city is a capital of more than 1 country .
 the EU is the European Union .
+for every country X a capital of X is contained by X and is not a sea .
+a capital of X is contained by X and is not a sea .
 what is Switzerland ?
 which country borders Switzerland ?
 which countries border at least 5 countries ?

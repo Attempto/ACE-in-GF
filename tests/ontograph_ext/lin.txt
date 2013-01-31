@@ -594,7 +594,7 @@ TestAttemptoCat: si X veu Y llavors Y no estima X .
 TestAttemptoDan: hvis X ser Y så Y elsker ikke X .
 TestAttemptoDut: als X Y ziet , dan heeft Y niet X lief .
 TestAttemptoEng: if X sees Y then Y doesn't love X .
-TestAttemptoFin: jos X näkee Y niin Y ei rakasta X .
+TestAttemptoFin: jos X näkee Y:n niin Y ei rakasta X:ää .
 TestAttemptoFre: si X voit Y alors Y n' aime pas X .
 TestAttemptoGer: wenn X Y sieht , dann liebt Y X nicht .
 TestAttemptoIta: si X vede Y allora Y non ama X .
@@ -613,7 +613,7 @@ TestAttemptoCat: si X veu alg˙ que veu Y llavors X veu Y .
 TestAttemptoDan: hvis X ser nogen , som ser Y så X ser Y .
 TestAttemptoDut: als X iemand , die Y ziet ziet , dan ziet X Y .
 TestAttemptoEng: if X sees somebody that sees Y then X sees Y .
-TestAttemptoFin: jos X näkee jonkun , joka näkee Y niin X näkee Y .
+TestAttemptoFin: jos X näkee jonkun , joka näkee Y:n niin X näkee Y:n .
 TestAttemptoFre: si X voit quelqu'un qui voit Y alors X voit Y .
 TestAttemptoGer: wenn X jemanden , das Y sieht sieht , dann sieht X Y .
 TestAttemptoIta: si X vede qualcuno che vede Y allora X vede Y .
@@ -632,7 +632,7 @@ TestAttemptoCat: si X admira Y llavors X veu Y .
 TestAttemptoDan: hvis X beundrer Y så X ser Y .
 TestAttemptoDut: als X Y bewondert , dan ziet X Y .
 TestAttemptoEng: if X admires Y then X sees Y .
-TestAttemptoFin: jos X ihailee Y niin X näkee Y .
+TestAttemptoFin: jos X ihailee Y:n niin X näkee Y:n .
 TestAttemptoFre: si X admire Y alors X voit Y .
 TestAttemptoGer: wenn X Y bewundert , dann sieht X Y .
 TestAttemptoIta: si X ammira Y allora X vede Y .
@@ -651,7 +651,7 @@ TestAttemptoCat: si X ajuda Y llavors Y admira X .
 TestAttemptoDan: hvis X hjælper Y så Y beundrer X .
 TestAttemptoDut: als X Y helpt , dan bewondert Y X .
 TestAttemptoEng: if X helps Y then Y admires X .
-TestAttemptoFin: jos X auttaa Y niin Y ihailee X .
+TestAttemptoFin: jos X auttaa Y:n niin Y ihailee X:n .
 TestAttemptoFre: si X aide Y alors Y admire X .
 TestAttemptoGer: wenn X Y hilft , dann bewundert Y X .
 TestAttemptoIta: si X aiuta Y allora Y ammira X .
@@ -670,7 +670,7 @@ TestAttemptoCat: si X estima Y llavors X no admira Y .
 TestAttemptoDan: hvis X elsker Y så X beundrer ikke Y .
 TestAttemptoDut: als X Y lief heeft , dan bewondert X niet Y .
 TestAttemptoEng: if X loves Y then X doesn't admire Y .
-TestAttemptoFin: jos X rakastaa Y niin X ei ihaile Y .
+TestAttemptoFin: jos X rakastaa Y:tä niin X ei ihaile Y:tä .
 TestAttemptoFre: si X aime Y alors X n' admire pas Y .
 TestAttemptoGer: wenn X Y liebt , dann bewundert X Y nicht .
 TestAttemptoIta: si X ama Y allora X non ammira Y .
@@ -784,7 +784,7 @@ TestAttemptoCat: quin home estima X ?
 TestAttemptoDan: hvilken mand elsker X ?
 TestAttemptoDut: welke man heeft X lief ?
 TestAttemptoEng: which man loves somebody X ?
-TestAttemptoFin: mikä mies rakastaa X ?
+TestAttemptoFin: mikä mies rakastaa jotakuta X ?
 TestAttemptoFre: quel homme aime X ?
 TestAttemptoGer: welcher Mann liebt X ?
 TestAttemptoIta: quale uomo ama X ?
@@ -860,7 +860,7 @@ TestAttemptoCat: quin home està estimat per X ?
 TestAttemptoDan: hvilken mand bliver elsket af X ?
 TestAttemptoDut: welke man wordt door X liefgehad ?
 TestAttemptoEng: which man is loved by somebody X ?
-TestAttemptoFin: mitä miestä rakastetaan X toimesta ?
+TestAttemptoFin: mitä miestä rakastetaan jonkun X toimesta ?
 TestAttemptoFre: quel homme est aimé par X ?
 TestAttemptoGer: welcher Mann wird durch X geliebt ?
 TestAttemptoIta: quale uomo viene amato da X ?
@@ -1050,7 +1050,7 @@ TestAttemptoCat: John veu X .
 TestAttemptoDan: John ser X .
 TestAttemptoDut: John ziet X .
 TestAttemptoEng: John sees X .
-TestAttemptoFin: John näkee X .
+TestAttemptoFin: John näkee X:n .
 TestAttemptoFre: John voit X .
 TestAttemptoGer: John sieht X .
 TestAttemptoIta: John vede X .
@@ -1069,7 +1069,7 @@ TestAttemptoCat: X és X .
 TestAttemptoDan: X er X .
 TestAttemptoDut: X is X .
 TestAttemptoEng: X is something X .
-TestAttemptoFin: X on X .
+TestAttemptoFin: X on jokin X .
 TestAttemptoFre: X est X .
 TestAttemptoGer: X ist X .
 TestAttemptoIta: X è X .
@@ -1080,5 +1080,24 @@ TestAttemptoRon: X este X .
 TestAttemptoRus: X X .
 TestAttemptoSpa: X es X .
 TestAttemptoSwe: X är X .
+
+TestAttempto: baseText (sText (simpleS_as_S (neg_vpS (everyNP (apposVarCN man_N X_Var)) (v2VP see_V2 (thereNP_as_NP (aNP (apposVarCN woman_N Y_Var)))))))
+TestAttemptoAce: every man X doesn't see a woman Y .
+TestAttemptoApe: every man|noun_sg|man_N|masc X doesn't see|tv_infpl|see_V2 a woman|noun_sg|woman_N|fem Y .
+TestAttemptoCat: cada home X no veu una dona Y .
+TestAttemptoDan: hver mand X ser ikke en kvinde Y .
+TestAttemptoDut: elke man X ziet niet een vrouw Y .
+TestAttemptoEng: every man X doesn't see a woman Y .
+TestAttemptoFin: jokainen mies X ei näe naista Y .
+TestAttemptoFre: chaque homme X ne voit pas une femme Y .
+TestAttemptoGer: jeder Mann X sieht nicht eine Frau Y .
+TestAttemptoIta: ogni uomo X non vede una donna Y .
+TestAttemptoLav: ikviens vīrieši X neredz sievietes Y .
+TestAttemptoNor: hver mann X ser ikke ei kvinne Y .
+TestAttemptoPol: każdy mężczyzna X nie widzi kobiety Y .
+TestAttemptoRon: orice om X nu vede o femeie Y .
+TestAttemptoRus: каждый человек X не видит женщину Y .
+TestAttemptoSpa: cada hombre X no ve una mujer Y .
+TestAttemptoSwe: varje man X ser inte en kvinna Y .
 
 

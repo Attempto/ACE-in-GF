@@ -11,7 +11,7 @@ Geography: baseText (sText (simpleS_as_S (vpS (noNP (apposVarCN country_CN X_Var
 GeographyAce: no country X borders X .
 GeographyApe: no country|noun_sg|country_N|neutr X borders|tv_finsg|border_V2 X .
 GeographyDut: geen land X grenst X .
-GeographyFin: mikään maa X ei raja X .
+GeographyFin: mikään maa X ei raja X:ää .
 GeographyGer: kein Land X grenzt an X .
 GeographyIta: nessuno paese X confa X .
 GeographySpa: ningún país X frontea X .
@@ -20,7 +20,7 @@ Geography: baseText (sText (for_everyS (apposVarCN country_CN X_Var) (simpleS_as
 GeographyAce: for every country X X doesn't border X .
 GeographyApe: for every country|noun_sg|country_N|neutr X X doesn't border|tv_infpl|border_V2 X .
 GeographyDut: voor elke land X grenst X niet X .
-GeographyFin: jokaiselle maalle X X ei raja X .
+GeographyFin: jokaiselle maalle X X ei raja X:ää .
 GeographyGer: für jedes Land X grenzt X an X nicht .
 GeographyIta: per ogni paese X X non confa X .
 GeographySpa: para cada país X X no frontea X .
@@ -29,7 +29,7 @@ Geography: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP X_Var) (v2VP bor
 GeographyAce: if X borders Y then Y borders X .
 GeographyApe: if X borders|tv_finsg|border_V2 Y then Y borders|tv_finsg|border_V2 X .
 GeographyDut: als X Y grenst , dan grenst Y X .
-GeographyFin: jos X rajaa Y niin Y rajaa X .
+GeographyFin: jos X rajaa Y:n niin Y rajaa X:n .
 GeographyGer: wenn X an Y grenzt , dann grenzt Y an X .
 GeographyIta: si X confa Y allora Y confa X .
 GeographySpa: si X frontea Y entonces Y frontea X .
@@ -38,7 +38,7 @@ Geography: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP X_Var) (v2VP con
 GeographyAce: if X contains Y then Y doesn't contain X .
 GeographyApe: if X contains|tv_finsg|contain_V2 Y then Y doesn't contain|tv_infpl|contain_V2 X .
 GeographyDut: als X Y bevat , dan bevat Y niet X .
-GeographyFin: jos X sisältää Y niin Y ei sisällä X .
+GeographyFin: jos X sisältää Y:n niin Y ei sisällä X:ää .
 GeographyGer: wenn X Y enthält , dann enthält Y X nicht .
 GeographyIta: si X contena Y allora Y non contena X .
 GeographySpa: si X contiene Y entonces Y no contiene X .
@@ -105,6 +105,24 @@ GeographyFin: Euroopan unioni on Euroopan unioni .
 GeographyGer: Europäische Union ist Europäische Union .
 GeographyIta: Unione Europea è Unione Europea .
 GeographySpa: Unión Europea es Unión Europea .
+
+Geography: baseText (sText (for_everyS (apposVarCN country_CN X_Var) (simpleS_as_S (np_coord_VPS (thereNP_as_NP (aNP (ofCN capital_CN (termNP X_Var)))) and_Conj (BaseVPS (vp_as_posVPS (v2_byVP contain_V2 (termNP X_Var))) (vp_as_negVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN sea_CN))))))))))
+GeographyAce: for every country X a capital of X is contained by X and isn't a sea .
+GeographyApe: for every country|noun_sg|country_N|neutr X a capital|noun_sg|capital_N|neutr of X is contained|tv_pp|contain_V2 by X and isn't a sea|noun_sg|sea_N|neutr .
+GeographyDut: voor elke land X wordt door X gebevat en is niet een zee een hoofdstad van X .
+GeographyFin: jokaiselle maalle X pääoma X:n sisälletään X:n toimesta ja ei ole meri .
+GeographyGer: für jedes Land X wird durch X enthalten und ist nicht ein Meer ein Hauptstadt von X .
+GeographyIta: per ogni paese X un capitale di X viene contenato da X e non è un mare .
+GeographySpa: para cada país X un capital de X está contenido por X y no es un mar .
+
+Geography: baseText (sText (simpleS_as_S (np_coord_VPS (thereNP_as_NP (aNP (ofCN capital_CN (termNP X_Var)))) and_Conj (BaseVPS (vp_as_posVPS (v2_byVP contain_V2 (termNP X_Var))) (vp_as_negVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN sea_CN)))))))))
+GeographyAce: a capital of X is contained by X and isn't a sea .
+GeographyApe: a capital|noun_sg|capital_N|neutr of X is contained|tv_pp|contain_V2 by X and isn't a sea|noun_sg|sea_N|neutr .
+GeographyDut: een hoofdstad van X wordt door X gebevat en is niet een zee .
+GeographyFin: pääoma X:n sisälletään X:n toimesta ja ei ole meri .
+GeographyGer: ein Hauptstadt von X wird durch X enthalten und ist nicht ein Meer .
+GeographyIta: un capitale di X viene contenato da X e non è un mare .
+GeographySpa: un capital de X está contenido por X y no es un mar .
 
 Geography: baseText (qsText (npqQS (ipNPQ whatSg_IP) (npVP (pnNP Switzerland_PN))))
 GeographyAce: what is Switzerland ?

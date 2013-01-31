@@ -54,3 +54,4 @@ nothing but men see Mary .
 John is X .
 John sees X .
 X is something X .
+every man X does not see a woman Y .
