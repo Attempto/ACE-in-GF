@@ -1,8 +1,6 @@
-abstract Symbols = open Cat in {
+abstract Symbols = {
 
-cat Var ; Term ;
-
-fun var_Term : Var -> Term ;
+cat Var ;
 
 fun X_Var : Var ;
 fun Y_Var : Var ;

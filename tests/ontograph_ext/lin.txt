@@ -587,7 +587,7 @@ TestAttemptoRus: всё , которое путешественник или , �
 TestAttemptoSpa: todo que es un viajero o que es un funcionario ve a lo más 2 acuarios .
 TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högst 2 akvariumar .
 
-TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (neg_vpS (termNP (var_Term Y_Var)) (v2VP love_V2 (termNP (var_Term X_Var)))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP X_Var) (v2VP see_V2 (termNP Y_Var)))) (simpleS_as_S (neg_vpS (termNP Y_Var) (v2VP love_V2 (termNP X_Var))))))
 TestAttemptoAce: if X sees Y then Y doesn't love X .
 TestAttemptoApe: if X sees|tv_finsg|see_V2 Y then Y doesn't love|tv_infpl|love_V2 X .
 TestAttemptoCat: si X veu Y llavors Y no estima X .
@@ -606,7 +606,7 @@ TestAttemptoRus: если X видит Y то Y не любдит X .
 TestAttemptoSpa: si X ve Y entonces Y no ama X .
 TestAttemptoSwe: om X ser Y så Y älskar inte X .
 
-TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (relNP (thereNP_as_NP (indefTherePronNP somebody_IPron)) (predRS which_RP (v2VP see_V2 (termNP (var_Term Y_Var)))))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var)))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP X_Var) (v2VP see_V2 (relNP (thereNP_as_NP (indefTherePronNP somebody_IPron)) (predRS which_RP (v2VP see_V2 (termNP Y_Var))))))) (simpleS_as_S (vpS (termNP X_Var) (v2VP see_V2 (termNP Y_Var))))))
 TestAttemptoAce: if X sees somebody that sees Y then X sees Y .
 TestAttemptoApe: if X sees|tv_finsg|see_V2 somebody that sees|tv_finsg|see_V2 Y then X sees|tv_finsg|see_V2 Y .
 TestAttemptoCat: si X veu alg˙ que veu Y llavors X veu Y .
@@ -625,7 +625,7 @@ TestAttemptoRus: если X видит кого-то , который видит
 TestAttemptoSpa: si X ve alguien que ve Y entonces X ve Y .
 TestAttemptoSwe: om X ser någon , som ser Y så X ser Y .
 
-TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP see_V2 (termNP (var_Term Y_Var)))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP X_Var) (v2VP admire_V2 (termNP Y_Var)))) (simpleS_as_S (vpS (termNP X_Var) (v2VP see_V2 (termNP Y_Var))))))
 TestAttemptoAce: if X admires Y then X sees Y .
 TestAttemptoApe: if X admires|tv_finsg|admire_V2 Y then X sees|tv_finsg|see_V2 Y .
 TestAttemptoCat: si X admira Y llavors X veu Y .
@@ -644,7 +644,7 @@ TestAttemptoRus: если X боет Y то X видит Y .
 TestAttemptoSpa: si X admira Y entonces X ve Y .
 TestAttemptoSwe: om X beundrar Y så X ser Y .
 
-TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP help_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term Y_Var)) (v2VP admire_V2 (termNP (var_Term X_Var)))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP X_Var) (v2VP help_V2 (termNP Y_Var)))) (simpleS_as_S (vpS (termNP Y_Var) (v2VP admire_V2 (termNP X_Var))))))
 TestAttemptoAce: if X helps Y then Y admires X .
 TestAttemptoApe: if X helps|tv_finsg|help_V2 Y then Y admires|tv_finsg|admire_V2 X .
 TestAttemptoCat: si X ajuda Y llavors Y admira X .
@@ -663,7 +663,7 @@ TestAttemptoRus: если X толкает Y то Y боет X .
 TestAttemptoSpa: si X ayuda Y entonces Y admira X .
 TestAttemptoSwe: om X assisterar Y så Y beundrar X .
 
-TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP love_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (neg_vpS (termNP (var_Term X_Var)) (v2VP admire_V2 (termNP (var_Term Y_Var)))))))
+TestAttempto: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP X_Var) (v2VP love_V2 (termNP Y_Var)))) (simpleS_as_S (neg_vpS (termNP X_Var) (v2VP admire_V2 (termNP Y_Var))))))
 TestAttemptoAce: if X loves Y then X doesn't admire Y .
 TestAttemptoApe: if X loves|tv_finsg|love_V2 Y then X doesn't admire|tv_infpl|admire_V2 Y .
 TestAttemptoCat: si X estima Y llavors X no admira Y .
@@ -1023,5 +1023,62 @@ TestAttemptoRon: doar nişte oameni o văd pe Mary .
 TestAttemptoRus: единственные людь видят Mary .
 TestAttemptoSpa: solamente hombres ven Mary .
 TestAttemptoSwe: bara män ser Mary .
+
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (npVP (termNP X_Var)))))
+TestAttemptoAce: John is X .
+TestAttemptoApe: John|pn_sg|John_PN|masc is X .
+TestAttemptoCat: John és X .
+TestAttemptoDan: John er X .
+TestAttemptoDut: John is X .
+TestAttemptoEng: John is X .
+TestAttemptoFin: John on X .
+TestAttemptoFre: John est X .
+TestAttemptoGer: John ist X .
+TestAttemptoIta: John è X .
+TestAttemptoLav: Džons ir X .
+TestAttemptoNor: John er X .
+TestAttemptoPol: Jan jest X .
+TestAttemptoRon: John este X .
+TestAttemptoRus: Иван X .
+TestAttemptoSpa: John es X .
+TestAttemptoSwe: John är X .
+
+TestAttempto: baseText (sText (simpleS_as_S (vpS (pnNP john_PN) (v2VP see_V2 (termNP X_Var)))))
+TestAttemptoAce: John sees X .
+TestAttemptoApe: John|pn_sg|John_PN|masc sees|tv_finsg|see_V2 X .
+TestAttemptoCat: John veu X .
+TestAttemptoDan: John ser X .
+TestAttemptoDut: John ziet X .
+TestAttemptoEng: John sees X .
+TestAttemptoFin: John näkee X .
+TestAttemptoFre: John voit X .
+TestAttemptoGer: John sieht X .
+TestAttemptoIta: John vede X .
+TestAttemptoLav: Džons redz X .
+TestAttemptoNor: John ser X .
+TestAttemptoPol: Jan widzi X .
+TestAttemptoRon: John îl vede pe X .
+TestAttemptoRus: Иван видит X .
+TestAttemptoSpa: John ve X .
+TestAttemptoSwe: John ser X .
+
+TestAttempto: baseText (sText (simpleS_as_S (vpS (termNP X_Var) (npVP (thereNP_as_NP (indefTherePronVarNP something_IPron X_Var))))))
+TestAttemptoAce: X is something X .
+TestAttemptoApe: X is something X .
+TestAttemptoCat: X és X .
+TestAttemptoDan: X er X .
+TestAttemptoDut: X is X .
+TestAttemptoEng: X is something X .
+TestAttemptoFin: X on X .
+TestAttemptoFre: X est X .
+TestAttemptoGer: X ist X .
+TestAttemptoIta: X è X .
+TestAttemptoLav: X ir X .
+TestAttemptoNor: X er X .
+TestAttemptoPol: X jest X .
+TestAttemptoRon: X este X .
+TestAttemptoRus: X X .
+TestAttemptoSpa: X es X .
+TestAttemptoSwe: X är X .
 
 

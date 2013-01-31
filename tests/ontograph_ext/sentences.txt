@@ -51,3 +51,6 @@ exactly 2 officers are a present of what ?
 John is Tom .
 John is every man .
 nothing but men see Mary .
+John is X .
+John sees X .
+X is something X .

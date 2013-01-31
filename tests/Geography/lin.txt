@@ -7,7 +7,7 @@ GeographyGer: jedes Land grenzt an ein Land oder wird durch ein Meer gegrenzt .
 GeographyIta: ogni paese confa un paese o viene confato da un mare .
 GeographySpa: cada país frontea un país o está fronteado por un mar .
 
-Geography: baseText (sText (simpleS_as_S (vpS (noNP (apposVarCN country_CN X_Var)) (v2VP border_V2 (termNP (var_Term X_Var))))))
+Geography: baseText (sText (simpleS_as_S (vpS (noNP (apposVarCN country_CN X_Var)) (v2VP border_V2 (termNP X_Var)))))
 GeographyAce: no country X borders X .
 GeographyApe: no country|noun_sg|country_N|neutr X borders|tv_finsg|border_V2 X .
 GeographyDut: geen land X grenst X .
@@ -16,7 +16,7 @@ GeographyGer: kein Land X grenzt an X .
 GeographyIta: nessuno paese X confa X .
 GeographySpa: ningún país X frontea X .
 
-Geography: baseText (sText (for_everyS (apposVarCN country_CN X_Var) (simpleS_as_S (neg_vpS (termNP (var_Term X_Var)) (v2VP border_V2 (termNP (var_Term X_Var)))))))
+Geography: baseText (sText (for_everyS (apposVarCN country_CN X_Var) (simpleS_as_S (neg_vpS (termNP X_Var) (v2VP border_V2 (termNP X_Var))))))
 GeographyAce: for every country X X doesn't border X .
 GeographyApe: for every country|noun_sg|country_N|neutr X X doesn't border|tv_infpl|border_V2 X .
 GeographyDut: voor elke land X grenst X niet X .
@@ -25,7 +25,7 @@ GeographyGer: für jedes Land X grenzt X an X nicht .
 GeographyIta: per ogni paese X X non confa X .
 GeographySpa: para cada país X X no frontea X .
 
-Geography: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP border_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (vpS (termNP (var_Term Y_Var)) (v2VP border_V2 (termNP (var_Term X_Var)))))))
+Geography: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP X_Var) (v2VP border_V2 (termNP Y_Var)))) (simpleS_as_S (vpS (termNP Y_Var) (v2VP border_V2 (termNP X_Var))))))
 GeographyAce: if X borders Y then Y borders X .
 GeographyApe: if X borders|tv_finsg|border_V2 Y then Y borders|tv_finsg|border_V2 X .
 GeographyDut: als X Y grenst , dan grenst Y X .
@@ -34,7 +34,7 @@ GeographyGer: wenn X an Y grenzt , dann grenzt Y an X .
 GeographyIta: si X confa Y allora Y confa X .
 GeographySpa: si X frontea Y entonces Y frontea X .
 
-Geography: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP (var_Term X_Var)) (v2VP contain_V2 (termNP (var_Term Y_Var))))) (simpleS_as_S (neg_vpS (termNP (var_Term Y_Var)) (v2VP contain_V2 (termNP (var_Term X_Var)))))))
+Geography: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP X_Var) (v2VP contain_V2 (termNP Y_Var)))) (simpleS_as_S (neg_vpS (termNP Y_Var) (v2VP contain_V2 (termNP X_Var))))))
 GeographyAce: if X contains Y then Y doesn't contain X .
 GeographyApe: if X contains|tv_finsg|contain_V2 Y then Y doesn't contain|tv_infpl|contain_V2 X .
 GeographyDut: als X Y bevat , dan bevat Y niet X .

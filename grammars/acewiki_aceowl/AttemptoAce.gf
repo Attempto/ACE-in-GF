@@ -1,9 +1,10 @@
 --# -path=.:present
 
-concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
+concrete AttemptoAce of Attempto = NumeralAce **
   AttemptoI - [
     CN, PN, V2,
-    apposVarCN, indefTherePronVarNP, indefPronVarNP, vp_as_negVPS
+    apposVarCN, indefTherePronVarNP, indefPronVarNP, vp_as_negVPS,
+    termNP
   ] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
@@ -26,7 +27,6 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
   printname cat Var = "reference" ;
   lincat Var = {s : Case => Str};
 
-  lin var_Term v = mkpConst (NomVar v) ;
   lin X_Var = {s = regGenitiveS "X"} ;
   lin Y_Var = {s = regGenitiveS "Y"} ;
   oper NomVar : {s : Case => Str} -> Str = \v -> v.s ! Nom ;
@@ -46,6 +46,8 @@ concrete AttemptoAce of Attempto = SymbolsC [Term], NumeralAce **
 
   -- We override this because of the linearisation of Var [JJC]
   lin apposVarCN cn v = mkCN cn (symb (NomVar v)) ;
+
+  lin termNP v = symb (NomVar v) ;
 
   lin vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) AnyNeg ;
 

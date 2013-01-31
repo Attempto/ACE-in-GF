@@ -69,7 +69,7 @@ fun apposVarCN : CN -> Var -> VarCN ;  -- a man X
 fun cn_as_VarCN : CN -> VarCN ;
 
 -- Note: in full ACE this must be ThereNP [KK]
-fun termNP : Term -> NP ;
+fun termNP : Var -> NP ;
 
 -- Relative clause can be attached to both CNs and NPs.
 -- relCN provides relative clauses in constructs like
