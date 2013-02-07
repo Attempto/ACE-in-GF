@@ -149,7 +149,6 @@ fun
   ice_CN : CN ;
   industry_CN : CN ;
   iron_CN : CN ;
-  john_PN : PN ;
   king_CN : CN ;
   knee_CN : CN ;
   lake_CN : CN ;
@@ -176,7 +175,6 @@ fun
   number_CN : CN ;
   oil_CN : CN ;
   paper_CN : CN ;
-  paris_PN : PN ;
   peace_CN : CN ;
   pen_CN : CN ;
   person_CN : CN ;
