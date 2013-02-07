@@ -1,24 +1,68 @@
-English lemma,cat,I,Ger,Ita,Dut,Spa,Fin
+English lemma,,I,Ger,Ita,Dut,Spa,Fin
 ,abstract ${name} = Attempto **,incomplete concrete GeographyI of Geography = AttemptoAce ** open Oper in,"concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang}, Oper${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang}, (I=Irreg${lang}) in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in"
-capital,CN,"aceN ""capital""","aceN ""Hauptstadt""",capitale,hoofdstad,capital,pääoma
-city,CN,"aceN ""city""","aceN ""Stadt""",città,stad,ciudad,kaupunki
-country,CN,"aceN ""country""","aceN neuter ""Land"" ""Länder""",paese,land,país,maa
-language,CN,"aceN ""language""","aceN ""Sprache""",lingua,taal,idioma,kieli
-member,CN,"aceN ""member""","aceN ""Mitglied""",membro,lid,miembro,jäsen
-official language,CN,"aceN ""official-language""","aceN ""offizielle Sprache""",lingua ufficiale,officiële taal,idioma oficial,virallisella kielellä
-sea,CN,"aceN ""sea""","aceN neuter ""Meer"" ""Meere""",mare,zee,mar,meri
+Albania,PN,"acePN ""Albania""",Albanien,Albania,Albanië,,Albania
+Andorra,PN,Andorra,Andorra,Andorra,Andorra,,Andorra
+Armenia,PN,Armenia,Armenien,Armenia,Armenië,,Armenia
 Austria,PN,"acePN ""Austria""","acePN ""Österreich""",Austria,Oostenrijk,Austria,Itävalta
+Azerbaijan,PN,Azerbaijan,,Azerbaijan,Azerbeidzjan,,Azerbaidžan
+Belarus,PN,Belarus,Weißrussland,Bielorussia,Wit-Rusland,,Valko-Venäjä
 Belgium,PN,"acePN ""Belgium""","acePN ""Belgien""",Belgio,België,Bélgica,Belgia
-Bern,PN,"acePN ""Bern""","acePN ""Bern""",Bern,Bern,Berna,Bern
-European Union,PN,"acePN ""the EU"" | acePN ""the European Union""","acePN ""Europäische Union""",Unione Europea,Europese Unie,Unión Europea,Euroopan unioni
-France,PN,"acePN ""France""","acePN ""Frankreich""",Francia,Frankrijk,Francia,Ranska
-French language,PN,"acePN ""French""","acePN ""Französisch""",Lingua francese,Franse taal,Idioma francés,Ranskan kieli
-German language,PN,"acePN ""German""","acePN ""Deutsch""",Lingua tedesca,Duitse taal,Alemán,Saksan kieli
-Germany,PN,"acePN ""Germany""","acePN ""Deutschland""",Germania,Duitsland,Alemania,Saksa
-Italian language,PN,"acePN ""Italian""","acePN ""Italienisch""",Lingua italiana,Italiaanse taal,Lengua italiana,Italian kieli
-Italy,PN,"acePN ""Italy""","acePN ""Italien""",Italia,Italië,Italia,Italia
-Liechtenstein,PN,"acePN ""Liechtenstein""","acePN ""Liechtenstein""",Liechtenstein,Liechtenstein,Liechtenstein,Liechtenstein
-Switzerland,PN,"acePN ""Switzerland""","acePN ""die Schweiz"" ""die Schweiz"" ""der Schweiz"" ""der Schweiz""",Svizzera,Zwitserland,Suiza,Sveitsi
-Zurich,PN,"acePN ""Zurich""","acePN ""Zürich""",Zurigo,Zürich,Zurich,Zurich
+Bern,PN,"acePN ""Bern""","acePN ""Bern""",Berna,Bern,Berna,Bern
 border,V2,"aceV2 ""border"" ""borders"" ""bordered""","prepV2 (regV ""grenzen"") (mkPrep ""an"" accusative)",confine,grenzen,frontera,rajaa
+Bosnia and Herzegovina,PN,Bosnia and Herzegovina,Bosnien und Herzegowina,Bosnia ed Erzegovina,Bosnië en Herzegovina,,Bosnia ja Hertsegovina
+Bulgaria,PN,Bulgaria,Bulgarien,Bulgaria,Bulgarije,,Bulgaria
+capital,CN,"aceN ""capital""","aceN feminine ""Hauptstadt"" ""Hauptstädte""",capitale,hoofdstad,"""capital"" feminine",pääoma
+city,CN,"aceN ""city""","aceN feminine ""Stadt"" ""Städte""",città,stad,ciudad,kaupunki
 contain,V2,"aceV2 ""contain"" ""contains"" ""contained""","mkV2 (aceV ""enthalten"" ""enthält"" ""enthalten"") accusative",contenere,bevatten,mkV2 (I.contener_V),sisältää
+country,CN,"aceN ""country""","aceN neuter ""Land"" ""Länder""",paese,land,país,maa
+Croatia,PN,Croatia,Kroatien,Croazia,Kroatië,,Kroatia
+Cyprus,PN,Cyprus,Zypern,Cipro,Cyprus,,Kypros
+Czech Republic,PN,Czech Republic,Tschechien,Repubblica Ceca,Tsjechische Republiek,,Tšekki
+Denmark,PN,Denmark,Dänemark,Danimarca,Denemarken,,Tanska
+Estonia,PN,Estonia,Estland,Estonia,Estland,,Viro
+European Union,PN,"acePN ""the EU"" | acePN ""the European Union""","acePN ""die Europäische Union"" ""die Europäische Union"" ""der Europäischen Union"" ""der Europäischen Union""",Unione Europea,Europese Unie,Unión Europea,Euroopan unioni
+Finland,PN,Finland,Finnland,Finlandia,Finland,,Suomi
+France,PN,"acePN ""France""","acePN ""Frankreich""",Francia,Frankrijk,Francia,Ranska
+French language,PN,"acePN ""French""","acePN ""Französisch""",Lingua francese,Franse taal,idioma francés,Ranskan kieli
+Georgia,PN,Georgia,,Georgia,Georgië,,Georgia
+German language,PN,"acePN ""German""","acePN ""Deutsch""",Lingua tedesca,Duitse taal,alemán,Saksan kieli
+Germany,PN,"acePN ""Germany""","acePN ""Deutschland""",Germania,Duitsland,Alemania,Saksa
+Greece,PN,Greece,Griechenland,Grecia,Griekenland,,Kreikka
+Hungary,PN,Hungary,Ungarn,Ungheria,Hongarije,,Unkari
+Iceland,PN,Iceland,Island,Islanda,IJsland,,Islanti
+Ireland,PN,Ireland,Irland,Irlanda,Ierland,,Irlanti
+Italian language,PN,"acePN ""Italian""","acePN ""Italienisch""",Lingua italiana,Italiaanse taal,lengua italiana,Italian kielen
+Italy,PN,"acePN ""Italy""","acePN ""Italien""",Italia,Italië,Italia,Italia
+Kazakhstan,PN,Kazakhstan,Kasachstan,Kazakistan,Kazachstan,,Kazakstan
+language,CN,"aceN ""language""","aceN ""Sprache""",lingua,taal,idioma,kieli
+Latvia,PN,Latvia,Lettland,Lettonia,Letland,,Latvia
+Liechtenstein,PN,"acePN ""Liechtenstein""","acePN ""Liechtenstein""",Liechtenstein,Liechtenstein,Liechtenstein,Liechtenstein
+Lithuania,PN,Lithuania,Litauen,Lituania,Litouwen,,Liettua
+Luxembourg,PN,Luxembourg,Luxemburg,Lussemburgo,Luxemburg,,Luxemburg
+Malta,PN,Malta,Malta,Malta,Malta,,Malta
+member,CN,"aceN ""member""","aceN ""Mitglied""",membro,lid,miembro,jäsen
+Moldova,PN,Moldova,Moldawien,Moldova,Moldavië,,Moldova
+Monaco,PN,Monaco,Monaco,Monaco,Monaco,,Monaco
+Montenegro,PN,Montenegro,Montenegro,Montenegro,Montenegro,,Montenegro
+Netherlands,PN,Netherlands,Niederlande,Paesi Bassi,Nederland,,Alankomaat
+Norway,PN,Norway,Norwegen,Norvegia,Noorwegen,,Norja
+official language,CN,"aceN ""official-language""","aceN ""offizielle Sprache""",lingua ufficiale,officiële taal,idioma oficial,virallisella kielellä
+Poland,PN,Poland,Polen,Polonia,Polen,,Puola
+Portugal,PN,Portugal,Portugal,Portogallo,Portugal,,Portugali
+Republic of Macedonia,PN,Republic of Macedonia,Mazedonien,Repubblica di Macedonia,Republiek Macedonië,,Tasavallassa Makedoniassa
+river,CN,"aceN ""river""",,fiume,rivier,,joki
+Romania,PN,Romania,Rumänien,Romania,Roemenië,,Romania
+Russia,PN,Russia,Russland,Russia,Rusland,,Venäjä
+San Marino,PN,San Marino,San Marino,San Marino,San Marino,,San Marino
+sea,CN,"aceN ""sea""","aceN neuter ""Meer"" ""Meere""",mare,zee,mar,meri
+Serbia,PN,Serbia,Serbien,Serbia,Servië,,Serbia
+Slovakia,PN,Slovakia,Slowakei,Slovacchia,Slowakije,,Slovakia
+Slovenia,PN,Slovenia,Slowenien,Slovenia,Slovenië,,Slovenia
+Spain,PN,Spain,Spanien,Spagna,Spanje,,Espanja
+Sweden,PN,Sweden,Schweden,Svezia,Zweden,,Ruotsi
+Switzerland,PN,"acePN ""Switzerland""","acePN ""die Schweiz"" ""die Schweiz"" ""der Schweiz"" ""der Schweiz""",Svizzera,Zwitserland,Suiza,Sveitsi
+Turkey,PN,Turkey,Türkei,Turchia,Turkije,,Turkki
+Ukraine,PN,Ukraine,Ukraine,Ucraina,Oekraïne,,Ukraina
+United Kingdom,PN,United Kingdom,Vereinigtes Königreich,Regno Unito,Verenigd Koninkrijk,,Iso-Britannia
+Vatican City,PN,Vatican City,Vatikanstadt,Città del Vaticano,Vaticaanstad,,Vatikaani
+Zurich,PN,"acePN ""Zurich""","acePN ""Zürich""",Zurigo,Zürich,Zurich,Zurich

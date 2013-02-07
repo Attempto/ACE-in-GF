@@ -75,43 +75,52 @@ GeographyAce: German is an official-language of the EU .
 GeographyApe: German|pn_sg|German_PN|neutr is an official-language|noun_sg|official-language_N|neutr of the EU|pn_sg|the EU_PN|neutr .
 GeographyDut: Duitse taal is een officiële taal van Europese Unie .
 GeographyFin: Saksan kieli on virallisella kielellä Euroopan unionin .
-GeographyGer: Deutsch ist eine offizielle Sprache von Europäische Union .
+GeographyGer: Deutsch ist eine offizielle Sprache von der Europäischen Union .
 GeographyIta: Lingua tedesca è un lingua ufficiale di Unione Europea .
-GeographySpa: Alemán es un idioma oficial de Unión Europea .
+GeographySpa: alemán es un idioma oficial de Unión Europea .
 
 Geography: baseText (sText (simpleS_as_S (neg_vpS (everyNP (cn_as_VarCN city_CN)) (npVP (thereNP_as_NP (aNP (ofCN capital_CN (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))))))))
 GeographyAce: every city isn't a capital of a country .
 GeographyApe: every city|noun_sg|city_N|neutr isn't a capital|noun_sg|capital_N|neutr of a country|noun_sg|country_N|neutr .
 GeographyDut: elke stad is niet een hoofdstad van een land .
 GeographyFin: jokainen kaupunki ei ole pääoma maan .
-GeographyGer: jeder Stadt ist nicht ein Hauptstadt von einem Land .
+GeographyGer: jede Stadt ist nicht eine Hauptstadt von einem Land .
 GeographyIta: ogni città non è un capitale di un paese .
-GeographySpa: cada ciudad no es un capital de un país .
+GeographySpa: cada ciudad no es una capital de un país .
 
 Geography: baseText (sText (simpleS_as_S (thereNP (aNP (relCN (cn_as_VarCN city_CN) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (ofCN capital_CN (thereNP_as_NP (aNP (cn_as_VarCN country_CN)))))))))))))
 GeographyAce: there is a city that isn't a capital of a country .
 GeographyApe: there is a city|noun_sg|city_N|neutr that isn't a capital|noun_sg|capital_N|neutr of a country|noun_sg|country_N|neutr .
 GeographyDut: er is een stad die niet een hoofdstad van een land is .
 GeographyFin: on olemassa kaupunki joka ei ole pääoma maan .
-GeographyGer: es gibt einen Stadt der nicht ein Hauptstadt von einem Land ist .
+GeographyGer: es gibt eine Stadt die nicht eine Hauptstadt von einem Land ist .
 GeographyIta: c' è una città che non è un capitale di un paese .
-GeographySpa: hay un ciudad que no es un capital de un país .
+GeographySpa: hay un ciudad que no es una capital de un país .
 
 Geography: baseText (sText (simpleS_as_S (vpS (noNP (cn_as_VarCN city_CN)) (npVP (thereNP_as_NP (aNP (ofCN capital_CN (thereNP_as_NP (more_thanNP (digitsCard (IDig D_1)) (cn_as_VarCN country_CN))))))))))
 GeographyAce: no city is a capital of more than 1 country .
 GeographyApe: no city|noun_sg|city_N|neutr is a capital|noun_sg|capital_N|neutr of more than 1 country|noun_sg|country_N|neutr .
 GeographyDut: geen stad is een hoofdstad van meer dan 1 land .
 GeographyFin: mikään kaupunki ei ole pääoma enemmän kuin 1 maan .
-GeographyGer: kein Stadt ist ein Hauptstadt von mehr als 1 Land .
+GeographyGer: keine Stadt ist eine Hauptstadt von mehr als 1 Land .
 GeographyIta: nessuna città è un capitale di più di 1 paese .
-GeographySpa: ningún ciudad es un capital de más que 1 país .
+GeographySpa: ningún ciudad es una capital de más que 1 país .
+
+Geography: baseText (sText (simpleS_as_S (vpS (noNP (cn_as_VarCN capital_CN)) (v2_byVP contain_V2 (thereNP_as_NP (more_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN sea_CN)))))))
+GeographyAce: no capital is contained by more than 2 seas .
+GeographyApe: no capital|noun_sg|capital_N|neutr is contained|tv_pp|contain_V2 by more than 2 seas|noun_pl|sea_N|neutr .
+GeographyDut: geen hoofdstad wordt door meer dan 2 zeeeen gebevat .
+GeographyFin: mitään pääomaa ei sisälletä enemmän kuin 2 merin toimesta .
+GeographyGer: keine Hauptstadt wird durch mehr als 2 Meere enthalten .
+GeographyIta: nessuno capitale viene contenato da più di 2 mari .
+GeographySpa: ninguna capital está contenida por más que 2 mares .
 
 Geography: baseText (sText (simpleS_as_S (vpS (pnNP European_Union_PN) (npVP (pnNP European_Union_PN)))))
 GeographyAce: the EU is the EU .
 GeographyApe: the EU|pn_sg|the EU_PN|neutr is the EU|pn_sg|the EU_PN|neutr .
 GeographyDut: Europese Unie is Europese Unie .
 GeographyFin: Euroopan unioni on Euroopan unioni .
-GeographyGer: Europäische Union ist Europäische Union .
+GeographyGer: die Europäische Union ist die Europäische Union .
 GeographyIta: Unione Europea è Unione Europea .
 GeographySpa: Unión Europea es Unión Europea .
 
@@ -120,18 +129,18 @@ GeographyAce: for every country X a capital of X is contained by X and isn't a s
 GeographyApe: for every country|noun_sg|country_N|neutr X a capital|noun_sg|capital_N|neutr of X is contained|tv_pp|contain_V2 by X and isn't a sea|noun_sg|sea_N|neutr .
 GeographyDut: voor elke land X wordt door X gebevat en is niet een zee een hoofdstad van X .
 GeographyFin: jokaiselle maalle X pääoma X:n sisälletään X:n toimesta ja ei ole meri .
-GeographyGer: für jedes Land X wird durch X enthalten und ist nicht ein Meer ein Hauptstadt von X .
+GeographyGer: für jedes Land X wird durch X enthalten und ist nicht ein Meer eine Hauptstadt von X .
 GeographyIta: per ogni paese X un capitale di X viene contenato da X e non è un mare .
-GeographySpa: para cada país X un capital de X está contenido por X y no es un mar .
+GeographySpa: para cada país X una capital de X está contenida por X y no es un mar .
 
 Geography: baseText (sText (simpleS_as_S (np_coord_VPS (thereNP_as_NP (aNP (ofCN capital_CN (termNP X_Var)))) and_Conj (BaseVPS (vp_as_posVPS (v2_byVP contain_V2 (termNP X_Var))) (vp_as_negVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN sea_CN)))))))))
 GeographyAce: a capital of X is contained by X and isn't a sea .
 GeographyApe: a capital|noun_sg|capital_N|neutr of X is contained|tv_pp|contain_V2 by X and isn't a sea|noun_sg|sea_N|neutr .
 GeographyDut: een hoofdstad van X wordt door X gebevat en is niet een zee .
 GeographyFin: pääoma X:n sisälletään X:n toimesta ja ei ole meri .
-GeographyGer: ein Hauptstadt von X wird durch X enthalten und ist nicht ein Meer .
+GeographyGer: eine Hauptstadt von X wird durch X enthalten und ist nicht ein Meer .
 GeographyIta: un capitale di X viene contenato da X e non è un mare .
-GeographySpa: un capital de X está contenido por X y no es un mar .
+GeographySpa: una capital de X está contenida por X y no es un mar .
 
 Geography: baseText (qsText (npqQS (ipNPQ whatSg_IP) (npVP (pnNP Switzerland_PN))))
 GeographyAce: what is Switzerland ?

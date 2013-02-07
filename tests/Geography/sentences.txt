@@ -10,6 +10,7 @@ German is an official-language of the European Union .
 every city is not a capital of a country .
 there is a city that is not a capital of a country .
 no city is a capital of more than 1 country .
+no capital is contained by more than 2 seas .
 the EU is the European Union .
 for every country X a capital of X is contained by X and is not a sea .
 a capital of X is contained by X and is not a sea .
