@@ -1,5 +1,5 @@
 concrete TestAttemptoFin of TestAttempto = AttemptoFin **
-  open SyntaxFin, ParadigmsFin, (L=LexiconFin), (C = ConstructX) in {
+  open SyntaxFin, ParadigmsFin, (L=LexiconFin), ResFin in {
 
   flags coding=utf8;
 
@@ -11,7 +11,9 @@ concrete TestAttemptoFin of TestAttempto = AttemptoFin **
   lin wait_V       = mkV "odottaa" ;
   lin ask_V2       = mkV2 "kysyä" ;
   lin mad_A        = mkA "hullu" ;
-  lin mad_about_A2 = mkA2 mad_A (postGenPrep "TODO") ;
+  -- John is mad-about Mary: John on hulluna Maryyn (Mary=illative, mad=essive)
+  -- TODO: for the time being we just generate an essive string for mkA
+  lin mad_about_A2 = mkA2 (mkA ((mkN "hullu").s ! NCase Sg Ess)) (casePrep illative) ;
   lin happy_A      = mkA "onnellinen" ;
 
 }

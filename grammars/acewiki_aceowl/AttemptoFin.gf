@@ -12,8 +12,10 @@ concrete AttemptoFin of Attempto = NumeralFin **
 
   lincat Var = M.Noun ;
 
-  -- Variables in apposition are always in singular nominative
-  -- TODO: is this correct for Finnish?
+  -- Variables in apposition are always in singular nominative.
+  -- However, proper names (if we supported them) would change:
+  -- presidentti Niinistöllä on koira
+  -- *presidentillä Niinistö on koira
   oper mkApposStr : M.Noun -> Str = \v -> v.s ! NCase Sg Nom ;
 
   oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = s.s} ;
