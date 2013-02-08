@@ -14,6 +14,8 @@ no capital is contained by more than 2 seas .
 the EU is the European Union .
 for every country X a capital of X is contained by X and is not a sea .
 a capital of X is contained by X and is not a sea .
+if a river X flows into a lake then the lake is flown into by Y .
+the Rhine flows through the Netherlands .
 what is Switzerland ?
 which country borders Switzerland ?
 which countries border at least 5 countries ?

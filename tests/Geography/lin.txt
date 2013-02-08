@@ -5,7 +5,8 @@ GeographyDut: elke land grenst een land of wordt door een zee gegrensd .
 GeographyFin: jokainen maa rajaa maan tai rajetaan merin toimesta .
 GeographyGer: jedes Land grenzt an ein Land oder wird durch ein Meer gegrenzt .
 GeographyIta: ogni paese confa un paese o viene confato da un mare .
-GeographySpa: cada país frontea un país o está fronteado por un mar .
+GeographySpa: cada país hace frontera con un país o está hecho por un mar .
+
 
 Geography: baseText (sText (simpleS_as_S (vpS (noNP (apposVarCN country_CN X_Var)) (v2VP border_V2 (termNP X_Var)))))
 GeographyAce: no country X borders X .
@@ -14,7 +15,8 @@ GeographyDut: geen land X grenst X .
 GeographyFin: mikään maa X ei raja X:ää .
 GeographyGer: kein Land X grenzt an X .
 GeographyIta: nessuno paese X confa X .
-GeographySpa: ningún país X frontea X .
+GeographySpa: ningún país X hace frontera con X .
+
 
 Geography: baseText (sText (for_everyS (apposVarCN country_CN X_Var) (simpleS_as_S (neg_vpS (termNP X_Var) (v2VP border_V2 (termNP X_Var))))))
 GeographyAce: for every country X X doesn't border X .
@@ -23,7 +25,8 @@ GeographyDut: voor elke land X grenst X niet X .
 GeographyFin: jokaiselle maalle X X ei raja X:ää .
 GeographyGer: für jedes Land X grenzt X an X nicht .
 GeographyIta: per ogni paese X X non confa X .
-GeographySpa: para cada país X X no frontea X .
+GeographySpa: para cada país X X no hace frontera con X .
+
 
 Geography: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP X_Var) (v2VP border_V2 (termNP Y_Var)))) (simpleS_as_S (vpS (termNP Y_Var) (v2VP border_V2 (termNP X_Var))))))
 GeographyAce: if X borders Y then Y borders X .
@@ -32,7 +35,8 @@ GeographyDut: als X Y grenst , dan grenst Y X .
 GeographyFin: jos X rajaa Y:n niin Y rajaa X:n .
 GeographyGer: wenn X an Y grenzt , dann grenzt Y an X .
 GeographyIta: si X confa Y allora Y confa X .
-GeographySpa: si X frontea Y entonces Y frontea X .
+GeographySpa: si X hace frontera con Y entonces Y hace frontera con X .
+
 
 Geography: baseText (sText (if_thenS (simpleS_as_S (vpS (termNP X_Var) (v2VP contain_V2 (termNP Y_Var)))) (simpleS_as_S (neg_vpS (termNP Y_Var) (v2VP contain_V2 (termNP X_Var))))))
 GeographyAce: if X contains Y then Y doesn't contain X .
@@ -43,6 +47,7 @@ GeographyGer: wenn X Y enthält , dann enthält Y X nicht .
 GeographyIta: si X contena Y allora Y non contena X .
 GeographySpa: si X contiene Y entonces Y no contiene X .
 
+
 Geography: baseText (sText (if_thenS (coordS and_Conj (simpleS_as_S (vpS (termNP X_Var) (v2VP contain_V2 (termNP Y_Var)))) (simpleS_as_S (vpS (termNP Y_Var) (v2VP contain_V2 (termNP Z_Var))))) (simpleS_as_S (vpS (termNP Z_Var) (v2_byVP contain_V2 (termNP X_Var))))))
 GeographyAce: if X contains Y and Y contains Z then Z is contained by X .
 GeographyApe: if X contains|tv_finsg|contain_V2 Y and Y contains|tv_finsg|contain_V2 Z then Z is contained|tv_pp|contain_V2 by X .
@@ -52,6 +57,7 @@ GeographyGer: wenn X Y enthält und Y Z enthält , dann wird Z durch X enthalten
 GeographyIta: si X contena Y e Y contena Z allora Z viene contenato da X .
 GeographySpa: si X contiene Y y Y contiene Z entonces Z está contenido por X .
 
+
 Geography: baseText (sText (simpleS_as_S (vpS (pnNP Switzerland_PN) (v2VP border_V2 (noNP (cn_as_VarCN sea_CN))))))
 GeographyAce: Switzerland borders no sea .
 GeographyApe: Switzerland|pn_sg|Switzerland_PN|neutr borders|tv_finsg|border_V2 no sea|noun_sg|sea_N|neutr .
@@ -59,7 +65,8 @@ GeographyDut: Zwitserland grenst geen zee .
 GeographyFin: Sveitsi ei raja mitään meriä .
 GeographyGer: die Schweiz grenzt an kein Meer .
 GeographyIta: Svizzera non confa nessuno mare .
-GeographySpa: Suiza no frontea ningún mar .
+GeographySpa: Suiza no hace frontera con ningún mar .
+
 
 Geography: baseText (sText (simpleS_as_S (vpS (pnNP Zurich_PN) (v2_byVP contain_V2 (pnNP Switzerland_PN)))))
 GeographyAce: Zurich is contained by Switzerland .
@@ -68,7 +75,8 @@ GeographyDut: Zürich wordt door Zwitserland gebevat .
 GeographyFin: Zurich sisälletään Sveitsin toimesta .
 GeographyGer: Zürich wird durch die Schweiz enthalten .
 GeographyIta: Zurigo viene contenato da Svizzera .
-GeographySpa: Zurich está contenido por Suiza .
+GeographySpa: Zúrich está contenido por Suiza .
+
 
 Geography: baseText (sText (simpleS_as_S (vpS (pnNP German_language_PN) (npVP (thereNP_as_NP (aNP (ofCN official_language_CN (pnNP European_Union_PN))))))))
 GeographyAce: German is an official-language of the EU .
@@ -79,6 +87,7 @@ GeographyGer: Deutsch ist eine offizielle Sprache von der Europäischen Union .
 GeographyIta: Lingua tedesca è un lingua ufficiale di Unione Europea .
 GeographySpa: alemán es un idioma oficial de Unión Europea .
 
+
 Geography: baseText (sText (simpleS_as_S (neg_vpS (everyNP (cn_as_VarCN city_CN)) (npVP (thereNP_as_NP (aNP (ofCN capital_CN (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))))))))
 GeographyAce: every city isn't a capital of a country .
 GeographyApe: every city|noun_sg|city_N|neutr isn't a capital|noun_sg|capital_N|neutr of a country|noun_sg|country_N|neutr .
@@ -87,6 +96,7 @@ GeographyFin: jokainen kaupunki ei ole pääoma maan .
 GeographyGer: jede Stadt ist nicht eine Hauptstadt von einem Land .
 GeographyIta: ogni città non è un capitale di un paese .
 GeographySpa: cada ciudad no es una capital de un país .
+
 
 Geography: baseText (sText (simpleS_as_S (thereNP (aNP (relCN (cn_as_VarCN city_CN) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (ofCN capital_CN (thereNP_as_NP (aNP (cn_as_VarCN country_CN)))))))))))))
 GeographyAce: there is a city that isn't a capital of a country .
@@ -97,6 +107,7 @@ GeographyGer: es gibt eine Stadt die nicht eine Hauptstadt von einem Land ist .
 GeographyIta: c' è una città che non è un capitale di un paese .
 GeographySpa: hay un ciudad que no es una capital de un país .
 
+
 Geography: baseText (sText (simpleS_as_S (vpS (noNP (cn_as_VarCN city_CN)) (npVP (thereNP_as_NP (aNP (ofCN capital_CN (thereNP_as_NP (more_thanNP (digitsCard (IDig D_1)) (cn_as_VarCN country_CN))))))))))
 GeographyAce: no city is a capital of more than 1 country .
 GeographyApe: no city|noun_sg|city_N|neutr is a capital|noun_sg|capital_N|neutr of more than 1 country|noun_sg|country_N|neutr .
@@ -105,6 +116,7 @@ GeographyFin: mikään kaupunki ei ole pääoma enemmän kuin 1 maan .
 GeographyGer: keine Stadt ist eine Hauptstadt von mehr als 1 Land .
 GeographyIta: nessuna città è un capitale di più di 1 paese .
 GeographySpa: ningún ciudad es una capital de más que 1 país .
+
 
 Geography: baseText (sText (simpleS_as_S (vpS (noNP (cn_as_VarCN capital_CN)) (v2_byVP contain_V2 (thereNP_as_NP (more_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN sea_CN)))))))
 GeographyAce: no capital is contained by more than 2 seas .
@@ -115,6 +127,7 @@ GeographyGer: keine Hauptstadt wird durch mehr als 2 Meere enthalten .
 GeographyIta: nessuno capitale viene contenato da più di 2 mari .
 GeographySpa: ninguna capital está contenida por más que 2 mares .
 
+
 Geography: baseText (sText (simpleS_as_S (vpS (pnNP European_Union_PN) (npVP (pnNP European_Union_PN)))))
 GeographyAce: the EU is the EU .
 GeographyApe: the EU|pn_sg|the EU_PN|neutr is the EU|pn_sg|the EU_PN|neutr .
@@ -123,6 +136,7 @@ GeographyFin: Euroopan unioni on Euroopan unioni .
 GeographyGer: die Europäische Union ist die Europäische Union .
 GeographyIta: Unione Europea è Unione Europea .
 GeographySpa: Unión Europea es Unión Europea .
+
 
 Geography: baseText (sText (for_everyS (apposVarCN country_CN X_Var) (simpleS_as_S (np_coord_VPS (thereNP_as_NP (aNP (ofCN capital_CN (termNP X_Var)))) and_Conj (BaseVPS (vp_as_posVPS (v2_byVP contain_V2 (termNP X_Var))) (vp_as_negVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN sea_CN))))))))))
 GeographyAce: for every country X a capital of X is contained by X and isn't a sea .
@@ -133,6 +147,7 @@ GeographyGer: für jedes Land X wird durch X enthalten und ist nicht ein Meer ei
 GeographyIta: per ogni paese X un capitale di X viene contenato da X e non è un mare .
 GeographySpa: para cada país X una capital de X está contenida por X y no es un mar .
 
+
 Geography: baseText (sText (simpleS_as_S (np_coord_VPS (thereNP_as_NP (aNP (ofCN capital_CN (termNP X_Var)))) and_Conj (BaseVPS (vp_as_posVPS (v2_byVP contain_V2 (termNP X_Var))) (vp_as_negVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN sea_CN)))))))))
 GeographyAce: a capital of X is contained by X and isn't a sea .
 GeographyApe: a capital|noun_sg|capital_N|neutr of X is contained|tv_pp|contain_V2 by X and isn't a sea|noun_sg|sea_N|neutr .
@@ -141,6 +156,27 @@ GeographyFin: pääoma X:n sisälletään X:n toimesta ja ei ole meri .
 GeographyGer: eine Hauptstadt von X wird durch X enthalten und ist nicht ein Meer .
 GeographyIta: un capitale di X viene contenato da X e non è un mare .
 GeographySpa: una capital de X está contenida por X y no es un mar .
+
+
+Geography: baseText (sText (if_thenS (simpleS_as_S (vpS (thereNP_as_NP (aNP (apposVarCN river_CN X_Var))) (v2VP flow_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN lake_CN)))))) (simpleS_as_S (vpS (theNP (cn_as_VarCN lake_CN)) (v2_byVP flow_into_V2 (termNP Y_Var))))))
+GeographyAce: if a river X flows into a lake then the lake is flown into by Y .
+GeographyApe: if a river|noun_sg|river_N|neutr X flows into|tv_finsg|flow into_V2 a lake|noun_sg|lake_N|neutr then the lake|noun_sg|lake_N|neutr is flown into|tv_pp|flow into_V2 by Y .
+GeographyDut: als een rivier X [flow_into_V2] een [lake_CN] [flow_into_V2] [flow_into_V2] , dan wordt de [lake_CN] door Y [flow_into_V2] .
+GeographyFin: jos joki X rajaa järvin niin järvi rajetaan Y:n toimesta .
+GeographyGer: wenn ein Fluss X in eine See fließt , dann wird die See durch Y gefließt .
+GeographyIta: 
+GeographySpa: si un río X desemboca en un lago entonces el lago está desembocado por Y .
+
+
+Geography: baseText (sText (simpleS_as_S (vpS (pnNP Rhine_PN) (v2VP flow_through_V2 (pnNP Netherlands_PN)))))
+GeographyAce: the Rhine flows through the Netherlands .
+GeographyApe: the Rhine|pn_sg|the Rhine_PN|neutr flows through|tv_finsg|flow through_V2 the Netherlands|pn_sg|the Netherlands_PN|neutr .
+GeographyDut: [Rhine_PN] [flow_through_V2] [flow_through_V2] Nederland [flow_through_V2] .
+GeographyFin: 
+GeographyGer: Rhein fließt durch Niederlande .
+GeographyIta: 
+GeographySpa: 
+
 
 Geography: baseText (qsText (npqQS (ipNPQ whatSg_IP) (npVP (pnNP Switzerland_PN))))
 GeographyAce: what is Switzerland ?
@@ -151,6 +187,7 @@ GeographyGer: was ist die Schweiz ?
 GeographyIta: che è Svizzera ?
 GeographySpa: ¿ qué es Suiza ?
 
+
 Geography: baseText (qsText (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN country_CN))) (v2VP border_V2 (pnNP Switzerland_PN))))
 GeographyAce: which country borders Switzerland ?
 GeographyApe: which country|noun_sg|country_N|neutr borders|tv_finsg|border_V2 Switzerland|pn_sg|Switzerland_PN|neutr ?
@@ -158,7 +195,8 @@ GeographyDut: welke land grenst Zwitserland ?
 GeographyFin: mikä maa rajaa Sveitsin ?
 GeographyGer: welches Land grenzt an die Schweiz ?
 GeographyIta: quale paese confa Svizzera ?
-GeographySpa: ¿ qué país frontea Suiza ?
+GeographySpa: ¿ qué país hace frontera con Suiza ?
+
 
 Geography: baseText (qsText (npqQS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) (v2VP border_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_5)) (cn_as_VarCN country_CN))))))
 GeographyAce: which countries border at least 5 countries ?
@@ -167,7 +205,8 @@ GeographyDut: welke landen grenzen ten minste 5 landen ?
 GeographyFin: mitkä maat rajavat vähintään 5 maata ?
 GeographyGer: welche Länder grenzen an wenigstens 5 Länder ?
 GeographyIta: quali paesi confano almeno 5 paesi ?
-GeographySpa: ¿ qué países frontean al menos 5 países ?
+GeographySpa: ¿ qué países hacen frontera con al menos 5 países ?
+
 
 Geography: baseText (qsText (npqQS (ipNPQ (whichIP whichPl_IDet (relCN (cn_as_VarCN country_CN) (slashRS which_RP (pnNP Germany_PN) border_V2)))) (v2VP border_V2 (pnNP Switzerland_PN))))
 GeographyAce: which countries that Germany borders border Switzerland ?
@@ -176,7 +215,8 @@ GeographyDut: welke landen die Duitsland grenst grenzen Zwitserland ?
 GeographyFin: mitkä maat jotka Saksa rajaa rajavat Sveitsin ?
 GeographyGer: welche Länder an die Deutschland grenzt grenzen an die Schweiz ?
 GeographyIta: quali paesi che Germania confa confano Svizzera ?
-GeographySpa: ¿ qué países que Alemania frontea frontean Suiza ?
+GeographySpa: ¿ qué países frontera con que Alemania hace hacen frontera con Suiza ?
+
 
 Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (pnNP Switzerland_PN))) (vp_as_posVPS (v2VP border_V2 (relNP (thereNP_as_NP (exactlyNP (digitsCard (IDig D_1)) (cn_as_VarCN country_CN))) (slashRS which_RP (pnNP Switzerland_PN) border_V2)))))))
 GeographyAce: which countries border Switzerland and border exactly 1 country that Switzerland borders ?
@@ -185,7 +225,7 @@ GeographyDut: welke landen grenzen Zwitserland en grenzen precies 1 land , dat Z
 GeographyFin: mitkä maat rajavat Sveitsin ja rajavat tasan 1 maan , jonka Sveitsi rajaa ?
 GeographyGer: welche Länder grenzen an die Schweiz und grenzen an genau 1 Land , an das die Schweiz grenzt ?
 GeographyIta: quali paesi confano Svizzera e confano esattamente 1 paese che Svizzera confa ?
-GeographySpa: ¿ qué países frontean Suiza y frontean exactamente 1 país que Suiza frontea ?
+GeographySpa: ¿ qué países hacen frontera con Suiza y hacen frontera con exactamente 1 país frontera con que Suiza hace ?
 
 Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (pnNP Switzerland_PN))) (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (exactlyNP (digitsCard (IDig D_1)) (relCN (cn_as_VarCN country_CN) (slashRS which_RP (pnNP Switzerland_PN) border_V2)))))))))
 GeographyAce: which countries border Switzerland and border exactly 1 country that Switzerland borders ?
@@ -194,7 +234,8 @@ GeographyDut: welke landen grenzen Zwitserland en grenzen precies 1 land die Zwi
 GeographyFin: mitkä maat rajavat Sveitsin ja rajavat tasan 1 maan jonka Sveitsi rajaa ?
 GeographyGer: welche Länder grenzen an die Schweiz und grenzen an genau 1 Land an das die Schweiz grenzt ?
 GeographyIta: quali paesi confano Svizzera e confano esattamente 1 paese che Svizzera confa ?
-GeographySpa: ¿ qué países frontean Suiza y frontean exactamente 1 país que Suiza frontea ?
+GeographySpa: ¿ qué países hacen frontera con Suiza y hacen frontera con exactamente 1 país frontera con que Suiza hace ?
+
 
 Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (relNP (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN country_CN))) (predRS which_RP (v2_byVP border_V2 (pnNP Switzerland_PN)))))) (vp_as_negVPS (v2VP border_V2 (pnNP Switzerland_PN))))))
 GeographyAce: which countries border exactly 2 countries that are bordered by Switzerland and don't border Switzerland ?
@@ -203,7 +244,7 @@ GeographyDut: welke landen grenzen precies 2 landen , die door Zwitserland gegre
 GeographyFin: mitkä maat rajavat tasan 2 maata , joka rajetaan Sveitsin toimesta ja eivät raja Sveitsiä ?
 GeographyGer: welche Länder grenzen an genau 2 Länder , die durch die Schweiz gegrenzt werden und grenzen an die Schweiz nicht ?
 GeographyIta: quali paesi confano esattamente 2 paesi che vengono confati da Svizzera e non confano Svizzera ?
-GeographySpa: ¿ qué países frontean exactamente 2 países que están fronteados por Suiza y no frontean Suiza ?
+GeographySpa: ¿ qué países hacen frontera con exactamente 2 países que están hechos por Suiza y no hacen frontera con Suiza ?
 
 Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (relCN (cn_as_VarCN country_CN) (predRS which_RP (v2_byVP border_V2 (pnNP Switzerland_PN)))))))) (vp_as_negVPS (v2VP border_V2 (pnNP Switzerland_PN))))))
 GeographyAce: which countries border exactly 2 countries that are bordered by Switzerland and don't border Switzerland ?
@@ -212,6 +253,6 @@ GeographyDut: welke landen grenzen precies 2 landen die door Zwitserland gegrens
 GeographyFin: mitkä maat rajavat tasan 2 maata joka rajetaan Sveitsin toimesta ja eivät raja Sveitsiä ?
 GeographyGer: welche Länder grenzen an genau 2 Länder die durch die Schweiz gegrenzt werden und grenzen an die Schweiz nicht ?
 GeographyIta: quali paesi confano esattamente 2 paesi che vengono confati da Svizzera e non confano Svizzera ?
-GeographySpa: ¿ qué países frontean exactamente 2 países que están fronteados por Suiza y no frontean Suiza ?
+GeographySpa: ¿ qué países hacen frontera con exactamente 2 países que están hechos por Suiza y no hacen frontera con Suiza ?
 
 

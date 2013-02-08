@@ -82,7 +82,7 @@ lin_ontograph_ext_save:
 	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf) > $(tests_onto_ext)/lin.txt
 
 lin_Geography_save:
-	echo "rf -lines -file=tests/$(Geography)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
+	cat tests/$(Geography)/sentences.txt | sed -f tools/make_gf_parse_lin_command.sed | \
 	gf --run --verbose=0 --path=$(path) $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf) > tests/$(Geography)/lin.txt
 
 # This does not fail if one of the sentences fails (unlike "rf -lines | p")
