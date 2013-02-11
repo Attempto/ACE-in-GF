@@ -2,7 +2,7 @@
 
 concrete AttemptoGer of Attempto = SymbolsC, NumeralGer **
   AttemptoI - [
-    CN, PN, V2,
+    CN, PN, V2, IndefPron, IndefTherePron,
     if_thenS
   ] with
   (Syntax = SyntaxGer),
@@ -20,6 +20,13 @@ concrete AttemptoGer of Attempto = SymbolsC, NumeralGer **
 
   printname cat V2 = "Verb" ;
   lincat V2 = Syntax.V2 ;
+
+  -- At the printname-level we do not distinguish between
+  -- the different types of indefinite pronouns.
+  printname cat IndefPron = "Indefinitpronomen" ;
+  printname cat IndefTherePron = "Indefinitpronomen" ;
+  lincat IndefPron = Syntax.NP ;
+  lincat IndefTherePron = Syntax.NP ;
 
 
 oper then_Adv = ss "dann" ;
