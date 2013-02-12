@@ -6,13 +6,13 @@ The first commit was based on the 2011-12-14 version of
 the GF darcs repository `examples/attempto/`-directory implemented
 by the GF developers in 2009 targeting ACE v6.0. See also the publication:
 
-  K. Angelov and A. Ranta.
+	K. Angelov and A. Ranta.
 	Implementing Controlled Languages in GF.
 	N. Fuchs (ed.), CNL-2009 Controlled Natural Languages, LNCS/LNAI 5972, 2010.
 
 This version does not completely match ACE v6.6,
-i.e. some ACE constructs are not supported, e.g.
-(__(F)__ marks things that the current version has already fixed)
+i.e. some ACE constructs are not supported.
+Below, __(F)__ marks things that the current version has already fixed.
 
   * __(F)__ transitive adjectives: `mad-about` (`mad about` does not seem to work either)
   * __(F)__ exactly
