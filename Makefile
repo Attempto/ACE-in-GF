@@ -3,6 +3,8 @@
 # JJC
 
 # Paths to things
+p = grammars/acewiki_aceowl:lib/src/ace:lib/src/api
+# path_base is deprecated
 path_base = present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/api
 path = $(path_base)
 #path = $(GF_EST_SRC)/estonian:$(GF_EST_SRC)/api:$(path_base)
@@ -11,7 +13,7 @@ grammars = grammars/acewiki_aceowl
 words = words/acewiki_aceowl
 words_onto = words/ontograph_40
 
-tests = tests/acewiki_aceowl
+tests = tests/
 tests_onto = tests/ontograph_40
 tests_onto_ext = tests/ontograph_ext
 
@@ -68,6 +70,10 @@ pgf_Simple:
 pgf_Words300:
 	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_Words300),words/$(Words300)/$(Words300)$(lang).gf)
 
+lin_Words300_save:
+	cat $(tests)$(Words300)/sentences.txt | sed -f tools/make_gf_parse_lin_command.sed | \
+	gf --run --verbose=0 --path=$(p) $(foreach lang,$(langs_Words300),words/$(Words300)/$(Words300)$(lang).gf) > tests/$(Words300)/lin.txt
+
 # Parse ontograph_40 sentences and linearise into all languages
 lin_ontograph_40:
 	echo "rf -lines -file=$(tests_onto)/sentences.txt | p -lang=Ace -cat=ACEText | l -treebank" | \
@@ -83,13 +89,13 @@ lin_ontograph_ext_save:
 
 lin_Geography_save:
 	cat tests/$(Geography)/sentences.txt | sed -f tools/make_gf_parse_lin_command.sed | \
-	gf --run --verbose=0 --path=$(path) $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf) > tests/$(Geography)/lin.txt
+	gf --run --verbose=0 --path=$(p) $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf) > tests/$(Geography)/lin.txt
 
 # This does not fail if one of the sentences fails (unlike "rf -lines | p")
 # TODO: We assume that pgf_acewiki_aceowl produces TestAttempto.pgf with all the languages
 lin_acewiki_aceowl_save: pgf_acewiki_aceowl
-	cat $(tests)/sentences.txt | sed -f tools/make_gf_parse_lin_command.sed | \
-	gf --run TestAttempto.pgf > $(tests)/lin.txt
+	cat $(tests)/acewiki_aceowl/sentences.txt | sed -f tools/make_gf_parse_lin_command.sed | \
+	gf --run TestAttempto.pgf > $(tests)/acewiki_aceowl/lin.txt
 
 # Print out the trees that correspond to the ontograph_40 test sentences
 tree_ontograph_40: pgf_ontograph_40

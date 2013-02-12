@@ -1,0 +1,57 @@
+Paris is a house .
+John is not a grammar .
+Paris is an apple or is a grammar .
+Paris is an apple and is a house .
+every chair is a grammar .
+no grammar is a bread .
+every bread is an apple and every apple is a bread .
+every house that is not a bread is a grammar .
+every chair is a grammar or is a house .
+nothing that is a chair or that is a grammar is an apple and is a house .
+Paris sees Paris .
+Paris does not see John .
+John buys a bank .
+Paris sees no chair .
+John buys something that is not a garden .
+John sees nothing but chairs .
+every chair buys a garden .
+everything that buys a garden is a chair .
+every chair buys nothing but gardens .
+everything that buys nothing but banks is a bread .
+everything that sees something is an apple .
+everything that is held by something is a book .
+everything that holds something is a house or is an apple .
+everything that is seen by something is a house or is an airplane .
+John holds at least 2 apples .
+Paris buys at most 1 garden .
+every house sees at least 2 airplanes .
+everything that buys at least 2 gardens is an apple .
+every apple sees at most 1 airplane .
+everything that is a house or that is an apple sees at most 2 airplanes .
+if X sees Y then Y does not hold X .
+if X sees something that sees Y then X sees Y .
+if X forgets Y then X sees Y .
+if X counts Y then Y forgets X .
+if X holds Y then X does not forget Y .
+it is false that something does not buy exactly 3 grammars .
+what does John buy ?
+which grammars don't count Paris ?
+every chair sees what ?
+every chair sees what or does not forget what ?
+which chair holds something X ?
+what is bought by John ?
+which grammars are not counted by Paris ?
+what is seen by every chair ?
+which chair is held by something X ?
+John understands a bank of a chair .
+John is a chair of Paris .
+every bank of a grammar is seen by Paris .
+Paris is an apple of every airplane .
+exactly 2 apples are a garden of what ?
+John is John .
+John is every chair .
+nothing but chairs see Paris .
+John is X .
+John sees X .
+X is something X .
+every chair X does not see a bread Y .
