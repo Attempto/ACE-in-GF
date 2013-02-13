@@ -21,6 +21,7 @@ country_CN = mkCN (mkN "país") ;
 Croatia_PN = mkPN "Croacia" ;
 Cyprus_PN = mkPN "Chipre" ;
 Czech_Republic_PN = mkPN "República Checa" ;
+Danube_PN = mkPN "Danubio" ;
 Denmark_PN = mkPN "Dinamarca" ;
 Estonia_PN = mkPN "Estonia" ;
 European_Union_PN = mkPN "Unión Europea" ;

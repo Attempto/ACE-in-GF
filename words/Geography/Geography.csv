@@ -1,13 +1,17 @@
 English lemma,,I,Ger,Ita,Dut,Spa,Fin
 ,abstract ${name} = Attempto **,incomplete concrete GeographyI of Geography = AttemptoAce ** open Oper in,"concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang}, Oper${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang}, (I=Irreg${lang}) in","concrete ${name}${lang} of ${name} = Attempto${lang} ** open Syntax${lang}, Paradigms${lang} in"
+Adriatic Sea,PN,the Adriatic Sea,,,,,
 Albania,PN,Albania,Albanien,Albania,Albanië,Albania,Albania
 Andorra,PN,Andorra,Andorra,Andorra,Andorra,Andorra,Andorra
 Armenia,PN,Armenia,Armenien,Armenia,Armenië,Armenia,Armenia
+Atlantic Ocean,PN,the Atlantic Ocean,,,,,
 Austria,PN,Austria,Österreich,Austria,Oostenrijk,Austria,Itävalta
 Azerbaijan,PN,Azerbaijan,Aserbaidschan,Azerbaijan,Azerbeidzjan,Azerbaiyán,Azerbaidžan
+Baltic Sea,PN,the Baltic Sea,,,,,
 Belarus,PN,Belarus,Weißrussland,Bielorussia,Wit-Rusland,Bielorrusia,Valko-Venäjä
 Belgium,PN,Belgium,Belgien,Belgio,België,Bélgica,Belgia
 Bern,PN,Bern,Bern,Berna,Bern,Berna,Bern
+Black Sea,PN,the Black Sea,,,,,
 border,V2,"""border"" ""borders"" ""bordered""","prepV2 (regV ""grenzen"") (mkPrep ""an"" accusative)",confine,grenzen,"mkV2 (I.hacer_V) (mkPrep ""frontera con"")",rajaa
 Bosnia and Herzegovina,PN,Bosnia and Herzegovina,Bosnien und Herzegowina,Bosnia ed Erzegovina,Bosnië en Herzegovina,Bosnia-Herzegovina,Bosnia ja Hertsegovina
 Bulgaria,PN,Bulgaria,Bulgarien,Bulgaria,Bulgarije,Bulgaria,Bulgaria
@@ -19,12 +23,20 @@ country,CN,country,"aceN neuter ""Land"" ""Länder""",paese,land,país,maa
 Croatia,PN,Croatia,Kroatien,Croazia,Kroatië,Croacia,Kroatia
 Cyprus,PN,Cyprus,Zypern,Cipro,Cyprus,Chipre,Kypros
 Czech Republic,PN,the Czech Republic,Tschechien,Repubblica Ceca,Tsjechische Republiek,República Checa,Tšekki
+Danube,PN,Danube,Donau,,,Danubio,
 Denmark,PN,Denmark,Dänemark,Danimarca,Denemarken,Dinamarca,Tanska
-flow into,V2,"""flow into"" ""flows into"" ""flown into""","prepV2 (regV ""fließen"") (mkPrep ""in"" accusative)",,,"mkV2 (mkV ""desembocar"") in_Prep",rajaa
-flow through,V2,"""flow through"" ""flows through"" ""flown through""","prepV2 (regV ""fließen"") (mkPrep ""durch"" accusative)",,,,
+doubly landlocked country,CN,"""doubly-landlocked country"" ""doubly-landlocked countries""",,,,,
+drain into,V2,"""drain into"" ""drains into"" ""drained into""","prepV2 (regV ""fließen"") (mkPrep ""in"" accusative)",,,,
+EFTA,PN,EFTA,,,,,
+Elbe,PN,the Elbe,Elbe,,,,
+enclave,CN,"""enclave"" ""enclaves""",,,,,
+end in,V2,"""end in"" ""ends in"" ""ended in""","prepV2 (regV ""enden"") (mkPrep ""in"" nominative)",,,,
 Estonia,PN,Estonia,Estland,Estonia,Estland,Estonia,Viro
 European Union,PN,"acePN ""the EU"" | acePN ""the European Union""","acePN ""die Europäische Union"" ""die Europäische Union"" ""der Europäischen Union"" ""der Europäischen Union""",Unione Europea,Europese Unie,Unión Europea,Euroopan unioni
+exclave,CN,"""exclave"" ""exclaves""",,,,,
 Finland,PN,Finland,Finnland,Finlandia,Finland,Finlandia,Suomi
+flow into,V2,"""flow into"" ""flows into"" ""flown into""","prepV2 (regV ""fließen"") (mkPrep ""in"" accusative)",,,"mkV2 (mkV ""desembocar"") in_Prep",rajaa
+flow through,V2,"""flow through"" ""flows through"" ""flown through""","prepV2 (regV ""fließen"") (mkPrep ""durch"" accusative)",,,,
 France,PN,France,Frankreich,Francia,Frankrijk,Francia,Ranska
 French language,PN,French,Französisch,Lingua francese,Franse taal,idioma francés,Ranskan kieli
 Georgia,PN,Georgia,Georgien,Georgia,Georgië,Georgia,Georgia
@@ -39,18 +51,22 @@ Italian language,PN,Italian,Italienisch,Lingua italiana,Italiaanse taal,lengua i
 Italy,PN,Italy,Italien,Italia,Italië,Italia,Italia
 Kazakhstan,PN,Kazakhstan,Kasachstan,Kazakistan,Kazachstan,Kazajistán,Kazakstan
 lake,CN,lake,See,,,lago,järvi
+landlocked country,CN,"""landlocked country"" ""landlocked countries""",,,,,
 language,CN,language,"aceN ""Sprache""",lingua,taal,idioma,kieli
 Latvia,PN,Latvia,Lettland,Lettonia,Letland,Letonia,Latvia
 Liechtenstein,PN,Liechtenstein,Liechtenstein,Liechtenstein,Liechtenstein,Liechtenstein,Liechtenstein
 Lithuania,PN,Lithuania,Litauen,Lituania,Litouwen,Lituania,Liettua
 Luxembourg,PN,Luxembourg,Luxemburg,Lussemburgo,Luxemburg,Luxemburgo,Luxemburg
 Malta,PN,Malta,Malta,Malta,Malta,Malta,Malta
+Mediterranean,PN,the Mediterranean,,,,,
 member,CN,member,"aceN ""Mitglied""",membro,lid,miembro,jäsen
+microstate,CN,"""microstate"" ""microstates""",,,,,
 Moldova,PN,Moldova,Moldawien,Moldova,Moldavië,Moldavia,Moldova
 Monaco,PN,Monaco,Monaco,Monaco,Monaco,Mónaco,Monaco
 Montenegro,PN,Montenegro,Montenegro,Montenegro,Montenegro,Montenegro,Montenegro
 mountain,CN,mountain,Berg,,,montaña,vuori
 Netherlands,PN,the Netherlands,Niederlande,Paesi Bassi,Nederland,Holanda,Alankomaat
+North Sea,PN,the North Sea,,,,,
 Norway,PN,Norway,Norwegen,Norvegia,Noorwegen,Noruega,Norja
 ocean,CN,ocean,Ozean,,,océano,valtameri
 official language,CN,official-language,"aceN ""offizielle Sprache""",lingua ufficiale,officiële taal,idioma oficial,virallisella kielellä
@@ -64,11 +80,13 @@ river,CN,river,Fluss,fiume,rivier,río,joki
 Romania,PN,Romania,Rumänien,Romania,Roemenië,Rumanía,Romania
 Russia,PN,Russia,Russland,Russia,Rusland,Rusia,Venäjä
 San Marino,PN,San Marino,San Marino,San Marino,San Marino,San Marino,San Marino
+Schengen Area,PN,Schengen Area,,,,,
 sea,CN,sea,"aceN neuter ""Meer"" ""Meere""",mare,zee,mar,meri
 Serbia,PN,Serbia,Serbien,Serbia,Servië,Serbia,Serbia
 Slovakia,PN,Slovakia,Slowakei,Slovacchia,Slowakije,Eslovaquia,Slovakia
 Slovenia,PN,Slovenia,Slowenien,Slovenia,Slovenië,Eslovenia,Slovenia
 Spain,PN,Spain,Spanien,Spagna,Spanje,España,Espanja
+start in,V2,"""start in"" ""starts in"" ""started in""","prepV2 (regV ""beginnen"") (mkPrep ""in"" nominative)",,,,
 state,CN,state,,,,estado,tila
 surround,V2,"""surround"" ""surrounds"" ""surrounded""",,,,rodear,ympäröidä
 Sweden,PN,Sweden,Schweden,Svezia,Zweden,Suecia,Ruotsi
