@@ -6,6 +6,15 @@ incomplete concrete AttemptoI of Attempto = SymbolsC, Numeral ** open
   Extra
 in {
 
+oper AceS : Type = { s : Syntax.S ; isComplex : Bool } ;
+
+oper mkAceS = overload {
+	mkAceS : Syntax.S -> AceS = \s -> { s = s ; isComplex = False } ;
+	mkAceS : Bool -> Syntax.S -> AceS = \b,s -> { s = s ; isComplex = b } ;
+	mkAceS : Bool -> Syntax.Conj -> AceS -> AceS -> AceS = \b,c,s1,s2 -> { s = mkS c s1.s s2.s ; isComplex = b } ;
+} ;
+
+
 lincat CN = Syntax.CN ; VarCN = Syntax.CN ;
 lincat NP = Syntax.NP ; lincat ThereNP = Syntax.NP ;
 lincat Card = Syntax.Card ;
@@ -14,7 +23,7 @@ lincat A = Syntax.A ;
 lincat A2 = Syntax.A2 ;
 lincat RS = Syntax.RS ;
 lincat Pron = Syntax.Pron ; IndefPron = Syntax.NP ; IndefTherePron = Syntax.NP ;
-lincat S = Syntax.S ; lincat SimpleS = Syntax.S ;
+lincat S = AceS ;
 lincat VP = Syntax.VP ;
 lincat V = Syntax.V ;
 lincat V2 = Syntax.V2 ;
@@ -83,14 +92,14 @@ lin which_RP = Syntax.which_RP ;
 
 lin ofCN cn np = mkCN cn (Syntax.mkAdv possess_Prep np) ;
 
-lin vpS np vp = mkS (mkCl np vp) ;
-lin neg_vpS np vp = mkS negativePol (mkCl np vp) ;
+lin vpS np vp = mkAceS (mkS (mkCl np vp)) ;
+lin neg_vpS np vp = mkAceS (mkS negativePol (mkCl np vp)) ;
 
 lin v2VP = mkVP ;
 
 lin a2VP = mkVP ; -- is mad-about NP
 
-lin thereNP np = mkS (mkCl np) ;
+lin thereNP np = mkAceS (mkS (mkCl np)) ;
 
 -- ThereNP is just a regular NP, we just need it to separate out
 -- the NPs which can occur as arguments of 'there is/are'.
@@ -99,19 +108,19 @@ lin thereNP_as_NP = id Syntax.NP ;
 
 lin cn_as_VarCN = id Syntax.CN ;
 
-lin simpleS_as_S = id Syntax.S ;
-
-
-lin coordS = mkS ;
+lin coordS c s1 s2 = case <s1.isComplex, s2.isComplex> of {
+	<False,_> => mkAceS True c s1 s2 ;
+	_ => variants {}
+} ;
 
 lin and_Conj = Syntax.and_Conj ;
 lin or_Conj = Syntax.or_Conj ;
 
-lin for_everyS cn = mkS (Syntax.mkAdv for_Prep (Syntax.mkNP every_Det cn)) ;
+lin for_everyS cn sent = mkAceS True (mkS (Syntax.mkAdv for_Prep (Syntax.mkNP every_Det cn)) sent.s) ;
 
-lin if_thenS = mkS if_then_Conj ;
+lin if_thenS = mkAceS True if_then_Conj ;
 
-lin falseS s = mkS (adj_thatCl false_A s) ;
+lin falseS s = mkAceS True (mkS (adj_thatCl false_A s.s)) ;
 
 
 -- lin ipQS ip vp = mkQS (mkQCl ip vp) ;
@@ -129,7 +138,7 @@ lin whichPl_IDet = Syntax.whichPl_IDet ;
 
 lin consText = mkText ;
 lin baseText t = t ;
-lin sText = mkText ;
+lin sText sent = mkText sent.s ;
 lin qsText = mkText ;
 
 
@@ -151,8 +160,8 @@ lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv by8agent_Prep np) ;
   -- This oper must be implemented in all languages
   -- oper S2QS : Syntax.S -> Syntax.QS ;
 
-  lin vpqQS np vpq = S2QS (vpS np vpq) ;
-  lin neg_vpqQS np vpq = S2QS (neg_vpS np vpq) ;
+  lin vpqQS np vpq = S2QS (vpS np vpq).s ;
+  lin neg_vpqQS np vpq = S2QS (neg_vpS np vpq).s ;
   lin npqQS npq vp = S2QS (mkS (mkCl npq vp)) ;
   lin neg_npqQS npq vp = S2QS (mkS negativePol (mkCl npq vp)) ;
 
@@ -166,8 +175,8 @@ lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv by8agent_Prep np) ;
   lin vpq_as_posVPSQ = vp_as_posVPS ;
   lin vpq_as_negVPSQ = vp_as_negVPS ;
 
-  lin np_coord_VPSQ np conj vpsqs = S2QS ( np_coord_VPS np conj vpsqs ) ;
-  lin npq_coord_VPS npq conj vpss = S2QS ( np_coord_VPS npq conj vpss ) ;
+  lin np_coord_VPSQ np conj vpsqs = S2QS ( np_coord_VPS np conj vpsqs ).s ;
+  lin npq_coord_VPS npq conj vpss = S2QS ( np_coord_VPS npq conj vpss ).s ;
 
   lin ofnpqCN = ofCN ;
   lin aNPQ = aNP ;
@@ -192,7 +201,7 @@ lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv by8agent_Prep np) ;
     ConsVPS = Extra.ConsVPS ;
     vp_as_posVPS = Extra.MkVPS (mkTemp presentTense simultaneousAnt) positivePol ;
     vp_as_negVPS = Extra.MkVPS (mkTemp presentTense simultaneousAnt) negativePol ;
-    np_coord_VPS np conj vpss = Extra.PredVPS np (Extra.ConjVPS conj vpss);
+    np_coord_VPS np conj vpss = mkAceS (Extra.PredVPS np (Extra.ConjVPS conj vpss)) ;
 
   lincat VPSQ = Extra.VPS ;
   lincat [VPSQ] = Extra.ListVPS ;

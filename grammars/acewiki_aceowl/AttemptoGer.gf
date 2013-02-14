@@ -34,7 +34,7 @@ oper then_Adv = ss "dann" ;
 -- Wenn X Y liebt, dann bewundert X Y nicht .
 -- mkAdv : Subj -> S -> Adv
 -- mkS : Adv -> S -> S
-lin if_thenS p q = ExtAdvS (mkAdv if_Subj p) (mkS then_Adv q) ;
+lin if_thenS p q = mkAceS True (ExtAdvS (mkAdv if_Subj p.s) (mkS then_Adv q.s)) ;
 
 -- VP coordination
 -- TODO

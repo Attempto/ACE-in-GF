@@ -13,7 +13,7 @@ cat A ;
 cat A2 ;
 cat RS ;
 cat Pron ; IndefPron ; IndefTherePron ;
-cat S ; cat SimpleS ;
+cat S ;
 cat VP ;
 cat V ;
 cat V2 ;
@@ -96,14 +96,14 @@ fun which_RP : RP ;
 -- e.g. ((dog of X) of X), most of which ACE does not allow. [KK]
 fun ofCN : CN -> NP -> VarCN ;
 
-fun vpS : NP -> VP -> SimpleS ;
-fun neg_vpS : NP -> VP -> SimpleS ;
+fun vpS : NP -> VP -> S ;
+fun neg_vpS : NP -> VP -> S ;
 
 fun v2VP : V2 -> NP -> VP ;
 
 fun a2VP : A2 -> NP -> VP ; -- is mad-about NP
 
-fun thereNP : ThereNP -> SimpleS ;  -- there is/are
+fun thereNP : ThereNP -> S ;  -- there is/are
 
 fun thereNP_as_NP : ThereNP -> NP ;
 
@@ -118,14 +118,12 @@ fun or_Conj : Conj ;
 -- (3) map VPS into S (and QS?) (but definitely not into RS).
 fun vp_as_posVPS : VP -> VPS ;
 fun vp_as_negVPS : VP -> VPS ;
-fun np_coord_VPS : NP -> Conj -> [VPS] -> SimpleS ;
+fun np_coord_VPS : NP -> Conj -> [VPS] -> S ;
 
 fun for_everyS : VarCN -> S -> S ;
 
 fun if_thenS : S -> S -> S ;
-fun falseS : SimpleS -> S ; -- it is false that
-
-fun simpleS_as_S : SimpleS -> S ;
+fun falseS : S -> S ; -- it is false that
 
 -- These have been replaced by the more generic function npqQS, which allows
 -- for wh-words in the object position of a relative clause as subject
