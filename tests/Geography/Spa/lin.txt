@@ -1,19 +1,13 @@
 Geography: baseText (sText (neg_vpS (pnNP Switzerland_PN) (v2VP border_V2 (noNP (cn_as_VarCN sea_CN)))))
 GeographyAce: Switzerland doesn't border no sea .
 GeographyApe: Switzerland|pn_sg|Switzerland_PN|neutr doesn't border|tv_infpl|border_V2 no sea|noun_sg|sea_N|neutr .
-GeographyDut: Zwitserland grenst niet geen zee .
-GeographyFin: Sveitsi ei raja mitään meriä .
 GeographyGer: die Schweiz grenzt an kein Meer nicht .
-GeographyIta: Svizzera non confa nessuno mare .
 GeographySpa: Suiza no hace frontera con ningún mar .
 
 Geography: baseText (sText (vpS (pnNP Switzerland_PN) (v2VP border_V2 (noNP (cn_as_VarCN sea_CN)))))
 GeographyAce: Switzerland borders no sea .
 GeographyApe: Switzerland|pn_sg|Switzerland_PN|neutr borders|tv_finsg|border_V2 no sea|noun_sg|sea_N|neutr .
-GeographyDut: Zwitserland grenst geen zee .
-GeographyFin: Sveitsi ei raja mitään meriä .
 GeographyGer: die Schweiz grenzt an kein Meer .
-GeographyIta: Svizzera non confa nessuno mare .
 GeographySpa: Suiza no hace frontera con ningún mar .
 
 
