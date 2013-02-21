@@ -88,8 +88,11 @@ lin_ontograph_ext_save:
 	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf) > $(tests_onto_ext)/lin.txt
 
 lin_Geography_save:
-	cat tests/$(Geography)/sentences.txt | sed -f tools/make_gf_parse_lin_command.sed | \
-	gf --run --verbose=0 --path=$(p) $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf) > tests/$(Geography)/lin.txt
+	for inputlang in Ace Ger Spa; do \
+		cat tests/$(Geography)/$$inputlang/sentences.txt | \
+		python tools/make_gf_parse_lin_command.py --lang=$$inputlang --cat=ACEText | \
+		gf --run --verbose=0 --path=$(p) $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf) > tests/$(Geography)/$$inputlang/lin.txt ; \
+	done
 
 # This does not fail if one of the sentences fails (unlike "rf -lines | p")
 # TODO: We assume that pgf_acewiki_aceowl produces TestAttempto.pgf with all the languages
