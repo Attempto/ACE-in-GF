@@ -2,6 +2,7 @@ resource OperGer = AttemptoGer ** open SyntaxGer, ParadigmsGer in {
 
 -- TODO: do we need to specify "AttemptoGer"
 
+-- TODO: rename
 param AceGerPnType = der | die | das | pl ;
 
 oper
@@ -23,6 +24,8 @@ mkGen : AceGerPnType -> Gender = \g -> case g of {
 
 aceN = overload {
   aceN : Str -> AttemptoGer.CN = mk_1N ;
+  aceN : AceGerPnType -> Str -> AttemptoGer.CN = \g,s -> mk_gen_1N (mkGen g) s;
+  aceN : Gender -> Str -> AttemptoGer.CN = mk_gen_1N;
   aceN : (g:Gender) -> (man,men : Str) -> AttemptoGer.CN = mk_gen_2N;
 };
 
@@ -61,6 +64,11 @@ aceV : (_,_,_:Str) -> AttemptoGer.V = \x,y,z ->
 
 
 mk_1N : Str -> AttemptoGer.CN = \n -> mkCN (mkN n) ;
+
+-- TODO: fix this: first guess the plural and then use it.
+-- Not sure it will work though.
+mk_gen_1N : Gender -> Str -> AttemptoGer.CN =
+	\gen,sg -> mkCN (mkN sg sg gen) ;
 
 mk_gen_2N : Gender -> Str -> Str -> AttemptoGer.CN =
 	\gen,sg,pl -> mkCN (mkN sg pl gen) ;

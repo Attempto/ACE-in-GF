@@ -2,13 +2,13 @@ Geography: baseText (sText (vpS Rhine_NP (v2VP flow_through_V2 (thereNP_as_NP (a
 GeographyAce: the Rhine flows_through a city that contains Switzerland .
 GeographyApe: the Rhine|pndef_sg|Rhine_PN|neutr flows_through|tv_finsg|flow_through_V2 a city|noun_sg|city_N|neutr that contains|tv_finsg|contain_V2 Switzerland|pn_sg|Switzerland_PN|neutr .
 GeographyGer: der Rhein fließt durch eine Stadt die die Schweiz enthält .
-GeographySpa: Rin atraviesa un ciudad que contiene Suiza .
+GeographySpa: Rin atraviesa una ciudad que contiene Suiza .
 
 Geography: baseText (sText (vpS Rhine_NP (v2VP flow_through_V2 (thereNP_as_NP (aNP (relCN (cn_as_VarCN city_CN) (slashRS which_RP Switzerland_NP contain_V2)))))))
 GeographyAce: the Rhine flows_through a city that Switzerland contains .
 GeographyApe: the Rhine|pndef_sg|Rhine_PN|neutr flows_through|tv_finsg|flow_through_V2 a city|noun_sg|city_N|neutr that Switzerland|pn_sg|Switzerland_PN|neutr contains|tv_finsg|contain_V2 .
 GeographyGer: der Rhein fließt durch eine Stadt die die Schweiz enthält .
-GeographySpa: Rin atraviesa un ciudad que Suiza contiene .
+GeographySpa: Rin atraviesa una ciudad que Suiza contiene .
 
 
 Geography: baseText (sText (vpS Alps_NP (v2VP belong_to_V2 Pyrenees_NP)))
