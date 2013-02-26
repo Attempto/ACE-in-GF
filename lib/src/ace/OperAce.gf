@@ -1,5 +1,8 @@
 instance OperAce of Oper =
   ParadigmsEng - [mkA2, mkA2S, mkA2V, prepA2] ** open SyntaxAce, CatAce, ResAce in {
+
+  param AcePnType = defsg | defpl ;
+
   oper
 
     -- In ACE there are only 3 verb forms: infpl, finsg, pp
@@ -11,6 +14,17 @@ instance OperAce of Oper =
     acePN = overload {
       acePN : (john : Str) -> PN = \john -> mkPN (mkN Neutr (mkN john)) ;
       acePN : Gender -> Str -> PN = \g,john -> mkPN (mkN g (mkN john)) ;
+    };
+
+    acePND = overload {
+      acePND : (john : Str) -> PN = \john -> mkPN (mkN Neutr (mkN ("the" ++ john))) ;
+      acePND : Gender -> Str -> PN = \g,john -> mkPN (mkN g (mkN ("the" ++ john))) ;
+    };
+
+    -- TODO: do not ignore AcePnType
+    aceNP = overload {
+      aceNP : (john : Str) -> NP = \john -> SyntaxAce.mkNP (acePN john) ;
+      aceNP : AcePnType -> Str -> NP = \_,john -> SyntaxAce.mkNP (acePN ("the" ++ john)) ;
     };
 
     aceN = overload {

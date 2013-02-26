@@ -11,9 +11,15 @@ in the Prolog term format.
 -- TODO: support other ACE word classes
 
 instance OperApe of Oper = ParadigmsEng - [mkA2, mkA2S, mkA2V, prepA2] ** open SyntaxAce, CatAce, ResAce in {
+
+param AcePnType = defsg | defpl ;
+
 oper
 
 PN_SG : Str = "pn_sg" ;
+PN_PL : Str = "pn_pl" ;
+PNDEF_SG : Str = "pndef_sg" ;
+PNDEF_PL : Str = "pndef_pl" ;
 
 NOUN_SG : Str = "noun_sg" ;
 NOUN_PL : Str = "noun_pl" ;
@@ -72,13 +78,25 @@ aceV2 : (_,_,_:Str) -> V2 = \go,goes,gone ->
 --
 -- We only cover:
 --   pn_sg(WordForm, LogicalSymbol, Gender)
+--   pndef_sg(WordForm, LogicalSymbol, Gender)
 -- and do not cover:
 --   pn_pl(WordForm, LogicalSymbol, Gender)
---   pndef_sg(WordForm, LogicalSymbol, Gender)
 --   pndef_pl(WordForm, LogicalSymbol, Gender)
 acePN = overload {
   acePN : Str -> PN = \john -> mkPN (mkN Neutr (mkN (aceNLex PN_SG john (john + "_PN") Neutr))) ;
   acePN : Gender -> Str -> PN = \g,john -> mkPN (mkN g (mkN (aceNLex PN_SG john (john + "_PN") g))) ;
+};
+
+acePND = overload {
+  acePND : Str -> PN = \john -> mkPN (mkN Neutr (mkN (aceNLex PNDEF_SG ("the" ++ john) (john + "_PN") Neutr))) ;
+  acePND : Gender -> Str -> PN = \g,john -> mkPN (mkN g (mkN (aceNLex PNDEF_SG ("the" ++ john) (john + "_PN") g))) ;
+};
+
+
+-- TODO: do not ignore AcePnType
+aceNP = overload {
+  aceNP : Str -> NP = \john -> SyntaxAce.mkNP (acePN john) ;
+  aceNP : AcePnType -> Str -> NP = \_,john -> SyntaxAce.mkNP (acePND john) ;
 };
 
 

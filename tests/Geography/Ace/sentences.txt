@@ -1,5 +1,7 @@
-the_Aar rises_in Switzerland and ends_in Switzerland .
+the Aar rises_in Switzerland and ends_in Switzerland .
 Vatican_City is surrounded by Rome .
+German is an official-language of the European_Union .
+the EU is the European_Union .
 every country borders a country or is bordered by a sea .
 no country X borders X .
 for every country X X does not border X .
@@ -8,19 +10,17 @@ if X contains Y then Y does not contain X .
 if X contains Y and Y contains Z then Z is contained by X .
 Switzerland borders no sea .
 Zurich is contained by Switzerland .
-German is an official-language of the_European_Union .
 every city is not a capital of a country .
 there is a city that is not a capital of a country .
 no city is a capital of more than 1 country .
 no capital is contained by more than 2 seas .
-the_EU is the_European_Union .
 for every country X a capital of X is contained by X and is not a sea .
 a capital of X is contained by X and is not a sea .
 if a river X flows_into a lake then the lake is flown_into by Y .
-the_Rhine flows_through the_Netherlands .
+the Rhine flows_through the Netherlands .
 if there is a river X then X starts_in a country and ends_in a country and X flows_through at least 1 country and flows_into something that is a river or that is a lake or that is a sea .
 if X flows_into something that drains_into Y then X drains_into Y .
-every river that starts_in Switzerland drains_into the_Mediterranean or drains_into the_North_Sea .
+every river that starts_in Switzerland drains_into the Mediterranean or drains_into the North_Sea .
 at least 3 Finno-Ugric_languages are an official-language of a country .
 every country X lies_in_the_north_of every country that lies_in_the_south_of X .
 if an official-language of a country is a Finno-Ugric_language then the country borders Russia or borders a country that borders Russia .
