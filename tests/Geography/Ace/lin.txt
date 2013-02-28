@@ -46,6 +46,13 @@ GeographyGer: die Europäische Union ist die Europäische Union .
 GeographySpa: la Unión Europea es la Unión Europea .
 
 
+Geography: baseText (sText (vpS (thereNP_as_NP (more_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN river_CN))) (v2VP has_as_location_V2 European_Union_NP)))
+GeographyAce: more than 2 rivers have_as_location the EU .
+GeographyApe: more than 2 rivers|noun_pl|river_N|neutr have_as_location|tv_infpl|have_as_location_V2 the EU|pndef_sg|EU_PN|neutr .
+GeographyGer: mehr als 2 Fluss liegen in der Europäischen Union .
+GeographySpa: más que 2 ríos estar situadoan la Unión Europea .
+
+
 Geography: baseText (sText (np_coord_VPS (everyNP (cn_as_VarCN country_CN)) or_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))) (vp_as_posVPS (v2_byVP border_V2 (thereNP_as_NP (aNP (cn_as_VarCN sea_CN))))))))
 GeographyAce: every country borders a country or is bordered by a sea .
 GeographyApe: every country|noun_sg|country_N|neutr borders|tv_finsg|border_V2 a country|noun_sg|country_N|neutr or is bordered|tv_pp|border_V2 by a sea|noun_sg|sea_N|neutr .

@@ -18,3 +18,10 @@ GeographyGer: die Alpen gehören zu den Pyrenäen .
 GeographySpa: los Alpes pertenecen a los Pirineos .
 
 
+Geography: baseText (sText (neg_vpS Pyrenees_NP (a2VP larger_than_A2 Switzerland_NP)))
+GeographyAce: Pyrenees isn't larger-than Switzerland .
+GeographyApe: Pyrenees|pn_sg|Pyrenees_PN|neutr isn't larger-than|adj_tr|larger-than_A2|than Switzerland|pn_sg|Switzerland_PN|neutr .
+GeographyGer: die Pyrenäen sind nicht größer als die Schweiz .
+GeographySpa: los Pirineos no son mayores que Suiza .
+
+
