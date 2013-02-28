@@ -444,7 +444,6 @@ Vla__353_i__263__NP = mkNP "Vlašić-vuori" ;
 Vltava_river_NP = mkNP "Moldova" ;
 volcano_CN = mkCN (mkN "tulivuori") ;
 Volga_NP = mkNP "Volga" ;
-Volta_NP = mkNP "Volta" ;
 Wales_NP = mkNP "Wales" ;
 Wappenham_NP = mkNP "Wappenham" ;
 Warsaw_NP = mkNP "Varsova" ;

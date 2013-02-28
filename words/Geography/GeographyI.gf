@@ -465,7 +465,6 @@ Vla__353_i__263__NP = aceNP "Vlašić" ;
 Vltava_river_NP = aceNP "Vltava" ;
 volcano_CN = aceN "volcano" ;
 Volga_NP = aceNP "Volga" ;
-Volta_NP = aceNP "Volta" ;
 Wales_NP = aceNP "Wales" ;
 Wappenham_NP = aceNP "Wappenham" ;
 Warsaw_NP = aceNP "Warsaw" ;

@@ -15,7 +15,7 @@ Geography: baseText (sText (vpS Narva_river_NP (v2VP flow_through_V2 Narva_NP)))
 GeographyAce: the Narva River flows_through Narva .
 GeographyApe: the Narva River|pndef_sg|Narva River_PN|neutr flows_through|tv_finsg|flow_through_V2 Narva|pn_sg|Narva_PN|neutr .
 GeographyGer: die Narva fließt durch Narva .
-GeographySpa: río Narva atraviesa Narva .
+GeographySpa: el río Narva atraviesa Narva .
 
 
 Geography: baseText (sText (np_coord_VPS Aar_NP and_Conj (BaseVPS (vp_as_posVPS (v2VP river_source_V2 Switzerland_NP)) (vp_as_posVPS (v2VP end_in_V2 Switzerland_NP)))))
@@ -36,7 +36,7 @@ Geography: baseText (sText (vpS German_language_NP (npVP (thereNP_as_NP (aNP (of
 GeographyAce: German is an official-language of the EU .
 GeographyApe: German|pn_sg|German_PN|neutr is an official-language|noun_sg|official-language_N|neutr of the EU|pndef_sg|EU_PN|neutr .
 GeographyGer: Deutsch ist eine offizielle Sprache von der Europäischen Union .
-GeographySpa: el alemán es un lengua oficial de la Unión Europea .
+GeographySpa: el alemán es una lengua oficial de la Unión Europea .
 
 
 Geography: baseText (sText (vpS European_Union_NP (npVP European_Union_NP)))
@@ -49,7 +49,7 @@ GeographySpa: la Unión Europea es la Unión Europea .
 Geography: baseText (sText (vpS (thereNP_as_NP (more_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN river_CN))) (v2VP has_as_location_V2 European_Union_NP)))
 GeographyAce: more than 2 rivers have_as_location the EU .
 GeographyApe: more than 2 rivers|noun_pl|river_N|neutr have_as_location|tv_infpl|have_as_location_V2 the EU|pndef_sg|EU_PN|neutr .
-GeographyGer: mehr als 2 Fluss liegen in der Europäischen Union .
+GeographyGer: mehr als 2 Flüsse liegen in der Europäischen Union .
 GeographySpa: más que 2 ríos estar situadoan la Unión Europea .
 
 
@@ -154,7 +154,7 @@ GeographySpa: una capital de X está contenida por X y no es un mar .
 Geography: baseText (sText (if_thenS (vpS (thereNP_as_NP (aNP (apposVarCN river_CN X_Var))) (v2VP flow_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN lake_CN))))) (vpS (theNP (cn_as_VarCN lake_CN)) (v2_byVP flow_into_V2 (termNP Y_Var)))))
 GeographyAce: if a river X flows_into a lake then the lake is flown_into by Y .
 GeographyApe: if a river|noun_sg|river_N|neutr X flows_into|tv_finsg|flow_into_V2 a lake|noun_sg|lake_N|neutr then the lake|noun_sg|lake_N|neutr is flown_into|tv_pp|flow_into_V2 by Y .
-GeographyGer: wenn ein Fluss X in einen See fließt , dann wird der See durch Y gefließt .
+GeographyGer: wenn ein Fluss X in einen Seen fließt , dann wird der See durch Y gefließt .
 GeographySpa: si un río X desemboca en un lago entonces el lago está desembocado por Y .
 
 
@@ -162,7 +162,7 @@ Geography: baseText (sText (vpS Rhine_NP (v2VP flow_through_V2 Netherlands_NP)))
 GeographyAce: the Rhine flows_through the Netherlands .
 GeographyApe: the Rhine|pndef_sg|Rhine_PN|neutr flows_through|tv_finsg|flow_through_V2 the Netherlands|pndef_sg|Netherlands_PN|neutr .
 GeographyGer: der Rhein fließt durch die Niederlande .
-GeographySpa: Rin atraviesa Holanda .
+GeographySpa: el Rin atraviesa Holanda .
 
 
 Geography: baseText (sText (if_thenS (thereNP (aNP (apposVarCN river_CN X_Var))) (coordS and_Conj (np_coord_VPS (termNP X_Var) and_Conj (BaseVPS (vp_as_posVPS (v2VP river_source_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))) (vp_as_posVPS (v2VP end_in_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))))) (np_coord_VPS (termNP X_Var) and_Conj (BaseVPS (vp_as_posVPS (v2VP flow_through_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_1)) (cn_as_VarCN country_CN))))) (vp_as_posVPS (v2VP flow_into_V2 (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN river_CN))))) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN lake_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN sea_CN)))))))))))))))
@@ -188,21 +188,21 @@ GeographySpa: si X desemboca en algo que desemboca en Y entonces X desemboca en 
 Geography: baseText (sText (np_coord_VPS (everyNP (relCN (cn_as_VarCN river_CN) (predRS which_RP (v2VP river_source_V2 Switzerland_NP)))) or_Conj (BaseVPS (vp_as_posVPS (v2VP drain_into_V2 Mediterranean_Sea_NP)) (vp_as_posVPS (v2VP drain_into_V2 North_Sea_NP)))))
 GeographyAce: every river that rises_in Switzerland drains_into the Mediterranean or drains_into the North_Sea .
 GeographyApe: every river|noun_sg|river_N|neutr that rises_in|tv_finsg|rise_in_V2 Switzerland|pn_sg|Switzerland_PN|neutr drains_into|tv_finsg|drain_into_V2 the Mediterranean|pndef_sg|Mediterranean_PN|neutr or drains_into|tv_finsg|drain_into_V2 the North_Sea|pndef_sg|North_Sea_PN|neutr .
-GeographyGer: jeder Fluss der in die Schweiz beginnt mündet in das Mittelmeer oder mündet in die Nordsee .
-GeographySpa: cada río que naca en Suiza desemboca en el mar Mediterráneo o desemboca en Mar del Norte .
+GeographyGer: jeder Fluss der in die Schweiz beginnt mündet ins Mittelmeer oder mündet in die Nordsee .
+GeographySpa: cada río que naca en Suiza desemboca en el mar Mediterráneo o desemboca en el Mar del Norte .
 
 Geography: baseText (sText (np_coord_VPS (relNP (everyNP (cn_as_VarCN river_CN)) (predRS which_RP (v2VP river_source_V2 Switzerland_NP))) or_Conj (BaseVPS (vp_as_posVPS (v2VP drain_into_V2 Mediterranean_Sea_NP)) (vp_as_posVPS (v2VP drain_into_V2 North_Sea_NP)))))
 GeographyAce: every river that rises_in Switzerland drains_into the Mediterranean or drains_into the North_Sea .
 GeographyApe: every river|noun_sg|river_N|neutr that rises_in|tv_finsg|rise_in_V2 Switzerland|pn_sg|Switzerland_PN|neutr drains_into|tv_finsg|drain_into_V2 the Mediterranean|pndef_sg|Mediterranean_PN|neutr or drains_into|tv_finsg|drain_into_V2 the North_Sea|pndef_sg|North_Sea_PN|neutr .
-GeographyGer: jeder Fluss , der in die Schweiz beginnt mündet in das Mittelmeer oder mündet in die Nordsee .
-GeographySpa: cada río que naca en Suiza desemboca en el mar Mediterráneo o desemboca en Mar del Norte .
+GeographyGer: jeder Fluss , der in die Schweiz beginnt mündet ins Mittelmeer oder mündet in die Nordsee .
+GeographySpa: cada río que naca en Suiza desemboca en el mar Mediterráneo o desemboca en el Mar del Norte .
 
 
 Geography: baseText (sText (vpS (thereNP_as_NP (at_leastNP (digitsCard (IDig D_3)) (cn_as_VarCN Finno_Ugric_language_CN))) (npVP (thereNP_as_NP (aNP (ofCN official_language_CN (thereNP_as_NP (aNP (cn_as_VarCN country_CN)))))))))
 GeographyAce: at least 3 Finno-Ugric_languages are an official-language of a country .
 GeographyApe: at least 3 Finno-Ugric_languages|noun_pl|Finno-Ugric_language_N|neutr are an official-language|noun_sg|official-language_N|neutr of a country|noun_sg|country_N|neutr .
 GeographyGer: wenigstens 3 Finno-ugrische Sprachen sind eine offizielle Sprache von einem Land .
-GeographySpa: al menos 3 lenguas fino-úgricas son un lengua oficial de un país .
+GeographySpa: al menos 3 lenguas fino-úgricas son una lengua oficial de un país .
 
 
 Geography: baseText (sText (vpS (everyNP (apposVarCN country_CN X_Var)) (v2VP northern_of_V2 (everyNP (relCN (cn_as_VarCN country_CN) (predRS which_RP (v2VP southern_of_V2 (termNP X_Var))))))))
@@ -222,13 +222,13 @@ Geography: baseText (sText (if_thenS (vpS (thereNP_as_NP (aNP (ofCN official_lan
 GeographyAce: if an official-language of a country is a Finno-Ugric_language then the country borders Russia or borders a country that borders Russia .
 GeographyApe: if an official-language|noun_sg|official-language_N|neutr of a country|noun_sg|country_N|neutr is a Finno-Ugric_language|noun_sg|Finno-Ugric_language_N|neutr then the country|noun_sg|country_N|neutr borders|tv_finsg|border_V2 Russia|pn_sg|Russia_PN|neutr or borders|tv_finsg|border_V2 a country|noun_sg|country_N|neutr that borders|tv_finsg|border_V2 Russia|pn_sg|Russia_PN|neutr .
 GeographyGer: wenn eine offizielle Sprache von einem Land eine Finno-ugrische Sprache ist , dann grenzt an Russland oder grenzt an ein Land , das an Russland grenzt das Land .
-GeographySpa: si un lengua oficial de un país es una lengua fino-úgrica entonces el país hace frontera con Rusia o hace frontera con un país que hace frontera con Rusia .
+GeographySpa: si una lengua oficial de un país es una lengua fino-úgrica entonces el país hace frontera con Rusia o hace frontera con un país que hace frontera con Rusia .
 
 Geography: baseText (sText (if_thenS (vpS (thereNP_as_NP (aNP (ofCN official_language_CN (thereNP_as_NP (aNP (cn_as_VarCN country_CN)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN Finno_Ugric_language_CN))))) (np_coord_VPS (theNP (cn_as_VarCN country_CN)) or_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 Russia_NP)) (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (aNP (relCN (cn_as_VarCN country_CN) (predRS which_RP (v2VP border_V2 Russia_NP)))))))))))
 GeographyAce: if an official-language of a country is a Finno-Ugric_language then the country borders Russia or borders a country that borders Russia .
 GeographyApe: if an official-language|noun_sg|official-language_N|neutr of a country|noun_sg|country_N|neutr is a Finno-Ugric_language|noun_sg|Finno-Ugric_language_N|neutr then the country|noun_sg|country_N|neutr borders|tv_finsg|border_V2 Russia|pn_sg|Russia_PN|neutr or borders|tv_finsg|border_V2 a country|noun_sg|country_N|neutr that borders|tv_finsg|border_V2 Russia|pn_sg|Russia_PN|neutr .
 GeographyGer: wenn eine offizielle Sprache von einem Land eine Finno-ugrische Sprache ist , dann grenzt an Russland oder grenzt an ein Land das an Russland grenzt das Land .
-GeographySpa: si un lengua oficial de un país es una lengua fino-úgrica entonces el país hace frontera con Rusia o hace frontera con un país que hace frontera con Rusia .
+GeographySpa: si una lengua oficial de un país es una lengua fino-úgrica entonces el país hace frontera con Rusia o hace frontera con un país que hace frontera con Rusia .
 
 
 Geography: baseText (sText (vpS (everyNP (relCN (cn_as_VarCN Germanic_language_CN) (predRS which_RP (v2_byVP surround_V2 Hiiumaa_island_NP)))) (v2VP to_be_a_natural_border_between_V2 Atlantic_Ocean_NP)))

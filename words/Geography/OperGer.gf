@@ -1,6 +1,6 @@
-resource OperGer = AttemptoGer ** open SyntaxGer, ParadigmsGer in {
+resource OperGer = AttemptoGer ** open (S=SyntaxGer), (P=ParadigmsGer), (R=ResGer) in {
 
--- TODO: do we need to specify "AttemptoGer"
+-- AttemptoGer provides: CN, NP, V.
 
 -- TODO: rename
 param AceGerPnType = der | die | das | pl ;
@@ -15,23 +15,24 @@ DUMMY : Str = "~" ;
 -- So both could be supported in the lexicon editor.
 -- TODO: this should never be called with 'pl' but for some reason the compiler
 -- wants us to handle 'pl' as well...
-mkGen : AceGerPnType -> Gender = \g -> case g of {
-  der => masculine ;
-  das => neuter ;
-  die => feminine ;
-  _ => neuter
+mkGen : AceGerPnType -> P.Gender = \g -> case g of {
+  der => P.masculine ;
+  das => P.neuter ;
+  die => P.feminine ;
+  _ => P.neuter
 } ;
 
 aceN = overload {
-  aceN : Str -> AttemptoGer.CN = mk_1N ;
-  aceN : AceGerPnType -> Str -> AttemptoGer.CN = \g,s -> mk_gen_1N (mkGen g) s;
-  aceN : Gender -> Str -> AttemptoGer.CN = mk_gen_1N;
-  aceN : (g:Gender) -> (man,men : Str) -> AttemptoGer.CN = mk_gen_2N;
+  aceN : Str -> CN = mk_1N ;
+  aceN : AceGerPnType -> Str -> CN = \g,s -> mk_gen_1N (mkGen g) s ;
+  aceN : AceGerPnType -> (man,men : Str) -> CN = \g,sg,pl -> mk_gen_2N (mkGen g) sg pl ;
+  aceN : P.Gender -> Str -> CN = mk_gen_1N ;
+  aceN : P.Gender -> (man,men : Str) -> CN = mk_gen_2N ;
 };
 
 acePN = overload {
-  acePN : Str -> PN = mkPN ;
-  acePN : (_,_,_,_:Str) -> PN = mkPN ;
+  acePN : Str -> PN = P.mkPN ;
+  acePN : (_,_,_,_:Str) -> PN = P.mkPN ;
 };
 
 -- This operator is for creating proper name NPs, which in
@@ -44,14 +45,14 @@ acePN = overload {
 -- the plural from the singular using gender. So we currently give the
 -- the input form as both singular and plural, which works at least for Alpen.
 mkNP = overload {
-  mkNP : Str -> NP = \john -> SyntaxGer.mkNP (acePN john) ;
+  mkNP : Str -> NP = \john -> S.mkNP (acePN john) ;
   mkNP : AceGerPnType -> Str -> NP = \g,pn -> case g of {
-    pl => SyntaxGer.mkNP thePl_Det (mk_gen_2N neuter pn pn) ;
-    _  => SyntaxGer.mkNP the_Art (mk_gen_2N (mkGen g) pn "")
+    pl => S.mkNP S.thePl_Det (mk_gen_2N P.neuter pn pn) ;
+    _  => S.mkNP S.the_Art (mk_gen_2N (mkGen g) pn "")
   } ;
   mkNP : AceGerPnType -> Str -> Str -> Str -> Str -> NP = \g,x1,x2,x3,x4 -> case g of {
-    pl => SyntaxGer.mkNP thePl_Det (mkCN (mkN x1 x2 x3 x4 DUMMY DUMMY neuter)) ;
-    _  => SyntaxGer.mkNP the_Art (mkCN (mkN x1 x2 x3 x4 DUMMY DUMMY (mkGen g)))
+    pl => S.mkNP S.thePl_Det (S.mkCN (P.mkN x1 x2 x3 x4 DUMMY DUMMY P.neuter)) ;
+    _  => S.mkNP S.the_Art (S.mkCN (P.mkN x1 x2 x3 x4 DUMMY DUMMY (mkGen g)))
   }
 };
 
@@ -59,18 +60,21 @@ mkNP = overload {
 -- 1. Infinitiv Präsens
 -- 2. Präsens Indikativ er/sie/es
 -- 3. Partizip Perfekt
-aceV : (_,_,_:Str) -> AttemptoGer.V = \x,y,z ->
-	mkV x y DUMMY DUMMY z ;
+aceV : (_,_,_:Str) -> V = \x,y,z ->
+	P.mkV x y DUMMY DUMMY z ;
 
 
-mk_1N : Str -> AttemptoGer.CN = \n -> mkCN (mkN n) ;
+mk_1N : Str -> CN = \n -> S.mkCN (P.mkN n) ;
 
--- TODO: fix this: first guess the plural and then use it.
--- Not sure it will work though.
-mk_gen_1N : Gender -> Str -> AttemptoGer.CN =
-	\gen,sg -> mkCN (mkN sg sg gen) ;
+-- There is no GF paradigm that takes singular+gender as input,
+-- so we implement this here. But just to be able to handle more
+-- lexicon entries (from the spreadsheet).
+-- Do not use it, it does not work correctly.
+mk_gen_1N : P.Gender -> Str -> CN = \gen,sg ->
+	let pl = ((P.mkN sg).s ! R.Pl ! R.Nom) in
+		S.mkCN (P.mkN sg pl gen) ;
 
-mk_gen_2N : Gender -> Str -> Str -> AttemptoGer.CN =
-	\gen,sg,pl -> mkCN (mkN sg pl gen) ;
+mk_gen_2N : P.Gender -> Str -> Str -> CN =
+	\gen,sg,pl -> S.mkCN (P.mkN sg pl gen) ;
 
 }

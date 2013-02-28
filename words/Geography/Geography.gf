@@ -464,7 +464,6 @@ Vla__353_i__263__NP : NP ;
 Vltava_river_NP : NP ;
 volcano_CN : CN ;
 Volga_NP : NP ;
-Volta_NP : NP ;
 Wales_NP : NP ;
 Wappenham_NP : NP ;
 Warsaw_NP : NP ;

@@ -2,13 +2,13 @@ Geography: baseText (sText (vpS Rhine_NP (v2VP flow_through_V2 (thereNP_as_NP (a
 GeographyAce: the Rhine flows_through a city that contains Switzerland .
 GeographyApe: the Rhine|pndef_sg|Rhine_PN|neutr flows_through|tv_finsg|flow_through_V2 a city|noun_sg|city_N|neutr that contains|tv_finsg|contain_V2 Switzerland|pn_sg|Switzerland_PN|neutr .
 GeographyGer: der Rhein fließt durch eine Stadt die die Schweiz enthält .
-GeographySpa: Rin atraviesa una ciudad que contiene Suiza .
+GeographySpa: el Rin atraviesa una ciudad que contiene Suiza .
 
 Geography: baseText (sText (vpS Rhine_NP (v2VP flow_through_V2 (thereNP_as_NP (aNP (relCN (cn_as_VarCN city_CN) (slashRS which_RP Switzerland_NP contain_V2)))))))
 GeographyAce: the Rhine flows_through a city that Switzerland contains .
 GeographyApe: the Rhine|pndef_sg|Rhine_PN|neutr flows_through|tv_finsg|flow_through_V2 a city|noun_sg|city_N|neutr that Switzerland|pn_sg|Switzerland_PN|neutr contains|tv_finsg|contain_V2 .
 GeographyGer: der Rhein fließt durch eine Stadt die die Schweiz enthält .
-GeographySpa: Rin atraviesa una ciudad que Suiza contiene .
+GeographySpa: el Rin atraviesa una ciudad que Suiza contiene .
 
 
 Geography: baseText (sText (vpS Alps_NP (v2VP belong_to_V2 Pyrenees_NP)))
@@ -23,5 +23,12 @@ GeographyAce: Pyrenees isn't larger-than Switzerland .
 GeographyApe: Pyrenees|pn_sg|Pyrenees_PN|neutr isn't larger-than|adj_tr|larger-than_A2|than Switzerland|pn_sg|Switzerland_PN|neutr .
 GeographyGer: die Pyrenäen sind nicht größer als die Schweiz .
 GeographySpa: los Pirineos no son mayores que Suiza .
+
+
+Geography: baseText (sText (vpS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN north_western_region_CN))) (v2VP belong_to_V2 Czech_Republic_NP)))
+GeographyAce: exactly 2 north-western_regions belong_to the Czech_Republic .
+GeographyApe: exactly 2 north-western_regions|noun_pl|north-western_region_N|neutr belong_to|tv_infpl|belong_to_V2 the Czech_Republic|pndef_sg|Czech_Republic_PN|neutr .
+GeographyGer: genau 2 nordwestliche Regionen gehören zur Tschechischen Republik .
+GeographySpa: exactamente 2 región noroccidentales pertenecen a la República Checa .
 
 

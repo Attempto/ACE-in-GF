@@ -41,5 +41,8 @@ includes_all:
 deploy_no_act: includes_all
 	upload-grammar.py --server $(server) --dir $(dir) --ext "\.gf" --includes $(includes_all) --no-act . ../../lib/src/ ../../grammars/acewiki_aceowl/
 
+deploy_yes_act: includes_all
+	upload-grammar.py --server $(server) --dir $(dir) --ext "\.gf" --includes $(includes_all) . ../../lib/src/ ../../grammars/acewiki_aceowl/
+
 cc:
 	gf --path ../../grammars/acewiki_aceowl/
