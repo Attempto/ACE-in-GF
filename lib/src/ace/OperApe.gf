@@ -1,13 +1,23 @@
 {--
 
-Operators for generating ACE lexicon entries
-in the Prolog term format.
+Operators for generating ACE lexicon entries, i.e. forms which
+contain all the information needed to successfully parse an ACE sentence.
+This information includes: word class, gender and number.
+Also, the form should include the LogicalSymbol which identifies different wordforms
+of the same word.
+
+We currently assume that the LogicalSymbol can be constructed on the basis of the
+lemma form and the word class. Since the LogicalSymbol must be unambiguous,
+we are basically assuming that the lemma+wordclass combination is unambiguous,
+i.e. that ACE is not lexically ambiguous (within the multilingual grammar).
+It might be better to use the function name for the logical symbol, but there
+is no way to obtain it unless it's passed as an argument (?).
+In either case the characters in the logical atom might need rewriting in order to
+be suitable for the tool that further processes the LogicalSymbols (e.g. a reasoner).
 
 --}
 
--- TODO: how to escape a token-internal quote
--- TODO: maybe expect that the LogicalSymbol is provided via a further parameter
--- or maybe it's possible to access the function name
+-- TODO: how to escape a token-internal quote?
 -- TODO: support other ACE word classes
 
 instance OperApe of Oper = ParadigmsEng - [mkA2, mkA2S, mkA2V, prepA2] ** open SyntaxAce, CatAce, ResAce in {
@@ -48,6 +58,12 @@ aceGen : Gender -> Str = \g -> case g of {
   Fem => "fem"
 } ;
 
+-- Mapping PN types to ACE lexicon PN types
+mkAceLexType : AcePnType -> Str = \t -> case t of {
+  defsg => PNDEF_SG ;
+  defpl => PNDEF_PL
+} ;
+
 
 -- Generates ACE lexicon entries for nouns and proper names,
 -- i.e. things that have a gender.
@@ -76,27 +92,32 @@ aceV2 : (_,_,_:Str) -> V2 = \go,goes,gone ->
 
 -- ACE proper names (PN)
 --
--- We only cover:
+-- Fully covered:
 --   pn_sg(WordForm, LogicalSymbol, Gender)
+-- Partially covered (i.e. Gender = neutr):
 --   pndef_sg(WordForm, LogicalSymbol, Gender)
--- and do not cover:
---   pn_pl(WordForm, LogicalSymbol, Gender)
 --   pndef_pl(WordForm, LogicalSymbol, Gender)
+-- Not covered:
+--   pn_pl(WordForm, LogicalSymbol, Gender)
 acePN = overload {
+  acePN : Str -> Str -> PN = \p,john -> mkPN (mkN Neutr (mkN (aceNLex p ("the" ++ john) (john + "_PN") Neutr))) ;
   acePN : Str -> PN = \john -> mkPN (mkN Neutr (mkN (aceNLex PN_SG john (john + "_PN") Neutr))) ;
   acePN : Gender -> Str -> PN = \g,john -> mkPN (mkN g (mkN (aceNLex PN_SG john (john + "_PN") g))) ;
 };
 
-acePND = overload {
-  acePND : Str -> PN = \john -> mkPN (mkN Neutr (mkN (aceNLex PNDEF_SG ("the" ++ john) (john + "_PN") Neutr))) ;
-  acePND : Gender -> Str -> PN = \g,john -> mkPN (mkN g (mkN (aceNLex PNDEF_SG ("the" ++ john) (john + "_PN") g))) ;
-};
 
+mkPnLex : AcePnType -> Str -> N = \t,pn ->
+  let
+    lex = aceNLex (mkAceLexType t) pn (pn + "_PN") Neutr
+  in
+    mkN Neutr (mkN lex lex) ;
 
--- TODO: do not ignore AcePnType
 aceNP = overload {
   aceNP : Str -> NP = \john -> SyntaxAce.mkNP (acePN john) ;
-  aceNP : AcePnType -> Str -> NP = \_,john -> SyntaxAce.mkNP (acePND john) ;
+  aceNP : AcePnType -> Str -> NP = \t,pn -> case t of {
+    defsg => SyntaxAce.mkNP the_Art (mkPnLex t pn) ;
+    defpl => SyntaxAce.mkNP thePl_Det (mkPnLex t pn)
+  } ;
 };
 
 

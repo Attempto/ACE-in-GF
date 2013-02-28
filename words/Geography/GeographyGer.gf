@@ -238,6 +238,7 @@ Lofoten_islands_NP = mkNP pl "Lofoten" ;
 Logro__241_o_NP = mkNP "Logroño" ;
 Lolland_NP = mkNP "Lolland" ;
 London_NP = mkNP "London" ;
+longer_than_A2 = mkA2 (mkA "länger") (mkPrep "als" nominative) ;
 Lucerne_NP = mkNP "Luzern" ;
 Luxembourg_NP = mkNP "Luxemburg" ;
 Lyon_NP = mkNP "Lyon" ;

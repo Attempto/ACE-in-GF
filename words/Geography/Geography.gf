@@ -240,6 +240,7 @@ Lofoten_islands_NP : NP ;
 Logro__241_o_NP : NP ;
 Lolland_NP : NP ;
 London_NP : NP ;
+longer_than_A2 : A2 ;
 Lucerne_NP : NP ;
 Luxembourg_NP : NP ;
 Lyon_NP : NP ;

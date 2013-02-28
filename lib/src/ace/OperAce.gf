@@ -16,16 +16,15 @@ instance OperAce of Oper =
       acePN : Gender -> Str -> PN = \g,john -> mkPN (mkN g (mkN john)) ;
     };
 
-    acePND = overload {
-      acePND : (john : Str) -> PN = \john -> mkPN (mkN Neutr (mkN ("the" ++ john))) ;
-      acePND : Gender -> Str -> PN = \g,john -> mkPN (mkN g (mkN ("the" ++ john))) ;
+
+    aceNP = overload {
+      aceNP : Str -> SyntaxAce.NP = \john -> SyntaxAce.mkNP (aceN john) ;
+      aceNP : AcePnType -> Str -> NP = \t,pn -> case t of {
+        defsg => SyntaxAce.mkNP the_Art (aceN pn pn) ;
+        defpl => SyntaxAce.mkNP thePl_Det (aceN pn pn)
+      } ;
     };
 
-    -- TODO: do not ignore AcePnType
-    aceNP = overload {
-      aceNP : (john : Str) -> NP = \john -> SyntaxAce.mkNP (acePN john) ;
-      aceNP : AcePnType -> Str -> NP = \_,john -> SyntaxAce.mkNP (acePN ("the" ++ john)) ;
-    };
 
     aceN = overload {
       aceN : (dog : Str) -> CN = aceN_1 nonhuman ;

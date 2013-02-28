@@ -1,3 +1,10 @@
+Geography: baseText (sText (vpS __197_land_islands_NP (a2VP longer_than_A2 Emaj__245_gi_NP)))
+GeographyAce: the Åland_islands are longer-than Emajõgi .
+GeographyApe: the Åland_islands|pndef_pl|Åland_islands_PN|neutr are longer-than|adj_tr|longer-than_A2|than Emajõgi|pn_sg|Emajõgi_PN|neutr .
+GeographyGer: die Åland Inselne sind länger als Embach .
+GeographySpa: 
+
+
 Geography: baseText (sText (vpS Etna_river_NP (npVP (thereNP_as_NP (aNP (cn_as_VarCN river_CN))))))
 GeographyAce: Etna is a river .
 GeographyApe: Etna|pn_sg|Etna_PN|neutr is a river|noun_sg|river_N|neutr .

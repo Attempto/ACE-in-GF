@@ -12,15 +12,15 @@ GeographySpa: el Rin atraviesa una ciudad que Suiza contiene .
 
 
 Geography: baseText (sText (vpS Alps_NP (v2VP belong_to_V2 Pyrenees_NP)))
-GeographyAce: the Alps belongs_to Pyrenees .
-GeographyApe: the Alps|pndef_sg|Alps_PN|neutr belongs_to|tv_finsg|belong_to_V2 Pyrenees|pn_sg|Pyrenees_PN|neutr .
+GeographyAce: the Alps belong_to the Pyrenees .
+GeographyApe: the Alps|pndef_pl|Alps_PN|neutr belong_to|tv_infpl|belong_to_V2 the Pyrenees|pndef_pl|Pyrenees_PN|neutr .
 GeographyGer: die Alpen gehören zu den Pyrenäen .
 GeographySpa: los Alpes pertenecen a los Pirineos .
 
 
 Geography: baseText (sText (neg_vpS Pyrenees_NP (a2VP larger_than_A2 Switzerland_NP)))
-GeographyAce: Pyrenees isn't larger-than Switzerland .
-GeographyApe: Pyrenees|pn_sg|Pyrenees_PN|neutr isn't larger-than|adj_tr|larger-than_A2|than Switzerland|pn_sg|Switzerland_PN|neutr .
+GeographyAce: the Pyrenees aren't larger-than Switzerland .
+GeographyApe: the Pyrenees|pndef_pl|Pyrenees_PN|neutr aren't larger-than|adj_tr|larger-than_A2|than Switzerland|pn_sg|Switzerland_PN|neutr .
 GeographyGer: die Pyrenäen sind nicht größer als die Schweiz .
 GeographySpa: los Pirineos no son mayores que Suiza .
 
