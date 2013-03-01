@@ -1,4 +1,4 @@
 der Rhein fließt durch eine Stadt die die Schweiz enthält .
 die Alpen gehören zu den Pyrenäen .
 die Pyrenäen sind nicht größer als die Schweiz .
-genau 2 nordwestliche Regionen gehören zur Tschechischen Republik .
+genau 2 nordwestliche_Regionen gehören zur Tschechischen_Republik .

@@ -1,9 +1,9 @@
 the Åland_islands are longer-than Emajõgi .
 Etna is a river .
-the River Narva flows_through Narva .
+the River_Narva flows_through Narva .
 the Aar rises_in Switzerland and ends_in Switzerland .
 Vatican_City is surrounded by Rome .
-German is an official-language of the European_Union .
+German is an official_language of the European_Union .
 the EU is the European_Union .
 more than 2 rivers have_as_location the European_Union .
 every country borders a country or is bordered by a sea .
@@ -25,9 +25,9 @@ the Rhine flows_through the Netherlands .
 if there is a river X then X starts_in a country and ends_in a country and X flows_through at least 1 country and flows_into something that is a river or that is a lake or that is a sea .
 if X flows_into something that drains_into Y then X drains_into Y .
 every river that starts_in Switzerland drains_into the Mediterranean or drains_into the North_Sea .
-at least 3 Finno-Ugric_languages are an official-language of a country .
+at least 3 Finno-Ugric_languages are an official_language of a country .
 every country X lies_in_the_north_of every country that lies_in_the_south_of X .
-if an official-language of a country is a Finno-Ugric_language then the country borders Russia or borders a country that borders Russia .
+if an official_language of a country is a Finno-Ugric_language then the country borders Russia or borders a country that borders Russia .
 every Germanic_language that is surrounded by Hiiumaa naturally_borders the Atlantic_Ocean .
 what is Switzerland ?
 which country borders Switzerland ?

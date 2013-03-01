@@ -2,13 +2,13 @@ Geography: baseText (sText (neg_vpS Switzerland_NP (v2VP border_V2 (noNP (cn_as_
 GeographyAce: Switzerland doesn't border no sea .
 GeographyApe: Switzerland|pn_sg|Switzerland_PN|neutr doesn't border|tv_infpl|border_V2 no sea|noun_sg|sea_N|neutr .
 GeographyGer: die Schweiz grenzt an kein Meer nicht .
-GeographySpa: Suiza no hace frontera con ningún mar .
+GeographySpa: Suiza no limita con ningún mar .
 
 Geography: baseText (sText (vpS Switzerland_NP (v2VP border_V2 (noNP (cn_as_VarCN sea_CN)))))
 GeographyAce: Switzerland borders no sea .
 GeographyApe: Switzerland|pn_sg|Switzerland_PN|neutr borders|tv_finsg|border_V2 no sea|noun_sg|sea_N|neutr .
 GeographyGer: die Schweiz grenzt an kein Meer .
-GeographySpa: Suiza no hace frontera con ningún mar .
+GeographySpa: Suiza no limita con ningún mar .
 
 
 Geography: baseText (sText (vpS Pyrenees_NP (v2VP belong_to_V2 Spain_NP)))
@@ -22,18 +22,18 @@ Geography: baseText (sText (vpS Carpathian_Mountains_NP (v2VP drain_into_V2 Blac
 GeographyAce: the Carpathian_Mountains drain_into the Black_Forest .
 GeographyApe: the Carpathian_Mountains|pndef_pl|Carpathian_Mountains_PN|neutr drain_into|tv_infpl|drain_into_V2 the Black_Forest|pndef_sg|Black_Forest_PN|neutr .
 GeographyGer: die Karpaten münden in den Schwarzwald .
-GeographySpa: Montes Cárpatos desemboca en la Selva Negra .
+GeographySpa: Montes_Cárpatos desemboca en la Selva_Negra .
 
 Geography: baseText (sText (vpS Carpathian_Mountains_NP (v2VP end_in_V2 Black_Forest_NP)))
 GeographyAce: the Carpathian_Mountains end_in the Black_Forest .
 GeographyApe: the Carpathian_Mountains|pndef_pl|Carpathian_Mountains_PN|neutr end_in|tv_infpl|end_in_V2 the Black_Forest|pndef_sg|Black_Forest_PN|neutr .
 GeographyGer: die Karpaten enden im Schwarzwald .
-GeographySpa: Montes Cárpatos desemboca en la Selva Negra .
+GeographySpa: Montes_Cárpatos desemboca en la Selva_Negra .
 
 Geography: baseText (sText (vpS Carpathian_Mountains_NP (v2VP flow_into_V2 Black_Forest_NP)))
 GeographyAce: the Carpathian_Mountains flow_into the Black_Forest .
 GeographyApe: the Carpathian_Mountains|pndef_pl|Carpathian_Mountains_PN|neutr flow_into|tv_infpl|flow_into_V2 the Black_Forest|pndef_sg|Black_Forest_PN|neutr .
 GeographyGer: die Karpaten fließen in den Schwarzwald .
-GeographySpa: Montes Cárpatos desemboca en la Selva Negra .
+GeographySpa: Montes_Cárpatos desemboca en la Selva_Negra .
 
 
