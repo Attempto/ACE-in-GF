@@ -96,7 +96,6 @@ Dinaric_Alps_NP = mkNP los "Alpes Dináricos" ;
 Dnieper_river_NP = mkNP el "río Dniéper" ;
 Dniester_NP = mkNP el "Dniéster" ;
 Don_NP = mkNP el "Don" ;
-doubly_landlocked_country_CN = mkCN (mkN "país doblemente aislado" "países doblemente aislados" masculine) ;
 Douro_NP = mkNP el "Duero" ;
 drain_into_V2 = mkV2 (mkV "desembocar") in_Prep ;
 Drava_river_NP = mkNP el "río Drava" ;

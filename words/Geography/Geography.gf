@@ -95,7 +95,6 @@ Dinaric_Alps_NP : NP ;
 Dnieper_river_NP : NP ;
 Dniester_NP : NP ;
 Don_NP : NP ;
-doubly_landlocked_country_CN : CN ;
 Douro_NP : NP ;
 drain_into_V2 : V2 ;
 Drava_river_NP : NP ;
