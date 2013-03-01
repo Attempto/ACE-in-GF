@@ -234,6 +234,7 @@ Lisboa_NP = mkNP "Lisboa" ;
 Lithuania_NP = mkNP "Litauen" ;
 Lithuanian_language_NP = mkNP "Litauisch" ;
 Ljubljana_NP = mkNP "Ljubljana" ;
+located_in_A2 = mkA2 (mkA "platziert") (mkPrep "in" dative) ;
 Loch_Ness_NP = mkNP "Loch_Ness" ;
 Lofoten_islands_NP = mkNP pl "Lofoten" ;
 Logro__241_o_NP = mkNP "Logroño" ;

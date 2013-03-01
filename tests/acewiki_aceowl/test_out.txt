@@ -7113,7 +7113,7 @@ for every  woman  there is  a  woman  .    |OK (1)
 for every  woman  there is  a  woman  X  .  |OK (1)
 for every  woman  there is  exactly  1  woman  .  |OK (1)
 for every  woman  there is  somebody  .      |OK (1)
-for every  woman  there is  somebody  and  there is  somebody  .|OK (2)
+for every  woman  there is  somebody  and  there is  somebody  .|OK (1)
 for every  woman  there is  somebody  who  asks  everybody  .|FAIL for every woman there is somebody who
 for every  woman  there is  somebody  who  asks  Mary  .|FAIL for every woman there is somebody who
 for every  woman  there is  somebody  who  asks  somebody  .|FAIL for every woman there is somebody who

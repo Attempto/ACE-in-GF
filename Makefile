@@ -2,6 +2,9 @@
 # Can undoubtedly be made nicer, but anyway
 # JJC
 
+# time.sh is a wrapper for 'sh', which just measures and logs the target's runtime
+SHELL=./time.sh
+
 # Paths to things
 p = grammars/acewiki_aceowl:lib/src/ace:lib/src/api
 # path_base is deprecated
@@ -117,6 +120,13 @@ interactive:
 # Clean all gfo files everywhere
 clean:
 	find -name *.gfo | xargs rm -f
+
+perf_compilation:
+	for inputlang in $(languages); do \
+		find -name *.gfo | xargs rm -f ; \
+		time -f "%C\n%E real, %U user, %S sys" -o time.log -a gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(words)/TestAttempto$$inputlang.gf ; \
+	done
+
 
 # Test the syntactic coverage and ambiguity of Ace against the codeco test-set
 test_acewiki_aceowl:
