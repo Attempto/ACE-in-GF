@@ -40,7 +40,7 @@ startcat = ACEText
 languages = Ace Ape Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav Pol Ron Rus
 
 #langs_Geography = Ace Ape Dut Fin Ger Ita Spa
-langs_Geography = Ace Ape Fin Ger Spa
+langs_Geography = Ace Ape Ger Spa
 langs_Simple = Ace
 langs_Words300 = Ace Cat Dan Dut Fin Fre Ger Ita Lav Nor Pol Ron Rus Spa Swe
 

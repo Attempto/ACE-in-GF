@@ -461,7 +461,7 @@ Yonne river,NP,"defsg ""Yonne""","die ""Yonne""",,,"el ""río Yonne""",Yonne,
 Zagreb,NP,,Zagreb,,,Zagreb,Zagreb,
 Zurich,NP,,Zürich,Zurigo,Zürich,Zúrich,Zürich,
 belong to,V2,"""belong to"" ""belongs to"" """"","prepV2 (regV ""gehören"") zu_Prep",,,"mkV2 (mkV ""pertenecer"") (mkPrep ""a"")",[kuuluu],"[gf: expected infinitive, found kuuluu]"
-border,V2,"""border"" ""borders"" ""bordered""","prepV2 (regV ""grenzen"") (mkPrep ""an"" accusative)",confine,grenzen,"mkV2 (mkV ""limitar"") (mkPrep ""con"") | mkV2 (I.hacer_V) (mkPrep ""frontera con"")",,[Laura: why is this entry not coded like this?] [Kaarel: moved to DiscussSpanish]
+border,V2,"""border"" ""borders"" ""bordered""","prepV2 (regV ""grenzen"") (mkPrep ""an"" accusative)",confine,grenzen,"mkV2 (mkV ""limitar"") (mkPrep ""con"") | mkV2 (I.hacer_V) (mkPrep ""frontera con"")",,
 contain,V2,"""contain"" ""contains"" ""contained""","mkV2 (aceV ""enthalten"" ""enthält"" ""enthalten"") accusative",contenere,bevatten,mkV2 (I.contener_V),sisältää,
 drain into,V2,"""drain into"" ""drains into"" ""drained into""","prepV2 (regV ""münden"") inAcc_Prep",,,"mkV2 (mkV ""desembocar"") in_Prep",,
 eastern of,V2,"""lie in the east of"" ""lies in the east of"" """"","""liegt im Osten von""",,,al este de,,
@@ -475,5 +475,5 @@ pass through,V2,"""pass through"" ""passes through"" """"",durchqueren,,,"""pasa
 river source,V2,"aceV2 ""rise in"" ""rises in"" """" | aceV2 ""start in"" ""starts in"" """"","prepV2 (regV ""beginnen"") inDat_Prep",,,"mkV2 (mkV ""nacer"" ""nace"") (mkPrep ""en"")",[joen lähde],
 southern of,V2,"""lie in the south of"" ""lies in the south of"" """"","prepV2 (regV ""liegen"") (mkPrep ""im Süden von"" dative)",,,al sur de,,
 surround,V2,"""surround"" ""surrounds"" ""surrounded""",umschließen,,,"rodear [It can be used with or without preposition: ""El río rodea la montaña."" ""El Océano Atlántico rodea a la Isla de Pascua.""]",ympäröidä,
-to be a natural border between,V2,"""naturally border"" ""naturally borders"" ""naturally bordered""","prepV2 (regV ""grenzen"") (mkPrep ""natürlich an"" accusative)",,,ser frontera natural entre,,
+to be a natural border between,V2,"""naturally border"" ""naturally borders"" ""naturally bordered""","prepV2 (regV ""grenzen"") (mkPrep ""natürlich an"" accusative)",,,"""ser frontera natural entre"" ""es frontera natural entre""",,
 western of,V2,"""lie in the west of"" ""lies in the west of"" """"","prepV2 (regV ""liegen"") (mkPrep ""im Westen von"" dative)",,,al oeste de,,
