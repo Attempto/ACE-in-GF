@@ -1,5 +1,6 @@
 instance LexAttemptoSpa of LexAttempto =
   open
+   Prelude,
    SyntaxSpa,
    ParadigmsSpa,
    ConstructX,
@@ -15,5 +16,9 @@ oper
   adj_thatCl : A -> S -> Cl = \a,s -> mkCl (mkVP (mkAP (mkAP a) s)) ;
 
   exactly_AdN = ConstructX.mkAdN "exactamente" ;
+
+  -- You can override RGL operators here
+  -- TODO: how to supress the name conflict warning
+  at_most_AdN = ss "como máximo" ;
 
 } ;

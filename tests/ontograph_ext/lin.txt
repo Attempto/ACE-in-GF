@@ -508,7 +508,7 @@ TestAttemptoNor: Lisa kjøper høyst 1 gave .
 TestAttemptoPol: Paryż kupi co najwyżej 1 mężczyznę .
 TestAttemptoRon: Lisa cumpără cel mult 1 cadou .
 TestAttemptoRus: Lisa покупает не более 1 подарок .
-TestAttemptoSpa: Lisa compra a lo más 1 regalo .
+TestAttemptoSpa: Lisa compra como máximo 1 regalo .
 TestAttemptoSwe: Lisa köper högst 1 present .
 
 TestAttempto: baseText (sText (vpS (everyNP (cn_as_VarCN traveler_N)) (v2VP see_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN aquarium_N))))))
@@ -565,7 +565,7 @@ TestAttemptoNor: hver offiser ser høyst 1 akvarium .
 TestAttemptoPol: każdy mężczyzna widzi co najwyżej 1 mężczyznę .
 TestAttemptoRon: orice ofițer vede cel mult 1 acvariu .
 TestAttemptoRus: каждый офицер видит не более 1 аквариум .
-TestAttemptoSpa: cada funcionario ve a lo más 1 acuario .
+TestAttemptoSpa: cada funcionario ve como máximo 1 acuario .
 TestAttemptoSwe: varje befäl ser högst 1 akvarium .
 
 TestAttempto: baseText (sText (vpS (relNP (indefPronNP everything_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))) (v2VP see_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_2)) (cn_as_VarCN aquarium_N))))))
@@ -584,7 +584,7 @@ TestAttemptoNor: alt , som er ei reisende eller som er en offiser ser høyst 2 a
 TestAttemptoPol: wszystko , które jest mężczyzną lub , które jest mężczyzną widzi co najwyżej 2 mężczyzn .
 TestAttemptoRon: 
 TestAttemptoRus: всё , которое путешественник или , которое офицер видит не более 2 аквариумы .
-TestAttemptoSpa: todo que es un viajero o que es un funcionario ve a lo más 2 acuarios .
+TestAttemptoSpa: todo que es un viajero o que es un funcionario ve como máximo 2 acuarios .
 TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högst 2 akvariumar .
 
 TestAttempto: baseText (sText (if_thenS (vpS (termNP X_Var) (v2VP see_V2 (termNP Y_Var))) (neg_vpS (termNP Y_Var) (v2VP love_V2 (termNP X_Var)))))

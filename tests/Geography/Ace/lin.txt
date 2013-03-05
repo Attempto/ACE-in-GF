@@ -212,6 +212,13 @@ GeographyGer: wenigstens 3 Finno-ugrische_Sprachen sind eine offizielle_Sprache 
 GeographySpa: al menos 3 lenguas_fino-úgricas son una lengua_oficial de un país .
 
 
+Geography: baseText (sText (vpS (thereNP_as_NP (at_mostNP (digitsCard (IDig D_0)) (cn_as_VarCN city_CN))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN capital_CN))))))
+GeographyAce: at most 0 cities are a capital .
+GeographyApe: at most 0 cities|noun_pl|city_N|neutr are a capital|noun_sg|capital_N|neutr .
+GeographyGer: höchstens 0 Städte sind eine Hauptstadt .
+GeographySpa: como máximo 0 ciudades son una capital .
+
+
 Geography: baseText (sText (vpS (everyNP (apposVarCN country_CN X_Var)) (v2VP northern_of_V2 (everyNP (relCN (cn_as_VarCN country_CN) (predRS which_RP (v2VP southern_of_V2 (termNP X_Var))))))))
 GeographyAce: every country X lies_in_the_north_of every country that lies_in_the_south_of X .
 GeographyApe: every country|noun_sg|country_N|neutr X lies_in_the_north_of|tv_finsg|lie_in_the_north_of_V2 every country|noun_sg|country_N|neutr that lies_in_the_south_of|tv_finsg|lie_in_the_south_of_V2 X .
