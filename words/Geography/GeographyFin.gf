@@ -239,6 +239,7 @@ Malm__246__NP = mkNP "Malmö" ;
 Malta_NP = mkNP "Malta" ;
 Mannheim_NP = mkNP "Mannheim" ;
 Marne_river_NP = mkNP "Marne" ;
+mediterranean_sea_CN = mkCN (mkN "sisämeri") ;
 Mediterranean_Sea_NP = mkNP "Välimeri" ;
 member_CN = mkCN (mkN "jäsen") ;
 Menorca_NP = mkNP "Menorca" ;

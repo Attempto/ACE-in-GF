@@ -1,8 +1,15 @@
+Geography: baseText (sText (coordS and_Conj (vpS Paris_NP (v2VP surround_V2 (thereNP_as_NP (less_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN fjord_CN))))) (vpS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_3)) (cn_as_VarCN tributary_CN))) (v2VP surround_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))))
+GeographyAce: Paris surrounds less than 2 fjords and exactly 3 tributaries surround something .
+GeographyApe: Paris|pn_sg|Paris_PN|neutr surrounds|tv_finsg|surround_V2 less than 2 fjords|noun_pl|fjord_N|neutr and exactly 3 tributaries|noun_pl|tributary_N|neutr surround|tv_infpl|surround_V2 something .
+GeographyGer: Paris umschließt weniger als 2 Fjorde und genau 3 Nebenflüsse umschließen etwas .
+GeographySpa: París rodea a menos que 2 fiordos y exactamente 3 afluentes rodean a algo .
+
+
 Geography: baseText (sText (vpS __197_land_islands_NP (a2VP longer_than_A2 Emaj__245_gi_NP)))
 GeographyAce: the Åland_islands are longer-than Emajõgi .
 GeographyApe: the Åland_islands|pndef_pl|Åland_islands_PN|neutr are longer-than|adj_tr|longer-than_A2|than Emajõgi|pn_sg|Emajõgi_PN|neutr .
 GeographyGer: die Åland_Inselne sind länger als Embach .
-GeographySpa: 
+GeographySpa: las islas_de_Åland son más_largas que el Emajogi .
 
 
 Geography: baseText (sText (vpS Etna_river_NP (npVP (thereNP_as_NP (aNP (cn_as_VarCN river_CN))))))
@@ -29,7 +36,7 @@ Geography: baseText (sText (np_coord_VPS Aar_NP and_Conj (BaseVPS (vp_as_posVPS 
 GeographyAce: the Aar rises_in Switzerland and ends_in Switzerland .
 GeographyApe: the Aar|pndef_sg|Aar_PN|neutr rises_in|tv_finsg|rise_in_V2 Switzerland|pn_sg|Switzerland_PN|neutr and ends_in|tv_finsg|end_in_V2 Switzerland|pn_sg|Switzerland_PN|neutr .
 GeographyGer: die Aare beginnt in der Schweiz und endet in der Schweiz .
-GeographySpa: el río_Aar naca en Suiza y desemboca en Suiza .
+GeographySpa: el río_Aar nazca en Suiza y desemboca en Suiza .
 
 
 Geography: baseText (sText (vpS Vatican_City_NP (v2_byVP surround_V2 Rome_NP)))
@@ -53,11 +60,25 @@ GeographyGer: die Europäische_Union ist die Europäische_Union .
 GeographySpa: la Unión_Europea es la Unión_Europea .
 
 
+Geography: baseText (sText (vpS (thereNP_as_NP (aNP (cn_as_VarCN mediterranean_sea_CN))) (npVP Mediterranean_Sea_NP)))
+GeographyAce: a mediterranean_sea is the Mediterranean .
+GeographyApe: a mediterranean_sea|noun_sg|mediterranean_sea_N|neutr is the Mediterranean|pndef_sg|Mediterranean_PN|neutr .
+GeographyGer: ein Mittelmeer ist das Mittelmeer .
+GeographySpa: un mar_mediterráneo es el mar_Mediterráneo .
+
+
+Geography: baseText (sText (thereNP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN body_of_water_CN))))
+GeographyAce: there are at least 2 bodies_of_water .
+GeographyApe: there are at least 2 bodies_of_water|noun_pl|body_of_water_N|neutr .
+GeographyGer: es gibt wenigstens 2 Gewässer .
+GeographySpa: hay al menos 2 cuerpos_de_agua .
+
+
 Geography: baseText (sText (vpS (thereNP_as_NP (more_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN river_CN))) (v2VP has_as_location_V2 European_Union_NP)))
 GeographyAce: more than 2 rivers have_as_location the EU .
 GeographyApe: more than 2 rivers|noun_pl|river_N|neutr have_as_location|tv_infpl|have_as_location_V2 the EU|pndef_sg|EU_PN|neutr .
 GeographyGer: mehr als 2 Flüsse liegen in der Europäischen_Union .
-GeographySpa: más que 2 ríos estar_situado_an la Unión_Europea .
+GeographySpa: más que 2 ríos están situado_en la Unión_Europea .
 
 
 Geography: baseText (sText (np_coord_VPS (everyNP (cn_as_VarCN country_CN)) or_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))) (vp_as_posVPS (v2_byVP border_V2 (thereNP_as_NP (aNP (cn_as_VarCN sea_CN))))))))
@@ -176,13 +197,13 @@ Geography: baseText (sText (if_thenS (thereNP (aNP (apposVarCN river_CN X_Var)))
 GeographyAce: if there is a river X then X rises_in a country and ends_in a country and X flows_through at least 1 country and flows_into something that is a river or that is a lake or that is a sea .
 GeographyApe: if there is a river|noun_sg|river_N|neutr X then X rises_in|tv_finsg|rise_in_V2 a country|noun_sg|country_N|neutr and ends_in|tv_finsg|end_in_V2 a country|noun_sg|country_N|neutr and X flows_through|tv_finsg|flow_through_V2 at least 1 country|noun_sg|country_N|neutr and flows_into|tv_finsg|flow_into_V2 something that is a river|noun_sg|river_N|neutr or that is a lake|noun_sg|lake_N|neutr or that is a sea|noun_sg|sea_N|neutr .
 GeographyGer: wenn es einen Fluss X gibt , dann beginnt in einem Land und endet in einem Land X und X fließt durch wenigstens 1 Land und fließt in etwas , das ein Fluss ist oder das ein See ist oder das ein Meer ist .
-GeographySpa: si hay un río X entonces X naca en un país y desemboca en un país y X atraviesa al menos 1 país y desemboca en algo que es un río o que es un lago o que es un mar .
+GeographySpa: si hay un río X entonces X nazca en un país y desemboca en un país y X atraviesa al menos 1 país y desemboca en algo que es un río o que es un lago o que es un mar .
 
 Geography: baseText (sText (if_thenS (thereNP (aNP (apposVarCN river_CN X_Var))) (coordS and_Conj (np_coord_VPS (termNP X_Var) and_Conj (BaseVPS (vp_as_posVPS (v2VP river_source_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))) (vp_as_posVPS (v2VP end_in_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))))) (np_coord_VPS (termNP X_Var) and_Conj (BaseVPS (vp_as_posVPS (v2VP flow_through_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_1)) (cn_as_VarCN country_CN))))) (vp_as_posVPS (v2VP flow_into_V2 (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (orRS (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN river_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN lake_CN)))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN sea_CN))))))))))))))
 GeographyAce: if there is a river X then X rises_in a country and ends_in a country and X flows_through at least 1 country and flows_into something that is a river or that is a lake or that is a sea .
 GeographyApe: if there is a river|noun_sg|river_N|neutr X then X rises_in|tv_finsg|rise_in_V2 a country|noun_sg|country_N|neutr and ends_in|tv_finsg|end_in_V2 a country|noun_sg|country_N|neutr and X flows_through|tv_finsg|flow_through_V2 at least 1 country|noun_sg|country_N|neutr and flows_into|tv_finsg|flow_into_V2 something that is a river|noun_sg|river_N|neutr or that is a lake|noun_sg|lake_N|neutr or that is a sea|noun_sg|sea_N|neutr .
 GeographyGer: wenn es einen Fluss X gibt , dann beginnt in einem Land und endet in einem Land X und X fließt durch wenigstens 1 Land und fließt in etwas , das ein Fluss ist oder das ein See ist oder das ein Meer ist .
-GeographySpa: si hay un río X entonces X naca en un país y desemboca en un país y X atraviesa al menos 1 país y desemboca en algo que es un río o que es un lago o que es un mar .
+GeographySpa: si hay un río X entonces X nazca en un país y desemboca en un país y X atraviesa al menos 1 país y desemboca en algo que es un río o que es un lago o que es un mar .
 
 
 Geography: baseText (sText (if_thenS (vpS (termNP X_Var) (v2VP flow_into_V2 (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (predRS which_RP (v2VP drain_into_V2 (termNP Y_Var)))))) (vpS (termNP X_Var) (v2VP drain_into_V2 (termNP Y_Var)))))
@@ -196,13 +217,13 @@ Geography: baseText (sText (np_coord_VPS (everyNP (relCN (cn_as_VarCN river_CN) 
 GeographyAce: every river that rises_in Switzerland drains_into the Mediterranean or drains_into the North_Sea .
 GeographyApe: every river|noun_sg|river_N|neutr that rises_in|tv_finsg|rise_in_V2 Switzerland|pn_sg|Switzerland_PN|neutr drains_into|tv_finsg|drain_into_V2 the Mediterranean|pndef_sg|Mediterranean_PN|neutr or drains_into|tv_finsg|drain_into_V2 the North_Sea|pndef_sg|North_Sea_PN|neutr .
 GeographyGer: jeder Fluss der in der Schweiz beginnt mündet ins Mittelmeer oder mündet in die Nordsee .
-GeographySpa: cada río que naca en Suiza desemboca en el mar_Mediterráneo o desemboca en el Mar_del_Norte .
+GeographySpa: cada río que nazca en Suiza desemboca en el mar_Mediterráneo o desemboca en el Mar_del_Norte .
 
 Geography: baseText (sText (np_coord_VPS (relNP (everyNP (cn_as_VarCN river_CN)) (predRS which_RP (v2VP river_source_V2 Switzerland_NP))) or_Conj (BaseVPS (vp_as_posVPS (v2VP drain_into_V2 Mediterranean_Sea_NP)) (vp_as_posVPS (v2VP drain_into_V2 North_Sea_NP)))))
 GeographyAce: every river that rises_in Switzerland drains_into the Mediterranean or drains_into the North_Sea .
 GeographyApe: every river|noun_sg|river_N|neutr that rises_in|tv_finsg|rise_in_V2 Switzerland|pn_sg|Switzerland_PN|neutr drains_into|tv_finsg|drain_into_V2 the Mediterranean|pndef_sg|Mediterranean_PN|neutr or drains_into|tv_finsg|drain_into_V2 the North_Sea|pndef_sg|North_Sea_PN|neutr .
 GeographyGer: jeder Fluss , der in der Schweiz beginnt mündet ins Mittelmeer oder mündet in die Nordsee .
-GeographySpa: cada río que naca en Suiza desemboca en el mar_Mediterráneo o desemboca en el Mar_del_Norte .
+GeographySpa: cada río que nazca en Suiza desemboca en el mar_Mediterráneo o desemboca en el Mar_del_Norte .
 
 
 Geography: baseText (sText (vpS (thereNP_as_NP (at_leastNP (digitsCard (IDig D_3)) (cn_as_VarCN Finno_Ugric_language_CN))) (npVP (thereNP_as_NP (aNP (ofCN official_language_CN (thereNP_as_NP (aNP (cn_as_VarCN country_CN)))))))))
@@ -249,13 +270,13 @@ Geography: baseText (sText (vpS (everyNP (relCN (cn_as_VarCN Germanic_language_C
 GeographyAce: every Germanic_language that is surrounded by Hiiumaa naturally_borders the Atlantic_Ocean .
 GeographyApe: every Germanic_language|noun_sg|Germanic_language_N|neutr that is surrounded|tv_pp|surround_V2 by Hiiumaa|pn_sg|Hiiumaa_PN|neutr naturally_borders|tv_finsg|naturally_border_V2 the Atlantic_Ocean|pndef_sg|Atlantic_Ocean_PN|neutr .
 GeographyGer: jede Germanische_Sprache die durch Hiiumaa geumschließt wird grenzt natürlich_an den Atlantischen_Ozean .
-GeographySpa: cada lengua_germánica que está rodeada por la isla_de_Hiiumaa es_frontera_natural_entra el océano_Atlántico .
+GeographySpa: cada lengua_germánica que está rodeada por la isla_de_Hiiumaa es frontera_natural_entre el océano_Atlántico .
 
 Geography: baseText (sText (vpS (relNP (everyNP (cn_as_VarCN Germanic_language_CN)) (predRS which_RP (v2_byVP surround_V2 Hiiumaa_island_NP))) (v2VP to_be_a_natural_border_between_V2 Atlantic_Ocean_NP)))
 GeographyAce: every Germanic_language that is surrounded by Hiiumaa naturally_borders the Atlantic_Ocean .
 GeographyApe: every Germanic_language|noun_sg|Germanic_language_N|neutr that is surrounded|tv_pp|surround_V2 by Hiiumaa|pn_sg|Hiiumaa_PN|neutr naturally_borders|tv_finsg|naturally_border_V2 the Atlantic_Ocean|pndef_sg|Atlantic_Ocean_PN|neutr .
 GeographyGer: jede Germanische_Sprache , die durch Hiiumaa geumschließt wird grenzt natürlich_an den Atlantischen_Ozean .
-GeographySpa: cada lengua_germánica que está rodeada por la isla_de_Hiiumaa es_frontera_natural_entra el océano_Atlántico .
+GeographySpa: cada lengua_germánica que está rodeada por la isla_de_Hiiumaa es frontera_natural_entre el océano_Atlántico .
 
 
 Geography: baseText (qsText (npqQS (ipNPQ whatSg_IP) (npVP Switzerland_NP)))
@@ -316,6 +337,6 @@ Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP which_IDet (cn_as_Var
 GeographyAce: which river rises_in a country X and ends_in X ?
 GeographyApe: which river|noun_sg|river_N|neutr rises_in|tv_finsg|rise_in_V2 a country|noun_sg|country_N|neutr X and ends_in|tv_finsg|end_in_V2 X ?
 GeographyGer: welcher Fluss beginnt in einem Land X und endet in X ?
-GeographySpa: ¿ qué río naca en un país X y desemboca en X ?
+GeographySpa: ¿ qué río nazca en un país X y desemboca en X ?
 
 
