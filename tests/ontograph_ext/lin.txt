@@ -318,7 +318,7 @@ TestAttemptoNor: John ser kun menn .
 TestAttemptoPol: Jan widzi tylko mężczyzn .
 TestAttemptoRon: John vede doar nişte oameni .
 TestAttemptoRus: Иван видит единственных людь .
-TestAttemptoSpa: John ve solamente hombres .
+TestAttemptoSpa: John ve solamente hombrees .
 TestAttemptoSwe: John ser bara män .
 
 TestAttempto: baseText (sText (vpS (everyNP (cn_as_VarCN man_N)) (v2VP buy_V2 (thereNP_as_NP (aNP (cn_as_VarCN present_N))))))
@@ -1021,7 +1021,7 @@ TestAttemptoNor: kun menn ser Mary .
 TestAttemptoPol: tylko mężczyzn widzą Paryż .
 TestAttemptoRon: doar nişte oameni o văd pe Mary .
 TestAttemptoRus: единственные людь видят Mary .
-TestAttemptoSpa: solamente hombres ven Mary .
+TestAttemptoSpa: solamente hombrees ven Mary .
 TestAttemptoSwe: bara män ser Mary .
 
 TestAttempto: baseText (sText (vpS (pnNP john_PN) (npVP (termNP X_Var))))

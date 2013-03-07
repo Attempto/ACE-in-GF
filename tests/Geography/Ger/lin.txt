@@ -29,6 +29,6 @@ Geography: baseText (sText (vpS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)
 GeographyAce: exactly 2 north-western_regions belong_to the Czech_Republic .
 GeographyApe: exactly 2 north-western_regions|noun_pl|north-western_region_N|neutr belong_to|tv_infpl|belong_to_V2 the Czech_Republic|pndef_sg|Czech_Republic_PN|neutr .
 GeographyGer: genau 2 nordwestliche_Regionen gehören zur Tschechischen_Republik .
-GeographySpa: exactamente 2 región_noroccidentales pertenecen a la República_Checa .
+GeographySpa: exactamente 2 regiones_noroccidentales pertenecen a la República_Checa .
 
 

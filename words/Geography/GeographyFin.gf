@@ -37,7 +37,6 @@ Basel_NP = mkNP "Basel" ;
 Belarus_NP = mkNP "Valko-Venäjä" ;
 Belgium_NP = mkNP "Belgia" ;
 Belgrade_NP = mkNP "Belgrad" ;
-Bergen_NP = mkNP "Bergen" ;
 Berlin_NP = mkNP "Berliini" ;
 Bern_NP = mkNP "Bern" ;
 Bitola_NP = mkNP "Bitola" ;
