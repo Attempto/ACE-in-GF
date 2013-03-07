@@ -318,7 +318,7 @@ TestAttemptoNor: John ser kun menn .
 TestAttemptoPol: Jan widzi tylko mężczyzn .
 TestAttemptoRon: John vede doar nişte oameni .
 TestAttemptoRus: Иван видит единственных людь .
-TestAttemptoSpa: John ve solamente hombrees .
+TestAttemptoSpa: John ve solamente hombres .
 TestAttemptoSwe: John ser bara män .
 
 TestAttempto: baseText (sText (vpS (everyNP (cn_as_VarCN man_N)) (v2VP buy_V2 (thereNP_as_NP (aNP (cn_as_VarCN present_N))))))
@@ -672,7 +672,7 @@ TestAttemptoDut: als X Y lief heeft , dan bewondert X niet Y .
 TestAttemptoEng: if X loves Y then X doesn't admire Y .
 TestAttemptoFin: jos X rakastaa Y:tä niin X ei ihaile Y:tä .
 TestAttemptoFre: si X aime Y alors X n' admire pas Y .
-TestAttemptoGer: wenn X Y liebt , dann bewundert X Y nicht .
+TestAttemptoGer: wenn X Y liebt , dann bewundert X nicht Y .
 TestAttemptoIta: si X ama Y allora X non ammira Y .
 TestAttemptoLav: ja X mīl Y tad X neapbrīno Y .
 TestAttemptoNor: hvis X elsker Y så X beundrer ikke Y .
@@ -729,7 +729,7 @@ TestAttemptoDut: welke golfers helpen niet Mary ?
 TestAttemptoEng: which golfers don't help Mary ?
 TestAttemptoFin: mitkä golfaajat eivät auta Maryä ?
 TestAttemptoFre: quels golfeurs n' aident pas Mary ?
-TestAttemptoGer: welche Golfer helfen Mary nicht ?
+TestAttemptoGer: welche Golfer helfen nicht Mary ?
 TestAttemptoIta: quali giocatori di golf non aiutano Mary ?
 TestAttemptoLav: [neg_npqQS] ?
 TestAttemptoNor: hvilke golfspillerer hjelper ikke Mary ?
@@ -767,7 +767,7 @@ TestAttemptoDut: elke man ziet wat of bewondert wie niet ?
 TestAttemptoEng: every man sees what or doesn't admire who ?
 TestAttemptoFin: jokainen mies näkee minkä tai ei ihaile ketä ?
 TestAttemptoFre: chaque homme voit qu' ou il n' admire pas qui ?
-TestAttemptoGer: jeder Mann sieht was oder bewundert wen nicht ?
+TestAttemptoGer: jeder Mann sieht was oder bewundert nicht wen ?
 TestAttemptoIta: ogni uomo vede che o non ammira chi ?
 TestAttemptoLav: [np_coord_VPSQ] ?
 TestAttemptoNor: hver mann ser hva eller beundrer ikke hvem ?
@@ -1021,7 +1021,7 @@ TestAttemptoNor: kun menn ser Mary .
 TestAttemptoPol: tylko mężczyzn widzą Paryż .
 TestAttemptoRon: doar nişte oameni o văd pe Mary .
 TestAttemptoRus: единственные людь видят Mary .
-TestAttemptoSpa: solamente hombrees ven Mary .
+TestAttemptoSpa: solamente hombres ven Mary .
 TestAttemptoSwe: bara män ser Mary .
 
 TestAttempto: baseText (sText (vpS (pnNP john_PN) (npVP (termNP X_Var))))

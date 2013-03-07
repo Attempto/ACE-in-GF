@@ -1,3 +1,10 @@
+Geography: baseText (sText (np_coord_VPS Limmat_NP and_Conj (BaseVPS (vp_as_negVPS (v2VP end_in_V2 (thereNP_as_NP (aNP (cn_as_VarCN mediterranean_sea_CN))))) (vp_as_negVPS (v2VP flow_through_V2 Mediterranean_Sea_NP)))))
+GeographyAce: the Limmat doesn't end_in a mediterranean_sea and doesn't flow_through the Mediterranean .
+GeographyApe: the Limmat|pndef_sg|Limmat_PN|neutr doesn't end_in|tv_infpl|end_in_V2 a mediterranean_sea|noun_sg|mediterranean_sea_N|neutr and doesn't flow_through|tv_infpl|flow_through_V2 the Mediterranean|pndef_sg|Mediterranean_PN|neutr .
+GeographyGer: die Limmat endet nicht in einem Mittelmeer und fließt nicht durch das Mittelmeer .
+GeographySpa: el río_Limago no desemboca en un mar_mediterráneo y no atraviesa el mar_Mediterráneo .
+
+
 Geography: baseText (sText (coordS and_Conj (vpS Paris_NP (v2VP surround_V2 (thereNP_as_NP (less_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN fjord_CN))))) (vpS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_3)) (cn_as_VarCN tributary_CN))) (v2VP surround_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))))
 GeographyAce: Paris surrounds less than 2 fjords and exactly 3 tributaries surround something .
 GeographyApe: Paris|pn_sg|Paris_PN|neutr surrounds|tv_finsg|surround_V2 less than 2 fjords|noun_pl|fjord_N|neutr and exactly 3 tributaries|noun_pl|tributary_N|neutr surround|tv_infpl|surround_V2 something .
@@ -98,7 +105,7 @@ GeographySpa: ningún país X limita con X .
 Geography: baseText (sText (for_everyS (apposVarCN country_CN X_Var) (neg_vpS (termNP X_Var) (v2VP border_V2 (termNP X_Var)))))
 GeographyAce: for every country X X doesn't border X .
 GeographyApe: for every country|noun_sg|country_N|neutr X X doesn't border|tv_infpl|border_V2 X .
-GeographyGer: für jedes Land X grenzt X an X nicht .
+GeographyGer: für jedes Land X grenzt X nicht an X .
 GeographySpa: para cada país X X no limita con X .
 
 
@@ -112,7 +119,7 @@ GeographySpa: si X limita con Y entonces Y limita con X .
 Geography: baseText (sText (if_thenS (vpS (termNP X_Var) (v2VP contain_V2 (termNP Y_Var))) (neg_vpS (termNP Y_Var) (v2VP contain_V2 (termNP X_Var)))))
 GeographyAce: if X contains Y then Y doesn't contain X .
 GeographyApe: if X contains|tv_finsg|contain_V2 Y then Y doesn't contain|tv_infpl|contain_V2 X .
-GeographyGer: wenn X Y enthält , dann enthält Y X nicht .
+GeographyGer: wenn X Y enthält , dann enthält Y nicht X .
 GeographySpa: si X contiene Y entonces Y no contiene X .
 
 
@@ -323,13 +330,13 @@ GeographySpa: ¿ qué países limitan con Suiza y limitan con exactamente 1 paí
 Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (relNP (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN country_CN))) (predRS which_RP (v2_byVP border_V2 Switzerland_NP))))) (vp_as_negVPS (v2VP border_V2 Switzerland_NP)))))
 GeographyAce: which countries border exactly 2 countries that are bordered by Switzerland and don't border Switzerland ?
 GeographyApe: which countries|noun_pl|country_N|neutr border|tv_infpl|border_V2 exactly 2 countries|noun_pl|country_N|neutr that are bordered|tv_pp|border_V2 by Switzerland|pn_sg|Switzerland_PN|neutr and don't border|tv_infpl|border_V2 Switzerland|pn_sg|Switzerland_PN|neutr ?
-GeographyGer: welche Länder grenzen an genau 2 Länder , die durch die Schweiz gegrenzt werden und grenzen an die Schweiz nicht ?
+GeographyGer: welche Länder grenzen an genau 2 Länder , die durch die Schweiz gegrenzt werden und grenzen nicht an die Schweiz ?
 GeographySpa: ¿ qué países limitan con exactamente 2 países que están limitados por Suiza y no limitan con Suiza ?
 
 Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (relCN (cn_as_VarCN country_CN) (predRS which_RP (v2_byVP border_V2 Switzerland_NP))))))) (vp_as_negVPS (v2VP border_V2 Switzerland_NP)))))
 GeographyAce: which countries border exactly 2 countries that are bordered by Switzerland and don't border Switzerland ?
 GeographyApe: which countries|noun_pl|country_N|neutr border|tv_infpl|border_V2 exactly 2 countries|noun_pl|country_N|neutr that are bordered|tv_pp|border_V2 by Switzerland|pn_sg|Switzerland_PN|neutr and don't border|tv_infpl|border_V2 Switzerland|pn_sg|Switzerland_PN|neutr ?
-GeographyGer: welche Länder grenzen an genau 2 Länder die durch die Schweiz gegrenzt werden und grenzen an die Schweiz nicht ?
+GeographyGer: welche Länder grenzen an genau 2 Länder die durch die Schweiz gegrenzt werden und grenzen nicht an die Schweiz ?
 GeographySpa: ¿ qué países limitan con exactamente 2 países que están limitados por Suiza y no limitan con Suiza ?
 
 

@@ -1,7 +1,7 @@
 Geography: baseText (sText (neg_vpS Switzerland_NP (v2VP border_V2 (noNP (cn_as_VarCN sea_CN)))))
 GeographyAce: Switzerland doesn't border no sea .
 GeographyApe: Switzerland|pn_sg|Switzerland_PN|neutr doesn't border|tv_infpl|border_V2 no sea|noun_sg|sea_N|neutr .
-GeographyGer: die Schweiz grenzt an kein Meer nicht .
+GeographyGer: die Schweiz grenzt nicht an kein Meer .
 GeographySpa: Suiza no limita con ningún mar .
 
 Geography: baseText (sText (vpS Switzerland_NP (v2VP border_V2 (noNP (cn_as_VarCN sea_CN)))))

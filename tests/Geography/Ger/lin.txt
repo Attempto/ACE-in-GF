@@ -32,6 +32,13 @@ GeographyGer: die Pyrenäen sind nicht größer als die Schweiz .
 GeographySpa: los Pirineos no son mayores que Suiza .
 
 
+Geography: baseText (sText (np_coord_VPS Limmat_NP and_Conj (BaseVPS (vp_as_negVPS (v2VP end_in_V2 (thereNP_as_NP (aNP (cn_as_VarCN mediterranean_sea_CN))))) (vp_as_negVPS (v2VP contain_V2 (thereNP_as_NP (aNP (cn_as_VarCN gulf_CN))))))))
+GeographyAce: the Limmat doesn't end_in a mediterranean_sea and doesn't contain a gulf .
+GeographyApe: the Limmat|pndef_sg|Limmat_PN|neutr doesn't end_in|tv_infpl|end_in_V2 a mediterranean_sea|noun_sg|mediterranean_sea_N|neutr and doesn't contain|tv_infpl|contain_V2 a gulf|noun_sg|gulf_N|neutr .
+GeographyGer: die Limmat endet nicht in einem Mittelmeer und enthält nicht einen Meerbusen .
+GeographySpa: el río_Limago no desemboca en un mar_mediterráneo y no contiene un golfo .
+
+
 Geography: baseText (sText (vpS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN north_western_region_CN))) (v2VP belong_to_V2 Czech_Republic_NP)))
 GeographyAce: exactly 2 north-western_regions belong_to the Czech_Republic .
 GeographyApe: exactly 2 north-western_regions|noun_pl|north-western_region_N|neutr belong_to|tv_infpl|belong_to_V2 the Czech_Republic|pndef_sg|Czech_Republic_PN|neutr .
