@@ -41,6 +41,8 @@ languages = Ace Ape Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav Pol Ron Rus
 
 #langs_Geography = Ace Ape Dut Fin Ger Ita Spa
 langs_Geography = Ace Ape Ger Spa
+# Tracking the regression of these languages
+langs_Geography_track = Ace Ger Spa
 langs_Simple = Ace
 langs_Words300 = Ace Cat Dan Dut Fin Fre Ger Ita Lav Nor Pol Ron Rus Spa Swe
 
@@ -96,6 +98,14 @@ lin_Geography_save:
 		cat tests/$(Geography)/$$inputlang/sentences.txt | \
 		python tools/make_gf_parse_lin_command.py --lang=$$inputlang --cat=ACEText | \
 		gf --run --verbose=0 --path=$(p) $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf) > tests/$(Geography)/$$inputlang/lin.txt ; \
+	done
+
+# echo "pg -lang=Ger -words" | gf --run Geography.pgf | tr ' ' '\012'
+words_Geography_save:
+	for inputlang in $(langs_Geography_track); do \
+		echo "pg -lang=$$inputlang -words" | \
+		gf --run Geography.pgf | \
+		tr ' ' '\012' > tests/$(Geography)/$$inputlang/words.txt ; \
 	done
 
 # This does not fail if one of the sentences fails (unlike "rf -lines | p")
