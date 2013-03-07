@@ -1,3 +1,10 @@
+Geography: baseText (sText (np_coord_VPS Julian_Alps_NP and_Conj (BaseVPS (vp_as_posVPS (v2VP contain_V2 Julian_Alps_NP)) (vp_as_posVPS (v2VP belong_to_V2 Julian_Alps_NP)))))
+GeographyAce: the Julian_Alps contain the Julian_Alps and belong_to the Julian_Alps .
+GeographyApe: the Julian_Alps|pndef_pl|Julian_Alps_PN|neutr contain|tv_infpl|contain_V2 the Julian_Alps|pndef_pl|Julian_Alps_PN|neutr and belong_to|tv_infpl|belong_to_V2 the Julian_Alps|pndef_pl|Julian_Alps_PN|neutr .
+GeographyGer: die Julische_Alpen enthalten die Julische_Alpen und gehören zu den Julischen_Alpen .
+GeographySpa: los Alpes_Julianos contienen los Alpes_Julianos y pertenecen a los Alpes_Julianos .
+
+
 Geography: baseText (sText (vpS Rhine_NP (v2VP flow_through_V2 (thereNP_as_NP (aNP (relCN (cn_as_VarCN city_CN) (predRS which_RP (v2VP contain_V2 Switzerland_NP))))))))
 GeographyAce: the Rhine flows_through a city that contains Switzerland .
 GeographyApe: the Rhine|pndef_sg|Rhine_PN|neutr flows_through|tv_finsg|flow_through_V2 a city|noun_sg|city_N|neutr that contains|tv_finsg|contain_V2 Switzerland|pn_sg|Switzerland_PN|neutr .

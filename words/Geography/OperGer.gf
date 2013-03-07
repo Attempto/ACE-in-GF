@@ -44,6 +44,10 @@ acePN = overload {
 -- which seems to often ignore the provided plural form and generate
 -- the plural from the singular using gender. So we currently give the
 -- the input form as both singular and plural, which works at least for Alpen.
+--
+-- For the 4-string input we have Nom, Acc, Dat, Gen; and we map it to:
+-- the worst case mkN: mann, mann, manne, mannes, männer, männern,
+-- i.e. we ignore plural Acc and Gen.
 mkNP = overload {
   mkNP : Str -> NP = \john -> S.mkNP (acePN john) ;
   mkNP : AceGerPnType -> Str -> NP = \g,pn -> case g of {
@@ -51,7 +55,7 @@ mkNP = overload {
     _  => S.mkNP S.the_Art (mk_gen_2N (mkGen g) pn "")
   } ;
   mkNP : AceGerPnType -> Str -> Str -> Str -> Str -> NP = \g,x1,x2,x3,x4 -> case g of {
-    pl => S.mkNP S.thePl_Det (S.mkCN (P.mkN x1 x2 x3 x4 DUMMY DUMMY P.neuter)) ;
+    pl => S.mkNP S.thePl_Det (S.mkCN (P.mkN DUMMY DUMMY DUMMY DUMMY x1 x3 P.neuter)) ;
     _  => S.mkNP S.the_Art (S.mkCN (P.mkN x1 x2 x3 x4 DUMMY DUMMY (mkGen g)))
   }
 };
