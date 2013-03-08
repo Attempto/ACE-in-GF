@@ -1,4 +1,4 @@
-concrete GeographyIta of Geography = AttemptoIta ** open SyntaxIta, ParadigmsIta in {
+concrete GeographyIta of Geography = AttemptoIta ** open SyntaxIta, ParadigmsIta, OperIta in {
 flags coding=utf8 ;
 lin
 Albania_NP = mkNP "Albania" ;

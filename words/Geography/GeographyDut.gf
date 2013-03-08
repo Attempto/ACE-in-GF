@@ -1,4 +1,4 @@
-concrete GeographyDut of Geography = AttemptoDut ** open SyntaxDut, ParadigmsDut in {
+concrete GeographyDut of Geography = AttemptoDut ** open SyntaxDut, ParadigmsDut, OperDut in {
 flags coding=utf8 ;
 lin
 Albania_NP = mkNP "Albanië" ;

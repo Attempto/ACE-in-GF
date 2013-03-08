@@ -42,7 +42,7 @@ languages = Ace Ape Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav Pol Ron Rus
 #langs_Geography = Ace Ape Dut Fin Ger Ita Spa
 langs_Geography = Ace Ape Ger Spa
 # Tracking the regression of these languages
-langs_Geography_track = Ace Ger Spa
+langs_Geography_track = Ace Ape Ger Spa
 langs_Simple = Ace
 langs_Words300 = Ace Cat Dan Dut Fin Fre Ger Ita Lav Nor Pol Ron Rus Spa Swe
 
@@ -94,9 +94,9 @@ lin_ontograph_ext_save:
 	gf --run --verbose=0 --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf) > $(tests_onto_ext)/lin.txt
 
 lin_Geography_save:
-	for inputlang in $(langs_Geography); do \
+	for inputlang in $(langs_Geography_track); do \
 		cat tests/$(Geography)/$$inputlang/sentences.txt | \
-		python tools/make_gf_parse_lin_command.py --lang=$$inputlang --cat=ACEText | \
+		python tools/make_gf_parse_lin_command.py --lang-in=$$inputlang --lang-out="$(langs_Geography_track)" --cat=ACEText | \
 		gf --run --verbose=0 --path=$(p) $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf) > tests/$(Geography)/$$inputlang/lin.txt ; \
 	done
 
