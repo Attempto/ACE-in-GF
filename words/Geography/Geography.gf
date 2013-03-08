@@ -97,6 +97,7 @@ Dniester_NP : NP ;
 Don_NP : NP ;
 Douro_NP : NP ;
 drain_into_V2 : V2 ;
+drain_V2 : V2 ;
 Drava_river_NP : NP ;
 Dresden_NP : NP ;
 Dublin_NP : NP ;

@@ -79,6 +79,7 @@ aceVLex : (_,_,_:Str) -> Str = \p,f,l -> f + "|" + p + "|" + l ;
 -- tv_finsg(ThirdSgForm, LogicalSymbol)
 -- tv_infpl(InfForm, LogicalSymbol)
 -- tv_pp(PastPartForm, LogicalSymbol)
+aceV2 = overload {
 aceV2 : (_,_,_:Str) -> V2 = \go,goes,gone ->
   let
     l = go + "_V2"
@@ -89,6 +90,18 @@ aceV2 : (_,_,_:Str) -> V2 = \go,goes,gone ->
     DUMMY
     (aceVLex TV_PP gone l)
     DUMMY) ;
+
+aceV2 : (_,_:Str) -> V2 = \go,goes ->
+  let
+    l = go + "_V2"
+  in
+  mkV2 (mkV
+    (aceVLex TV_INFPL go l)
+    (aceVLex TV_FINSG goes l)
+    DUMMY
+    ""
+    DUMMY) ;
+};
 
 -- ACE proper names (PN)
 --

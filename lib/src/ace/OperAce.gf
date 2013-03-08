@@ -5,11 +5,18 @@ instance OperAce of Oper =
 
   oper
 
+    -- TODO: maybe use an empty string (note that "variants {}" would not work here)
+    DUMMY : Str = "~" ;
+
     -- In ACE there are only 3 verb forms: infpl, finsg, pp
     -- TODO: there exists probably a cleaner way to do this,
     -- we currently use GF's 5-arg mkV and insert dummy
     -- arguments for forms that we do not need.
-    aceV2 : (_,_,_:Str) -> V2 = \go,goes,gone -> mkV2 (mkV go goes "~" gone "~") ;
+    aceV2 = overload {
+      aceV2 : (_,_,_:Str) -> V2 = \go,goes,gone -> mkV2 (mkV go goes DUMMY gone DUMMY) ;
+      aceV2 : (_,_:Str) -> V2 = \go,goes -> mkV2 (mkV go goes DUMMY "" DUMMY) ;
+    };
+
 
     acePN = overload {
       acePN : (john : Str) -> PN = \john -> mkPN (mkN Neutr (mkN john)) ;
