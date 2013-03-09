@@ -15,7 +15,7 @@ GeographySpa: París rodea a menos que 2 fiordos y exactamente 3 afluentes rodea
 Geography: baseText (sText (vpS __197_land_islands_NP (a2VP longer_than_A2 Emaj__245_gi_NP)))
 GeographyAce: the Åland_islands are longer-than Emajõgi .
 GeographyApe: the Åland_islands|pndef_pl|Åland_islands_PN|neutr are longer-than|adj_tr|longer-than_A2|than Emajõgi|pn_sg|Emajõgi_PN|neutr .
-GeographyGer: die Åland_Inselne sind länger als Embach .
+GeographyGer: die Åland-Inseln sind länger als Embach .
 GeographySpa: las islas_de_Åland son más_largas que el Emajogi .
 
 
@@ -81,9 +81,16 @@ GeographyGer: es gibt wenigstens 2 Gewässer .
 GeographySpa: hay al menos 2 cuerpos_de_agua .
 
 
+Geography: baseText (sText (coordS and_Conj (np_coord_VPS (thereNP_as_NP (more_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN lake_CN))) or_Conj (BaseVPS (vp_as_posVPS (v2VP river_source_V2 (thereNP_as_NP (aNP (cn_as_VarCN lake_CN))))) (vp_as_posVPS (v2VP surround_V2 (thereNP_as_NP (aNP (cn_as_VarCN lake_CN))))))) (np_coord_VPS (thereNP_as_NP (aNP (cn_as_VarCN lake_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP river_source_V2 (thereNP_as_NP (less_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN lake_CN))))) (vp_as_negVPS (v2VP surround_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN lake_CN)))))))))
+GeographyAce: more than 2 lakes rise_in a lake or surround a lake and a lake rises_in less than 2 lakes and doesn't surround at least 2 lakes .
+GeographyApe: more than 2 lakes|noun_pl|lake_N|neutr rise_in|tv_infpl|rise_in_V2 a lake|noun_sg|lake_N|neutr or surround|tv_infpl|surround_V2 a lake|noun_sg|lake_N|neutr and a lake|noun_sg|lake_N|neutr rises_in|tv_finsg|rise_in_V2 less than 2 lakes|noun_pl|lake_N|neutr and doesn't surround|tv_infpl|surround_V2 at least 2 lakes|noun_pl|lake_N|neutr .
+GeographyGer: mehr als 2 Seen beginnen in einem See oder umschließen einen See und ein See beginnt in weniger als 2 Seen und umschließt nicht wenigstens 2 Seen .
+GeographySpa: más que 2 lagos nacen en un lago o rodean a un lago y un lago nace en menos que 2 lagos y no rodea a al menos 2 lagos .
+
+
 Geography: baseText (sText (vpS (thereNP_as_NP (more_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN river_CN))) (v2VP has_as_location_V2 European_Union_NP)))
-GeographyAce: more than 2 rivers have_as_location the EU .
-GeographyApe: more than 2 rivers|noun_pl|river_N|neutr have_as_location|tv_infpl|have_as_location_V2 the EU|pndef_sg|EU_PN|neutr .
+GeographyAce: more than 2 rivers lie_in the EU .
+GeographyApe: more than 2 rivers|noun_pl|river_N|neutr lie_in|tv_infpl|lie_in_V2 the EU|pndef_sg|EU_PN|neutr .
 GeographyGer: mehr als 2 Flüsse liegen in der Europäischen_Union .
 GeographySpa: más que 2 ríos están situado_en la Unión_Europea .
 
@@ -100,6 +107,19 @@ GeographyAce: no country X borders X .
 GeographyApe: no country|noun_sg|country_N|neutr X borders|tv_finsg|border_V2 X .
 GeographyGer: kein Land X grenzt an X .
 GeographySpa: ningún país X limita con X .
+
+
+Geography: baseText (sText (vpS (noNP (relCN (cn_as_VarCN river_CN) (predRS which_RP (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN endorheic_basin_CN))))))) (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN ocean_CN))))))
+GeographyAce: no river that drains_into an endorheic_basin drains_into an ocean .
+GeographyApe: no river|noun_sg|river_N|neutr that drains_into|tv_finsg|drain_into_V2 an endorheic_basin|noun_sg|endorheic_basin_N|neutr drains_into|tv_finsg|drain_into_V2 an ocean|noun_sg|ocean_N|neutr .
+GeographyGer: kein Fluss der in einen [endorheic_basin_CN] mündet mündet in einen Ozean .
+GeographySpa: ningún río que desemboca en un [endorheic_basin_CN] desemboca en un océano .
+
+Geography: baseText (sText (vpS (relNP (noNP (cn_as_VarCN river_CN)) (predRS which_RP (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN endorheic_basin_CN)))))) (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN ocean_CN))))))
+GeographyAce: no river that drains_into an endorheic_basin drains_into an ocean .
+GeographyApe: no river|noun_sg|river_N|neutr that drains_into|tv_finsg|drain_into_V2 an endorheic_basin|noun_sg|endorheic_basin_N|neutr drains_into|tv_finsg|drain_into_V2 an ocean|noun_sg|ocean_N|neutr .
+GeographyGer: kein Fluss , der in einen [endorheic_basin_CN] mündet mündet in einen Ozean .
+GeographySpa: ningún río que desemboca en un [endorheic_basin_CN] desemboca en un océano .
 
 
 Geography: baseText (sText (for_everyS (apposVarCN country_CN X_Var) (neg_vpS (termNP X_Var) (v2VP border_V2 (termNP X_Var)))))
@@ -189,7 +209,7 @@ GeographySpa: una capital de X está contenida por X y no es un mar .
 Geography: baseText (sText (if_thenS (vpS (thereNP_as_NP (aNP (apposVarCN river_CN X_Var))) (v2VP flow_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN lake_CN))))) (vpS (theNP (cn_as_VarCN lake_CN)) (v2_byVP flow_into_V2 (termNP Y_Var)))))
 GeographyAce: if a river X flows_into a lake then the lake is fed by Y .
 GeographyApe: if a river|noun_sg|river_N|neutr X flows_into|tv_finsg|flow_into_V2 a lake|noun_sg|lake_N|neutr then the lake|noun_sg|lake_N|neutr is fed|tv_pp|flow_into_V2 by Y .
-GeographyGer: wenn ein Fluss X in einen Seen fließt , dann wird der See durch Y gefließt .
+GeographyGer: wenn ein Fluss X in einen See fließt , dann wird der See durch Y gefließt .
 GeographySpa: si un río X desemboca en un lago entonces el lago está desembocado por Y .
 
 

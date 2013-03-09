@@ -9,9 +9,11 @@ German is an official_language of the European_Union .
 the EU is the European_Union .
 a mediterranean_sea is the Mediterranean .
 there are at least 2 bodies_of_water .
-more than 2 rivers have_as_location the European_Union .
+more than 2 lakes rise_in a lake or surround a lake and a lake rises_in less than 2 lakes and does not surround at least 2 lakes .
+more than 2 rivers lie_in the European_Union .
 every country borders a country or is bordered by a sea .
 no country X borders X .
+no river that drains_into an endorheic_basin drains_into an ocean .
 for every country X X does not border X .
 if X borders Y then Y borders X .
 if X contains Y then Y does not contain X .

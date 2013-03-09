@@ -2,7 +2,7 @@
 
 concrete AttemptoGer of Attempto = SymbolsC, NumeralGer **
   AttemptoI - [
-    CN, PN, V2, IndefPron, IndefTherePron,
+    CN, PN, NP, V2, IndefPron, IndefTherePron,
     if_thenS
   ] with
   (Syntax = SyntaxGer),
@@ -17,6 +17,9 @@ concrete AttemptoGer of Attempto = SymbolsC, NumeralGer **
 
   printname cat PN = "Eigenname" ;
   lincat PN = Syntax.PN ;
+
+  printname cat NP = "Eigenname" ;
+  lincat NP = Syntax.NP ;
 
   printname cat V2 = "Verb" ;
   lincat V2 = Syntax.V2 ;

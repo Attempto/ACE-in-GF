@@ -1,7 +1,7 @@
 Geography: baseText (sText (np_coord_VPS Julian_Alps_NP and_Conj (BaseVPS (vp_as_posVPS (v2VP contain_V2 Julian_Alps_NP)) (vp_as_posVPS (v2VP belong_to_V2 Julian_Alps_NP)))))
 GeographyAce: the Julian_Alps contain the Julian_Alps and belong_to the Julian_Alps .
 GeographyApe: the Julian_Alps|pndef_pl|Julian_Alps_PN|neutr contain|tv_infpl|contain_V2 the Julian_Alps|pndef_pl|Julian_Alps_PN|neutr and belong_to|tv_infpl|belong_to_V2 the Julian_Alps|pndef_pl|Julian_Alps_PN|neutr .
-GeographyGer: die Julische_Alpen enthalten die Julische_Alpen und gehören zu den Julischen_Alpen .
+GeographyGer: die Julischen_Alpen enthalten die Julischen_Alpen und gehören zu den Julischen_Alpen .
 GeographySpa: los Alpes_Julianos contienen los Alpes_Julianos y pertenecen a los Alpes_Julianos .
 
 
