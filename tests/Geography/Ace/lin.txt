@@ -112,7 +112,7 @@ GeographySpa: ningún país X limita con X .
 Geography: baseText (sText (vpS (noNP (relCN (cn_as_VarCN river_CN) (predRS which_RP (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN endorheic_basin_CN))))))) (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN ocean_CN))))))
 GeographyAce: no river that drains_into an endorheic_basin drains_into an ocean .
 GeographyApe: no river|noun_sg|river_N|neutr that drains_into|tv_finsg|drain_into_V2 an endorheic_basin|noun_sg|endorheic_basin_N|neutr drains_into|tv_finsg|drain_into_V2 an ocean|noun_sg|ocean_N|neutr .
-GeographyGer: kein Fluss der in einen [endorheic_basin_CN] mündet mündet in einen Ozean .
+GeographyGer: kein Fluss , der in einen [endorheic_basin_CN] mündet mündet in einen Ozean .
 GeographySpa: ningún río que desemboca en un [endorheic_basin_CN] desemboca en un océano .
 
 Geography: baseText (sText (vpS (relNP (noNP (cn_as_VarCN river_CN)) (predRS which_RP (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN endorheic_basin_CN)))))) (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN ocean_CN))))))
@@ -139,7 +139,7 @@ GeographySpa: si X limita con Y entonces Y limita con X .
 Geography: baseText (sText (if_thenS (vpS (termNP X_Var) (v2VP contain_V2 (termNP Y_Var))) (neg_vpS (termNP Y_Var) (v2VP contain_V2 (termNP X_Var)))))
 GeographyAce: if X contains Y then Y doesn't contain X .
 GeographyApe: if X contains|tv_finsg|contain_V2 Y then Y doesn't contain|tv_infpl|contain_V2 X .
-GeographyGer: wenn X Y enthält , dann enthält Y nicht X .
+GeographyGer: wenn X Y enthält , dann enthält Y X nicht .
 GeographySpa: si X contiene Y entonces Y no contiene X .
 
 
@@ -174,7 +174,7 @@ GeographySpa: cada ciudad no es una capital de un país .
 Geography: baseText (sText (thereNP (aNP (relCN (cn_as_VarCN city_CN) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (ofCN capital_CN (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))))))))))
 GeographyAce: there is a city that isn't a capital of a country .
 GeographyApe: there is a city|noun_sg|city_N|neutr that isn't a capital|noun_sg|capital_N|neutr of a country|noun_sg|country_N|neutr .
-GeographyGer: es gibt eine Stadt die nicht eine Hauptstadt von einem Land ist .
+GeographyGer: es gibt eine Stadt , die nicht eine Hauptstadt von einem Land ist .
 GeographySpa: hay una ciudad que no es una capital de un país .
 
 
@@ -243,7 +243,7 @@ GeographySpa: si X desemboca en algo que desemboca en Y entonces X desemboca en 
 Geography: baseText (sText (np_coord_VPS (everyNP (relCN (cn_as_VarCN river_CN) (predRS which_RP (v2VP river_source_V2 Switzerland_NP)))) or_Conj (BaseVPS (vp_as_posVPS (v2VP drain_into_V2 Mediterranean_Sea_NP)) (vp_as_posVPS (v2VP drain_into_V2 North_Sea_NP)))))
 GeographyAce: every river that rises_in Switzerland drains_into the Mediterranean or drains_into the North_Sea .
 GeographyApe: every river|noun_sg|river_N|neutr that rises_in|tv_finsg|rise_in_V2 Switzerland|pn_sg|Switzerland_PN|neutr drains_into|tv_finsg|drain_into_V2 the Mediterranean|pndef_sg|Mediterranean_PN|neutr or drains_into|tv_finsg|drain_into_V2 the North_Sea|pndef_sg|North_Sea_PN|neutr .
-GeographyGer: jeder Fluss der in der Schweiz beginnt mündet ins Mittelmeer oder mündet in die Nordsee .
+GeographyGer: jeder Fluss , der in der Schweiz beginnt mündet ins Mittelmeer oder mündet in die Nordsee .
 GeographySpa: cada río que nace en Suiza desemboca en el mar_Mediterráneo o desemboca en el Mar_del_Norte .
 
 Geography: baseText (sText (np_coord_VPS (relNP (everyNP (cn_as_VarCN river_CN)) (predRS which_RP (v2VP river_source_V2 Switzerland_NP))) or_Conj (BaseVPS (vp_as_posVPS (v2VP drain_into_V2 Mediterranean_Sea_NP)) (vp_as_posVPS (v2VP drain_into_V2 North_Sea_NP)))))
@@ -270,7 +270,7 @@ GeographySpa: como máximo 0 ciudades son una capital .
 Geography: baseText (sText (vpS (everyNP (apposVarCN country_CN X_Var)) (v2VP northern_of_V2 (everyNP (relCN (cn_as_VarCN country_CN) (predRS which_RP (v2VP southern_of_V2 (termNP X_Var))))))))
 GeographyAce: every country X lies_in_the_north_of every country that lies_in_the_south_of X .
 GeographyApe: every country|noun_sg|country_N|neutr X lies_in_the_north_of|tv_finsg|lie_in_the_north_of_V2 every country|noun_sg|country_N|neutr that lies_in_the_south_of|tv_finsg|lie_in_the_south_of_V2 X .
-GeographyGer: jedes Land X liegt im_Norden_von jedem Land das im_Süden_von X liegt .
+GeographyGer: jedes Land X liegt im_Norden_von jedem Land , das im_Süden_von X liegt .
 GeographySpa: cada país X está al_norte_de cada país que está al_sur_de X .
 
 Geography: baseText (sText (vpS (everyNP (apposVarCN country_CN X_Var)) (v2VP northern_of_V2 (relNP (everyNP (cn_as_VarCN country_CN)) (predRS which_RP (v2VP southern_of_V2 (termNP X_Var)))))))
@@ -289,14 +289,14 @@ GeographySpa: si una lengua_oficial de un país es una lengua_fino-úgrica enton
 Geography: baseText (sText (if_thenS (vpS (thereNP_as_NP (aNP (ofCN official_language_CN (thereNP_as_NP (aNP (cn_as_VarCN country_CN)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN Finno_Ugric_language_CN))))) (np_coord_VPS (theNP (cn_as_VarCN country_CN)) or_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 Russia_NP)) (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (aNP (relCN (cn_as_VarCN country_CN) (predRS which_RP (v2VP border_V2 Russia_NP)))))))))))
 GeographyAce: if an official_language of a country is a Finno-Ugric_language then the country borders Russia or borders a country that borders Russia .
 GeographyApe: if an official_language|noun_sg|official_language_N|neutr of a country|noun_sg|country_N|neutr is a Finno-Ugric_language|noun_sg|Finno-Ugric_language_N|neutr then the country|noun_sg|country_N|neutr borders|tv_finsg|border_V2 Russia|pn_sg|Russia_PN|neutr or borders|tv_finsg|border_V2 a country|noun_sg|country_N|neutr that borders|tv_finsg|border_V2 Russia|pn_sg|Russia_PN|neutr .
-GeographyGer: wenn eine offizielle_Sprache von einem Land eine Finno-ugrische_Sprache ist , dann grenzt an Russland oder grenzt an ein Land das an Russland grenzt das Land .
+GeographyGer: wenn eine offizielle_Sprache von einem Land eine Finno-ugrische_Sprache ist , dann grenzt an Russland oder grenzt an ein Land , das an Russland grenzt das Land .
 GeographySpa: si una lengua_oficial de un país es una lengua_fino-úgrica entonces el país limita con Rusia o limita con un país que limita con Rusia .
 
 
 Geography: baseText (sText (vpS (everyNP (relCN (cn_as_VarCN Germanic_language_CN) (predRS which_RP (v2_byVP surround_V2 Hiiumaa_island_NP)))) (v2VP to_be_a_natural_border_between_V2 Atlantic_Ocean_NP)))
 GeographyAce: every Germanic_language that is surrounded by Hiiumaa naturally_borders the Atlantic_Ocean .
 GeographyApe: every Germanic_language|noun_sg|Germanic_language_N|neutr that is surrounded|tv_pp|surround_V2 by Hiiumaa|pn_sg|Hiiumaa_PN|neutr naturally_borders|tv_finsg|naturally_border_V2 the Atlantic_Ocean|pndef_sg|Atlantic_Ocean_PN|neutr .
-GeographyGer: jede Germanische_Sprache die durch Hiiumaa umschlossen wird grenzt natürlich_an den Atlantischen_Ozean .
+GeographyGer: jede Germanische_Sprache , die durch Hiiumaa umschlossen wird grenzt natürlich_an den Atlantischen_Ozean .
 GeographySpa: cada lengua_germánica que está rodeada por la isla_de_Hiiumaa es frontera_natural_entre el océano_Atlántico .
 
 Geography: baseText (sText (vpS (relNP (everyNP (cn_as_VarCN Germanic_language_CN)) (predRS which_RP (v2_byVP surround_V2 Hiiumaa_island_NP))) (v2VP to_be_a_natural_border_between_V2 Atlantic_Ocean_NP)))
@@ -330,7 +330,7 @@ GeographySpa: ¿ qué países limitan con al menos 5 países ?
 Geography: baseText (qsText (npqQS (ipNPQ (whichIP whichPl_IDet (relCN (cn_as_VarCN country_CN) (slashRS which_RP Germany_NP border_V2)))) (v2VP border_V2 Switzerland_NP)))
 GeographyAce: which countries that Germany borders border Switzerland ?
 GeographyApe: which countries|noun_pl|country_N|neutr that Germany|pn_sg|Germany_PN|neutr borders|tv_finsg|border_V2 border|tv_infpl|border_V2 Switzerland|pn_sg|Switzerland_PN|neutr ?
-GeographyGer: welche Länder an die Deutschland grenzt grenzen an die Schweiz ?
+GeographyGer: welche Länder , an die Deutschland grenzt grenzen an die Schweiz ?
 GeographySpa: ¿ qué países con que Alemania limita limitan con Suiza ?
 
 
@@ -343,7 +343,7 @@ GeographySpa: ¿ qué países limitan con Suiza y limitan con exactamente 1 paí
 Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 Switzerland_NP)) (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (exactlyNP (digitsCard (IDig D_1)) (relCN (cn_as_VarCN country_CN) (slashRS which_RP Switzerland_NP border_V2)))))))))
 GeographyAce: which countries border Switzerland and border exactly 1 country that Switzerland borders ?
 GeographyApe: which countries|noun_pl|country_N|neutr border|tv_infpl|border_V2 Switzerland|pn_sg|Switzerland_PN|neutr and border|tv_infpl|border_V2 exactly 1 country|noun_sg|country_N|neutr that Switzerland|pn_sg|Switzerland_PN|neutr borders|tv_finsg|border_V2 ?
-GeographyGer: welche Länder grenzen an die Schweiz und grenzen an genau 1 Land an das die Schweiz grenzt ?
+GeographyGer: welche Länder grenzen an die Schweiz und grenzen an genau 1 Land , an das die Schweiz grenzt ?
 GeographySpa: ¿ qué países limitan con Suiza y limitan con exactamente 1 país con que Suiza limita ?
 
 
@@ -356,7 +356,7 @@ GeographySpa: ¿ qué países limitan con exactamente 2 países que están limit
 Geography: baseText (qsText (npq_coord_VPS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN country_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (relCN (cn_as_VarCN country_CN) (predRS which_RP (v2_byVP border_V2 Switzerland_NP))))))) (vp_as_negVPS (v2VP border_V2 Switzerland_NP)))))
 GeographyAce: which countries border exactly 2 countries that are bordered by Switzerland and don't border Switzerland ?
 GeographyApe: which countries|noun_pl|country_N|neutr border|tv_infpl|border_V2 exactly 2 countries|noun_pl|country_N|neutr that are bordered|tv_pp|border_V2 by Switzerland|pn_sg|Switzerland_PN|neutr and don't border|tv_infpl|border_V2 Switzerland|pn_sg|Switzerland_PN|neutr ?
-GeographyGer: welche Länder grenzen an genau 2 Länder die durch die Schweiz gegrenzt werden und grenzen nicht an die Schweiz ?
+GeographyGer: welche Länder grenzen an genau 2 Länder , die durch die Schweiz gegrenzt werden und grenzen nicht an die Schweiz ?
 GeographySpa: ¿ qué países limitan con exactamente 2 países que están limitados por Suiza y no limitan con Suiza ?
 
 

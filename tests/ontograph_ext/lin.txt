@@ -140,7 +140,7 @@ TestAttemptoDut: elke reiziger die niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler that isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustaja joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
-TestAttemptoGer: jeder Reisende der nicht eine Frau ist ist ein Golfer .
+TestAttemptoGer: jeder Reisende , der nicht eine Frau ist ist ein Golfer .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoLav: ikviens ceļotājs , kas nav sieviete ir golferis .
 TestAttemptoNor: hver reisende som ikke er ei kvinne er en golfspiller .
