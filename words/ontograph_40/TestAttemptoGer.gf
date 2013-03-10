@@ -28,12 +28,16 @@ lin john_PN = mkPN "John" ;
 lin sue_PN = mkPN "Sue" ;
 lin bill_PN = mkPN "Bill" ;
 
+-- Note that we do not care about the imperfect forms
+-- TODO: can/should one use datV2 and dirV2 here?
 lin see_V2 = LexiconGer.see_V2 ;
 lin buy_V2 = LexiconGer.buy_V2 ;
--- Note that we do not care about the imperfect forms
-lin help_V2 = mkV2 (mkV "helfen" "hilft" "~" "~" "geholfen") dative ;
-lin admire_V2 = mkV2 (mkV "bewundern" "bewundert" "~" "~" "bewundert") accusative ;
+--lin help_V2 = mkV2 (mkV "helfen" "hilft" "~" "~" "geholfen") dative ;
+--lin admire_V2 = mkV2 (mkV "bewundern" "bewundert" "~" "~" "bewundert") accusative ;
+lin help_V2 = datV2 (mkV "helfen" "hilft" "~" "~" "geholfen") ;
+lin admire_V2 = dirV2 (mkV "bewundern" "bewundert" "~" "~" "bewundert") ;
 lin love_V2 = LexiconGer.love_V2 ;
-lin inspect_V2 = mkV2 (mkV "inspizieren") accusative ;
+--lin inspect_V2 = mkV2 (mkV "inspizieren") accusative ;
+lin inspect_V2 = dirV2 (mkV "inspizieren") ;
 
 }

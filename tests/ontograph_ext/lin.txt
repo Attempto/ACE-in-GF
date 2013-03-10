@@ -672,7 +672,7 @@ TestAttemptoDut: als X Y lief heeft , dan bewondert X niet Y .
 TestAttemptoEng: if X loves Y then X doesn't admire Y .
 TestAttemptoFin: jos X rakastaa Y:tä niin X ei ihaile Y:tä .
 TestAttemptoFre: si X aime Y alors X n' admire pas Y .
-TestAttemptoGer: wenn X Y liebt , dann bewundert X nicht Y .
+TestAttemptoGer: wenn X Y liebt , dann bewundert X Y nicht .
 TestAttemptoIta: si X ama Y allora X non ammira Y .
 TestAttemptoLav: ja X mīl Y tad X neapbrīno Y .
 TestAttemptoNor: hvis X elsker Y så X beundrer ikke Y .
@@ -681,6 +681,44 @@ TestAttemptoRon: dacă X îl iubeşte pe Y atunci X nu îl admirează pe Y .
 TestAttemptoRus: если X любдит Y то X не боет Y .
 TestAttemptoSpa: si X ama Y entonces X no admira Y .
 TestAttemptoSwe: om X älskar Y så X beundrar inte Y .
+
+TestAttempto: baseText (sText (if_thenS (neg_vpS (thereNP_as_NP (aNP (apposVarCN man_N X_Var))) (v2VP admire_V2 (thereNP_as_NP (aNP (apposVarCN woman_N Y_Var))))) (neg_vpS (theNP (apposVarCN woman_N Y_Var)) (v2VP admire_V2 (theNP (apposVarCN man_N X_Var))))))
+TestAttemptoAce: if a man X doesn't admire a woman Y then the woman Y doesn't admire the man X .
+TestAttemptoApe: if a man|noun_sg|man_N|masc X doesn't admire|tv_infpl|admire_V2 a woman|noun_sg|woman_N|fem Y then the woman|noun_sg|woman_N|fem Y doesn't admire|tv_infpl|admire_V2 the man|noun_sg|man_N|masc X .
+TestAttemptoCat: si un home X no admira una dona Y llavors la dona Y no admira l' home X .
+TestAttemptoDan: hvis en mand X beundrer ikke en kvinde Y så kvinden Y beundrer ikke manden X .
+TestAttemptoDut: als een man X niet een vrouw Y bewondert , dan bewondert de vrouw Y niet de man X .
+TestAttemptoEng: if a man X doesn't admire a woman Y then the woman Y doesn't admire the man X .
+TestAttemptoFin: jos mies X ei ihaile naista Y niin nainen Y ei ihaile miestä X .
+TestAttemptoFre: si un homme X n' admire pas une femme Y alors la femme Y n' admire pas l' homme X .
+TestAttemptoGer: wenn ein Mann X nicht eine Frau Y bewundert , dann bewundert die Frau Y den Mann X nicht .
+TestAttemptoIta: si un uomo X non ammira una donna Y allora la donna Y non ammira l' uomo X .
+TestAttemptoLav: ja vīrieši X neapbrīno sievietes Y tad sievietes Y neapbrīno vīriešus X .
+TestAttemptoNor: hvis en mann X beundrer ikke ei kvinne Y så kvinna Y beundrer ikke mannen X .
+TestAttemptoPol: jeżeli mężczyzna X nie czyta kobiety Y , to kobieta Y nie czyta mężczyzny X .
+TestAttemptoRon: dacă un om X nu admirează o femeie Y atunci femeia Y nu îl admirează pe omul X .
+TestAttemptoRus: если человек X не боет женщину Y то женщина Y не боет человек X .
+TestAttemptoSpa: si un hombre X no admira una mujer Y entonces la mujer Y no admira el hombre X .
+TestAttemptoSwe: om en man X beundrar inte en kvinna Y så kvinnan Y beundrar inte mannen X .
+
+TestAttempto: baseText (sText (if_thenS (neg_vpS (thereNP_as_NP (aNP (apposVarCN man_N X_Var))) (v2VP help_V2 (thereNP_as_NP (aNP (apposVarCN woman_N Y_Var))))) (neg_vpS (theNP (apposVarCN woman_N Y_Var)) (v2VP help_V2 (theNP (apposVarCN man_N X_Var))))))
+TestAttemptoAce: if a man X doesn't help a woman Y then the woman Y doesn't help the man X .
+TestAttemptoApe: if a man|noun_sg|man_N|masc X doesn't help|tv_infpl|help_V2 a woman|noun_sg|woman_N|fem Y then the woman|noun_sg|woman_N|fem Y doesn't help|tv_infpl|help_V2 the man|noun_sg|man_N|masc X .
+TestAttemptoCat: si un home X no ajuda una dona Y llavors la dona Y no ajuda l' home X .
+TestAttemptoDan: hvis en mand X hjælper ikke en kvinde Y så kvinden Y hjælper ikke manden X .
+TestAttemptoDut: als een man X niet een vrouw Y helpt , dan helpt de vrouw Y niet de man X .
+TestAttemptoEng: if a man X doesn't help a woman Y then the woman Y doesn't help the man X .
+TestAttemptoFin: jos mies X ei auta naista Y niin nainen Y ei auta miestä X .
+TestAttemptoFre: si un homme X n' aide pas une femme Y alors la femme Y n' aide pas l' homme X .
+TestAttemptoGer: wenn ein Mann X nicht einer Frau Y hilft , dann hilft die Frau Y dem Mann X nicht .
+TestAttemptoIta: si un uomo X non aiuta una donna Y allora la donna Y non aiuta l' uomo X .
+TestAttemptoLav: ja vīrieši X nepalīdz sievietēm Y tad sievietes Y nepalīdz vīriešiem X .
+TestAttemptoNor: hvis en mann X hjelper ikke ei kvinne Y så kvinna Y hjelper ikke mannen X .
+TestAttemptoPol: jeżeli mężczyzna X nie czyta kobiety Y , to kobieta Y nie czyta mężczyzny X .
+TestAttemptoRon: dacă un om X nu ajutează o femeie Y atunci femeia Y nu îl ajutează pe omul X .
+TestAttemptoRus: если человек X не толкает женщину Y то женщина Y не толкает человек X .
+TestAttemptoSpa: si un hombre X no ayuda una mujer Y entonces la mujer Y no ayuda el hombre X .
+TestAttemptoSwe: om en man X assisterar inte en kvinna Y så kvinnan Y assisterar inte mannen X .
 
 TestAttempto: baseText (sText (falseS (neg_vpS (thereNP_as_NP (indefTherePronNP somebody_IPron)) (v2VP buy_V2 (thereNP_as_NP (exactlyNP (digitsCard (IDig D_3)) (cn_as_VarCN golfer_N)))))))
 TestAttemptoAce: it is false that somebody doesn't buy exactly 3 golfers .
@@ -729,7 +767,7 @@ TestAttemptoDut: welke golfers helpen niet Mary ?
 TestAttemptoEng: which golfers don't help Mary ?
 TestAttemptoFin: mitkä golfaajat eivät auta Maryä ?
 TestAttemptoFre: quels golfeurs n' aident pas Mary ?
-TestAttemptoGer: welche Golfer helfen nicht Mary ?
+TestAttemptoGer: welche Golfer helfen Mary nicht ?
 TestAttemptoIta: quali giocatori di golf non aiutano Mary ?
 TestAttemptoLav: [neg_npqQS] ?
 TestAttemptoNor: hvilke golfspillerer hjelper ikke Mary ?
@@ -767,7 +805,7 @@ TestAttemptoDut: elke man ziet wat of bewondert wie niet ?
 TestAttemptoEng: every man sees what or doesn't admire who ?
 TestAttemptoFin: jokainen mies näkee minkä tai ei ihaile ketä ?
 TestAttemptoFre: chaque homme voit qu' ou il n' admire pas qui ?
-TestAttemptoGer: jeder Mann sieht was oder bewundert nicht wen ?
+TestAttemptoGer: jeder Mann sieht was oder bewundert wen nicht ?
 TestAttemptoIta: ogni uomo vede che o non ammira chi ?
 TestAttemptoLav: [np_coord_VPSQ] ?
 TestAttemptoNor: hver mann ser hva eller beundrer ikke hvem ?

@@ -33,6 +33,8 @@ if X sees somebody who sees Y then X sees Y .
 if X admires Y then X sees Y .
 if X helps Y then Y admires X .
 if X loves Y then X does not admire Y .
+if a man X does not admire a woman Y then the woman Y does not admire the man X .
+if a man X does not help a woman Y then the woman Y does not help the man X .
 it is false that somebody does not buy exactly 3 golfers .
 what does John buy ?
 which golfers don't help Mary ?
