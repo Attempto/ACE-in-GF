@@ -382,6 +382,7 @@ Serbian_NP = mkNP "Serbisch" ;
 Sesia_river_NP = mkNP der "Sesia" ;
 Shannon_river_NP = mkNP der "Shannon" ;
 Shetland_NP = mkNP "Shetland" ;
+shorter_than_A2 = mkA2 (mkA "kürzer") (mkPrep "als" nominative) ;
 Sicily_NP = mkNP "Sizilien" ;
 Sierra_de_Albarrac__237_n_NP = mkNP die "Sierra_de_Albarracín" ;
 Skopje_NP = mkNP "Skopje" ;

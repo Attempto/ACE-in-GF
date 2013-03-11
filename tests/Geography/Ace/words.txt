@@ -40,6 +40,7 @@ Baltic_Sea
 Bangor
 Banja_Luka
 Basel
+Bay_of_Biscay
 Belarus
 Belgium
 Belgrade
@@ -112,6 +113,7 @@ Emajõgi
 Ems
 England
 English
+English_Channel
 Estonia
 Estonian
 Etna
@@ -444,6 +446,8 @@ archipelagos
 are
 aren't
 at
+bay
+bays
 belong_to
 belongs_to
 bodies_of_water
@@ -482,6 +486,8 @@ drains_into
 enclave
 enclaves
 end_in
+endorheic_basin
+endorheic_basins
 ends_in
 every
 everybody
@@ -504,8 +510,6 @@ glacier
 glaciers
 gulf
 gulfs
-has_as_location
-have_as_location
 if
 is
 island
@@ -521,11 +525,13 @@ languages
 larger-than
 least
 less
+lie_in
 lie_in_the_east_of
 lie_in_the_middle_of
 lie_in_the_north_of
 lie_in_the_south_of
 lie_in_the_west_of
+lies_in
 lies_in_the_east_of
 lies_in_the_middle_of
 lies_in_the_north_of
@@ -582,6 +588,7 @@ river
 rivers
 sea
 seas
+shorter-than
 smaller-than
 somebody
 something

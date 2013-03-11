@@ -386,6 +386,7 @@ Serbian_NP : NP ;
 Sesia_river_NP : NP ;
 Shannon_river_NP : NP ;
 Shetland_NP : NP ;
+shorter_than_A2 : A2 ;
 Sicily_NP : NP ;
 Sierra_de_Albarrac__237_n_NP : NP ;
 Skopje_NP : NP ;

@@ -47,6 +47,7 @@ Budapest
 Bulgaria
 Bélgica
 Cambridge
+Canal_de_la_Mancha
 Canarias
 Cantabria
 Cardiff
@@ -99,6 +100,7 @@ Georgia
 Ginebra
 Glasgow
 Glittertind
+Golfo_de_Vizcaya
 Gotemburgo
 Gotland
 Gran_Canaria
@@ -288,6 +290,8 @@ atravesado
 atravesados
 atraviesa
 atraviesan
+bahía
+bahías
 búlgaro
 cada
 cadena_montañosa
@@ -311,6 +315,8 @@ continentes
 costa
 costas
 croata
+cuenca_endorreica
+cuencas_endorreicas
 cuerpo_de_agua
 cuerpos_de_agua
 danés
@@ -351,7 +357,6 @@ fiordo
 fiordos
 francés
 frontera_con
-frontera_natural_entre
 galés
 glaciar
 glaciares
@@ -493,6 +498,10 @@ monte_Vlašić
 montes_Tatra
 montes_Urales
 más
+más_corta
+más_cortas
+más_corto
+más_cortos
 más_larga
 más_largas
 más_largo
@@ -630,6 +639,7 @@ todo
 todos
 ucraniano
 un
+un_límite_natural_de
 una
 valle
 valles

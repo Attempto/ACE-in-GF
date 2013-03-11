@@ -113,13 +113,13 @@ Geography: baseText (sText (s (vpS (noNP (relCN (cn_as_VarCN river_CN) (predRS w
 GeographyAce: no river that drains_into an endorheic_basin drains_into an ocean .
 GeographyApe: no river|noun_sg|river_N|neutr that drains_into|tv_finsg|drain_into_V2 an endorheic_basin|noun_sg|endorheic_basin_N|neutr drains_into|tv_finsg|drain_into_V2 an ocean|noun_sg|ocean_N|neutr .
 GeographyGer: kein Fluss , der in einen [endorheic_basin_CN] mündet mündet in einen Ozean .
-GeographySpa: ningún río que desemboca en un [endorheic_basin_CN] desemboca en un océano .
+GeographySpa: ningún río que desemboca en una cuenca_endorreica desemboca en un océano .
 
 Geography: baseText (sText (s (vpS (relNP (noNP (cn_as_VarCN river_CN)) (predRS which_RP (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN endorheic_basin_CN)))))) (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN ocean_CN)))))))
 GeographyAce: no river that drains_into an endorheic_basin drains_into an ocean .
 GeographyApe: no river|noun_sg|river_N|neutr that drains_into|tv_finsg|drain_into_V2 an endorheic_basin|noun_sg|endorheic_basin_N|neutr drains_into|tv_finsg|drain_into_V2 an ocean|noun_sg|ocean_N|neutr .
 GeographyGer: kein Fluss , der in einen [endorheic_basin_CN] mündet mündet in einen Ozean .
-GeographySpa: ningún río que desemboca en un [endorheic_basin_CN] desemboca en un océano .
+GeographySpa: ningún río que desemboca en una cuenca_endorreica desemboca en un océano .
 
 
 Geography: baseText (sText (s (for_everyS (apposVarCN country_CN X_Var) (neg_vpS (termNP X_Var) (v2VP border_V2 (termNP X_Var))))))
@@ -297,13 +297,13 @@ Geography: baseText (sText (s (vpS (everyNP (relCN (cn_as_VarCN Germanic_languag
 GeographyAce: every Germanic_language that is surrounded by Hiiumaa naturally_borders the Atlantic_Ocean .
 GeographyApe: every Germanic_language|noun_sg|Germanic_language_N|neutr that is surrounded|tv_pp|surround_V2 by Hiiumaa|pn_sg|Hiiumaa_PN|neutr naturally_borders|tv_finsg|naturally_border_V2 the Atlantic_Ocean|pndef_sg|Atlantic_Ocean_PN|neutr .
 GeographyGer: jede Germanische_Sprache , die durch Hiiumaa umschlossen wird grenzt natürlich_an den Atlantischen_Ozean .
-GeographySpa: cada lengua_germánica que está rodeada por la isla_de_Hiiumaa es frontera_natural_entre el océano_Atlántico .
+GeographySpa: cada lengua_germánica que está rodeada por la isla_de_Hiiumaa es un_límite_natural_de el océano_Atlántico .
 
 Geography: baseText (sText (s (vpS (relNP (everyNP (cn_as_VarCN Germanic_language_CN)) (predRS which_RP (v2_byVP surround_V2 Hiiumaa_island_NP))) (v2VP to_be_a_natural_border_between_V2 Atlantic_Ocean_NP))))
 GeographyAce: every Germanic_language that is surrounded by Hiiumaa naturally_borders the Atlantic_Ocean .
 GeographyApe: every Germanic_language|noun_sg|Germanic_language_N|neutr that is surrounded|tv_pp|surround_V2 by Hiiumaa|pn_sg|Hiiumaa_PN|neutr naturally_borders|tv_finsg|naturally_border_V2 the Atlantic_Ocean|pndef_sg|Atlantic_Ocean_PN|neutr .
 GeographyGer: jede Germanische_Sprache , die durch Hiiumaa umschlossen wird grenzt natürlich_an den Atlantischen_Ozean .
-GeographySpa: cada lengua_germánica que está rodeada por la isla_de_Hiiumaa es frontera_natural_entre el océano_Atlántico .
+GeographySpa: cada lengua_germánica que está rodeada por la isla_de_Hiiumaa es un_límite_natural_de el océano_Atlántico .
 
 
 Geography: baseText (qsText (qs (npqQS (ipNPQ whatSg_IP) (npVP Switzerland_NP))))

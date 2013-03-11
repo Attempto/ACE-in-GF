@@ -23,8 +23,7 @@ Amsterdam
 Andorra
 Apennin
 Apuseni-Gebirge
-Aran-Inselne
-Aran-Inselnen
+Aran-Inseln
 Aranjuez
 Armenien
 Arve
@@ -36,7 +35,6 @@ Atlantischen_Ozean
 Azoren
 Baba-Gebirge
 Balaton
-Balearische_Inseln
 Balearischen_Inseln
 Balkangebirge
 Baltische_Meer
@@ -89,7 +87,6 @@ Den_Haag
 Deutsch
 Deutschland
 Dijon
-Dinarische_Alpen
 Dinarischen_Alpen
 Dnepr
 Dnister
@@ -147,7 +144,6 @@ Flüssen
 Formentera
 Frankreich
 Französisch
-Frisische_Inseln
 Frisischen_Inseln
 Fuerteventura
 Fünen
@@ -205,9 +201,7 @@ Island
 Italien
 Italienisch
 Jarama
-Julische_Alpen
 Julischen_Alpen
-Kanarische_Inseln
 Kanarischen_Inseln
 Kantabrien
 Karpaten
@@ -605,6 +599,7 @@ keinem
 keinen
 keiner
 kleiner
+kürzer
 liegen
 liegt
 länger
@@ -664,8 +659,7 @@ zum
 zur
 Ägäische_Meer
 Ätna
-Åland_Inselne
-Åland_Inselnen
+Åland-Inseln
 Öland
 Österreich
 Łysa_Góra

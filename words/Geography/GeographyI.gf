@@ -387,6 +387,7 @@ Serbian_NP = aceNP "Serbian" ;
 Sesia_river_NP = aceNP "Sesia" ;
 Shannon_river_NP = aceNP defsg "Shannon" ;
 Shetland_NP = aceNP "Shetland" ;
+shorter_than_A2 = aceA2 (mkA "shorter") "than" ;
 Sicily_NP = aceNP "Sicily" ;
 Sierra_de_Albarrac__237_n_NP = aceNP "Sierra_de_Albarracín" ;
 Skopje_NP = aceNP "Skopje" ;
