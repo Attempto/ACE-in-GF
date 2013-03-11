@@ -4,6 +4,11 @@ abstract Attempto =
 -- Use Text to get only single-sentence texts.
 flags startcat = ACEText ;
 
+cat ACEText ;
+cat Text ;
+cat Sentence ;
+cat Question ;
+
 cat CN ; cat VarCN ;
 cat NP ; cat ThereNP ;
 cat Card ;
@@ -21,9 +26,7 @@ cat Conj ;
 cat IP ;
 cat IDet ;
 cat QS ;
-cat Text ;
 cat RP ;
-cat Unit ;
 cat MCN ;
 cat PP ;
 cat VPS ;
@@ -144,13 +147,18 @@ fun whichIP : IDet -> VarCN -> IP ;
 fun which_IDet : IDet ;
 fun whichPl_IDet : IDet ;
 
-cat ACEText ;
 fun consText : Text -> ACEText -> ACEText ;
 
 fun baseText : Text -> ACEText ;
 
-fun sText : S -> Text ;
-fun qsText : QS -> Text ;
+-- Identity functions
+fun sText : Sentence -> Text ;
+fun qsText : Question -> Text ;
+
+-- Adds '.'
+fun s : S -> Sentence ;
+-- Adds '?'
+fun qs : QS -> Question ;
 
 fun npVP  : NP -> VP ;              -- is a bank
 fun digitsCard : Digits -> Card ;   -- 8 banks

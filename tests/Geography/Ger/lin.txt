@@ -1,57 +1,57 @@
-Geography: baseText (sText (np_coord_VPS Julian_Alps_NP and_Conj (BaseVPS (vp_as_posVPS (v2VP contain_V2 Julian_Alps_NP)) (vp_as_posVPS (v2VP belong_to_V2 Julian_Alps_NP)))))
+Geography: baseText (sText (s (np_coord_VPS Julian_Alps_NP and_Conj (BaseVPS (vp_as_posVPS (v2VP contain_V2 Julian_Alps_NP)) (vp_as_posVPS (v2VP belong_to_V2 Julian_Alps_NP))))))
 GeographyAce: the Julian_Alps contain the Julian_Alps and belong_to the Julian_Alps .
 GeographyApe: the Julian_Alps|pndef_pl|Julian_Alps_PN|neutr contain|tv_infpl|contain_V2 the Julian_Alps|pndef_pl|Julian_Alps_PN|neutr and belong_to|tv_infpl|belong_to_V2 the Julian_Alps|pndef_pl|Julian_Alps_PN|neutr .
 GeographyGer: die Julischen_Alpen enthalten die Julischen_Alpen und gehören zu den Julischen_Alpen .
 GeographySpa: los Alpes_Julianos contienen los Alpes_Julianos y pertenecen a los Alpes_Julianos .
 
 
-Geography: baseText (sText (vpS Rhine_NP (v2VP flow_through_V2 (relNP (thereNP_as_NP (aNP (cn_as_VarCN city_CN))) (predRS which_RP (v2VP contain_V2 Switzerland_NP))))))
+Geography: baseText (sText (s (vpS Rhine_NP (v2VP flow_through_V2 (relNP (thereNP_as_NP (aNP (cn_as_VarCN city_CN))) (predRS which_RP (v2VP contain_V2 Switzerland_NP)))))))
 GeographyAce: the Rhine flows_through a city that contains Switzerland .
 GeographyApe: the Rhine|pndef_sg|Rhine_PN|neutr flows_through|tv_finsg|flow_through_V2 a city|noun_sg|city_N|neutr that contains|tv_finsg|contain_V2 Switzerland|pn_sg|Switzerland_PN|neutr .
 GeographyGer: der Rhein fließt durch eine Stadt , die die Schweiz enthält .
 GeographySpa: el Rin atraviesa una ciudad que contiene Suiza .
 
-Geography: baseText (sText (vpS Rhine_NP (v2VP flow_through_V2 (relNP (thereNP_as_NP (aNP (cn_as_VarCN city_CN))) (slashRS which_RP Switzerland_NP contain_V2)))))
+Geography: baseText (sText (s (vpS Rhine_NP (v2VP flow_through_V2 (relNP (thereNP_as_NP (aNP (cn_as_VarCN city_CN))) (slashRS which_RP Switzerland_NP contain_V2))))))
 GeographyAce: the Rhine flows_through a city that Switzerland contains .
 GeographyApe: the Rhine|pndef_sg|Rhine_PN|neutr flows_through|tv_finsg|flow_through_V2 a city|noun_sg|city_N|neutr that Switzerland|pn_sg|Switzerland_PN|neutr contains|tv_finsg|contain_V2 .
 GeographyGer: der Rhein fließt durch eine Stadt , die die Schweiz enthält .
 GeographySpa: el Rin atraviesa una ciudad que Suiza contiene .
 
-Geography: baseText (sText (vpS Rhine_NP (v2VP flow_through_V2 (thereNP_as_NP (aNP (relCN (cn_as_VarCN city_CN) (predRS which_RP (v2VP contain_V2 Switzerland_NP))))))))
+Geography: baseText (sText (s (vpS Rhine_NP (v2VP flow_through_V2 (thereNP_as_NP (aNP (relCN (cn_as_VarCN city_CN) (predRS which_RP (v2VP contain_V2 Switzerland_NP)))))))))
 GeographyAce: the Rhine flows_through a city that contains Switzerland .
 GeographyApe: the Rhine|pndef_sg|Rhine_PN|neutr flows_through|tv_finsg|flow_through_V2 a city|noun_sg|city_N|neutr that contains|tv_finsg|contain_V2 Switzerland|pn_sg|Switzerland_PN|neutr .
 GeographyGer: der Rhein fließt durch eine Stadt , die die Schweiz enthält .
 GeographySpa: el Rin atraviesa una ciudad que contiene Suiza .
 
-Geography: baseText (sText (vpS Rhine_NP (v2VP flow_through_V2 (thereNP_as_NP (aNP (relCN (cn_as_VarCN city_CN) (slashRS which_RP Switzerland_NP contain_V2)))))))
+Geography: baseText (sText (s (vpS Rhine_NP (v2VP flow_through_V2 (thereNP_as_NP (aNP (relCN (cn_as_VarCN city_CN) (slashRS which_RP Switzerland_NP contain_V2))))))))
 GeographyAce: the Rhine flows_through a city that Switzerland contains .
 GeographyApe: the Rhine|pndef_sg|Rhine_PN|neutr flows_through|tv_finsg|flow_through_V2 a city|noun_sg|city_N|neutr that Switzerland|pn_sg|Switzerland_PN|neutr contains|tv_finsg|contain_V2 .
 GeographyGer: der Rhein fließt durch eine Stadt , die die Schweiz enthält .
 GeographySpa: el Rin atraviesa una ciudad que Suiza contiene .
 
 
-Geography: baseText (sText (vpS Alps_NP (v2VP belong_to_V2 Pyrenees_NP)))
+Geography: baseText (sText (s (vpS Alps_NP (v2VP belong_to_V2 Pyrenees_NP))))
 GeographyAce: the Alps belong_to the Pyrenees .
 GeographyApe: the Alps|pndef_pl|Alps_PN|neutr belong_to|tv_infpl|belong_to_V2 the Pyrenees|pndef_pl|Pyrenees_PN|neutr .
 GeographyGer: die Alpen gehören zu den Pyrenäen .
 GeographySpa: los Alpes pertenecen a los Pirineos .
 
 
-Geography: baseText (sText (neg_vpS Pyrenees_NP (a2VP larger_than_A2 Switzerland_NP)))
+Geography: baseText (sText (s (neg_vpS Pyrenees_NP (a2VP larger_than_A2 Switzerland_NP))))
 GeographyAce: the Pyrenees aren't larger-than Switzerland .
 GeographyApe: the Pyrenees|pndef_pl|Pyrenees_PN|neutr aren't larger-than|adj_tr|larger-than_A2|than Switzerland|pn_sg|Switzerland_PN|neutr .
 GeographyGer: die Pyrenäen sind nicht größer als die Schweiz .
 GeographySpa: los Pirineos no son mayores que Suiza .
 
 
-Geography: baseText (sText (np_coord_VPS Limmat_NP and_Conj (BaseVPS (vp_as_negVPS (v2VP end_in_V2 (thereNP_as_NP (aNP (cn_as_VarCN mediterranean_sea_CN))))) (vp_as_negVPS (v2VP contain_V2 (thereNP_as_NP (aNP (cn_as_VarCN gulf_CN))))))))
+Geography: baseText (sText (s (np_coord_VPS Limmat_NP and_Conj (BaseVPS (vp_as_negVPS (v2VP end_in_V2 (thereNP_as_NP (aNP (cn_as_VarCN mediterranean_sea_CN))))) (vp_as_negVPS (v2VP contain_V2 (thereNP_as_NP (aNP (cn_as_VarCN gulf_CN)))))))))
 GeographyAce: the Limmat doesn't end_in a mediterranean_sea and doesn't contain a gulf .
 GeographyApe: the Limmat|pndef_sg|Limmat_PN|neutr doesn't end_in|tv_infpl|end_in_V2 a mediterranean_sea|noun_sg|mediterranean_sea_N|neutr and doesn't contain|tv_infpl|contain_V2 a gulf|noun_sg|gulf_N|neutr .
 GeographyGer: die Limmat endet nicht in einem Mittelmeer und enthält nicht einen Meerbusen .
 GeographySpa: el río_Limago no desemboca en un mar_mediterráneo y no contiene un golfo .
 
 
-Geography: baseText (sText (vpS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN north_western_region_CN))) (v2VP belong_to_V2 Czech_Republic_NP)))
+Geography: baseText (sText (s (vpS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN north_western_region_CN))) (v2VP belong_to_V2 Czech_Republic_NP))))
 GeographyAce: exactly 2 north-western_regions belong_to the Czech_Republic .
 GeographyApe: exactly 2 north-western_regions|noun_pl|north-western_region_N|neutr belong_to|tv_infpl|belong_to_V2 the Czech_Republic|pndef_sg|Czech_Republic_PN|neutr .
 GeographyGer: genau 2 nordwestliche_Regionen gehören zur Tschechischen_Republik .

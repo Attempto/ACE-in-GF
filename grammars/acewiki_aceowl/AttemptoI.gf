@@ -31,6 +31,8 @@ lincat Conj = Syntax.Conj ;
 lincat IP = Syntax.IP ;
 lincat IDet = Syntax.IDet ;
 lincat QS = Syntax.QS ;
+lincat Sentence = Syntax.Text ;
+lincat Question = Syntax.Text ;
 lincat Text = Syntax.Text ;
 lincat ACEText = Syntax.Text ;
 lincat RP = Syntax.RP ;
@@ -70,8 +72,6 @@ lin nothing_butNP cn = Syntax.mkNP only_Predet (Syntax.mkNP a_Art plNum cn) ;
 -- The previous version (NP -> Adv -> NP) did not require the NP
 -- to be plural, i.e. the NP was `nothing' which is singular.
 -- lin nothing_butNP cn = Syntax.mkNP Syntax.nothing_NP (mkAdv except_Prep (Syntax.mkNP a_Art plNum cn)) ;
-
-lincat Unit = Syntax.CN ;
 
 lin apposVarCN cn v = mkCN cn (symb v) ;
 
@@ -138,8 +138,10 @@ lin whichPl_IDet = Syntax.whichPl_IDet ;
 
 lin consText = mkText ;
 lin baseText t = t ;
-lin sText sent = mkText sent.s ;
-lin qsText = mkText ;
+lin sText = id Text ;
+lin qsText = id Text ;
+lin s sent = mkText sent.s ;
+lin qs = mkText ;
 
 
 lin npVP = mkVP ;
