@@ -5,6 +5,8 @@
 # time.sh is a wrapper for 'sh', which just measures and logs the target's runtime
 SHELL=./time.sh
 
+attempto = Attempto
+
 # Paths to things
 p = grammars/acewiki_aceowl:lib/src/ace:lib/src/api
 # path_base is deprecated
@@ -69,6 +71,18 @@ pgf_ontograph_40:
 
 pgf_Geography:
 	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf)
+
+pgf_Geography_evaluation: modify_Geography pgf_Geography restore_Geography
+
+# Removes some functions from the grammar and stores the result into words/Geography/
+# so that the compiler sees it first there.
+modify_Geography:
+	fgrep -vf grammars/exclude/evaluation.fgrep grammars/acewiki_aceowl/$(attempto).gf > words/Geography/$(attempto).gf
+	fgrep -vf grammars/exclude/evaluation.fgrep grammars/acewiki_aceowl/$(attempto)I.gf > words/Geography/$(attempto)I.gf
+
+restore_Geography:
+	rm -f words/Geography/$(attempto).gf
+	rm -f words/Geography/$(attempto)I.gf
 
 pgf_Simple:
 	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_Simple),words/$(Simple)/$(Simple)$(lang).gf)
