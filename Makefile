@@ -90,9 +90,9 @@ pgf_Simple:
 pgf_Words300:
 	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_Words300),words/$(Words300)/$(Words300)$(lang).gf)
 
-lin_Words300_save:
+lin_Words300_save: pgf_Words300
 	cat $(tests)$(Words300)/sentences.txt | sed -f tools/make_gf_parse_lin_command.sed | \
-	gf --run --verbose=0 --path=$(p) $(foreach lang,$(langs_Words300),words/$(Words300)/$(Words300)$(lang).gf) > tests/$(Words300)/lin.txt
+	gf --run Words300.pgf > tests/$(Words300)/lin.txt
 
 # Parse ontograph_40 sentences and linearise into all languages
 lin_ontograph_40:

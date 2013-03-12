@@ -246,4 +246,7 @@ fun
   worm_CN : CN ;
   year_CN : CN ;
 
+  -- A2
+  married_A2 : A2 ;
+
 }

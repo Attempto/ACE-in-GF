@@ -21,7 +21,7 @@ concrete AttemptoFin of Attempto = NumeralFin **
   oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = s.s} ;
 
 
-  oper mkPronVarNP : NP -> Var -> NP = \pr,v -> lin NP {
+  oper mkPronVarNP : Syntax.NP -> Var -> Syntax.NP = \pr,v -> lin NP {
     s = \\c => pr.s ! c ++ mkApposStr v ;
     isNeg = False ;
     isPron = True ;
@@ -41,6 +41,6 @@ concrete AttemptoFin of Attempto = NumeralFin **
 
   lin apposVarCN cn v = mkCN cn (symb (mkApposStr v)) ;
 
-  lin termNP = mkNP ;
+  lin termNP = Syntax.mkNP ;
 
 }

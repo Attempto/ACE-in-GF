@@ -16,16 +16,21 @@ John buys something that is not a present .
 John sees nothing but men .
 every man buys a present .
 everything that buys a present is a man .
+everything that a man buys is a present .
+everything that a man buys or that a woman admires is a present .
 every man buys nothing but presents .
 everything that buys nothing but pictures is a woman .
 everything that sees something is an officer .
+everything that something sees is an officer .
 everything that is loved by something is a person .
 everything that loves something is a traveler or is an officer .
+everything that something loves is a traveler or is an officer .
 everything that is seen by something is a traveler or is an aquarium .
 Tom loves at least 2 officers .
 Lisa buys at most 1 present .
 every traveler sees at least 2 aquariums .
 everything that buys at least 2 presents is an officer .
+everything that at least 2 officers buy is a present .
 every officer sees at most 1 aquarium .
 everything that is a traveler or that is an officer sees at most 2 aquariums .
 if X sees Y then Y does not love X .
@@ -48,7 +53,7 @@ which man is loved by somebody X ?
 John inspects a picture of a man .
 John is a man of Mary .
 every picture of a golfer is seen by Mary .
-Lisa is an officer of every aquarium .
+Lisa is an present of every aquarium .
 exactly 2 officers are a present of what ?
 John is Tom .
 John is every man .
@@ -57,3 +62,7 @@ John is X .
 John sees X .
 X is something X .
 every man X does not see a woman Y .
+there is something .
+there is a man .
+there are more than 2 men that inspect less than 3 persons .
+it is false that there is at least 1 man .

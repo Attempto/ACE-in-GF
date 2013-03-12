@@ -138,8 +138,8 @@ lin whichPl_IDet = Syntax.whichPl_IDet ;
 
 lin consText = mkText ;
 lin baseText t = t ;
-lin sText = id Text ;
-lin qsText = id Text ;
+lin sText = id Syntax.Text ;
+lin qsText = id Syntax.Text ;
 lin s sent = mkText sent.s ;
 lin qs = mkText ;
 

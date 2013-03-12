@@ -8,3 +8,6 @@ extensions in order to offer a more useful evaluation set.
   - add: sentence negation
   - add: questions
   - add: of-constructions
+  - add: there is/are
+  - add: more, less
+  - add: object relative clauses

@@ -359,6 +359,44 @@ TestAttemptoRus: всё , которое покупает подарок чел�
 TestAttemptoSpa: todo que compra un regalo es un hombre .
 TestAttemptoSwe: allting , som köper en present är en man .
 
+TestAttempto: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN man_N))) buy_V2)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN present_N)))))))
+TestAttemptoAce: everything that a man buys is a present .
+TestAttemptoApe: everything that a man|noun_sg|man_N|masc buys|tv_finsg|buy_V2 is a present|noun_sg|present_N|neutr .
+TestAttemptoCat: tot que un home compra és un presentar .
+TestAttemptoDan: alt , som en mand køber er en gave .
+TestAttemptoDut: alles , dat een man koopt is een cadeau .
+TestAttemptoEng: everything that a man buys is a present .
+TestAttemptoFin: kaikki , jonka mies ostaa on lahja .
+TestAttemptoFre: tout qu' un homme achète est un cadeau .
+TestAttemptoGer: alles , das ein Mann kauft ist ein Geschenk .
+TestAttemptoIta: tutto che un uomo compra è un regalo .
+TestAttemptoLav: jebkas , ko vīrietis pērk ir dāvana .
+TestAttemptoNor: alt , som en mann kjøper er ei gave .
+TestAttemptoPol: wszystko , które kupi mężczyzna jest mężczyzną .
+TestAttemptoRon: 
+TestAttemptoRus: всё , которое человек покупает подарок .
+TestAttemptoSpa: todo que un hombre compra es un regalo .
+TestAttemptoSwe: allting , som en man köper är en present .
+
+TestAttempto: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (orRS (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN man_N))) buy_V2) (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN woman_N))) admire_V2))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN present_N)))))))
+TestAttemptoAce: everything that a man buys or that a woman admires is a present .
+TestAttemptoApe: everything that a man|noun_sg|man_N|masc buys|tv_finsg|buy_V2 or that a woman|noun_sg|woman_N|fem admires|tv_finsg|admire_V2 is a present|noun_sg|present_N|neutr .
+TestAttemptoCat: tot que un home compra o que una dona admira és un presentar .
+TestAttemptoDan: alt , som en mand køber eller som en kvinde beundrer er en gave .
+TestAttemptoDut: alles , dat een man koopt of dat een vrouw bewondert is een cadeau .
+TestAttemptoEng: everything that a man buys or that a woman admires is a present .
+TestAttemptoFin: kaikki , jonka mies ostaa tai jonka nainen ihailee on lahja .
+TestAttemptoFre: tout qu' un homme achète ou qu' une femme admire est un cadeau .
+TestAttemptoGer: alles , das ein Mann kauft oder das eine Frau bewundert ist ein Geschenk .
+TestAttemptoIta: tutto che un uomo compra o che una donna ammira è un regalo .
+TestAttemptoLav: jebkas , ko vīrietis pērk vai ko sieviete apbrīno ir dāvana .
+TestAttemptoNor: alt , som en mann kjøper eller som ei kvinne beundrer er ei gave .
+TestAttemptoPol: wszystko , które kupi mężczyzna lub , które czyta kobieta jest mężczyzną .
+TestAttemptoRon: 
+TestAttemptoRus: всё , которое человек покупает или , которое женщина боет подарок .
+TestAttemptoSpa: todo que un hombre compra o que una mujer admira es un regalo .
+TestAttemptoSwe: allting , som en man köper eller som en kvinna beundrar är en present .
+
 TestAttempto: baseText (sText (s (vpS (everyNP (cn_as_VarCN man_N)) (v2VP buy_V2 (nothing_butNP (cn_as_VarCN present_N))))))
 TestAttemptoAce: every man buys nothing but presents .
 TestAttemptoApe: every man|noun_sg|man_N|masc buys|tv_finsg|buy_V2 nothing but presents|noun_pl|present_N|neutr .
@@ -416,6 +454,25 @@ TestAttemptoRus: всё , которое видит что-то офицер .
 TestAttemptoSpa: todo que ve algo es un funcionario .
 TestAttemptoSwe: allting , som ser något är en befäl .
 
+TestAttempto: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (slashRS which_RP (thereNP_as_NP (indefTherePronNP something_IPron)) see_V2)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))
+TestAttemptoAce: everything that something sees is an officer .
+TestAttemptoApe: everything that something sees|tv_finsg|see_V2 is an officer|noun_sg|officer_N|masc .
+TestAttemptoCat: tot que quelcom veu és un oficial .
+TestAttemptoDan: alt , som noget ser er en officer .
+TestAttemptoDut: alles , dat iets ziet is een officier .
+TestAttemptoEng: everything that something sees is an officer .
+TestAttemptoFin: kaikki , jonka jokin näkee on upseeri .
+TestAttemptoFre: tout que quelque chose voit est un officier .
+TestAttemptoGer: alles , das etwas sieht ist ein Offizier .
+TestAttemptoIta: tutto che qualche cosa vede è un ufficiale .
+TestAttemptoLav: jebkas , ko kaut kas redz ir amatpersona .
+TestAttemptoNor: alt , som noe ser er en offiser .
+TestAttemptoPol: wszystko , które widzi coś jest mężczyzną .
+TestAttemptoRon: 
+TestAttemptoRus: всё , которое что-то видит офицер .
+TestAttemptoSpa: todo que algo ve es un funcionario .
+TestAttemptoSwe: allting , som något ser är en befäl .
+
 TestAttempto: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP love_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN person_N)))))))
 TestAttemptoAce: everything that is loved by something is a person .
 TestAttemptoApe: everything that is loved|tv_pp|love_V2 by something is a person|noun_sg|person_N|masc .
@@ -453,6 +510,25 @@ TestAttemptoRon: [np_coord_VPS] .
 TestAttemptoRus: [np_coord_VPS] .
 TestAttemptoSpa: todo que ama algo es un viajero o es un funcionario .
 TestAttemptoSwe: allting , som älskar något är en resenär eller är en befäl .
+
+TestAttempto: baseText (sText (s (np_coord_VPS (relNP (indefPronNP everything_IPron) (slashRS which_RP (thereNP_as_NP (indefTherePronNP something_IPron)) love_V2)) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N)))))))))
+TestAttemptoAce: everything that something loves is a traveler or is an officer .
+TestAttemptoApe: everything that something loves|tv_finsg|love_V2 is a traveler|noun_sg|traveler_N|masc or is an officer|noun_sg|officer_N|masc .
+TestAttemptoCat: tot que quelcom estima és un viatger o és un oficial .
+TestAttemptoDan: alt , som noget elsker er en rejsende eller er en officer .
+TestAttemptoDut: alles , dat iets lief heeft is een reiziger of is een officier .
+TestAttemptoEng: everything that something loves is a traveler or is an officer .
+TestAttemptoFin: kaikki , jota jokin rakastaa on matkustaja tai on upseeri .
+TestAttemptoFre: tout que quelque chose aime est un voyageur ou il est un officier .
+TestAttemptoGer: alles , das etwas liebt ist ein Reisende oder ist ein Offizier .
+TestAttemptoIta: tutto che qualche cosa ama è un viaggiatore o è un ufficiale .
+TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoNor: alt , som noe elsker er ei reisende eller er en offiser .
+TestAttemptoPol: [np_coord_VPS] .
+TestAttemptoRon: [np_coord_VPS] .
+TestAttemptoRus: [np_coord_VPS] .
+TestAttemptoSpa: todo que algo ama es un viajero o es un funcionario .
+TestAttemptoSwe: allting , som något älskar är en resenär eller är en befäl .
 
 TestAttempto: baseText (sText (s (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP see_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN aquarium_N)))))))))
 TestAttemptoAce: everything that is seen by something is a traveler or is an aquarium .
@@ -548,6 +624,25 @@ TestAttemptoRon:
 TestAttemptoRus: всё , которое покупает по крайней мере 2 подароки офицер .
 TestAttemptoSpa: todo que compra al menos 2 regalos es un funcionario .
 TestAttemptoSwe: allting , som köper minst 2 presentar är en befäl .
+
+TestAttempto: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (slashRS which_RP (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN officer_N))) buy_V2)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN present_N)))))))
+TestAttemptoAce: everything that at least 2 officers buy is a present .
+TestAttemptoApe: everything that at least 2 officers|noun_pl|officer_N|masc buy|tv_infpl|buy_V2 is a present|noun_sg|present_N|neutr .
+TestAttemptoCat: tot que almenys 2 oficials compren és un presentar .
+TestAttemptoDan: alt , som mindst 2 officerer køber er en gave .
+TestAttemptoDut: alles , dat ten minste 2 officieren kopen is een cadeau .
+TestAttemptoEng: everything that at least 2 officers buy is a present .
+TestAttemptoFin: kaikki , jonka vähintään 2 upseeria ostaa on lahja .
+TestAttemptoFre: tout qu' au moins 2 officiers achètent est un cadeau .
+TestAttemptoGer: alles , das wenigstens 2 Offiziere kaufen ist ein Geschenk .
+TestAttemptoIta: tutto che almeno 2 ufficiali comprano è un regalo .
+TestAttemptoLav: jebkas , ko vismaz 2 amatpersonas pērk ir dāvana .
+TestAttemptoNor: alt , som minst 2 offiserer kjøper er ei gave .
+TestAttemptoPol: wszystko , które kupi co najmniej 2 mężczyzn jest mężczyzną .
+TestAttemptoRon: 
+TestAttemptoRus: всё , которое по крайней мере 2 офицера покупают подарок .
+TestAttemptoSpa: todo que al menos 2 funcionarios compran es un regalo .
+TestAttemptoSwe: allting , som minst 2 befälar köper är en present .
 
 TestAttempto: baseText (sText (s (vpS (everyNP (cn_as_VarCN officer_N)) (v2VP see_V2 (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN aquarium_N)))))))
 TestAttemptoAce: every officer sees at most 1 aquarium .
@@ -967,24 +1062,24 @@ TestAttemptoRus: каждая картина игрок в гольфа види
 TestAttemptoSpa: cada imagen de una golfista está visto por Mary .
 TestAttemptoSwe: varje bild av ett golfspelare blir sedd av Mary .
 
-TestAttempto: baseText (sText (s (vpS (pnNP lisa_PN) (npVP (thereNP_as_NP (aNP (ofCN officer_N (everyNP (cn_as_VarCN aquarium_N)))))))))
-TestAttemptoAce: Lisa is an officer of every aquarium .
-TestAttemptoApe: Lisa|pn_sg|Lisa_PN|fem is an officer|noun_sg|officer_N|masc of every aquarium|noun_sg|aquarium_N|neutr .
-TestAttemptoCat: Lisa és un oficial cada aquari .
-TestAttemptoDan: Lisa er en officer af hver akvarium .
-TestAttemptoDut: Lisa is een officier van elk aquarium .
-TestAttemptoEng: Lisa is an officer of every aquarium .
-TestAttemptoFin: Lisa on upseeri jokaisen akvaarion .
-TestAttemptoFre: Lisa est un officier de chaque aquarium .
-TestAttemptoGer: Lisa ist ein Offizier von jedem Aquarium .
-TestAttemptoIta: Lisa è un ufficiale ogni acquario .
-TestAttemptoLav: Līza ir amatpersona ikviena akvārija .
-TestAttemptoNor: Lisa er en offiser av hver akvarium .
+TestAttempto: baseText (sText (s (vpS (pnNP lisa_PN) (npVP (thereNP_as_NP (aNP (ofCN present_N (everyNP (cn_as_VarCN aquarium_N)))))))))
+TestAttemptoAce: Lisa is a present of every aquarium .
+TestAttemptoApe: Lisa|pn_sg|Lisa_PN|fem is a present|noun_sg|present_N|neutr of every aquarium|noun_sg|aquarium_N|neutr .
+TestAttemptoCat: Lisa és un presentar cada aquari .
+TestAttemptoDan: Lisa er en gave af hver akvarium .
+TestAttemptoDut: Lisa is een cadeau van elk aquarium .
+TestAttemptoEng: Lisa is a present of every aquarium .
+TestAttemptoFin: Lisa on lahja jokaisen akvaarion .
+TestAttemptoFre: Lisa est un cadeau de chaque aquarium .
+TestAttemptoGer: Lisa ist ein Geschenk von jedem Aquarium .
+TestAttemptoIta: Lisa è un regalo ogni acquario .
+TestAttemptoLav: Līza ir dāvana ikviena akvārija .
+TestAttemptoNor: Lisa er ei gave av hver akvarium .
 TestAttemptoPol: Paryż jest mężczyzną każdego mężczyzny .
-TestAttemptoRon: Lisa este un ofițer oricărui acvariu .
-TestAttemptoRus: Lisa офицер каждого аквариума .
-TestAttemptoSpa: Lisa es un funcionario de cada acuario .
-TestAttemptoSwe: Lisa är en befäl av varje akvarium .
+TestAttemptoRon: Lisa este un cadou oricărui acvariu .
+TestAttemptoRus: Lisa подарок каждого аквариума .
+TestAttemptoSpa: Lisa es un regalo de cada acuario .
+TestAttemptoSwe: Lisa är en present av varje akvarium .
 
 TestAttempto: baseText (qsText (qs (vpqQS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN officer_N))) (npqVPQ (aNPQ (ofnpqCN (cn_as_VarCN present_N) (ipNPQ whatSg_IP)))))))
 TestAttemptoAce: exactly 2 officers are a present of what ?
@@ -1137,5 +1232,81 @@ TestAttemptoRon: orice om X nu vede o femeie Y .
 TestAttemptoRus: каждый человек X не видит женщину Y .
 TestAttemptoSpa: cada hombre X no ve una mujer Y .
 TestAttemptoSwe: varje man X ser inte en kvinna Y .
+
+TestAttempto: baseText (sText (s (thereNP (indefTherePronNP something_IPron))))
+TestAttemptoAce: there is something .
+TestAttemptoApe: there is something .
+TestAttemptoCat: hi ha quelcom .
+TestAttemptoDan: det findes noget .
+TestAttemptoDut: er is iets .
+TestAttemptoEng: there is something .
+TestAttemptoFin: on olemassa jokin .
+TestAttemptoFre: il y a quelque chose .
+TestAttemptoGer: es gibt etwas .
+TestAttemptoIta: c' è qualche cosa .
+TestAttemptoLav: ir kaut kas .
+TestAttemptoNor: det finnes noe .
+TestAttemptoPol: jest coś .
+TestAttemptoRon: există ceva .
+TestAttemptoRus: существует что-то .
+TestAttemptoSpa: hay algo .
+TestAttemptoSwe: det finns något .
+
+TestAttempto: baseText (sText (s (thereNP (aNP (cn_as_VarCN man_N)))))
+TestAttemptoAce: there is a man .
+TestAttemptoApe: there is a man|noun_sg|man_N|masc .
+TestAttemptoCat: hi ha un home .
+TestAttemptoDan: det findes en mand .
+TestAttemptoDut: er is een man .
+TestAttemptoEng: there is a man .
+TestAttemptoFin: on olemassa mies .
+TestAttemptoFre: il y a un homme .
+TestAttemptoGer: es gibt einen Mann .
+TestAttemptoIta: c' è un uomo .
+TestAttemptoLav: ir vīrietis .
+TestAttemptoNor: det finnes en mann .
+TestAttemptoPol: jest mężczyzna .
+TestAttemptoRon: există un om .
+TestAttemptoRus: существует человек .
+TestAttemptoSpa: hay un hombre .
+TestAttemptoSwe: det finns en man .
+
+TestAttempto: baseText (sText (s (thereNP (more_thanNP (digitsCard (IDig D_2)) (relCN (cn_as_VarCN man_N) (predRS which_RP (v2VP inspect_V2 (thereNP_as_NP (less_thanNP (digitsCard (IDig D_3)) (cn_as_VarCN person_N))))))))))
+TestAttemptoAce: there are more than 2 men that inspect less than 3 persons .
+TestAttemptoApe: there are more than 2 men|noun_pl|man_N|masc that inspect|tv_infpl|inspect_V2 less than 3 persons|noun_pl|person_N|masc .
+TestAttemptoCat: hi ha més que 2 homes que inspeccionen menys que 3 persones .
+TestAttemptoDan: det findes mer end 2 mænd som inspicerer mindre end 3 personer .
+TestAttemptoDut: er zijn meer dan 2 mannen die minder dan 3 personen inspecteren .
+TestAttemptoEng: there are more than 2 men that inspect less than 3 persons .
+TestAttemptoFin: on olemassa enemmän kuin 2 miestä joka tarkastaa vähemmän kuin 3 henkilöä .
+TestAttemptoFre: il y a plus que 2 hommes qui inspectent moins que 3 personnes .
+TestAttemptoGer: es gibt mehr als 2 Männer , die weniger als 3 Personen inspizieren .
+TestAttemptoIta: ci sono più di 2 uomini che ispezionano meno di 3 persone .
+TestAttemptoLav: ir NON_EXISTENT 2 vīrieši , kas apskata mazāk nekā 3 personas .
+TestAttemptoNor: det finnes mer enn 2 menn som inspiserer mindre enn 3 personer .
+TestAttemptoPol: jest więcej niż 2 mężczyzn , którzy czytają mniej niż 3 mężczyzn .
+TestAttemptoRon: există mai mult decât 2 oameni care inspectează mai puţin decât 3 persoane .
+TestAttemptoRus: существует более чем 2 человека , которого кушает менее чем 3 лицoов .
+TestAttemptoSpa: hay más que 2 hombres que inspeccionan menos que 3 personas .
+TestAttemptoSwe: det finns mer än 2 män som avsynar mindre än 3 personer .
+
+TestAttempto: baseText (sText (s (falseS (thereNP (at_leastNP (digitsCard (IDig D_1)) (cn_as_VarCN man_N))))))
+TestAttemptoAce: it is false that there is at least 1 man .
+TestAttemptoApe: it is false that there is at least 1 man|noun_sg|man_N|masc .
+TestAttemptoCat: és fals que hi ha almenys 1 home .
+TestAttemptoDan: det er falsk at det findes mindst 1 mand .
+TestAttemptoDut: 't is onwaar dat er ten minste 1 man is .
+TestAttemptoEng: it is false that there is at least 1 man .
+TestAttemptoFin: on epätotta että on olemassa vähintään 1 mies .
+TestAttemptoFre: il est faux que il y a au moins 1 homme .
+TestAttemptoGer: es ist falsch dass es wenigstens 1 Mann gibt .
+TestAttemptoIta: è falso che c' è almeno 1 uomo .
+TestAttemptoLav: ir tiesa , ka ir vismaz 1 vīrietis .
+TestAttemptoNor: det er falsk at det finnes minst 1 mann .
+TestAttemptoPol: jest źle , że jest co najmniej 1 mężczyzna .
+TestAttemptoRon: este fals cã există cel puţin 1 om .
+TestAttemptoRus: неверно , что существует по крайней мере 1 человек .
+TestAttemptoSpa: es falso que hay al menos 1 hombre .
+TestAttemptoSwe: det är falskt att det finns minst 1 man .
 
 
