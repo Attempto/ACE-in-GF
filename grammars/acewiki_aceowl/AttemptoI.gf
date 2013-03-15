@@ -90,6 +90,9 @@ lin slashRS rp np v2 = mkRS (mkRCl rp np v2) ;
 lin neg_slashRS rp np v2 = mkRS negativePol (mkRCl rp np v2) ;
 lin which_RP = Syntax.which_RP ;
 
+-- capital of France
+-- cn = capital
+-- np = France
 lin ofCN cn np = mkCN cn (Syntax.mkAdv possess_Prep np) ;
 
 lin vpS np vp = mkAceS (mkS (mkCl np vp)) ;

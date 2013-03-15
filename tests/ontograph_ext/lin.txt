@@ -1012,7 +1012,7 @@ TestAttemptoCat: John inspecciona un imatge d' un home .
 TestAttemptoDan: John inspicerer en billede af en mand .
 TestAttemptoDut: John inspecteert een schilderij van een man .
 TestAttemptoEng: John inspects a picture of a man .
-TestAttemptoFin: John tarkastaa kuvan miehen .
+TestAttemptoFin: John tarkastaa miehen kuvan .
 TestAttemptoFre: John inspecte une image d' un homme .
 TestAttemptoGer: John inspiziert ein Bild von einem Mann .
 TestAttemptoIta: John ispeziona un immagine di un uomo .
@@ -1031,7 +1031,7 @@ TestAttemptoCat: John és un home de Mary .
 TestAttemptoDan: John er en mand af Mary .
 TestAttemptoDut: John is een man van Mary .
 TestAttemptoEng: John is a man of Mary .
-TestAttemptoFin: John on mies Maryn .
+TestAttemptoFin: John on Maryn mies .
 TestAttemptoFre: John est un homme de Mary .
 TestAttemptoGer: John ist ein Mann von Mary .
 TestAttemptoIta: John è un uomo di Mary .
@@ -1050,7 +1050,7 @@ TestAttemptoCat: cada imatge d' una golfista està vist per Mary .
 TestAttemptoDan: hver billede af en golfspiller bliver set af Mary .
 TestAttemptoDut: elk schilderij van een golfer wordt door Mary gezien .
 TestAttemptoEng: every picture of a golfer is seen by Mary .
-TestAttemptoFin: jokainen kuva golfaajan nähdään Maryn toimesta .
+TestAttemptoFin: jokainen golfaajan kuva nähdään Maryn toimesta .
 TestAttemptoFre: chaque image d' un golfeur est vue par Mary .
 TestAttemptoGer: jedes Bild von einem Golfer wird durch Mary gesehen .
 TestAttemptoIta: ogni immagine di un giocatore di golf viene visto da Mary .
@@ -1069,7 +1069,7 @@ TestAttemptoCat: Lisa és un presentar cada aquari .
 TestAttemptoDan: Lisa er en gave af hver akvarium .
 TestAttemptoDut: Lisa is een cadeau van elk aquarium .
 TestAttemptoEng: Lisa is a present of every aquarium .
-TestAttemptoFin: Lisa on lahja jokaisen akvaarion .
+TestAttemptoFin: Lisa on jokaisen akvaarion lahja .
 TestAttemptoFre: Lisa est un cadeau de chaque aquarium .
 TestAttemptoGer: Lisa ist ein Geschenk von jedem Aquarium .
 TestAttemptoIta: Lisa è un regalo ogni acquario .
@@ -1088,7 +1088,7 @@ TestAttemptoCat: exactament 2 oficials són un presentar de què ?
 TestAttemptoDan: præcis 2 officerer er en gave af hvad ?
 TestAttemptoDut: precies 2 officieren zijn een cadeau van wat ?
 TestAttemptoEng: exactly 2 officers are a present of what ?
-TestAttemptoFin: tasan 2 upseeria on lahja minkä ?
+TestAttemptoFin: tasan 2 upseeria on minkä lahja ?
 TestAttemptoFre: exactement 2 officiers sont un cadeau de que ?
 TestAttemptoGer: genau 2 Offiziere sind ein Geschenk was ?
 TestAttemptoIta: esattamente 2 ufficiali sono un regalo di che ?

@@ -3,7 +3,8 @@
 concrete AttemptoFin of Attempto = NumeralFin **
   AttemptoI - [
     apposVarCN, indefTherePronVarNP, indefPronVarNP,
-    termNP
+    termNP,
+    ofCN
   ] with
   (Syntax = SyntaxFin),
   (Symbolic = SymbolicFin),
@@ -42,5 +43,11 @@ concrete AttemptoFin of Attempto = NumeralFin **
   lin apposVarCN cn v = mkCN cn (symb (mkApposStr v)) ;
 
   lin termNP = Syntax.mkNP ;
+
+  -- John on [NP jokaisen lentokoneen] [CN poliisi] .
+  lin ofCN cn np = ExtraFin.GenCN np cn ;
+
+  -- TODO: this causes: no overload instance of mkCN for CN Quant
+  -- lin ofCN cn np = Syntax.mkCN cn (ExtraFin.GenNP np) ;
 
 }
