@@ -15,6 +15,9 @@ is no way to obtain it unless it's passed as an argument (?).
 In either case the characters in the logical atom might need rewriting in order to
 be suitable for the tool that further processes the LogicalSymbols (e.g. a reasoner).
 
+This syntax is meant to be used only for linearization (i.e. never for parsing).
+TODO: So some tricks are allowed here, e.g. using empty strings as word forms?
+
 --}
 
 -- TODO: how to escape a token-internal quote?

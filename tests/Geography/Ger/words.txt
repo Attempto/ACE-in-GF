@@ -55,8 +55,8 @@ Bergketten
 Berlin
 Bern
 Binnenland
-Binnenlande
-Binnenlanden
+Binnenländer
+Binnenländern
 Bitola
 Bleder_See
 Bornholm
@@ -70,6 +70,8 @@ Bremen
 Breslau
 Brünn
 Brüssel
+Bucht
+Buchten
 Budapest
 Bukarest
 Bulgarien
@@ -104,7 +106,6 @@ Düna
 Dünaburg
 EFTA
 EFTA-Staat
-EFTA-Staate
 EFTA-Staaten
 Ebro
 Edinburgh
@@ -138,7 +139,6 @@ Fjorde
 Fjorden
 Flandern
 Fluss
-Flusse
 Flüsse
 Flüssen
 Formentera
@@ -158,6 +158,7 @@ Glasgow
 Gletscher
 Gletschern
 Glittertind
+Golf_von_Biskaya
 Gomel
 Gotland
 Gran_Canaria
@@ -234,7 +235,6 @@ La_Gomera
 La_Palma
 Ladogasee
 Land
-Lande
 Lanzarote
 Lappland
 Le_Havre
@@ -279,11 +279,9 @@ Memel
 Menorca
 Minsk
 Mitglied
-Mitgliede
-Mitglieden
+Mitglieder
+Mitgliedern
 Mittelmeer
-Mittelmeere
-Mittelmeeren
 Mjøsa-See
 Moldau
 Moldawien
@@ -303,7 +301,6 @@ Mündung
 Mündungen
 Narva
 Nebenfluss
-Nebenflusse
 Nebenflüsse
 Nebenflüssen
 Neckar
@@ -432,7 +429,6 @@ Spanisch
 Sprache
 Sprachen
 Staat
-Staate
 Staaten
 Stadt
 Stavanger
@@ -450,8 +446,6 @@ Südosten
 Südwesten
 Tajo
 Tal
-Tale
-Talen
 Tallinn
 Tartu
 Tatra-Gebirge
@@ -477,6 +471,8 @@ Tschechischen_Republik
 Turin
 Tweed_River
 Tyrrhenische_Meer
+Täler
+Tälern
 Türkei
 Ukraine
 Ukrainisch
@@ -525,7 +521,6 @@ Zentralregionen
 Zentralzone
 Zentralzonen
 Zwergstaat
-Zwergstaate
 Zwergstaaten
 Zypern
 Zürich
@@ -533,9 +528,13 @@ allem
 alles
 als
 an
+aus
 beginnen
 beginnt
 begonnen
+bestanden
+bestehen
+besteht
 dann
 das
 dass
@@ -554,6 +553,7 @@ einen
 einer
 enden
 endet
+endorheische_Becken
 enthalten
 enthält
 es
@@ -563,12 +563,11 @@ fließen
 fließt
 für
 geendet
-gefließt
-gegehört
+geflossen
 gegrenzt
 gehören
 gehört
-geliegt
+gelegen
 gemündet
 genau
 gibt
@@ -658,6 +657,7 @@ zu
 zum
 zur
 Ägäische_Meer
+Ärmelkanal
 Ätna
 Åland-Inseln
 Öland

@@ -303,6 +303,7 @@ ciudad
 ciudades
 colinas_de_Valdái
 como
+compuesto_de
 con
 contenida
 contenidas
@@ -472,9 +473,7 @@ mar_Mediterráneo
 mar_Negro
 mar_Tirreno
 mar_de_Azov
-mar_mediterráneo
 mares
-mares_mediterráneos
 mayor
 mayores
 menor

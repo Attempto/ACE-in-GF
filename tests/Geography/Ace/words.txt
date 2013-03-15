@@ -467,6 +467,9 @@ cities
 city
 coast
 coasts
+comprise
+comprised
+comprises
 contain
 contained
 contains
@@ -539,8 +542,6 @@ lies_in_the_south_of
 lies_in_the_west_of
 located-in
 longer-than
-mediterranean_sea
-mediterranean_seas
 member
 members
 microstate
@@ -621,6 +622,7 @@ volcanoes
 what
 which
 who
+~~
 Åland_islands
 Öland
 Łysa_Góra

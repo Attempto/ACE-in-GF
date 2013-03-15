@@ -5,8 +5,11 @@ instance OperAce of Oper =
 
   oper
 
-    -- TODO: maybe use an empty string (note that "variants {}" would not work here)
+    -- TODO: this is a hack (note that "variants {}" would not work here)
+    -- forms which never occur in the application with this category
     DUMMY : Str = "~" ;
+    -- forms which occur in the application with this category, but not with this particular function
+    DUMMY2: Str = "~~" ;
 
     -- In ACE there are only 3 verb forms: infpl, finsg, pp
     -- TODO: there exists probably a cleaner way to do this,
@@ -14,7 +17,7 @@ instance OperAce of Oper =
     -- arguments for forms that we do not need.
     aceV2 = overload {
       aceV2 : (_,_,_:Str) -> V2 = \go,goes,gone -> mkV2 (mkV go goes DUMMY gone DUMMY) ;
-      aceV2 : (_,_:Str) -> V2 = \go,goes -> mkV2 (mkV go goes DUMMY "" DUMMY) ;
+      aceV2 : (_,_:Str) -> V2 = \go,goes -> mkV2 (mkV go goes DUMMY DUMMY2 DUMMY) ;
     };
 
 
