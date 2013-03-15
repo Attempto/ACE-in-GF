@@ -1,3 +1,6 @@
+the EU comprises exactly 2 7 countries .
+the EU does not comprise at least 2 EFTA_states .
+exactly 4 countries are comprised by the EFTA .
 the Limmat does not end_in a mediterranean_sea and does not flow_through the Mediterranean .
 Paris surrounds less than 2 fjords and exactly 3 tributaries surround something .
 the Åland_islands are longer-than Emajõgi .
