@@ -45,7 +45,7 @@ Reference implementations
 Building
 --------
 
-_Note: based on GF darcs version: 2013-01-11 16:43:32 CET_
+_Note: based on GF darcs version: 2013-03-15 18:13:25 CET_
 
 The ACE-in-GF grammar can be turned into a PGF file in various ways
 depending on
