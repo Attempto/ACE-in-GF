@@ -3,9 +3,7 @@ instance LexAttemptoSpa of LexAttempto =
    Prelude,
    SyntaxSpa,
    ParadigmsSpa,
-   ConstructX,
-   (E = ExtraSpa),
-   (L = LangSpa)
+   ConstructX
    in {
 
 flags coding=utf8 ;

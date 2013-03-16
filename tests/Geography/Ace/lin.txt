@@ -1,3 +1,10 @@
+Geography: baseText (sText (s (vpS Bern_NP (a2VP located_in_A2 Switzerland_NP))))
+GeographyAce: Bern is located-in Switzerland .
+GeographyApe: Bern|pn_sg|Bern_PN|neutr is located-in|adj_tr|located-in_A2|in Switzerland|pn_sg|Switzerland_PN|neutr .
+GeographyGer: Bern ist platziert in der Schweiz .
+GeographySpa: Berna está situada en Suiza .
+
+
 Geography: baseText (sText (s (vpS European_Union_NP (v2VP composed_of_V2 (thereNP_as_NP (exactlyNP (digitsCard (IIDig D_2 (IDig D_7))) (cn_as_VarCN country_CN)))))))
 GeographyAce: the EU comprises exactly 2 7 countries .
 GeographyApe: the EU|pndef_sg|EU_PN|neutr comprises|tv_finsg|comprise_V2 exactly 2 7 countries|noun_pl|country_N|neutr .
