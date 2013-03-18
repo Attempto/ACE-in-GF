@@ -27,7 +27,7 @@ fetch_csv:
 	curl -L $(ws) > $(csv)
 
 make_gf:
-	$(csv_to_grammar) --file $(csv) > stdout.txt 2> stderr.txt
+	$(csv_to_grammar) --file $(csv) --exclude delete > stdout.txt 2> stderr.txt
 	cat stderr.txt | grep "Error"
 
 build: fetch_csv make_gf

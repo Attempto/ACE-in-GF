@@ -5,25 +5,25 @@ GeographyGer: Bern ist platziert in der Schweiz .
 GeographySpa: Berna está situada en Suiza .
 
 
-Geography: baseText (sText (s (vpS European_Union_NP (v2VP composed_of_V2 (thereNP_as_NP (exactlyNP (digitsCard (IIDig D_2 (IDig D_7))) (cn_as_VarCN country_CN)))))))
+Geography: baseText (sText (s (vpS European_Union_NP (v2VP comprise_V2 (thereNP_as_NP (exactlyNP (digitsCard (IIDig D_2 (IDig D_7))) (cn_as_VarCN country_CN)))))))
 GeographyAce: the EU comprises exactly 2 7 countries .
 GeographyApe: the EU|pndef_sg|EU_PN|neutr comprises|tv_finsg|comprise_V2 exactly 2 7 countries|noun_pl|country_N|neutr .
 GeographyGer: die Europäische_Union besteht aus genau 2 7 Ländern .
-GeographySpa: la Unión_Europea está compuesto_de exactamente 2 7 países .
+GeographySpa: la Unión_Europea consta de exactamente 2 7 países .
 
 
-Geography: baseText (sText (s (neg_vpS European_Union_NP (v2VP composed_of_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN EFTA_state_CN)))))))
+Geography: baseText (sText (s (neg_vpS European_Union_NP (v2VP comprise_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN EFTA_state_CN)))))))
 GeographyAce: the EU doesn't comprise at least 2 EFTA_states .
 GeographyApe: the EU|pndef_sg|EU_PN|neutr doesn't comprise|tv_infpl|comprise_V2 at least 2 EFTA_states|noun_pl|EFTA_state_N|neutr .
 GeographyGer: die Europäische_Union besteht nicht aus wenigstens 2 EFTA-Staaten .
-GeographySpa: la Unión_Europea no está compuesto_de al menos 2 países_de_la_EALC .
+GeographySpa: la Unión_Europea no consta de al menos 2 países_de_la_EALC .
 
 
-Geography: baseText (sText (s (vpS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_4)) (cn_as_VarCN country_CN))) (v2_byVP composed_of_V2 European_Free_Trade_Association_NP))))
+Geography: baseText (sText (s (vpS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_4)) (cn_as_VarCN country_CN))) (v2_byVP comprise_V2 European_Free_Trade_Association_NP))))
 GeographyAce: exactly 4 countries are comprised by the EFTA .
 GeographyApe: exactly 4 countries|noun_pl|country_N|neutr are comprised|tv_pp|comprise_V2 by the EFTA|pndef_sg|EFTA_PN|neutr .
 GeographyGer: genau 4 Länder werden durch EFTA bestanden .
-GeographySpa: exactamente 4 países están estados por AELC .
+GeographySpa: exactamente 4 países están constados por AELC .
 
 
 
@@ -108,7 +108,7 @@ Geography: baseText (sText (s (vpS (thereNP_as_NP (more_thanNP (digitsCard (IDig
 GeographyAce: more than 2 rivers lie_in the EU .
 GeographyApe: more than 2 rivers|noun_pl|river_N|neutr lie_in|tv_infpl|lie_in_V2 the EU|pndef_sg|EU_PN|neutr .
 GeographyGer: mehr als 2 Flüsse liegen in der Europäischen_Union .
-GeographySpa: más que 2 ríos están situado_en la Unión_Europea .
+GeographySpa: más que 2 ríos están en la Unión_Europea .
 
 
 Geography: baseText (sText (s (np_coord_VPS (everyNP (cn_as_VarCN country_CN)) or_Conj (BaseVPS (vp_as_posVPS (v2VP border_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))) (vp_as_posVPS (v2_byVP border_V2 (thereNP_as_NP (aNP (cn_as_VarCN sea_CN)))))))))
