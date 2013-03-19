@@ -30,6 +30,10 @@ make_gf:
 	$(csv_to_grammar) --file $(csv) --exclude delete > stdout.txt 2> stderr.txt
 	cat stderr.txt | grep "Error"
 
+make_gf_for_eval:
+	$(csv_to_grammar) --file $(csv) --exclude delete,noeval > stdout.txt 2> stderr.txt
+	cat stderr.txt | grep "Error"
+
 build: fetch_csv make_gf
 
 deploy:
