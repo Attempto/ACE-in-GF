@@ -50,6 +50,7 @@ what is bought by John ?
 which golfers are not helped by Mary ?
 what is seen by every man ?
 which man is loved by somebody X ?
+John is not loved by who ?
 John inspects a picture of a man .
 John is a man of Mary .
 every picture of a golfer is seen by Mary .

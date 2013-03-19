@@ -27,6 +27,7 @@ lincat S = AceS ;
 lincat VP = Syntax.VP ;
 lincat V = Syntax.V ;
 lincat V2 = Syntax.V2 ;
+lincat V2by = Syntax.V2 ;
 lincat Conj = Syntax.Conj ;
 lincat IP = Syntax.IP ;
 lincat IDet = Syntax.IDet ;
@@ -151,6 +152,7 @@ lin npVP = mkVP ;
 lin digitsCard n = Syntax.mkCard <lin Digits n : Digits> ;
 lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv by8agent_Prep np) ;
 
+lin V2by_as_V2 = id Syntax.V2 ;
 
 -- Question-related functions to handle wh-words in object potisions
 -- Ideally everything in this section would be placed in another incomplete module QuestionsI

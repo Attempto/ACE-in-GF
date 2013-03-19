@@ -18,7 +18,7 @@ fun neg_npqQS : NPQ -> VP -> QS ; -- "somebody who isn't who is a man ?"
 fun npqVPQ : NPQ -> VPQ ; -- "is who"
 fun v2VPQ : V2 -> NPQ -> VPQ ; -- "likes who"
 fun a2VPQ : A2 -> NPQ -> VPQ ; -- "is mad-about who"
-fun v2_byVPQ : V2 -> NPQ -> VPQ ; -- "is asked by who"
+fun v2_byVPQ : V2by -> NPQ -> VPQ ; -- "is asked by who"
 
 -- Co-ordination
 cat VPSQ ; [VPSQ] {2} ; -- a VPS which contains at least one VPQ (ie the sentence should be a question)

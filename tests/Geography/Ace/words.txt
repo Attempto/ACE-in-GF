@@ -44,6 +44,7 @@ Bay_of_Biscay
 Belarus
 Belgium
 Belgrade
+Bergen
 Berlin
 Bern
 Bitola
@@ -136,7 +137,7 @@ Fumaiolo
 Funen
 Galdhøpiggen
 Gdańsk
-Geneve
+Geneva
 Georgia
 German
 Germanic_language
@@ -453,7 +454,6 @@ belongs_to
 bodies_of_water
 body_of_water
 border
-bordered
 borders
 but
 by
@@ -499,7 +499,6 @@ exactly
 exclave
 exclaves
 false
-fed
 feed
 feeds
 fjord
@@ -542,6 +541,7 @@ lies_in_the_south_of
 lies_in_the_west_of
 located-in
 longer-than
+made_up-of
 member
 members
 microstate
@@ -557,7 +557,6 @@ mountains
 mouth
 mouths
 naturally_border
-naturally_bordered
 naturally_borders
 no
 nobody
@@ -577,8 +576,6 @@ of
 official_language
 official_languages
 or
-pass_through
-passes_through
 province
 provinces
 region
@@ -622,7 +619,6 @@ volcanoes
 what
 which
 who
-~~
 Åland_islands
 Öland
 Łysa_Góra

@@ -245,7 +245,4 @@ lin
   worm_CN = mkCN Lexicon.worm_N ;
   year_CN = mkCN Lexicon.year_N ;
 
-  -- A2
-  married_A2 = Lexicon.married_A2 ;
-
 }

@@ -19,11 +19,11 @@ fun
   sue_PN : PN ;
   bill_PN : PN ;
 
-  see_V2 : V2 ;
-  buy_V2 : V2 ;
-  help_V2 : V2 ;
-  admire_V2 : V2 ;
-  love_V2 : V2 ;
-  inspect_V2 : V2 ;
+  see_V2 : V2by ;
+  buy_V2 : V2by ;
+  help_V2 : V2by ;
+  admire_V2 : V2by ;
+  love_V2 : V2by ;
+  inspect_V2 : V2by ;
 
 }

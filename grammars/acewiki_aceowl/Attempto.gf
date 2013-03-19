@@ -22,6 +22,8 @@ cat S ;
 cat VP ;
 cat V ;
 cat V2 ;
+-- V2 that can be used in the passive structure
+cat V2by ;
 cat Conj ;
 cat IP ;
 cat IDet ;
@@ -162,6 +164,7 @@ fun qs : QS -> Question ;
 
 fun npVP  : NP -> VP ;              -- is a bank
 fun digitsCard : Digits -> Card ;   -- 8 banks
-fun v2_byVP : V2 -> NP -> VP ;      -- is bought by a customer
+fun v2_byVP : V2by -> NP -> VP ;    -- is bought by a customer
+fun V2by_as_V2 : V2by -> V2 ;
 
 }

@@ -531,7 +531,6 @@ an
 aus
 beginnen
 beginnt
-begonnen
 bestanden
 bestehen
 besteht
@@ -544,8 +543,6 @@ denen
 der
 die
 durch
-durchqueren
-durchquert
 ein
 eine
 einem
@@ -562,13 +559,8 @@ falsch
 fließen
 fließt
 für
-geendet
-geflossen
-gegrenzt
 gehören
 gehört
-gelegen
-gemündet
 genau
 gibt
 grenzen
@@ -656,6 +648,7 @@ wird
 zu
 zum
 zur
+zusammengesetzt
 Ägäische_Meer
 Ärmelkanal
 Ätna

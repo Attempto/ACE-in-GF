@@ -469,9 +469,9 @@ Zagreb,NP,,,Zagreb,,,Zagreb,Zagreb,,
 Zurich,NP,,,Zürich,Zurigo,Zürich,Zúrich,Zürich,,
 belong to,V2,,"""belong to"" ""belongs to""","prepV2 (aceV ""gehören"" ""gehört"" ""gehört"") zu_Prep",,,"mkV2 (mkV ""pertenecer"") (mkPrep ""a"")",[kuuluu],"[gf: expected infinitive, found kuuluu]",[T: this verb construction has no passive in German]
 border,V2,,"""border"" ""borders"" ""bordered""","prepV2 (regV ""grenzen"") (mkPrep ""an"" accusative)",confine,grenzen,"mkV2 (mkV ""limitar"") (mkPrep ""con"") | mkV2 (I.hacer_V) (mkPrep ""frontera con"")",,[T: this verb construction has no passive in German],
-comprise,V2,,"""comprise"" ""comprises"" ""comprised""","prepV2 (aceV ""bestehen"" ""besteht"" ""bestanden"") (mkPrep ""aus"" dative)",,,"mkV2 (mkV ""constar"") (mkPrep ""de"")",,[Europe comprises more than 10 countries.],
-contain,V2,,"""contain"" ""contains"" ""contained""","mkV2 (aceV ""enthalten"" ""enthält"" ""enthalten"") accusative",contenere,bevatten,mkV2 (I.contener_V),sisältää,[T: this verb construction has no passive in German],
-drain,V2,,"""drain"" ""drains"" ""drained""",,,,,,[river drains (flows out of) lake],[T: couldn't find a proper German translation for this]
+comprise,V2by,,"""comprise"" ""comprises"" ""comprised""","prepV2 (aceV ""bestehen"" ""besteht"" ""bestanden"") (mkPrep ""aus"" dative)",,,"mkV2 (mkV ""constar"") (mkPrep ""de"")",,[Europe comprises more than 10 countries.],
+contain,V2by,,"""contain"" ""contains"" ""contained""","mkV2 (aceV ""enthalten"" ""enthält"" ""enthalten"") accusative",contenere,bevatten,mkV2 (I.contener_V),sisältää,[T: this verb construction has no passive in German],
+drain,V2by,,"""drain"" ""drains"" ""drained""",,,,,,[river drains (flows out of) lake],[T: couldn't find a proper German translation for this]
 drain into,V2,,"""drain into"" ""drains into""","prepV2 (regV ""münden"") inAcc_Prep",,,"mkV2 (mkV ""desembocar"") in_Prep",,,[T: this verb construction has no passive in German]
 eastern of,V2,,"""lie in the east of"" ""lies in the east of""","prepV2 (aceV ""liegen"" ""liegt"" ""gelegen"") (mkPrep ""im Osten von"" dative)",,,"mkV2 I.estar_V (mkPrep ""al este de"")",,,
 end in,V2,,"""end in"" ""ends in""","prepV2 (regV ""enden"") inDat_Prep",,,"mkV2 (mkV ""desembocar"") in_Prep",,[T: this verb construction has no passive in German],
@@ -483,7 +483,7 @@ northern of,V2,,"""lie in the north of"" ""lies in the north of""","prepV2 (aceV
 pass through,V2,delete,"""pass through"" ""passes through""","mkV2 (aceV ""durchqueren"" ""durchquert"" ""durchquert"") accusative",,,"mkV2 (mkV ""pasar"" ""paso"") (mkPrep ""por"")",,"[K: let's delete, we have 'flow through' already]","[L: please, please, let's leave it only for the next wiki update, just as a test for me to try something out, and we can delete it next week (11-15 March)]"
 river source,V2,,"aceV2 ""rise in"" ""rises in"" | aceV2 ""start in"" ""starts in""","prepV2 (aceV ""beginnen"" ""beginnt"" ""begonnen"") inDat_Prep",,,"mkV2 (mkV ""nacer"") (mkPrep ""en"")",[joen lähde],"[T: this verb construction has no passive in German] [T: passive should be disabled for verbs with prepositions. The current sentences are not correct, and I think there is no way to make a passive with such verbs.]",[L: agree]
 southern of,V2,,"""lie in the south of"" ""lies in the south of""","prepV2 (aceV ""liegen"" ""liegt"" ""gelegen"") (mkPrep ""im Süden von"" dative)",,,"mkV2 I.estar_V (mkPrep ""al sur de"")",,,
-surround,V2,,"""surround"" ""surrounds"" ""surrounded""","mkV2 (aceV ""umschließen"" ""umschließt"" ""umschlossen"") accusative",,,"mkV2 (mkV ""rodear"" ""rodeo"") (mkPrep ""a"")",ympäröidä,,
+surround,V2by,,"""surround"" ""surrounds"" ""surrounded""","mkV2 (aceV ""umschließen"" ""umschließt"" ""umschlossen"") accusative",,,"mkV2 (mkV ""rodear"" ""rodeo"") (mkPrep ""a"")",ympäröidä,,
 to be a natural border between,V2,,"""naturally border"" ""naturally borders"" ""naturally bordered""","prepV2 (regV ""grenzen"") (mkPrep ""natürlich an"" accusative)",,,"mkV2 I.ser_V (mkPrep ""un límite natural de"")",,,
 western of,V2,,"""lie in the west of"" ""lies in the west of""","prepV2 (aceV ""liegen"" ""liegt"" ""gelegen"") (mkPrep ""im Westen von"" dative)",,,"mkV2 I.estar_V (mkPrep ""al oeste de"")",,,
 Europe,NP,,Europe,Europa,,,Europa,,,

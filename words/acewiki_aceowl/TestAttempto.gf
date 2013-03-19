@@ -6,7 +6,7 @@ fun
   mary_PN, john_PN : PN ;
   friend_CN : CN ;
   wait_V : V ;
-  ask_V2 : V2 ;
+  ask_V2 : V2by ;
   mad_A : A ;
   mad_about_A2 : A2 ;
   happy_A : A ;
