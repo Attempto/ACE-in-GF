@@ -100,8 +100,10 @@ lin vpS np vp = mkAceS (mkS (mkCl np vp)) ;
 lin neg_vpS np vp = mkAceS (mkS negativePol (mkCl np vp)) ;
 
 lin v2VP = mkVP ;
+lin refl_v2VP = reflexiveVP ;
 
 lin a2VP = mkVP ; -- is mad-about NP
+lin refl_a2VP x = mkVP (reflAP x) ; -- is mad-about itself
 
 lin thereNP np = mkAceS (mkS (mkCl np)) ;
 

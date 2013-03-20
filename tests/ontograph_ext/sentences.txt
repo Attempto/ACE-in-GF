@@ -33,6 +33,8 @@ everything that buys at least 2 presents is an officer .
 everything that at least 2 officers buy is a present .
 every officer sees at most 1 aquarium .
 everything that is a traveler or that is an officer sees at most 2 aquariums .
+no picture admires itself .
+every man loves himself .
 if X sees Y then Y does not love X .
 if X sees somebody who sees Y then X sees Y .
 if X admires Y then X sees Y .
@@ -51,6 +53,7 @@ which golfers are not helped by Mary ?
 what is seen by every man ?
 which man is loved by somebody X ?
 John is not loved by who ?
+which man loves itself ?
 John inspects a picture of a man .
 John is a man of Mary .
 every picture of a golfer is seen by Mary .

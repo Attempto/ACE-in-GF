@@ -188,6 +188,20 @@ GeographyGer: es gibt eine Stadt , die nicht eine Hauptstadt von einem Land ist 
 GeographySpa: hay una ciudad que no es una capital de un país .
 
 
+Geography: baseText (sText (s (vpS (noNP (cn_as_VarCN river_CN)) (refl_v2VP flow_into_V2))))
+GeographyAce: no river flows_into itself .
+GeographyApe: no river|noun_sg|river_N|neutr flows_into|tv_finsg|flow_into_V2 itself .
+GeographyGer: kein Fluss fließt in sich .
+GeographySpa: ningún río desemboca en se .
+
+
+Geography: baseText (sText (s (vpS (indefPronNP nothing_IPron) (refl_a2VP larger_than_A2))))
+GeographyAce: nothing is larger-than itself .
+GeographyApe: nothing is larger-than|adj_tr|larger-than_A2|than itself .
+GeographyGer: nichts ist größer als es .
+GeographySpa: nada es mayor que sí .
+
+
 Geography: baseText (sText (s (vpS (noNP (cn_as_VarCN city_CN)) (npVP (thereNP_as_NP (aNP (ofCN capital_CN (thereNP_as_NP (more_thanNP (digitsCard (IDig D_1)) (cn_as_VarCN country_CN))))))))))
 GeographyAce: no city is a capital of more than 1 country .
 GeographyApe: no city|noun_sg|city_N|neutr is a capital|noun_sg|capital_N|neutr of more than 1 country|noun_sg|country_N|neutr .

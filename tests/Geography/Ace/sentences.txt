@@ -26,6 +26,8 @@ Switzerland borders no sea .
 Zurich is surrounded by Switzerland .
 every city is not a capital of a country .
 there is a city that is not a capital of a country .
+no river flows_into itself .
+nothing is larger-than itself .
 no city is a capital of more than 1 country .
 no capital is surrounded by more than 2 seas .
 for every country X a capital of X is surrounded by X and is not a sea .

@@ -105,8 +105,10 @@ fun vpS : NP -> VP -> S ;
 fun neg_vpS : NP -> VP -> S ;
 
 fun v2VP : V2 -> NP -> VP ;
+fun refl_v2VP : V2 -> VP ;
 
 fun a2VP : A2 -> NP -> VP ; -- is mad-about NP
+fun refl_a2VP : A2 -> VP ; -- is mad-about itself
 
 fun thereNP : ThereNP -> S ;  -- there is/are
 

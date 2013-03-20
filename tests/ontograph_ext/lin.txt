@@ -682,6 +682,44 @@ TestAttemptoRus: всё , которое путешественник или , �
 TestAttemptoSpa: todo que es un viajero o que es un funcionario ve como máximo 2 acuarios .
 TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högst 2 akvariumar .
 
+TestAttempto: baseText (sText (s (vpS (noNP (cn_as_VarCN picture_N)) (refl_v2VP (V2by_as_V2 admire_V2)))))
+TestAttemptoAce: no picture admires itself .
+TestAttemptoApe: no picture|noun_sg|picture_N|neutr admires|tv_finsg|admire_V2 itself .
+TestAttemptoCat: cap imatge se admira .
+TestAttemptoDan: 
+TestAttemptoDut: geen schilderij bewondert zich .
+TestAttemptoEng: no picture admires itself .
+TestAttemptoFin: mikään kuva ei ihaile itseänsä .
+TestAttemptoFre: aucune image ne s' admire .
+TestAttemptoGer: kein Bild bewundert sich .
+TestAttemptoIta: nessuno immagine si ammira .
+TestAttemptoLav: neviens attēls neapbrīno sevi .
+TestAttemptoNor: 
+TestAttemptoPol: żaden mężczyzna czyta siebie .
+TestAttemptoRon: nicio imagine se admirează .
+TestAttemptoRus: 
+TestAttemptoSpa: ningún imagen se admira .
+TestAttemptoSwe: ingen bild beundrar sig .
+
+TestAttempto: baseText (sText (s (vpS (everyNP (cn_as_VarCN man_N)) (refl_v2VP (V2by_as_V2 love_V2)))))
+TestAttemptoAce: every man loves himself .
+TestAttemptoApe: every man|noun_sg|man_N|masc loves|tv_finsg|love_V2 himself .
+TestAttemptoCat: cada home se estima .
+TestAttemptoDan: hver mand elsker sig .
+TestAttemptoDut: elke man heeft zich lief .
+TestAttemptoEng: every man loves himself .
+TestAttemptoFin: jokainen mies rakastaa itseänsä .
+TestAttemptoFre: chaque homme s' aime .
+TestAttemptoGer: jeder Mann liebt sich .
+TestAttemptoIta: ogni uomo si ama .
+TestAttemptoLav: ikviens vīrietis mīl sevi .
+TestAttemptoNor: hver mann elsker seg .
+TestAttemptoPol: każdy mężczyzna kocha siebie .
+TestAttemptoRon: orice om se iubeşte .
+TestAttemptoRus: каждый человек любдит себя .
+TestAttemptoSpa: cada hombre se ama .
+TestAttemptoSwe: varje man älskar sig .
+
 TestAttempto: baseText (sText (s (if_thenS (vpS (termNP X_Var) (v2VP (V2by_as_V2 see_V2) (termNP Y_Var))) (neg_vpS (termNP Y_Var) (v2VP (V2by_as_V2 love_V2) (termNP X_Var))))))
 TestAttemptoAce: if X sees Y then Y doesn't love X .
 TestAttemptoApe: if X sees|tv_finsg|see_V2 Y then Y doesn't love|tv_infpl|love_V2 X .
@@ -1023,6 +1061,25 @@ TestAttemptoRon: [neg_vpqQS] ?
 TestAttemptoRus: [neg_vpqQS] ?
 TestAttemptoSpa: ¿ John no está amado por quién ?
 TestAttemptoSwe: John blir inte älskad av vem ?
+
+TestAttempto: baseText (qsText (qs (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN man_N))) (refl_v2VP (V2by_as_V2 love_V2)))))
+TestAttemptoAce: which man loves itself ?
+TestAttemptoApe: which man|noun_sg|man_N|masc loves|tv_finsg|love_V2 itself ?
+TestAttemptoCat: quin home se estima ?
+TestAttemptoDan: hvilken mand elsker sig ?
+TestAttemptoDut: welke man heeft zich lief ?
+TestAttemptoEng: which man loves itself ?
+TestAttemptoFin: mikä mies rakastaa itseänsä ?
+TestAttemptoFre: quel homme s' aime ?
+TestAttemptoGer: welcher Mann liebt sich ?
+TestAttemptoIta: quale uomo si ama ?
+TestAttemptoLav: [npqQS] ?
+TestAttemptoNor: hvilken mann elsker seg ?
+TestAttemptoPol: [npqQS] ?
+TestAttemptoRon: [npqQS] ?
+TestAttemptoRus: [npqQS] ?
+TestAttemptoSpa: ¿ qué hombre se ama ?
+TestAttemptoSwe: vilken man älskar sig ?
 
 TestAttempto: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 inspect_V2) (thereNP_as_NP (aNP (ofCN picture_N (thereNP_as_NP (aNP (cn_as_VarCN man_N))))))))))
 TestAttemptoAce: John inspects a picture of a man .

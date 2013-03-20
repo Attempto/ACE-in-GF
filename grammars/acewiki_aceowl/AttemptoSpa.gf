@@ -1,7 +1,7 @@
 --# -path=.:present
 
 concrete AttemptoSpa of Attempto = SymbolsC, NumeralSpa **
-  AttemptoI - [A2, a2VP] with
+  AttemptoI - [A2, a2VP, refl_a2VP] with
   (Syntax = SyntaxSpa),
   (Symbolic = SymbolicSpa),
   (Extra = ExtraSpa),
@@ -56,6 +56,9 @@ concrete AttemptoSpa of Attempto = SymbolsC, NumeralSpa **
   op_a2VP : LincatA2 -> NP -> VP =
     \a,np -> mkA2VP (map_A2Type_to_Verb a.auxType) (MyCompAP (mkAP a.adj np)) ;
 
+  op_relf_a2VP : LincatA2 -> VP =
+    \a -> mkA2VP (map_A2Type_to_Verb a.auxType) (MyCompAP (reflAP a.adj)) ;
+
   -- Copied from ResRomance.heavyNP
   lin ipNPQ ip = lin NP {
     s = \\c => {comp,ton = ip.s ! c ; c1,c2 = []} ;
@@ -67,5 +70,8 @@ concrete AttemptoSpa of Attempto = SymbolsC, NumeralSpa **
 
   lincat A2 = LincatA2 ;
   lin a2VP = op_a2VP ;
+
+  lin refl_a2VP = op_relf_a2VP ;
+
 
 } ;
