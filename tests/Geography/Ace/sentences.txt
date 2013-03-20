@@ -37,7 +37,7 @@ if X flows_into something that drains_into Y then X drains_into Y .
 every river that starts_in Switzerland drains_into the Mediterranean or drains_into the North_Sea .
 at least 3 Finno-Ugric_languages are an official_language of a country .
 at most 0 cities are a capital .
-every country X lies_in_the_north_of every country that lies_in_the_south_of X .
+every country X is in_the_north-of every country that is in_the_south-of X .
 if an official_language of a country is a Finno-Ugric_language then the country borders Russia or borders a country that borders Russia .
 every Germanic_language that is surrounded by Hiiumaa naturally_borders the Atlantic_Ocean .
 what is Switzerland ?
