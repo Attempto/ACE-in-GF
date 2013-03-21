@@ -13,6 +13,8 @@ German is an official_language of the European_Union .
 the EU is the European_Union .
 a mediterranean_sea is the Mediterranean .
 there are at least 2 bodies_of_water .
+there are more than 3 locations that surround themselves .
+there are more than 3 locations that are not longer-than themselves .
 more than 2 lakes rise_in a lake or surround a lake and a lake rises_in less than 2 lakes and does not surround at least 2 lakes .
 more than 2 rivers lie_in the European_Union .
 every country borders a country or is bordered by a sea .

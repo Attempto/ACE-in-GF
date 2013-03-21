@@ -97,6 +97,20 @@ GeographyGer: es gibt wenigstens 2 Gewässer .
 GeographySpa: hay al menos 2 cuerpos_de_agua .
 
 
+Geography: baseText (sText (s (thereNP (more_thanNP (digitsCard (IDig D_3)) (relCN (cn_as_VarCN location_CN) (predRS which_RP (refl_v2VP (V2by_as_V2 surround_V2by))))))))
+GeographyAce: there are more than 3 locations that surround themselves .
+GeographyApe: there are more than 3 locations|noun_pl|location_N|neutr that surround|tv_infpl|surround_V2 themselves .
+GeographyGer: es gibt mehr als 3 Orte , die sich umschließen .
+GeographySpa: hay más que 3 lugares que rodean a se .
+
+
+Geography: baseText (sText (s (thereNP (more_thanNP (digitsCard (IDig D_3)) (relCN (cn_as_VarCN location_CN) (neg_predRS which_RP (refl_a2VP longer_than_A2)))))))
+GeographyAce: there are more than 3 locations that aren't longer-than themselves .
+GeographyApe: there are more than 3 locations|noun_pl|location_N|neutr that aren't longer-than|adj_tr|longer-than_A2|than themselves .
+GeographyGer: es gibt mehr als 3 Orte , die nicht länger als es sind .
+GeographySpa: hay más que 3 lugares que no son más_largos que sí .
+
+
 Geography: baseText (sText (s (coordS and_Conj (np_coord_VPS (thereNP_as_NP (more_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN lake_CN))) or_Conj (BaseVPS (vp_as_posVPS (v2VP rise_in_V2 (thereNP_as_NP (aNP (cn_as_VarCN lake_CN))))) (vp_as_posVPS (v2VP (V2by_as_V2 surround_V2by) (thereNP_as_NP (aNP (cn_as_VarCN lake_CN))))))) (np_coord_VPS (thereNP_as_NP (aNP (cn_as_VarCN lake_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP rise_in_V2 (thereNP_as_NP (less_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN lake_CN))))) (vp_as_negVPS (v2VP (V2by_as_V2 surround_V2by) (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN lake_CN))))))))))
 GeographyAce: more than 2 lakes rise_in a lake or surround a lake and a lake rises_in less than 2 lakes and doesn't surround at least 2 lakes .
 GeographyApe: more than 2 lakes|noun_pl|lake_N|neutr rise_in|tv_infpl|rise_in_V2 a lake|noun_sg|lake_N|neutr or surround|tv_infpl|surround_V2 a lake|noun_sg|lake_N|neutr and a lake|noun_sg|lake_N|neutr rises_in|tv_finsg|rise_in_V2 less than 2 lakes|noun_pl|lake_N|neutr and doesn't surround|tv_infpl|surround_V2 at least 2 lakes|noun_pl|lake_N|neutr .
