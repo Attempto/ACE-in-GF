@@ -102,6 +102,7 @@ Dniester_NP = mkNP el "Dniéster" ;
 Don_NP = mkNP el "Don" ;
 Douro_NP = mkNP el "Duero" ;
 drain_into_V2 = mkV2 (mkV "desembocar") in_Prep ;
+drainage_basin_CN = mkCN (mkN "cuenca_hidrográfica") ;
 Drava_river_NP = mkNP el "río_Drava" ;
 Dresden_NP = mkNP "Dresde" ;
 Dublin_NP = mkNP "Dublín" ;

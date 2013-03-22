@@ -3,8 +3,12 @@ csv = $(name).csv
 
 languages = Ace Ape Ger Spa
 
-server = http://cloud.grammaticalframework.org
-dir = /tmp/gfse.528744594/
+#server = http://localhost:41296
+server = http://attempto.ifi.uzh.ch:41297
+#server = http://cloud.grammaticalframework.org
+
+dir = /tmp/Geography/
+#dir = /tmp/gfse.528744594/
 
 includes_all = includes_all.txt
 

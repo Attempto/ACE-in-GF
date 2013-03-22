@@ -136,13 +136,13 @@ GeographySpa: ningún país X limita con X .
 Geography: baseText (sText (s (vpS (noNP (relCN (cn_as_VarCN river_CN) (predRS which_RP (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN endorheic_basin_CN))))))) (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN ocean_CN)))))))
 GeographyAce: no river that drains_into an endorheic_basin drains_into an ocean .
 GeographyApe: no river|noun_sg|river_N|neutr that drains_into|tv_finsg|drain_into_V2 an endorheic_basin|noun_sg|endorheic_basin_N|neutr drains_into|tv_finsg|drain_into_V2 an ocean|noun_sg|ocean_N|neutr .
-GeographyGer: kein Fluss , der in ein endorheische_Becken mündet mündet in einen Ozean .
+GeographyGer: kein Fluss , der in ein endorheisches_Becken mündet mündet in einen Ozean .
 GeographySpa: ningún río que desemboca en una cuenca_endorreica desemboca en un océano .
 
 Geography: baseText (sText (s (vpS (relNP (noNP (cn_as_VarCN river_CN)) (predRS which_RP (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN endorheic_basin_CN)))))) (v2VP drain_into_V2 (thereNP_as_NP (aNP (cn_as_VarCN ocean_CN)))))))
 GeographyAce: no river that drains_into an endorheic_basin drains_into an ocean .
 GeographyApe: no river|noun_sg|river_N|neutr that drains_into|tv_finsg|drain_into_V2 an endorheic_basin|noun_sg|endorheic_basin_N|neutr drains_into|tv_finsg|drain_into_V2 an ocean|noun_sg|ocean_N|neutr .
-GeographyGer: kein Fluss , der in ein endorheische_Becken mündet mündet in einen Ozean .
+GeographyGer: kein Fluss , der in ein endorheisches_Becken mündet mündet in einen Ozean .
 GeographySpa: ningún río que desemboca en una cuenca_endorreica desemboca en un océano .
 
 

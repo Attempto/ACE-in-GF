@@ -11,7 +11,7 @@ concrete TestAttemptoSpa of TestAttempto = AttemptoSpa **
   lin wait_V       = mkV "esperar" ;
   lin ask_V2       = mkV2 "pedir" ;
   lin mad_A        = mkA "loco" ;
-  lin mad_about_A2 = mkA2 (mkA "loco") by8means_Prep ;
+  lin mad_about_A2 = AttemptoSpa.mkA2 (mkA "loco") by8means_Prep ;
   lin happy_A      = mkA "feliz" ;
 
 }
