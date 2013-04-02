@@ -52,3 +52,10 @@ GeographyGer: genau 2 nordwestliche_Regionen gehören zur Tschechischen_Republik
 GeographySpa: exactamente 2 regiones_noroccidentales pertenecen a la República_Checa .
 
 
+Geography: baseText (sText (s (vpS (thereNP_as_NP (aNP (cn_as_VarCN part_CN))) (npVP (thereNP_as_NP (aNP (ofCN part_CN (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (predRS which_RP (v2VP contain_V2 (thereNP_as_NP (more_thanNP (digitsCard (IDig D_0)) (cn_as_VarCN part_CN)))))))))))))
+GeographyAce: a part is a part of something that contains more than 0 parts .
+GeographyApe: a part|noun_sg|part_N|neutr is a part|noun_sg|part_N|neutr of something that contains|tv_finsg|contain_V2 more than 0 parts|noun_pl|part_N|neutr .
+GeographyGer: ein Teil ist ein Teil von etwas , das mehr als 0 Teile enthält .
+GeographySpa: una parte es una parte de algo que contiene más que 0 partes .
+
+

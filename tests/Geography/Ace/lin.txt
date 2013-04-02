@@ -23,7 +23,7 @@ Geography: baseText (sText (s (vpS (thereNP_as_NP (exactlyNP (digitsCard (IDig D
 GeographyAce: exactly 4 countries are surrounded by the EFTA .
 GeographyApe: exactly 4 countries|noun_pl|country_N|neutr are surrounded|tv_pp|surround_V2 by the EFTA|pndef_sg|EFTA_PN|neutr .
 GeographyGer: genau 4 Länder werden durch EFTA umschlossen .
-GeographySpa: exactamente 4 países están rodeados por AELC .
+GeographySpa: exactamente 4 países están rodeados por la AELC .
 
 
 

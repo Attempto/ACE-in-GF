@@ -4,3 +4,4 @@ die Alpen gehören zu den Pyrenäen .
 die Pyrenäen sind nicht größer als die Schweiz .
 die Limmat endet nicht in einem Mittelmeer und enthält nicht einen Meerbusen .
 genau 2 nordwestliche_Regionen gehören zur Tschechischen_Republik .
+ein Teil ist ein Teil von etwas , das mehr als 0 Teile enthält .
