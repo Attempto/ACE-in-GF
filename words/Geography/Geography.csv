@@ -314,7 +314,7 @@ Narva,NP,noeval,Narva,Narva,,,Narva,Narva,[the town],
 Narva river,NP,,"aceNP defsg ""Narva River"" | aceNP defsg ""River Narva""","die ""Narva""",,,"el ""río Narva""",Narvajoki,,
 Neckar,NP,,"defsg ""Neckar""","der ""Neckar""",,,"el ""Neckar""",Neckar,,
 Neman river,NP,,"defsg ""Neman""","die ""Memel""",,,"el ""río Niemen""",Neman-joki,,
-Netherlands,NP,,"defsg ""Netherlands""","pl ""Niederlande""",Paesi Bassi,Nederland,Holanda,Alankomaat,,
+Netherlands,NP,,"defsg ""Netherlands""","pl ""Niederlande""",Paesi Bassi,Nederland,"los ""Países Bajos""",Alankomaat,,
 north,NP,,"defsg ""North""","der ""Norden""",,,norte,pohjoinen,,
 North Sea,NP,,"defsg ""North Sea""","die ""Nordsee""",,,"el ""Mar del Norte""",Pohjanmeri,,
 northeast,NP,,"defsg ""North-East""","der ""Nordosten""",,,noreste,koillinen,,
@@ -483,9 +483,9 @@ belong to,V2,,"""belong to"" ""belongs to""","prepV2 (aceV ""gehören"" ""gehör
 border,V2,,"""border"" ""borders"" ""bordered""","prepV2 (regV ""grenzen"") (mkPrep ""an"" accusative)",confine,grenzen,"mkV2 (mkV ""limitar"") (mkPrep ""con"") | mkV2 (I.hacer_V) (mkPrep ""frontera con"")",,[T: this verb construction has no passive in German],
 comprise,V2,,"""comprise"" ""comprises"" ""comprised""","prepV2 (aceV ""bestehen"" ""besteht"" ""bestanden"") (mkPrep ""aus"" dative)",,,"mkV2 (mkV ""constar"") (mkPrep ""de"")",,[Europe comprises more than 10 countries.],
 contain,V2,,"""contain"" ""contains"" ""contained""","mkV2 (aceV ""enthalten"" ""enthält"" ""enthalten"") accusative",contenere,bevatten,mkV2 (I.contener_V),sisältää,[T: this verb construction has no passive in German],
-drain into,V2,,"""drain into"" ""drains into""","prepV2 (regV ""münden"") inAcc_Prep",,,"mkV2 (mkV ""desembocar"") in_Prep",,,[T: this verb construction has no passive in German]
+drain into,V2,noeval,"""drain into"" ""drains into""","prepV2 (regV ""münden"") inAcc_Prep",,,"mkV2 (mkV ""desembocar"") in_Prep",,,[T: this verb construction has no passive in German]
 eastern of,V2,delete,"""lie in the east of"" ""lies in the east of""","prepV2 (aceV ""liegen"" ""liegt"" ""gelegen"") (mkPrep ""im Osten von"" dative)",,,"mkV2 I.estar_V (mkPrep ""al este de"")",,,
-end in,V2,,"""end in"" ""ends in""","prepV2 (regV ""enden"") inDat_Prep",,,"mkV2 (mkV ""desembocar"") in_Prep",,[T: this verb construction has no passive in German],
+end in,V2,,"""end in"" ""ends in""","prepV2 (regV ""enden"") inDat_Prep",,,"mkV2 (mkV ""terminar"") in_Prep",,[T: this verb construction has no passive in German],
 flow into,V2,," aceV2 ""flow into"" ""flows into"" ""fed"" | aceV2 ""feed"" ""feeds"" ""fed""","prepV2 (aceV ""fließen"" ""fließt"" ""geflossen"") inAcc_Prep",,,"mkV2 (mkV ""desembocar"") in_Prep",,[river feeds (flows into) lake],[T: this verb construction has no passive in German]
 flow through,V2,,"""flow through"" ""flows through""","prepV2 (aceV ""fließen"" ""fließt"" ""geflossen"") (mkPrep ""durch"" accusative)",,,mkV2 (I.atravesar_V),,[T: this verb construction has no passive in German],
 has as location,V2,,"""lie in"" ""lies in""","prepV2 (aceV ""liegen"" ""liegt"" ""gelegen"") inDat_Prep",,,"mkV2 I.estar_V (mkPrep ""en"")",,,"[T: The English version of this is quite unnatural. Why not ""lies in""?] [T: this verb construction has no passive in German]"

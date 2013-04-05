@@ -24,12 +24,6 @@ GeographyApe: the Carpathian_Mountains|pndef_pl|Carpathian_Mountains_PN|neutr dr
 GeographyGer: die Karpaten münden in den Schwarzwald .
 GeographySpa: Montes_Cárpatos desemboca en la Selva_Negra .
 
-Geography: baseText (sText (s (vpS Carpathian_Mountains_NP (v2VP end_in_V2 Black_Forest_NP))))
-GeographyAce: the Carpathian_Mountains end_in the Black_Forest .
-GeographyApe: the Carpathian_Mountains|pndef_pl|Carpathian_Mountains_PN|neutr end_in|tv_infpl|end_in_V2 the Black_Forest|pndef_sg|Black_Forest_PN|neutr .
-GeographyGer: die Karpaten enden im Schwarzwald .
-GeographySpa: Montes_Cárpatos desemboca en la Selva_Negra .
-
 Geography: baseText (sText (s (vpS Carpathian_Mountains_NP (v2VP flow_into_V2 Black_Forest_NP))))
 GeographyAce: the Carpathian_Mountains flow_into the Black_Forest .
 GeographyApe: the Carpathian_Mountains|pndef_pl|Carpathian_Mountains_PN|neutr flow_into|tv_infpl|flow_into_V2 the Black_Forest|pndef_sg|Black_Forest_PN|neutr .

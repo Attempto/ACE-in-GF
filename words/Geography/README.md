@@ -11,6 +11,8 @@ Building a grammar for the evaluation
 
 	make make_gf_for_eval
 
-	make pgf_Geography_evaluation
+	make pgf_Geography_evaluation # in ../../
+
+	sudo vpnc uzh
 
 	bash deploy_only_pgf_eval.sh

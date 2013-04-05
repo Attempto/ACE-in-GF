@@ -65,7 +65,7 @@ Geography: baseText (sText (s (np_coord_VPS Aar_NP and_Conj (BaseVPS (vp_as_posV
 GeographyAce: the Aar rises_in Switzerland and ends_in Switzerland .
 GeographyApe: the Aar|pndef_sg|Aar_PN|neutr rises_in|tv_finsg|rise_in_V2 Switzerland|pn_sg|Switzerland_PN|neutr and ends_in|tv_finsg|end_in_V2 Switzerland|pn_sg|Switzerland_PN|neutr .
 GeographyGer: die Aare beginnt in der Schweiz und endet in der Schweiz .
-GeographySpa: el río_Aar nace en Suiza y desemboca en Suiza .
+GeographySpa: el río_Aar nace en Suiza y termina en Suiza .
 
 
 Geography: baseText (sText (s (vpS Vatican_City_NP (v2_byVP surround_V2by Rome_NP))))
@@ -249,20 +249,20 @@ Geography: baseText (sText (s (vpS Rhine_NP (v2VP flow_through_V2 Netherlands_NP
 GeographyAce: the Rhine flows_through the Netherlands .
 GeographyApe: the Rhine|pndef_sg|Rhine_PN|neutr flows_through|tv_finsg|flow_through_V2 the Netherlands|pndef_sg|Netherlands_PN|neutr .
 GeographyGer: der Rhein fließt durch die Niederlande .
-GeographySpa: el Rin atraviesa Holanda .
+GeographySpa: el Rin atraviesa los Países_Bajos .
 
 
 Geography: baseText (sText (s (if_thenS (thereNP (aNP (apposVarCN river_CN X_Var))) (coordS and_Conj (np_coord_VPS (termNP X_Var) and_Conj (BaseVPS (vp_as_posVPS (v2VP rise_in_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))) (vp_as_posVPS (v2VP end_in_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))))) (np_coord_VPS (termNP X_Var) and_Conj (BaseVPS (vp_as_posVPS (v2VP flow_through_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_1)) (cn_as_VarCN country_CN))))) (vp_as_posVPS (v2VP flow_into_V2 (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN river_CN))))) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN lake_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN sea_CN))))))))))))))))
 GeographyAce: if there is a river X then X rises_in a country and ends_in a country and X flows_through at least 1 country and flows_into something that is a river or that is a lake or that is a sea .
 GeographyApe: if there is a river|noun_sg|river_N|neutr X then X rises_in|tv_finsg|rise_in_V2 a country|noun_sg|country_N|neutr and ends_in|tv_finsg|end_in_V2 a country|noun_sg|country_N|neutr and X flows_through|tv_finsg|flow_through_V2 at least 1 country|noun_sg|country_N|neutr and flows_into|tv_finsg|flow_into_V2 something that is a river|noun_sg|river_N|neutr or that is a lake|noun_sg|lake_N|neutr or that is a sea|noun_sg|sea_N|neutr .
 GeographyGer: wenn es einen Fluss X gibt , dann beginnt in einem Land und endet in einem Land X und X fließt durch wenigstens 1 Land und fließt in etwas , das ein Fluss ist oder das ein See ist oder das ein Meer ist .
-GeographySpa: si hay un río X entonces X nace en un país y desemboca en un país y X atraviesa al menos 1 país y desemboca en algo que es un río o que es un lago o que es un mar .
+GeographySpa: si hay un río X entonces X nace en un país y termina en un país y X atraviesa al menos 1 país y desemboca en algo que es un río o que es un lago o que es un mar .
 
 Geography: baseText (sText (s (if_thenS (thereNP (aNP (apposVarCN river_CN X_Var))) (coordS and_Conj (np_coord_VPS (termNP X_Var) and_Conj (BaseVPS (vp_as_posVPS (v2VP rise_in_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))) (vp_as_posVPS (v2VP end_in_V2 (thereNP_as_NP (aNP (cn_as_VarCN country_CN))))))) (np_coord_VPS (termNP X_Var) and_Conj (BaseVPS (vp_as_posVPS (v2VP flow_through_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_1)) (cn_as_VarCN country_CN))))) (vp_as_posVPS (v2VP flow_into_V2 (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (orRS (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN river_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN lake_CN)))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN sea_CN)))))))))))))))
 GeographyAce: if there is a river X then X rises_in a country and ends_in a country and X flows_through at least 1 country and flows_into something that is a river or that is a lake or that is a sea .
 GeographyApe: if there is a river|noun_sg|river_N|neutr X then X rises_in|tv_finsg|rise_in_V2 a country|noun_sg|country_N|neutr and ends_in|tv_finsg|end_in_V2 a country|noun_sg|country_N|neutr and X flows_through|tv_finsg|flow_through_V2 at least 1 country|noun_sg|country_N|neutr and flows_into|tv_finsg|flow_into_V2 something that is a river|noun_sg|river_N|neutr or that is a lake|noun_sg|lake_N|neutr or that is a sea|noun_sg|sea_N|neutr .
 GeographyGer: wenn es einen Fluss X gibt , dann beginnt in einem Land und endet in einem Land X und X fließt durch wenigstens 1 Land und fließt in etwas , das ein Fluss ist oder das ein See ist oder das ein Meer ist .
-GeographySpa: si hay un río X entonces X nace en un país y desemboca en un país y X atraviesa al menos 1 país y desemboca en algo que es un río o que es un lago o que es un mar .
+GeographySpa: si hay un río X entonces X nace en un país y termina en un país y X atraviesa al menos 1 país y desemboca en algo que es un río o que es un lago o que es un mar .
 
 
 Geography: baseText (sText (s (if_thenS (vpS (termNP X_Var) (v2VP flow_into_V2 (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (predRS which_RP (v2VP drain_into_V2 (termNP Y_Var)))))) (vpS (termNP X_Var) (v2VP drain_into_V2 (termNP Y_Var))))))
@@ -384,6 +384,6 @@ Geography: baseText (qsText (qs (npq_coord_VPS (ipNPQ (whichIP which_IDet (cn_as
 GeographyAce: which river rises_in a country X and ends_in X ?
 GeographyApe: which river|noun_sg|river_N|neutr rises_in|tv_finsg|rise_in_V2 a country|noun_sg|country_N|neutr X and ends_in|tv_finsg|end_in_V2 X ?
 GeographyGer: welcher Fluss beginnt in einem Land X und endet in X ?
-GeographySpa: ¿ qué río nace en un país X y desemboca en X ?
+GeographySpa: ¿ qué río nace en un país X y termina en X ?
 
 
