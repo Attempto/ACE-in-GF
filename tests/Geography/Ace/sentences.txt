@@ -1,3 +1,7 @@
+the Alps are in_the_south-of the Danube and are in_the_north-of Sicily .
+the Canary_Islands are in_the_middle-of the Atlantic_Ocean and are in_the_west-of Europe .
+the Pyrenees are in_the_east-of the Atlantic_Ocean and are in_the_middle-of Spain .
+at least 3 countries are in_the_west-of Switzerland .
 Bern is located-in Switzerland .
 the EU comprises exactly 2 7 countries .
 the EU does not comprise at least 2 EFTA_states .

@@ -1,3 +1,31 @@
+Geography: baseText (sText (s (np_coord_VPS Alps_NP and_Conj (BaseVPS (vp_as_posVPS (a2VP southern_of_A2 Danube_NP)) (vp_as_posVPS (a2VP northern_of_A2 Sicily_NP))))))
+GeographyAce: the Alps are in_the_south-of the Danube and are in_the_north-of Sicily .
+GeographyApe: the Alps|pndef_pl|Alps_PN|neutr are in_the_south-of|adj_tr|in_the_south-of_A2|of the Danube|pndef_sg|Danube_PN|neutr and are in_the_north-of|adj_tr|in_the_north-of_A2|of Sicily|pn_sg|Sicily_PN|neutr .
+GeographyGer: die Alpen sind im_Süden von der Donau und sind im_Norden von Sizilien .
+GeographySpa: los Alpes están al_sur del Danubio y están al_norte de Sicilia .
+
+
+Geography: baseText (sText (s (np_coord_VPS Canary_islands_NP and_Conj (BaseVPS (vp_as_posVPS (a2VP in_the_middle_of_A2 Atlantic_Ocean_NP)) (vp_as_posVPS (a2VP western_of_A2 Europe_NP))))))
+GeographyAce: the Canary_Islands are in_the_middle-of the Atlantic_Ocean and are in_the_west-of Europe .
+GeographyApe: the Canary_Islands|pndef_pl|Canary_Islands_PN|neutr are in_the_middle-of|adj_tr|in_the_middle-of_A2|of the Atlantic_Ocean|pndef_sg|Atlantic_Ocean_PN|neutr and are in_the_west-of|adj_tr|in_the_west-of_A2|of Europe|pn_sg|Europe_PN|neutr .
+GeographyGer: die Kanarischen_Inseln sind in_der_Mitte von dem Atlantischen_Ozean und sind im_Westen von Europa .
+GeographySpa: Canarias está en_el_centro del océano_Atlántico y está al_oeste de Europa .
+
+
+Geography: baseText (sText (s (np_coord_VPS Pyrenees_NP and_Conj (BaseVPS (vp_as_posVPS (a2VP eastern_of_A2 Atlantic_Ocean_NP)) (vp_as_posVPS (a2VP in_the_middle_of_A2 Spain_NP))))))
+GeographyAce: the Pyrenees are in_the_east-of the Atlantic_Ocean and are in_the_middle-of Spain .
+GeographyApe: the Pyrenees|pndef_pl|Pyrenees_PN|neutr are in_the_east-of|adj_tr|in_the_east-of_A2|of the Atlantic_Ocean|pndef_sg|Atlantic_Ocean_PN|neutr and are in_the_middle-of|adj_tr|in_the_middle-of_A2|of Spain|pn_sg|Spain_PN|neutr .
+GeographyGer: die Pyrenäen sind im_Osten von dem Atlantischen_Ozean und sind in_der_Mitte von Spanien .
+GeographySpa: los Pirineos están al_este del océano_Atlántico y están en_el_centro de España .
+
+
+Geography: baseText (sText (s (vpS (thereNP_as_NP (at_leastNP (digitsCard (IDig D_3)) (cn_as_VarCN country_CN))) (a2VP western_of_A2 Switzerland_NP))))
+GeographyAce: at least 3 countries are in_the_west-of Switzerland .
+GeographyApe: at least 3 countries|noun_pl|country_N|neutr are in_the_west-of|adj_tr|in_the_west-of_A2|of Switzerland|pn_sg|Switzerland_PN|neutr .
+GeographyGer: wenigstens 3 Länder sind im_Westen von der Schweiz .
+GeographySpa: al menos 3 países están al_oeste de Suiza .
+
+
 Geography: baseText (sText (s (vpS Bern_NP (a2VP located_in_A2 Switzerland_NP))))
 GeographyAce: Bern is located-in Switzerland .
 GeographyApe: Bern|pn_sg|Bern_PN|neutr is located-in|adj_tr|located-in_A2|in Switzerland|pn_sg|Switzerland_PN|neutr .
