@@ -2,7 +2,7 @@
 
 concrete AttemptoAce of Attempto = NumeralAce **
   AttemptoI - [
-    CN, PN, V2,
+    CN, PN, NP, V2, V2by, A2,
     apposVarCN, indefTherePronVarNP, indefPronVarNP, vp_as_negVPS,
     termNP
   ] with
@@ -14,17 +14,26 @@ concrete AttemptoAce of Attempto = NumeralAce **
   -- The (preferred) locale of ACE is "en" (without any qualifiers).
   flags language = en ;
 
-  printname cat CN = "common noun" ;
+  printname cat CN = "Common Noun" ;
   lincat CN = Syntax.CN ;
 
-  printname cat PN = "proper name" ;
+  printname cat PN = "Proper Name" ;
   lincat PN = Syntax.PN ;
 
-  printname cat V2 = "transitive verb" ;
+  printname cat NP = "Proper Name" ;
+  lincat NP = Syntax.NP ;
+
+  printname cat V2 = "Transitive Verb" ;
   lincat V2 = Syntax.V2 ;
 
+  printname cat V2by = "Transitive Verb" ;
+  lincat V2by = Syntax.V2 ;
+
+  printname cat A2 = "Transitive Adjective" ;
+  lincat A2 = Syntax.A2 ;
+
   -- Variables have genitives [JJC]
-  printname cat Var = "reference" ;
+  printname cat Var = "Reference" ;
   lincat Var = {s : Case => Str};
 
   lin X_Var = {s = regGenitiveS "X"} ;

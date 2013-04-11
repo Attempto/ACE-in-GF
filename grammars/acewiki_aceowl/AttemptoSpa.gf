@@ -1,11 +1,29 @@
 --# -path=.:present
 
 concrete AttemptoSpa of Attempto = SymbolsC, NumeralSpa **
-  AttemptoI - [A2, a2VP, refl_a2VP] with
+  AttemptoI - [CN, PN, NP, V2, V2by, A2, a2VP, refl_a2VP] with
   (Syntax = SyntaxSpa),
   (Symbolic = SymbolicSpa),
   (Extra = ExtraSpa),
   (LexAttempto = LexAttemptoSpa) ** open (B = BeschSpa), (P = ParadigmsSpa), AdjectiveRomance, CommonRomance, ResSpa in {
+
+  printname cat CN = "Sustantivo" ;
+  lincat CN = Syntax.CN ;
+
+  printname cat PN = "Nombre propio" ;
+  lincat PN = Syntax.PN ;
+
+  printname cat NP = "Nombre propio" ;
+  lincat NP = Syntax.NP ;
+
+  printname cat V2 = "Verbo" ;
+  lincat V2 = Syntax.V2 ;
+
+  printname cat V2by = "Verbo" ;
+  lincat V2by = Syntax.V2 ;
+
+  printname cat A2 = "Adjetivo" ;
+  lincat A2 = LincatA2 ;
 
   param A2Type = rglDefault | ser | estar ;
 
@@ -68,7 +86,6 @@ concrete AttemptoSpa of Attempto = SymbolsC, NumeralSpa **
     isPol = False
   } ;
 
-  lincat A2 = LincatA2 ;
   lin a2VP = op_a2VP ;
 
   lin refl_a2VP = op_relf_a2VP ;
