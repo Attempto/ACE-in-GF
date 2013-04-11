@@ -47,20 +47,26 @@ instance OperAce of Oper =
     aceN_2 : Gender -> Str -> Str -> CN = \g,sg,pl -> mkCN (mkN g (mkN sg pl)) ;
 
 
-  -- Physically glue preposition to adjective, i.e. "mad-about" [JJC]
+  -- Glue preposition to adjective, i.e. "mad_about"
+  -- TODO: the same functionality is also in ParadigmsAce, clean this up
   ace_prepA2 : A -> Prep -> A2 ;
   ace_prepA2 a p = lin A2 {
-    s = \\aform => (a.s ! aform) + "-" + p.s ;
+    s = \\aform => (a.s ! aform) + "_" + p.s ;
     c2 = [] -- unused
   };
 
-  -- Copy from Eng, since they use custom prepA2 above [JJC]
+  ace_A2 : Str -> A2 ;
+  ace_A2 str = lin A2 {
+    s = \\aform => str ;
+    c2 = [] -- unused
+  };
+
   aceA2 : overload {
     aceA2 : A -> Prep -> A2 ; -- absent from
-    aceA2 : A -> Str -> A2 ; -- absent from --%
-    aceA2 : Str -> Prep -> A2 ; -- absent from --%
-    aceA2 : Str -> Str -> A2 -- absent from --%
-
+    aceA2 : A -> Str -> A2 ; -- absent "from"
+    aceA2 : Str -> Prep -> A2 ; -- "absent" from
+    aceA2 : Str -> Str -> A2 ; -- "absent" "from"
+    aceA2 : Str -> A2 -- "absent-from"
   } ;
 
   aceA2 = overload {
@@ -68,6 +74,7 @@ instance OperAce of Oper =
     aceA2 : A -> Str -> A2    = \a,p -> ace_prepA2 a (mkPrep p) ;
     aceA2 : Str -> Prep -> A2 = \a,p -> ace_prepA2 (regA a) p;
     aceA2 : Str -> Str -> A2  = \a,p -> ace_prepA2 (regA a) (mkPrep p);
+    aceA2 : Str -> A2         = ace_A2 ;
   } ;
 
 }

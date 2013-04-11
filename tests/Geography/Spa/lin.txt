@@ -32,7 +32,7 @@ GeographySpa: Montes_Cárpatos desemboca en la Selva_Negra .
 
 
 Geography: baseText (sText (s (vpS Bern_NP (a2VP in_the_middle_of_A2 Lake_Balaton_NP))))
-GeographyAce: Bern is in_the_middle-of Lake_Balaton .
+GeographyAce: Bern is in_the_middle_of Lake_Balaton .
 GeographyApe: Bern|pn_sg|Bern_PN|neutr is in_the_middle-of|adj_tr|in_the_middle-of_A2|of Lake_Balaton|pn_sg|Lake_Balaton_PN|neutr .
 GeographyGer: Bern ist in_der_Mitte von dem Balaton .
 GeographySpa: Berna está en_el_centro del lago_Balatón .

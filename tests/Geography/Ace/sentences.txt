@@ -1,14 +1,14 @@
-the Alps are in_the_south-of the Danube and are in_the_north-of Sicily .
-the Canary_Islands are in_the_middle-of the Atlantic_Ocean and are in_the_west-of Europe .
-the Pyrenees are in_the_east-of the Atlantic_Ocean and are in_the_middle-of Spain .
-at least 3 countries are in_the_west-of Switzerland .
-Bern is located-in Switzerland .
+the Alps are in_the_south_of the Danube and are in_the_north_of Sicily .
+the Canary_Islands are in_the_middle_of the Atlantic_Ocean and are in_the_west_of Europe .
+the Pyrenees are in_the_east_of the Atlantic_Ocean and are in_the_middle_of Spain .
+at least 3 countries are in_the_west_of Switzerland .
+Bern is located_in Switzerland .
 the EU comprises exactly 2 7 countries .
 the EU does not comprise at least 2 EFTA_states .
 exactly 4 countries are surrounded by the EFTA .
 the Limmat does not end_in a mediterranean_sea and does not flow_through the Mediterranean .
 Paris surrounds less than 2 fjords and exactly 3 tributaries surround something .
-the Åland_islands are longer-than Emajõgi .
+the Åland_islands are longer_than Emajõgi .
 Etna is a river .
 the River_Narva flows_through Narva .
 the Aar rises_in Switzerland and ends_in Switzerland .
@@ -18,7 +18,7 @@ the EU is the European_Union .
 a mediterranean_sea is the Mediterranean .
 there are at least 2 bodies_of_water .
 there are more than 3 locations that surround themselves .
-there are more than 3 locations that are not longer-than themselves .
+there are more than 3 locations that are not longer_than themselves .
 more than 2 lakes rise_in a lake or surround a lake and a lake rises_in less than 2 lakes and does not surround at least 2 lakes .
 more than 2 rivers lie_in the European_Union .
 every country borders a country or is bordered by a sea .
@@ -33,7 +33,7 @@ Zurich is surrounded by Switzerland .
 every city is not a capital of a country .
 there is a city that is not a capital of a country .
 no river flows_into itself .
-nothing is larger-than itself .
+nothing is larger_than itself .
 no city is a capital of more than 1 country .
 no capital is surrounded by more than 2 seas .
 for every country X a capital of X is surrounded by X and is not a sea .
@@ -45,7 +45,7 @@ if X flows_into something that drains_into Y then X drains_into Y .
 every river that starts_in Switzerland drains_into the Mediterranean or drains_into the North_Sea .
 at least 3 Finno-Ugric_languages are an official_language of a country .
 at most 0 cities are a capital .
-every country X is in_the_north-of every country that is in_the_south-of X .
+every country X is in_the_north_of every country that is in_the_south_of X .
 if an official_language of a country is a Finno-Ugric_language then the country borders Russia or borders a country that borders Russia .
 every Germanic_language that is surrounded by Hiiumaa naturally_borders the Atlantic_Ocean .
 what is Switzerland ?

@@ -189,12 +189,18 @@ ace_prepA2 a p = lin A2 {
   c2 = [] -- unused
 };
 
--- Copy from Eng, since they use custom prepA2 above [JJC]
+ace_A2 : Str -> A2 ;
+ace_A2 str = lin A2 {
+  s = \\aform => str + "|" + ADJ_TR + "|" + str + "_A2|" + "" ;
+  c2 = [] -- unused
+};
+
 aceA2 : overload {
   aceA2 : A -> Prep -> A2 ; -- absent from
-  aceA2 : A -> Str -> A2 ; -- absent from --%
-  aceA2 : Str -> Prep -> A2 ; -- absent from --%
-  aceA2 : Str -> Str -> A2 -- absent from --%
+  aceA2 : A -> Str -> A2 ; -- absent "from"
+  aceA2 : Str -> Prep -> A2 ; -- "absent" from
+  aceA2 : Str -> Str -> A2 ; -- "absent" "from"
+  aceA2 : Str -> A2 -- "absent-from"
 } ;
 
 
@@ -203,6 +209,7 @@ aceA2 = overload {
   aceA2 : A -> Str -> A2    = \a,p -> ace_prepA2 a (mkPrep p) ;
   aceA2 : Str -> Prep -> A2 = \a,p -> ace_prepA2 (regA a) p;
   aceA2 : Str -> Str -> A2  = \a,p -> ace_prepA2 (regA a) (mkPrep p);
+  aceA2 : Str -> A2         = ace_A2 ;
 } ;
 
 }

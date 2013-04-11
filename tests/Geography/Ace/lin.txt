@@ -1,33 +1,33 @@
 Geography: baseText (sText (s (np_coord_VPS Alps_NP and_Conj (BaseVPS (vp_as_posVPS (a2VP southern_of_A2 Danube_NP)) (vp_as_posVPS (a2VP northern_of_A2 Sicily_NP))))))
-GeographyAce: the Alps are in_the_south-of the Danube and are in_the_north-of Sicily .
+GeographyAce: the Alps are in_the_south_of the Danube and are in_the_north_of Sicily .
 GeographyApe: the Alps|pndef_pl|Alps_PN|neutr are in_the_south-of|adj_tr|in_the_south-of_A2|of the Danube|pndef_sg|Danube_PN|neutr and are in_the_north-of|adj_tr|in_the_north-of_A2|of Sicily|pn_sg|Sicily_PN|neutr .
 GeographyGer: die Alpen sind im_Süden von der Donau und sind im_Norden von Sizilien .
 GeographySpa: los Alpes están al_sur del Danubio y están al_norte de Sicilia .
 
 
 Geography: baseText (sText (s (np_coord_VPS Canary_islands_NP and_Conj (BaseVPS (vp_as_posVPS (a2VP in_the_middle_of_A2 Atlantic_Ocean_NP)) (vp_as_posVPS (a2VP western_of_A2 Europe_NP))))))
-GeographyAce: the Canary_Islands are in_the_middle-of the Atlantic_Ocean and are in_the_west-of Europe .
+GeographyAce: the Canary_Islands are in_the_middle_of the Atlantic_Ocean and are in_the_west_of Europe .
 GeographyApe: the Canary_Islands|pndef_pl|Canary_Islands_PN|neutr are in_the_middle-of|adj_tr|in_the_middle-of_A2|of the Atlantic_Ocean|pndef_sg|Atlantic_Ocean_PN|neutr and are in_the_west-of|adj_tr|in_the_west-of_A2|of Europe|pn_sg|Europe_PN|neutr .
 GeographyGer: die Kanarischen_Inseln sind in_der_Mitte von dem Atlantischen_Ozean und sind im_Westen von Europa .
 GeographySpa: Canarias está en_el_centro del océano_Atlántico y está al_oeste de Europa .
 
 
 Geography: baseText (sText (s (np_coord_VPS Pyrenees_NP and_Conj (BaseVPS (vp_as_posVPS (a2VP eastern_of_A2 Atlantic_Ocean_NP)) (vp_as_posVPS (a2VP in_the_middle_of_A2 Spain_NP))))))
-GeographyAce: the Pyrenees are in_the_east-of the Atlantic_Ocean and are in_the_middle-of Spain .
+GeographyAce: the Pyrenees are in_the_east_of the Atlantic_Ocean and are in_the_middle_of Spain .
 GeographyApe: the Pyrenees|pndef_pl|Pyrenees_PN|neutr are in_the_east-of|adj_tr|in_the_east-of_A2|of the Atlantic_Ocean|pndef_sg|Atlantic_Ocean_PN|neutr and are in_the_middle-of|adj_tr|in_the_middle-of_A2|of Spain|pn_sg|Spain_PN|neutr .
 GeographyGer: die Pyrenäen sind im_Osten von dem Atlantischen_Ozean und sind in_der_Mitte von Spanien .
 GeographySpa: los Pirineos están al_este del océano_Atlántico y están en_el_centro de España .
 
 
 Geography: baseText (sText (s (vpS (thereNP_as_NP (at_leastNP (digitsCard (IDig D_3)) (cn_as_VarCN country_CN))) (a2VP western_of_A2 Switzerland_NP))))
-GeographyAce: at least 3 countries are in_the_west-of Switzerland .
+GeographyAce: at least 3 countries are in_the_west_of Switzerland .
 GeographyApe: at least 3 countries|noun_pl|country_N|neutr are in_the_west-of|adj_tr|in_the_west-of_A2|of Switzerland|pn_sg|Switzerland_PN|neutr .
 GeographyGer: wenigstens 3 Länder sind im_Westen von der Schweiz .
 GeographySpa: al menos 3 países están al_oeste de Suiza .
 
 
 Geography: baseText (sText (s (vpS Bern_NP (a2VP located_in_A2 Switzerland_NP))))
-GeographyAce: Bern is located-in Switzerland .
+GeographyAce: Bern is located_in Switzerland .
 GeographyApe: Bern|pn_sg|Bern_PN|neutr is located-in|adj_tr|located-in_A2|in Switzerland|pn_sg|Switzerland_PN|neutr .
 GeographyGer: Bern ist platziert in der Schweiz .
 GeographySpa: Berna está situada en Suiza .
@@ -63,7 +63,7 @@ GeographySpa: París rodea a menos que 2 fiordos y exactamente 3 afluentes rodea
 
 
 Geography: baseText (sText (s (vpS __197_land_islands_NP (a2VP longer_than_A2 Emaj__245_gi_NP))))
-GeographyAce: the Åland_islands are longer-than Emajõgi .
+GeographyAce: the Åland_islands are longer_than Emajõgi .
 GeographyApe: the Åland_islands|pndef_pl|Åland_islands_PN|neutr are longer-than|adj_tr|longer-than_A2|than Emajõgi|pn_sg|Emajõgi_PN|neutr .
 GeographyGer: die Åland-Inseln sind länger als Embach .
 GeographySpa: las islas_de_Åland son más_largas que el Emajogi .
@@ -133,7 +133,7 @@ GeographySpa: hay más que 3 lugares que rodean a se .
 
 
 Geography: baseText (sText (s (thereNP (more_thanNP (digitsCard (IDig D_3)) (relCN (cn_as_VarCN location_CN) (neg_predRS which_RP (refl_a2VP longer_than_A2)))))))
-GeographyAce: there are more than 3 locations that aren't longer-than themselves .
+GeographyAce: there are more than 3 locations that aren't longer_than themselves .
 GeographyApe: there are more than 3 locations|noun_pl|location_N|neutr that aren't longer-than|adj_tr|longer-than_A2|than themselves .
 GeographyGer: es gibt mehr als 3 Orte , die nicht länger als es sind .
 GeographySpa: hay más que 3 lugares que no son más_largos que sí .
@@ -238,7 +238,7 @@ GeographySpa: ningún río desemboca en se .
 
 
 Geography: baseText (sText (s (vpS (indefPronNP nothing_IPron) (refl_a2VP larger_than_A2))))
-GeographyAce: nothing is larger-than itself .
+GeographyAce: nothing is larger_than itself .
 GeographyApe: nothing is larger-than|adj_tr|larger-than_A2|than itself .
 GeographyGer: nichts ist größer als es .
 GeographySpa: nada es mayor que sí .
@@ -328,13 +328,13 @@ GeographySpa: como máximo 0 ciudades son una capital .
 
 
 Geography: baseText (sText (s (vpS (everyNP (apposVarCN country_CN X_Var)) (a2VP northern_of_A2 (everyNP (relCN (cn_as_VarCN country_CN) (predRS which_RP (a2VP southern_of_A2 (termNP X_Var)))))))))
-GeographyAce: every country X is in_the_north-of every country that is in_the_south-of X .
+GeographyAce: every country X is in_the_north_of every country that is in_the_south_of X .
 GeographyApe: every country|noun_sg|country_N|neutr X is in_the_north-of|adj_tr|in_the_north-of_A2|of every country|noun_sg|country_N|neutr that is in_the_south-of|adj_tr|in_the_south-of_A2|of X .
 GeographyGer: jedes Land X ist im_Norden von jedem Land , das im_Süden von X ist .
 GeographySpa: cada país X está al_norte de cada país que está al_sur de X .
 
 Geography: baseText (sText (s (vpS (everyNP (apposVarCN country_CN X_Var)) (a2VP northern_of_A2 (relNP (everyNP (cn_as_VarCN country_CN)) (predRS which_RP (a2VP southern_of_A2 (termNP X_Var))))))))
-GeographyAce: every country X is in_the_north-of every country that is in_the_south-of X .
+GeographyAce: every country X is in_the_north_of every country that is in_the_south_of X .
 GeographyApe: every country|noun_sg|country_N|neutr X is in_the_north-of|adj_tr|in_the_north-of_A2|of every country|noun_sg|country_N|neutr that is in_the_south-of|adj_tr|in_the_south-of_A2|of X .
 GeographyGer: jedes Land X ist im_Norden von jedem Land , das im_Süden von X ist .
 GeographySpa: cada país X está al_norte de cada país que está al_sur de X .

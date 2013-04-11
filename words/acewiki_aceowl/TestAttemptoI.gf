@@ -16,7 +16,7 @@ ask_V2 = aceV2 "ask" "asks" "asked" ;
 
 wait_V = mkV "wait" "waits" "waited" "waited" "~" ;
 mad_A = mkA "mad" "madder*" ;
-mad_about_A2 = aceA2 mad_A (mkPrep "about") ;
+mad_about_A2 = aceA2 "mad-about" ;
 happy_A = mkA "happy" "happier" ;
 
 }
