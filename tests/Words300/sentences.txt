@@ -33,6 +33,8 @@ everything that fears at least 2 policemen is a bird .
 everything that at least 2 birds fear is a policeman .
 every bird sees at most 1 airplane .
 everything that is a horse or that is a bird sees at most 2 airplanes .
+no tail hates itself .
+every dog finds himself .
 if X sees Y then Y does not find X .
 if X sees something that sees Y then X sees Y .
 if X hates Y then X sees Y .
@@ -50,6 +52,8 @@ what is feared by John ?
 which cats are not bitten by Paris ?
 what is seen by every dog ?
 which dog is found by something X ?
+John is not found by what ?
+which dog finds itself ?
 John pushes a tail of a dog .
 John is a dog of Paris .
 every tail of a cat is seen by Paris .

@@ -45,7 +45,7 @@ TODO
 ----
 
   - think about Ace, Ape, Eng
-  - `question_N` and `reason_N` missing in LexiconSpa
+  - `question_N` and `reason_N` missing in some languages (`pg -missing`)
   - think about adding
     - N2, N3, V2Q, etc.
     - A2 (supported by ACE-in-GF)

@@ -72,7 +72,13 @@ pgf_ontograph_40:
 pgf_Geography:
 	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf)
 
-pgf_Geography_evaluation: modify_Geography pgf_Geography restore_Geography
+# Compile Geography with Sentence as startcat.
+# This gives a smaller PGF (with optimized compilation).
+# TODO: investigate: 'pg -funs' still returns all the functions, even those that cannot be used
+pgf_Geography_Sentence:
+	gf --make --path=$(path) --startcat=Sentence --optimize-pgf --mk-index $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf)
+
+pgf_Geography_evaluation: modify_Geography pgf_Geography_Sentence restore_Geography
 
 # Removes some functions from the grammar and stores the result into words/Geography/
 # so that the compiler sees it first there.
@@ -180,14 +186,9 @@ test_precision_range:
 	bash run-precision-test.bash 100 6
 	bash run-precision-test.bash 100 7
 
-gr_Words300: pgf_Words300
-	echo "gr -lang=Words300Ace -cat=S -number=5 -probs=probs/combined.probs | l -treebank -bind" | gf --run Words300.pgf
-	echo "gr -lang=Words300Ace -cat=QS -number=5 -probs=probs/combined.probs | l -treebank -bind" | gf --run Words300.pgf
-
-gr_Words300_with_abstract: pgf_Words300
-	rm -f $(Words300).tb
-	echo "gr -cat=S -number=100 -probs=probs/combined.probs" | gf --run --path=$(path) grammars/acewiki_aceowl/Attempto.gf words/$(Words300)/$(Words300).gf > $(Words300).tb
-	echo "rf -file=$(Words300).tb -lines -tree | l -treebank -bind" | gf --run Words300.pgf
+# List all the functions in Words300
+pg_funs_Words300: pgf_Words300
+	echo "pg -funs" | gf --run Words300.pgf
 
 Parser: Parser.hs
 	ghc --make -o Parser Parser.hs

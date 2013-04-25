@@ -685,7 +685,7 @@ TestAttemptoSwe: allting , som är en resenär eller som är en befäl ser högs
 TestAttempto: baseText (sText (s (vpS (noNP (cn_as_VarCN picture_N)) (refl_v2VP (V2by_as_V2 admire_V2)))))
 TestAttemptoAce: no picture admires itself .
 TestAttemptoApe: no picture|noun_sg|picture_N|neutr admires|tv_finsg|admire_V2 itself .
-TestAttemptoCat: cap imatge se admira .
+TestAttemptoCat: cap imatge es admira .
 TestAttemptoDan: 
 TestAttemptoDut: geen schilderij bewondert zich .
 TestAttemptoEng: no picture admires itself .
@@ -704,7 +704,7 @@ TestAttemptoSwe: ingen bild beundrar sig .
 TestAttempto: baseText (sText (s (vpS (everyNP (cn_as_VarCN man_N)) (refl_v2VP (V2by_as_V2 love_V2)))))
 TestAttemptoAce: every man loves himself .
 TestAttemptoApe: every man|noun_sg|man_N|masc loves|tv_finsg|love_V2 himself .
-TestAttemptoCat: cada home se estima .
+TestAttemptoCat: cada home es estima .
 TestAttemptoDan: hver mand elsker sig .
 TestAttemptoDut: elke man heeft zich lief .
 TestAttemptoEng: every man loves himself .
@@ -1065,7 +1065,7 @@ TestAttemptoSwe: John blir inte älskad av vem ?
 TestAttempto: baseText (qsText (qs (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN man_N))) (refl_v2VP (V2by_as_V2 love_V2)))))
 TestAttemptoAce: which man loves itself ?
 TestAttemptoApe: which man|noun_sg|man_N|masc loves|tv_finsg|love_V2 itself ?
-TestAttemptoCat: quin home se estima ?
+TestAttemptoCat: quin home es estima ?
 TestAttemptoDan: hvilken mand elsker sig ?
 TestAttemptoDut: welke man heeft zich lief ?
 TestAttemptoEng: which man loves itself ?
