@@ -106,6 +106,12 @@ Example of translating an ACE sentence to other languages.
 Testing
 -------
 
+### Requirements
+
+Some tools need to be installed and available on the PATH:
+
+  - GF-Utils, <https://github.com/Kaljurand/GF-Utils>
+
 ### Parsing ACE sentences
 
 The commands
@@ -163,6 +169,10 @@ Currently this results in (TODO: fix these):
 	if X sees somebody who sees Y ...  ->  if X sees somebody who Y sees ... (word order changes, in Ger and Dut)
 	what does Tom buy ?  ->  what buys Tom ? (word order changes, all langs but ACE and Eng)
 
+### Coverage of tree generators
+
+  - `coverage_acewiki_aceowl_save`
+  - `coverage_ontograph_ext_save`
 
 Changing
 --------

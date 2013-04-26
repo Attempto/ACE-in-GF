@@ -74,6 +74,120 @@ TestAttemptoRus: [np_coord_VPS] .
 TestAttemptoSpa: Sue es un funcionario y es un viajero .
 TestAttemptoSwe: Sue är en befäl och är en resenär .
 
+TestAttempto: baseText (sText (s (vpS (pnNP mary_PN) (npVP (relNP (thereNP_as_NP (aNP (cn_as_VarCN woman_N))) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))))))
+TestAttemptoAce: Mary is a woman that is an officer or that is a golfer .
+TestAttemptoApe: Mary|pn_sg|Mary_PN|neutr is a woman|noun_sg|woman_N|fem that is an officer|noun_sg|officer_N|masc or that is a golfer|noun_sg|golfer_N|masc .
+TestAttemptoCat: Mary és una dona que és un oficial o que és una golfista .
+TestAttemptoDan: Mary er en kvinde , som er en officer eller som er en golfspiller .
+TestAttemptoDut: Mary is een vrouw , dat een officier is of dat een golfer is .
+TestAttemptoEng: Mary is a woman that is an officer or that is a golfer .
+TestAttemptoFin: Mary on nainen , joka on upseeri tai joka on golfaaja .
+TestAttemptoFre: Mary est une femme qui est un officier ou qui est un golfeur .
+TestAttemptoGer: Mary ist eine Frau , die ein Offizier ist oder die ein Golfer ist .
+TestAttemptoIta: Mary è una donna che è un ufficiale o che è un giocatore di golf .
+TestAttemptoLav: Mērija ir sieviete , kas ir amatpersona vai kas ir golferis .
+TestAttemptoNor: Mary er ei kvinne , som er en offiser eller som er en golfspiller .
+TestAttemptoPol: Paryż jest kobietą , która jest mężczyzną lub , która jest mężczyzną .
+TestAttemptoRon: Mary este o femeie care este un ofițer sau care este un jucător de golf .
+TestAttemptoRus: Mary женщина , которая офицер или , которая игрок в гольф .
+TestAttemptoSpa: Mary es una mujer que es un funcionario o que es una golfista .
+TestAttemptoSwe: Mary är en kvinna , som är en befäl eller som är ett golfspelare .
+
+TestAttempto: baseText (sText (s (vpS (pnNP mary_PN) (npVP (thereNP_as_NP (aNP (relCN (cn_as_VarCN woman_N) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))))))))
+TestAttemptoAce: Mary is a woman that is an officer or that is a golfer .
+TestAttemptoApe: Mary|pn_sg|Mary_PN|neutr is a woman|noun_sg|woman_N|fem that is an officer|noun_sg|officer_N|masc or that is a golfer|noun_sg|golfer_N|masc .
+TestAttemptoCat: Mary és una dona que és un oficial o que és una golfista .
+TestAttemptoDan: Mary er en kvinde som er en officer eller som er en golfspiller .
+TestAttemptoDut: Mary is een vrouw die een officier is of die een golfer is .
+TestAttemptoEng: Mary is a woman that is an officer or that is a golfer .
+TestAttemptoFin: Mary on nainen joka on upseeri tai joka on golfaaja .
+TestAttemptoFre: Mary est une femme qui est un officier ou qui est un golfeur .
+TestAttemptoGer: Mary ist eine Frau , die ein Offizier ist oder die ein Golfer ist .
+TestAttemptoIta: Mary è una donna che è un ufficiale o che è un giocatore di golf .
+TestAttemptoLav: Mērija ir sieviete , kas ir amatpersona vai kas ir golferis .
+TestAttemptoNor: Mary er ei kvinne som er en offiser eller som er en golfspiller .
+TestAttemptoPol: Paryż jest kobietą , która jest mężczyzną lub , która jest mężczyzną .
+TestAttemptoRon: Mary este o femeie care este un ofițer sau care este un jucător de golf .
+TestAttemptoRus: Mary женщина , которая офицер или , которая игрок в гольф .
+TestAttemptoSpa: Mary es una mujer que es un funcionario o que es una golfista .
+TestAttemptoSwe: Mary är en kvinna som är en befäl eller som är ett golfspelare .
+
+TestAttempto: baseText (sText (s (vpS (pnNP john_PN) (npVP (relNP (thereNP_as_NP (aNP (cn_as_VarCN man_N))) (andRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))))
+TestAttemptoAce: John is a man that is an officer and that is a traveler .
+TestAttemptoApe: John|pn_sg|John_PN|masc is a man|noun_sg|man_N|masc that is an officer|noun_sg|officer_N|masc and that is a traveler|noun_sg|traveler_N|masc .
+TestAttemptoCat: John és un home que és un oficial i que és un viatger .
+TestAttemptoDan: John er en mand , som er en officer og som er en rejsende .
+TestAttemptoDut: John is een man , dat een officier is en dat een reiziger is .
+TestAttemptoEng: John is a man that is an officer and that is a traveler .
+TestAttemptoFin: John on mies , joka on upseeri ja joka on matkustaja .
+TestAttemptoFre: John est un homme qui est un officier et qui est un voyageur .
+TestAttemptoGer: John ist ein Mann , der ein Offizier ist und der ein Reisende ist .
+TestAttemptoIta: John è un uomo che è un ufficiale e che è un viaggiatore .
+TestAttemptoLav: Džons ir vīrietis , kas ir amatpersona un kas ir ceļotājs .
+TestAttemptoNor: John er en mann , som er en offiser og som er ei reisende .
+TestAttemptoPol: Jan jest mężczyzną , który jest mężczyzną i , który jest mężczyzną .
+TestAttemptoRon: John este un om care este un ofițer şi care este un călător .
+TestAttemptoRus: Иван человек , который офицер и , который путешественник .
+TestAttemptoSpa: John es un hombre que es un funcionario y que es un viajero .
+TestAttemptoSwe: John är en man , som är en befäl och som är en resenär .
+
+TestAttempto: baseText (sText (s (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (relCN (cn_as_VarCN man_N) (andRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N)))))))))))))
+TestAttemptoAce: John is a man that is an officer and that is a traveler .
+TestAttemptoApe: John|pn_sg|John_PN|masc is a man|noun_sg|man_N|masc that is an officer|noun_sg|officer_N|masc and that is a traveler|noun_sg|traveler_N|masc .
+TestAttemptoCat: John és un home que és un oficial i que és un viatger .
+TestAttemptoDan: John er en mand som er en officer og som er en rejsende .
+TestAttemptoDut: John is een man die een officier is en die een reiziger is .
+TestAttemptoEng: John is a man that is an officer and that is a traveler .
+TestAttemptoFin: John on mies joka on upseeri ja joka on matkustaja .
+TestAttemptoFre: John est un homme qui est un officier et qui est un voyageur .
+TestAttemptoGer: John ist ein Mann , der ein Offizier ist und der ein Reisende ist .
+TestAttemptoIta: John è un uomo che è un ufficiale e che è un viaggiatore .
+TestAttemptoLav: Džons ir vīrietis , kas ir amatpersona un kas ir ceļotājs .
+TestAttemptoNor: John er en mann som er en offiser og som er ei reisende .
+TestAttemptoPol: Jan jest mężczyzną , który jest mężczyzną i , który jest mężczyzną .
+TestAttemptoRon: John este un om care este un ofițer şi care este un călător .
+TestAttemptoRus: Иван человек , который офицер и , который путешественник .
+TestAttemptoSpa: John es un hombre que es un funcionario y que es un viajero .
+TestAttemptoSwe: John är en man som är en befäl och som är en resenär .
+
+TestAttempto: baseText (sText (s (vpS (pnNP john_PN) (npVP (relNP (thereNP_as_NP (aNP (cn_as_VarCN man_N))) (andRS (predRS which_RP (v2VP (V2by_as_V2 admire_V2) (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))) (V2by_as_V2 see_V2))))))))
+TestAttemptoAce: John is a man that admires an officer and that a traveler sees .
+TestAttemptoApe: John|pn_sg|John_PN|masc is a man|noun_sg|man_N|masc that admires|tv_finsg|admire_V2 an officer|noun_sg|officer_N|masc and that a traveler|noun_sg|traveler_N|masc sees|tv_finsg|see_V2 .
+TestAttemptoCat: John és un home que admira un oficial i que un viatger veu .
+TestAttemptoDan: John er en mand , som beundrer en officer og som en rejsende ser .
+TestAttemptoDut: John is een man , dat een officier bewondert en dat een reiziger ziet .
+TestAttemptoEng: John is a man that admires an officer and that a traveler sees .
+TestAttemptoFin: John on mies , joka ihailee upseerin ja jonka matkustaja näkee .
+TestAttemptoFre: John est un homme qui admire un officier et qu' un voyageur voit .
+TestAttemptoGer: John ist ein Mann , der einen Offizier bewundert und den ein Reisende sieht .
+TestAttemptoIta: John è un uomo che ammira un ufficiale e che un viaggiatore vede .
+TestAttemptoLav: Džons ir vīrietis , kas apbrīno amatpersonu un ko ceļotājs redz .
+TestAttemptoNor: John er en mann , som beundrer en offiser og som ei reisende ser .
+TestAttemptoPol: Jan jest mężczyzną , który czyta mężczyznę i , którego widzi mężczyzna .
+TestAttemptoRon: John este un om care admirează un ofițer şi pe care îl vede un călător .
+TestAttemptoRus: Иван человек , который боет офицер и , которого путешественник видит .
+TestAttemptoSpa: John es un hombre que admira un funcionario y que un viajero ve .
+TestAttemptoSwe: John är en man , som beundrar en befäl och som en resenär ser .
+
+TestAttempto: baseText (sText (s (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (relCN (cn_as_VarCN man_N) (andRS (predRS which_RP (v2VP (V2by_as_V2 admire_V2) (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))) (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))) (V2by_as_V2 see_V2))))))))))
+TestAttemptoAce: John is a man that admires an officer and that a traveler sees .
+TestAttemptoApe: John|pn_sg|John_PN|masc is a man|noun_sg|man_N|masc that admires|tv_finsg|admire_V2 an officer|noun_sg|officer_N|masc and that a traveler|noun_sg|traveler_N|masc sees|tv_finsg|see_V2 .
+TestAttemptoCat: John és un home que admira un oficial i que un viatger veu .
+TestAttemptoDan: John er en mand som beundrer en officer og som en rejsende ser .
+TestAttemptoDut: John is een man die een officier bewondert en die een reiziger ziet .
+TestAttemptoEng: John is a man that admires an officer and that a traveler sees .
+TestAttemptoFin: John on mies joka ihailee upseerin ja jonka matkustaja näkee .
+TestAttemptoFre: John est un homme qui admire un officier et qu' un voyageur voit .
+TestAttemptoGer: John ist ein Mann , der einen Offizier bewundert und den ein Reisende sieht .
+TestAttemptoIta: John è un uomo che ammira un ufficiale e che un viaggiatore vede .
+TestAttemptoLav: Džons ir vīrietis , kas apbrīno amatpersonu un ko ceļotājs redz .
+TestAttemptoNor: John er en mann som beundrer en offiser og som ei reisende ser .
+TestAttemptoPol: Jan jest mężczyzną , który czyta mężczyznę i , którego widzi mężczyzna .
+TestAttemptoRon: John este un om care admirează un ofițer şi pe care îl vede un călător .
+TestAttemptoRus: Иван человек , который боет офицер и , которого путешественник видит .
+TestAttemptoSpa: John es un hombre que admira un funcionario y que un viajero ve .
+TestAttemptoSwe: John är en man som beundrar en befäl och som en resenär ser .
+
 TestAttempto: baseText (sText (s (vpS (everyNP (cn_as_VarCN man_N)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N)))))))
 TestAttemptoAce: every man is a golfer .
 TestAttemptoApe: every man|noun_sg|man_N|masc is a golfer|noun_sg|golfer_N|masc .
@@ -1384,5 +1498,423 @@ TestAttemptoRon: este fals cã există cel puţin 1 om .
 TestAttemptoRus: неверно , что существует по крайней мере 1 человек .
 TestAttemptoSpa: es falso que hay al menos 1 hombre .
 TestAttemptoSwe: det är falskt att det finns minst 1 man .
+
+TestAttempto: baseText (sText (s (for_everyS (apposVarCN traveler_N X_Var) (vpS (indefPronNP everybody_IPron) (v2VP (V2by_as_V2 admire_V2) (termNP X_Var))))))
+TestAttemptoAce: for every traveler X everybody admires X .
+TestAttemptoApe: for every traveler|noun_sg|traveler_N|masc X everybody admires|tv_finsg|admire_V2 X .
+TestAttemptoCat: per a cada viatger X tothom admira X .
+TestAttemptoDan: for hver rejsende X beundrer alle X .
+TestAttemptoDut: voor elke reiziger X bewonderen alle X .
+TestAttemptoEng: for every traveler X everybody admires X .
+TestAttemptoFin: jokaiselle matkustajalle X jokainen ihailee X:n .
+TestAttemptoFre: pour chaque voyageur X tout le monde admire X .
+TestAttemptoGer: für jeden Reisenden X bewundert jeder X .
+TestAttemptoIta: per ogni viaggiatore X tutti ammirano X .
+TestAttemptoLav: NON_EXISTENT .
+TestAttemptoNor: for hver reisende X beundrer alle X .
+TestAttemptoPol: dla każdego mężczyzny X wszyscy czytają X .
+TestAttemptoRon: pentru orice călător X toţi îl admirează pe X .
+TestAttemptoRus: для каждого путешественника X все боют X .
+TestAttemptoSpa: para cada viajero X todos admiran X .
+TestAttemptoSwe: för varje resenär X beundrar alla X .
+
+TestAttempto: baseText (sText (s (vpS (indefPronVarNP everything_IPron X_Var) (npVP (thereNP_as_NP (aNP (cn_as_VarCN picture_N)))))))
+TestAttemptoAce: everything X is a picture .
+TestAttemptoApe: everything X is a picture|noun_sg|picture_N|neutr .
+TestAttemptoCat: X és un imatge .
+TestAttemptoDan: X er en billede .
+TestAttemptoDut: X is een schilderij .
+TestAttemptoEng: everything X is a picture .
+TestAttemptoFin: kaikki X on kuva .
+TestAttemptoFre: X est une image .
+TestAttemptoGer: X ist ein Bild .
+TestAttemptoIta: X è un immagine .
+TestAttemptoLav: X ir attēls .
+TestAttemptoNor: X er ei bilde .
+TestAttemptoPol: X jest mężczyzną .
+TestAttemptoRon: 
+TestAttemptoRus: X картина .
+TestAttemptoSpa: X es un imagen .
+TestAttemptoSwe: X är en bild .
+
+TestAttempto: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 admire_V2) (relNP (thereNP_as_NP (aNP (cn_as_VarCN woman_N))) (neg_slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))) (V2by_as_V2 love_V2)))))))
+TestAttemptoAce: John admires a woman that a golfer doesn't love .
+TestAttemptoApe: John|pn_sg|John_PN|masc admires|tv_finsg|admire_V2 a woman|noun_sg|woman_N|fem that a golfer|noun_sg|golfer_N|masc doesn't love|tv_infpl|love_V2 .
+TestAttemptoCat: John admira una dona que una golfista no estima .
+TestAttemptoDan: John beundrer en kvinde , som en golfspiller ikke elsker .
+TestAttemptoDut: John bewondert een vrouw , dat een golfer niet lief heeft .
+TestAttemptoEng: John admires a woman that a golfer doesn't love .
+TestAttemptoFin: John ihailee naisen , jota golfaaja ei rakasta .
+TestAttemptoFre: John admire une femme qu' un golfeur n' aime pas .
+TestAttemptoGer: John bewundert eine Frau , die ein Golfer nicht liebt .
+TestAttemptoIta: John ammira una donna che un giocatore di golf non ama .
+TestAttemptoLav: Džons apbrīno sievieti , ko golferis nemīl .
+TestAttemptoNor: John beundrer ei kvinne , som en golfspiller ikke elsker .
+TestAttemptoPol: Jan czyta kobietę , której nie kocha mężczyzna .
+TestAttemptoRon: John admirează o femeie pe care nu o iubeşte un jucător de golf .
+TestAttemptoRus: Иван боет женщину , которую игрок в гольф не любдит .
+TestAttemptoSpa: John admira una mujer que una golfista no ama .
+TestAttemptoSwe: John beundrar en kvinna , som ett golfspelare inte älskar .
+
+TestAttempto: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 admire_V2) (thereNP_as_NP (aNP (relCN (cn_as_VarCN woman_N) (neg_slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))) (V2by_as_V2 love_V2)))))))))
+TestAttemptoAce: John admires a woman that a golfer doesn't love .
+TestAttemptoApe: John|pn_sg|John_PN|masc admires|tv_finsg|admire_V2 a woman|noun_sg|woman_N|fem that a golfer|noun_sg|golfer_N|masc doesn't love|tv_infpl|love_V2 .
+TestAttemptoCat: John admira una dona que una golfista no estima .
+TestAttemptoDan: John beundrer en kvinde som en golfspiller ikke elsker .
+TestAttemptoDut: John bewondert een vrouw die een golfer niet lief heeft .
+TestAttemptoEng: John admires a woman that a golfer doesn't love .
+TestAttemptoFin: John ihailee naisen jota golfaaja ei rakasta .
+TestAttemptoFre: John admire une femme qu' un golfeur n' aime pas .
+TestAttemptoGer: John bewundert eine Frau , die ein Golfer nicht liebt .
+TestAttemptoIta: John ammira una donna che un giocatore di golf non ama .
+TestAttemptoLav: Džons apbrīno sievieti , ko golferis nemīl .
+TestAttemptoNor: John beundrer ei kvinne som en golfspiller ikke elsker .
+TestAttemptoPol: Jan czyta kobietę , której nie kocha mężczyzna .
+TestAttemptoRon: John admirează o femeie pe care nu o iubeşte un jucător de golf .
+TestAttemptoRus: Иван боет женщину , которую игрок в гольф не любдит .
+TestAttemptoSpa: John admira una mujer que una golfista no ama .
+TestAttemptoSwe: John beundrar en kvinna som ett golfspelare inte älskar .
+
+TestAttempto: baseText (sText (s (np_coord_VPS (pnNP john_PN) and_Conj (BaseVPS (vp_as_posVPS (v2VP (V2by_as_V2 buy_V2) (thereNP_as_NP (aNP (cn_as_VarCN picture_N))))) (vp_as_negVPS (v2VP (V2by_as_V2 buy_V2) (thereNP_as_NP (aNP (cn_as_VarCN present_N)))))))))
+TestAttemptoAce: John buys a picture and doesn't buy a present .
+TestAttemptoApe: John|pn_sg|John_PN|masc buys|tv_finsg|buy_V2 a picture|noun_sg|picture_N|neutr and doesn't buy|tv_infpl|buy_V2 a present|noun_sg|present_N|neutr .
+TestAttemptoCat: John compra un imatge i no compra un presentar .
+TestAttemptoDan: John køber en billede og køber ikke en gave .
+TestAttemptoDut: John koopt een schilderij en koopt niet een cadeau .
+TestAttemptoEng: John buys a picture and doesn't buy a present .
+TestAttemptoFin: John ostaa kuvan ja ei osta lahjaa .
+TestAttemptoFre: John achète une image et il n' achète pas un cadeau .
+TestAttemptoGer: John kauft ein Bild und kauft nicht ein Geschenk .
+TestAttemptoIta: John compra un immagine e non compra un regalo .
+TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoNor: John kjøper ei bilde og kjøper ikke ei gave .
+TestAttemptoPol: [np_coord_VPS] .
+TestAttemptoRon: [np_coord_VPS] .
+TestAttemptoRus: [np_coord_VPS] .
+TestAttemptoSpa: John compra un imagen y no compra un regalo .
+TestAttemptoSwe: John köper en bild och köper inte en present .
+
+TestAttempto: baseText (sText (s (np_coord_VPS (pnNP john_PN) and_Conj (ConsVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N))))) (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN officer_N))))))))))
+TestAttemptoAce: John is a man , is a golfer and is an officer .
+TestAttemptoApe: John|pn_sg|John_PN|masc is a man|noun_sg|man_N|masc , is a golfer|noun_sg|golfer_N|masc and is an officer|noun_sg|officer_N|masc .
+TestAttemptoCat: John és un home i és una golfista és un oficial .
+TestAttemptoDan: John er en mand , er en golfspiller og er en officer .
+TestAttemptoDut: John is een man , is een golfer en is een officier .
+TestAttemptoEng: John is a man , is a golfer and is an officer .
+TestAttemptoFin: John on mies , on golfaaja ja on upseeri .
+TestAttemptoFre: John est un homme et il est un golfeur il est un officier .
+TestAttemptoGer: John ist ein Mann , ist ein Golfer und ist ein Offizier .
+TestAttemptoIta: John è un uomo ed è un giocatore di golf è un ufficiale .
+TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoNor: John er en mann , er en golfspiller og er en offiser .
+TestAttemptoPol: [np_coord_VPS] .
+TestAttemptoRon: [np_coord_VPS] .
+TestAttemptoRus: [np_coord_VPS] .
+TestAttemptoSpa: John es un hombre y es una golfista es un funcionario .
+TestAttemptoSwe: John är en man , är ett golfspelare och är en befäl .
+
+TestAttempto: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 admire_V2) (thereNP_as_NP (exactlyNP (digitsCard (IIDig D_1 (IIDig D_2 (IIDig D_3 (IIDig D_4 (IIDig D_5 (IIDig D_6 (IIDig D_7 (IIDig D_8 (IIDig D_9 (IDig D_0))))))))))) (cn_as_VarCN picture_N)))))))
+TestAttemptoAce: John admires exactly 1 2 3 4 5 6 7 8 9 0 pictures .
+TestAttemptoApe: John|pn_sg|John_PN|masc admires|tv_finsg|admire_V2 exactly 1 2 3 4 5 6 7 8 9 0 pictures|noun_pl|picture_N|neutr .
+TestAttemptoCat: John admira exactament 1 2 3 4 5 6 7 8 9 0 imatges .
+TestAttemptoDan: John beundrer præcis 1 2 3 4 5 6 7 8 9 0 billeder .
+TestAttemptoDut: John bewondert precies 1 2 3 4 5 6 7 8 9 0 schilderijen .
+TestAttemptoEng: John admires exactly 1 2 3 4 5 6 7 8 9 0 pictures .
+TestAttemptoFin: John ihailee tasan 1 2 3 4 5 6 7 8 9 0 kuvaa .
+TestAttemptoFre: John admire exactement 1 2 3 4 5 6 7 8 9 0 images .
+TestAttemptoGer: John bewundert genau 1 2 3 4 5 6 7 8 9 0 Bilder .
+TestAttemptoIta: John ammira esattamente 1 2 3 4 5 6 7 8 9 0 immagini .
+TestAttemptoLav: Džons apbrīno tieši 1 2 3 4 5 6 7 8 9 0 attēlus .
+TestAttemptoNor: John beundrer nøyaktig 1 2 3 4 5 6 7 8 9 0 bilder .
+TestAttemptoPol: Jan czyta dokładnie 1 2 3 4 5 6 7 8 9 0 mężczyzn .
+TestAttemptoRon: John admirează exact 1 2 3 4 5 6 7 8 9 0 de imagini .
+TestAttemptoRus: Иван боет ровно 1 2 3 4 5 6 7 8 9 0 картины .
+TestAttemptoSpa: John admira exactamente 1 2 3 4 5 6 7 8 9 0 imagenes .
+TestAttemptoSwe: John beundrar exakt 1 2 3 4 5 6 7 8 9 0 bildar .
+
+TestAttempto: consText (sText (s (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N))))))) (baseText (qsText (qs (npqQS (ipNPQ whoSg_IP) (npVP (pnNP mary_PN))))))
+TestAttemptoAce: John is a man . who is Mary ?
+TestAttemptoApe: John|pn_sg|John_PN|masc is a man|noun_sg|man_N|masc . who is Mary|pn_sg|Mary_PN|neutr ?
+TestAttemptoCat: John és un home . qui és Mary ?
+TestAttemptoDan: John er en mand . hvem er Mary ?
+TestAttemptoDut: John is een man . wie is Mary ?
+TestAttemptoEng: John is a man . who is Mary ?
+TestAttemptoFin: John on mies . kuka on Mary ?
+TestAttemptoFre: John est un homme . qui est Mary ?
+TestAttemptoGer: John ist ein Mann . wer ist Mary ?
+TestAttemptoIta: John è un uomo . chi è Mary ?
+TestAttemptoLav: Džons ir vīrietis . [npqQS] ?
+TestAttemptoNor: John er en mann . hvem er Mary ?
+TestAttemptoPol: Jan jest mężczyzną . [npqQS] ?
+TestAttemptoRon: John este un om . [npqQS] ?
+TestAttemptoRus: Иван человек . [npqQS] ?
+TestAttemptoSpa: John es un hombre . ¿ quién es Mary ?
+TestAttemptoSwe: John är en man . vem är Mary ?
+
+TestAttempto: baseText (qsText (qs (neg_vpqQS (pnNP john_PN) (npqVPQ (ipNPQ whatSg_IP)))))
+TestAttemptoAce: John isn't what ?
+TestAttemptoApe: John|pn_sg|John_PN|masc isn't what ?
+TestAttemptoCat: John no és què ?
+TestAttemptoDan: John er ikke hvad ?
+TestAttemptoDut: John is niet wat ?
+TestAttemptoEng: John isn't what ?
+TestAttemptoFin: John ei ole mikä ?
+TestAttemptoFre: John n' est pas que ?
+TestAttemptoGer: John ist nicht was ?
+TestAttemptoIta: John non è che ?
+TestAttemptoLav: [neg_vpqQS] ?
+TestAttemptoNor: John er ikke hva ?
+TestAttemptoPol: [neg_vpqQS] ?
+TestAttemptoRon: [neg_vpqQS] ?
+TestAttemptoRus: [neg_vpqQS] ?
+TestAttemptoSpa: ¿ John no es qué ?
+TestAttemptoSwe: John är inte vad ?
+
+TestAttempto: baseText (qsText (qs (vpqQS (pnNP john_PN) (npqVPQ (aNPQ (ofnpqCN (cn_as_VarCN man_N) (ipNPQ whatSg_IP)))))))
+TestAttemptoAce: John is a man of what ?
+TestAttemptoApe: John|pn_sg|John_PN|masc is a man|noun_sg|man_N|masc of what ?
+TestAttemptoCat: John és un home de què ?
+TestAttemptoDan: John er en mand af hvad ?
+TestAttemptoDut: John is een man van wat ?
+TestAttemptoEng: John is a man of what ?
+TestAttemptoFin: John on minkä mies ?
+TestAttemptoFre: John est un homme de que ?
+TestAttemptoGer: John ist ein Mann was ?
+TestAttemptoIta: John è un uomo di che ?
+TestAttemptoLav: [vpqQS] ?
+TestAttemptoNor: John er en mann av hva ?
+TestAttemptoPol: [vpqQS] ?
+TestAttemptoRon: [vpqQS] ?
+TestAttemptoRus: [vpqQS] ?
+TestAttemptoSpa: ¿ John es un hombre de qué ?
+TestAttemptoSwe: John är en man av vad ?
+
+TestAttempto: baseText (qsText (qs (vpqQS (pnNP john_PN) (npqVPQ (theNPQ (ofnpqCN (cn_as_VarCN person_N) (ipNPQ whatSg_IP)))))))
+TestAttemptoAce: John is the person of what ?
+TestAttemptoApe: John|pn_sg|John_PN|masc is the person|noun_sg|person_N|masc of what ?
+TestAttemptoCat: John és la persona de què ?
+TestAttemptoDan: John er personen af hvad ?
+TestAttemptoDut: John is de persoon van wat ?
+TestAttemptoEng: John is the person of what ?
+TestAttemptoFin: John on minkä henkilö ?
+TestAttemptoFre: John est la personne de que ?
+TestAttemptoGer: John ist die Person was ?
+TestAttemptoIta: John è la persona di che ?
+TestAttemptoLav: [vpqQS] ?
+TestAttemptoNor: John er personen av hva ?
+TestAttemptoPol: [vpqQS] ?
+TestAttemptoRon: [vpqQS] ?
+TestAttemptoRus: [vpqQS] ?
+TestAttemptoSpa: ¿ John es la persona de qué ?
+TestAttemptoSwe: John är personen av vad ?
+
+TestAttempto: baseText (qsText (qs (vpqQS (pnNP john_PN) (npqVPQ (everyNPQ (ofnpqCN (cn_as_VarCN person_N) (ipNPQ whatSg_IP)))))))
+TestAttemptoAce: John is every person of what ?
+TestAttemptoApe: John|pn_sg|John_PN|masc is every person|noun_sg|person_N|masc of what ?
+TestAttemptoCat: John és cada persona de què ?
+TestAttemptoDan: John er hver person af hvad ?
+TestAttemptoDut: John is elke persoon van wat ?
+TestAttemptoEng: John is every person of what ?
+TestAttemptoFin: John on jokainen minkä henkilö ?
+TestAttemptoFre: John est chaque personne de que ?
+TestAttemptoGer: John ist jede Person was ?
+TestAttemptoIta: John è ogni persona di che ?
+TestAttemptoLav: [vpqQS] ?
+TestAttemptoNor: John er hver person av hva ?
+TestAttemptoPol: [vpqQS] ?
+TestAttemptoRon: [vpqQS] ?
+TestAttemptoRus: [vpqQS] ?
+TestAttemptoSpa: ¿ John es cada persona de qué ?
+TestAttemptoSwe: John är varje person av vad ?
+
+TestAttempto: baseText (qsText (qs (vpqQS (pnNP john_PN) (npqVPQ (noNPQ (ofnpqCN (cn_as_VarCN man_N) (ipNPQ whatSg_IP)))))))
+TestAttemptoAce: John is no man of what ?
+TestAttemptoApe: John|pn_sg|John_PN|masc is no man|noun_sg|man_N|masc of what ?
+TestAttemptoCat: John és cap home de què ?
+TestAttemptoDan: 
+TestAttemptoDut: John is geen man van wat ?
+TestAttemptoEng: John is no man of what ?
+TestAttemptoFin: John on mikään minkä mies ?
+TestAttemptoFre: John est aucun homme de que ?
+TestAttemptoGer: John ist kein Mann was ?
+TestAttemptoIta: John è nessuno uomo di che ?
+TestAttemptoLav: [vpqQS] ?
+TestAttemptoNor: 
+TestAttemptoPol: [vpqQS] ?
+TestAttemptoRon: [vpqQS] ?
+TestAttemptoRus: [vpqQS] ?
+TestAttemptoSpa: ¿ John es ningún hombre de qué ?
+TestAttemptoSwe: John är ingen man av vad ?
+
+TestAttempto: baseText (qsText (qs (np_coord_VPSQ (pnNP john_PN) and_Conj (ConsVPSQ (vp_as_posVPSQ (npVP (thereNP_as_NP (aNP (cn_as_VarCN man_N))))) (BaseVPSQ (vp_as_posVPSQ (npVP (thereNP_as_NP (aNP (cn_as_VarCN golfer_N))))) (vpq_as_posVPSQ (npqVPQ (ipNPQ whatSg_IP))))))))
+TestAttemptoAce: John is a man , is a golfer and is what ?
+TestAttemptoApe: John|pn_sg|John_PN|masc is a man|noun_sg|man_N|masc , is a golfer|noun_sg|golfer_N|masc and is what ?
+TestAttemptoCat: John és un home i és una golfista és què ?
+TestAttemptoDan: John er en mand , er en golfspiller og er hvad ?
+TestAttemptoDut: John is een man , is een golfer en is wat ?
+TestAttemptoEng: John is a man , is a golfer and is what ?
+TestAttemptoFin: John on mies , on golfaaja ja on mikä ?
+TestAttemptoFre: John est un homme et il est un golfeur il est que ?
+TestAttemptoGer: John ist ein Mann , ist ein Golfer und ist was ?
+TestAttemptoIta: John è un uomo ed è un giocatore di golf è che ?
+TestAttemptoLav: [np_coord_VPSQ] ?
+TestAttemptoNor: John er en mann , er en golfspiller og er hva ?
+TestAttemptoPol: [np_coord_VPSQ] ?
+TestAttemptoRon: [np_coord_VPSQ] ?
+TestAttemptoRus: [np_coord_VPSQ] ?
+TestAttemptoSpa: ¿ John es un hombre y es una golfista es qué ?
+TestAttemptoSwe: John är en man , är ett golfspelare och är vad ?
+
+TestAttempto: baseText (qsText (qs (vpqQS (pnNP john_PN) (v2VPQ (V2by_as_V2 admire_V2) (relNPQ (thereNP_as_NP (aNP (cn_as_VarCN woman_N))) (slashRSQ which_RP (ipNPQ whoSg_IP) (V2by_as_V2 love_V2)))))))
+TestAttemptoAce: John admires a woman that who loves ?
+TestAttemptoApe: John|pn_sg|John_PN|masc admires|tv_finsg|admire_V2 a woman|noun_sg|woman_N|fem that who loves|tv_finsg|love_V2 ?
+TestAttemptoCat: John admira una dona que qui estima ?
+TestAttemptoDan: John beundrer en kvinde , som hvem elsker ?
+TestAttemptoDut: John bewondert een vrouw , dat wie lief heeft ?
+TestAttemptoEng: John admires a woman that who loves ?
+TestAttemptoFin: John ihailee naisen , jota kuka rakastaa ?
+TestAttemptoFre: John admire une femme que qui aime ?
+TestAttemptoGer: John bewundert eine Frau , die wer liebt ?
+TestAttemptoIta: John ammira una donna che chi ama ?
+TestAttemptoLav: [vpqQS] ?
+TestAttemptoNor: John beundrer ei kvinne , som hvem elsker ?
+TestAttemptoPol: [vpqQS] ?
+TestAttemptoRon: [vpqQS] ?
+TestAttemptoRus: [vpqQS] ?
+TestAttemptoSpa: ¿ John admira una mujer que quién ama ?
+TestAttemptoSwe: John beundrar en kvinna , som vem älskar ?
+
+TestAttempto: baseText (qsText (qs (vpqQS (pnNP john_PN) (v2VPQ (V2by_as_V2 admire_V2) (relNPQ (thereNP_as_NP (aNP (cn_as_VarCN woman_N))) (neg_slashRSQ which_RP (ipNPQ whoSg_IP) (V2by_as_V2 love_V2)))))))
+TestAttemptoAce: John admires a woman that who doesn't love ?
+TestAttemptoApe: John|pn_sg|John_PN|masc admires|tv_finsg|admire_V2 a woman|noun_sg|woman_N|fem that who doesn't love|tv_infpl|love_V2 ?
+TestAttemptoCat: John admira una dona que qui no estima ?
+TestAttemptoDan: John beundrer en kvinde , som hvem ikke elsker ?
+TestAttemptoDut: John bewondert een vrouw , dat wie niet lief heeft ?
+TestAttemptoEng: John admires a woman that who doesn't love ?
+TestAttemptoFin: John ihailee naisen , jota kuka ei rakasta ?
+TestAttemptoFre: John admire une femme que qui n' aime pas ?
+TestAttemptoGer: John bewundert eine Frau , die wer nicht liebt ?
+TestAttemptoIta: John ammira una donna che chi non ama ?
+TestAttemptoLav: [vpqQS] ?
+TestAttemptoNor: John beundrer ei kvinne , som hvem ikke elsker ?
+TestAttemptoPol: [vpqQS] ?
+TestAttemptoRon: [vpqQS] ?
+TestAttemptoRus: [vpqQS] ?
+TestAttemptoSpa: ¿ John admira una mujer que quién no ama ?
+TestAttemptoSwe: John beundrar en kvinna , som vem inte älskar ?
+
+TestAttempto: baseText (qsText (qs (vpqQS (pnNP john_PN) (v2VPQ (V2by_as_V2 buy_V2) (relNPQ (thereNP_as_NP (indefTherePronNP something_IPron)) (neg_predRSQ which_RP (npqVPQ (ipNPQ whatSg_IP))))))))
+TestAttemptoAce: John buys something that isn't what ?
+TestAttemptoApe: John|pn_sg|John_PN|masc buys|tv_finsg|buy_V2 something that isn't what ?
+TestAttemptoCat: John compra quelcom que no és què ?
+TestAttemptoDan: John køber noget , som ikke er hvad ?
+TestAttemptoDut: John koopt iets , die niet wat is ?
+TestAttemptoEng: John buys something that isn't what ?
+TestAttemptoFin: John ostaa jonkin , joka ei ole mikä ?
+TestAttemptoFre: John achète quelque chose qui n' est pas que ?
+TestAttemptoGer: John kauft etwas , das nicht was ist ?
+TestAttemptoIta: John compra qualche cosa che non è che ?
+TestAttemptoLav: [vpqQS] ?
+TestAttemptoNor: John kjøper noe , som ikke er hva ?
+TestAttemptoPol: [vpqQS] ?
+TestAttemptoRon: [vpqQS] ?
+TestAttemptoRus: [vpqQS] ?
+TestAttemptoSpa: ¿ John compra algo que no es qué ?
+TestAttemptoSwe: John köper något , som inte är vad ?
+
+TestAttempto: baseText (qsText (qs (np_coord_VPSQ (pnNP john_PN) and_Conj (BaseVPSQ (vpq_as_posVPSQ (v2VPQ (V2by_as_V2 buy_V2) (ipNPQ whatSg_IP))) (vpq_as_negVPSQ (v2VPQ (V2by_as_V2 buy_V2) (ipNPQ whatSg_IP)))))))
+TestAttemptoAce: John buys what and doesn't buy what ?
+TestAttemptoApe: John|pn_sg|John_PN|masc buys|tv_finsg|buy_V2 what and doesn't buy|tv_infpl|buy_V2 what ?
+TestAttemptoCat: John compra què i no compra què ?
+TestAttemptoDan: John køber hvad og køber ikke hvad ?
+TestAttemptoDut: John koopt wat en koopt wat niet ?
+TestAttemptoEng: John buys what and doesn't buy what ?
+TestAttemptoFin: John ostaa minkä ja ei osta mitä ?
+TestAttemptoFre: John achète qu' et il n' achète pas que ?
+TestAttemptoGer: John kauft was und kauft was nicht ?
+TestAttemptoIta: John compra che e non compra che ?
+TestAttemptoLav: [np_coord_VPSQ] ?
+TestAttemptoNor: John kjøper hva og kjøper ikke hva ?
+TestAttemptoPol: [np_coord_VPSQ] ?
+TestAttemptoRon: [np_coord_VPSQ] ?
+TestAttemptoRus: [np_coord_VPSQ] ?
+TestAttemptoSpa: ¿ John compra qué y no compra qué ?
+TestAttemptoSwe: John köper vad och köper inte vad ?
+
+TestAttempto: baseText (qsText (qs (vpqQS (pnNP john_PN) (v2VPQ (V2by_as_V2 admire_V2) (relNPQ (thereNP_as_NP (aNP (cn_as_VarCN traveler_N))) (predRSQ which_RP (npqVPQ (ipNPQ (whichIP which_IDet (cn_as_VarCN person_N))))))))))
+TestAttemptoAce: John admires a traveler that is which person ?
+TestAttemptoApe: John|pn_sg|John_PN|masc admires|tv_finsg|admire_V2 a traveler|noun_sg|traveler_N|masc that is which person|noun_sg|person_N|masc ?
+TestAttemptoCat: John admira un viatger que és quin persona ?
+TestAttemptoDan: John beundrer en rejsende , som er hvilken person ?
+TestAttemptoDut: John bewondert een reiziger , dat welke persoon is ?
+TestAttemptoEng: John admires a traveler that is which person ?
+TestAttemptoFin: John ihailee matkustajan , joka on mikä henkilö ?
+TestAttemptoFre: John admire un voyageur qui est quelle personne ?
+TestAttemptoGer: John bewundert einen Reisenden , der welche Person ist ?
+TestAttemptoIta: John ammira un viaggiatore che è quale persona ?
+TestAttemptoLav: [vpqQS] ?
+TestAttemptoNor: John beundrer ei reisende , som er hvilken person ?
+TestAttemptoPol: [vpqQS] ?
+TestAttemptoRon: [vpqQS] ?
+TestAttemptoRus: [vpqQS] ?
+TestAttemptoSpa: ¿ John admira un viajero que es qué persona ?
+TestAttemptoSwe: John beundrar en resenär , som är vilken person ?
+
+TestAttempto: baseText (qsText (qs (neg_slash_ipQS whoSg_IP (pnNP john_PN) (V2by_as_V2 admire_V2))))
+TestAttemptoAce: who doesn't John admire ?
+TestAttemptoApe: who doesn't John|pn_sg|John_PN|masc admire|tv_infpl|admire_V2 ?
+TestAttemptoCat: qui no admira John ?
+TestAttemptoDan: hvem beundrer John ikke ?
+TestAttemptoDut: wie bewondert John niet ?
+TestAttemptoEng: who doesn't John admire ?
+TestAttemptoFin: ketä John ei ihaile ?
+TestAttemptoFre: qui n' admire pas John ?
+TestAttemptoGer: wen bewundert John nicht ?
+TestAttemptoIta: chi non ammira John ?
+TestAttemptoLav: kuru Džons neapbrīno ?
+TestAttemptoNor: hvem beundrer John ikke ?
+TestAttemptoPol: kogo nie czyta Jan ?
+TestAttemptoRon: pe cine nu admirează John ?
+TestAttemptoRus: кого Иван не боет ?
+TestAttemptoSpa: ¿ quién no admira John ?
+TestAttemptoSwe: vem beundrar John inte ?
+
+TestAttempto: baseText (qsText (qs (npq_coord_VPS (ipNPQ (whichIP which_IDet (cn_as_VarCN golfer_N))) and_Conj (BaseVPS (vp_as_posVPS (v2VP (V2by_as_V2 admire_V2) (pnNP john_PN))) (vp_as_posVPS (v2VP (V2by_as_V2 inspect_V2) (thereNP_as_NP (aNP (cn_as_VarCN picture_N)))))))))
+TestAttemptoAce: which golfer admires John and inspects a picture ?
+TestAttemptoApe: which golfer|noun_sg|golfer_N|masc admires|tv_finsg|admire_V2 John|pn_sg|John_PN|masc and inspects|tv_finsg|inspect_V2 a picture|noun_sg|picture_N|neutr ?
+TestAttemptoCat: quin golfista admira John i inspecciona un imatge ?
+TestAttemptoDan: hvilken golfspiller beundrer John og inspicerer en billede ?
+TestAttemptoDut: welke golfer bewondert John en inspecteert een schilderij ?
+TestAttemptoEng: which golfer admires John and inspects a picture ?
+TestAttemptoFin: mikä golfaaja ihailee Johnin ja tarkastaa kuvan ?
+TestAttemptoFre: quel golfeur admire John et il inspecte une image ?
+TestAttemptoGer: welcher Golfer bewundert John und inspiziert ein Bild ?
+TestAttemptoIta: quale giocatore di golf ammira John ed ispeziona un immagine ?
+TestAttemptoLav: [npq_coord_VPS] ?
+TestAttemptoNor: hvilken golfspiller beundrer John og inspiserer ei bilde ?
+TestAttemptoPol: [npq_coord_VPS] ?
+TestAttemptoRon: [npq_coord_VPS] ?
+TestAttemptoRus: [npq_coord_VPS] ?
+TestAttemptoSpa: ¿ qué golfista admira John e inspecciona un imagen ?
+TestAttemptoSwe: vilket golfspelare beundrar John och avsynar en bild ?
+
+TestAttempto: baseText (qsText (qs (np_coord_VPSQ (pnNP mary_PN) and_Conj (BaseVPSQ (vpq_as_posVPSQ (v2VPQ (V2by_as_V2 admire_V2) (ipNPQ whoSg_IP))) (vp_as_negVPSQ (v2VP (V2by_as_V2 admire_V2) (thereNP_as_NP (indefTherePronNP somebody_IPron))))))))
+TestAttemptoAce: Mary admires who and doesn't admire somebody ?
+TestAttemptoApe: Mary|pn_sg|Mary_PN|neutr admires|tv_finsg|admire_V2 who and doesn't admire|tv_infpl|admire_V2 somebody ?
+TestAttemptoCat: Mary admira qui i no admira alg˙ ?
+TestAttemptoDan: Mary beundrer hvem og beundrer ikke nogen ?
+TestAttemptoDut: Mary bewondert wie en bewondert niet iemand ?
+TestAttemptoEng: Mary admires who and doesn't admire somebody ?
+TestAttemptoFin: Mary ihailee kenet ja ei ihaile jotakuta ?
+TestAttemptoFre: Mary admire qui et il n' admire pas quelqu'un ?
+TestAttemptoGer: Mary bewundert wen und bewundert nicht jemanden ?
+TestAttemptoIta: Mary ammira chi e non ammira qualcuno ?
+TestAttemptoLav: [np_coord_VPSQ] ?
+TestAttemptoNor: Mary beundrer hvem og beundrer ikke noen ?
+TestAttemptoPol: [np_coord_VPSQ] ?
+TestAttemptoRon: [np_coord_VPSQ] ?
+TestAttemptoRus: [np_coord_VPSQ] ?
+TestAttemptoSpa: ¿ Mary admira quién y no admira alguien ?
+TestAttemptoSwe: Mary beundrar vem och beundrar inte någon ?
 
 

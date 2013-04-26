@@ -2,6 +2,9 @@ Mary is a traveler .
 Bill is not a golfer .
 Mary is an officer or is a golfer .
 Sue is an officer and is a traveler .
+Mary is a woman that is an officer or that is a golfer .
+John is a man that is an officer and that is a traveler .
+John is a man that admires an officer and that a traveler sees .
 every man is a golfer .
 no golfer is a woman .
 every woman is an officer and every officer is a woman .
@@ -70,3 +73,24 @@ there is something .
 there is a man .
 there are more than 2 men that inspect less than 3 persons .
 it is false that there is at least 1 man .
+for every traveler X everybody admires X .
+everything X is a picture .
+John admires a woman that a golfer does not love .
+John buys a picture and does not buy a present .
+John is a man , is a golfer and is an officer .
+John admires exactly 1 2 3 4 5 6 7 8 9 0 pictures .
+John is a man . who is Mary ?
+John is not what ?
+John is a man of what ?
+John is the person of what ?
+John is every person of what ?
+John is no man of what ?
+John is a man , is a golfer and is what ?
+John admires a woman that who loves ?
+John admires a woman that who does not love ?
+John buys something that is not what ?
+John buys what and does not buy what ?
+John admires a traveler that is which person ?
+who does John not admire ?
+which golfer admires John and inspects a picture ?
+Mary admires who and doesn't admire somebody ?

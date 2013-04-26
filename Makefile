@@ -190,6 +190,13 @@ test_precision_range:
 pg_funs_Words300: pgf_Words300
 	echo "pg -funs" | gf --run Words300.pgf
 
+# Test how generated trees cover the grammar functions
+coverage_acewiki_aceowl_save:
+	cat tests/acewiki_aceowl/lin.txt | grep "^TestAttempto: " | sed "s/^TestAttempto: //" | coverage.py -g TestAttempto.pgf > tests/acewiki_aceowl/coverage.txt
+
+coverage_ontograph_ext_save:
+	cat $(tests_onto_ext)/lin.txt | grep "^TestAttempto: " | sed "s/^TestAttempto: //" | coverage.py -g TestAttempto.pgf > $(tests_onto_ext)/coverage.txt
+
 Parser: Parser.hs
 	ghc --make -o Parser Parser.hs
 
