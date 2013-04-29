@@ -2,6 +2,9 @@ Paris is a horse .
 John is not a cat .
 Paris is a bird or is a cat .
 Paris is a bird and is a horse .
+Paris is a worm that is a bird or that is a cat .
+John is a dog that is a bird and that is a horse .
+John is a dog that hates a bird and that a horse sees .
 every dog is a cat .
 no cat is a worm .
 every worm is a bird and every bird is a worm .
@@ -70,3 +73,24 @@ there is something .
 there is a dog .
 there are more than 2 dogs that push less than 3 books .
 it is false that there is at least 1 dog .
+for every horse X everything hates X .
+everything X is a tail .
+John hates a worm that a cat does not find .
+John fears a tail and does not fear a policeman .
+John is a dog , is a cat and is a bird .
+John hates exactly 1 2 3 4 5 6 7 8 9 0 tails .
+John is a dog . what is Paris ?
+John is not what ?
+John is a dog of what ?
+John is the book of what ?
+John is every book of what ?
+John is no dog of what ?
+John is a dog , is a cat and is what ?
+John hates a worm that what finds ?
+John hates a worm that what does not find ?
+John fears something that is not what ?
+John fears what and does not fear what ?
+John hates a horse that is which book ?
+what does John not hate ?
+which cat hates John and pushes a tail ?
+Paris hates what and doesn't hate something ?

@@ -29,6 +29,8 @@ Probability files
   - [exclude_refs](exclude_refs.probs): disable all the references (variables and definite noun phrases)
   - [exclude_body](exclude_body.probs): disable every/some/no-body
   - [combined](combined.probs): all probability files concatenated
+  - [Words300](Words300.probs): disable prepositional verbs in Words300 because they are linearized incorrectly in ACE, also exclude some words that the evaluators might not want to see
+  - [empty](empty.probs): just an empty file
 
 
 Issues

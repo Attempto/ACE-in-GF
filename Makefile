@@ -197,6 +197,9 @@ coverage_acewiki_aceowl_save:
 coverage_ontograph_ext_save:
 	cat $(tests_onto_ext)/lin.txt | grep "^TestAttempto: " | sed "s/^TestAttempto: //" | coverage.py -g TestAttempto.pgf > $(tests_onto_ext)/coverage.txt
 
+coverage_Words300_save:
+	cat tests/$(Words300)/lin.txt | grep "^$(Words300): " | sed "s/^$(Words300): //" | coverage.py -g TestAttempto.pgf > tests/$(Words300)/coverage.txt
+
 Parser: Parser.hs
 	ghc --make -o Parser Parser.hs
 
