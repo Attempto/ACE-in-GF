@@ -1206,7 +1206,7 @@ TestAttemptoFin: John tarkastaa miehen kuvan .
 TestAttemptoFre: John inspecte une image d' un homme .
 TestAttemptoGer: John inspiziert ein Bild von einem Mann .
 TestAttemptoIta: John ispeziona un immagine di un uomo .
-TestAttemptoLav: Džons apskata attēlu vīrieša .
+TestAttemptoLav: Džons apskata vīrieša attēlu .
 TestAttemptoNor: John inspiserer ei bilde av en mann .
 TestAttemptoPol: Jan czyta mężczyznę mężczyzny .
 TestAttemptoRon: John inspectează o imagine unui om .
@@ -1225,7 +1225,7 @@ TestAttemptoFin: John on Maryn mies .
 TestAttemptoFre: John est un homme de Mary .
 TestAttemptoGer: John ist ein Mann von Mary .
 TestAttemptoIta: John è un uomo di Mary .
-TestAttemptoLav: Džons ir vīrietis Mērijas .
+TestAttemptoLav: Džons ir Mērijas vīrietis .
 TestAttemptoNor: John er en mann av Mary .
 TestAttemptoPol: Jan jest mężczyzną Paryża .
 TestAttemptoRon: John este un om lui Mary .
@@ -1244,7 +1244,7 @@ TestAttemptoFin: jokainen golfaajan kuva nähdään Maryn toimesta .
 TestAttemptoFre: chaque image d' un golfeur est vue par Mary .
 TestAttemptoGer: jedes Bild von einem Golfer wird durch Mary gesehen .
 TestAttemptoIta: ogni immagine di un giocatore di golf viene visto da Mary .
-TestAttemptoLav: ikvienu attēlu golfera redz Mērija .
+TestAttemptoLav: ikvienu golfera attēlu redz Mērija .
 TestAttemptoNor: hver bilde av en golfspiller blir sett av Mary .
 TestAttemptoPol: każdy mężczyzna mężczyzny przez Paryż jest widziany .
 TestAttemptoRon: orice imagine unui jucător de golf este văzută de către Mary .
@@ -1263,7 +1263,7 @@ TestAttemptoFin: Lisa on jokaisen akvaarion lahja .
 TestAttemptoFre: Lisa est un cadeau de chaque aquarium .
 TestAttemptoGer: Lisa ist ein Geschenk von jedem Aquarium .
 TestAttemptoIta: Lisa è un regalo ogni acquario .
-TestAttemptoLav: Līza ir dāvana ikviena akvārija .
+TestAttemptoLav: Līza ir ikviena akvārija dāvana .
 TestAttemptoNor: Lisa er ei gave av hver akvarium .
 TestAttemptoPol: Paryż jest mężczyzną każdego mężczyzny .
 TestAttemptoRon: Lisa este un cadou oricărui acvariu .
