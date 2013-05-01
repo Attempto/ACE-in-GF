@@ -598,7 +598,7 @@ TestAttemptoFin: kaikki , jota rakastetaan jonkin toimesta on henkilö .
 TestAttemptoFre: tout qui est aimé par quelque chose est une personne .
 TestAttemptoGer: alles , das durch etwas geliebt wird ist eine Person .
 TestAttemptoIta: tutto che viene amato da qualche cosa è una persona .
-TestAttemptoLav: jebkas , kas mīl kaut ko ir persona .
+TestAttemptoLav: jebkas , kas patīk kaut kam ir persona .
 TestAttemptoNor: alt , som blir elska av noe er en person .
 TestAttemptoPol: wszystko , które przez coś jest kochane jest mężczyzną .
 TestAttemptoRon: 
@@ -674,7 +674,7 @@ TestAttemptoFin: Tom rakastaa vähintään 2 upseeria .
 TestAttemptoFre: Tom aime au moins 2 officiers .
 TestAttemptoGer: Tom liebt wenigstens 2 Offiziere .
 TestAttemptoIta: Tom ama almeno 2 ufficiali .
-TestAttemptoLav: Toms mīl vismaz 2 amatpersonas .
+TestAttemptoLav: Tomam patīk vismaz 2 amatpersonas .
 TestAttemptoNor: Tom elsker minst 2 offiserer .
 TestAttemptoPol: Paryż kocha co najmniej 2 mężczyzn .
 TestAttemptoRon: Tom iubeşte cel puţin 2 ofițere .
@@ -826,7 +826,7 @@ TestAttemptoFin: jokainen mies rakastaa itseänsä .
 TestAttemptoFre: chaque homme s' aime .
 TestAttemptoGer: jeder Mann liebt sich .
 TestAttemptoIta: ogni uomo si ama .
-TestAttemptoLav: ikviens vīrietis mīl sevi .
+TestAttemptoLav: ikvienam vīrietim patīk NON_EXISTENT .
 TestAttemptoNor: hver mann elsker seg .
 TestAttemptoPol: każdy mężczyzna kocha siebie .
 TestAttemptoRon: orice om se iubeşte .
@@ -845,7 +845,7 @@ TestAttemptoFin: jos X näkee Y:n niin Y ei rakasta X:ää .
 TestAttemptoFre: si X voit Y alors Y n' aime pas X .
 TestAttemptoGer: wenn X Y sieht , dann liebt Y X nicht .
 TestAttemptoIta: si X vede Y allora Y non ama X .
-TestAttemptoLav: ja X redz Y tad Y nemīl X .
+TestAttemptoLav: ja X redz Y tad Y nepatīk X .
 TestAttemptoNor: hvis X ser Y så Y elsker ikke X .
 TestAttemptoPol: jeżeli X widzi Y , to Y nie kocha X .
 TestAttemptoRon: dacă X îl vede pe Y atunci Y nu îl iubeşte pe X .
@@ -921,7 +921,7 @@ TestAttemptoFin: jos X rakastaa Y:tä niin X ei ihaile Y:tä .
 TestAttemptoFre: si X aime Y alors X n' admire pas Y .
 TestAttemptoGer: wenn X Y liebt , dann bewundert X Y nicht .
 TestAttemptoIta: si X ama Y allora X non ammira Y .
-TestAttemptoLav: ja X mīl Y tad X neapbrīno Y .
+TestAttemptoLav: ja X patīk Y tad X neapbrīno Y .
 TestAttemptoNor: hvis X elsker Y så X beundrer ikke Y .
 TestAttemptoPol: jeżeli X kocha Y , to X nie czyta Y .
 TestAttemptoRon: dacă X îl iubeşte pe Y atunci X nu îl admirează pe Y .
@@ -1244,7 +1244,7 @@ TestAttemptoFin: jokainen golfaajan kuva nähdään Maryn toimesta .
 TestAttemptoFre: chaque image d' un golfeur est vue par Mary .
 TestAttemptoGer: jedes Bild von einem Golfer wird durch Mary gesehen .
 TestAttemptoIta: ogni immagine di un giocatore di golf viene visto da Mary .
-TestAttemptoLav: ikviens attēls golfera redz Mēriju .
+TestAttemptoLav: ikvienu attēlu golfera redz Mērija .
 TestAttemptoNor: hver bilde av en golfspiller blir sett av Mary .
 TestAttemptoPol: każdy mężczyzna mężczyzny przez Paryż jest widziany .
 TestAttemptoRon: orice imagine unui jucător de golf este văzută de către Mary .
@@ -1548,7 +1548,7 @@ TestAttemptoFin: John ihailee naisen , jota golfaaja ei rakasta .
 TestAttemptoFre: John admire une femme qu' un golfeur n' aime pas .
 TestAttemptoGer: John bewundert eine Frau , die ein Golfer nicht liebt .
 TestAttemptoIta: John ammira una donna che un giocatore di golf non ama .
-TestAttemptoLav: Džons apbrīno sievieti , ko golferis nemīl .
+TestAttemptoLav: Džons apbrīno sievieti , kas golferim nepatīk .
 TestAttemptoNor: John beundrer ei kvinne , som en golfspiller ikke elsker .
 TestAttemptoPol: Jan czyta kobietę , której nie kocha mężczyzna .
 TestAttemptoRon: John admirează o femeie pe care nu o iubeşte un jucător de golf .
@@ -1567,7 +1567,7 @@ TestAttemptoFin: John ihailee naisen jota golfaaja ei rakasta .
 TestAttemptoFre: John admire une femme qu' un golfeur n' aime pas .
 TestAttemptoGer: John bewundert eine Frau , die ein Golfer nicht liebt .
 TestAttemptoIta: John ammira una donna che un giocatore di golf non ama .
-TestAttemptoLav: Džons apbrīno sievieti , ko golferis nemīl .
+TestAttemptoLav: Džons apbrīno sievieti , kas golferim nepatīk .
 TestAttemptoNor: John beundrer ei kvinne som en golfspiller ikke elsker .
 TestAttemptoPol: Jan czyta kobietę , której nie kocha mężczyzna .
 TestAttemptoRon: John admirează o femeie pe care nu o iubeşte un jucător de golf .
