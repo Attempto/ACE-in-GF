@@ -978,7 +978,7 @@ TestAttemptoFin: on epätotta että joku ei osta tasan 3 golfaajaa .
 TestAttemptoFre: il est faux que quelqu'un n' achète pas exactement 3 golfeurs .
 TestAttemptoGer: es ist falsch dass jemand nicht genau 3 Golfer kauft .
 TestAttemptoIta: è falso che qualcuno non compra esattamente 3 giocatori di golf .
-TestAttemptoLav: ir tiesa , ka kāds nepērk tieši 3 golferus .
+TestAttemptoLav: nav tiesa , ka kāds nepērk tieši 3 golferus .
 TestAttemptoNor: det er falsk at noen ikke kjøper nøyaktig 3 golfspillerer .
 TestAttemptoPol: jest źle , że ktoś nie kupi dokładnie 3 mężczyzn .
 TestAttemptoRon: este fals cã cineva nu cumpără exact 3 jucător de goalfe .
@@ -1491,7 +1491,7 @@ TestAttemptoFin: on epätotta että on olemassa vähintään 1 mies .
 TestAttemptoFre: il est faux que il y a au moins 1 homme .
 TestAttemptoGer: es ist falsch dass es wenigstens 1 Mann gibt .
 TestAttemptoIta: è falso che c' è almeno 1 uomo .
-TestAttemptoLav: ir tiesa , ka ir vismaz 1 vīrietis .
+TestAttemptoLav: nav tiesa , ka ir vismaz 1 vīrietis .
 TestAttemptoNor: det er falsk at det finnes minst 1 mann .
 TestAttemptoPol: jest źle , że jest co najmniej 1 mężczyzna .
 TestAttemptoRon: este fals cã există cel puţin 1 om .

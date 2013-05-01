@@ -94,7 +94,7 @@ Example of translating an ACE sentence to other languages.
 	Words300Fre: il est faux que X est lu par seulement des ordinateurs qu' Y ne voit pas .
 	Words300Ger: es ist falsch dass X durch nur Rechner die Y nicht sieht gelesen wird .
 	Words300Ita: è falso che X viene letto da soltanto computer che Y non vede .
-	Words300Lav: ir tiesa , ka X lasa tikai datorus , ko Y neredz .
+	Words300Lav: nav tiesa , ka X lasa tikai datori , ko Y neredz .
 	Words300Nor: det er falsk at X blir lest av kun datamaskiner som Y ikke ser .
 	Words300Pol: jest źle , że X przez tylko komputery , których nie widzi Y jest czytane .
 	Words300Ron: este fals cã X este citit de către doar nişte calculatoare pe care nu le vede Y .

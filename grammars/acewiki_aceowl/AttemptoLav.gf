@@ -4,8 +4,8 @@ concrete AttemptoLav of Attempto = SymbolsC, NumeralLav, NullVPS **
   AttemptoI - [VPS, VPSQ, BaseVPS, BaseVPSQ, ConsVPS, ConsVPSQ, ListVPS, ListVPSQ,
                vp_as_posVPS, vp_as_posVPSQ, vpq_as_posVPSQ,
                vp_as_negVPS, vp_as_negVPSQ, vpq_as_negVPSQ,
-               np_coord_VPS, np_coord_VPSQ, npq_coord_VPS
-               ,v2_byVP, ofCN
+               np_coord_VPS, np_coord_VPSQ, npq_coord_VPS,
+               v2_byVP, ofCN, falseS
                --, aNP, theNP, noNP, everyNP
                ] with
   (Syntax = SyntaxLav),
@@ -25,6 +25,8 @@ concrete AttemptoLav of Attempto = SymbolsC, NumeralLav, NullVPS **
 
   lin ofCN cn np = ExtraLav.GenCN np cn ;
     --mkCN mother_N2 (mkNP the_Det king_N) -- mother of the king
+
+  lin falseS s = mkAceS True (mkS negativePol (adj_thatCl false_A s.s)) ;
   
   lin ipNPQ ip = variants {} ;
 
