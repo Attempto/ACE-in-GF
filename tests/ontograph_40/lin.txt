@@ -199,7 +199,7 @@ TestAttemptoFin: kukaan , joka on mies tai joka on golfaaja on upseeri ja on mat
 TestAttemptoFre: personne qui est un homme ou qui est un golfeur n' est un officier et elle n' est un voyageur .
 TestAttemptoGer: niemand , das ein Mann ist oder das ein Golfer ist ist ein Offizier und ist ein Reisende .
 TestAttemptoIta: nessuno che è un uomo o che è un giocatore di golf è un ufficiale ed è un viaggiatore .
-TestAttemptoLav: neviens , kas ir vīrietis vai kas ir golferis ir amatpersona un ir ceļotājs .
+TestAttemptoLav: neviens , kas ir vīrietis vai kas ir golferis nav amatpersona un nav ceļotājs .
 TestAttemptoNor: ingen , som er en mann eller som er en golfspiller er en offiser og er ei reisende .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
