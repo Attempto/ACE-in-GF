@@ -47,7 +47,7 @@ TestAttemptoFin: Mary on upseeri tai on golfaaja .
 TestAttemptoFre: Mary est un officier ou il est un golfeur .
 TestAttemptoGer: Mary ist ein Offizier oder ist ein Golfer .
 TestAttemptoIta: Mary è un ufficiale o è un giocatore di golf .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: Mērija ir amatpersona vai ir golferis .
 TestAttemptoNor: Mary er en offiser eller er en golfspiller .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -66,7 +66,7 @@ TestAttemptoFin: Sue on upseeri ja on matkustaja .
 TestAttemptoFre: Sue est un officier et elle est un voyageur .
 TestAttemptoGer: Sue ist ein Offizier und ist ein Reisende .
 TestAttemptoIta: Sue è un ufficiale ed è un viaggiatore .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: Sjū ir amatpersona un ir ceļotājs .
 TestAttemptoNor: Sue er en offiser og er ei reisende .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -180,7 +180,7 @@ TestAttemptoFin: jokainen mies on golfaaja tai on matkustaja .
 TestAttemptoFre: chaque homme est un golfeur ou il est un voyageur .
 TestAttemptoGer: jeder Mann ist ein Golfer oder ist ein Reisende .
 TestAttemptoIta: ogni uomo è un giocatore di golf o è un viaggiatore .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: ikviens vīrietis ir golferis vai ir ceļotājs .
 TestAttemptoNor: hver mann er en golfspiller eller er ei reisende .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -199,7 +199,7 @@ TestAttemptoFin: kukaan , joka on mies tai joka on golfaaja on upseeri ja on mat
 TestAttemptoFre: personne qui est un homme ou qui est un golfeur n' est un officier et elle n' est un voyageur .
 TestAttemptoGer: niemand , das ein Mann ist oder das ein Golfer ist ist ein Offizier und ist ein Reisende .
 TestAttemptoIta: nessuno che è un uomo o che è un giocatore di golf è un ufficiale ed è un viaggiatore .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: neviens , kas ir vīrietis vai kas ir golferis ir amatpersona un ir ceļotājs .
 TestAttemptoNor: ingen , som er en mann eller som er en golfspiller er en offiser og er ei reisende .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -446,7 +446,7 @@ TestAttemptoFin: kaikki , joka rakastaa jotakin on matkustaja tai on upseeri .
 TestAttemptoFre: tout qui aime quelque chose est un voyageur ou il est un officier .
 TestAttemptoGer: alles , das etwas liebt ist ein Reisende oder ist ein Offizier .
 TestAttemptoIta: tutto che ama qualche cosa è un viaggiatore o è un ufficiale .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: jebkas , kam patīk kaut kas ir ceļotājs vai ir amatpersona .
 TestAttemptoNor: alt , som elsker noe er ei reisende eller er en offiser .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -465,7 +465,7 @@ TestAttemptoFin: kaikki , joka nähdään jonkin toimesta on matkustaja tai on a
 TestAttemptoFre: tout qui est vu par quelque chose est un voyageur ou il est un aquarium .
 TestAttemptoGer: alles , das durch etwas gesehen wird ist ein Reisende oder ist ein Aquarium .
 TestAttemptoIta: tutto che viene visto da qualche cosa è un viaggiatore o è un acquario .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: jebkas , ko redz kaut kas ir ceļotājs vai ir akvārijs .
 TestAttemptoNor: alt , som blir sett av noe er ei reisende eller er en akvarium .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .

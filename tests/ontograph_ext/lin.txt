@@ -47,7 +47,7 @@ TestAttemptoFin: Mary on upseeri tai on golfaaja .
 TestAttemptoFre: Mary est un officier ou il est un golfeur .
 TestAttemptoGer: Mary ist ein Offizier oder ist ein Golfer .
 TestAttemptoIta: Mary è un ufficiale o è un giocatore di golf .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: Mērija ir amatpersona vai ir golferis .
 TestAttemptoNor: Mary er en offiser eller er en golfspiller .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -66,7 +66,7 @@ TestAttemptoFin: Sue on upseeri ja on matkustaja .
 TestAttemptoFre: Sue est un officier et elle est un voyageur .
 TestAttemptoGer: Sue ist ein Offizier und ist ein Reisende .
 TestAttemptoIta: Sue è un ufficiale ed è un viaggiatore .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: Sjū ir amatpersona un ir ceļotājs .
 TestAttemptoNor: Sue er en offiser og er ei reisende .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -294,7 +294,7 @@ TestAttemptoFin: jokainen mies on golfaaja tai on matkustaja .
 TestAttemptoFre: chaque homme est un golfeur ou il est un voyageur .
 TestAttemptoGer: jeder Mann ist ein Golfer oder ist ein Reisende .
 TestAttemptoIta: ogni uomo è un giocatore di golf o è un viaggiatore .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: ikviens vīrietis ir golferis vai ir ceļotājs .
 TestAttemptoNor: hver mann er en golfspiller eller er ei reisende .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -313,7 +313,7 @@ TestAttemptoFin: kukaan , joka on mies tai joka on golfaaja on upseeri ja on mat
 TestAttemptoFre: personne qui est un homme ou qui est un golfeur n' est un officier et elle n' est un voyageur .
 TestAttemptoGer: niemand , das ein Mann ist oder das ein Golfer ist ist ein Offizier und ist ein Reisende .
 TestAttemptoIta: nessuno che è un uomo o che è un giocatore di golf è un ufficiale ed è un viaggiatore .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: neviens , kas ir vīrietis vai kas ir golferis ir amatpersona un ir ceļotājs .
 TestAttemptoNor: ingen , som er en mann eller som er en golfspiller er en offiser og er ei reisende .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -617,7 +617,7 @@ TestAttemptoFin: kaikki , joka rakastaa jotakin on matkustaja tai on upseeri .
 TestAttemptoFre: tout qui aime quelque chose est un voyageur ou il est un officier .
 TestAttemptoGer: alles , das etwas liebt ist ein Reisende oder ist ein Offizier .
 TestAttemptoIta: tutto che ama qualche cosa è un viaggiatore o è un ufficiale .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: jebkas , kam patīk kaut kas ir ceļotājs vai ir amatpersona .
 TestAttemptoNor: alt , som elsker noe er ei reisende eller er en offiser .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -636,7 +636,7 @@ TestAttemptoFin: kaikki , jota jokin rakastaa on matkustaja tai on upseeri .
 TestAttemptoFre: tout que quelque chose aime est un voyageur ou il est un officier .
 TestAttemptoGer: alles , das etwas liebt ist ein Reisende oder ist ein Offizier .
 TestAttemptoIta: tutto che qualche cosa ama è un viaggiatore o è un ufficiale .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: jebkas , kas kaut kam patīk ir ceļotājs vai ir amatpersona .
 TestAttemptoNor: alt , som noe elsker er ei reisende eller er en offiser .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -655,7 +655,7 @@ TestAttemptoFin: kaikki , joka nähdään jonkin toimesta on matkustaja tai on a
 TestAttemptoFre: tout qui est vu par quelque chose est un voyageur ou il est un aquarium .
 TestAttemptoGer: alles , das durch etwas gesehen wird ist ein Reisende oder ist ein Aquarium .
 TestAttemptoIta: tutto che viene visto da qualche cosa è un viaggiatore o è un acquario .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: jebkas , ko redz kaut kas ir ceļotājs vai ir akvārijs .
 TestAttemptoNor: alt , som blir sett av noe er ei reisende eller er en akvarium .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -1016,7 +1016,7 @@ TestAttemptoFin: mitkä golfaajat eivät auta Maryä ?
 TestAttemptoFre: quels golfeurs n' aident pas Mary ?
 TestAttemptoGer: welche Golfer helfen Mary nicht ?
 TestAttemptoIta: quali giocatori di golf non aiutano Mary ?
-TestAttemptoLav: [neg_npqQS] ?
+TestAttemptoLav: kuri golferi nepalīdz Mērijai ?
 TestAttemptoNor: hvilke golfspillerer hjelper ikke Mary ?
 TestAttemptoPol: [neg_npqQS] ?
 TestAttemptoRon: [neg_npqQS] ?
@@ -1035,7 +1035,7 @@ TestAttemptoFin: jokainen mies näkee minkä ?
 TestAttemptoFre: chaque homme voit que ?
 TestAttemptoGer: jeder Mann sieht was ?
 TestAttemptoIta: ogni uomo vede che ?
-TestAttemptoLav: [vpqQS] ?
+TestAttemptoLav: ikviens vīrietis redz ko ?
 TestAttemptoNor: hver mann ser hva ?
 TestAttemptoPol: [vpqQS] ?
 TestAttemptoRon: [vpqQS] ?
@@ -1073,7 +1073,7 @@ TestAttemptoFin: mikä mies rakastaa jotakuta X ?
 TestAttemptoFre: quel homme aime X ?
 TestAttemptoGer: welcher Mann liebt X ?
 TestAttemptoIta: quale uomo ama X ?
-TestAttemptoLav: [npqQS] ?
+TestAttemptoLav: kurš vīrietim patīk X ?
 TestAttemptoNor: hvilken mann elsker X ?
 TestAttemptoPol: [npqQS] ?
 TestAttemptoRon: [npqQS] ?
@@ -1092,7 +1092,7 @@ TestAttemptoFin: minkä ostetaan Johnin toimesta ?
 TestAttemptoFre: qu' est acheté par John ?
 TestAttemptoGer: was wird durch John gekauft ?
 TestAttemptoIta: che viene comprata da John ?
-TestAttemptoLav: [npqQS] ?
+TestAttemptoLav: ko pērk Džons ?
 TestAttemptoNor: hva blir kjøpt av John ?
 TestAttemptoPol: [npqQS] ?
 TestAttemptoRon: [npqQS] ?
@@ -1111,7 +1111,7 @@ TestAttemptoFin: mitä golfaajia ei auteta Maryn toimesta ?
 TestAttemptoFre: quels golfeurs ne sont pas aidés par Mary ?
 TestAttemptoGer: welche Golfer werden nicht durch Mary geholfen ?
 TestAttemptoIta: quali giocatori di golf non vengono aiutati da Mary ?
-TestAttemptoLav: [neg_npqQS] ?
+TestAttemptoLav: kuri golferiem nepalīdz Mērija ?
 TestAttemptoNor: hvilke golfspillerer blir ikke hjelpa av Mary ?
 TestAttemptoPol: [neg_npqQS] ?
 TestAttemptoRon: [neg_npqQS] ?
@@ -1130,7 +1130,7 @@ TestAttemptoFin: minkä nähdään jokaisen miehen toimesta ?
 TestAttemptoFre: qu' est vu par chaque homme ?
 TestAttemptoGer: was wird durch jeden Mann gesehen ?
 TestAttemptoIta: che viene vista ogni uomo ?
-TestAttemptoLav: [npqQS] ?
+TestAttemptoLav: ko redz ikviens vīrietis ?
 TestAttemptoNor: hva blir sett av hver mann ?
 TestAttemptoPol: [npqQS] ?
 TestAttemptoRon: [npqQS] ?
@@ -1149,7 +1149,7 @@ TestAttemptoFin: mitä miestä rakastetaan jonkun X toimesta ?
 TestAttemptoFre: quel homme est aimé par X ?
 TestAttemptoGer: welcher Mann wird durch X geliebt ?
 TestAttemptoIta: quale uomo viene amato da X ?
-TestAttemptoLav: [npqQS] ?
+TestAttemptoLav: kurš vīrietis patīk X ?
 TestAttemptoNor: hvilken mann blir elska av X ?
 TestAttemptoPol: [npqQS] ?
 TestAttemptoRon: [npqQS] ?
@@ -1168,7 +1168,7 @@ TestAttemptoFin: Johnia ei rakasteta kenen toimesta ?
 TestAttemptoFre: John n' est pas aimé par qui ?
 TestAttemptoGer: John wird nicht durch wen geliebt ?
 TestAttemptoIta: John non viene amato da chi ?
-TestAttemptoLav: [neg_vpqQS] ?
+TestAttemptoLav: Džons nepatīk kuram ?
 TestAttemptoNor: John blir ikke elska av hvem ?
 TestAttemptoPol: [neg_vpqQS] ?
 TestAttemptoRon: [neg_vpqQS] ?
@@ -1187,7 +1187,7 @@ TestAttemptoFin: mikä mies rakastaa itseänsä ?
 TestAttemptoFre: quel homme s' aime ?
 TestAttemptoGer: welcher Mann liebt sich ?
 TestAttemptoIta: quale uomo si ama ?
-TestAttemptoLav: [npqQS] ?
+TestAttemptoLav: kurš vīrietim patīk NON_EXISTENT ?
 TestAttemptoNor: hvilken mann elsker seg ?
 TestAttemptoPol: [npqQS] ?
 TestAttemptoRon: [npqQS] ?
@@ -1282,7 +1282,7 @@ TestAttemptoFin: tasan 2 upseeria on minkä lahja ?
 TestAttemptoFre: exactement 2 officiers sont un cadeau de que ?
 TestAttemptoGer: genau 2 Offiziere sind ein Geschenk was ?
 TestAttemptoIta: esattamente 2 ufficiali sono un regalo di che ?
-TestAttemptoLav: [vpqQS] ?
+TestAttemptoLav: tieši 2 amatpersonas ir kā dāvana ?
 TestAttemptoNor: nøyaktig 2 offiserer er ei gave av hva ?
 TestAttemptoPol: [vpqQS] ?
 TestAttemptoRon: [vpqQS] ?
@@ -1586,7 +1586,7 @@ TestAttemptoFin: John ostaa kuvan ja ei osta lahjaa .
 TestAttemptoFre: John achète une image et il n' achète pas un cadeau .
 TestAttemptoGer: John kauft ein Bild und kauft nicht ein Geschenk .
 TestAttemptoIta: John compra un immagine e non compra un regalo .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: Džons pērk attēlu un nepērk dāvanu .
 TestAttemptoNor: John kjøper ei bilde og kjøper ikke ei gave .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -1605,7 +1605,7 @@ TestAttemptoFin: John on mies , on golfaaja ja on upseeri .
 TestAttemptoFre: John est un homme et il est un golfeur il est un officier .
 TestAttemptoGer: John ist ein Mann , ist ein Golfer und ist ein Offizier .
 TestAttemptoIta: John è un uomo ed è un giocatore di golf è un ufficiale .
-TestAttemptoLav: [np_coord_VPS] .
+TestAttemptoLav: Džons ir vīrietis , ir golferis un ir amatpersona .
 TestAttemptoNor: John er en mann , er en golfspiller og er en offiser .
 TestAttemptoPol: [np_coord_VPS] .
 TestAttemptoRon: [np_coord_VPS] .
@@ -1643,7 +1643,7 @@ TestAttemptoFin: John on mies . kuka on Mary ?
 TestAttemptoFre: John est un homme . qui est Mary ?
 TestAttemptoGer: John ist ein Mann . wer ist Mary ?
 TestAttemptoIta: John è un uomo . chi è Mary ?
-TestAttemptoLav: Džons ir vīrietis . [npqQS] ?
+TestAttemptoLav: Džons ir vīrietis . kurš ir Mērija ?
 TestAttemptoNor: John er en mann . hvem er Mary ?
 TestAttemptoPol: Jan jest mężczyzną . [npqQS] ?
 TestAttemptoRon: John este un om . [npqQS] ?
@@ -1662,7 +1662,7 @@ TestAttemptoFin: John ei ole mikä ?
 TestAttemptoFre: John n' est pas que ?
 TestAttemptoGer: John ist nicht was ?
 TestAttemptoIta: John non è che ?
-TestAttemptoLav: [neg_vpqQS] ?
+TestAttemptoLav: Džons nav kas ?
 TestAttemptoNor: John er ikke hva ?
 TestAttemptoPol: [neg_vpqQS] ?
 TestAttemptoRon: [neg_vpqQS] ?
@@ -1681,7 +1681,7 @@ TestAttemptoFin: John on minkä mies ?
 TestAttemptoFre: John est un homme de que ?
 TestAttemptoGer: John ist ein Mann was ?
 TestAttemptoIta: John è un uomo di che ?
-TestAttemptoLav: [vpqQS] ?
+TestAttemptoLav: Džons ir kā vīrietis ?
 TestAttemptoNor: John er en mann av hva ?
 TestAttemptoPol: [vpqQS] ?
 TestAttemptoRon: [vpqQS] ?
@@ -1700,7 +1700,7 @@ TestAttemptoFin: John on minkä henkilö ?
 TestAttemptoFre: John est la personne de que ?
 TestAttemptoGer: John ist die Person was ?
 TestAttemptoIta: John è la persona di che ?
-TestAttemptoLav: [vpqQS] ?
+TestAttemptoLav: Džons ir kā persona ?
 TestAttemptoNor: John er personen av hva ?
 TestAttemptoPol: [vpqQS] ?
 TestAttemptoRon: [vpqQS] ?
@@ -1719,7 +1719,7 @@ TestAttemptoFin: John on jokainen minkä henkilö ?
 TestAttemptoFre: John est chaque personne de que ?
 TestAttemptoGer: John ist jede Person was ?
 TestAttemptoIta: John è ogni persona di che ?
-TestAttemptoLav: [vpqQS] ?
+TestAttemptoLav: Džons ir ikviena kā persona ?
 TestAttemptoNor: John er hver person av hva ?
 TestAttemptoPol: [vpqQS] ?
 TestAttemptoRon: [vpqQS] ?
@@ -1738,7 +1738,7 @@ TestAttemptoFin: John on mikään minkä mies ?
 TestAttemptoFre: John est aucun homme de que ?
 TestAttemptoGer: John ist kein Mann was ?
 TestAttemptoIta: John è nessuno uomo di che ?
-TestAttemptoLav: [vpqQS] ?
+TestAttemptoLav: Džons ir neviens kā vīrietis ?
 TestAttemptoNor: 
 TestAttemptoPol: [vpqQS] ?
 TestAttemptoRon: [vpqQS] ?
@@ -1776,7 +1776,7 @@ TestAttemptoFin: John ihailee naisen , jota kuka rakastaa ?
 TestAttemptoFre: John admire une femme que qui aime ?
 TestAttemptoGer: John bewundert eine Frau , die wer liebt ?
 TestAttemptoIta: John ammira una donna che chi ama ?
-TestAttemptoLav: [vpqQS] ?
+TestAttemptoLav: Džons apbrīno sievieti , kas kuram patīk ?
 TestAttemptoNor: John beundrer ei kvinne , som hvem elsker ?
 TestAttemptoPol: [vpqQS] ?
 TestAttemptoRon: [vpqQS] ?
@@ -1795,7 +1795,7 @@ TestAttemptoFin: John ihailee naisen , jota kuka ei rakasta ?
 TestAttemptoFre: John admire une femme que qui n' aime pas ?
 TestAttemptoGer: John bewundert eine Frau , die wer nicht liebt ?
 TestAttemptoIta: John ammira una donna che chi non ama ?
-TestAttemptoLav: [vpqQS] ?
+TestAttemptoLav: Džons apbrīno sievieti , kas kuram nepatīk ?
 TestAttemptoNor: John beundrer ei kvinne , som hvem ikke elsker ?
 TestAttemptoPol: [vpqQS] ?
 TestAttemptoRon: [vpqQS] ?
@@ -1814,7 +1814,7 @@ TestAttemptoFin: John ostaa jonkin , joka ei ole mikä ?
 TestAttemptoFre: John achète quelque chose qui n' est pas que ?
 TestAttemptoGer: John kauft etwas , das nicht was ist ?
 TestAttemptoIta: John compra qualche cosa che non è che ?
-TestAttemptoLav: [vpqQS] ?
+TestAttemptoLav: Džons pērk kaut ko , kas nav kas ?
 TestAttemptoNor: John kjøper noe , som ikke er hva ?
 TestAttemptoPol: [vpqQS] ?
 TestAttemptoRon: [vpqQS] ?
@@ -1852,7 +1852,7 @@ TestAttemptoFin: John ihailee matkustajan , joka on mikä henkilö ?
 TestAttemptoFre: John admire un voyageur qui est quelle personne ?
 TestAttemptoGer: John bewundert einen Reisenden , der welche Person ist ?
 TestAttemptoIta: John ammira un viaggiatore che è quale persona ?
-TestAttemptoLav: [vpqQS] ?
+TestAttemptoLav: Džons apbrīno ceļotāju , kas ir kura persona ?
 TestAttemptoNor: John beundrer ei reisende , som er hvilken person ?
 TestAttemptoPol: [vpqQS] ?
 TestAttemptoRon: [vpqQS] ?
