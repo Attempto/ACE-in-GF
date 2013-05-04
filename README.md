@@ -177,22 +177,41 @@ Currently this results in (TODO: fix these):
 Changing
 --------
 
-Changes to the ACE grammar can be done in various places.
+### Directories
 
-### lib/src/
+Changes to the ACE-in-GF grammar can be done in 3 directories.
+
+#### lib/src/
 
 ACE resource grammar. Based on the English resource grammar. Describes
 deviations from the English grammar, e.g. ACE uses `who` instead of `whom`.
 
-### grammars/
+#### grammars/
 
 Implementation of different ACE subsets and their ports to other languages.
-Contains the common interface AttemptoI.gf.
+Contains the common interface `AttemptoI.gf`.
 
-### words/
+#### words/
 
 Different domain vocabularies, most of which are automatically generated
 from existing external terminologies.
+
+### Adding a new language
+
+To add a new language that is supported by the GF Resource Grammar Library (RGL)
+add these files into the `grammars`-directory (`Xyz` is the ISO code of the new language):
+
+  - `grammars/acewiki_aceowl/AttemptoXyz.gf`
+  - `grammars/acewiki_aceowl/LexAttemptoXyz.gf`
+  - `grammars/acewiki_aceowl/NumeralXyz.gf` (this is only needed if you get a "cannot unify the information" error, in this case copy this file from the RGL and change the first line to contain `CatXyz [Numeral,Digits]`)
+
+Then add various lexicon files to be able to run the tests:
+
+  - `words/Words300/Words300Xyz.gf`
+  - `words/acewiki_aceowl/TestAttemptoXyz.gf`
+  - `words/ontograph_40/TestAttemptoXyz.gf`
+
+Finally, register the new language in the `Makefile` and run the linearization tests.
 
 
 Status
