@@ -36,17 +36,15 @@ Roundtripper = Roundtripper
 startcat = ACEText
 
 # Language list
-# TODO: Bul
-# TODO: add back Urd
-# TODO: Est
-languages = Ace Ape Cat Dut Eng Fin Fre Ger Ita Spa Swe Dan Nor Lav Pol Ron Rus
+# TODO: add RGL languages: Bul, Mlt, Urd
+languages = Ace Ape Cat Dut Eng Fin Fre Ger Gre Ita Spa Swe Dan Nor Lav Pol Ron Rus
 
 #langs_Geography = Ace Ape Dut Fin Ger Ita Spa
 langs_Geography = Ace Ape Ger Spa
 # Tracking the regression of these languages
 langs_Geography_track = Ace Ape Ger Spa
 langs_Simple = Ace
-langs_Words300 = Ace Cat Dan Dut Fin Fre Ger Ita Lav Nor Pol Ron Rus Spa Swe
+langs_Words300 = Ace Cat Dan Dut Fin Fre Ger Gre Ita Lav Nor Pol Ron Rus Spa Swe
 
 # Compile application grammars in all languages
 all_grammars:
