@@ -8,6 +8,7 @@ TestAttemptoEng: Mary is a traveler .
 TestAttemptoFin: Mary on matkustaja .
 TestAttemptoFre: Mary est un voyageur .
 TestAttemptoGer: Mary ist ein Reisende .
+TestAttemptoGre: η Μαρία είναι ένας άνδρας .
 TestAttemptoIta: Mary è un viaggiatore .
 TestAttemptoLav: Mērija ir ceļotājs .
 TestAttemptoNor: Mary er ei reisende .
@@ -27,6 +28,7 @@ TestAttemptoEng: Bill isn't a golfer .
 TestAttemptoFin: Bill ei ole golfaaja .
 TestAttemptoFre: Bill n' est pas un golfeur .
 TestAttemptoGer: Bill ist nicht ein Golfer .
+TestAttemptoGre: ο Γιάννης δεν είναι ένας άνδρας .
 TestAttemptoIta: Bill non è un giocatore di golf .
 TestAttemptoLav: Bils nav golferis .
 TestAttemptoNor: Bill er ikke en golfspiller .
@@ -46,6 +48,7 @@ TestAttemptoEng: Mary is an officer or is a golfer .
 TestAttemptoFin: Mary on upseeri tai on golfaaja .
 TestAttemptoFre: Mary est un officier ou il est un golfeur .
 TestAttemptoGer: Mary ist ein Offizier oder ist ein Golfer .
+TestAttemptoGre: [np_coord_VPS] .
 TestAttemptoIta: Mary è un ufficiale o è un giocatore di golf .
 TestAttemptoLav: Mērija ir amatpersona vai ir golferis .
 TestAttemptoNor: Mary er en offiser eller er en golfspiller .
@@ -65,6 +68,7 @@ TestAttemptoEng: Sue is an officer and is a traveler .
 TestAttemptoFin: Sue on upseeri ja on matkustaja .
 TestAttemptoFre: Sue est un officier et elle est un voyageur .
 TestAttemptoGer: Sue ist ein Offizier und ist ein Reisende .
+TestAttemptoGre: [np_coord_VPS] .
 TestAttemptoIta: Sue è un ufficiale ed è un viaggiatore .
 TestAttemptoLav: Sjū ir amatpersona un ir ceļotājs .
 TestAttemptoNor: Sue er en offiser og er ei reisende .
@@ -84,6 +88,7 @@ TestAttemptoEng: Mary is a woman that is an officer or that is a golfer .
 TestAttemptoFin: Mary on nainen , joka on upseeri tai joka on golfaaja .
 TestAttemptoFre: Mary est une femme qui est un officier ou qui est un golfeur .
 TestAttemptoGer: Mary ist eine Frau , die ein Offizier ist oder die ein Golfer ist .
+TestAttemptoGre: η Μαρία είναι μία γυναίκα , που είναι ένας άνδρας ή που είναι ένας άνδρας .
 TestAttemptoIta: Mary è una donna che è un ufficiale o che è un giocatore di golf .
 TestAttemptoLav: Mērija ir sieviete , kas ir amatpersona vai kas ir golferis .
 TestAttemptoNor: Mary er ei kvinne , som er en offiser eller som er en golfspiller .
@@ -103,6 +108,7 @@ TestAttemptoEng: Mary is a woman that is an officer or that is a golfer .
 TestAttemptoFin: Mary on nainen joka on upseeri tai joka on golfaaja .
 TestAttemptoFre: Mary est une femme qui est un officier ou qui est un golfeur .
 TestAttemptoGer: Mary ist eine Frau , die ein Offizier ist oder die ein Golfer ist .
+TestAttemptoGre: η Μαρία είναι μία γυναίκα , που είναι ένας άνδρας ή που είναι ένας άνδρας .
 TestAttemptoIta: Mary è una donna che è un ufficiale o che è un giocatore di golf .
 TestAttemptoLav: Mērija ir sieviete , kas ir amatpersona vai kas ir golferis .
 TestAttemptoNor: Mary er ei kvinne som er en offiser eller som er en golfspiller .
@@ -122,6 +128,7 @@ TestAttemptoEng: John is a man that is an officer and that is a traveler .
 TestAttemptoFin: John on mies , joka on upseeri ja joka on matkustaja .
 TestAttemptoFre: John est un homme qui est un officier et qui est un voyageur .
 TestAttemptoGer: John ist ein Mann , der ein Offizier ist und der ein Reisende ist .
+TestAttemptoGre: ο Γιάννης είναι ένας άνδρας , που είναι ένας άνδρας και που είναι ένας άνδρας .
 TestAttemptoIta: John è un uomo che è un ufficiale e che è un viaggiatore .
 TestAttemptoLav: Džons ir vīrietis , kas ir amatpersona un kas ir ceļotājs .
 TestAttemptoNor: John er en mann , som er en offiser og som er ei reisende .
@@ -141,6 +148,7 @@ TestAttemptoEng: John is a man that is an officer and that is a traveler .
 TestAttemptoFin: John on mies joka on upseeri ja joka on matkustaja .
 TestAttemptoFre: John est un homme qui est un officier et qui est un voyageur .
 TestAttemptoGer: John ist ein Mann , der ein Offizier ist und der ein Reisende ist .
+TestAttemptoGre: ο Γιάννης είναι ένας άνδρας , που είναι ένας άνδρας και που είναι ένας άνδρας .
 TestAttemptoIta: John è un uomo che è un ufficiale e che è un viaggiatore .
 TestAttemptoLav: Džons ir vīrietis , kas ir amatpersona un kas ir ceļotājs .
 TestAttemptoNor: John er en mann som er en offiser og som er ei reisende .
@@ -160,6 +168,7 @@ TestAttemptoEng: John is a man that admires an officer and that a traveler sees 
 TestAttemptoFin: John on mies , joka ihailee upseerin ja jonka matkustaja näkee .
 TestAttemptoFre: John est un homme qui admire un officier et qu' un voyageur voit .
 TestAttemptoGer: John ist ein Mann , der einen Offizier bewundert und den ein Reisende sieht .
+TestAttemptoGre: ο Γιάννης είναι ένας άνδρας , που φοβάται ένα άνδρα και τον οποίο ένας άνδρας βλέπει .
 TestAttemptoIta: John è un uomo che ammira un ufficiale e che un viaggiatore vede .
 TestAttemptoLav: Džons ir vīrietis , kas apbrīno amatpersonu un ko ceļotājs redz .
 TestAttemptoNor: John er en mann , som beundrer en offiser og som ei reisende ser .
@@ -179,6 +188,7 @@ TestAttemptoEng: John is a man that admires an officer and that a traveler sees 
 TestAttemptoFin: John on mies joka ihailee upseerin ja jonka matkustaja näkee .
 TestAttemptoFre: John est un homme qui admire un officier et qu' un voyageur voit .
 TestAttemptoGer: John ist ein Mann , der einen Offizier bewundert und den ein Reisende sieht .
+TestAttemptoGre: ο Γιάννης είναι ένας άνδρας , που φοβάται ένα άνδρα και τον οποίο ένας άνδρας βλέπει .
 TestAttemptoIta: John è un uomo che ammira un ufficiale e che un viaggiatore vede .
 TestAttemptoLav: Džons ir vīrietis , kas apbrīno amatpersonu un ko ceļotājs redz .
 TestAttemptoNor: John er en mann som beundrer en offiser og som ei reisende ser .
@@ -198,6 +208,7 @@ TestAttemptoEng: every man is a golfer .
 TestAttemptoFin: jokainen mies on golfaaja .
 TestAttemptoFre: chaque homme est un golfeur .
 TestAttemptoGer: jeder Mann ist ein Golfer .
+TestAttemptoGre: κάθε άνδρας είναι ένας άνδρας .
 TestAttemptoIta: ogni uomo è un giocatore di golf .
 TestAttemptoLav: ikviens vīrietis ir golferis .
 TestAttemptoNor: hver mann er en golfspiller .
@@ -217,6 +228,7 @@ TestAttemptoEng: no golfer is a woman .
 TestAttemptoFin: mikään golfaaja ei ole nainen .
 TestAttemptoFre: aucun golfeur n' est une femme .
 TestAttemptoGer: kein Golfer ist eine Frau .
+TestAttemptoGre: κανένας άνδρας δεν είναι μία γυναίκα .
 TestAttemptoIta: nessuno giocatore di golf è una donna .
 TestAttemptoLav: neviens golferis nav sieviete .
 TestAttemptoNor: 
@@ -236,6 +248,7 @@ TestAttemptoEng: every woman is an officer and every officer is a woman .
 TestAttemptoFin: jokainen nainen on upseeri ja jokainen upseeri on nainen .
 TestAttemptoFre: chaque femme est un officier et chaque officier est une femme .
 TestAttemptoGer: jede Frau ist ein Offizier und jeder Offizier ist eine Frau .
+TestAttemptoGre: κάθε γυναίκα είναι ένας άνδρας και κάθε άνδρας είναι μία γυναίκα .
 TestAttemptoIta: ogni donna è un ufficiale ed ogni ufficiale è una donna .
 TestAttemptoLav: ikviena sieviete ir amatpersona un ikviena amatpersona ir sieviete .
 TestAttemptoNor: hver kvinne er en offiser og hver offiser er ei kvinne .
@@ -255,6 +268,7 @@ TestAttemptoEng: every traveler that isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustaja joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende , der nicht eine Frau ist ist ein Golfer .
+TestAttemptoGre: κάθε άνδρας , που δεν είναι μία γυναίκα είναι ένας άνδρας .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoLav: ikviens ceļotājs , kas nav sieviete ir golferis .
 TestAttemptoNor: hver reisende som ikke er ei kvinne er en golfspiller .
@@ -274,6 +288,7 @@ TestAttemptoEng: every traveler that isn't a woman is a golfer .
 TestAttemptoFin: jokainen matkustaja , joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende , der nicht eine Frau ist ist ein Golfer .
+TestAttemptoGre: κάθε άνδρας , που δεν είναι μία γυναίκα είναι ένας άνδρας .
 TestAttemptoIta: ogni viaggiatore che non è una donna è un giocatore di golf .
 TestAttemptoLav: ikviens ceļotājs , kas nav sieviete ir golferis .
 TestAttemptoNor: hver reisende , som ikke er ei kvinne er en golfspiller .
@@ -293,6 +308,7 @@ TestAttemptoEng: every man is a golfer or is a traveler .
 TestAttemptoFin: jokainen mies on golfaaja tai on matkustaja .
 TestAttemptoFre: chaque homme est un golfeur ou il est un voyageur .
 TestAttemptoGer: jeder Mann ist ein Golfer oder ist ein Reisende .
+TestAttemptoGre: [np_coord_VPS] .
 TestAttemptoIta: ogni uomo è un giocatore di golf o è un viaggiatore .
 TestAttemptoLav: ikviens vīrietis ir golferis vai ir ceļotājs .
 TestAttemptoNor: hver mann er en golfspiller eller er ei reisende .
@@ -312,6 +328,7 @@ TestAttemptoEng: nobody that is a man or that is a golfer is an officer and is a
 TestAttemptoFin: kukaan , joka on mies tai joka on golfaaja on upseeri ja on matkustaja .
 TestAttemptoFre: personne qui est un homme ou qui est un golfeur n' est un officier et elle n' est un voyageur .
 TestAttemptoGer: niemand , das ein Mann ist oder das ein Golfer ist ist ein Offizier und ist ein Reisende .
+TestAttemptoGre: [np_coord_VPS] .
 TestAttemptoIta: nessuno che è un uomo o che è un giocatore di golf è un ufficiale ed è un viaggiatore .
 TestAttemptoLav: neviens , kas ir vīrietis vai kas ir golferis nav amatpersona un nav ceļotājs .
 TestAttemptoNor: ingen , som er en mann eller som er en golfspiller er en offiser og er ei reisende .
@@ -331,6 +348,7 @@ TestAttemptoEng: Lisa sees Mary .
 TestAttemptoFin: Lisa näkee Maryn .
 TestAttemptoFre: Lisa voit Mary .
 TestAttemptoGer: Lisa sieht Mary .
+TestAttemptoGre: ο Γιάννης βλέπει τη Μαρία .
 TestAttemptoIta: Lisa vede Mary .
 TestAttemptoLav: Līza redz Mēriju .
 TestAttemptoNor: Lisa ser Mary .
@@ -350,6 +368,7 @@ TestAttemptoEng: Mary doesn't see Tom .
 TestAttemptoFin: Mary ei näe Tomia .
 TestAttemptoFre: Mary ne voit pas Tom .
 TestAttemptoGer: Mary sieht Tom nicht .
+TestAttemptoGre: η Μαρία δεν βλέπει τον Γιάννη .
 TestAttemptoIta: Mary non vede Tom .
 TestAttemptoLav: Mērija neredz Tomu .
 TestAttemptoNor: Mary ser ikke Tom .
@@ -369,6 +388,7 @@ TestAttemptoEng: Tom buys a picture .
 TestAttemptoFin: Tom ostaa kuvan .
 TestAttemptoFre: Tom achète une image .
 TestAttemptoGer: Tom kauft ein Bild .
+TestAttemptoGre: ο Γιάννης αγοράζει ένα άνδρα .
 TestAttemptoIta: Tom compra un immagine .
 TestAttemptoLav: Toms pērk attēlu .
 TestAttemptoNor: Tom kjøper ei bilde .
@@ -388,6 +408,7 @@ TestAttemptoEng: Mary sees no man .
 TestAttemptoFin: Mary ei näe mitään miestä .
 TestAttemptoFre: Mary ne voit aucun homme .
 TestAttemptoGer: Mary sieht keinen Mann .
+TestAttemptoGre: η Μαρία δεν βλέπει κανέναν άνδρα .
 TestAttemptoIta: Mary non vede nessuno uomo .
 TestAttemptoLav: Mērija neredz nevienu vīrieti .
 TestAttemptoNor: 
@@ -407,6 +428,7 @@ TestAttemptoEng: John buys something that isn't a present .
 TestAttemptoFin: John ostaa jonkin , joka ei ole lahja .
 TestAttemptoFre: John achète quelque chose qui n' est pas un cadeau .
 TestAttemptoGer: John kauft etwas , das nicht ein Geschenk ist .
+TestAttemptoGre: ο Γιάννης αγοράζει κάτι , που δεν είναι ένας άνδρας .
 TestAttemptoIta: John compra qualche cosa che non è un regalo .
 TestAttemptoLav: Džons pērk kaut ko , kas nav dāvana .
 TestAttemptoNor: John kjøper noe , som ikke er ei gave .
@@ -426,6 +448,7 @@ TestAttemptoEng: John sees nothing but men .
 TestAttemptoFin: John näkee vain miehiä .
 TestAttemptoFre: John voit seulement des hommes .
 TestAttemptoGer: John sieht nur Männer .
+TestAttemptoGre: ο Γιάννης βλέπει μόνο άνδρες .
 TestAttemptoIta: John vede soltanto uomini .
 TestAttemptoLav: Džons redz tikai vīriešus .
 TestAttemptoNor: John ser kun menn .
@@ -445,6 +468,7 @@ TestAttemptoEng: every man buys a present .
 TestAttemptoFin: jokainen mies ostaa lahjan .
 TestAttemptoFre: chaque homme achète un cadeau .
 TestAttemptoGer: jeder Mann kauft ein Geschenk .
+TestAttemptoGre: κάθε άνδρας αγοράζει ένα άνδρα .
 TestAttemptoIta: ogni uomo compra un regalo .
 TestAttemptoLav: ikviens vīrietis pērk dāvanu .
 TestAttemptoNor: hver mann kjøper ei gave .
@@ -464,6 +488,7 @@ TestAttemptoEng: everything that buys a present is a man .
 TestAttemptoFin: kaikki , joka ostaa lahjan on mies .
 TestAttemptoFre: tout qui achète un cadeau est un homme .
 TestAttemptoGer: alles , das ein Geschenk kauft ist ein Mann .
+TestAttemptoGre: τα πάντα , που αγοράζουν ένα άνδρα είναι ένας άνδρας .
 TestAttemptoIta: tutto che compra un regalo è un uomo .
 TestAttemptoLav: jebkas , kas pērk dāvanu ir vīrietis .
 TestAttemptoNor: alt , som kjøper ei gave er en mann .
@@ -483,6 +508,7 @@ TestAttemptoEng: everything that a man buys is a present .
 TestAttemptoFin: kaikki , jonka mies ostaa on lahja .
 TestAttemptoFre: tout qu' un homme achète est un cadeau .
 TestAttemptoGer: alles , das ein Mann kauft ist ein Geschenk .
+TestAttemptoGre: τα πάντα , τα οποία ένας άνδρας αγοράζει είναι ένας άνδρας .
 TestAttemptoIta: tutto che un uomo compra è un regalo .
 TestAttemptoLav: jebkas , ko vīrietis pērk ir dāvana .
 TestAttemptoNor: alt , som en mann kjøper er ei gave .
@@ -502,6 +528,7 @@ TestAttemptoEng: everything that a man buys or that a woman admires is a present
 TestAttemptoFin: kaikki , jonka mies ostaa tai jonka nainen ihailee on lahja .
 TestAttemptoFre: tout qu' un homme achète ou qu' une femme admire est un cadeau .
 TestAttemptoGer: alles , das ein Mann kauft oder das eine Frau bewundert ist ein Geschenk .
+TestAttemptoGre: τα πάντα , τα οποία ένας άνδρας αγοράζει ή τα οποία μία γυναίκα φοβάται είναι ένας άνδρας .
 TestAttemptoIta: tutto che un uomo compra o che una donna ammira è un regalo .
 TestAttemptoLav: jebkas , ko vīrietis pērk vai ko sieviete apbrīno ir dāvana .
 TestAttemptoNor: alt , som en mann kjøper eller som ei kvinne beundrer er ei gave .
@@ -521,6 +548,7 @@ TestAttemptoEng: every man buys nothing but presents .
 TestAttemptoFin: jokainen mies ostaa vain lahjoja .
 TestAttemptoFre: chaque homme achète seulement des cadeaux .
 TestAttemptoGer: jeder Mann kauft nur Geschenke .
+TestAttemptoGre: κάθε άνδρας αγοράζει μόνο άνδρες .
 TestAttemptoIta: ogni uomo compra soltanto regali .
 TestAttemptoLav: ikviens vīrietis pērk tikai dāvanas .
 TestAttemptoNor: hver mann kjøper kun gaver .
@@ -540,6 +568,7 @@ TestAttemptoEng: everything that buys nothing but pictures is a woman .
 TestAttemptoFin: kaikki , joka ostaa vain kuvia on nainen .
 TestAttemptoFre: tout qui achète seulement des images est une femme .
 TestAttemptoGer: alles , das nur Bilder kauft ist eine Frau .
+TestAttemptoGre: τα πάντα , που αγοράζουν μόνο άνδρες είναι μία γυναίκα .
 TestAttemptoIta: tutto che compra soltanto immagini è una donna .
 TestAttemptoLav: jebkas , kas pērk tikai attēlus ir sieviete .
 TestAttemptoNor: alt , som kjøper kun bilder er ei kvinne .
@@ -559,6 +588,7 @@ TestAttemptoEng: everything that sees something is an officer .
 TestAttemptoFin: kaikki , joka näkee jonkin on upseeri .
 TestAttemptoFre: tout qui voit quelque chose est un officier .
 TestAttemptoGer: alles , das etwas sieht ist ein Offizier .
+TestAttemptoGre: τα πάντα , που βλέπνε κάτι είναι ένας άνδρας .
 TestAttemptoIta: tutto che vede qualche cosa è un ufficiale .
 TestAttemptoLav: jebkas , kas redz kaut ko ir amatpersona .
 TestAttemptoNor: alt , som ser noe er en offiser .
@@ -578,6 +608,7 @@ TestAttemptoEng: everything that something sees is an officer .
 TestAttemptoFin: kaikki , jonka jokin näkee on upseeri .
 TestAttemptoFre: tout que quelque chose voit est un officier .
 TestAttemptoGer: alles , das etwas sieht ist ein Offizier .
+TestAttemptoGre: τα πάντα , τα οποία κάτι βλέπει είναι ένας άνδρας .
 TestAttemptoIta: tutto che qualche cosa vede è un ufficiale .
 TestAttemptoLav: jebkas , ko kaut kas redz ir amatpersona .
 TestAttemptoNor: alt , som noe ser er en offiser .
@@ -597,6 +628,7 @@ TestAttemptoEng: everything that is loved by something is a person .
 TestAttemptoFin: kaikki , jota rakastetaan jonkin toimesta on henkilö .
 TestAttemptoFre: tout qui est aimé par quelque chose est une personne .
 TestAttemptoGer: alles , das durch etwas geliebt wird ist eine Person .
+TestAttemptoGre: τα πάντα , που αγαπιούνται από κάτι είναι ένα πρόσωπο .
 TestAttemptoIta: tutto che viene amato da qualche cosa è una persona .
 TestAttemptoLav: jebkas , kas patīk kaut kam ir persona .
 TestAttemptoNor: alt , som blir elska av noe er en person .
@@ -616,6 +648,7 @@ TestAttemptoEng: everything that loves something is a traveler or is an officer 
 TestAttemptoFin: kaikki , joka rakastaa jotakin on matkustaja tai on upseeri .
 TestAttemptoFre: tout qui aime quelque chose est un voyageur ou il est un officier .
 TestAttemptoGer: alles , das etwas liebt ist ein Reisende oder ist ein Offizier .
+TestAttemptoGre: [np_coord_VPS] .
 TestAttemptoIta: tutto che ama qualche cosa è un viaggiatore o è un ufficiale .
 TestAttemptoLav: jebkas , kam patīk kaut kas ir ceļotājs vai ir amatpersona .
 TestAttemptoNor: alt , som elsker noe er ei reisende eller er en offiser .
@@ -635,6 +668,7 @@ TestAttemptoEng: everything that something loves is a traveler or is an officer 
 TestAttemptoFin: kaikki , jota jokin rakastaa on matkustaja tai on upseeri .
 TestAttemptoFre: tout que quelque chose aime est un voyageur ou il est un officier .
 TestAttemptoGer: alles , das etwas liebt ist ein Reisende oder ist ein Offizier .
+TestAttemptoGre: [np_coord_VPS] .
 TestAttemptoIta: tutto che qualche cosa ama è un viaggiatore o è un ufficiale .
 TestAttemptoLav: jebkas , kas kaut kam patīk ir ceļotājs vai ir amatpersona .
 TestAttemptoNor: alt , som noe elsker er ei reisende eller er en offiser .
@@ -654,6 +688,7 @@ TestAttemptoEng: everything that is seen by something is a traveler or is an aqu
 TestAttemptoFin: kaikki , joka nähdään jonkin toimesta on matkustaja tai on akvaario .
 TestAttemptoFre: tout qui est vu par quelque chose est un voyageur ou il est un aquarium .
 TestAttemptoGer: alles , das durch etwas gesehen wird ist ein Reisende oder ist ein Aquarium .
+TestAttemptoGre: [np_coord_VPS] .
 TestAttemptoIta: tutto che viene visto da qualche cosa è un viaggiatore o è un acquario .
 TestAttemptoLav: jebkas , ko redz kaut kas ir ceļotājs vai ir akvārijs .
 TestAttemptoNor: alt , som blir sett av noe er ei reisende eller er en akvarium .
@@ -673,6 +708,7 @@ TestAttemptoEng: Tom loves at least 2 officers .
 TestAttemptoFin: Tom rakastaa vähintään 2 upseeria .
 TestAttemptoFre: Tom aime au moins 2 officiers .
 TestAttemptoGer: Tom liebt wenigstens 2 Offiziere .
+TestAttemptoGre: ο Γιάννης αγαπά τουλάχιστον 2 άνδρες .
 TestAttemptoIta: Tom ama almeno 2 ufficiali .
 TestAttemptoLav: Tomam patīk vismaz 2 amatpersonas .
 TestAttemptoNor: Tom elsker minst 2 offiserer .
@@ -692,6 +728,7 @@ TestAttemptoEng: Lisa buys at most 1 present .
 TestAttemptoFin: Lisa ostaa enintään 1 lahjan .
 TestAttemptoFre: Lisa achète au plus 1 cadeau .
 TestAttemptoGer: Lisa kauft höchstens 1 Geschenk .
+TestAttemptoGre: ο Γιάννης αγοράζει ένα το πολύ 1 άνδρα .
 TestAttemptoIta: Lisa compra al massimo 1 regalo .
 TestAttemptoLav: Līza pērk ne vairāk kā 1 dāvanu .
 TestAttemptoNor: Lisa kjøper høyst 1 gave .
@@ -711,6 +748,7 @@ TestAttemptoEng: every traveler sees at least 2 aquariums .
 TestAttemptoFin: jokainen matkustaja näkee vähintään 2 akvaariota .
 TestAttemptoFre: chaque voyageur voit au moins 2 aquariums .
 TestAttemptoGer: jeder Reisende sieht wenigstens 2 Aquariume .
+TestAttemptoGre: κάθε άνδρας βλέπει τουλάχιστον 2 άνδρες .
 TestAttemptoIta: ogni viaggiatore vede almeno 2 acquari .
 TestAttemptoLav: ikviens ceļotājs redz vismaz 2 akvārijus .
 TestAttemptoNor: hver reisende ser minst 2 akvariumer .
@@ -730,6 +768,7 @@ TestAttemptoEng: everything that buys at least 2 presents is an officer .
 TestAttemptoFin: kaikki , joka ostaa vähintään 2 lahjaa on upseeri .
 TestAttemptoFre: tout qui achète au moins 2 cadeaux est un officier .
 TestAttemptoGer: alles , das wenigstens 2 Geschenke kauft ist ein Offizier .
+TestAttemptoGre: τα πάντα , που αγοράζουν τουλάχιστον 2 άνδρες είναι ένας άνδρας .
 TestAttemptoIta: tutto che compra almeno 2 regali è un ufficiale .
 TestAttemptoLav: jebkas , kas pērk vismaz 2 dāvanas ir amatpersona .
 TestAttemptoNor: alt , som kjøper minst 2 gaver er en offiser .
@@ -749,6 +788,7 @@ TestAttemptoEng: everything that at least 2 officers buy is a present .
 TestAttemptoFin: kaikki , jonka vähintään 2 upseeria ostaa on lahja .
 TestAttemptoFre: tout qu' au moins 2 officiers achètent est un cadeau .
 TestAttemptoGer: alles , das wenigstens 2 Offiziere kaufen ist ein Geschenk .
+TestAttemptoGre: τα πάντα , τα οποία τουλάχιστον 2 άνδρες αγοράζουν είναι ένας άνδρας .
 TestAttemptoIta: tutto che almeno 2 ufficiali comprano è un regalo .
 TestAttemptoLav: jebkas , ko vismaz 2 amatpersonas pērk ir dāvana .
 TestAttemptoNor: alt , som minst 2 offiserer kjøper er ei gave .
@@ -768,6 +808,7 @@ TestAttemptoEng: every officer sees at most 1 aquarium .
 TestAttemptoFin: jokainen upseeri näkee enintään 1 akvaarion .
 TestAttemptoFre: chaque officier voit au plus 1 aquarium .
 TestAttemptoGer: jeder Offizier sieht höchstens 1 Aquarium .
+TestAttemptoGre: κάθε άνδρας βλέπει ένα το πολύ 1 άνδρα .
 TestAttemptoIta: ogni ufficiale vede al massimo 1 acquario .
 TestAttemptoLav: ikviena amatpersona redz ne vairāk kā 1 akvāriju .
 TestAttemptoNor: hver offiser ser høyst 1 akvarium .
@@ -787,6 +828,7 @@ TestAttemptoEng: everything that is a traveler or that is an officer sees at mos
 TestAttemptoFin: kaikki , joka on matkustaja tai joka on upseeri näkee enintään 2 akvaariota .
 TestAttemptoFre: tout qui est un voyageur ou qui est un officier voit au plus 2 aquariums .
 TestAttemptoGer: alles , das ein Reisende ist oder das ein Offizier ist sieht höchstens 2 Aquariume .
+TestAttemptoGre: τα πάντα , που είναι ένας άνδρας ή που είναι ένας άνδρας βλέπνε το πολύ 2 άνδρες .
 TestAttemptoIta: tutto che è un viaggiatore o che è un ufficiale vede al massimo 2 acquari .
 TestAttemptoLav: jebkas , kas ir ceļotājs vai kas ir amatpersona redz ne vairāk kā 2 akvārijus .
 TestAttemptoNor: alt , som er ei reisende eller som er en offiser ser høyst 2 akvariumer .
@@ -806,6 +848,7 @@ TestAttemptoEng: no picture admires itself .
 TestAttemptoFin: mikään kuva ei ihaile itseänsä .
 TestAttemptoFre: aucune image ne s' admire .
 TestAttemptoGer: kein Bild bewundert sich .
+TestAttemptoGre: κανένας άνδρας δεν φοβάται τον εαυτό του .
 TestAttemptoIta: nessuno immagine si ammira .
 TestAttemptoLav: neviens attēls neapbrīno sevi .
 TestAttemptoNor: 
@@ -825,6 +868,7 @@ TestAttemptoEng: every man loves himself .
 TestAttemptoFin: jokainen mies rakastaa itseänsä .
 TestAttemptoFre: chaque homme s' aime .
 TestAttemptoGer: jeder Mann liebt sich .
+TestAttemptoGre: κάθε άνδρας αγαπά τον εαυτό του .
 TestAttemptoIta: ogni uomo si ama .
 TestAttemptoLav: ikvienam vīrietim patīk NON_EXISTENT .
 TestAttemptoNor: hver mann elsker seg .
@@ -844,6 +888,7 @@ TestAttemptoEng: if X sees Y then Y doesn't love X .
 TestAttemptoFin: jos X näkee Y:n niin Y ei rakasta X:ää .
 TestAttemptoFre: si X voit Y alors Y n' aime pas X .
 TestAttemptoGer: wenn X Y sieht , dann liebt Y X nicht .
+TestAttemptoGre: αν ο X βλέπει τον Y τότε ο Y δεν αγαπά τον X .
 TestAttemptoIta: si X vede Y allora Y non ama X .
 TestAttemptoLav: ja X redz Y tad Y nepatīk X .
 TestAttemptoNor: hvis X ser Y så Y elsker ikke X .
@@ -863,6 +908,7 @@ TestAttemptoEng: if X sees somebody that sees Y then X sees Y .
 TestAttemptoFin: jos X näkee jonkun , joka näkee Y:n niin X näkee Y:n .
 TestAttemptoFre: si X voit quelqu'un qui voit Y alors X voit Y .
 TestAttemptoGer: wenn X jemanden , das Y sieht sieht , dann sieht X Y .
+TestAttemptoGre: αν ο X βλέπει κάποιον , που βλέπει τον Y τότε ο X βλέπει τον Y .
 TestAttemptoIta: si X vede qualcuno che vede Y allora X vede Y .
 TestAttemptoLav: ja X redz kādu , kas redz Y tad X redz Y .
 TestAttemptoNor: hvis X ser noen , som ser Y så X ser Y .
@@ -882,6 +928,7 @@ TestAttemptoEng: if X admires Y then X sees Y .
 TestAttemptoFin: jos X ihailee Y:n niin X näkee Y:n .
 TestAttemptoFre: si X admire Y alors X voit Y .
 TestAttemptoGer: wenn X Y bewundert , dann sieht X Y .
+TestAttemptoGre: αν ο X φοβάται τον Y τότε ο X βλέπει τον Y .
 TestAttemptoIta: si X ammira Y allora X vede Y .
 TestAttemptoLav: ja X apbrīno Y tad X redz Y .
 TestAttemptoNor: hvis X beundrer Y så X ser Y .
@@ -901,6 +948,7 @@ TestAttemptoEng: if X helps Y then Y admires X .
 TestAttemptoFin: jos X auttaa Y:n niin Y ihailee X:n .
 TestAttemptoFre: si X aide Y alors Y admire X .
 TestAttemptoGer: wenn X Y hilft , dann bewundert Y X .
+TestAttemptoGre: αν ο X σπρώχνει τον Y τότε ο Y φοβάται τον X .
 TestAttemptoIta: si X aiuta Y allora Y ammira X .
 TestAttemptoLav: ja X palīdz Y tad Y apbrīno X .
 TestAttemptoNor: hvis X hjelper Y så Y beundrer X .
@@ -920,6 +968,7 @@ TestAttemptoEng: if X loves Y then X doesn't admire Y .
 TestAttemptoFin: jos X rakastaa Y:tä niin X ei ihaile Y:tä .
 TestAttemptoFre: si X aime Y alors X n' admire pas Y .
 TestAttemptoGer: wenn X Y liebt , dann bewundert X Y nicht .
+TestAttemptoGre: αν ο X αγαπά τον Y τότε ο X δεν φοβάται τον Y .
 TestAttemptoIta: si X ama Y allora X non ammira Y .
 TestAttemptoLav: ja X patīk Y tad X neapbrīno Y .
 TestAttemptoNor: hvis X elsker Y så X beundrer ikke Y .
@@ -939,6 +988,7 @@ TestAttemptoEng: if a man X doesn't admire a woman Y then the woman Y doesn't ad
 TestAttemptoFin: jos mies X ei ihaile naista Y niin nainen Y ei ihaile miestä X .
 TestAttemptoFre: si un homme X n' admire pas une femme Y alors la femme Y n' admire pas l' homme X .
 TestAttemptoGer: wenn ein Mann X nicht eine Frau Y bewundert , dann bewundert die Frau Y den Mann X nicht .
+TestAttemptoGre: αν ένας άνδρας ο X δεν φοβάται μία γυναίκα ο Y τότε η γυναίκα ο Y δεν φοβάται τον άνδρα ο X .
 TestAttemptoIta: si un uomo X non ammira una donna Y allora la donna Y non ammira l' uomo X .
 TestAttemptoLav: ja vīrieši X neapbrīno sievietes Y tad sievietes Y neapbrīno vīriešus X .
 TestAttemptoNor: hvis en mann X beundrer ikke ei kvinne Y så kvinna Y beundrer ikke mannen X .
@@ -958,6 +1008,7 @@ TestAttemptoEng: if a man X doesn't help a woman Y then the woman Y doesn't help
 TestAttemptoFin: jos mies X ei auta naista Y niin nainen Y ei auta miestä X .
 TestAttemptoFre: si un homme X n' aide pas une femme Y alors la femme Y n' aide pas l' homme X .
 TestAttemptoGer: wenn ein Mann X nicht einer Frau Y hilft , dann hilft die Frau Y dem Mann X nicht .
+TestAttemptoGre: αν ένας άνδρας ο X δεν σπρώχνει μία γυναίκα ο Y τότε η γυναίκα ο Y δεν σπρώχνει τον άνδρα ο X .
 TestAttemptoIta: si un uomo X non aiuta una donna Y allora la donna Y non aiuta l' uomo X .
 TestAttemptoLav: ja vīrieši X nepalīdz sievietēm Y tad sievietes Y nepalīdz vīriešiem X .
 TestAttemptoNor: hvis en mann X hjelper ikke ei kvinne Y så kvinna Y hjelper ikke mannen X .
@@ -977,6 +1028,7 @@ TestAttemptoEng: it is false that somebody doesn't buy exactly 3 golfers .
 TestAttemptoFin: on epätotta että joku ei osta tasan 3 golfaajaa .
 TestAttemptoFre: il est faux que quelqu'un n' achète pas exactement 3 golfeurs .
 TestAttemptoGer: es ist falsch dass jemand nicht genau 3 Golfer kauft .
+TestAttemptoGre: είναι ψευδής οτι κάποιος δεν αγοράζει ακριβώς 3 άνδρες .
 TestAttemptoIta: è falso che qualcuno non compra esattamente 3 giocatori di golf .
 TestAttemptoLav: nav tiesa , ka kāds nepērk tieši 3 golferus .
 TestAttemptoNor: det er falsk at noen ikke kjøper nøyaktig 3 golfspillerer .
@@ -996,6 +1048,7 @@ TestAttemptoEng: what does John buy ?
 TestAttemptoFin: minkä John ostaa ?
 TestAttemptoFre: qu' achète John ?
 TestAttemptoGer: was kauft John ?
+TestAttemptoGre: τι αγοράζει ο Γιάννης ;
 TestAttemptoIta: che compra John ?
 TestAttemptoLav: ko Džons pērk ?
 TestAttemptoNor: hva kjøper John ?
@@ -1015,6 +1068,7 @@ TestAttemptoEng: which golfers don't help Mary ?
 TestAttemptoFin: mitkä golfaajat eivät auta Maryä ?
 TestAttemptoFre: quels golfeurs n' aident pas Mary ?
 TestAttemptoGer: welche Golfer helfen Mary nicht ?
+TestAttemptoGre: [neg_npqQS] ;
 TestAttemptoIta: quali giocatori di golf non aiutano Mary ?
 TestAttemptoLav: kuri golferi nepalīdz Mērijai ?
 TestAttemptoNor: hvilke golfspillerer hjelper ikke Mary ?
@@ -1034,6 +1088,7 @@ TestAttemptoEng: every man sees what ?
 TestAttemptoFin: jokainen mies näkee minkä ?
 TestAttemptoFre: chaque homme voit que ?
 TestAttemptoGer: jeder Mann sieht was ?
+TestAttemptoGre: [vpqQS] ;
 TestAttemptoIta: ogni uomo vede che ?
 TestAttemptoLav: ikviens vīrietis redz ko ?
 TestAttemptoNor: hver mann ser hva ?
@@ -1053,6 +1108,7 @@ TestAttemptoEng: every man sees what or doesn't admire who ?
 TestAttemptoFin: jokainen mies näkee minkä tai ei ihaile ketä ?
 TestAttemptoFre: chaque homme voit qu' ou il n' admire pas qui ?
 TestAttemptoGer: jeder Mann sieht was oder bewundert wen nicht ?
+TestAttemptoGre: [np_coord_VPSQ] ;
 TestAttemptoIta: ogni uomo vede che o non ammira chi ?
 TestAttemptoLav: [np_coord_VPSQ] ?
 TestAttemptoNor: hver mann ser hva eller beundrer ikke hvem ?
@@ -1072,6 +1128,7 @@ TestAttemptoEng: which man loves somebody X ?
 TestAttemptoFin: mikä mies rakastaa jotakuta X ?
 TestAttemptoFre: quel homme aime X ?
 TestAttemptoGer: welcher Mann liebt X ?
+TestAttemptoGre: [npqQS] ;
 TestAttemptoIta: quale uomo ama X ?
 TestAttemptoLav: kurš vīrietim patīk X ?
 TestAttemptoNor: hvilken mann elsker X ?
@@ -1091,6 +1148,7 @@ TestAttemptoEng: what is bought by John ?
 TestAttemptoFin: minkä ostetaan Johnin toimesta ?
 TestAttemptoFre: qu' est acheté par John ?
 TestAttemptoGer: was wird durch John gekauft ?
+TestAttemptoGre: [npqQS] ;
 TestAttemptoIta: che viene comprata da John ?
 TestAttemptoLav: ko pērk Džons ?
 TestAttemptoNor: hva blir kjøpt av John ?
@@ -1110,6 +1168,7 @@ TestAttemptoEng: which golfers aren't helped by Mary ?
 TestAttemptoFin: mitä golfaajia ei auteta Maryn toimesta ?
 TestAttemptoFre: quels golfeurs ne sont pas aidés par Mary ?
 TestAttemptoGer: welche Golfer werden nicht durch Mary geholfen ?
+TestAttemptoGre: [neg_npqQS] ;
 TestAttemptoIta: quali giocatori di golf non vengono aiutati da Mary ?
 TestAttemptoLav: kuri golferiem nepalīdz Mērija ?
 TestAttemptoNor: hvilke golfspillerer blir ikke hjelpa av Mary ?
@@ -1129,6 +1188,7 @@ TestAttemptoEng: what is seen by every man ?
 TestAttemptoFin: minkä nähdään jokaisen miehen toimesta ?
 TestAttemptoFre: qu' est vu par chaque homme ?
 TestAttemptoGer: was wird durch jeden Mann gesehen ?
+TestAttemptoGre: [npqQS] ;
 TestAttemptoIta: che viene vista ogni uomo ?
 TestAttemptoLav: ko redz ikviens vīrietis ?
 TestAttemptoNor: hva blir sett av hver mann ?
@@ -1148,6 +1208,7 @@ TestAttemptoEng: which man is loved by somebody X ?
 TestAttemptoFin: mitä miestä rakastetaan jonkun X toimesta ?
 TestAttemptoFre: quel homme est aimé par X ?
 TestAttemptoGer: welcher Mann wird durch X geliebt ?
+TestAttemptoGre: [npqQS] ;
 TestAttemptoIta: quale uomo viene amato da X ?
 TestAttemptoLav: kurš vīrietis patīk X ?
 TestAttemptoNor: hvilken mann blir elska av X ?
@@ -1167,6 +1228,7 @@ TestAttemptoEng: John isn't loved by who ?
 TestAttemptoFin: Johnia ei rakasteta kenen toimesta ?
 TestAttemptoFre: John n' est pas aimé par qui ?
 TestAttemptoGer: John wird nicht durch wen geliebt ?
+TestAttemptoGre: [neg_vpqQS] ;
 TestAttemptoIta: John non viene amato da chi ?
 TestAttemptoLav: Džons nepatīk kuram ?
 TestAttemptoNor: John blir ikke elska av hvem ?
@@ -1186,6 +1248,7 @@ TestAttemptoEng: which man loves itself ?
 TestAttemptoFin: mikä mies rakastaa itseänsä ?
 TestAttemptoFre: quel homme s' aime ?
 TestAttemptoGer: welcher Mann liebt sich ?
+TestAttemptoGre: [npqQS] ;
 TestAttemptoIta: quale uomo si ama ?
 TestAttemptoLav: kurš vīrietim patīk NON_EXISTENT ?
 TestAttemptoNor: hvilken mann elsker seg ?
@@ -1205,6 +1268,7 @@ TestAttemptoEng: John inspects a picture of a man .
 TestAttemptoFin: John tarkastaa miehen kuvan .
 TestAttemptoFre: John inspecte une image d' un homme .
 TestAttemptoGer: John inspiziert ein Bild von einem Mann .
+TestAttemptoGre: ο Γιάννης τρώει ένα άνδρα ενός άνδρα .
 TestAttemptoIta: John ispeziona un immagine di un uomo .
 TestAttemptoLav: Džons apskata vīrieša attēlu .
 TestAttemptoNor: John inspiserer ei bilde av en mann .
@@ -1224,6 +1288,7 @@ TestAttemptoEng: John is a man of Mary .
 TestAttemptoFin: John on Maryn mies .
 TestAttemptoFre: John est un homme de Mary .
 TestAttemptoGer: John ist ein Mann von Mary .
+TestAttemptoGre: ο Γιάννης είναι ένας άνδρας της Μαρίας .
 TestAttemptoIta: John è un uomo di Mary .
 TestAttemptoLav: Džons ir Mērijas vīrietis .
 TestAttemptoNor: John er en mann av Mary .
@@ -1243,6 +1308,7 @@ TestAttemptoEng: every picture of a golfer is seen by Mary .
 TestAttemptoFin: jokainen golfaajan kuva nähdään Maryn toimesta .
 TestAttemptoFre: chaque image d' un golfeur est vue par Mary .
 TestAttemptoGer: jedes Bild von einem Golfer wird durch Mary gesehen .
+TestAttemptoGre: κάθε άνδρας ενός άνδρα βλέπεται από τη Μαρία .
 TestAttemptoIta: ogni immagine di un giocatore di golf viene visto da Mary .
 TestAttemptoLav: ikvienu golfera attēlu redz Mērija .
 TestAttemptoNor: hver bilde av en golfspiller blir sett av Mary .
@@ -1262,6 +1328,7 @@ TestAttemptoEng: Lisa is a present of every aquarium .
 TestAttemptoFin: Lisa on jokaisen akvaarion lahja .
 TestAttemptoFre: Lisa est un cadeau de chaque aquarium .
 TestAttemptoGer: Lisa ist ein Geschenk von jedem Aquarium .
+TestAttemptoGre: ο Γιάννης είναι ένας άνδρας κάθε άνδρα .
 TestAttemptoIta: Lisa è un regalo ogni acquario .
 TestAttemptoLav: Līza ir ikviena akvārija dāvana .
 TestAttemptoNor: Lisa er ei gave av hver akvarium .
@@ -1281,6 +1348,7 @@ TestAttemptoEng: exactly 2 officers are a present of what ?
 TestAttemptoFin: tasan 2 upseeria on minkä lahja ?
 TestAttemptoFre: exactement 2 officiers sont un cadeau de que ?
 TestAttemptoGer: genau 2 Offiziere sind ein Geschenk was ?
+TestAttemptoGre: [vpqQS] ;
 TestAttemptoIta: esattamente 2 ufficiali sono un regalo di che ?
 TestAttemptoLav: tieši 2 amatpersonas ir kā dāvana ?
 TestAttemptoNor: nøyaktig 2 offiserer er ei gave av hva ?
@@ -1300,6 +1368,7 @@ TestAttemptoEng: John is Tom .
 TestAttemptoFin: John on Tom .
 TestAttemptoFre: John est Tom .
 TestAttemptoGer: John ist Tom .
+TestAttemptoGre: ο Γιάννης είναι ο Γιάννης .
 TestAttemptoIta: John è Tom .
 TestAttemptoLav: Džons ir Toms .
 TestAttemptoNor: John er Tom .
@@ -1319,6 +1388,7 @@ TestAttemptoEng: John is every man .
 TestAttemptoFin: John on jokainen mies .
 TestAttemptoFre: John est chaque homme .
 TestAttemptoGer: John ist jeder Mann .
+TestAttemptoGre: ο Γιάννης είναι κάθε άνδρας .
 TestAttemptoIta: John è ogni uomo .
 TestAttemptoLav: Džons ir ikviens vīrietis .
 TestAttemptoNor: John er hver mann .
@@ -1338,6 +1408,7 @@ TestAttemptoEng: nothing but men see Mary .
 TestAttemptoFin: vain miehet näkevät Maryn .
 TestAttemptoFre: seulement des hommes voient Mary .
 TestAttemptoGer: nur Männer sehen Mary .
+TestAttemptoGre: μόνο άνδρες βλέπνε τη Μαρία .
 TestAttemptoIta: soltanto uomini vedono Mary .
 TestAttemptoLav: tikai vīrieši redz Mēriju .
 TestAttemptoNor: kun menn ser Mary .
@@ -1357,6 +1428,7 @@ TestAttemptoEng: John is X .
 TestAttemptoFin: John on X .
 TestAttemptoFre: John est X .
 TestAttemptoGer: John ist X .
+TestAttemptoGre: ο Γιάννης είναι ο X .
 TestAttemptoIta: John è X .
 TestAttemptoLav: Džons ir X .
 TestAttemptoNor: John er X .
@@ -1376,6 +1448,7 @@ TestAttemptoEng: John sees X .
 TestAttemptoFin: John näkee X:n .
 TestAttemptoFre: John voit X .
 TestAttemptoGer: John sieht X .
+TestAttemptoGre: ο Γιάννης βλέπει τον X .
 TestAttemptoIta: John vede X .
 TestAttemptoLav: Džons redz X .
 TestAttemptoNor: John ser X .
@@ -1395,6 +1468,7 @@ TestAttemptoEng: X is something X .
 TestAttemptoFin: X on jokin X .
 TestAttemptoFre: X est X .
 TestAttemptoGer: X ist X .
+TestAttemptoGre: ο X είναι ο X .
 TestAttemptoIta: X è X .
 TestAttemptoLav: X ir X .
 TestAttemptoNor: X er X .
@@ -1414,6 +1488,7 @@ TestAttemptoEng: every man X doesn't see a woman Y .
 TestAttemptoFin: jokainen mies X ei näe naista Y .
 TestAttemptoFre: chaque homme X ne voit pas une femme Y .
 TestAttemptoGer: jeder Mann X sieht nicht eine Frau Y .
+TestAttemptoGre: κάθε άνδρας ο X δεν βλέπει μία γυναίκα ο Y .
 TestAttemptoIta: ogni uomo X non vede una donna Y .
 TestAttemptoLav: ikviens vīrieši X neredz sievietes Y .
 TestAttemptoNor: hver mann X ser ikke ei kvinne Y .
@@ -1433,6 +1508,7 @@ TestAttemptoEng: there is something .
 TestAttemptoFin: on olemassa jokin .
 TestAttemptoFre: il y a quelque chose .
 TestAttemptoGer: es gibt etwas .
+TestAttemptoGre: υπάρχει κάτι .
 TestAttemptoIta: c' è qualche cosa .
 TestAttemptoLav: ir kaut kas .
 TestAttemptoNor: det finnes noe .
@@ -1452,6 +1528,7 @@ TestAttemptoEng: there is a man .
 TestAttemptoFin: on olemassa mies .
 TestAttemptoFre: il y a un homme .
 TestAttemptoGer: es gibt einen Mann .
+TestAttemptoGre: υπάρχει ένας άνδρας .
 TestAttemptoIta: c' è un uomo .
 TestAttemptoLav: ir vīrietis .
 TestAttemptoNor: det finnes en mann .
@@ -1471,6 +1548,7 @@ TestAttemptoEng: there are more than 2 men that inspect less than 3 persons .
 TestAttemptoFin: on olemassa enemmän kuin 2 miestä joka tarkastaa vähemmän kuin 3 henkilöä .
 TestAttemptoFre: il y a plus que 2 hommes qui inspectent moins que 3 personnes .
 TestAttemptoGer: es gibt mehr als 2 Männer , die weniger als 3 Personen inspizieren .
+TestAttemptoGre: υπάρχουν πιό από 2 άνδρες , που τρώνε λιγότερο από 3 πρόσωπα .
 TestAttemptoIta: ci sono più di 2 uomini che ispezionano meno di 3 persone .
 TestAttemptoLav: ir NON_EXISTENT 2 vīrieši , kas apskata mazāk nekā 3 personas .
 TestAttemptoNor: det finnes mer enn 2 menn som inspiserer mindre enn 3 personer .
@@ -1490,6 +1568,7 @@ TestAttemptoEng: it is false that there is at least 1 man .
 TestAttemptoFin: on epätotta että on olemassa vähintään 1 mies .
 TestAttemptoFre: il est faux que il y a au moins 1 homme .
 TestAttemptoGer: es ist falsch dass es wenigstens 1 Mann gibt .
+TestAttemptoGre: είναι ψευδής οτι υπάρχει ένας τουλάχιστον 1 άνδρας .
 TestAttemptoIta: è falso che c' è almeno 1 uomo .
 TestAttemptoLav: nav tiesa , ka ir vismaz 1 vīrietis .
 TestAttemptoNor: det er falsk at det finnes minst 1 mann .
@@ -1509,6 +1588,7 @@ TestAttemptoEng: for every traveler X everybody admires X .
 TestAttemptoFin: jokaiselle matkustajalle X jokainen ihailee X:n .
 TestAttemptoFre: pour chaque voyageur X tout le monde admire X .
 TestAttemptoGer: für jeden Reisenden X bewundert jeder X .
+TestAttemptoGre: για κάθε άνδρα ο X όλοι φοβούνται τον X .
 TestAttemptoIta: per ogni viaggiatore X tutti ammirano X .
 TestAttemptoLav: NON_EXISTENT .
 TestAttemptoNor: for hver reisende X beundrer alle X .
@@ -1528,6 +1608,7 @@ TestAttemptoEng: everything X is a picture .
 TestAttemptoFin: kaikki X on kuva .
 TestAttemptoFre: X est une image .
 TestAttemptoGer: X ist ein Bild .
+TestAttemptoGre: ο X είναι ένας άνδρας .
 TestAttemptoIta: X è un immagine .
 TestAttemptoLav: X ir attēls .
 TestAttemptoNor: X er ei bilde .
@@ -1547,6 +1628,7 @@ TestAttemptoEng: John admires a woman that a golfer doesn't love .
 TestAttemptoFin: John ihailee naisen , jota golfaaja ei rakasta .
 TestAttemptoFre: John admire une femme qu' un golfeur n' aime pas .
 TestAttemptoGer: John bewundert eine Frau , die ein Golfer nicht liebt .
+TestAttemptoGre: ο Γιάννης φοβάται μία γυναίκα , την οποία ένας άνδρας δεν αγαπά .
 TestAttemptoIta: John ammira una donna che un giocatore di golf non ama .
 TestAttemptoLav: Džons apbrīno sievieti , kas golferim nepatīk .
 TestAttemptoNor: John beundrer ei kvinne , som en golfspiller ikke elsker .
@@ -1566,6 +1648,7 @@ TestAttemptoEng: John admires a woman that a golfer doesn't love .
 TestAttemptoFin: John ihailee naisen jota golfaaja ei rakasta .
 TestAttemptoFre: John admire une femme qu' un golfeur n' aime pas .
 TestAttemptoGer: John bewundert eine Frau , die ein Golfer nicht liebt .
+TestAttemptoGre: ο Γιάννης φοβάται μία γυναίκα , την οποία ένας άνδρας δεν αγαπά .
 TestAttemptoIta: John ammira una donna che un giocatore di golf non ama .
 TestAttemptoLav: Džons apbrīno sievieti , kas golferim nepatīk .
 TestAttemptoNor: John beundrer ei kvinne som en golfspiller ikke elsker .
@@ -1585,6 +1668,7 @@ TestAttemptoEng: John buys a picture and doesn't buy a present .
 TestAttemptoFin: John ostaa kuvan ja ei osta lahjaa .
 TestAttemptoFre: John achète une image et il n' achète pas un cadeau .
 TestAttemptoGer: John kauft ein Bild und kauft nicht ein Geschenk .
+TestAttemptoGre: [np_coord_VPS] .
 TestAttemptoIta: John compra un immagine e non compra un regalo .
 TestAttemptoLav: Džons pērk attēlu un nepērk dāvanu .
 TestAttemptoNor: John kjøper ei bilde og kjøper ikke ei gave .
@@ -1604,6 +1688,7 @@ TestAttemptoEng: John is a man , is a golfer and is an officer .
 TestAttemptoFin: John on mies , on golfaaja ja on upseeri .
 TestAttemptoFre: John est un homme et il est un golfeur il est un officier .
 TestAttemptoGer: John ist ein Mann , ist ein Golfer und ist ein Offizier .
+TestAttemptoGre: [np_coord_VPS] .
 TestAttemptoIta: John è un uomo ed è un giocatore di golf è un ufficiale .
 TestAttemptoLav: Džons ir vīrietis , ir golferis un ir amatpersona .
 TestAttemptoNor: John er en mann , er en golfspiller og er en offiser .
@@ -1623,6 +1708,7 @@ TestAttemptoEng: John admires exactly 1 2 3 4 5 6 7 8 9 0 pictures .
 TestAttemptoFin: John ihailee tasan 1 2 3 4 5 6 7 8 9 0 kuvaa .
 TestAttemptoFre: John admire exactement 1 2 3 4 5 6 7 8 9 0 images .
 TestAttemptoGer: John bewundert genau 1 2 3 4 5 6 7 8 9 0 Bilder .
+TestAttemptoGre: ο Γιάννης φοβάται ακριβώς 1 2 3 4 5 6 7 8 9 0 άνδρες .
 TestAttemptoIta: John ammira esattamente 1 2 3 4 5 6 7 8 9 0 immagini .
 TestAttemptoLav: Džons apbrīno tieši 1 2 3 4 5 6 7 8 9 0 attēlus .
 TestAttemptoNor: John beundrer nøyaktig 1 2 3 4 5 6 7 8 9 0 bilder .
@@ -1642,6 +1728,7 @@ TestAttemptoEng: John is a man . who is Mary ?
 TestAttemptoFin: John on mies . kuka on Mary ?
 TestAttemptoFre: John est un homme . qui est Mary ?
 TestAttemptoGer: John ist ein Mann . wer ist Mary ?
+TestAttemptoGre: ο Γιάννης είναι ένας άνδρας . [npqQS] ;
 TestAttemptoIta: John è un uomo . chi è Mary ?
 TestAttemptoLav: Džons ir vīrietis . kurš ir Mērija ?
 TestAttemptoNor: John er en mann . hvem er Mary ?
@@ -1661,6 +1748,7 @@ TestAttemptoEng: John isn't what ?
 TestAttemptoFin: John ei ole mikä ?
 TestAttemptoFre: John n' est pas que ?
 TestAttemptoGer: John ist nicht was ?
+TestAttemptoGre: [neg_vpqQS] ;
 TestAttemptoIta: John non è che ?
 TestAttemptoLav: Džons nav kas ?
 TestAttemptoNor: John er ikke hva ?
@@ -1680,6 +1768,7 @@ TestAttemptoEng: John is a man of what ?
 TestAttemptoFin: John on minkä mies ?
 TestAttemptoFre: John est un homme de que ?
 TestAttemptoGer: John ist ein Mann was ?
+TestAttemptoGre: [vpqQS] ;
 TestAttemptoIta: John è un uomo di che ?
 TestAttemptoLav: Džons ir kā vīrietis ?
 TestAttemptoNor: John er en mann av hva ?
@@ -1699,6 +1788,7 @@ TestAttemptoEng: John is the person of what ?
 TestAttemptoFin: John on minkä henkilö ?
 TestAttemptoFre: John est la personne de que ?
 TestAttemptoGer: John ist die Person was ?
+TestAttemptoGre: [vpqQS] ;
 TestAttemptoIta: John è la persona di che ?
 TestAttemptoLav: Džons ir kā persona ?
 TestAttemptoNor: John er personen av hva ?
@@ -1718,6 +1808,7 @@ TestAttemptoEng: John is every person of what ?
 TestAttemptoFin: John on jokainen minkä henkilö ?
 TestAttemptoFre: John est chaque personne de que ?
 TestAttemptoGer: John ist jede Person was ?
+TestAttemptoGre: [vpqQS] ;
 TestAttemptoIta: John è ogni persona di che ?
 TestAttemptoLav: Džons ir ikviena kā persona ?
 TestAttemptoNor: John er hver person av hva ?
@@ -1737,6 +1828,7 @@ TestAttemptoEng: John is no man of what ?
 TestAttemptoFin: John on mikään minkä mies ?
 TestAttemptoFre: John est aucun homme de que ?
 TestAttemptoGer: John ist kein Mann was ?
+TestAttemptoGre: [vpqQS] ;
 TestAttemptoIta: John è nessuno uomo di che ?
 TestAttemptoLav: Džons ir neviens kā vīrietis ?
 TestAttemptoNor: 
@@ -1756,6 +1848,7 @@ TestAttemptoEng: John is a man , is a golfer and is what ?
 TestAttemptoFin: John on mies , on golfaaja ja on mikä ?
 TestAttemptoFre: John est un homme et il est un golfeur il est que ?
 TestAttemptoGer: John ist ein Mann , ist ein Golfer und ist was ?
+TestAttemptoGre: [np_coord_VPSQ] ;
 TestAttemptoIta: John è un uomo ed è un giocatore di golf è che ?
 TestAttemptoLav: [np_coord_VPSQ] ?
 TestAttemptoNor: John er en mann , er en golfspiller og er hva ?
@@ -1775,6 +1868,7 @@ TestAttemptoEng: John admires a woman that who loves ?
 TestAttemptoFin: John ihailee naisen , jota kuka rakastaa ?
 TestAttemptoFre: John admire une femme que qui aime ?
 TestAttemptoGer: John bewundert eine Frau , die wer liebt ?
+TestAttemptoGre: [vpqQS] ;
 TestAttemptoIta: John ammira una donna che chi ama ?
 TestAttemptoLav: Džons apbrīno sievieti , kas kuram patīk ?
 TestAttemptoNor: John beundrer ei kvinne , som hvem elsker ?
@@ -1794,6 +1888,7 @@ TestAttemptoEng: John admires a woman that who doesn't love ?
 TestAttemptoFin: John ihailee naisen , jota kuka ei rakasta ?
 TestAttemptoFre: John admire une femme que qui n' aime pas ?
 TestAttemptoGer: John bewundert eine Frau , die wer nicht liebt ?
+TestAttemptoGre: [vpqQS] ;
 TestAttemptoIta: John ammira una donna che chi non ama ?
 TestAttemptoLav: Džons apbrīno sievieti , kas kuram nepatīk ?
 TestAttemptoNor: John beundrer ei kvinne , som hvem ikke elsker ?
@@ -1813,6 +1908,7 @@ TestAttemptoEng: John buys something that isn't what ?
 TestAttemptoFin: John ostaa jonkin , joka ei ole mikä ?
 TestAttemptoFre: John achète quelque chose qui n' est pas que ?
 TestAttemptoGer: John kauft etwas , das nicht was ist ?
+TestAttemptoGre: [vpqQS] ;
 TestAttemptoIta: John compra qualche cosa che non è che ?
 TestAttemptoLav: Džons pērk kaut ko , kas nav kas ?
 TestAttemptoNor: John kjøper noe , som ikke er hva ?
@@ -1832,6 +1928,7 @@ TestAttemptoEng: John buys what and doesn't buy what ?
 TestAttemptoFin: John ostaa minkä ja ei osta mitä ?
 TestAttemptoFre: John achète qu' et il n' achète pas que ?
 TestAttemptoGer: John kauft was und kauft was nicht ?
+TestAttemptoGre: [np_coord_VPSQ] ;
 TestAttemptoIta: John compra che e non compra che ?
 TestAttemptoLav: [np_coord_VPSQ] ?
 TestAttemptoNor: John kjøper hva og kjøper ikke hva ?
@@ -1851,6 +1948,7 @@ TestAttemptoEng: John admires a traveler that is which person ?
 TestAttemptoFin: John ihailee matkustajan , joka on mikä henkilö ?
 TestAttemptoFre: John admire un voyageur qui est quelle personne ?
 TestAttemptoGer: John bewundert einen Reisenden , der welche Person ist ?
+TestAttemptoGre: [vpqQS] ;
 TestAttemptoIta: John ammira un viaggiatore che è quale persona ?
 TestAttemptoLav: Džons apbrīno ceļotāju , kas ir kura persona ?
 TestAttemptoNor: John beundrer ei reisende , som er hvilken person ?
@@ -1870,6 +1968,7 @@ TestAttemptoEng: who doesn't John admire ?
 TestAttemptoFin: ketä John ei ihaile ?
 TestAttemptoFre: qui n' admire pas John ?
 TestAttemptoGer: wen bewundert John nicht ?
+TestAttemptoGre: ποιόν δεν φοβάται ο Γιάννης ;
 TestAttemptoIta: chi non ammira John ?
 TestAttemptoLav: kuru Džons neapbrīno ?
 TestAttemptoNor: hvem beundrer John ikke ?
@@ -1889,6 +1988,7 @@ TestAttemptoEng: which golfer admires John and inspects a picture ?
 TestAttemptoFin: mikä golfaaja ihailee Johnin ja tarkastaa kuvan ?
 TestAttemptoFre: quel golfeur admire John et il inspecte une image ?
 TestAttemptoGer: welcher Golfer bewundert John und inspiziert ein Bild ?
+TestAttemptoGre: [npq_coord_VPS] ;
 TestAttemptoIta: quale giocatore di golf ammira John ed ispeziona un immagine ?
 TestAttemptoLav: [npq_coord_VPS] ?
 TestAttemptoNor: hvilken golfspiller beundrer John og inspiserer ei bilde ?
@@ -1908,6 +2008,7 @@ TestAttemptoEng: Mary admires who and doesn't admire somebody ?
 TestAttemptoFin: Mary ihailee kenet ja ei ihaile jotakuta ?
 TestAttemptoFre: Mary admire qui et il n' admire pas quelqu'un ?
 TestAttemptoGer: Mary bewundert wen und bewundert nicht jemanden ?
+TestAttemptoGre: [np_coord_VPSQ] ;
 TestAttemptoIta: Mary ammira chi e non ammira qualcuno ?
 TestAttemptoLav: [np_coord_VPSQ] ?
 TestAttemptoNor: Mary beundrer hvem og beundrer ikke noen ?
