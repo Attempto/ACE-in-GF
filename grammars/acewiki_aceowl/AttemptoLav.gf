@@ -29,6 +29,6 @@ concrete AttemptoLav of Attempto = SymbolsC, NumeralLav **
 
   lin falseS s = mkAceS True (mkS negativePol (adj_thatCl false_A s.s)) ;
   
-  lin ipNPQ ip = lin NP (ip ** {a = AgP3 ip.n Masc Pos}) ;
+  lin ipNPQ ip = lin NP (ip ** {agr = AgrP3 ip.num Masc ; pol = Pos}) ;
 
 } ;

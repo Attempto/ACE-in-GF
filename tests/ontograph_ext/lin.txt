@@ -990,7 +990,7 @@ TestAttemptoFre: si un homme X n' admire pas une femme Y alors la femme Y n' adm
 TestAttemptoGer: wenn ein Mann X nicht eine Frau Y bewundert , dann bewundert die Frau Y den Mann X nicht .
 TestAttemptoGre: αν ένας άνδρας ο X δεν φοβάται μία γυναίκα ο Y τότε η γυναίκα ο Y δεν φοβάται τον άνδρα ο X .
 TestAttemptoIta: si un uomo X non ammira una donna Y allora la donna Y non ammira l' uomo X .
-TestAttemptoLav: ja vīrieši X neapbrīno sievietes Y tad sievietes Y neapbrīno vīriešus X .
+TestAttemptoLav: ja vīrietis X neapbrīno sievieti Y tad sieviete Y neapbrīno vīrieti X .
 TestAttemptoNor: hvis en mann X beundrer ikke ei kvinne Y så kvinna Y beundrer ikke mannen X .
 TestAttemptoPol: jeżeli mężczyzna X nie czyta kobiety Y , to kobieta Y nie czyta mężczyzny X .
 TestAttemptoRon: dacă un om X nu admirează o femeie Y atunci femeia Y nu îl admirează pe omul X .
@@ -1010,7 +1010,7 @@ TestAttemptoFre: si un homme X n' aide pas une femme Y alors la femme Y n' aide 
 TestAttemptoGer: wenn ein Mann X nicht einer Frau Y hilft , dann hilft die Frau Y dem Mann X nicht .
 TestAttemptoGre: αν ένας άνδρας ο X δεν σπρώχνει μία γυναίκα ο Y τότε η γυναίκα ο Y δεν σπρώχνει τον άνδρα ο X .
 TestAttemptoIta: si un uomo X non aiuta una donna Y allora la donna Y non aiuta l' uomo X .
-TestAttemptoLav: ja vīrieši X nepalīdz sievietēm Y tad sievietes Y nepalīdz vīriešiem X .
+TestAttemptoLav: ja vīrietis X nepalīdz sievietei Y tad sieviete Y nepalīdz vīrietim X .
 TestAttemptoNor: hvis en mann X hjelper ikke ei kvinne Y så kvinna Y hjelper ikke mannen X .
 TestAttemptoPol: jeżeli mężczyzna X nie czyta kobiety Y , to kobieta Y nie czyta mężczyzny X .
 TestAttemptoRon: dacă un om X nu ajutează o femeie Y atunci femeia Y nu îl ajutează pe omul X .
@@ -1490,7 +1490,7 @@ TestAttemptoFre: chaque homme X ne voit pas une femme Y .
 TestAttemptoGer: jeder Mann X sieht nicht eine Frau Y .
 TestAttemptoGre: κάθε άνδρας ο X δεν βλέπει μία γυναίκα ο Y .
 TestAttemptoIta: ogni uomo X non vede una donna Y .
-TestAttemptoLav: ikviens vīrieši X neredz sievietes Y .
+TestAttemptoLav: ikviens vīrietis X neredz sievieti Y .
 TestAttemptoNor: hver mann X ser ikke ei kvinne Y .
 TestAttemptoPol: każdy mężczyzna X nie widzi kobiety Y .
 TestAttemptoRon: orice om X nu vede o femeie Y .

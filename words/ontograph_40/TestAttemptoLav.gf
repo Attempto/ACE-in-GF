@@ -26,11 +26,11 @@ lin
   sue_PN = mkPN "Sjū" ;
   bill_PN = mkPN "Bils" ;
 
-  see_V2 = mkV2 (mkV "redzēt" third_conjugation) acc_Prep Nom ;
-  buy_V2 = mkV2 (mkV "pirkt" "pērku" "pirku") acc_Prep Nom ;
-  help_V2 = mkV2 (mkV "palīdzēt" third_conjugation) dat_Prep Nom ;
-  admire_V2 = mkV2 (mkV "apbrīnot" second_conjugation) acc_Prep Nom ;
-  love_V2 = mkV2 (mkV "patikt" "patīku" "patiku") nom_Prep Dat ; -- "patikt" instead of "mīlēt" to test the Dat-Nom valence
-  inspect_V2 = mkV2 (mkV "apskatīt" third_conjugation) acc_Prep Nom ;
+  see_V2 = mkV2 (mkV "redzēt" third_conjugation) acc_Prep ;
+  buy_V2 = mkV2 (mkV "pirkt" "pērku" "pirku") acc_Prep ;
+  help_V2 = mkV2 (mkV "palīdzēt" third_conjugation) dat_Prep ;
+  admire_V2 = mkV2 (mkV "apbrīnot" second_conjugation) acc_Prep ;
+  love_V2 = mkV2 (mkV "patikt" "patīku" "patiku" Dat) nom_Prep ; -- "patikt" instead of "mīlēt" to test the Dat-Nom valence
+  inspect_V2 = mkV2 (mkV "apskatīt" third_conjugation) acc_Prep ;
   
 }
