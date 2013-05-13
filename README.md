@@ -45,7 +45,7 @@ Reference implementations
 Building
 --------
 
-_Note: based on GF darcs version: 2013-03-15 18:13:25 CET_
+_Note: based on GF Git version: 2013-05-10 14:03:42 CET_
 
 The ACE-in-GF grammar can be turned into a PGF file in various ways
 depending on
@@ -157,10 +157,10 @@ See the Makefile targets, that have the prefix `test_precision`.
 
 ### Analyzing tree round-tripping
 
-	echo "gr -number=10" | gf --run TestAttempto.pgf | ./Roundtripper -f TestAttempto.pgf -l TestAttemptoAce | grep DIFF
+	echo "gr -number=10" | gf --run TestAttempto.pgf | Roundtripper -f TestAttempto.pgf -l TestAttemptoAce | grep DIFF
 
 	echo "rf -lines -file=tests/ontograph_ext/sentences.txt | p -lang=Ace -cat=ACEText" |\
-	gf --run TestAttempto.pgf | ./Roundtripper -f TestAttempto.pgf -l TestAttemptoAce | grep DIFF
+	gf --run TestAttempto.pgf | Roundtripper -f TestAttempto.pgf -l TestAttemptoAce | grep DIFF
 
 Currently this results in (TODO: fix these):
 
