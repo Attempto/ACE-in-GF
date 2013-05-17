@@ -255,7 +255,8 @@ Structure of the grammar
     * concrete TestAttemptoAce of TestAttempto = AttemptoAce ** open SyntaxAce, ParadigmsAce, ...
 
 
-Papers
-------
+Papers about ACE-in-GF
+----------------------
 
-  - [MOLTO project Deliverable D11.1](http://www.molto-project.eu/biblio/deliverable/ace-grammar-library)
+  - [MOLTO project Deliverable D11.1](http://www.molto-project.eu/biblio/deliverable/ace-grammar-library) is dedicated entirely to ACE-in-GF
+  - [A Multilingual Semantic Wiki Based on Attempto Controlled English and Grammatical Framework](http://arxiv.org/abs/1303.4293) describes a semantic wiki system that is powered by ACE-in-GF
