@@ -17,6 +17,6 @@ oper
 
   adj_thatCl : A -> S -> Cl = \a,s -> mkCl (mkVP (mkAP (mkAP a) s)) ;
 
-  exactly_AdN = ConstructX.mkAdN "exactly" ;
+  exactly_AdN = ConstructX.mkAdN "TODO" ;
 
 } ;

@@ -1,0 +1,2096 @@
+Words300: baseText (sText (s (vpS (pnNP paris_PN) (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN)))))))
+Words300Ace: Paris is a horse .
+Words300Bul: Париж е кон .
+Words300Cat: Paris és un cavall .
+Words300Dan: Paris er en hest .
+Words300Dut: Parijs is een paard .
+Words300Fin: Pariisi on hevonen .
+Words300Fre: Paris est un cheval .
+Words300Ger: Paris ist ein Pferd .
+Words300Gre: το Παρίσι είναι ένα άλογο .
+Words300Ita: Parigi è un cavallo .
+Words300Lav: Parīze ir zirgs .
+Words300Nor: Paris er en hest .
+Words300Pol: Paryż jest koniem .
+Words300Ron: Paris este un cal .
+Words300Rus: Париж лошадь .
+Words300Spa: París es un caballo .
+Words300Swe: Paris är en häst .
+Words300Urd: پیرس گھوڑا ہے
+
+
+Words300: baseText (sText (s (neg_vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))
+Words300Ace: John isn't a cat .
+Words300Bul: Джон не е котка .
+Words300Cat: Joan no és un gat .
+Words300Dan: John er ikke en kat .
+Words300Dut: Jan is niet een kat .
+Words300Fin: Jussi ei ole kissa .
+Words300Fre: Jean n' est pas un chat .
+Words300Ger: Johann ist nicht eine Katze .
+Words300Gre: ο Γιάννης δεν είναι μία γάτα .
+Words300Ita: Giovanni non è un gatto .
+Words300Lav: Jānis nav kaķis .
+Words300Nor: John er ikke en katt .
+Words300Pol: Jan nie jest kotem .
+Words300Ron: Ion nu este o pisică .
+Words300Rus: Иван не кошка .
+Words300Spa: Juan no es un gato .
+Words300Swe: Johan är inte en katt .
+Words300Urd: جان بلی نہیں ہے
+
+
+Words300: baseText (sText (s (np_coord_VPS (pnNP paris_PN) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))))
+Words300Ace: Paris is a bird or is a cat .
+Words300Bul: Париж е птица или е котка .
+Words300Cat: Paris és un ocell o és un gat .
+Words300Dan: Paris er en fugl eller er en kat .
+Words300Dut: Parijs is een vogel of is een kat .
+Words300Fin: Pariisi on lintu tai on kissa .
+Words300Fre: Paris est un oiseau ou il est un chat .
+Words300Ger: Paris ist ein Vogel oder ist eine Katze .
+Words300Gre: [np_coord_VPS] .
+Words300Ita: Parigi è un uccello o è un gatto .
+Words300Lav: Parīze ir putns vai ir kaķis .
+Words300Nor: Paris er en fugl eller er en katt .
+Words300Pol: [np_coord_VPS] .
+Words300Ron: [np_coord_VPS] .
+Words300Rus: [np_coord_VPS] .
+Words300Spa: París es un pájaro o es un gato .
+Words300Swe: Paris är en fågel eller är en katt .
+Words300Urd: [np_coord_VPS]
+
+
+Words300: baseText (sText (s (np_coord_VPS (pnNP paris_PN) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN)))))))))
+Words300Ace: Paris is a bird and is a horse .
+Words300Bul: Париж е птица и е кон .
+Words300Cat: Paris és un ocell i és un cavall .
+Words300Dan: Paris er en fugl og er en hest .
+Words300Dut: Parijs is een vogel en is een paard .
+Words300Fin: Pariisi on lintu ja on hevonen .
+Words300Fre: Paris est un oiseau et il est un cheval .
+Words300Ger: Paris ist ein Vogel und ist ein Pferd .
+Words300Gre: [np_coord_VPS] .
+Words300Ita: Parigi è un uccello ed è un cavallo .
+Words300Lav: Parīze ir putns un ir zirgs .
+Words300Nor: Paris er en fugl og er en hest .
+Words300Pol: [np_coord_VPS] .
+Words300Ron: [np_coord_VPS] .
+Words300Rus: [np_coord_VPS] .
+Words300Spa: París es un pájaro y es un caballo .
+Words300Swe: Paris är en fågel och är en häst .
+Words300Urd: [np_coord_VPS]
+
+
+Words300: baseText (sText (s (vpS (pnNP paris_PN) (npVP (relNP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))))))
+Words300Ace: Paris is a worm that is a bird or that is a cat .
+Words300Bul: Париж е червей който е птица или който е котка .
+Words300Cat: Paris és un cuc que és un ocell o que és un gat .
+Words300Dan: Paris er en orm , som er en fugl eller som er en kat .
+Words300Dut: Parijs is een worm , dat een vogel is of dat een kat is .
+Words300Fin: Pariisi on mato , joka on lintu tai joka on kissa .
+Words300Fre: Paris est un ver qui est un oiseau ou qui est un chat .
+Words300Ger: Paris ist ein Wurm , der ein Vogel ist oder der eine Katze ist .
+Words300Gre: το Παρίσι είναι ένα σκουλήκι που είναι ένα πουλί ή που είναι μία γάτα .
+Words300Ita: Parigi è un verme che è un uccello o che è un gatto .
+Words300Lav: Parīze ir tārps , kas ir putns vai kas ir kaķis .
+Words300Nor: Paris er en mark , som er en fugl eller som er en katt .
+Words300Pol: Paryż jest robakiem , który jest ptakiem lub , który jest kotem .
+Words300Ron: Paris este un vierme care este o pasăre sau care este o pisică .
+Words300Rus: Париж черв , который птица или , который кошка .
+Words300Spa: París es un gusano que es un pájaro o que es un gato .
+Words300Swe: Paris är en mask , som är en fågel eller som är en katt .
+Words300Urd: پیرس گرم , جو پرندہ ہے یا جو بلی ہے ہے
+
+Words300: baseText (sText (s (vpS (pnNP paris_PN) (npVP (thereNP_as_NP (aNP (relCN (cn_as_VarCN worm_CN) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))))))))
+Words300Ace: Paris is a worm that is a bird or that is a cat .
+Words300Bul: Париж е червей който е птица или който е котка .
+Words300Cat: Paris és un cuc que és un ocell o que és un gat .
+Words300Dan: Paris er en orm som er en fugl eller som er en kat .
+Words300Dut: Parijs is een worm die een vogel is of die een kat is .
+Words300Fin: Pariisi on mato joka on lintu tai joka on kissa .
+Words300Fre: Paris est un ver qui est un oiseau ou qui est un chat .
+Words300Ger: Paris ist ein Wurm , der ein Vogel ist oder der eine Katze ist .
+Words300Gre: το Παρίσι είναι ένα σκουλήκι , που είναι ένα πουλί ή που είναι μία γάτα .
+Words300Ita: Parigi è un verme che è un uccello o che è un gatto .
+Words300Lav: Parīze ir tārps , kas ir putns vai kas ir kaķis .
+Words300Nor: Paris er en mark som er en fugl eller som er en katt .
+Words300Pol: Paryż jest robakiem , który jest ptakiem lub , który jest kotem .
+Words300Ron: Paris este un vierme care este o pasăre sau care este o pisică .
+Words300Rus: Париж черв , который птица или , который кошка .
+Words300Spa: París es un gusano que es un pájaro o que es un gato .
+Words300Swe: Paris är en mask som är en fågel eller som är en katt .
+Words300Urd: پیرس گرم جو پرندہ ہے یا جو بلی ہے ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (relNP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))) (andRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN)))))))))))
+Words300Ace: John is a dog that is a bird and that is a horse .
+Words300Bul: Джон е куче което е птица и което е кон .
+Words300Cat: Joan és un gos que és un ocell i que és un cavall .
+Words300Dan: John er en hund , som er en fugl og som er en hest .
+Words300Dut: Jan is een hond , dat een vogel is en dat een paard is .
+Words300Fin: Jussi on koira , joka on lintu ja joka on hevonen .
+Words300Fre: Jean est un chien qui est un oiseau et qui est un cheval .
+Words300Ger: Johann ist ein Hund , der ein Vogel ist und der ein Pferd ist .
+Words300Gre: ο Γιάννης είναι ένας σκύλος που είναι ένα πουλί και που είναι ένα άλογο .
+Words300Ita: Giovanni è un cane che è un uccello e che è un cavallo .
+Words300Lav: Jānis ir suns , kas ir putns un kas ir zirgs .
+Words300Nor: John er en hund , som er en fugl og som er en hest .
+Words300Pol: Jan jest psem , który jest ptakiem i , który jest koniem .
+Words300Ron: Ion este un câine care este o pasăre şi care este un cal .
+Words300Rus: Иван собака , которая птица и , которая лошадь .
+Words300Spa: Juan es un perro que es un pájaro y que es un caballo .
+Words300Swe: Johan är en hund , som är en fågel och som är en häst .
+Words300Urd: جان کتا , جو پرندہ ہے اور جو گھوڑا ہے ہے
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (relCN (cn_as_VarCN dog_CN) (andRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN)))))))))))))
+Words300Ace: John is a dog that is a bird and that is a horse .
+Words300Bul: Джон е куче което е птица и което е кон .
+Words300Cat: Joan és un gos que és un ocell i que és un cavall .
+Words300Dan: John er en hund som er en fugl og som er en hest .
+Words300Dut: Jan is een hond die een vogel is en die een paard is .
+Words300Fin: Jussi on koira joka on lintu ja joka on hevonen .
+Words300Fre: Jean est un chien qui est un oiseau et qui est un cheval .
+Words300Ger: Johann ist ein Hund , der ein Vogel ist und der ein Pferd ist .
+Words300Gre: ο Γιάννης είναι ένας σκύλος , που είναι ένα πουλί και που είναι ένα άλογο .
+Words300Ita: Giovanni è un cane che è un uccello e che è un cavallo .
+Words300Lav: Jānis ir suns , kas ir putns un kas ir zirgs .
+Words300Nor: John er en hund som er en fugl og som er en hest .
+Words300Pol: Jan jest psem , który jest ptakiem i , który jest koniem .
+Words300Ron: Ion este un câine care este o pasăre şi care este un cal .
+Words300Rus: Иван собака , которая птица и , которая лошадь .
+Words300Spa: Juan es un perro que es un pájaro y que es un caballo .
+Words300Swe: Johan är en hund som är en fågel och som är en häst .
+Words300Urd: جان کتا جو پرندہ ہے اور جو گھوڑا ہے ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (relNP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))) (andRS (predRS which_RP (v2VP (V2by_as_V2 hate_V2) (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))) (V2by_as_V2 see_V2))))))))
+Words300Ace: John is a dog that hates a bird and that a horse sees .
+Words300Bul: Джон е куче което мрази птица и което кон вижда .
+Words300Cat: Joan és un gos que odia un ocell i que un cavall veu .
+Words300Dan: John er en hund , som hader en fugl og som en hest ser .
+Words300Dut: Jan is een hond , dat een vogel haat en dat een paard ziet .
+Words300Fin: Jussi on koira , joka vihaa lintua ja jonka hevonen näkee .
+Words300Fre: Jean est un chien qui hait un oiseau et qu' un cheval voit .
+Words300Ger: Johann ist ein Hund , der einen Vogel hasst und den ein Pferd sieht .
+Words300Gre: ο Γιάννης είναι ένας σκύλος που μισεί ένα πουλί και τον οποίο ένα άλογο βλέπει .
+Words300Ita: Giovanni è un cane che odia un uccello e che un cavallo vede .
+Words300Lav: Jānis ir suns , kas ienīst putnu un ko zirgs redz .
+Words300Nor: John er en hund , som hater en fugl og som en hest ser .
+Words300Pol: Jan jest psem , który nienawidzi ptaka i , którego widzi koń .
+Words300Ron: Ion este un câine care urăşte o pasăre şi pe care îl vede un cal .
+Words300Rus: Иван собака , которая ненавидит птицу и , которую лошадь видит .
+Words300Spa: Juan es un perro que odia un pájaro y que un caballo ve .
+Words300Swe: Johan är en hund , som hatar en fågel och som en häst ser .
+Words300Urd: جان کتا , جو پرندہ نفرت کرتا ہے اور جس گھوڑا دیکھتا ہے ہے
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (relCN (cn_as_VarCN dog_CN) (andRS (predRS which_RP (v2VP (V2by_as_V2 hate_V2) (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))) (V2by_as_V2 see_V2))))))))))
+Words300Ace: John is a dog that hates a bird and that a horse sees .
+Words300Bul: Джон е куче което мрази птица и което кон вижда .
+Words300Cat: Joan és un gos que odia un ocell i que un cavall veu .
+Words300Dan: John er en hund som hader en fugl og som en hest ser .
+Words300Dut: Jan is een hond die een vogel haat en die een paard ziet .
+Words300Fin: Jussi on koira joka vihaa lintua ja jonka hevonen näkee .
+Words300Fre: Jean est un chien qui hait un oiseau et qu' un cheval voit .
+Words300Ger: Johann ist ein Hund , der einen Vogel hasst und den ein Pferd sieht .
+Words300Gre: ο Γιάννης είναι ένας σκύλος , που μισεί ένα πουλί και τον οποίο ένα άλογο βλέπει .
+Words300Ita: Giovanni è un cane che odia un uccello e che un cavallo vede .
+Words300Lav: Jānis ir suns , kas ienīst putnu un ko zirgs redz .
+Words300Nor: John er en hund som hater en fugl og som en hest ser .
+Words300Pol: Jan jest psem , który nienawidzi ptaka i , którego widzi koń .
+Words300Ron: Ion este un câine care urăşte o pasăre şi pe care îl vede un cal .
+Words300Rus: Иван собака , которая ненавидит птицу и , которую лошадь видит .
+Words300Spa: Juan es un perro que odia un pájaro y que un caballo ve .
+Words300Swe: Johan är en hund som hatar en fågel och som en häst ser .
+Words300Urd: جان کتا جو پرندہ نفرت کرتا ہے اور جس گھوڑا دیکھتا ہے ہے
+
+
+Words300: baseText (sText (s (vpS (everyNP (cn_as_VarCN dog_CN)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))
+Words300Ace: every dog is a cat .
+Words300Bul: всяко куче е котка .
+Words300Cat: cada gos és un gat .
+Words300Dan: hver hund er en kat .
+Words300Dut: elke hond is een kat .
+Words300Fin: jokainen koira on kissa .
+Words300Fre: chaque chien est un chat .
+Words300Ger: jeder Hund ist eine Katze .
+Words300Gre: κάθε σκύλος είναι μία γάτα .
+Words300Ita: ogni cane è un gatto .
+Words300Lav: ikviens suns ir kaķis .
+Words300Nor: hver hund er en katt .
+Words300Pol: każdy pies jest kotem .
+Words300Ron: orice câine este o pisică .
+Words300Rus: каждая собака кошка .
+Words300Spa: cada perro es un gato .
+Words300Swe: varje hund är en katt .
+Words300Urd: ہر کتا بلی ہے
+
+
+Words300: baseText (sText (s (vpS (noNP (cn_as_VarCN cat_CN)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN)))))))
+Words300Ace: no cat is a worm .
+Words300Bul: 
+Words300Cat: cap gat és un cuc .
+Words300Dan: 
+Words300Dut: geen kat is een worm .
+Words300Fin: mikään kissa ei ole mato .
+Words300Fre: aucun chat n' est un ver .
+Words300Ger: keine Katze ist ein Wurm .
+Words300Gre: καμία γάτα δεν είναι ένα σκουλήκι .
+Words300Ita: nessuno gatto è un verme .
+Words300Lav: neviens kaķis nav tārps .
+Words300Nor: 
+Words300Pol: żaden kot jest robakiem .
+Words300Ron: nicio pisică este un vierme .
+Words300Rus: 
+Words300Spa: ningún gato es un gusano .
+Words300Swe: ingen katt är en mask .
+Words300Urd: کوی نہیں بلی گرم ہے
+
+
+Words300: baseText (sText (s (coordS and_Conj (vpS (everyNP (cn_as_VarCN worm_CN)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (vpS (everyNP (cn_as_VarCN bird_CN)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))))))))
+Words300Ace: every worm is a bird and every bird is a worm .
+Words300Bul: всеки червей е птица и всяка птица е червей .
+Words300Cat: cada cuc és un ocell i cada ocell és un cuc .
+Words300Dan: hver orm er en fugl og hver fugl er en orm .
+Words300Dut: elke worm is een vogel en elke vogel is een worm .
+Words300Fin: jokainen mato on lintu ja jokainen lintu on mato .
+Words300Fre: chaque ver est un oiseau et chaque oiseau est un ver .
+Words300Ger: jeder Wurm ist ein Vogel und jeder Vogel ist ein Wurm .
+Words300Gre: κάθε σκουλήκι είναι ένα πουλί και κάθε πουλί είναι ένα σκουλήκι .
+Words300Ita: ogni verme è un uccello ed ogni uccello è un verme .
+Words300Lav: ikviens tārps ir putns un ikviens putns ir tārps .
+Words300Nor: hver mark er en fugl og hver fugl er en mark .
+Words300Pol: każdy robak jest ptakiem i każdy ptak jest robakiem .
+Words300Ron: orice vierme este o pasăre şi orice pasăre este un vierme .
+Words300Rus: каждый черв птица и каждая птица черв .
+Words300Spa: cada gusano es un pájaro y cada pájaro es un gusano .
+Words300Swe: varje mask är en fågel och varje fågel är en mask .
+Words300Urd: ہر گرم پرندہ ہے اور ہر پرندہ گرم ہے
+
+
+Words300: baseText (sText (s (vpS (everyNP (relCN (cn_as_VarCN horse_CN) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))
+Words300Ace: every horse that isn't a worm is a cat .
+Words300Bul: всеки кон който не е червей е котка .
+Words300Cat: cada cavall que no és un cuc és un gat .
+Words300Dan: hver hest som ikke er en orm er en kat .
+Words300Dut: elk paard dat niet een worm is is een kat .
+Words300Fin: jokainen hevonen joka ei ole mato on kissa .
+Words300Fre: chaque cheval qui n' est pas un ver est un chat .
+Words300Ger: jedes Pferd , das nicht ein Wurm ist ist eine Katze .
+Words300Gre: κάθε άλογο , που δεν είναι ένα σκουλήκι είναι μία γάτα .
+Words300Ita: ogni cavallo che non è un verme è un gatto .
+Words300Lav: ikviens zirgs , kas nav tārps ir kaķis .
+Words300Nor: hver hest som ikke er en mark er en katt .
+Words300Pol: każdy koń , który nie jest robakiem jest kotem .
+Words300Ron: orice cal care nu este un vierme este o pisică .
+Words300Rus: каждая лошадь , которая черв кошка .
+Words300Spa: cada caballo que no es un gusano es un gato .
+Words300Swe: varje häst som inte är en mask är en katt .
+Words300Urd: ہر گھوڑا جو گرم نہیں ہے بلی ہے
+
+Words300: baseText (sText (s (vpS (relNP (everyNP (cn_as_VarCN horse_CN)) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))
+Words300Ace: every horse that isn't a worm is a cat .
+Words300Bul: всеки кон който не е червей е котка .
+Words300Cat: cada cavall que no és un cuc és un gat .
+Words300Dan: hver hest , som ikke er en orm er en kat .
+Words300Dut: elk paard , dat niet een worm is is een kat .
+Words300Fin: jokainen hevonen , joka ei ole mato on kissa .
+Words300Fre: chaque cheval qui n' est pas un ver est un chat .
+Words300Ger: jedes Pferd , das nicht ein Wurm ist ist eine Katze .
+Words300Gre: κάθε άλογο που δεν είναι ένα σκουλήκι είναι μία γάτα .
+Words300Ita: ogni cavallo che non è un verme è un gatto .
+Words300Lav: ikviens zirgs , kas nav tārps ir kaķis .
+Words300Nor: hver hest , som ikke er en mark er en katt .
+Words300Pol: każdy koń , który nie jest robakiem jest kotem .
+Words300Ron: orice cal care nu este un vierme este o pisică .
+Words300Rus: каждая лошадь , которая черв кошка .
+Words300Spa: cada caballo que no es un gusano es un gato .
+Words300Swe: varje häst , som inte är en mask är en katt .
+Words300Urd: ہر گھوڑا , جو گرم نہیں ہے بلی ہے
+
+
+Words300: baseText (sText (s (np_coord_VPS (everyNP (cn_as_VarCN dog_CN)) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN)))))))))
+Words300Ace: every dog is a cat or is a horse .
+Words300Bul: всяко куче е котка или е кон .
+Words300Cat: cada gos és un gat o és un cavall .
+Words300Dan: hver hund er en kat eller er en hest .
+Words300Dut: elke hond is een kat of is een paard .
+Words300Fin: jokainen koira on kissa tai on hevonen .
+Words300Fre: chaque chien est un chat ou il est un cheval .
+Words300Ger: jeder Hund ist eine Katze oder ist ein Pferd .
+Words300Gre: [np_coord_VPS] .
+Words300Ita: ogni cane è un gatto o è un cavallo .
+Words300Lav: ikviens suns ir kaķis vai ir zirgs .
+Words300Nor: hver hund er en katt eller er en hest .
+Words300Pol: [np_coord_VPS] .
+Words300Ron: [np_coord_VPS] .
+Words300Rus: [np_coord_VPS] .
+Words300Spa: cada perro es un gato o es un caballo .
+Words300Swe: varje hund är en katt eller är en häst .
+Words300Urd: [np_coord_VPS]
+
+
+Words300: baseText (sText (s (np_coord_VPS (relNP (indefPronNP nothing_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))))))) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN)))))))))
+Words300Ace: nothing that is a dog or that is a cat is a bird and is a horse .
+Words300Bul: 
+Words300Cat: res que és un gos o que és un gat és un ocell i és un cavall .
+Words300Dan: inget , som er en hund eller som er en kat er en fugl og er en hest .
+Words300Dut: niets , dat een hond is of dat een kat is is een vogel en is een paard .
+Words300Fin: mikään , joka on koira tai joka on kissa on lintu ja on hevonen .
+Words300Fre: rien qui est un chien ou qui est un chat n' est un oiseau et il n' est un cheval .
+Words300Ger: nichts , das ein Hund ist oder das eine Katze ist ist ein Vogel und ist ein Pferd .
+Words300Gre: [np_coord_VPS] .
+Words300Ita: niente che è un cane o che è un gatto è un uccello ed è un cavallo .
+Words300Lav: nekas , kas ir suns vai kas ir kaķis nav putns un nav zirgs .
+Words300Nor: inget , som er en hund eller som er en katt er en fugl og er en hest .
+Words300Pol: [np_coord_VPS] .
+Words300Ron: [np_coord_VPS] .
+Words300Rus: [np_coord_VPS] .
+Words300Spa: nada que es un perro o que es un gato es un pájaro y es un caballo .
+Words300Swe: inget , som är en hund eller som är en katt är en fågel och är en häst .
+Words300Urd: [np_coord_VPS]
+
+
+Words300: baseText (sText (s (vpS (pnNP paris_PN) (v2VP (V2by_as_V2 see_V2) (pnNP paris_PN)))))
+Words300Ace: Paris sees Paris .
+Words300Bul: Париж вижда Париж .
+Words300Cat: Paris veu Paris .
+Words300Dan: Paris ser Paris .
+Words300Dut: Parijs ziet Parijs .
+Words300Fin: Pariisi näkee Pariisin .
+Words300Fre: Paris voit Paris .
+Words300Ger: Paris sieht Paris .
+Words300Gre: το Παρίσι βλέπει το Παρίσι .
+Words300Ita: Parigi vede Parigi .
+Words300Lav: Parīze redz Parīzi .
+Words300Nor: Paris ser Paris .
+Words300Pol: Paryż widzi Paryż .
+Words300Ron: Paris vede Paris .
+Words300Rus: Париж видит Париж .
+Words300Spa: París ve París .
+Words300Swe: Paris ser Paris .
+Words300Urd: پیرس پیرس دیکھتا ہے
+
+
+Words300: baseText (sText (s (neg_vpS (pnNP paris_PN) (v2VP (V2by_as_V2 see_V2) (pnNP john_PN)))))
+Words300Ace: Paris doesn't see John .
+Words300Bul: Париж не вижда Джон .
+Words300Cat: Paris no veu Joan .
+Words300Dan: Paris ser ikke John .
+Words300Dut: Parijs ziet niet Jan .
+Words300Fin: Pariisi ei näe Jussia .
+Words300Fre: Paris ne voit pas Jean .
+Words300Ger: Paris sieht Johann nicht .
+Words300Gre: το Παρίσι δεν βλέπει τον Γιάννη .
+Words300Ita: Parigi non vede Giovanni .
+Words300Lav: Parīze neredz Jāni .
+Words300Nor: Paris ser ikke John .
+Words300Pol: Paryż nie widzi Jana .
+Words300Ron: Paris nu îl vede pe Ion .
+Words300Rus: Париж не видит Иван .
+Words300Spa: París no ve Juan .
+Words300Swe: Paris ser inte Johan .
+Words300Urd: پیرس جان نہیں دیکھتا ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (aNP (cn_as_VarCN tail_CN)))))))
+Words300Ace: John fears a tail .
+Words300Bul: Джон се страхува опашка .
+Words300Cat: Joan tem una cua .
+Words300Dan: John frygter en hale .
+Words300Dut: Jan vreest een staart .
+Words300Fin: Jussi pelkää häntää .
+Words300Fre: Jean craint une queue .
+Words300Ger: Johann fürchtet einen Schwanz .
+Words300Gre: ο Γιάννης φοβάται μία ουρά .
+Words300Ita: Giovanni teme una coda .
+Words300Lav: Jānis baidās no astes .
+Words300Nor: John frykter en hale .
+Words300Pol: Jan boi się ogona .
+Words300Ron: Ion se teme de o coadă .
+Words300Rus: Иван боет хвост .
+Words300Spa: Juan teme una cola .
+Words300Swe: Johan fruktar en svans .
+Words300Urd: جان دم ڈرتا ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP paris_PN) (v2VP (V2by_as_V2 see_V2) (noNP (cn_as_VarCN dog_CN))))))
+Words300Ace: Paris sees no dog .
+Words300Bul: 
+Words300Cat: Paris no veu cap gos .
+Words300Dan: 
+Words300Dut: Parijs ziet geen hond .
+Words300Fin: Pariisi ei näe mitään koiraa .
+Words300Fre: Paris ne voit aucun chien .
+Words300Ger: Paris sieht keinen Hund .
+Words300Gre: το Παρίσι δεν βλέπει κανέναν σκύλο .
+Words300Ita: Parigi non vede nessuno cane .
+Words300Lav: Parīze neredz nevienu suni .
+Words300Nor: 
+Words300Pol: Paryż widzi żadnego psa .
+Words300Ron: Paris vede niciun câine .
+Words300Rus: 
+Words300Spa: París no ve ningún perro .
+Words300Swe: Paris ser ingen hund .
+Words300Urd: پیرس کوی نہیں کتا دیکھتا ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 fear_V2) (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN))))))))))
+Words300Ace: John fears something that isn't a policeman .
+Words300Bul: Джон се страхува нещо което не е полицай .
+Words300Cat: Joan tem quelcom que no és una policia .
+Words300Dan: John frygter noget , som ikke er en politibetjent .
+Words300Dut: Jan vreest iets , die niet een politieagent is .
+Words300Fin: Jussi pelkää jotakin , joka ei ole poliisi .
+Words300Fre: Jean craint quelque chose qui n' est pas un policier .
+Words300Ger: Johann fürchtet etwas , das nicht ein Polizist ist .
+Words300Gre: ο Γιάννης φοβάται κάτι που δεν είναι ένας αστυνομικός .
+Words300Ita: Giovanni teme qualche cosa che non è un carabiniere .
+Words300Lav: Jānis baidās no kaut kā , kas nav policists .
+Words300Nor: John frykter noe , som ikke er en politi .
+Words300Pol: Jan boi się czegoś , które nie jest policjantem .
+Words300Ron: Ion se teme de ceva care nu este un poliţist .
+Words300Rus: Иван боет что-то , который милиционер .
+Words300Spa: Juan teme algo que no es un policía .
+Words300Swe: Johan fruktar något , som inte är en polis .
+Words300Urd: جان کوی چیز , جو پولیس والا نہیں ہے ڈرتا ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 see_V2) (nothing_butNP (cn_as_VarCN dog_CN))))))
+Words300Ace: John sees nothing but dogs .
+Words300Bul: Джон вижда само кучета .
+Words300Cat: Joan veu nomÈs gosos .
+Words300Dan: John ser kun hunder .
+Words300Dut: Jan ziet slechts honden .
+Words300Fin: Jussi näkee vain koiria .
+Words300Fre: Jean voit seulement des chiens .
+Words300Ger: Johann sieht nur Hunde .
+Words300Gre: ο Γιάννης βλέπει μόνο σκύλους .
+Words300Ita: Giovanni vede soltanto cani .
+Words300Lav: Jānis redz tikai suņus .
+Words300Nor: John ser kun hunder .
+Words300Pol: Jan widzi tylko psy .
+Words300Ron: Ion vede doar nişte câini .
+Words300Rus: Иван видит единственных собак .
+Words300Spa: Juan ve solamente perros .
+Words300Swe: Johan ser bara hundar .
+Words300Urd: جان صرف کتے دیکھتا ہے
+
+
+Words300: baseText (sText (s (vpS (everyNP (cn_as_VarCN dog_CN)) (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN)))))))
+Words300Ace: every dog fears a policeman .
+Words300Bul: всяко куче се страхува полицай .
+Words300Cat: cada gos tem una policia .
+Words300Dan: hver hund frygter en politibetjent .
+Words300Dut: elke hond vreest een politieagent .
+Words300Fin: jokainen koira pelkää poliisia .
+Words300Fre: chaque chien craint un policier .
+Words300Ger: jeder Hund fürchtet einen Polizisten .
+Words300Gre: κάθε σκύλος φοβάται ένα αστυνομικό .
+Words300Ita: ogni cane teme un carabiniere .
+Words300Lav: ikviens suns baidās no policista .
+Words300Nor: hver hund frykter en politi .
+Words300Pol: każdy pies boi się policjanta .
+Words300Ron: orice câine se teme de un poliţist .
+Words300Rus: каждая собака боет милиционера .
+Words300Spa: cada perro teme un policía .
+Words300Swe: varje hund fruktar en polis .
+Words300Urd: ہر کتا پولیس والا ڈرتا ہے
+
+
+Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN)))))))
+Words300Ace: everything that fears a policeman is a dog .
+Words300Bul: всичко което се страхува полицай е куче .
+Words300Cat: tot que tem una policia és un gos .
+Words300Dan: alt , som frygter en politibetjent er en hund .
+Words300Dut: alles , dat een politieagent vreest is een hond .
+Words300Fin: kaikki , joka pelkää poliisia on koira .
+Words300Fre: tout qui craint un policier est un chien .
+Words300Ger: alles , das einen Polizisten fürchtet ist ein Hund .
+Words300Gre: τα πάντα που φοβούνται ένα αστυνομικό είναι ένας σκύλος .
+Words300Ita: tutto che teme un carabiniere è un cane .
+Words300Lav: jebkas , kas baidās no policista ir suns .
+Words300Nor: alt , som frykter en politi er en hund .
+Words300Pol: wszystko , które boi się policjanta jest psem .
+Words300Ron: 
+Words300Rus: всё , которое боет милиционера собака .
+Words300Spa: todo que teme un policía es un perro .
+Words300Swe: allting , som fruktar en polis är en hund .
+Words300Urd: ہر چیز , جو پولیس والا ڈرتا ہے کتا ہے
+
+
+Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))) (V2by_as_V2 fear_V2))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN)))))))
+Words300Ace: everything that a dog fears is a policeman .
+Words300Bul: всичко което куче се страхува е полицай .
+Words300Cat: tot que un gos tem és una policia .
+Words300Dan: alt , som en hund frygter er en politibetjent .
+Words300Dut: alles , dat een hond vreest is een politieagent .
+Words300Fin: kaikki , jota koira pelkää on poliisi .
+Words300Fre: tout qu' un chien craint est un policier .
+Words300Ger: alles , das ein Hund fürchtet ist ein Polizist .
+Words300Gre: τα πάντα τα οποία ένας σκύλος φοβάται είναι ένας αστυνομικός .
+Words300Ita: tutto che un cane teme è un carabiniere .
+Words300Lav: jebkas , no kā suns baidās ir policists .
+Words300Nor: alt , som en hund frykter er en politi .
+Words300Pol: wszystko , którego boi się pies jest policjantem .
+Words300Ron: 
+Words300Rus: всё , которое собака боет милиционер .
+Words300Spa: todo que un perro teme es un policía .
+Words300Swe: allting , som en hund fruktar är en polis .
+Words300Urd: ہر چیز , جس کتا ڈرتا ہے پولیس والا ہے
+
+
+Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (orRS (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))) (V2by_as_V2 fear_V2)) (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))) (V2by_as_V2 hate_V2)))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN)))))))
+Words300Ace: everything that a dog fears or that a worm hates is a policeman .
+Words300Bul: всичко което куче се страхува или което червей мрази е полицай .
+Words300Cat: tot que un gos tem o que un cuc odia és una policia .
+Words300Dan: alt , som en hund frygter eller som en orm hader er en politibetjent .
+Words300Dut: alles , dat een hond vreest of dat een worm haat is een politieagent .
+Words300Fin: kaikki , jota koira pelkää tai jota mato vihaa on poliisi .
+Words300Fre: tout qu' un chien craint ou qu' un ver hait est un policier .
+Words300Ger: alles , das ein Hund fürchtet oder das ein Wurm hasst ist ein Polizist .
+Words300Gre: τα πάντα τα οποία ένας σκύλος φοβάται ή τα οποία ένα σκουλήκι μισεί είναι ένας αστυνομικός .
+Words300Ita: tutto che un cane teme o che un verme odia è un carabiniere .
+Words300Lav: jebkas , no kā suns baidās vai ko tārps ienīst ir policists .
+Words300Nor: alt , som en hund frykter eller som en mark hater er en politi .
+Words300Pol: wszystko , którego boi się pies lub , które nienawidzi robak jest policjantem .
+Words300Ron: 
+Words300Rus: всё , которое собака боет или , которое черв ненавидит милиционер .
+Words300Spa: todo que un perro teme o que un gusano odia es un policía .
+Words300Swe: allting , som en hund fruktar eller som en mask hatar är en polis .
+Words300Urd: ہر چیز , جس کتا ڈرتا ہے یا جس گرم نفرت کرتا ہے پولیس والا ہے
+
+
+Words300: baseText (sText (s (vpS (everyNP (cn_as_VarCN dog_CN)) (v2VP (V2by_as_V2 fear_V2) (nothing_butNP (cn_as_VarCN policeman_CN))))))
+Words300Ace: every dog fears nothing but policemen .
+Words300Bul: всяко куче се страхува само полицаи .
+Words300Cat: cada gos tem nomÈs policies .
+Words300Dan: hver hund frygter kun politibetjenter .
+Words300Dut: elke hond vreest slechts politieagenten .
+Words300Fin: jokainen koira pelkää vain poliiseja .
+Words300Fre: chaque chien craint seulement des policiers .
+Words300Ger: jeder Hund fürchtet nur Polizisten .
+Words300Gre: κάθε σκύλος φοβάται μόνο αστυνομικούς .
+Words300Ita: ogni cane teme soltanto carabinieri .
+Words300Lav: ikviens suns baidās no tikai policistu .
+Words300Nor: hver hund frykter kun politier .
+Words300Pol: każdy pies boi się tylko policjantów .
+Words300Ron: orice câine se teme de doar nişte poliţişti .
+Words300Rus: каждая собака боет единственных милиционеров .
+Words300Spa: cada perro teme solamente policías .
+Words300Swe: varje hund fruktar bara poliser .
+Words300Urd: ہر کتا صرف پولیس والے ڈرتا ہے
+
+
+Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP (V2by_as_V2 fear_V2) (nothing_butNP (cn_as_VarCN tail_CN))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN)))))))
+Words300Ace: everything that fears nothing but tails is a worm .
+Words300Bul: всичко което се страхува само опашки е червей .
+Words300Cat: tot que tem nomÈs cues és un cuc .
+Words300Dan: alt , som frygter kun haler er en orm .
+Words300Dut: alles , dat slechts staarten vreest is een worm .
+Words300Fin: kaikki , joka pelkää vain häntiä on mato .
+Words300Fre: tout qui craint seulement des queues est un ver .
+Words300Ger: alles , das nur Schwänze fürchtet ist ein Wurm .
+Words300Gre: τα πάντα που φοβούνται μόνο ουρές είναι ένα σκουλήκι .
+Words300Ita: tutto che teme soltanto code è un verme .
+Words300Lav: jebkas , kas baidās no tikai astu ir tārps .
+Words300Nor: alt , som frykter kun haler er en mark .
+Words300Pol: wszystko , które boi się tylko ogonów jest robakiem .
+Words300Ron: 
+Words300Rus: всё , которое боет единственные хвосты черв .
+Words300Spa: todo que teme solamente colas es un gusano .
+Words300Swe: allting , som fruktar bara svansar är en mask .
+Words300Urd: ہر چیز , جو صرف دم ڈرتا ہے گرم ہے
+
+
+Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP (V2by_as_V2 see_V2) (thereNP_as_NP (indefTherePronNP something_IPron))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN)))))))
+Words300Ace: everything that sees something is a bird .
+Words300Bul: всичко което вижда нещо е птица .
+Words300Cat: tot que veu quelcom és un ocell .
+Words300Dan: alt , som ser noget er en fugl .
+Words300Dut: alles , dat iets ziet is een vogel .
+Words300Fin: kaikki , joka näkee jonkin on lintu .
+Words300Fre: tout qui voit quelque chose est un oiseau .
+Words300Ger: alles , das etwas sieht ist ein Vogel .
+Words300Gre: τα πάντα που βλέπουν κάτι είναι ένα πουλί .
+Words300Ita: tutto che vede qualche cosa è un uccello .
+Words300Lav: jebkas , kas redz kaut ko ir putns .
+Words300Nor: alt , som ser noe er en fugl .
+Words300Pol: wszystko , które widzi coś jest ptakiem .
+Words300Ron: 
+Words300Rus: всё , которое видит что-то птица .
+Words300Spa: todo que ve algo es un pájaro .
+Words300Swe: allting , som ser något är en fågel .
+Words300Urd: ہر چیز , جو کوی چیز دیکھتا ہے پرندہ ہے
+
+
+Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (slashRS which_RP (thereNP_as_NP (indefTherePronNP something_IPron)) (V2by_as_V2 see_V2))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN)))))))
+Words300Ace: everything that something sees is a bird .
+Words300Bul: всичко което нещо вижда е птица .
+Words300Cat: tot que quelcom veu és un ocell .
+Words300Dan: alt , som noget ser er en fugl .
+Words300Dut: alles , dat iets ziet is een vogel .
+Words300Fin: kaikki , jonka jokin näkee on lintu .
+Words300Fre: tout que quelque chose voit est un oiseau .
+Words300Ger: alles , das etwas sieht ist ein Vogel .
+Words300Gre: τα πάντα τα οποία κάτι βλέπει είναι ένα πουλί .
+Words300Ita: tutto che qualche cosa vede è un uccello .
+Words300Lav: jebkas , ko kaut kas redz ir putns .
+Words300Nor: alt , som noe ser er en fugl .
+Words300Pol: wszystko , które widzi coś jest ptakiem .
+Words300Ron: 
+Words300Rus: всё , которое что-то видит птица .
+Words300Spa: todo que algo ve es un pájaro .
+Words300Swe: allting , som något ser är en fågel .
+Words300Urd: ہر چیز , جس کوی چیز دیکھتا ہے پرندہ ہے
+
+
+Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP find_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN book_CN)))))))
+Words300Ace: everything that is found by something is a book .
+Words300Bul: всичко което е намерено чрез нещо е книга .
+Words300Cat: tot que està trobat per quelcom és un llibre .
+Words300Dan: alt , som bliver fundet af noget er en bog .
+Words300Dut: alles , dat door iets gevonden wordt is een boek .
+Words300Fin: kaikki , joka löydetään jonkin toimesta on kirja .
+Words300Fre: tout qui est trouvé par quelque chose est un livre .
+Words300Ger: alles , das durch etwas gefunden wird ist ein Buch .
+Words300Gre: 
+Words300Ita: tutto che viene trovato da qualche cosa è un libro .
+Words300Lav: jebkas , ko atrod kaut kas ir grāmata .
+Words300Nor: alt , som blir funnet av noe er ei bok .
+Words300Pol: wszystko , które przez coś jest znalezione jest książką .
+Words300Ron: 
+Words300Rus: всё , которое с помощью чего-то находится книга .
+Words300Spa: todo que está encontrado por algo es un libro .
+Words300Swe: allting , som blir funnet av något är en bok .
+Words300Urd: ہر چیز , جو کوی چیز سے پاتا ہے کتاب ہے
+
+
+Words300: baseText (sText (s (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP (V2by_as_V2 find_V2) (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN)))))))))
+Words300Ace: everything that finds something is a horse or is a bird .
+Words300Bul: всичко което намира нещо е кон или е птица .
+Words300Cat: tot que troba quelcom és un cavall o és un ocell .
+Words300Dan: alt , som finder noget er en hest eller er en fugl .
+Words300Dut: alles , dat iets vindt is een paard of is een vogel .
+Words300Fin: kaikki , joka löytää jonkin on hevonen tai on lintu .
+Words300Fre: tout qui trouve quelque chose est un cheval ou il est un oiseau .
+Words300Ger: alles , das etwas findet ist ein Pferd oder ist ein Vogel .
+Words300Gre: [np_coord_VPS] .
+Words300Ita: tutto che trova qualche cosa è un cavallo o è un uccello .
+Words300Lav: jebkas , kas atrod kaut ko ir zirgs vai ir putns .
+Words300Nor: alt , som finner noe er en hest eller er en fugl .
+Words300Pol: [np_coord_VPS] .
+Words300Ron: [np_coord_VPS] .
+Words300Rus: [np_coord_VPS] .
+Words300Spa: todo que encuentra algo es un caballo o es un pájaro .
+Words300Swe: allting , som finner något är en häst eller är en fågel .
+Words300Urd: [np_coord_VPS]
+
+
+Words300: baseText (sText (s (np_coord_VPS (relNP (indefPronNP everything_IPron) (slashRS which_RP (thereNP_as_NP (indefTherePronNP something_IPron)) (V2by_as_V2 find_V2))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN)))))))))
+Words300Ace: everything that something finds is a horse or is a bird .
+Words300Bul: всичко което нещо намира е кон или е птица .
+Words300Cat: tot que quelcom troba és un cavall o és un ocell .
+Words300Dan: alt , som noget finder er en hest eller er en fugl .
+Words300Dut: alles , dat iets vindt is een paard of is een vogel .
+Words300Fin: kaikki , jonka jokin löytää on hevonen tai on lintu .
+Words300Fre: tout que quelque chose trouve est un cheval ou il est un oiseau .
+Words300Ger: alles , das etwas findet ist ein Pferd oder ist ein Vogel .
+Words300Gre: [np_coord_VPS] .
+Words300Ita: tutto che qualche cosa trova è un cavallo o è un uccello .
+Words300Lav: jebkas , ko kaut kas atrod ir zirgs vai ir putns .
+Words300Nor: alt , som noe finner er en hest eller er en fugl .
+Words300Pol: [np_coord_VPS] .
+Words300Ron: [np_coord_VPS] .
+Words300Rus: [np_coord_VPS] .
+Words300Spa: todo que algo encuentra es un caballo o es un pájaro .
+Words300Swe: allting , som något finner är en häst eller är en fågel .
+Words300Urd: [np_coord_VPS]
+
+
+Words300: baseText (sText (s (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP see_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN airplane_CN)))))))))
+Words300Ace: everything that is seen by something is a horse or is an airplane .
+Words300Bul: всичко което е видяно чрез нещо е кон или е самолет .
+Words300Cat: tot que està vist per quelcom és un cavall o és un avió .
+Words300Dan: alt , som bliver set af noget er en hest eller er et fly .
+Words300Dut: alles , dat door iets gezien wordt is een paard of is een vliegtuig .
+Words300Fin: kaikki , joka nähdään jonkin toimesta on hevonen tai on lentokone .
+Words300Fre: tout qui est vu par quelque chose est un cheval ou il est un avion .
+Words300Ger: alles , das durch etwas gesehen wird ist ein Pferd oder ist ein Flugzeug .
+Words300Gre: [np_coord_VPS] .
+Words300Ita: tutto che viene visto da qualche cosa è un cavallo o è un aereo .
+Words300Lav: jebkas , ko redz kaut kas ir zirgs vai ir lidmašīna .
+Words300Nor: alt , som blir sett av noe er en hest eller er et fly .
+Words300Pol: [np_coord_VPS] .
+Words300Ron: [np_coord_VPS] .
+Words300Rus: [np_coord_VPS] .
+Words300Spa: todo que está visto por algo es un caballo o es un aeroplano .
+Words300Swe: allting , som blir sett av något är en häst eller är ett flygplan .
+Words300Urd: [np_coord_VPS]
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 find_V2) (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN bird_CN)))))))
+Words300Ace: John finds at least 2 birds .
+Words300Bul: Джон намира почти 2 птици .
+Words300Cat: Joan troba almenys 2 ocells .
+Words300Dan: John finder mindst 2 fugler .
+Words300Dut: Jan vindt ten minste 2 vogels .
+Words300Fin: Jussi löytää vähintään 2 lintua .
+Words300Fre: Jean trouve au moins 2 oiseaux .
+Words300Ger: Johann findet wenigstens 2 Vögel .
+Words300Gre: 
+Words300Ita: Giovanni trova almeno 2 uccelli .
+Words300Lav: Jānis atrod vismaz 2 putnus .
+Words300Nor: John finner minst 2 fugler .
+Words300Pol: Jan znajdzie co najmniej 2 ptaki .
+Words300Ron: Ion găseşte cel puţin 2 păsări .
+Words300Rus: Иван находит по крайней мере 2 птиц .
+Words300Spa: Juan encuentra al menos 2 pájaros .
+Words300Swe: Johan finner minst 2 fåglar .
+Words300Urd: جان کم از کم ۲ پرندے پاتا ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP paris_PN) (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN policeman_CN)))))))
+Words300Ace: Paris fears at most 1 policeman .
+Words300Bul: Париж се страхува почти 1 полицай .
+Words300Cat: Paris tem com a màxim 1 policia .
+Words300Dan: Paris frygter højst 1 politibetjent .
+Words300Dut: Parijs vreest hooguit 1 politieagent .
+Words300Fin: Pariisi pelkää enintään 1 poliisia .
+Words300Fre: Paris craint au plus 1 policier .
+Words300Ger: Paris fürchtet höchstens 1 Polizisten .
+Words300Gre: το Παρίσι φοβάται ένα το πολύ 1 αστυνομικό .
+Words300Ita: Parigi teme al massimo 1 carabiniere .
+Words300Lav: Parīze baidās no ne vairāk kā 1 policista .
+Words300Nor: Paris frykter høyst 1 politi .
+Words300Pol: Paryż boi się co najwyżej 1 policjanta .
+Words300Ron: Paris se teme de cel mult 1 poliţist .
+Words300Rus: Париж боет не более 1 милиционера .
+Words300Spa: París teme como máximo 1 policía .
+Words300Swe: Paris fruktar högst 1 polis .
+Words300Urd: پیرس زیادہ سے زیادہ ۱ پولیس والا ڈرتا ہے
+
+
+Words300: baseText (sText (s (vpS (everyNP (cn_as_VarCN horse_CN)) (v2VP (V2by_as_V2 see_V2) (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN airplane_CN)))))))
+Words300Ace: every horse sees at least 2 airplanes .
+Words300Bul: всеки кон вижда почти 2 самолета .
+Words300Cat: cada cavall veu almenys 2 avions .
+Words300Dan: hver hest ser mindst 2 fly .
+Words300Dut: elk paard ziet ten minste 2 vliegtuigen .
+Words300Fin: jokainen hevonen näkee vähintään 2 lentokonetta .
+Words300Fre: chaque cheval voit au moins 2 avions .
+Words300Ger: jedes Pferd sieht wenigstens 2 Flugzeuge .
+Words300Gre: κάθε άλογο βλέπει τουλάχιστον 2 αεροπλάνα .
+Words300Ita: ogni cavallo vede almeno 2 aerei .
+Words300Lav: ikviens zirgs redz vismaz 2 lidmašīnas .
+Words300Nor: hver hest ser minst 2 fly .
+Words300Pol: każdy koń widzi co najmniej 2 samoloty .
+Words300Ron: orice cal vede cel puţin 2 avioane .
+Words300Rus: каждая лошадь видит по крайней мере 2 самолёты .
+Words300Spa: cada caballo ve al menos 2 aeroplanos .
+Words300Swe: varje häst ser minst 2 flygplan .
+Words300Urd: ہر گھوڑا کم از کم ۲ جہاز دیکھتا ہے
+
+
+Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN policeman_CN)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN)))))))
+Words300Ace: everything that fears at least 2 policemen is a bird .
+Words300Bul: всичко което се страхува почти 2 полицаи е птица .
+Words300Cat: tot que tem almenys 2 policies és un ocell .
+Words300Dan: alt , som frygter mindst 2 politibetjenter er en fugl .
+Words300Dut: alles , dat ten minste 2 politieagenten vreest is een vogel .
+Words300Fin: kaikki , joka pelkää vähintään 2 poliisia on lintu .
+Words300Fre: tout qui craint au moins 2 policiers est un oiseau .
+Words300Ger: alles , das wenigstens 2 Polizisten fürchtet ist ein Vogel .
+Words300Gre: τα πάντα που φοβούνται τουλάχιστον 2 αστυνομικούς είναι ένα πουλί .
+Words300Ita: tutto che teme almeno 2 carabinieri è un uccello .
+Words300Lav: jebkas , kas baidās no vismaz 2 policistu ir putns .
+Words300Nor: alt , som frykter minst 2 politier er en fugl .
+Words300Pol: wszystko , które boi się co najmniej 2 policjantów jest ptakiem .
+Words300Ron: 
+Words300Rus: всё , которое боет по крайней мере 2 милиционеров птица .
+Words300Spa: todo que teme al menos 2 policías es un pájaro .
+Words300Swe: allting , som fruktar minst 2 poliser är en fågel .
+Words300Urd: ہر چیز , جو کم از کم ۲ پولیس والے ڈرتا ہے پرندہ ہے
+
+
+Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (slashRS which_RP (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN bird_CN))) (V2by_as_V2 fear_V2))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN)))))))
+Words300Ace: everything that at least 2 birds fear is a policeman .
+Words300Bul: всичко което почти 2 птици се страхуват е полицай .
+Words300Cat: tot que almenys 2 ocells temen és una policia .
+Words300Dan: alt , som mindst 2 fugler frygter er en politibetjent .
+Words300Dut: alles , dat ten minste 2 vogels vrezen is een politieagent .
+Words300Fin: kaikki , jota vähintään 2 lintua pelkää on poliisi .
+Words300Fre: tout qu' au moins 2 oiseaux craignent est un policier .
+Words300Ger: alles , das wenigstens 2 Vögel fürchten ist ein Polizist .
+Words300Gre: τα πάντα τα οποία τουλάχιστον 2 πουλιά φοβούνται είναι ένας αστυνομικός .
+Words300Ita: tutto che almeno 2 uccelli temono è un carabiniere .
+Words300Lav: jebkas , no kā vismaz 2 putni baidās ir policists .
+Words300Nor: alt , som minst 2 fugler frykter er en politi .
+Words300Pol: wszystko , którego boją się co najmniej 2 ptaki jest policjantem .
+Words300Ron: 
+Words300Rus: всё , которое по крайней мере 2 птицы боют милиционер .
+Words300Spa: todo que al menos 2 pájaros temen es un policía .
+Words300Swe: allting , som minst 2 fåglar fruktar är en polis .
+Words300Urd: ہر چیز , جس کم از کم ۲ پرندے ڈرتے ہیں پولیس والا ہے
+
+
+Words300: baseText (sText (s (vpS (everyNP (cn_as_VarCN bird_CN)) (v2VP (V2by_as_V2 see_V2) (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN airplane_CN)))))))
+Words300Ace: every bird sees at most 1 airplane .
+Words300Bul: всяка птица вижда почти 1 самолет .
+Words300Cat: cada ocell veu com a màxim 1 avió .
+Words300Dan: hver fugl ser højst 1 fly .
+Words300Dut: elke vogel ziet hooguit 1 vliegtuig .
+Words300Fin: jokainen lintu näkee enintään 1 lentokoneen .
+Words300Fre: chaque oiseau voit au plus 1 avion .
+Words300Ger: jeder Vogel sieht höchstens 1 Flugzeug .
+Words300Gre: κάθε πουλί βλέπει ένα το πολύ 1 αεροπλάνο .
+Words300Ita: ogni uccello vede al massimo 1 aereo .
+Words300Lav: ikviens putns redz ne vairāk kā 1 lidmašīnu .
+Words300Nor: hver fugl ser høyst 1 fly .
+Words300Pol: każdy ptak widzi co najwyżej 1 samolot .
+Words300Ron: orice pasăre vede cel mult 1 avion .
+Words300Rus: каждая птица видит не более 1 самолёт .
+Words300Spa: cada pájaro ve como máximo 1 aeroplano .
+Words300Swe: varje fågel ser högst 1 flygplan .
+Words300Urd: ہر پرندہ زیادہ سے زیادہ ۱ جہاز دیکھتا ہے
+
+
+Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))))) (v2VP (V2by_as_V2 see_V2) (thereNP_as_NP (at_mostNP (digitsCard (IDig D_2)) (cn_as_VarCN airplane_CN)))))))
+Words300Ace: everything that is a horse or that is a bird sees at most 2 airplanes .
+Words300Bul: всичко което е кон или което е птица вижда почти 2 самолета .
+Words300Cat: tot que és un cavall o que és un ocell veu com a màxim 2 avions .
+Words300Dan: alt , som er en hest eller som er en fugl ser højst 2 fly .
+Words300Dut: alles , dat een paard is of dat een vogel is ziet hooguit 2 vliegtuigen .
+Words300Fin: kaikki , joka on hevonen tai joka on lintu näkee enintään 2 lentokonetta .
+Words300Fre: tout qui est un cheval ou qui est un oiseau voit au plus 2 avions .
+Words300Ger: alles , das ein Pferd ist oder das ein Vogel ist sieht höchstens 2 Flugzeuge .
+Words300Gre: τα πάντα που είναι ένα άλογο ή που είναι ένα πουλί βλέπουν το πολύ 2 αεροπλάνα .
+Words300Ita: tutto che è un cavallo o che è un uccello vede al massimo 2 aerei .
+Words300Lav: jebkas , kas ir zirgs vai kas ir putns redz ne vairāk kā 2 lidmašīnas .
+Words300Nor: alt , som er en hest eller som er en fugl ser høyst 2 fly .
+Words300Pol: wszystko , które jest koniem lub , które jest ptakiem widzi co najwyżej 2 samoloty .
+Words300Ron: 
+Words300Rus: всё , которое лошадь или , которое птица видит не более 2 самолёты .
+Words300Spa: todo que es un caballo o que es un pájaro ve como máximo 2 aeroplanos .
+Words300Swe: allting , som är en häst eller som är en fågel ser högst 2 flygplan .
+Words300Urd: ہر چیز , جو گھوڑا ہے یا جو پرندہ ہے زیادہ سے زیادہ ۲ جہاز دیکھتا ہے
+
+
+Words300: baseText (sText (s (vpS (noNP (cn_as_VarCN tail_CN)) (refl_v2VP (V2by_as_V2 hate_V2)))))
+Words300Ace: no tail hates itself .
+Words300Bul: 
+Words300Cat: cap cua es odia .
+Words300Dan: 
+Words300Dut: geen staart haat zich .
+Words300Fin: mikään häntä ei vihaa itseänsä .
+Words300Fre: aucune queue ne s' hait .
+Words300Ger: kein Schwanz hasst sich .
+Words300Gre: καμία ουρά δεν μισεί τον εαυτό της .
+Words300Ita: nessuna coda si odia .
+Words300Lav: neviena aste neienīst sevi .
+Words300Nor: 
+Words300Pol: żaden ogon nienawidzi siebie .
+Words300Ron: nicio coadă se urăşte .
+Words300Rus: 
+Words300Spa: ninguna cola se odia .
+Words300Swe: ingen svans hatar sig .
+Words300Urd: کوی نہیں دم خود نفرت کرتا ہے
+
+
+
+Words300: baseText (sText (s (if_thenS (vpS (termNP X_Var) (v2VP (V2by_as_V2 see_V2) (termNP Y_Var))) (neg_vpS (termNP Y_Var) (v2VP (V2by_as_V2 find_V2) (termNP X_Var))))))
+Words300Ace: if X sees Y then Y doesn't find X .
+Words300Bul: [if_thenS] .
+Words300Cat: si X veu Y llavors Y no troba X .
+Words300Dan: hvis X ser Y så Y finder ikke X .
+Words300Dut: als X Y ziet , dan vindt Y niet X .
+Words300Fin: jos X näkee Y:n niin Y ei löydä X:ää .
+Words300Fre: si X voit Y alors Y ne trouve pas X .
+Words300Ger: wenn X Y sieht , dann findet Y X nicht .
+Words300Gre: 
+Words300Ita: si X vede Y allora Y non trova X .
+Words300Lav: ja X redz Y tad Y neatrod X .
+Words300Nor: hvis X ser Y så Y finner ikke X .
+Words300Pol: jeżeli X widzi Y , to Y nie znajdzie X .
+Words300Ron: dacă X îl vede pe Y atunci Y nu îl găseşte pe X .
+Words300Rus: если X видит Y то Y не находит X .
+Words300Spa: si X ve Y entonces Y no encuentra X .
+Words300Swe: om X ser Y så Y finner inte X .
+Words300Urd: اگر X Y دیکھتا ہے تو Y X نہیں پاتا ہے
+
+
+Words300: baseText (sText (s (if_thenS (vpS (termNP X_Var) (v2VP (V2by_as_V2 see_V2) (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (predRS which_RP (v2VP (V2by_as_V2 see_V2) (termNP Y_Var)))))) (vpS (termNP X_Var) (v2VP (V2by_as_V2 see_V2) (termNP Y_Var))))))
+Words300Ace: if X sees something that sees Y then X sees Y .
+Words300Bul: [if_thenS] .
+Words300Cat: si X veu quelcom que veu Y llavors X veu Y .
+Words300Dan: hvis X ser noget , som ser Y så X ser Y .
+Words300Dut: als X iets , die Y ziet ziet , dan ziet X Y .
+Words300Fin: jos X näkee jonkin , joka näkee Y:n niin X näkee Y:n .
+Words300Fre: si X voit quelque chose qui voit Y alors X voit Y .
+Words300Ger: wenn X etwas , das Y sieht sieht , dann sieht X Y .
+Words300Gre: αν ο X βλέπει κάτι που βλέπει τον Y τότε ο X βλέπει τον Y .
+Words300Ita: si X vede qualche cosa che vede Y allora X vede Y .
+Words300Lav: ja X redz kaut ko , kas redz Y tad X redz Y .
+Words300Nor: hvis X ser noe , som ser Y så X ser Y .
+Words300Pol: jeżeli X widzi coś , które widzi Y , to X widzi Y .
+Words300Ron: dacă X vede ceva care îl vede pe Y atunci X îl vede pe Y .
+Words300Rus: если X видит что-то , который видит Y то X видит Y .
+Words300Spa: si X ve algo que ve Y entonces X ve Y .
+Words300Swe: om X ser något , som ser Y så X ser Y .
+Words300Urd: اگر X کوی چیز , جو Y دیکھتا ہے دیکھتا ہے تو X Y دیکھتا ہے
+
+
+Words300: baseText (sText (s (if_thenS (vpS (termNP X_Var) (v2VP (V2by_as_V2 hate_V2) (termNP Y_Var))) (vpS (termNP X_Var) (v2VP (V2by_as_V2 see_V2) (termNP Y_Var))))))
+Words300Ace: if X hates Y then X sees Y .
+Words300Bul: [if_thenS] .
+Words300Cat: si X odia Y llavors X veu Y .
+Words300Dan: hvis X hader Y så X ser Y .
+Words300Dut: als X Y haat , dan ziet X Y .
+Words300Fin: jos X vihaa Y:tä niin X näkee Y:n .
+Words300Fre: si X hait Y alors X voit Y .
+Words300Ger: wenn X Y hasst , dann sieht X Y .
+Words300Gre: αν ο X μισεί τον Y τότε ο X βλέπει τον Y .
+Words300Ita: si X odia Y allora X vede Y .
+Words300Lav: ja X ienīst Y tad X redz Y .
+Words300Nor: hvis X hater Y så X ser Y .
+Words300Pol: jeżeli X nienawidzi Y , to X widzi Y .
+Words300Ron: dacă X îl urăşte pe Y atunci X îl vede pe Y .
+Words300Rus: если X ненавидит Y то X видит Y .
+Words300Spa: si X odia Y entonces X ve Y .
+Words300Swe: om X hatar Y så X ser Y .
+Words300Urd: اگر X Y نفرت کرتا ہے تو X Y دیکھتا ہے
+
+
+Words300: baseText (sText (s (if_thenS (vpS (termNP X_Var) (v2VP (V2by_as_V2 bite_V2) (termNP Y_Var))) (vpS (termNP Y_Var) (v2VP (V2by_as_V2 hate_V2) (termNP X_Var))))))
+Words300Ace: if X bites Y then Y hates X .
+Words300Bul: [if_thenS] .
+Words300Cat: si X mossega Y llavors Y odia X .
+Words300Dan: hvis X biter Y så Y hader X .
+Words300Dut: als X Y bijt , dan haat Y X .
+Words300Fin: jos X puree Y:n niin Y vihaa X:ää .
+Words300Fre: si X mord Y alors Y hait X .
+Words300Ger: wenn X Y beißt , dann hasst Y X .
+Words300Gre: αν ο X δαγκώνει τον Y τότε ο Y μισεί τον X .
+Words300Ita: si X morde Y allora Y odia X .
+Words300Lav: ja X kož Y tad Y ienīst X .
+Words300Nor: hvis X biter Y så Y hater X .
+Words300Pol: jeżeli X gryzie Y , to Y nienawidzi X .
+Words300Ron: dacă X îl muşcă pe Y atunci Y îl urăşte pe X .
+Words300Rus: если X кусает Y то Y ненавидит X .
+Words300Spa: si X muerde Y entonces Y odia X .
+Words300Swe: om X biter Y så Y hatar X .
+Words300Urd: اگر X Y کاٹتا ہے تو Y X نفرت کرتا ہے
+
+
+Words300: baseText (sText (s (if_thenS (vpS (termNP X_Var) (v2VP (V2by_as_V2 find_V2) (termNP Y_Var))) (neg_vpS (termNP X_Var) (v2VP (V2by_as_V2 hate_V2) (termNP Y_Var))))))
+Words300Ace: if X finds Y then X doesn't hate Y .
+Words300Bul: [if_thenS] .
+Words300Cat: si X troba Y llavors X no odia Y .
+Words300Dan: hvis X finder Y så X hader ikke Y .
+Words300Dut: als X Y vindt , dan haat X niet Y .
+Words300Fin: jos X löytää Y:n niin X ei vihaa Y:tä .
+Words300Fre: si X trouve Y alors X n' hait pas Y .
+Words300Ger: wenn X Y findet , dann hasst X Y nicht .
+Words300Gre: 
+Words300Ita: si X trova Y allora X non odia Y .
+Words300Lav: ja X atrod Y tad X neienīst Y .
+Words300Nor: hvis X finner Y så X hater ikke Y .
+Words300Pol: jeżeli X znajdzie Y , to X nie nienawidzi Y .
+Words300Ron: dacă X îl găseşte pe Y atunci X nu îl urăşte pe Y .
+Words300Rus: если X находит Y то X не ненавидит Y .
+Words300Spa: si X encuentra Y entonces X no odia Y .
+Words300Swe: om X finner Y så X hatar inte Y .
+Words300Urd: اگر X Y پاتا ہے تو X Y نفرت نہیں کرتا ہے
+
+
+Words300: baseText (sText (s (if_thenS (neg_vpS (thereNP_as_NP (aNP (apposVarCN dog_CN X_Var))) (v2VP (V2by_as_V2 hate_V2) (thereNP_as_NP (aNP (apposVarCN worm_CN Y_Var))))) (neg_vpS (theNP (apposVarCN worm_CN Y_Var)) (v2VP (V2by_as_V2 hate_V2) (theNP (apposVarCN dog_CN X_Var)))))))
+Words300Ace: if a dog X doesn't hate a worm Y then the worm Y doesn't hate the dog X .
+Words300Bul: [if_thenS] .
+Words300Cat: si un gos X no odia un cuc Y llavors el cuc Y no odia el gos X .
+Words300Dan: hvis en hund X hader ikke en orm Y så ormen Y hader ikke hunden X .
+Words300Dut: als een hond X niet een worm Y haat , dan haat de worm Y niet de hond X .
+Words300Fin: jos koira X ei vihaa matoa Y niin mato Y ei vihaa koiraa X .
+Words300Fre: si un chien X n' hait pas un ver Y alors le ver Y n' hait pas le chien X .
+Words300Ger: wenn ein Hund X nicht einen Wurm Y hasst , dann hasst der Wurm Y den Hund X nicht .
+Words300Gre: αν ένας σκύλος ο X δεν μισεί ένα σκουλήκι τον Y τότε το σκουλήκι ο Y δεν μισεί τον σκύλο τον X .
+Words300Ita: si un cane X non odia un verme Y allora il verme Y non odia il cane X .
+Words300Lav: ja suns X neienīst tārpu Y tad tārps Y neienīst suni X .
+Words300Nor: hvis en hund X hater ikke en mark Y så marken Y hater ikke hunden X .
+Words300Pol: jeżeli pies X nie nienawidzi robaka Y , to robak Y nie nienawidzi psa X .
+Words300Ron: dacă un câine X nu urăşte un vierme Y atunci viermele Y nu urăşte câinele X .
+Words300Rus: если собака X не ненавидит черв Y то черв Y не ненавидит собаку X .
+Words300Spa: si un perro X no odia un gusano Y entonces el gusano Y no odia el perro X .
+Words300Swe: om en hund X hatar inte en mask Y så masken Y hatar inte hunden X .
+Words300Urd: اگر کتا X گرم Y نفرت نہیں کرتا ہے تو گرم Y کتا X نفرت نہیں کرتا ہے
+
+
+Words300: baseText (sText (s (if_thenS (neg_vpS (thereNP_as_NP (aNP (apposVarCN dog_CN X_Var))) (v2VP (V2by_as_V2 bite_V2) (thereNP_as_NP (aNP (apposVarCN worm_CN Y_Var))))) (neg_vpS (theNP (apposVarCN worm_CN Y_Var)) (v2VP (V2by_as_V2 bite_V2) (theNP (apposVarCN dog_CN X_Var)))))))
+Words300Ace: if a dog X doesn't bite a worm Y then the worm Y doesn't bite the dog X .
+Words300Bul: [if_thenS] .
+Words300Cat: si un gos X no mossega un cuc Y llavors el cuc Y no mossega el gos X .
+Words300Dan: hvis en hund X biter ikke en orm Y så ormen Y biter ikke hunden X .
+Words300Dut: als een hond X niet een worm Y bijt , dan bijt de worm Y niet de hond X .
+Words300Fin: jos koira X ei pure matoa Y niin mato Y ei pure koiraa X .
+Words300Fre: si un chien X ne mord pas un ver Y alors le ver Y ne mord pas le chien X .
+Words300Ger: wenn ein Hund X nicht einen Wurm Y beißt , dann beißt der Wurm Y den Hund X nicht .
+Words300Gre: αν ένας σκύλος ο X δεν δαγκώνει ένα σκουλήκι τον Y τότε το σκουλήκι ο Y δεν δαγκώνει τον σκύλο τον X .
+Words300Ita: si un cane X non morde un verme Y allora il verme Y non morde il cane X .
+Words300Lav: ja suns X nekož tārpam Y tad tārps Y nekož sunim X .
+Words300Nor: hvis en hund X biter ikke en mark Y så marken Y biter ikke hunden X .
+Words300Pol: jeżeli pies X nie gryzie robaka Y , to robak Y nie gryzie psa X .
+Words300Ron: dacă un câine X nu muşcă un vierme Y atunci viermele Y nu muşcă câinele X .
+Words300Rus: если собака X не кусает черв Y то черв Y не кусает собаку X .
+Words300Spa: si un perro X no muerde un gusano Y entonces el gusano Y no muerde el perro X .
+Words300Swe: om en hund X biter inte en mask Y så masken Y biter inte hunden X .
+Words300Urd: اگر کتا X گرم Y نہیں کاٹتا ہے تو گرم Y کتا X نہیں کاٹتا ہے
+
+
+Words300: baseText (sText (s (falseS (neg_vpS (thereNP_as_NP (indefTherePronNP something_IPron)) (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (exactlyNP (digitsCard (IDig D_3)) (cn_as_VarCN cat_CN))))))))
+Words300Ace: it is false that something doesn't fear exactly 3 cats .
+Words300Bul: [falseS] .
+Words300Cat: és fals que quelcom no tem exactament 3 gats .
+Words300Dan: det er falsk at noget ikke frygter præcis 3 katte .
+Words300Dut: 't is onwaar dat iets niet precies 3 katten vreest .
+Words300Fin: on epätotta että jokin ei pelkää tasan 3 kissaa .
+Words300Fre: il est faux que quelque chose ne craint pas exactement 3 chats .
+Words300Ger: es ist falsch dass etwas nicht genau 3 Katzen fürchtet .
+Words300Gre: είναι ψευδής οτι κάτι δεν φοβάται ακριβώς 3 γάτες .
+Words300Ita: è falso che qualche cosa non teme esattamente 3 gatti .
+Words300Lav: nav tiesa , ka kaut kas nebaidās no tieši 3 kaķu .
+Words300Nor: det er falsk at noe ikke frykter nøyaktig 3 katter .
+Words300Pol: jest źle , że coś nie boi się dokładnie 3 kotów .
+Words300Ron: este fals cã ceva nu se teme de exact 3 pisici .
+Words300Rus: неверно , что что-то не боет ровно 3 кошк .
+Words300Spa: es falso que algo no teme exactamente 3 gatos .
+Words300Swe: det är falskt att något inte fruktar exakt 3 katter .
+Words300Urd: GlT کہ کوی چیز TODO ۳ بلیاں نہیں ڈرتا ہے ہے
+
+
+Words300: baseText (qsText (qs (slash_ipQS whatSg_IP (pnNP john_PN) (V2by_as_V2 fear_V2))))
+Words300Ace: what does John fear ?
+Words300Bul: какъв се страхува Джон ?
+Words300Cat: què tem Joan ?
+Words300Dan: hvad frygter John ?
+Words300Dut: wat vreest Jan ?
+Words300Fin: mitä Jussi pelkää ?
+Words300Fre: que craint Jean ?
+Words300Ger: was fürchtet Johann ?
+Words300Gre: τι φοβάται ο Γιάννης ;
+Words300Ita: che teme Giovanni ?
+Words300Lav: no kā Jānis baidās ?
+Words300Nor: hva frykter John ?
+Words300Pol: czego boi się Jan ?
+Words300Ron: de ce se teme Ion ?
+Words300Rus: что Иван боет ?
+Words300Spa: ¿ qué teme Juan ?
+Words300Swe: vad fruktar Johan ?
+Words300Urd: کس کو جان ڈرتا ہے
+
+
+Words300: baseText (qsText (qs (neg_npqQS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN cat_CN))) (v2VP (V2by_as_V2 bite_V2) (pnNP paris_PN)))))
+Words300Ace: which cats don't bite Paris ?
+Words300Bul: [neg_npqQS] ?
+Words300Cat: quins gats no mosseguen Paris ?
+Words300Dan: hvilke katte biter ikke Paris ?
+Words300Dut: welke katten bijten niet Parijs ?
+Words300Fin: mitkä kissat eivät pure Pariisia ?
+Words300Fre: quels chats ne mordent pas Paris ?
+Words300Ger: welche Katzen beißen Paris nicht ?
+Words300Gre: [neg_npqQS] ;
+Words300Ita: quali gatti non mordono Parigi ?
+Words300Lav: kuri kaķi nekož Parīzei ?
+Words300Nor: hvilke katter biter ikke Paris ?
+Words300Pol: [neg_npqQS] ?
+Words300Ron: [neg_npqQS] ?
+Words300Rus: [neg_npqQS] ?
+Words300Spa: ¿ qué gatos no muerden París ?
+Words300Swe: vilka katter biter inte Paris ?
+Words300Urd: کون سی بلیاں پیرس نہیں کاٹتیں ہیں
+
+
+Words300: baseText (qsText (qs (vpqQS (everyNP (cn_as_VarCN dog_CN)) (v2VPQ (V2by_as_V2 see_V2) (ipNPQ whatSg_IP)))))
+Words300Ace: every dog sees what ?
+Words300Bul: [vpqQS] ?
+Words300Cat: cada gos veu què ?
+Words300Dan: hver hund ser hvad ?
+Words300Dut: elke hond ziet wat ?
+Words300Fin: jokainen koira näkee minkä ?
+Words300Fre: chaque chien voit que ?
+Words300Ger: jeder Hund sieht was ?
+Words300Gre: [vpqQS] ;
+Words300Ita: ogni cane vede che ?
+Words300Lav: ikviens suns redz ko ?
+Words300Nor: hver hund ser hva ?
+Words300Pol: [vpqQS] ?
+Words300Ron: [vpqQS] ?
+Words300Rus: [vpqQS] ?
+Words300Spa: ¿ cada perro ve qué ?
+Words300Swe: varje hund ser vad ?
+Words300Urd: ہر کتا کیا دیکھتا ہے
+
+
+Words300: baseText (qsText (qs (np_coord_VPSQ (everyNP (cn_as_VarCN dog_CN)) or_Conj (BaseVPSQ (vpq_as_posVPSQ (v2VPQ (V2by_as_V2 see_V2) (ipNPQ whatSg_IP))) (vpq_as_negVPSQ (v2VPQ (V2by_as_V2 hate_V2) (ipNPQ whatSg_IP)))))))
+Words300Ace: every dog sees what or doesn't hate what ?
+Words300Bul: [np_coord_VPSQ] ?
+Words300Cat: cada gos veu què o no odia què ?
+Words300Dan: hver hund ser hvad eller hader ikke hvad ?
+Words300Dut: elke hond ziet wat of haat wat niet ?
+Words300Fin: jokainen koira näkee minkä tai ei vihaa mitä ?
+Words300Fre: chaque chien voit qu' ou il n' hait pas que ?
+Words300Ger: jeder Hund sieht was oder hasst was nicht ?
+Words300Gre: [np_coord_VPSQ] ;
+Words300Ita: ogni cane vede che o non odia che ?
+Words300Lav: [np_coord_VPSQ] ?
+Words300Nor: hver hund ser hva eller hater ikke hva ?
+Words300Pol: [np_coord_VPSQ] ?
+Words300Ron: [np_coord_VPSQ] ?
+Words300Rus: [np_coord_VPSQ] ?
+Words300Spa: ¿ cada perro ve qué o no odia qué ?
+Words300Swe: varje hund ser vad eller hatar inte vad ?
+Words300Urd: [np_coord_VPSQ]
+
+
+Words300: baseText (qsText (qs (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN dog_CN))) (v2VP (V2by_as_V2 find_V2) (thereNP_as_NP (indefTherePronVarNP something_IPron X_Var))))))
+Words300Ace: which dog finds something X ?
+Words300Bul: [npqQS] ?
+Words300Cat: quin gos troba X ?
+Words300Dan: hvilken hund finder X ?
+Words300Dut: welke hond vindt X ?
+Words300Fin: mikä koira löytää jonkin X ?
+Words300Fre: quel chien trouve X ?
+Words300Ger: welcher Hund findet X ?
+Words300Gre: [npqQS] ;
+Words300Ita: quale cane trova X ?
+Words300Lav: kurš suns atrod X ?
+Words300Nor: hvilken hund finner X ?
+Words300Pol: [npqQS] ?
+Words300Ron: [npqQS] ?
+Words300Rus: [npqQS] ?
+Words300Spa: ¿ qué perro encuentra X ?
+Words300Swe: vilken hund finner X ?
+Words300Urd: کون سا کتا X پاتا ہے
+
+
+Words300: baseText (qsText (qs (npqQS (ipNPQ whatSg_IP) (v2_byVP fear_V2 (pnNP john_PN)))))
+Words300Ace: what is feared by John ?
+Words300Bul: [npqQS] ?
+Words300Cat: què està temut per Joan ?
+Words300Dan: hvad bliver frygtet af John ?
+Words300Dut: wat wordt door Jan gevreesd ?
+Words300Fin: mitä pelätään Jussin toimesta ?
+Words300Fre: qu' est craint par Jean ?
+Words300Ger: was wird durch Johann gefürchtet ?
+Words300Gre: [npqQS] ;
+Words300Ita: che viene temuta da Giovanni ?
+Words300Lav: kā baidās Jānis ?
+Words300Nor: hva blir frykta av John ?
+Words300Pol: [npqQS] ?
+Words300Ron: [npqQS] ?
+Words300Rus: [npqQS] ?
+Words300Spa: ¿ qué está temido por Juan ?
+Words300Swe: vad blir fruktat av Johan ?
+Words300Urd: کیا جان سے ڈرتا ہے
+
+
+Words300: baseText (qsText (qs (neg_npqQS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN cat_CN))) (v2_byVP bite_V2 (pnNP paris_PN)))))
+Words300Ace: which cats aren't bitten by Paris ?
+Words300Bul: [neg_npqQS] ?
+Words300Cat: quins gats no estan mossegats per Paris ?
+Words300Dan: hvilke katte bliver ikke bidte af Paris ?
+Words300Dut: welke katten worden niet door Parijs gebeten ?
+Words300Fin: mitä kissoja ei purra Pariisin toimesta ?
+Words300Fre: quels chats ne sont pas mordus par Paris ?
+Words300Ger: welche Katzen werden nicht durch Paris gebissen ?
+Words300Gre: [neg_npqQS] ;
+Words300Ita: quali gatti non vengono morsi da Parigi ?
+Words300Lav: kuri kaķiem nekož Parīze ?
+Words300Nor: hvilke katter blir ikke bitte av Paris ?
+Words300Pol: [neg_npqQS] ?
+Words300Ron: [neg_npqQS] ?
+Words300Rus: [neg_npqQS] ?
+Words300Spa: ¿ qué gatos no están mordidos por París ?
+Words300Swe: vilka katter blir inte bitna av Paris ?
+Words300Urd: کون سی بلیاں پیرس سے نہیں کاٹتیں ہیں
+
+
+Words300: baseText (qsText (qs (npqQS (ipNPQ whatSg_IP) (v2_byVP see_V2 (everyNP (cn_as_VarCN dog_CN))))))
+Words300Ace: what is seen by every dog ?
+Words300Bul: [npqQS] ?
+Words300Cat: què està vist per cada gos ?
+Words300Dan: hvad bliver set af hver hund ?
+Words300Dut: wat wordt door elke hond gezien ?
+Words300Fin: minkä nähdään jokaisen koiran toimesta ?
+Words300Fre: qu' est vu par chaque chien ?
+Words300Ger: was wird durch jeden Hund gesehen ?
+Words300Gre: [npqQS] ;
+Words300Ita: che viene vista ogni cane ?
+Words300Lav: ko redz ikviens suns ?
+Words300Nor: hva blir sett av hver hund ?
+Words300Pol: [npqQS] ?
+Words300Ron: [npqQS] ?
+Words300Rus: [npqQS] ?
+Words300Spa: ¿ qué está visto por cada perro ?
+Words300Swe: vad blir sett av varje hund ?
+Words300Urd: کیا ہر کتا سے دیکھتا ہے
+
+
+Words300: baseText (qsText (qs (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN dog_CN))) (v2_byVP find_V2 (thereNP_as_NP (indefTherePronVarNP something_IPron X_Var))))))
+Words300Ace: which dog is found by something X ?
+Words300Bul: [npqQS] ?
+Words300Cat: quin gos està trobat per X ?
+Words300Dan: hvilken hund bliver fundet af X ?
+Words300Dut: welke hond wordt door X gevonden ?
+Words300Fin: minkä koiran löydetään jonkin X toimesta ?
+Words300Fre: quel chien est trouvé par X ?
+Words300Ger: welcher Hund wird durch X gefunden ?
+Words300Gre: [npqQS] ;
+Words300Ita: quale cane viene trovato da X ?
+Words300Lav: kurš suni atrod X ?
+Words300Nor: hvilken hund blir funnet av X ?
+Words300Pol: [npqQS] ?
+Words300Ron: [npqQS] ?
+Words300Rus: [npqQS] ?
+Words300Spa: ¿ qué perro está encontrado por X ?
+Words300Swe: vilken hund blir funnen av X ?
+Words300Urd: کون سا کتا X سے پاتا ہے
+
+
+Words300: baseText (qsText (qs (neg_vpqQS (pnNP john_PN) (v2_byVPQ find_V2 (ipNPQ whatSg_IP)))))
+Words300Ace: John isn't found by what ?
+Words300Bul: [neg_vpqQS] ?
+Words300Cat: Joan no està trobat per què ?
+Words300Dan: John bliver ikke fundet af hvad ?
+Words300Dut: Jan wordt niet door wat gevonden ?
+Words300Fin: Jussia ei löydetä minkä toimesta ?
+Words300Fre: Jean n' est pas trouvé par que ?
+Words300Ger: Johann wird nicht durch was gefunden ?
+Words300Gre: [neg_vpqQS] ;
+Words300Ita: Giovanni non viene trovato da che ?
+Words300Lav: Jāni neatrod kas ?
+Words300Nor: John blir ikke funnet av hva ?
+Words300Pol: [neg_vpqQS] ?
+Words300Ron: [neg_vpqQS] ?
+Words300Rus: [neg_vpqQS] ?
+Words300Spa: ¿ Juan no está encontrado por qué ?
+Words300Swe: Johan blir inte funnen av vad ?
+Words300Urd: جان کیا سے نہیں پاتا ہے
+
+
+Words300: baseText (qsText (qs (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN dog_CN))) (refl_v2VP (V2by_as_V2 find_V2)))))
+Words300Ace: which dog finds itself ?
+Words300Bul: [npqQS] ?
+Words300Cat: quin gos es troba ?
+Words300Dan: hvilken hund finder sig ?
+Words300Dut: welke hond vindt zich ?
+Words300Fin: mikä koira löytää itsensä ?
+Words300Fre: quel chien se trouve ?
+Words300Ger: welcher Hund findet sich ?
+Words300Gre: [npqQS] ;
+Words300Ita: quale cane si trova ?
+Words300Lav: kurš suns atrod sevi ?
+Words300Nor: hvilken hund finner seg ?
+Words300Pol: [npqQS] ?
+Words300Ron: [npqQS] ?
+Words300Rus: [npqQS] ?
+Words300Spa: ¿ qué perro se encuentra ?
+Words300Swe: vilken hund finner sig ?
+Words300Urd: کون سا کتا خود پاتا ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 push_V2) (thereNP_as_NP (aNP (ofCN tail_CN (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))))))))))
+Words300Ace: John pushes a tail of a dog .
+Words300Bul: Джон бута опашка на куче .
+Words300Cat: Joan empeny una cua d' un gos .
+Words300Dan: John skubber en hale af en hund .
+Words300Dut: Jan duuwt een staart van een hond .
+Words300Fin: Jussi työntää koiran hännän .
+Words300Fre: Jean pousse une queue d' un chien .
+Words300Ger: Johann schiebt einen Schwanz von einem Hund .
+Words300Gre: ο Γιάννης σπρώχνει μία ουρά ενός σκύλου .
+Words300Ita: Giovanni spinge una coda di un cane .
+Words300Lav: Jānis stumj suņa asti .
+Words300Nor: John skyver en hale av en hund .
+Words300Pol: Jan pcha ogon psa .
+Words300Ron: Ion împinge o coadă unui câine .
+Words300Rus: Иван толкает хвост собаки .
+Words300Spa: Juan empuja una cola de un perro .
+Words300Swe: Johan trycker en svans av en hund .
+Words300Urd: جان کتا کا دم کو دھکیلتا ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (ofCN dog_CN (pnNP paris_PN))))))))
+Words300Ace: John is a dog of Paris .
+Words300Bul: Джон е куче на Париж .
+Words300Cat: Joan és un gos de Paris .
+Words300Dan: John er en hund af Paris .
+Words300Dut: Jan is een hond van Parijs .
+Words300Fin: Jussi on Pariisin koira .
+Words300Fre: Jean est un chien de Paris .
+Words300Ger: Johann ist ein Hund von Paris .
+Words300Gre: ο Γιάννης είναι ένας σκύλος του Παρισιού .
+Words300Ita: Giovanni è un cane di Parigi .
+Words300Lav: Jānis ir Parīzes suns .
+Words300Nor: John er en hund av Paris .
+Words300Pol: Jan jest psem Paryża .
+Words300Ron: Ion este un câine Parisului .
+Words300Rus: Иван собака Парижа .
+Words300Spa: Juan es un perro de París .
+Words300Swe: Johan är en hund av Paris .
+Words300Urd: جان پیرس کا کتا ہے
+
+
+Words300: baseText (sText (s (vpS (everyNP (ofCN tail_CN (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))))) (v2_byVP see_V2 (pnNP paris_PN)))))
+Words300Ace: every tail of a cat is seen by Paris .
+Words300Bul: всяка опашка на котка е видяна чрез Париж .
+Words300Cat: cada cua d' un gat està vista per Paris .
+Words300Dan: hver hale af en kat bliver set af Paris .
+Words300Dut: elke staart van een kat wordt door Parijs gezien .
+Words300Fin: jokainen kissan häntä nähdään Pariisin toimesta .
+Words300Fre: chaque queue d' un chat est vue par Paris .
+Words300Ger: jeder Schwanz von einer Katze wird durch Paris gesehen .
+Words300Gre: κάθε ουρά μίας γάτας βλέπεται από το Παρίσι .
+Words300Ita: ogni coda di un gatto viene vista da Parigi .
+Words300Lav: ikvienu kaķa asti redz Parīze .
+Words300Nor: hver hale av en katt blir sett av Paris .
+Words300Pol: każdy ogon kota przez Paryż jest widziany .
+Words300Ron: orice coadă unei pisici este văzută de către Paris .
+Words300Rus: каждый хвост кошки видится с помощью Парижа .
+Words300Spa: cada cola de un gato está vista por París .
+Words300Swe: varje svans av en katt blir sedd av Paris .
+Words300Urd: ہر بلی کا دم پیرس سے دیکھتا ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP paris_PN) (npVP (thereNP_as_NP (aNP (ofCN policeman_CN (everyNP (cn_as_VarCN airplane_CN)))))))))
+Words300Ace: Paris is a policeman of every airplane .
+Words300Bul: Париж е полицай на всеки самолет .
+Words300Cat: Paris és una policia cada avió .
+Words300Dan: Paris er en politibetjent af hver fly .
+Words300Dut: Parijs is een politieagent van elk vliegtuig .
+Words300Fin: Pariisi on jokaisen lentokoneen poliisi .
+Words300Fre: Paris est un policier de chaque avion .
+Words300Ger: Paris ist ein Polizist von jedem Flugzeug .
+Words300Gre: το Παρίσι είναι ένας αστυνομικός κάθε αεροπλάνου .
+Words300Ita: Parigi è un carabiniere ogni aereo .
+Words300Lav: Parīze ir ikvienas lidmašīnas policists .
+Words300Nor: Paris er en politi av hver fly .
+Words300Pol: Paryż jest policjantem każdego samolotu .
+Words300Ron: Paris este un poliţist oricărui avion .
+Words300Rus: Париж милиционер каждого самолёта .
+Words300Spa: París es un policía de cada aeroplano .
+Words300Swe: Paris är en polis av varje flygplan .
+Words300Urd: پیرس ہر جہاز کا پولیس والا ہے
+
+
+Words300: baseText (qsText (qs (vpqQS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN bird_CN))) (npqVPQ (aNPQ (ofnpqCN (cn_as_VarCN policeman_CN) (ipNPQ whatSg_IP)))))))
+Words300Ace: exactly 2 birds are a policeman of what ?
+Words300Bul: [vpqQS] ?
+Words300Cat: exactament 2 ocells són una policia de què ?
+Words300Dan: præcis 2 fugler er en politibetjent af hvad ?
+Words300Dut: precies 2 vogels zijn een politieagent van wat ?
+Words300Fin: tasan 2 lintua on minkä poliisi ?
+Words300Fre: exactement 2 oiseaux sont un policier de que ?
+Words300Ger: genau 2 Vögel sind ein Polizist was ?
+Words300Gre: [vpqQS] ;
+Words300Ita: esattamente 2 uccelli sono un carabiniere di che ?
+Words300Lav: tieši 2 putni ir kā policists ?
+Words300Nor: nøyaktig 2 fugler er en politi av hva ?
+Words300Pol: [vpqQS] ?
+Words300Ron: [vpqQS] ?
+Words300Rus: [vpqQS] ?
+Words300Spa: ¿ exactamente 2 pájaros son un policía de qué ?
+Words300Swe: exakt 2 fåglar är en polis av vad ?
+Words300Urd: TODO ۲ پرندے کیا کا پولیس والا ہیں
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (pnNP john_PN)))))
+Words300Ace: John is John .
+Words300Bul: Джон е Джон .
+Words300Cat: Joan és Joan .
+Words300Dan: John er John .
+Words300Dut: Jan is Jan .
+Words300Fin: Jussi on Jussi .
+Words300Fre: Jean est Jean .
+Words300Ger: Johann ist Johann .
+Words300Gre: ο Γιάννης είναι ο Γιάννης .
+Words300Ita: Giovanni è Giovanni .
+Words300Lav: Jānis ir Jānis .
+Words300Nor: John er John .
+Words300Pol: Jan jest Janem .
+Words300Ron: Ion este Ion .
+Words300Rus: Иван Иван .
+Words300Spa: Juan es Juan .
+Words300Swe: Johan är Johan .
+Words300Urd: جان جان ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (everyNP (cn_as_VarCN dog_CN))))))
+Words300Ace: John is every dog .
+Words300Bul: Джон е всяко куче .
+Words300Cat: Joan és cada gos .
+Words300Dan: John er hver hund .
+Words300Dut: Jan is elke hond .
+Words300Fin: Jussi on jokainen koira .
+Words300Fre: Jean est chaque chien .
+Words300Ger: Johann ist jeder Hund .
+Words300Gre: ο Γιάννης είναι κάθε σκύλος .
+Words300Ita: Giovanni è ogni cane .
+Words300Lav: Jānis ir ikviens suns .
+Words300Nor: John er hver hund .
+Words300Pol: Jan jest każdym psem .
+Words300Ron: Ion este orice câine .
+Words300Rus: Иван каждая собака .
+Words300Spa: Juan es cada perro .
+Words300Swe: Johan är varje hund .
+Words300Urd: جان ہر کتا ہے
+
+
+Words300: baseText (sText (s (vpS (nothing_butNP (cn_as_VarCN dog_CN)) (v2VP (V2by_as_V2 see_V2) (pnNP paris_PN)))))
+Words300Ace: nothing but dogs see Paris .
+Words300Bul: само кучета виждат Париж .
+Words300Cat: nomÈs gosos veuen Paris .
+Words300Dan: kun hunder ser Paris .
+Words300Dut: slechts honden zien Parijs .
+Words300Fin: vain koirat näkevät Pariisin .
+Words300Fre: seulement des chiens voient Paris .
+Words300Ger: nur Hunde sehen Paris .
+Words300Gre: μόνο σκύλοι βλέπουν το Παρίσι .
+Words300Ita: soltanto cani vedono Parigi .
+Words300Lav: tikai suņi redz Parīzi .
+Words300Nor: kun hunder ser Paris .
+Words300Pol: tylko psów widzą Paryż .
+Words300Ron: doar nişte câini văd Paris .
+Words300Rus: единственные собаки видят Париж .
+Words300Spa: solamente perros ven París .
+Words300Swe: bara hundar ser Paris .
+Words300Urd: صرف کتے پیرس دیکھتے ہیں
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (termNP X_Var)))))
+Words300Ace: John is X .
+Words300Bul: Джон е X .
+Words300Cat: Joan és X .
+Words300Dan: John er X .
+Words300Dut: Jan is X .
+Words300Fin: Jussi on X .
+Words300Fre: Jean est X .
+Words300Ger: Johann ist X .
+Words300Gre: ο Γιάννης είναι ο X .
+Words300Ita: Giovanni è X .
+Words300Lav: Jānis ir X .
+Words300Nor: John er X .
+Words300Pol: Jan jest X .
+Words300Ron: Ion este X .
+Words300Rus: Иван X .
+Words300Spa: Juan es X .
+Words300Swe: Johan är X .
+Words300Urd: جان X ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 see_V2) (termNP X_Var)))))
+Words300Ace: John sees X .
+Words300Bul: Джон вижда X .
+Words300Cat: Joan veu X .
+Words300Dan: John ser X .
+Words300Dut: Jan ziet X .
+Words300Fin: Jussi näkee X:n .
+Words300Fre: Jean voit X .
+Words300Ger: Johann sieht X .
+Words300Gre: ο Γιάννης βλέπει τον X .
+Words300Ita: Giovanni vede X .
+Words300Lav: Jānis redz X .
+Words300Nor: John ser X .
+Words300Pol: Jan widzi X .
+Words300Ron: Ion îl vede pe X .
+Words300Rus: Иван видит X .
+Words300Spa: Juan ve X .
+Words300Swe: Johan ser X .
+Words300Urd: جان X دیکھتا ہے
+
+
+Words300: baseText (sText (s (vpS (termNP X_Var) (npVP (thereNP_as_NP (indefTherePronVarNP something_IPron X_Var))))))
+Words300Ace: X is something X .
+Words300Bul: X е X .
+Words300Cat: X és X .
+Words300Dan: X er X .
+Words300Dut: X is X .
+Words300Fin: X on jokin X .
+Words300Fre: X est X .
+Words300Ger: X ist X .
+Words300Gre: ο X είναι ο X .
+Words300Ita: X è X .
+Words300Lav: X ir X .
+Words300Nor: X er X .
+Words300Pol: X jest X .
+Words300Ron: X este X .
+Words300Rus: X X .
+Words300Spa: X es X .
+Words300Swe: X är X .
+Words300Urd: X X ہے
+
+
+Words300: baseText (sText (s (neg_vpS (everyNP (apposVarCN dog_CN X_Var)) (v2VP (V2by_as_V2 see_V2) (thereNP_as_NP (aNP (apposVarCN worm_CN Y_Var)))))))
+Words300Ace: every dog X doesn't see a worm Y .
+Words300Bul: всяко куче X не вижда червей Y .
+Words300Cat: cada gos X no veu un cuc Y .
+Words300Dan: hver hund X ser ikke en orm Y .
+Words300Dut: elke hond X ziet niet een worm Y .
+Words300Fin: jokainen koira X ei näe matoa Y .
+Words300Fre: chaque chien X ne voit pas un ver Y .
+Words300Ger: jeder Hund X sieht nicht einen Wurm Y .
+Words300Gre: κάθε σκύλος ο X δεν βλέπει ένα σκουλήκι τον Y .
+Words300Ita: ogni cane X non vede un verme Y .
+Words300Lav: ikviens suns X neredz tārpu Y .
+Words300Nor: hver hund X ser ikke en mark Y .
+Words300Pol: każdy pies X nie widzi robaka Y .
+Words300Ron: orice câine X nu vede un vierme Y .
+Words300Rus: каждая собака X не видит черв Y .
+Words300Spa: cada perro X no ve un gusano Y .
+Words300Swe: varje hund X ser inte en mask Y .
+Words300Urd: ہر کتا X گرم Y نہیں دیکھتا ہے
+
+
+Words300: baseText (sText (s (thereNP (indefTherePronNP something_IPron))))
+Words300Ace: there is something .
+Words300Bul: има нещо .
+Words300Cat: hi ha quelcom .
+Words300Dan: det findes noget .
+Words300Dut: er is iets .
+Words300Fin: on olemassa jokin .
+Words300Fre: il y a quelque chose .
+Words300Ger: es gibt etwas .
+Words300Gre: υπάρχει κάτι .
+Words300Ita: c' è qualche cosa .
+Words300Lav: ir kaut kas .
+Words300Nor: det finnes noe .
+Words300Pol: jest coś .
+Words300Ron: există ceva .
+Words300Rus: существует что-то .
+Words300Spa: hay algo .
+Words300Swe: det finns något .
+Words300Urd: کوی چیز ہے
+
+
+Words300: baseText (sText (s (thereNP (aNP (cn_as_VarCN dog_CN)))))
+Words300Ace: there is a dog .
+Words300Bul: има куче .
+Words300Cat: hi ha un gos .
+Words300Dan: det findes en hund .
+Words300Dut: er is een hond .
+Words300Fin: on olemassa koira .
+Words300Fre: il y a un chien .
+Words300Ger: es gibt einen Hund .
+Words300Gre: υπάρχει ένας σκύλος .
+Words300Ita: c' è un cane .
+Words300Lav: ir suns .
+Words300Nor: det finnes en hund .
+Words300Pol: jest pies .
+Words300Ron: există un câine .
+Words300Rus: существует собака .
+Words300Spa: hay un perro .
+Words300Swe: det finns en hund .
+Words300Urd: کتا ہے
+
+
+Words300: baseText (sText (s (thereNP (more_thanNP (digitsCard (IDig D_2)) (relCN (cn_as_VarCN dog_CN) (predRS which_RP (v2VP (V2by_as_V2 push_V2) (thereNP_as_NP (less_thanNP (digitsCard (IDig D_3)) (cn_as_VarCN book_CN))))))))))
+Words300Ace: there are more than 2 dogs that push less than 3 books .
+Words300Bul: има повече от 2 кучета които бутат по-малко от 3 книги .
+Words300Cat: hi ha més que 2 gosos que empenyen menys que 3 llibres .
+Words300Dan: det findes mer end 2 hunder som skubber mindre end 3 bøger .
+Words300Dut: er zijn meer dan 2 honden die minder dan 3 boeken duwen .
+Words300Fin: on olemassa enemmän kuin 2 koiraa joka työntää vähemmän kuin 3 kirjaa .
+Words300Fre: il y a plus que 2 chiens qui poussent moins que 3 livres .
+Words300Ger: es gibt mehr als 2 Hunde , die weniger als 3 Bücher schieben .
+Words300Gre: υπάρχουν πάνω από 2 σκύλοι , που σπρώχνουν λιγότερο από 3 βιβλία .
+Words300Ita: ci sono più di 2 cani che spingono meno di 3 libri .
+Words300Lav: ir NON_EXISTENT 2 suņi , kas stumj mazāk nekā 3 grāmatas .
+Words300Nor: det finnes mer enn 2 hunder som skyver mindre enn 3 bøker .
+Words300Pol: są więcej niż 2 psy , które pchają mniej niż 3 książki .
+Words300Ron: există mai mult decât 2 câini care împing mai puţin decât 3 cărţi .
+Words300Rus: существует более чем 2 собаки , которой толкает менее чем 3 книги .
+Words300Spa: hay más que 2 perros que empujan menos que 3 libros .
+Words300Swe: det finns mer än 2 hundar som trycker mindre än 3 böcker .
+Words300Urd: ۲ سے زیادہ کتے جو ۳ سے کم کتابیں کو دھکیلتے ہیں ہیں
+
+
+Words300: baseText (sText (s (falseS (thereNP (at_leastNP (digitsCard (IDig D_1)) (cn_as_VarCN dog_CN))))))
+Words300Ace: it is false that there is at least 1 dog .
+Words300Bul: [falseS] .
+Words300Cat: és fals que hi ha almenys 1 gos .
+Words300Dan: det er falsk at det findes mindst 1 hund .
+Words300Dut: 't is onwaar dat er ten minste 1 hond is .
+Words300Fin: on epätotta että on olemassa vähintään 1 koira .
+Words300Fre: il est faux que il y a au moins 1 chien .
+Words300Ger: es ist falsch dass es wenigstens 1 Hund gibt .
+Words300Gre: είναι ψευδής οτι υπάρχει ένας τουλάχιστον 1 σκύλος .
+Words300Ita: è falso che c' è almeno 1 cane .
+Words300Lav: nav tiesa , ka ir vismaz 1 suns .
+Words300Nor: det er falsk at det finnes minst 1 hund .
+Words300Pol: jest źle , że jest co najmniej 1 pies .
+Words300Ron: este fals cã există cel puţin 1 câine .
+Words300Rus: неверно , что существует по крайней мере 1 собака .
+Words300Spa: es falso que hay al menos 1 perro .
+Words300Swe: det är falskt att det finns minst 1 hund .
+Words300Urd: GlT کہ کم از کم ۱ کتا ہے ہے
+
+
+Words300: baseText (sText (s (for_everyS (apposVarCN horse_CN X_Var) (vpS (indefPronNP everything_IPron) (v2VP (V2by_as_V2 hate_V2) (termNP X_Var))))))
+Words300Ace: for every horse X everything hates X .
+Words300Bul: за всеки кон X всичко мрази X .
+Words300Cat: per a cada cavall X tot odia X .
+Words300Dan: for hver hest X hader alt X .
+Words300Dut: voor elk paard X haat alles X .
+Words300Fin: jokaiselle hevoselle X kaikki vihaa X:ää .
+Words300Fre: pour chaque cheval X tout hait X .
+Words300Ger: für jedes Pferd X hasst alles X .
+Words300Gre: για κάθε άλογο τον X τα πάντα μισούν τον X .
+Words300Ita: per ogni cavallo X tutto odia X .
+Words300Lav: NON_EXISTENT .
+Words300Nor: for hver hest X hater alt X .
+Words300Pol: dla każdego konia X wszystko nienawidzi X .
+Words300Ron: 
+Words300Rus: для каждой лошади X всё ненавидит X .
+Words300Spa: para cada caballo X todo odia X .
+Words300Swe: för varje häst X hatar allting X .
+Words300Urd: ہر گھوڑا X کیلیے ہر چیز X نفرت کرتا ہے
+
+
+Words300: baseText (sText (s (vpS (indefPronVarNP everything_IPron X_Var) (npVP (thereNP_as_NP (aNP (cn_as_VarCN tail_CN)))))))
+Words300Ace: everything X is a tail .
+Words300Bul: X е опашка .
+Words300Cat: X és una cua .
+Words300Dan: X er en hale .
+Words300Dut: X is een staart .
+Words300Fin: kaikki X on häntä .
+Words300Fre: X est une queue .
+Words300Ger: X ist ein Schwanz .
+Words300Gre: ο X είναι μία ουρά .
+Words300Ita: X è una coda .
+Words300Lav: X ir aste .
+Words300Nor: X er en hale .
+Words300Pol: X jest ogonem .
+Words300Ron: 
+Words300Rus: X хвост .
+Words300Spa: X es una cola .
+Words300Swe: X är en svans .
+Words300Urd: X دم ہے
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 hate_V2) (relNP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))) (neg_slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))) (V2by_as_V2 find_V2)))))))
+Words300Ace: John hates a worm that a cat doesn't find .
+Words300Bul: Джон мрази червей който котка не намира .
+Words300Cat: Joan odia un cuc que un gat no troba .
+Words300Dan: John hader en orm , som en kat ikke finder .
+Words300Dut: Jan haat een worm , dat een kat niet vindt .
+Words300Fin: Jussi vihaa matoa , jota kissa ei löydä .
+Words300Fre: Jean hait un ver qu' un chat ne trouve pas .
+Words300Ger: Johann hasst einen Wurm , den eine Katze nicht findet .
+Words300Gre: 
+Words300Ita: Giovanni odia un verme che un gatto non trova .
+Words300Lav: Jānis ienīst tārpu , ko kaķis neatrod .
+Words300Nor: John hater en mark , som en katt ikke finner .
+Words300Pol: Jan nienawidzi robaka , którego nie znajdzie kot .
+Words300Ron: Ion urăşte un vierme pe care nu îl găseşte o pisică .
+Words300Rus: Иван ненавидит черв , который кошка не находит .
+Words300Spa: Juan odia un gusano que un gato no encuentra .
+Words300Swe: Johan hatar en mask , som en katt inte finner .
+Words300Urd: جان گرم , جس بلی نہیں پاتی ہے نفرت کرتا ہے
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 hate_V2) (thereNP_as_NP (aNP (relCN (cn_as_VarCN worm_CN) (neg_slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))) (V2by_as_V2 find_V2)))))))))
+Words300Ace: John hates a worm that a cat doesn't find .
+Words300Bul: Джон мрази червей който котка не намира .
+Words300Cat: Joan odia un cuc que un gat no troba .
+Words300Dan: John hader en orm som en kat ikke finder .
+Words300Dut: Jan haat een worm die een kat niet vindt .
+Words300Fin: Jussi vihaa matoa jota kissa ei löydä .
+Words300Fre: Jean hait un ver qu' un chat ne trouve pas .
+Words300Ger: Johann hasst einen Wurm , den eine Katze nicht findet .
+Words300Gre: 
+Words300Ita: Giovanni odia un verme che un gatto non trova .
+Words300Lav: Jānis ienīst tārpu , ko kaķis neatrod .
+Words300Nor: John hater en mark som en katt ikke finner .
+Words300Pol: Jan nienawidzi robaka , którego nie znajdzie kot .
+Words300Ron: Ion urăşte un vierme pe care nu îl găseşte o pisică .
+Words300Rus: Иван ненавидит черв , который кошка не находит .
+Words300Spa: Juan odia un gusano que un gato no encuentra .
+Words300Swe: Johan hatar en mask som en katt inte finner .
+Words300Urd: جان گرم جس بلی نہیں پاتی ہے نفرت کرتا ہے
+
+
+Words300: baseText (sText (s (np_coord_VPS (pnNP john_PN) and_Conj (BaseVPS (vp_as_posVPS (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (aNP (cn_as_VarCN tail_CN))))) (vp_as_negVPS (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN)))))))))
+Words300Ace: John fears a tail and doesn't fear a policeman .
+Words300Bul: Джон се страхува опашка и не се страхува полицай .
+Words300Cat: Joan tem una cua i no tem una policia .
+Words300Dan: John frygter en hale og frygter ikke en politibetjent .
+Words300Dut: Jan vreest een staart en vreest niet een politieagent .
+Words300Fin: Jussi pelkää häntää ja ei pelkää poliisia .
+Words300Fre: Jean craint une queue et il ne craint pas un policier .
+Words300Ger: Johann fürchtet einen Schwanz und fürchtet nicht einen Polizisten .
+Words300Gre: [np_coord_VPS] .
+Words300Ita: Giovanni teme una coda e non teme un carabiniere .
+Words300Lav: Jānis baidās no astes un nebaidās no policista .
+Words300Nor: John frykter en hale og frykter ikke en politi .
+Words300Pol: [np_coord_VPS] .
+Words300Ron: [np_coord_VPS] .
+Words300Rus: [np_coord_VPS] .
+Words300Spa: Juan teme una cola y no teme un policía .
+Words300Swe: Johan fruktar en svans och fruktar inte en polis .
+Words300Urd: [np_coord_VPS]
+
+
+Words300: baseText (sText (s (np_coord_VPS (pnNP john_PN) and_Conj (ConsVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))))) (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))))))))
+Words300Ace: John is a dog , is a cat and is a bird .
+Words300Bul: Джон е куче , е котка и е птица .
+Words300Cat: Joan és un gos i és un gat és un ocell .
+Words300Dan: John er en hund , er en kat og er en fugl .
+Words300Dut: Jan is een hond , is een kat en is een vogel .
+Words300Fin: Jussi on koira , on kissa ja on lintu .
+Words300Fre: Jean est un chien et il est un chat il est un oiseau .
+Words300Ger: Johann ist ein Hund , ist eine Katze und ist ein Vogel .
+Words300Gre: [np_coord_VPS] .
+Words300Ita: Giovanni è un cane ed è un gatto è un uccello .
+Words300Lav: Jānis ir suns , ir kaķis un ir putns .
+Words300Nor: John er en hund , er en katt og er en fugl .
+Words300Pol: [np_coord_VPS] .
+Words300Ron: [np_coord_VPS] .
+Words300Rus: [np_coord_VPS] .
+Words300Spa: Juan es un perro y es un gato es un pájaro .
+Words300Swe: Johan är en hund , är en katt och är en fågel .
+Words300Urd: [np_coord_VPS]
+
+
+Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 hate_V2) (thereNP_as_NP (exactlyNP (digitsCard (IIDig D_1 (IIDig D_2 (IIDig D_3 (IIDig D_4 (IIDig D_5 (IIDig D_6 (IIDig D_7 (IIDig D_8 (IIDig D_9 (IDig D_0))))))))))) (cn_as_VarCN tail_CN)))))))
+Words300Ace: John hates exactly 1 2 3 4 5 6 7 8 9 0 tails .
+Words300Bul: Джон мрази TODO 1 , 2 3 4 , 5 6 7 , 8 9 0 опашки .
+Words300Cat: Joan odia exactament 1 2 3 4 5 6 7 8 9 0 cues .
+Words300Dan: John hader præcis 1 2 3 4 5 6 7 8 9 0 haler .
+Words300Dut: Jan haat precies 1 2 3 4 5 6 7 8 9 0 staarten .
+Words300Fin: Jussi vihaa tasan 1 2 3 4 5 6 7 8 9 0 häntää .
+Words300Fre: Jean hait exactement 1 2 3 4 5 6 7 8 9 0 queues .
+Words300Ger: Johann hasst genau 1 2 3 4 5 6 7 8 9 0 Schwänze .
+Words300Gre: ο Γιάννης μισεί ακριβώς 1 2 3 4 5 6 7 8 9 0 ουρές .
+Words300Ita: Giovanni odia esattamente 1 2 3 4 5 6 7 8 9 0 code .
+Words300Lav: Jānis ienīst tieši 1 2 3 4 5 6 7 8 9 0 astes .
+Words300Nor: John hater nøyaktig 1 2 3 4 5 6 7 8 9 0 haler .
+Words300Pol: Jan nienawidzi dokładnie 1 2 3 4 5 6 7 8 9 0 ogonów .
+Words300Ron: Ion urăşte exact 1 2 3 4 5 6 7 8 9 0 de cozi .
+Words300Rus: Иван ненавидит ровно 1 2 3 4 5 6 7 8 9 0 хвосты .
+Words300Spa: Juan odia exactamente 1 2 3 4 5 6 7 8 9 0 colas .
+Words300Swe: Johan hatar exakt 1 2 3 4 5 6 7 8 9 0 svansar .
+Words300Urd: جان TODO ۰ &+ ۹ &+ ۸ &+ ۷ &+ ۶ &+ ۵ &+ ۴ &+ ۳ &+ ۲ &+ ۱ دم نفرت کرتا ہے
+
+
+Words300: consText (sText (s (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))))))) (baseText (qsText (qs (npqQS (ipNPQ whatSg_IP) (npVP (pnNP paris_PN))))))
+Words300Ace: John is a dog . what is Paris ?
+Words300Bul: Джон е куче . [npqQS] ?
+Words300Cat: Joan és un gos . què és Paris ?
+Words300Dan: John er en hund . hvad er Paris ?
+Words300Dut: Jan is een hond . wat is Parijs ?
+Words300Fin: Jussi on koira . mikä on Pariisi ?
+Words300Fre: Jean est un chien . qu' est Paris ?
+Words300Ger: Johann ist ein Hund . was ist Paris ?
+Words300Gre: ο Γιάννης είναι ένας σκύλος . [npqQS] ;
+Words300Ita: Giovanni è un cane . che è Parigi ?
+Words300Lav: Jānis ir suns . kas ir Parīze ?
+Words300Nor: John er en hund . hva er Paris ?
+Words300Pol: Jan jest psem . [npqQS] ?
+Words300Ron: Ion este un câine . [npqQS] ?
+Words300Rus: Иван собака . [npqQS] ?
+Words300Spa: Juan es un perro . ¿ qué es París ?
+Words300Swe: Johan är en hund . vad är Paris ?
+Words300Urd: جان کتا ہے کیا پیرس ہے
+
+
+Words300: baseText (qsText (qs (neg_vpqQS (pnNP john_PN) (npqVPQ (ipNPQ whatSg_IP)))))
+Words300Ace: John isn't what ?
+Words300Bul: [neg_vpqQS] ?
+Words300Cat: Joan no és què ?
+Words300Dan: John er ikke hvad ?
+Words300Dut: Jan is niet wat ?
+Words300Fin: Jussi ei ole mikä ?
+Words300Fre: Jean n' est pas que ?
+Words300Ger: Johann ist nicht was ?
+Words300Gre: [neg_vpqQS] ;
+Words300Ita: Giovanni non è che ?
+Words300Lav: Jānis nav kas ?
+Words300Nor: John er ikke hva ?
+Words300Pol: [neg_vpqQS] ?
+Words300Ron: [neg_vpqQS] ?
+Words300Rus: [neg_vpqQS] ?
+Words300Spa: ¿ Juan no es qué ?
+Words300Swe: Johan är inte vad ?
+Words300Urd: جان کیا نہیں ہے
+
+
+Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (npqVPQ (aNPQ (ofnpqCN (cn_as_VarCN dog_CN) (ipNPQ whatSg_IP)))))))
+Words300Ace: John is a dog of what ?
+Words300Bul: [vpqQS] ?
+Words300Cat: Joan és un gos de què ?
+Words300Dan: John er en hund af hvad ?
+Words300Dut: Jan is een hond van wat ?
+Words300Fin: Jussi on minkä koira ?
+Words300Fre: Jean est un chien de que ?
+Words300Ger: Johann ist ein Hund was ?
+Words300Gre: [vpqQS] ;
+Words300Ita: Giovanni è un cane di che ?
+Words300Lav: Jānis ir kā suns ?
+Words300Nor: John er en hund av hva ?
+Words300Pol: [vpqQS] ?
+Words300Ron: [vpqQS] ?
+Words300Rus: [vpqQS] ?
+Words300Spa: ¿ Juan es un perro de qué ?
+Words300Swe: Johan är en hund av vad ?
+Words300Urd: جان کیا کا کتا ہے
+
+
+Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (npqVPQ (theNPQ (ofnpqCN (cn_as_VarCN book_CN) (ipNPQ whatSg_IP)))))))
+Words300Ace: John is the book of what ?
+Words300Bul: [vpqQS] ?
+Words300Cat: Joan és el llibre de què ?
+Words300Dan: John er bogen af hvad ?
+Words300Dut: Jan is de boek van wat ?
+Words300Fin: Jussi on minkä kirja ?
+Words300Fre: Jean est le livre de que ?
+Words300Ger: Johann ist das Buch was ?
+Words300Gre: [vpqQS] ;
+Words300Ita: Giovanni è il libro di che ?
+Words300Lav: Jānis ir kā grāmata ?
+Words300Nor: John er boka av hva ?
+Words300Pol: [vpqQS] ?
+Words300Ron: [vpqQS] ?
+Words300Rus: [vpqQS] ?
+Words300Spa: ¿ Juan es el libro de qué ?
+Words300Swe: Johan är boken av vad ?
+Words300Urd: جان کیا کی کتاب ہے
+
+
+Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (npqVPQ (everyNPQ (ofnpqCN (cn_as_VarCN book_CN) (ipNPQ whatSg_IP)))))))
+Words300Ace: John is every book of what ?
+Words300Bul: [vpqQS] ?
+Words300Cat: Joan és cada llibre de què ?
+Words300Dan: John er hver bog af hvad ?
+Words300Dut: Jan is elke boek van wat ?
+Words300Fin: Jussi on jokainen minkä kirja ?
+Words300Fre: Jean est chaque livre de que ?
+Words300Ger: Johann ist jedes Buch was ?
+Words300Gre: [vpqQS] ;
+Words300Ita: Giovanni è ogni libro di che ?
+Words300Lav: Jānis ir ikviena kā grāmata ?
+Words300Nor: John er hver bok av hva ?
+Words300Pol: [vpqQS] ?
+Words300Ron: [vpqQS] ?
+Words300Rus: [vpqQS] ?
+Words300Spa: ¿ Juan es cada libro de qué ?
+Words300Swe: Johan är varje bok av vad ?
+Words300Urd: جان ہر کیا کی کتاب ہے
+
+
+Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (npqVPQ (noNPQ (ofnpqCN (cn_as_VarCN dog_CN) (ipNPQ whatSg_IP)))))))
+Words300Ace: John is no dog of what ?
+Words300Bul: [vpqQS] ?
+Words300Cat: Joan és cap gos de què ?
+Words300Dan: 
+Words300Dut: Jan is geen hond van wat ?
+Words300Fin: Jussi on mikään minkä koira ?
+Words300Fre: Jean est aucun chien de que ?
+Words300Ger: Johann ist kein Hund was ?
+Words300Gre: [vpqQS] ;
+Words300Ita: Giovanni è nessuno cane di che ?
+Words300Lav: Jānis ir neviens kā suns ?
+Words300Nor: 
+Words300Pol: [vpqQS] ?
+Words300Ron: [vpqQS] ?
+Words300Rus: [vpqQS] ?
+Words300Spa: ¿ Juan es ningún perro de qué ?
+Words300Swe: Johan är ingen hund av vad ?
+Words300Urd: جان کوی نہیں کیا کا کتا ہے
+
+
+Words300: baseText (qsText (qs (np_coord_VPSQ (pnNP john_PN) and_Conj (ConsVPSQ (vp_as_posVPSQ (npVP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))))) (BaseVPSQ (vp_as_posVPSQ (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))))) (vpq_as_posVPSQ (npqVPQ (ipNPQ whatSg_IP))))))))
+Words300Ace: John is a dog , is a cat and is what ?
+Words300Bul: [np_coord_VPSQ] ?
+Words300Cat: Joan és un gos i és un gat és què ?
+Words300Dan: John er en hund , er en kat og er hvad ?
+Words300Dut: Jan is een hond , is een kat en is wat ?
+Words300Fin: Jussi on koira , on kissa ja on mikä ?
+Words300Fre: Jean est un chien et il est un chat il est que ?
+Words300Ger: Johann ist ein Hund , ist eine Katze und ist was ?
+Words300Gre: [np_coord_VPSQ] ;
+Words300Ita: Giovanni è un cane ed è un gatto è che ?
+Words300Lav: [np_coord_VPSQ] ?
+Words300Nor: John er en hund , er en katt og er hva ?
+Words300Pol: [np_coord_VPSQ] ?
+Words300Ron: [np_coord_VPSQ] ?
+Words300Rus: [np_coord_VPSQ] ?
+Words300Spa: ¿ Juan es un perro y es un gato es qué ?
+Words300Swe: Johan är en hund , är en katt och är vad ?
+Words300Urd: [np_coord_VPSQ]
+
+
+Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (v2VPQ (V2by_as_V2 hate_V2) (relNPQ (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))) (slashRSQ which_RP (ipNPQ whatSg_IP) (V2by_as_V2 find_V2)))))))
+Words300Ace: John hates a worm that what finds ?
+Words300Bul: [vpqQS] ?
+Words300Cat: Joan odia un cuc que què troba ?
+Words300Dan: John hader en orm , som hvad finder ?
+Words300Dut: Jan haat een worm , dat wat vindt ?
+Words300Fin: Jussi vihaa matoa , jonka mikä löytää ?
+Words300Fre: Jean hait un ver que que trouve ?
+Words300Ger: Johann hasst einen Wurm , den was findet ?
+Words300Gre: [vpqQS] ;
+Words300Ita: Giovanni odia un verme che che trova ?
+Words300Lav: Jānis ienīst tārpu , ko kas atrod ?
+Words300Nor: John hater en mark , som hva finner ?
+Words300Pol: [vpqQS] ?
+Words300Ron: [vpqQS] ?
+Words300Rus: [vpqQS] ?
+Words300Spa: ¿ Juan odia un gusano que qué encuentra ?
+Words300Swe: Johan hatar en mask , som vad finner ?
+Words300Urd: جان گرم , جس کیا پاتا ہے نفرت کرتا ہے
+
+
+Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (v2VPQ (V2by_as_V2 hate_V2) (relNPQ (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))) (neg_slashRSQ which_RP (ipNPQ whatSg_IP) (V2by_as_V2 find_V2)))))))
+Words300Ace: John hates a worm that what doesn't find ?
+Words300Bul: [vpqQS] ?
+Words300Cat: Joan odia un cuc que què no troba ?
+Words300Dan: John hader en orm , som hvad ikke finder ?
+Words300Dut: Jan haat een worm , dat wat niet vindt ?
+Words300Fin: Jussi vihaa matoa , jota mikä ei löydä ?
+Words300Fre: Jean hait un ver que que ne trouve pas ?
+Words300Ger: Johann hasst einen Wurm , den was nicht findet ?
+Words300Gre: [vpqQS] ;
+Words300Ita: Giovanni odia un verme che che non trova ?
+Words300Lav: Jānis ienīst tārpu , ko kas neatrod ?
+Words300Nor: John hater en mark , som hva ikke finner ?
+Words300Pol: [vpqQS] ?
+Words300Ron: [vpqQS] ?
+Words300Rus: [vpqQS] ?
+Words300Spa: ¿ Juan odia un gusano que qué no encuentra ?
+Words300Swe: Johan hatar en mask , som vad inte finner ?
+Words300Urd: جان گرم , جس کیا نہیں پاتا ہے نفرت کرتا ہے
+
+
+Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (v2VPQ (V2by_as_V2 fear_V2) (relNPQ (thereNP_as_NP (indefTherePronNP something_IPron)) (neg_predRSQ which_RP (npqVPQ (ipNPQ whatSg_IP))))))))
+Words300Ace: John fears something that isn't what ?
+Words300Bul: [vpqQS] ?
+Words300Cat: Joan tem quelcom que no és què ?
+Words300Dan: John frygter noget , som ikke er hvad ?
+Words300Dut: Jan vreest iets , die niet wat is ?
+Words300Fin: Jussi pelkää jotakin , joka ei ole mikä ?
+Words300Fre: Jean craint quelque chose qui n' est pas que ?
+Words300Ger: Johann fürchtet etwas , das nicht was ist ?
+Words300Gre: [vpqQS] ;
+Words300Ita: Giovanni teme qualche cosa che non è che ?
+Words300Lav: Jānis baidās no kaut kā , kas nav kas ?
+Words300Nor: John frykter noe , som ikke er hva ?
+Words300Pol: [vpqQS] ?
+Words300Ron: [vpqQS] ?
+Words300Rus: [vpqQS] ?
+Words300Spa: ¿ Juan teme algo que no es qué ?
+Words300Swe: Johan fruktar något , som inte är vad ?
+Words300Urd: جان کوی چیز , جو کیا نہیں ہے ڈرتا ہے
+
+
+Words300: baseText (qsText (qs (np_coord_VPSQ (pnNP john_PN) and_Conj (BaseVPSQ (vpq_as_posVPSQ (v2VPQ (V2by_as_V2 fear_V2) (ipNPQ whatSg_IP))) (vpq_as_negVPSQ (v2VPQ (V2by_as_V2 fear_V2) (ipNPQ whatSg_IP)))))))
+Words300Ace: John fears what and doesn't fear what ?
+Words300Bul: [np_coord_VPSQ] ?
+Words300Cat: Joan tem què i no tem què ?
+Words300Dan: John frygter hvad og frygter ikke hvad ?
+Words300Dut: Jan vreest wat en vreest wat niet ?
+Words300Fin: Jussi pelkää mitä ja ei pelkää mitä ?
+Words300Fre: Jean craint qu' et il ne craint pas que ?
+Words300Ger: Johann fürchtet was und fürchtet was nicht ?
+Words300Gre: [np_coord_VPSQ] ;
+Words300Ita: Giovanni teme che e non teme che ?
+Words300Lav: [np_coord_VPSQ] ?
+Words300Nor: John frykter hva og frykter ikke hva ?
+Words300Pol: [np_coord_VPSQ] ?
+Words300Ron: [np_coord_VPSQ] ?
+Words300Rus: [np_coord_VPSQ] ?
+Words300Spa: ¿ Juan teme qué y no teme qué ?
+Words300Swe: Johan fruktar vad och fruktar inte vad ?
+Words300Urd: [np_coord_VPSQ]
+
+
+Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (v2VPQ (V2by_as_V2 hate_V2) (relNPQ (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))) (predRSQ which_RP (npqVPQ (ipNPQ (whichIP which_IDet (cn_as_VarCN book_CN))))))))))
+Words300Ace: John hates a horse that is which book ?
+Words300Bul: [vpqQS] ?
+Words300Cat: Joan odia un cavall que és quin llibre ?
+Words300Dan: John hader en hest , som er hvilken bog ?
+Words300Dut: Jan haat een paard , dat welke boek is ?
+Words300Fin: Jussi vihaa hevosta , joka on mikä kirja ?
+Words300Fre: Jean hait un cheval qui est quel livre ?
+Words300Ger: Johann hasst ein Pferd , das welches Buch ist ?
+Words300Gre: [vpqQS] ;
+Words300Ita: Giovanni odia un cavallo che è quale libro ?
+Words300Lav: Jānis ienīst zirgu , kas ir kura grāmata ?
+Words300Nor: John hater en hest , som er hvilken bok ?
+Words300Pol: [vpqQS] ?
+Words300Ron: [vpqQS] ?
+Words300Rus: [vpqQS] ?
+Words300Spa: ¿ Juan odia un caballo que es qué libro ?
+Words300Swe: Johan hatar en häst , som är vilken bok ?
+Words300Urd: جان گھوڑا , جو کون سی کتاب ہے نفرت کرتا ہے
+
+
+Words300: baseText (qsText (qs (neg_slash_ipQS whatSg_IP (pnNP john_PN) (V2by_as_V2 hate_V2))))
+Words300Ace: what doesn't John hate ?
+Words300Bul: какъв не мрази Джон ?
+Words300Cat: què no odia Joan ?
+Words300Dan: hvad hader John ikke ?
+Words300Dut: wat haat Jan niet ?
+Words300Fin: mitä Jussi ei vihaa ?
+Words300Fre: que n' hait pas Jean ?
+Words300Ger: was hasst Johann nicht ?
+Words300Gre: τι δεν μισεί ο Γιάννης ;
+Words300Ita: che non odia Giovanni ?
+Words300Lav: ko Jānis neienīst ?
+Words300Nor: hva hater John ikke ?
+Words300Pol: co nie nienawidzi Jan ?
+Words300Ron: ce nu urăşte Ion ?
+Words300Rus: что Иван не ненавидит ?
+Words300Spa: ¿ qué no odia Juan ?
+Words300Swe: vad hatar Johan inte ?
+Words300Urd: کس کو جان نفرت نہیں کرتا ہے
+
+
+Words300: baseText (qsText (qs (npq_coord_VPS (ipNPQ (whichIP which_IDet (cn_as_VarCN cat_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP (V2by_as_V2 hate_V2) (pnNP john_PN))) (vp_as_posVPS (v2VP (V2by_as_V2 push_V2) (thereNP_as_NP (aNP (cn_as_VarCN tail_CN)))))))))
+Words300Ace: which cat hates John and pushes a tail ?
+Words300Bul: [npq_coord_VPS] ?
+Words300Cat: quin gat odia Joan i empeny una cua ?
+Words300Dan: hvilken kat hader John og skubber en hale ?
+Words300Dut: welke kat haat Jan en duuwt een staart ?
+Words300Fin: mikä kissa vihaa Jussia ja työntää hännän ?
+Words300Fre: quel chat hait Jean et il pousse une queue ?
+Words300Ger: welche Katze hasst Johann und schiebt einen Schwanz ?
+Words300Gre: [npq_coord_VPS] ;
+Words300Ita: quale gatto odia Giovanni e spinge una coda ?
+Words300Lav: [npq_coord_VPS] ?
+Words300Nor: hvilken katt hater John og skyver en hale ?
+Words300Pol: [npq_coord_VPS] ?
+Words300Ron: [npq_coord_VPS] ?
+Words300Rus: [npq_coord_VPS] ?
+Words300Spa: ¿ qué gato odia Juan y empuja una cola ?
+Words300Swe: vilken katt hatar Johan och trycker en svans ?
+Words300Urd: [npq_coord_VPS]
+
+
+Words300: baseText (qsText (qs (np_coord_VPSQ (pnNP paris_PN) and_Conj (BaseVPSQ (vpq_as_posVPSQ (v2VPQ (V2by_as_V2 hate_V2) (ipNPQ whatSg_IP))) (vp_as_negVPSQ (v2VP (V2by_as_V2 hate_V2) (thereNP_as_NP (indefTherePronNP something_IPron))))))))
+Words300Ace: Paris hates what and doesn't hate something ?
+Words300Bul: [np_coord_VPSQ] ?
+Words300Cat: Paris odia què i no odia quelcom ?
+Words300Dan: Paris hader hvad og hader ikke noget ?
+Words300Dut: Parijs haat wat en haat niet iets ?
+Words300Fin: Pariisi vihaa mitä ja ei vihaa jotakin ?
+Words300Fre: Paris hait qu' et il n' hait pas quelque chose ?
+Words300Ger: Paris hasst was und hasst nicht etwas ?
+Words300Gre: [np_coord_VPSQ] ;
+Words300Ita: Parigi odia che e non odia qualche cosa ?
+Words300Lav: [np_coord_VPSQ] ?
+Words300Nor: Paris hater hva og hater ikke noe ?
+Words300Pol: [np_coord_VPSQ] ?
+Words300Ron: [np_coord_VPSQ] ?
+Words300Rus: [np_coord_VPSQ] ?
+Words300Spa: ¿ París odia qué y no odia algo ?
+Words300Swe: Paris hatar vad och hatar inte något ?
+Words300Urd: [np_coord_VPSQ]
+
+

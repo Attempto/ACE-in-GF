@@ -182,10 +182,10 @@ lin
   policeman_CN = mkCN Lexicon.policeman_N ;
   priest_CN = mkCN Lexicon.priest_N ;
   queen_CN = mkCN Lexicon.queen_N ;
-  --question_CN = mkCN Lexicon.question_N ;
+  -- question_CN = mkCN Lexicon.question_N ;
   radio_CN = mkCN Lexicon.radio_N ;
   rain_CN = mkCN Lexicon.rain_N ;
-  --reason_CN = mkCN Lexicon.reason_N ;
+  -- reason_CN = mkCN Lexicon.reason_N ;
   religion_CN = mkCN Lexicon.religion_N ;
   restaurant_CN = mkCN Lexicon.restaurant_N ;
   river_CN = mkCN Lexicon.river_N ;
