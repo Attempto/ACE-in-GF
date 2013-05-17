@@ -42,8 +42,15 @@ langs_Geography = Ace Ape Ger Spa
 # Tracking the regression of these languages
 langs_Geography_track = Ace Ape Ger Spa
 langs_Simple = Ace
-# Intentionally lacks Ape and Eng
-langs_Words300 = Ace Bul Cat Dan Dut Fin Fre Ger Gre Ita Lav Nor Pol Ron Rus Spa Swe Urd
+
+# The Words300 grammar uses a subset of the RGL lexicon.
+# We try to include all the RGL languages here, i.e. also some
+# that are not included in the above languages lists.
+# This list intentionally lacks Ape and Eng.
+# TODO: rename 'Ace' to 'Eng' because the RGL English lexicon is not technically an ACE lexicon,
+# as it contains "words with spaces".
+# TODO: include also Afrikaans, Japanese (currently did not compile), Nepalese, Punjabi, Sindhi.
+langs_Words300 = Ace Bul Cat Chi Dan Dut Fin Fre Ger Gre Hin Ita Lav Nor Pol Ron Rus Spa Swe Tha Urd
 
 # Compile application grammars in all languages
 all_grammars:

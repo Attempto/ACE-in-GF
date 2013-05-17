@@ -1,0 +1,1 @@
+abstract ExtraThaAbs = Cat ** { } ;
