@@ -7,7 +7,8 @@ languages = Ace Ape Ger Spa
 server = http://attempto.ifi.uzh.ch:41297
 #server = http://cloud.grammaticalframework.org
 
-dir = /tmp/Geography/
+dir = /tmp/spreadsheet.Geography/
+#dir = /tmp/Geography/
 #dir = /tmp/gfse.528744594/
 
 includes_all = includes_all.txt

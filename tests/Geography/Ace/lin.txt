@@ -34,15 +34,15 @@ GeographySpa: Berna está situada en Suiza .
 
 
 Geography: baseText (sText (s (vpS European_Union_NP (v2VP comprise_V2 (thereNP_as_NP (exactlyNP (digitsCard (IIDig D_2 (IDig D_7))) (cn_as_VarCN country_CN)))))))
-GeographyAce: the EU comprises exactly 2 7 countries .
-GeographyApe: the EU|pndef_sg|EU_PN|neutr comprises|tv_finsg|comprise_V2 exactly 2 7 countries|noun_pl|country_N|neutr .
+GeographyAce: the European_Union comprises exactly 2 7 countries .
+GeographyApe: the European_Union|pndef_sg|European_Union_PN|neutr comprises|tv_finsg|comprise_V2 exactly 2 7 countries|noun_pl|country_N|neutr .
 GeographyGer: die Europäische_Union besteht aus genau 2 7 Ländern .
 GeographySpa: la Unión_Europea consta de exactamente 2 7 países .
 
 
 Geography: baseText (sText (s (neg_vpS European_Union_NP (v2VP comprise_V2 (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN EFTA_state_CN)))))))
-GeographyAce: the EU doesn't comprise at least 2 EFTA_states .
-GeographyApe: the EU|pndef_sg|EU_PN|neutr doesn't comprise|tv_infpl|comprise_V2 at least 2 EFTA_states|noun_pl|EFTA_state_N|neutr .
+GeographyAce: the European_Union doesn't comprise at least 2 EFTA_states .
+GeographyApe: the European_Union|pndef_sg|European_Union_PN|neutr doesn't comprise|tv_infpl|comprise_V2 at least 2 EFTA_states|noun_pl|EFTA_state_N|neutr .
 GeographyGer: die Europäische_Union besteht nicht aus wenigstens 2 EFTA-Staaten .
 GeographySpa: la Unión_Europea no consta de al menos 2 países_de_la_EALC .
 
@@ -104,15 +104,15 @@ GeographySpa: Ciudad_del_Vaticano está rodeado por Roma .
 
 
 Geography: baseText (sText (s (vpS German_language_NP (npVP (thereNP_as_NP (aNP (ofCN official_language_CN European_Union_NP)))))))
-GeographyAce: German is an official_language of the EU .
-GeographyApe: German|pn_sg|German_PN|neutr is an official_language|noun_sg|official_language_N|neutr of the EU|pndef_sg|EU_PN|neutr .
+GeographyAce: German is an official_language of the European_Union .
+GeographyApe: German|pn_sg|German_PN|neutr is an official_language|noun_sg|official_language_N|neutr of the European_Union|pndef_sg|European_Union_PN|neutr .
 GeographyGer: Deutsch ist eine offizielle_Sprache von der Europäischen_Union .
 GeographySpa: el alemán es una lengua_oficial de la Unión_Europea .
 
 
 Geography: baseText (sText (s (vpS European_Union_NP (npVP European_Union_NP))))
-GeographyAce: the EU is the EU .
-GeographyApe: the EU|pndef_sg|EU_PN|neutr is the EU|pndef_sg|EU_PN|neutr .
+GeographyAce: the European_Union is the European_Union .
+GeographyApe: the European_Union|pndef_sg|European_Union_PN|neutr is the European_Union|pndef_sg|European_Union_PN|neutr .
 GeographyGer: die Europäische_Union ist die Europäische_Union .
 GeographySpa: la Unión_Europea es la Unión_Europea .
 
@@ -147,8 +147,8 @@ GeographySpa: más que 2 lagos nacen en un lago o rodean a un lago y un lago nac
 
 
 Geography: baseText (sText (s (vpS (thereNP_as_NP (more_thanNP (digitsCard (IDig D_2)) (cn_as_VarCN river_CN))) (v2VP has_as_location_V2 European_Union_NP))))
-GeographyAce: more than 2 rivers lie_in the EU .
-GeographyApe: more than 2 rivers|noun_pl|river_N|neutr lie_in|tv_infpl|lie_in_V2 the EU|pndef_sg|EU_PN|neutr .
+GeographyAce: more than 2 rivers lie_in the European_Union .
+GeographyApe: more than 2 rivers|noun_pl|river_N|neutr lie_in|tv_infpl|lie_in_V2 the European_Union|pndef_sg|European_Union_PN|neutr .
 GeographyGer: mehr als 2 Flüsse liegen in der Europäischen_Union .
 GeographySpa: más que 2 ríos están en la Unión_Europea .
 

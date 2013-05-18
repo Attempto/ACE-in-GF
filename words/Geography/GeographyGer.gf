@@ -31,6 +31,7 @@ Baba_Mountain_NP = mkNP das "Baba-Gebirge" ;
 Balearic_islands_NP = mkNP pl "Balearischen_Inseln" "Balearischen_Inseln" "Balearischen_Inseln" "Balearischen_Inseln" ;
 Balkan_mountain_range_NP = mkNP das "Balkangebirge" ;
 Baltic_Sea_NP = mkNP das "Baltische_Meer" "Baltische_Meer" "Baltischen_Meer" "Baltischen_Meers" ;
+baltic_state_CN = mkCN (mkN "Baltische_Staat" "Baltische_Staat" "Baltische_Staat" "Baltische_Staat" "Baltische_Staaten" "Baltische_Staaten" masculine) ;
 Bangor_NP = mkNP "Bangor" ;
 Banja_Luka_NP = mkNP "Banja_Luka" ;
 Basel_NP = mkNP "Basel" ;

@@ -30,6 +30,7 @@ Baba_Mountain_NP : NP ;
 Balearic_islands_NP : NP ;
 Balkan_mountain_range_NP : NP ;
 Baltic_Sea_NP : NP ;
+baltic_state_CN : CN ;
 Bangor_NP : NP ;
 Banja_Luka_NP : NP ;
 Basel_NP : NP ;
