@@ -147,6 +147,7 @@ Use the following Makefile targets to generate and store the linearizations.
 	lin_ontograph_40_save
 	lin_ontograph_ext_save
 	lin_Geography_save
+	lin_Words300_save
 	lin_acewiki_aceowl_save
 
 All the linearizations except for `acewiki_aceowl` are also under version control.
