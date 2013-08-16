@@ -21,7 +21,7 @@ concrete AttemptoLav of Attempto = SymbolsC, NumeralLav **
   --lin noNP = Syntax.mkNP empty_Det Pl Indef True ;
   --lin everyNP = Syntax.mkNP empty_Det Pl Indef False ;
 
-  lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv (mkPrep v2.topic) np) ;
+  lin v2_byVP v2 np = mkVP (passiveVP v2) (Syntax.mkAdv (mkPrep v2.leftVal) np) ;
     --mkVP (Syntax.VPSlashPrep (passiveVP v2) v2.p) np ;
 
   lin ofCN cn np = ExtraLav.GenCN np cn ;
