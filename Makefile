@@ -12,7 +12,7 @@ p = grammars/acewiki_aceowl:lib/src/ace:lib/src/api
 # path_base is deprecated
 path_base = present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/api
 path = $(path_base)
-#path = $(GF_EST_SRC)/estonian:$(GF_EST_SRC)/api:$(path_base)
+path = $(GF_EST_SRC)/estonian:$(GF_EST_SRC)/api:$(path_base)
 grammars = grammars/acewiki_aceowl
 
 words = words/acewiki_aceowl
@@ -34,7 +34,7 @@ Words300 = Words300
 startcat = ACEText
 
 # Language list
-languages = Ace Ape Bul Cat Dan Dut Eng Fin Fre Ger Gre Ita Lav Nor Pol Ron Rus Spa Swe Urd
+languages = Ace Ape Bul Cat Dan Dut Eng Est Fin Fre Ger Gre Ita Lav Nor Pol Ron Rus Spa Swe Urd
 
 #langs_Geography = Ace Ape Dut Fin Ger Ita Spa
 langs_Geography = Ace Ape Ger Spa

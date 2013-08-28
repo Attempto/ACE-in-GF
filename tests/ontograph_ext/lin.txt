@@ -6,6 +6,7 @@ TestAttemptoCat: Mary és un viatger .
 TestAttemptoDan: Mary er en rejsende .
 TestAttemptoDut: Mary is een reiziger .
 TestAttemptoEng: Mary is a traveler .
+TestAttemptoEst: Mari on reisija .
 TestAttemptoFin: Mary on matkustaja .
 TestAttemptoFre: Mary est un voyageur .
 TestAttemptoGer: Mary ist ein Reisende .
@@ -28,6 +29,7 @@ TestAttemptoCat: Bill no és una golfista .
 TestAttemptoDan: Bill er ikke en golfspiller .
 TestAttemptoDut: Bill is niet een golfer .
 TestAttemptoEng: Bill isn't a golfer .
+TestAttemptoEst: Villem ei ole golfimängija .
 TestAttemptoFin: Bill ei ole golfaaja .
 TestAttemptoFre: Bill n' est pas un golfeur .
 TestAttemptoGer: Bill ist nicht ein Golfer .
@@ -50,6 +52,7 @@ TestAttemptoCat: Mary és un oficial o és una golfista .
 TestAttemptoDan: Mary er en officer eller er en golfspiller .
 TestAttemptoDut: Mary is een officier of is een golfer .
 TestAttemptoEng: Mary is an officer or is a golfer .
+TestAttemptoEst: Mari on ohvitser või on golfimängija .
 TestAttemptoFin: Mary on upseeri tai on golfaaja .
 TestAttemptoFre: Mary est un officier ou il est un golfeur .
 TestAttemptoGer: Mary ist ein Offizier oder ist ein Golfer .
@@ -72,6 +75,7 @@ TestAttemptoCat: Sue és un oficial i és un viatger .
 TestAttemptoDan: Sue er en officer og er en rejsende .
 TestAttemptoDut: Sue is een officier en is een reiziger .
 TestAttemptoEng: Sue is an officer and is a traveler .
+TestAttemptoEst: Sue on ohvitser ja on reisija .
 TestAttemptoFin: Sue on upseeri ja on matkustaja .
 TestAttemptoFre: Sue est un officier et elle est un voyageur .
 TestAttemptoGer: Sue ist ein Offizier und ist ein Reisende .
@@ -94,6 +98,7 @@ TestAttemptoCat: Mary és una dona que és un oficial o que és una golfista .
 TestAttemptoDan: Mary er en kvinde , som er en officer eller som er en golfspiller .
 TestAttemptoDut: Mary is een vrouw , dat een officier is of dat een golfer is .
 TestAttemptoEng: Mary is a woman that is an officer or that is a golfer .
+TestAttemptoEst: Mari on naine , kes on ohvitser või kes on golfimängija .
 TestAttemptoFin: Mary on nainen , joka on upseeri tai joka on golfaaja .
 TestAttemptoFre: Mary est une femme qui est un officier ou qui est un golfeur .
 TestAttemptoGer: Mary ist eine Frau , die ein Offizier ist oder die ein Golfer ist .
@@ -116,6 +121,7 @@ TestAttemptoCat: Mary és una dona que és un oficial o que és una golfista .
 TestAttemptoDan: Mary er en kvinde som er en officer eller som er en golfspiller .
 TestAttemptoDut: Mary is een vrouw die een officier is of die een golfer is .
 TestAttemptoEng: Mary is a woman that is an officer or that is a golfer .
+TestAttemptoEst: Mari on naine kes on ohvitser või kes on golfimängija .
 TestAttemptoFin: Mary on nainen joka on upseeri tai joka on golfaaja .
 TestAttemptoFre: Mary est une femme qui est un officier ou qui est un golfeur .
 TestAttemptoGer: Mary ist eine Frau , die ein Offizier ist oder die ein Golfer ist .
@@ -138,6 +144,7 @@ TestAttemptoCat: John és un home que és un oficial i que és un viatger .
 TestAttemptoDan: John er en mand , som er en officer og som er en rejsende .
 TestAttemptoDut: John is een man , dat een officier is en dat een reiziger is .
 TestAttemptoEng: John is a man that is an officer and that is a traveler .
+TestAttemptoEst: Jaan on mees , kes on ohvitser ja kes on reisija .
 TestAttemptoFin: John on mies , joka on upseeri ja joka on matkustaja .
 TestAttemptoFre: John est un homme qui est un officier et qui est un voyageur .
 TestAttemptoGer: John ist ein Mann , der ein Offizier ist und der ein Reisende ist .
@@ -160,6 +167,7 @@ TestAttemptoCat: John és un home que és un oficial i que és un viatger .
 TestAttemptoDan: John er en mand som er en officer og som er en rejsende .
 TestAttemptoDut: John is een man die een officier is en die een reiziger is .
 TestAttemptoEng: John is a man that is an officer and that is a traveler .
+TestAttemptoEst: Jaan on mees kes on ohvitser ja kes on reisija .
 TestAttemptoFin: John on mies joka on upseeri ja joka on matkustaja .
 TestAttemptoFre: John est un homme qui est un officier et qui est un voyageur .
 TestAttemptoGer: John ist ein Mann , der ein Offizier ist und der ein Reisende ist .
@@ -182,6 +190,7 @@ TestAttemptoCat: John és un home que admira un oficial i que un viatger veu .
 TestAttemptoDan: John er en mand , som beundrer en officer og som en rejsende ser .
 TestAttemptoDut: John is een man , dat een officier bewondert en dat een reiziger ziet .
 TestAttemptoEng: John is a man that admires an officer and that a traveler sees .
+TestAttemptoEst: Jaan on mees , kes imetleb ohvitseri ja kelle reisija näeb .
 TestAttemptoFin: John on mies , joka ihailee upseerin ja jonka matkustaja näkee .
 TestAttemptoFre: John est un homme qui admire un officier et qu' un voyageur voit .
 TestAttemptoGer: John ist ein Mann , der einen Offizier bewundert und den ein Reisende sieht .
@@ -204,6 +213,7 @@ TestAttemptoCat: John és un home que admira un oficial i que un viatger veu .
 TestAttemptoDan: John er en mand som beundrer en officer og som en rejsende ser .
 TestAttemptoDut: John is een man die een officier bewondert en die een reiziger ziet .
 TestAttemptoEng: John is a man that admires an officer and that a traveler sees .
+TestAttemptoEst: Jaan on mees kes imetleb ohvitseri ja kelle reisija näeb .
 TestAttemptoFin: John on mies joka ihailee upseerin ja jonka matkustaja näkee .
 TestAttemptoFre: John est un homme qui admire un officier et qu' un voyageur voit .
 TestAttemptoGer: John ist ein Mann , der einen Offizier bewundert und den ein Reisende sieht .
@@ -226,6 +236,7 @@ TestAttemptoCat: cada home és una golfista .
 TestAttemptoDan: hver mand er en golfspiller .
 TestAttemptoDut: elke man is een golfer .
 TestAttemptoEng: every man is a golfer .
+TestAttemptoEst: iga mees on golfimängija .
 TestAttemptoFin: jokainen mies on golfaaja .
 TestAttemptoFre: chaque homme est un golfeur .
 TestAttemptoGer: jeder Mann ist ein Golfer .
@@ -248,6 +259,7 @@ TestAttemptoCat: cap golfista és una dona .
 TestAttemptoDan: 
 TestAttemptoDut: geen golfer is een vrouw .
 TestAttemptoEng: no golfer is a woman .
+TestAttemptoEst: mitte ükski golfimängija on naine .
 TestAttemptoFin: mikään golfaaja ei ole nainen .
 TestAttemptoFre: aucun golfeur n' est une femme .
 TestAttemptoGer: kein Golfer ist eine Frau .
@@ -270,6 +282,7 @@ TestAttemptoCat: cada dona és un oficial i cada oficial és una dona .
 TestAttemptoDan: hver kvinde er en officer og hver officer er en kvinde .
 TestAttemptoDut: elke vrouw is een officier en elke officier is een vrouw .
 TestAttemptoEng: every woman is an officer and every officer is a woman .
+TestAttemptoEst: iga naine on ohvitser ja iga ohvitser on naine .
 TestAttemptoFin: jokainen nainen on upseeri ja jokainen upseeri on nainen .
 TestAttemptoFre: chaque femme est un officier et chaque officier est une femme .
 TestAttemptoGer: jede Frau ist ein Offizier und jeder Offizier ist eine Frau .
@@ -292,6 +305,7 @@ TestAttemptoCat: cada viatger que no és una dona és una golfista .
 TestAttemptoDan: hver rejsende som ikke er en kvinde er en golfspiller .
 TestAttemptoDut: elke reiziger die niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler that isn't a woman is a golfer .
+TestAttemptoEst: iga reisija kes ei ole naine on golfimängija .
 TestAttemptoFin: jokainen matkustaja joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende , der nicht eine Frau ist ist ein Golfer .
@@ -314,6 +328,7 @@ TestAttemptoCat: cada viatger que no és una dona és una golfista .
 TestAttemptoDan: hver rejsende , som ikke er en kvinde er en golfspiller .
 TestAttemptoDut: elke reiziger , dat niet een vrouw is is een golfer .
 TestAttemptoEng: every traveler that isn't a woman is a golfer .
+TestAttemptoEst: iga reisija , kes ei ole naine on golfimängija .
 TestAttemptoFin: jokainen matkustaja , joka ei ole nainen on golfaaja .
 TestAttemptoFre: chaque voyageur qui n' est pas une femme est un golfeur .
 TestAttemptoGer: jeder Reisende , der nicht eine Frau ist ist ein Golfer .
@@ -336,6 +351,7 @@ TestAttemptoCat: cada home és una golfista o és un viatger .
 TestAttemptoDan: hver mand er en golfspiller eller er en rejsende .
 TestAttemptoDut: elke man is een golfer of is een reiziger .
 TestAttemptoEng: every man is a golfer or is a traveler .
+TestAttemptoEst: iga mees on golfimängija või on reisija .
 TestAttemptoFin: jokainen mies on golfaaja tai on matkustaja .
 TestAttemptoFre: chaque homme est un golfeur ou il est un voyageur .
 TestAttemptoGer: jeder Mann ist ein Golfer oder ist ein Reisende .
@@ -358,6 +374,7 @@ TestAttemptoCat: ningú que és un home o que és una golfista és un oficial i 
 TestAttemptoDan: ingen , som er en mand eller som er en golfspiller er en officer og er en rejsende .
 TestAttemptoDut: niemand , die een man is of die een golfer is is een officier en is een reiziger .
 TestAttemptoEng: nobody that is a man or that is a golfer is an officer and is a traveler .
+TestAttemptoEst: mitte keegi , kes on mees või kes on golfimängija on ohvitser ja on reisija .
 TestAttemptoFin: kukaan , joka on mies tai joka on golfaaja on upseeri ja on matkustaja .
 TestAttemptoFre: personne qui est un homme ou qui est un golfeur n' est un officier et elle n' est un voyageur .
 TestAttemptoGer: niemand , das ein Mann ist oder das ein Golfer ist ist ein Offizier und ist ein Reisende .
@@ -380,6 +397,7 @@ TestAttemptoCat: Lisa veu Mary .
 TestAttemptoDan: Lisa ser Mary .
 TestAttemptoDut: Lisa ziet Mary .
 TestAttemptoEng: Lisa sees Mary .
+TestAttemptoEst: Liisa näeb Mari .
 TestAttemptoFin: Lisa näkee Maryn .
 TestAttemptoFre: Lisa voit Mary .
 TestAttemptoGer: Lisa sieht Mary .
@@ -402,6 +420,7 @@ TestAttemptoCat: Mary no veu Tom .
 TestAttemptoDan: Mary ser ikke Tom .
 TestAttemptoDut: Mary ziet niet Tom .
 TestAttemptoEng: Mary doesn't see Tom .
+TestAttemptoEst: Mari ei näe Toomast .
 TestAttemptoFin: Mary ei näe Tomia .
 TestAttemptoFre: Mary ne voit pas Tom .
 TestAttemptoGer: Mary sieht Tom nicht .
@@ -424,6 +443,7 @@ TestAttemptoCat: Tom compra un imatge .
 TestAttemptoDan: Tom køber en billede .
 TestAttemptoDut: Tom koopt een schilderij .
 TestAttemptoEng: Tom buys a picture .
+TestAttemptoEst: Toomas ostab pildi .
 TestAttemptoFin: Tom ostaa kuvan .
 TestAttemptoFre: Tom achète une image .
 TestAttemptoGer: Tom kauft ein Bild .
@@ -446,6 +466,7 @@ TestAttemptoCat: Mary no veu cap home .
 TestAttemptoDan: 
 TestAttemptoDut: Mary ziet geen man .
 TestAttemptoEng: Mary sees no man .
+TestAttemptoEst: Mari näeb mitte ühegi mehe .
 TestAttemptoFin: Mary ei näe mitään miestä .
 TestAttemptoFre: Mary ne voit aucun homme .
 TestAttemptoGer: Mary sieht keinen Mann .
@@ -468,6 +489,7 @@ TestAttemptoCat: John compra quelcom que no és un presentar .
 TestAttemptoDan: John køber noget , som ikke er en gave .
 TestAttemptoDut: John koopt iets , die niet een cadeau is .
 TestAttemptoEng: John buys something that isn't a present .
+TestAttemptoEst: Jaan ostab mille , kes ei ole kingitus .
 TestAttemptoFin: John ostaa jonkin , joka ei ole lahja .
 TestAttemptoFre: John achète quelque chose qui n' est pas un cadeau .
 TestAttemptoGer: John kauft etwas , das nicht ein Geschenk ist .
@@ -490,6 +512,7 @@ TestAttemptoCat: John veu nomÈs homes .
 TestAttemptoDan: John ser kun mænd .
 TestAttemptoDut: John ziet slechts mannen .
 TestAttemptoEng: John sees nothing but men .
+TestAttemptoEst: Jaan näeb ainult mehed .
 TestAttemptoFin: John näkee vain miehiä .
 TestAttemptoFre: John voit seulement des hommes .
 TestAttemptoGer: John sieht nur Männer .
@@ -512,6 +535,7 @@ TestAttemptoCat: cada home compra un presentar .
 TestAttemptoDan: hver mand køber en gave .
 TestAttemptoDut: elke man koopt een cadeau .
 TestAttemptoEng: every man buys a present .
+TestAttemptoEst: iga mees ostab kingituse .
 TestAttemptoFin: jokainen mies ostaa lahjan .
 TestAttemptoFre: chaque homme achète un cadeau .
 TestAttemptoGer: jeder Mann kauft ein Geschenk .
@@ -534,6 +558,7 @@ TestAttemptoCat: tot que compra un presentar és un home .
 TestAttemptoDan: alt , som køber en gave er en mand .
 TestAttemptoDut: alles , dat een cadeau koopt is een man .
 TestAttemptoEng: everything that buys a present is a man .
+TestAttemptoEst: kõik , kes ostab kingituse on mees .
 TestAttemptoFin: kaikki , joka ostaa lahjan on mies .
 TestAttemptoFre: tout qui achète un cadeau est un homme .
 TestAttemptoGer: alles , das ein Geschenk kauft ist ein Mann .
@@ -556,6 +581,7 @@ TestAttemptoCat: tot que un home compra és un presentar .
 TestAttemptoDan: alt , som en mand køber er en gave .
 TestAttemptoDut: alles , dat een man koopt is een cadeau .
 TestAttemptoEng: everything that a man buys is a present .
+TestAttemptoEst: kõik , kelle mees ostab on kingitus .
 TestAttemptoFin: kaikki , jonka mies ostaa on lahja .
 TestAttemptoFre: tout qu' un homme achète est un cadeau .
 TestAttemptoGer: alles , das ein Mann kauft ist ein Geschenk .
@@ -578,6 +604,7 @@ TestAttemptoCat: tot que un home compra o que una dona admira és un presentar .
 TestAttemptoDan: alt , som en mand køber eller som en kvinde beundrer er en gave .
 TestAttemptoDut: alles , dat een man koopt of dat een vrouw bewondert is een cadeau .
 TestAttemptoEng: everything that a man buys or that a woman admires is a present .
+TestAttemptoEst: kõik , kelle mees ostab või kelle naine imetleb on kingitus .
 TestAttemptoFin: kaikki , jonka mies ostaa tai jonka nainen ihailee on lahja .
 TestAttemptoFre: tout qu' un homme achète ou qu' une femme admire est un cadeau .
 TestAttemptoGer: alles , das ein Mann kauft oder das eine Frau bewundert ist ein Geschenk .
@@ -600,6 +627,7 @@ TestAttemptoCat: cada home compra nomÈs presentars .
 TestAttemptoDan: hver mand køber kun gaver .
 TestAttemptoDut: elke man koopt slechts cadeaus .
 TestAttemptoEng: every man buys nothing but presents .
+TestAttemptoEst: iga mees ostab ainult kingitused .
 TestAttemptoFin: jokainen mies ostaa vain lahjoja .
 TestAttemptoFre: chaque homme achète seulement des cadeaux .
 TestAttemptoGer: jeder Mann kauft nur Geschenke .
@@ -622,6 +650,7 @@ TestAttemptoCat: tot que compra nomÈs imatges és una dona .
 TestAttemptoDan: alt , som køber kun billeder er en kvinde .
 TestAttemptoDut: alles , dat slechts schilderijen koopt is een vrouw .
 TestAttemptoEng: everything that buys nothing but pictures is a woman .
+TestAttemptoEst: kõik , kes ostab ainult pildid on naine .
 TestAttemptoFin: kaikki , joka ostaa vain kuvia on nainen .
 TestAttemptoFre: tout qui achète seulement des images est une femme .
 TestAttemptoGer: alles , das nur Bilder kauft ist eine Frau .
@@ -644,6 +673,7 @@ TestAttemptoCat: tot que veu quelcom és un oficial .
 TestAttemptoDan: alt , som ser noget er en officer .
 TestAttemptoDut: alles , dat iets ziet is een officier .
 TestAttemptoEng: everything that sees something is an officer .
+TestAttemptoEst: kõik , kes näeb mille on ohvitser .
 TestAttemptoFin: kaikki , joka näkee jonkin on upseeri .
 TestAttemptoFre: tout qui voit quelque chose est un officier .
 TestAttemptoGer: alles , das etwas sieht ist ein Offizier .
@@ -666,6 +696,7 @@ TestAttemptoCat: tot que quelcom veu és un oficial .
 TestAttemptoDan: alt , som noget ser er en officer .
 TestAttemptoDut: alles , dat iets ziet is een officier .
 TestAttemptoEng: everything that something sees is an officer .
+TestAttemptoEst: kõik , kelle mis näeb on ohvitser .
 TestAttemptoFin: kaikki , jonka jokin näkee on upseeri .
 TestAttemptoFre: tout que quelque chose voit est un officier .
 TestAttemptoGer: alles , das etwas sieht ist ein Offizier .
@@ -688,6 +719,7 @@ TestAttemptoCat: tot que està estimat per quelcom és una persona .
 TestAttemptoDan: alt , som bliver elsket af noget er en person .
 TestAttemptoDut: alles , dat door iets liefgehad wordt is een persoon .
 TestAttemptoEng: everything that is loved by something is a person .
+TestAttemptoEst: kõik , ked armastatakse mille poolt on inimene .
 TestAttemptoFin: kaikki , jota rakastetaan jonkin toimesta on henkilö .
 TestAttemptoFre: tout qui est aimé par quelque chose est une personne .
 TestAttemptoGer: alles , das durch etwas geliebt wird ist eine Person .
@@ -710,6 +742,7 @@ TestAttemptoCat: tot que estima quelcom és un viatger o és un oficial .
 TestAttemptoDan: alt , som elsker noget er en rejsende eller er en officer .
 TestAttemptoDut: alles , dat iets lief heeft is een reiziger of is een officier .
 TestAttemptoEng: everything that loves something is a traveler or is an officer .
+TestAttemptoEst: kõik , kes armastab mida on reisija või on ohvitser .
 TestAttemptoFin: kaikki , joka rakastaa jotakin on matkustaja tai on upseeri .
 TestAttemptoFre: tout qui aime quelque chose est un voyageur ou il est un officier .
 TestAttemptoGer: alles , das etwas liebt ist ein Reisende oder ist ein Offizier .
@@ -732,6 +765,7 @@ TestAttemptoCat: tot que quelcom estima és un viatger o és un oficial .
 TestAttemptoDan: alt , som noget elsker er en rejsende eller er en officer .
 TestAttemptoDut: alles , dat iets lief heeft is een reiziger of is een officier .
 TestAttemptoEng: everything that something loves is a traveler or is an officer .
+TestAttemptoEst: kõik , ked mis armastab on reisija või on ohvitser .
 TestAttemptoFin: kaikki , jota jokin rakastaa on matkustaja tai on upseeri .
 TestAttemptoFre: tout que quelque chose aime est un voyageur ou il est un officier .
 TestAttemptoGer: alles , das etwas liebt ist ein Reisende oder ist ein Offizier .
@@ -754,6 +788,7 @@ TestAttemptoCat: tot que està vist per quelcom és un viatger o és un aquari .
 TestAttemptoDan: alt , som bliver set af noget er en rejsende eller er en akvarium .
 TestAttemptoDut: alles , dat door iets gezien wordt is een reiziger of is een aquarium .
 TestAttemptoEng: everything that is seen by something is a traveler or is an aquarium .
+TestAttemptoEst: kõik , kes nähakse mille poolt on reisija või on akvaarium .
 TestAttemptoFin: kaikki , joka nähdään jonkin toimesta on matkustaja tai on akvaario .
 TestAttemptoFre: tout qui est vu par quelque chose est un voyageur ou il est un aquarium .
 TestAttemptoGer: alles , das durch etwas gesehen wird ist ein Reisende oder ist ein Aquarium .
@@ -776,6 +811,7 @@ TestAttemptoCat: Tom estima almenys 2 oficials .
 TestAttemptoDan: Tom elsker mindst 2 officerer .
 TestAttemptoDut: Tom heeft ten minste 2 officieren lief .
 TestAttemptoEng: Tom loves at least 2 officers .
+TestAttemptoEst: Toomas armastab vähemalt 2 ohvitseri .
 TestAttemptoFin: Tom rakastaa vähintään 2 upseeria .
 TestAttemptoFre: Tom aime au moins 2 officiers .
 TestAttemptoGer: Tom liebt wenigstens 2 Offiziere .
@@ -798,6 +834,7 @@ TestAttemptoCat: Lisa compra com a màxim 1 presentar .
 TestAttemptoDan: Lisa køber højst 1 gave .
 TestAttemptoDut: Lisa koopt hooguit 1 cadeau .
 TestAttemptoEng: Lisa buys at most 1 present .
+TestAttemptoEst: Liisa ostab kuni 1 kingituse .
 TestAttemptoFin: Lisa ostaa enintään 1 lahjan .
 TestAttemptoFre: Lisa achète au plus 1 cadeau .
 TestAttemptoGer: Lisa kauft höchstens 1 Geschenk .
@@ -820,6 +857,7 @@ TestAttemptoCat: cada viatger veu almenys 2 aquarins .
 TestAttemptoDan: hver rejsende ser mindst 2 akvariumer .
 TestAttemptoDut: elke reiziger ziet ten minste 2 aquaria .
 TestAttemptoEng: every traveler sees at least 2 aquariums .
+TestAttemptoEst: iga reisija näeb vähemalt 2 akvaariumi .
 TestAttemptoFin: jokainen matkustaja näkee vähintään 2 akvaariota .
 TestAttemptoFre: chaque voyageur voit au moins 2 aquariums .
 TestAttemptoGer: jeder Reisende sieht wenigstens 2 Aquariume .
@@ -842,6 +880,7 @@ TestAttemptoCat: tot que compra almenys 2 presentars és un oficial .
 TestAttemptoDan: alt , som køber mindst 2 gaver er en officer .
 TestAttemptoDut: alles , dat ten minste 2 cadeaus koopt is een officier .
 TestAttemptoEng: everything that buys at least 2 presents is an officer .
+TestAttemptoEst: kõik , kes ostab vähemalt 2 kingitust on ohvitser .
 TestAttemptoFin: kaikki , joka ostaa vähintään 2 lahjaa on upseeri .
 TestAttemptoFre: tout qui achète au moins 2 cadeaux est un officier .
 TestAttemptoGer: alles , das wenigstens 2 Geschenke kauft ist ein Offizier .
@@ -864,6 +903,7 @@ TestAttemptoCat: tot que almenys 2 oficials compren és un presentar .
 TestAttemptoDan: alt , som mindst 2 officerer køber er en gave .
 TestAttemptoDut: alles , dat ten minste 2 officieren kopen is een cadeau .
 TestAttemptoEng: everything that at least 2 officers buy is a present .
+TestAttemptoEst: kõik , kelle vähemalt 2 ohvitseri ostab on kingitus .
 TestAttemptoFin: kaikki , jonka vähintään 2 upseeria ostaa on lahja .
 TestAttemptoFre: tout qu' au moins 2 officiers achètent est un cadeau .
 TestAttemptoGer: alles , das wenigstens 2 Offiziere kaufen ist ein Geschenk .
@@ -886,6 +926,7 @@ TestAttemptoCat: cada oficial veu com a màxim 1 aquari .
 TestAttemptoDan: hver officer ser højst 1 akvarium .
 TestAttemptoDut: elke officier ziet hooguit 1 aquarium .
 TestAttemptoEng: every officer sees at most 1 aquarium .
+TestAttemptoEst: iga ohvitser näeb kuni 1 akvaariumi .
 TestAttemptoFin: jokainen upseeri näkee enintään 1 akvaarion .
 TestAttemptoFre: chaque officier voit au plus 1 aquarium .
 TestAttemptoGer: jeder Offizier sieht höchstens 1 Aquarium .
@@ -908,6 +949,7 @@ TestAttemptoCat: tot que és un viatger o que és un oficial veu com a màxim 2 
 TestAttemptoDan: alt , som er en rejsende eller som er en officer ser højst 2 akvariumer .
 TestAttemptoDut: alles , dat een reiziger is of dat een officier is ziet hooguit 2 aquaria .
 TestAttemptoEng: everything that is a traveler or that is an officer sees at most 2 aquariums .
+TestAttemptoEst: kõik , kes on reisija või kes on ohvitser näeb kuni 2 akvaariumi .
 TestAttemptoFin: kaikki , joka on matkustaja tai joka on upseeri näkee enintään 2 akvaariota .
 TestAttemptoFre: tout qui est un voyageur ou qui est un officier voit au plus 2 aquariums .
 TestAttemptoGer: alles , das ein Reisende ist oder das ein Offizier ist sieht höchstens 2 Aquariume .
@@ -930,6 +972,7 @@ TestAttemptoCat: cap imatge es admira .
 TestAttemptoDan: 
 TestAttemptoDut: geen schilderij bewondert zich .
 TestAttemptoEng: no picture admires itself .
+TestAttemptoEst: mitte ükski pilt imetleb itse .
 TestAttemptoFin: mikään kuva ei ihaile itseänsä .
 TestAttemptoFre: aucune image ne s' admire .
 TestAttemptoGer: kein Bild bewundert sich .
@@ -952,6 +995,7 @@ TestAttemptoCat: cada home es estima .
 TestAttemptoDan: hver mand elsker sig .
 TestAttemptoDut: elke man heeft zich lief .
 TestAttemptoEng: every man loves himself .
+TestAttemptoEst: iga mees armastab itseä .
 TestAttemptoFin: jokainen mies rakastaa itseänsä .
 TestAttemptoFre: chaque homme s' aime .
 TestAttemptoGer: jeder Mann liebt sich .
@@ -974,6 +1018,7 @@ TestAttemptoCat: si X veu Y llavors Y no estima X .
 TestAttemptoDan: hvis X ser Y så Y elsker ikke X .
 TestAttemptoDut: als X Y ziet , dan heeft Y niet X lief .
 TestAttemptoEng: if X sees Y then Y doesn't love X .
+TestAttemptoEst: kui X näeb Y siis Y ei armasta X .
 TestAttemptoFin: jos X näkee Y:n niin Y ei rakasta X:ää .
 TestAttemptoFre: si X voit Y alors Y n' aime pas X .
 TestAttemptoGer: wenn X Y sieht , dann liebt Y X nicht .
@@ -996,6 +1041,7 @@ TestAttemptoCat: si X veu alg˙ que veu Y llavors X veu Y .
 TestAttemptoDan: hvis X ser nogen , som ser Y så X ser Y .
 TestAttemptoDut: als X iemand , die Y ziet ziet , dan ziet X Y .
 TestAttemptoEng: if X sees somebody that sees Y then X sees Y .
+TestAttemptoEst: kui X näeb jonkun , kes näeb Y siis X näeb Y .
 TestAttemptoFin: jos X näkee jonkun , joka näkee Y:n niin X näkee Y:n .
 TestAttemptoFre: si X voit quelqu'un qui voit Y alors X voit Y .
 TestAttemptoGer: wenn X jemanden , das Y sieht sieht , dann sieht X Y .
@@ -1018,6 +1064,7 @@ TestAttemptoCat: si X admira Y llavors X veu Y .
 TestAttemptoDan: hvis X beundrer Y så X ser Y .
 TestAttemptoDut: als X Y bewondert , dan ziet X Y .
 TestAttemptoEng: if X admires Y then X sees Y .
+TestAttemptoEst: kui X imetleb Y siis X näeb Y .
 TestAttemptoFin: jos X ihailee Y:n niin X näkee Y:n .
 TestAttemptoFre: si X admire Y alors X voit Y .
 TestAttemptoGer: wenn X Y bewundert , dann sieht X Y .
@@ -1040,6 +1087,7 @@ TestAttemptoCat: si X ajuda Y llavors Y admira X .
 TestAttemptoDan: hvis X hjælper Y så Y beundrer X .
 TestAttemptoDut: als X Y helpt , dan bewondert Y X .
 TestAttemptoEng: if X helps Y then Y admires X .
+TestAttemptoEst: kui X aitab Y siis Y imetleb X .
 TestAttemptoFin: jos X auttaa Y:n niin Y ihailee X:n .
 TestAttemptoFre: si X aide Y alors Y admire X .
 TestAttemptoGer: wenn X Y hilft , dann bewundert Y X .
@@ -1062,6 +1110,7 @@ TestAttemptoCat: si X estima Y llavors X no admira Y .
 TestAttemptoDan: hvis X elsker Y så X beundrer ikke Y .
 TestAttemptoDut: als X Y lief heeft , dan bewondert X niet Y .
 TestAttemptoEng: if X loves Y then X doesn't admire Y .
+TestAttemptoEst: kui X armastab Y siis X ei imetle Y .
 TestAttemptoFin: jos X rakastaa Y:tä niin X ei ihaile Y:tä .
 TestAttemptoFre: si X aime Y alors X n' admire pas Y .
 TestAttemptoGer: wenn X Y liebt , dann bewundert X Y nicht .
@@ -1084,6 +1133,7 @@ TestAttemptoCat: si un home X no admira una dona Y llavors la dona Y no admira l
 TestAttemptoDan: hvis en mand X beundrer ikke en kvinde Y så kvinden Y beundrer ikke manden X .
 TestAttemptoDut: als een man X niet een vrouw Y bewondert , dan bewondert de vrouw Y niet de man X .
 TestAttemptoEng: if a man X doesn't admire a woman Y then the woman Y doesn't admire the man X .
+TestAttemptoEst: kui mees X ei imetle naist Y siis naine Y ei imetle meest X .
 TestAttemptoFin: jos mies X ei ihaile naista Y niin nainen Y ei ihaile miestä X .
 TestAttemptoFre: si un homme X n' admire pas une femme Y alors la femme Y n' admire pas l' homme X .
 TestAttemptoGer: wenn ein Mann X nicht eine Frau Y bewundert , dann bewundert die Frau Y den Mann X nicht .
@@ -1106,6 +1156,7 @@ TestAttemptoCat: si un home X no ajuda una dona Y llavors la dona Y no ajuda l' 
 TestAttemptoDan: hvis en mand X hjælper ikke en kvinde Y så kvinden Y hjælper ikke manden X .
 TestAttemptoDut: als een man X niet een vrouw Y helpt , dan helpt de vrouw Y niet de man X .
 TestAttemptoEng: if a man X doesn't help a woman Y then the woman Y doesn't help the man X .
+TestAttemptoEst: kui mees X ei aita naist Y siis naine Y ei aita meest X .
 TestAttemptoFin: jos mies X ei auta naista Y niin nainen Y ei auta miestä X .
 TestAttemptoFre: si un homme X n' aide pas une femme Y alors la femme Y n' aide pas l' homme X .
 TestAttemptoGer: wenn ein Mann X nicht einer Frau Y hilft , dann hilft die Frau Y dem Mann X nicht .
@@ -1128,6 +1179,7 @@ TestAttemptoCat: és fals que alg˙ no compra exactament 3 golfistes .
 TestAttemptoDan: det er falsk at nogen ikke køber præcis 3 golfspillerer .
 TestAttemptoDut: 't is onwaar dat iemand niet precies 3 golfers koopt .
 TestAttemptoEng: it is false that somebody doesn't buy exactly 3 golfers .
+TestAttemptoEst: on vale et joku ei osta täpselt 3 golfimängijat .
 TestAttemptoFin: on epätotta että joku ei osta tasan 3 golfaajaa .
 TestAttemptoFre: il est faux que quelqu'un n' achète pas exactement 3 golfeurs .
 TestAttemptoGer: es ist falsch dass jemand nicht genau 3 Golfer kauft .
@@ -1150,6 +1202,7 @@ TestAttemptoCat: què compra John ?
 TestAttemptoDan: hvad køber John ?
 TestAttemptoDut: wat koopt John ?
 TestAttemptoEng: what does John buy ?
+TestAttemptoEst: mille Jaan ostab ?
 TestAttemptoFin: minkä John ostaa ?
 TestAttemptoFre: qu' achète John ?
 TestAttemptoGer: was kauft John ?
@@ -1172,6 +1225,7 @@ TestAttemptoCat: quins golfistes no ajuden Mary ?
 TestAttemptoDan: hvilke golfspillerer hjælper ikke Mary ?
 TestAttemptoDut: welke golfers helpen niet Mary ?
 TestAttemptoEng: which golfers don't help Mary ?
+TestAttemptoEst: [neg_npqQS] ?
 TestAttemptoFin: mitkä golfaajat eivät auta Maryä ?
 TestAttemptoFre: quels golfeurs n' aident pas Mary ?
 TestAttemptoGer: welche Golfer helfen Mary nicht ?
@@ -1194,6 +1248,7 @@ TestAttemptoCat: cada home veu què ?
 TestAttemptoDan: hver mand ser hvad ?
 TestAttemptoDut: elke man ziet wat ?
 TestAttemptoEng: every man sees what ?
+TestAttemptoEst: [vpqQS] ?
 TestAttemptoFin: jokainen mies näkee minkä ?
 TestAttemptoFre: chaque homme voit que ?
 TestAttemptoGer: jeder Mann sieht was ?
@@ -1216,6 +1271,7 @@ TestAttemptoCat: cada home veu què o no admira qui ?
 TestAttemptoDan: hver mand ser hvad eller beundrer ikke hvem ?
 TestAttemptoDut: elke man ziet wat of bewondert wie niet ?
 TestAttemptoEng: every man sees what or doesn't admire who ?
+TestAttemptoEst: iga mees [vpq_as_posVPSQ] või [vpq_as_negVPSQ] ?
 TestAttemptoFin: jokainen mies näkee minkä tai ei ihaile ketä ?
 TestAttemptoFre: chaque homme voit qu' ou il n' admire pas qui ?
 TestAttemptoGer: jeder Mann sieht was oder bewundert wen nicht ?
@@ -1238,6 +1294,7 @@ TestAttemptoCat: quin home estima X ?
 TestAttemptoDan: hvilken mand elsker X ?
 TestAttemptoDut: welke man heeft X lief ?
 TestAttemptoEng: which man loves somebody X ?
+TestAttemptoEst: [npqQS] ?
 TestAttemptoFin: mikä mies rakastaa jotakuta X ?
 TestAttemptoFre: quel homme aime X ?
 TestAttemptoGer: welcher Mann liebt X ?
@@ -1260,6 +1317,7 @@ TestAttemptoCat: què està comprat per John ?
 TestAttemptoDan: hvad bliver købt af John ?
 TestAttemptoDut: wat wordt door John gekocht ?
 TestAttemptoEng: what is bought by John ?
+TestAttemptoEst: [npqQS] ?
 TestAttemptoFin: minkä ostetaan Johnin toimesta ?
 TestAttemptoFre: qu' est acheté par John ?
 TestAttemptoGer: was wird durch John gekauft ?
@@ -1282,6 +1340,7 @@ TestAttemptoCat: quins golfistes no estan ajudades per Mary ?
 TestAttemptoDan: hvilke golfspillerer bliver ikke hjælpete af Mary ?
 TestAttemptoDut: welke golfers worden niet door Mary gehelpt ?
 TestAttemptoEng: which golfers aren't helped by Mary ?
+TestAttemptoEst: [neg_npqQS] ?
 TestAttemptoFin: mitä golfaajia ei auteta Maryn toimesta ?
 TestAttemptoFre: quels golfeurs ne sont pas aidés par Mary ?
 TestAttemptoGer: welche Golfer werden nicht durch Mary geholfen ?
@@ -1304,6 +1363,7 @@ TestAttemptoCat: què està vist per cada home ?
 TestAttemptoDan: hvad bliver set af hver mand ?
 TestAttemptoDut: wat wordt door elke man gezien ?
 TestAttemptoEng: what is seen by every man ?
+TestAttemptoEst: [npqQS] ?
 TestAttemptoFin: minkä nähdään jokaisen miehen toimesta ?
 TestAttemptoFre: qu' est vu par chaque homme ?
 TestAttemptoGer: was wird durch jeden Mann gesehen ?
@@ -1326,6 +1386,7 @@ TestAttemptoCat: quin home està estimat per X ?
 TestAttemptoDan: hvilken mand bliver elsket af X ?
 TestAttemptoDut: welke man wordt door X liefgehad ?
 TestAttemptoEng: which man is loved by somebody X ?
+TestAttemptoEst: [npqQS] ?
 TestAttemptoFin: mitä miestä rakastetaan jonkun X toimesta ?
 TestAttemptoFre: quel homme est aimé par X ?
 TestAttemptoGer: welcher Mann wird durch X geliebt ?
@@ -1348,6 +1409,7 @@ TestAttemptoCat: John no està estimat per qui ?
 TestAttemptoDan: John bliver ikke elsket af hvem ?
 TestAttemptoDut: John wordt niet door wie liefgehad ?
 TestAttemptoEng: John isn't loved by who ?
+TestAttemptoEst: [neg_vpqQS] ?
 TestAttemptoFin: Johnia ei rakasteta kenen toimesta ?
 TestAttemptoFre: John n' est pas aimé par qui ?
 TestAttemptoGer: John wird nicht durch wen geliebt ?
@@ -1370,6 +1432,7 @@ TestAttemptoCat: quin home es estima ?
 TestAttemptoDan: hvilken mand elsker sig ?
 TestAttemptoDut: welke man heeft zich lief ?
 TestAttemptoEng: which man loves itself ?
+TestAttemptoEst: [npqQS] ?
 TestAttemptoFin: mikä mies rakastaa itseänsä ?
 TestAttemptoFre: quel homme s' aime ?
 TestAttemptoGer: welcher Mann liebt sich ?
@@ -1392,6 +1455,7 @@ TestAttemptoCat: John inspecciona un imatge d' un home .
 TestAttemptoDan: John inspicerer en billede af en mand .
 TestAttemptoDut: John inspecteert een schilderij van een man .
 TestAttemptoEng: John inspects a picture of a man .
+TestAttemptoEst: Jaan uurib pildi mehe .
 TestAttemptoFin: John tarkastaa miehen kuvan .
 TestAttemptoFre: John inspecte une image d' un homme .
 TestAttemptoGer: John inspiziert ein Bild von einem Mann .
@@ -1414,6 +1478,7 @@ TestAttemptoCat: John és un home de Mary .
 TestAttemptoDan: John er en mand af Mary .
 TestAttemptoDut: John is een man van Mary .
 TestAttemptoEng: John is a man of Mary .
+TestAttemptoEst: Jaan on mees Mari .
 TestAttemptoFin: John on Maryn mies .
 TestAttemptoFre: John est un homme de Mary .
 TestAttemptoGer: John ist ein Mann von Mary .
@@ -1436,6 +1501,7 @@ TestAttemptoCat: cada imatge d' una golfista està vist per Mary .
 TestAttemptoDan: hver billede af en golfspiller bliver set af Mary .
 TestAttemptoDut: elk schilderij van een golfer wordt door Mary gezien .
 TestAttemptoEng: every picture of a golfer is seen by Mary .
+TestAttemptoEst: iga pilt golfimängija nähakse Mari poolt .
 TestAttemptoFin: jokainen golfaajan kuva nähdään Maryn toimesta .
 TestAttemptoFre: chaque image d' un golfeur est vue par Mary .
 TestAttemptoGer: jedes Bild von einem Golfer wird durch Mary gesehen .
@@ -1458,6 +1524,7 @@ TestAttemptoCat: Lisa és un presentar cada aquari .
 TestAttemptoDan: Lisa er en gave af hver akvarium .
 TestAttemptoDut: Lisa is een cadeau van elk aquarium .
 TestAttemptoEng: Lisa is a present of every aquarium .
+TestAttemptoEst: Liisa on kingitus iga akvaariumi .
 TestAttemptoFin: Lisa on jokaisen akvaarion lahja .
 TestAttemptoFre: Lisa est un cadeau de chaque aquarium .
 TestAttemptoGer: Lisa ist ein Geschenk von jedem Aquarium .
@@ -1480,6 +1547,7 @@ TestAttemptoCat: exactament 2 oficials són un presentar de què ?
 TestAttemptoDan: præcis 2 officerer er en gave af hvad ?
 TestAttemptoDut: precies 2 officieren zijn een cadeau van wat ?
 TestAttemptoEng: exactly 2 officers are a present of what ?
+TestAttemptoEst: [vpqQS] ?
 TestAttemptoFin: tasan 2 upseeria on minkä lahja ?
 TestAttemptoFre: exactement 2 officiers sont un cadeau de que ?
 TestAttemptoGer: genau 2 Offiziere sind ein Geschenk was ?
@@ -1502,6 +1570,7 @@ TestAttemptoCat: John és Tom .
 TestAttemptoDan: John er Tom .
 TestAttemptoDut: John is Tom .
 TestAttemptoEng: John is Tom .
+TestAttemptoEst: Jaan on Toomas .
 TestAttemptoFin: John on Tom .
 TestAttemptoFre: John est Tom .
 TestAttemptoGer: John ist Tom .
@@ -1524,6 +1593,7 @@ TestAttemptoCat: John és cada home .
 TestAttemptoDan: John er hver mand .
 TestAttemptoDut: John is elke man .
 TestAttemptoEng: John is every man .
+TestAttemptoEst: Jaan on iga mees .
 TestAttemptoFin: John on jokainen mies .
 TestAttemptoFre: John est chaque homme .
 TestAttemptoGer: John ist jeder Mann .
@@ -1546,6 +1616,7 @@ TestAttemptoCat: nomÈs homes veuen Mary .
 TestAttemptoDan: kun mænd ser Mary .
 TestAttemptoDut: slechts mannen zien Mary .
 TestAttemptoEng: nothing but men see Mary .
+TestAttemptoEst: ainult mehi näeb Mari .
 TestAttemptoFin: vain miehet näkevät Maryn .
 TestAttemptoFre: seulement des hommes voient Mary .
 TestAttemptoGer: nur Männer sehen Mary .
@@ -1568,6 +1639,7 @@ TestAttemptoCat: John és X .
 TestAttemptoDan: John er X .
 TestAttemptoDut: John is X .
 TestAttemptoEng: John is X .
+TestAttemptoEst: Jaan on X .
 TestAttemptoFin: John on X .
 TestAttemptoFre: John est X .
 TestAttemptoGer: John ist X .
@@ -1590,6 +1662,7 @@ TestAttemptoCat: John veu X .
 TestAttemptoDan: John ser X .
 TestAttemptoDut: John ziet X .
 TestAttemptoEng: John sees X .
+TestAttemptoEst: Jaan näeb X .
 TestAttemptoFin: John näkee X:n .
 TestAttemptoFre: John voit X .
 TestAttemptoGer: John sieht X .
@@ -1612,6 +1685,7 @@ TestAttemptoCat: X és X .
 TestAttemptoDan: X er X .
 TestAttemptoDut: X is X .
 TestAttemptoEng: X is something X .
+TestAttemptoEst: X on X .
 TestAttemptoFin: X on jokin X .
 TestAttemptoFre: X est X .
 TestAttemptoGer: X ist X .
@@ -1634,6 +1708,7 @@ TestAttemptoCat: cada home X no veu una dona Y .
 TestAttemptoDan: hver mand X ser ikke en kvinde Y .
 TestAttemptoDut: elke man X ziet niet een vrouw Y .
 TestAttemptoEng: every man X doesn't see a woman Y .
+TestAttemptoEst: iga mees X ei näe naist Y .
 TestAttemptoFin: jokainen mies X ei näe naista Y .
 TestAttemptoFre: chaque homme X ne voit pas une femme Y .
 TestAttemptoGer: jeder Mann X sieht nicht eine Frau Y .
@@ -1656,6 +1731,7 @@ TestAttemptoCat: hi ha quelcom .
 TestAttemptoDan: det findes noget .
 TestAttemptoDut: er is iets .
 TestAttemptoEng: there is something .
+TestAttemptoEst: on olemassa mis .
 TestAttemptoFin: on olemassa jokin .
 TestAttemptoFre: il y a quelque chose .
 TestAttemptoGer: es gibt etwas .
@@ -1678,6 +1754,7 @@ TestAttemptoCat: hi ha un home .
 TestAttemptoDan: det findes en mand .
 TestAttemptoDut: er is een man .
 TestAttemptoEng: there is a man .
+TestAttemptoEst: on olemassa mees .
 TestAttemptoFin: on olemassa mies .
 TestAttemptoFre: il y a un homme .
 TestAttemptoGer: es gibt einen Mann .
@@ -1700,6 +1777,7 @@ TestAttemptoCat: hi ha més que 2 homes que inspeccionen menys que 3 persones .
 TestAttemptoDan: det findes mer end 2 mænd som inspicerer mindre end 3 personer .
 TestAttemptoDut: er zijn meer dan 2 mannen die minder dan 3 personen inspecteren .
 TestAttemptoEng: there are more than 2 men that inspect less than 3 persons .
+TestAttemptoEst: on olemassa rohkem kuin 2 meest kes uurib vähem kuin 3 inimest .
 TestAttemptoFin: on olemassa enemmän kuin 2 miestä joka tarkastaa vähemmän kuin 3 henkilöä .
 TestAttemptoFre: il y a plus que 2 hommes qui inspectent moins que 3 personnes .
 TestAttemptoGer: es gibt mehr als 2 Männer , die weniger als 3 Personen inspizieren .
@@ -1722,6 +1800,7 @@ TestAttemptoCat: és fals que hi ha almenys 1 home .
 TestAttemptoDan: det er falsk at det findes mindst 1 mand .
 TestAttemptoDut: 't is onwaar dat er ten minste 1 man is .
 TestAttemptoEng: it is false that there is at least 1 man .
+TestAttemptoEst: on vale et on olemassa vähemalt 1 mees .
 TestAttemptoFin: on epätotta että on olemassa vähintään 1 mies .
 TestAttemptoFre: il est faux que il y a au moins 1 homme .
 TestAttemptoGer: es ist falsch dass es wenigstens 1 Mann gibt .
@@ -1744,6 +1823,7 @@ TestAttemptoCat: per a cada viatger X tothom admira X .
 TestAttemptoDan: for hver rejsende X beundrer alle X .
 TestAttemptoDut: voor elke reiziger X bewonderen alle X .
 TestAttemptoEng: for every traveler X everybody admires X .
+TestAttemptoEst: igale reisijale X igaüks imetleb X .
 TestAttemptoFin: jokaiselle matkustajalle X jokainen ihailee X:n .
 TestAttemptoFre: pour chaque voyageur X tout le monde admire X .
 TestAttemptoGer: für jeden Reisenden X bewundert jeder X .
@@ -1766,6 +1846,7 @@ TestAttemptoCat: X és un imatge .
 TestAttemptoDan: X er en billede .
 TestAttemptoDut: X is een schilderij .
 TestAttemptoEng: everything X is a picture .
+TestAttemptoEst: X on pilt .
 TestAttemptoFin: kaikki X on kuva .
 TestAttemptoFre: X est une image .
 TestAttemptoGer: X ist ein Bild .
@@ -1788,6 +1869,7 @@ TestAttemptoCat: John admira una dona que una golfista no estima .
 TestAttemptoDan: John beundrer en kvinde , som en golfspiller ikke elsker .
 TestAttemptoDut: John bewondert een vrouw , dat een golfer niet lief heeft .
 TestAttemptoEng: John admires a woman that a golfer doesn't love .
+TestAttemptoEst: Jaan imetleb naise , ked golfimängija ei armasta .
 TestAttemptoFin: John ihailee naisen , jota golfaaja ei rakasta .
 TestAttemptoFre: John admire une femme qu' un golfeur n' aime pas .
 TestAttemptoGer: John bewundert eine Frau , die ein Golfer nicht liebt .
@@ -1810,6 +1892,7 @@ TestAttemptoCat: John admira una dona que una golfista no estima .
 TestAttemptoDan: John beundrer en kvinde som en golfspiller ikke elsker .
 TestAttemptoDut: John bewondert een vrouw die een golfer niet lief heeft .
 TestAttemptoEng: John admires a woman that a golfer doesn't love .
+TestAttemptoEst: Jaan imetleb naise ked golfimängija ei armasta .
 TestAttemptoFin: John ihailee naisen jota golfaaja ei rakasta .
 TestAttemptoFre: John admire une femme qu' un golfeur n' aime pas .
 TestAttemptoGer: John bewundert eine Frau , die ein Golfer nicht liebt .
@@ -1832,6 +1915,7 @@ TestAttemptoCat: John compra un imatge i no compra un presentar .
 TestAttemptoDan: John køber en billede og køber ikke en gave .
 TestAttemptoDut: John koopt een schilderij en koopt niet een cadeau .
 TestAttemptoEng: John buys a picture and doesn't buy a present .
+TestAttemptoEst: Jaan ostab pildi ja ei osta kingitust .
 TestAttemptoFin: John ostaa kuvan ja ei osta lahjaa .
 TestAttemptoFre: John achète une image et il n' achète pas un cadeau .
 TestAttemptoGer: John kauft ein Bild und kauft nicht ein Geschenk .
@@ -1854,6 +1938,7 @@ TestAttemptoCat: John és un home i és una golfista és un oficial .
 TestAttemptoDan: John er en mand , er en golfspiller og er en officer .
 TestAttemptoDut: John is een man , is een golfer en is een officier .
 TestAttemptoEng: John is a man , is a golfer and is an officer .
+TestAttemptoEst: Jaan on mees , on golfimängija ja on ohvitser .
 TestAttemptoFin: John on mies , on golfaaja ja on upseeri .
 TestAttemptoFre: John est un homme et il est un golfeur il est un officier .
 TestAttemptoGer: John ist ein Mann , ist ein Golfer und ist ein Offizier .
@@ -1876,6 +1961,7 @@ TestAttemptoCat: John admira exactament 1 2 3 4 5 6 7 8 9 0 imatges .
 TestAttemptoDan: John beundrer præcis 1 2 3 4 5 6 7 8 9 0 billeder .
 TestAttemptoDut: John bewondert precies 1 2 3 4 5 6 7 8 9 0 schilderijen .
 TestAttemptoEng: John admires exactly 1 2 3 4 5 6 7 8 9 0 pictures .
+TestAttemptoEst: Jaan imetleb täpselt 1 2 3 4 5 6 7 8 9 0 pilti .
 TestAttemptoFin: John ihailee tasan 1 2 3 4 5 6 7 8 9 0 kuvaa .
 TestAttemptoFre: John admire exactement 1 2 3 4 5 6 7 8 9 0 images .
 TestAttemptoGer: John bewundert genau 1 2 3 4 5 6 7 8 9 0 Bilder .
@@ -1898,6 +1984,7 @@ TestAttemptoCat: John és un home . qui és Mary ?
 TestAttemptoDan: John er en mand . hvem er Mary ?
 TestAttemptoDut: John is een man . wie is Mary ?
 TestAttemptoEng: John is a man . who is Mary ?
+TestAttemptoEst: Jaan on mees . [npqQS] ?
 TestAttemptoFin: John on mies . kuka on Mary ?
 TestAttemptoFre: John est un homme . qui est Mary ?
 TestAttemptoGer: John ist ein Mann . wer ist Mary ?
@@ -1920,6 +2007,7 @@ TestAttemptoCat: John no és què ?
 TestAttemptoDan: John er ikke hvad ?
 TestAttemptoDut: John is niet wat ?
 TestAttemptoEng: John isn't what ?
+TestAttemptoEst: [neg_vpqQS] ?
 TestAttemptoFin: John ei ole mikä ?
 TestAttemptoFre: John n' est pas que ?
 TestAttemptoGer: John ist nicht was ?
@@ -1942,6 +2030,7 @@ TestAttemptoCat: John és un home de què ?
 TestAttemptoDan: John er en mand af hvad ?
 TestAttemptoDut: John is een man van wat ?
 TestAttemptoEng: John is a man of what ?
+TestAttemptoEst: [vpqQS] ?
 TestAttemptoFin: John on minkä mies ?
 TestAttemptoFre: John est un homme de que ?
 TestAttemptoGer: John ist ein Mann was ?
@@ -1964,6 +2053,7 @@ TestAttemptoCat: John és la persona de què ?
 TestAttemptoDan: John er personen af hvad ?
 TestAttemptoDut: John is de persoon van wat ?
 TestAttemptoEng: John is the person of what ?
+TestAttemptoEst: [vpqQS] ?
 TestAttemptoFin: John on minkä henkilö ?
 TestAttemptoFre: John est la personne de que ?
 TestAttemptoGer: John ist die Person was ?
@@ -1986,6 +2076,7 @@ TestAttemptoCat: John és cada persona de què ?
 TestAttemptoDan: John er hver person af hvad ?
 TestAttemptoDut: John is elke persoon van wat ?
 TestAttemptoEng: John is every person of what ?
+TestAttemptoEst: [vpqQS] ?
 TestAttemptoFin: John on jokainen minkä henkilö ?
 TestAttemptoFre: John est chaque personne de que ?
 TestAttemptoGer: John ist jede Person was ?
@@ -2008,6 +2099,7 @@ TestAttemptoCat: John és cap home de què ?
 TestAttemptoDan: 
 TestAttemptoDut: John is geen man van wat ?
 TestAttemptoEng: John is no man of what ?
+TestAttemptoEst: [vpqQS] ?
 TestAttemptoFin: John on mikään minkä mies ?
 TestAttemptoFre: John est aucun homme de que ?
 TestAttemptoGer: John ist kein Mann was ?
@@ -2030,6 +2122,7 @@ TestAttemptoCat: John és un home i és una golfista és què ?
 TestAttemptoDan: John er en mand , er en golfspiller og er hvad ?
 TestAttemptoDut: John is een man , is een golfer en is wat ?
 TestAttemptoEng: John is a man , is a golfer and is what ?
+TestAttemptoEst: Jaan on mees , on golfimängija ja [vpq_as_posVPSQ] ?
 TestAttemptoFin: John on mies , on golfaaja ja on mikä ?
 TestAttemptoFre: John est un homme et il est un golfeur il est que ?
 TestAttemptoGer: John ist ein Mann , ist ein Golfer und ist was ?
@@ -2052,6 +2145,7 @@ TestAttemptoCat: John admira una dona que qui estima ?
 TestAttemptoDan: John beundrer en kvinde , som hvem elsker ?
 TestAttemptoDut: John bewondert een vrouw , dat wie lief heeft ?
 TestAttemptoEng: John admires a woman that who loves ?
+TestAttemptoEst: [vpqQS] ?
 TestAttemptoFin: John ihailee naisen , jota kuka rakastaa ?
 TestAttemptoFre: John admire une femme que qui aime ?
 TestAttemptoGer: John bewundert eine Frau , die wer liebt ?
@@ -2074,6 +2168,7 @@ TestAttemptoCat: John admira una dona que qui no estima ?
 TestAttemptoDan: John beundrer en kvinde , som hvem ikke elsker ?
 TestAttemptoDut: John bewondert een vrouw , dat wie niet lief heeft ?
 TestAttemptoEng: John admires a woman that who doesn't love ?
+TestAttemptoEst: [vpqQS] ?
 TestAttemptoFin: John ihailee naisen , jota kuka ei rakasta ?
 TestAttemptoFre: John admire une femme que qui n' aime pas ?
 TestAttemptoGer: John bewundert eine Frau , die wer nicht liebt ?
@@ -2096,6 +2191,7 @@ TestAttemptoCat: John compra quelcom que no és què ?
 TestAttemptoDan: John køber noget , som ikke er hvad ?
 TestAttemptoDut: John koopt iets , die niet wat is ?
 TestAttemptoEng: John buys something that isn't what ?
+TestAttemptoEst: [vpqQS] ?
 TestAttemptoFin: John ostaa jonkin , joka ei ole mikä ?
 TestAttemptoFre: John achète quelque chose qui n' est pas que ?
 TestAttemptoGer: John kauft etwas , das nicht was ist ?
@@ -2118,6 +2214,7 @@ TestAttemptoCat: John compra què i no compra què ?
 TestAttemptoDan: John køber hvad og køber ikke hvad ?
 TestAttemptoDut: John koopt wat en koopt wat niet ?
 TestAttemptoEng: John buys what and doesn't buy what ?
+TestAttemptoEst: Jaan [vpq_as_posVPSQ] ja [vpq_as_negVPSQ] ?
 TestAttemptoFin: John ostaa minkä ja ei osta mitä ?
 TestAttemptoFre: John achète qu' et il n' achète pas que ?
 TestAttemptoGer: John kauft was und kauft was nicht ?
@@ -2140,6 +2237,7 @@ TestAttemptoCat: John admira un viatger que és quin persona ?
 TestAttemptoDan: John beundrer en rejsende , som er hvilken person ?
 TestAttemptoDut: John bewondert een reiziger , dat welke persoon is ?
 TestAttemptoEng: John admires a traveler that is which person ?
+TestAttemptoEst: [vpqQS] ?
 TestAttemptoFin: John ihailee matkustajan , joka on mikä henkilö ?
 TestAttemptoFre: John admire un voyageur qui est quelle personne ?
 TestAttemptoGer: John bewundert einen Reisenden , der welche Person ist ?
@@ -2162,6 +2260,7 @@ TestAttemptoCat: qui no admira John ?
 TestAttemptoDan: hvem beundrer John ikke ?
 TestAttemptoDut: wie bewondert John niet ?
 TestAttemptoEng: who doesn't John admire ?
+TestAttemptoEst: keda Jaan ei imetle ?
 TestAttemptoFin: ketä John ei ihaile ?
 TestAttemptoFre: qui n' admire pas John ?
 TestAttemptoGer: wen bewundert John nicht ?
@@ -2184,6 +2283,7 @@ TestAttemptoCat: quin golfista admira John i inspecciona un imatge ?
 TestAttemptoDan: hvilken golfspiller beundrer John og inspicerer en billede ?
 TestAttemptoDut: welke golfer bewondert John en inspecteert een schilderij ?
 TestAttemptoEng: which golfer admires John and inspects a picture ?
+TestAttemptoEst: [npq_coord_VPS] ?
 TestAttemptoFin: mikä golfaaja ihailee Johnin ja tarkastaa kuvan ?
 TestAttemptoFre: quel golfeur admire John et il inspecte une image ?
 TestAttemptoGer: welcher Golfer bewundert John und inspiziert ein Bild ?
@@ -2206,6 +2306,7 @@ TestAttemptoCat: Mary admira qui i no admira alg˙ ?
 TestAttemptoDan: Mary beundrer hvem og beundrer ikke nogen ?
 TestAttemptoDut: Mary bewondert wie en bewondert niet iemand ?
 TestAttemptoEng: Mary admires who and doesn't admire somebody ?
+TestAttemptoEst: Mari [vpq_as_posVPSQ] ja ei imetle kedkud ?
 TestAttemptoFin: Mary ihailee kenet ja ei ihaile jotakuta ?
 TestAttemptoFre: Mary admire qui et il n' admire pas quelqu'un ?
 TestAttemptoGer: Mary bewundert wen und bewundert nicht jemanden ?
