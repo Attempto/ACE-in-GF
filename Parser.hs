@@ -3,13 +3,14 @@ module Main where
 -- Copies every line of STDIN to STDOUT, adding
 --   * "|OK", if line can be parsed with the given PGF,
 --   * "|FAIL" otherwise.
+-- The number of parse trees is added to OK.
 -- The successfully consumed line prefix (plus the failing token)
 -- is added to "FAIL".
 --
 -- Usage example:
 --
 -- $ echo -e "John asks Mary .\nJohn aasks Mary ." | ./Parser ACE-0_0_2.pgf TestAttemptoAce
--- John asks Mary .|OK
+-- John asks Mary .|OK (1)
 -- John aasks Mary .|FAIL John aasks
 -- Parser: <stdin>: hGetLine: end of file
 

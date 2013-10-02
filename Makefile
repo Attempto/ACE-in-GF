@@ -204,7 +204,7 @@ coverage_Words300_save:
 	cat tests/$(Words300)/lin.txt | grep "^$(Words300): " | sed "s/^$(Words300): //" | coverage.py -g TestAttempto.pgf > tests/$(Words300)/coverage.txt
 
 Parser: Parser.hs
-	ghc --make -o Parser Parser.hs
+	ghc --make -rtsopts -o Parser Parser.hs
 
 Translator: Translator.hs
 	ghc --make -o Translator Translator.hs
