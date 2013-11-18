@@ -3,7 +3,6 @@ instance LexAttemptoFin of LexAttempto =
    SyntaxFin, 
    ParadigmsFin, 
    ConstructX, 
-   (M = MakeStructuralFin),
    (E = ExtraFin),
    (L = LangFin)
    in {

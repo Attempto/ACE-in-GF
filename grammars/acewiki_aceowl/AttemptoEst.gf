@@ -1,5 +1,3 @@
---# -path=.:present
-
 concrete AttemptoEst of Attempto = SymbolsC, NumeralEst **
   AttemptoI with
   (Syntax = SyntaxEst),

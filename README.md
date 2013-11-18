@@ -45,7 +45,10 @@ Reference implementations
 Building
 --------
 
-_Note: based on GF Git version: 2013-05-10 14:03:42 CET_
+Tested with:
+
+  - GF: <https://github.com/GrammaticalFramework/GF/commit/2723ed52cf5e76fbabd5e9278e00d012ac19fb78>
+  - GF-Estonian: <https://github.com/GF-Estonian/GF-Estonian/commit/2e3169dcca7cd76e2273b8e0a622eb873e709e64>
 
 The ACE-in-GF grammar can be turned into a PGF file in various ways
 depending on

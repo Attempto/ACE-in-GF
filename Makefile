@@ -34,7 +34,8 @@ Words300 = Words300
 startcat = ACEText
 
 # Language list
-languages = Ace Ape Bul Cat Dan Dut Eng Est Fin Fre Ger Gre Ita Lav Nor Pol Ron Rus Spa Swe Urd
+# TODO: add back: Fin
+languages = Ace Ape Bul Cat Dan Dut Eng Est Fre Ger Gre Ita Lav Nor Pol Ron Rus Spa Swe Urd
 
 #langs_Geography = Ace Ape Dut Fin Ger Ita Spa
 langs_Geography = Ace Ape Ger Spa
@@ -49,7 +50,8 @@ langs_Simple = Ace
 # TODO: rename 'Ace' to 'Eng' because the RGL English lexicon is not technically an ACE lexicon,
 # as it contains "words with spaces".
 # TODO: include also Afrikaans, Japanese (currently did not compile), Nepalese, Punjabi, Sindhi.
-langs_Words300 = Ace Bul Cat Chi Dan Dut Fin Fre Ger Gre Hin Ita Lav Mlt Nor Pol Ron Rus Spa Swe Tha Urd
+# TODO: add back: Fin
+langs_Words300 = Ace Bul Cat Chi Dan Dut Fre Ger Gre Hin Ita Lav Mlt Nor Pol Ron Rus Spa Swe Tha Urd
 
 # Compile application grammars in all languages
 all_grammars:
