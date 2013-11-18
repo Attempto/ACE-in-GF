@@ -5,6 +5,7 @@ Words300Cat: Paris és un cavall .
 Words300Chi: 巴 黎 是 一 匹 马 。
 Words300Dan: Paris er en hest .
 Words300Dut: Parijs is een paard .
+Words300Est: Pariis on hobune .
 Words300Fre: Paris est un cheval .
 Words300Ger: Paris ist ein Pferd .
 Words300Gre: το Παρίσι είναι ένα άλογο .
@@ -29,6 +30,7 @@ Words300Cat: Joan no és un gat .
 Words300Chi: 约 翰 不 是 一 只 猫 。
 Words300Dan: John er ikke en kat .
 Words300Dut: Jan is niet een kat .
+Words300Est: Juhan ei ole kass .
 Words300Fre: Jean n' est pas un chat .
 Words300Ger: Johann ist nicht eine Katze .
 Words300Gre: ο Γιάννης δεν είναι μία γάτα .
@@ -53,6 +55,7 @@ Words300Cat: Paris és un ocell o és un gat .
 Words300Chi: [np_coord_VPS] 。
 Words300Dan: Paris er en fugl eller er en kat .
 Words300Dut: Parijs is een vogel of is een kat .
+Words300Est: Pariis on lind või on kass .
 Words300Fre: Paris est un oiseau ou il est un chat .
 Words300Ger: Paris ist ein Vogel oder ist eine Katze .
 Words300Gre: [np_coord_VPS] .
@@ -77,6 +80,7 @@ Words300Cat: Paris és un ocell i és un cavall .
 Words300Chi: [np_coord_VPS] 。
 Words300Dan: Paris er en fugl og er en hest .
 Words300Dut: Parijs is een vogel en is een paard .
+Words300Est: Pariis on lind ja on hobune .
 Words300Fre: Paris est un oiseau et il est un cheval .
 Words300Ger: Paris ist ein Vogel und ist ein Pferd .
 Words300Gre: [np_coord_VPS] .
@@ -101,6 +105,7 @@ Words300Cat: Paris és un cuc que és un ocell o que és un gat .
 Words300Chi: 巴 黎 是 是 一 只 鸟 的 还 是 是 一 只 猫 的 一 只 虫 。
 Words300Dan: Paris er en orm , som er en fugl eller som er en kat .
 Words300Dut: Parijs is een worm , dat een vogel is of dat een kat is .
+Words300Est: Pariis on uss , kes on lind või kes on kass .
 Words300Fre: Paris est un ver qui est un oiseau ou qui est un chat .
 Words300Ger: Paris ist ein Wurm , der ein Vogel ist oder der eine Katze ist .
 Words300Gre: το Παρίσι είναι ένα σκουλήκι που είναι ένα πουλί ή που είναι μία γάτα .
@@ -124,6 +129,7 @@ Words300Cat: Paris és un cuc que és un ocell o que és un gat .
 Words300Chi: 巴 黎 是 一 只 是 一 只 鸟 的 还 是 是 一 只 猫 的 虫 。
 Words300Dan: Paris er en orm som er en fugl eller som er en kat .
 Words300Dut: Parijs is een worm die een vogel is of die een kat is .
+Words300Est: Pariis on uss kes on lind või kes on kass .
 Words300Fre: Paris est un ver qui est un oiseau ou qui est un chat .
 Words300Ger: Paris ist ein Wurm , der ein Vogel ist oder der eine Katze ist .
 Words300Gre: το Παρίσι είναι ένα σκουλήκι , που είναι ένα πουλί ή που είναι μία γάτα .
@@ -148,6 +154,7 @@ Words300Cat: Joan és un gos que és un ocell i que és un cavall .
 Words300Chi: 约 翰 是 是 一 只 鸟 的 并 且 是 一 匹 马 的 一 只 狗 。
 Words300Dan: John er en hund , som er en fugl og som er en hest .
 Words300Dut: Jan is een hond , dat een vogel is en dat een paard is .
+Words300Est: Juhan on koer , kes on lind ja kes on hobune .
 Words300Fre: Jean est un chien qui est un oiseau et qui est un cheval .
 Words300Ger: Johann ist ein Hund , der ein Vogel ist und der ein Pferd ist .
 Words300Gre: ο Γιάννης είναι ένας σκύλος που είναι ένα πουλί και που είναι ένα άλογο .
@@ -171,6 +178,7 @@ Words300Cat: Joan és un gos que és un ocell i que és un cavall .
 Words300Chi: 约 翰 是 一 只 是 一 只 鸟 的 并 且 是 一 匹 马 的 狗 。
 Words300Dan: John er en hund som er en fugl og som er en hest .
 Words300Dut: Jan is een hond die een vogel is en die een paard is .
+Words300Est: Juhan on koer kes on lind ja kes on hobune .
 Words300Fre: Jean est un chien qui est un oiseau et qui est un cheval .
 Words300Ger: Johann ist ein Hund , der ein Vogel ist und der ein Pferd ist .
 Words300Gre: ο Γιάννης είναι ένας σκύλος , που είναι ένα πουλί και που είναι ένα άλογο .
@@ -195,6 +203,7 @@ Words300Cat: Joan és un gos que odia un ocell i que un cavall veu .
 Words300Chi: 约 翰 是 讨 厌 一 只 鸟 的 并 且 一 匹 马 看 的 一 只 狗 。
 Words300Dan: John er en hund , som hader en fugl og som en hest ser .
 Words300Dut: Jan is een hond , dat een vogel haat en dat een paard ziet .
+Words300Est: Juhan on koer , kes vihkab lindu ja kelle hobune näeb .
 Words300Fre: Jean est un chien qui hait un oiseau et qu' un cheval voit .
 Words300Ger: Johann ist ein Hund , der einen Vogel hasst und den ein Pferd sieht .
 Words300Gre: ο Γιάννης είναι ένας σκύλος που μισεί ένα πουλί και τον οποίο ένα άλογο βλέπει .
@@ -218,6 +227,7 @@ Words300Cat: Joan és un gos que odia un ocell i que un cavall veu .
 Words300Chi: 约 翰 是 一 只 讨 厌 一 只 鸟 的 并 且 一 匹 马 看 的 狗 。
 Words300Dan: John er en hund som hader en fugl og som en hest ser .
 Words300Dut: Jan is een hond die een vogel haat en die een paard ziet .
+Words300Est: Juhan on koer kes vihkab lindu ja kelle hobune näeb .
 Words300Fre: Jean est un chien qui hait un oiseau et qu' un cheval voit .
 Words300Ger: Johann ist ein Hund , der einen Vogel hasst und den ein Pferd sieht .
 Words300Gre: ο Γιάννης είναι ένας σκύλος , που μισεί ένα πουλί και τον οποίο ένα άλογο βλέπει .
@@ -242,6 +252,7 @@ Words300Cat: cada gos és un gat .
 Words300Chi: 每 只 狗 是 一 只 猫 。
 Words300Dan: hver hund er en kat .
 Words300Dut: elke hond is een kat .
+Words300Est: iga koer on kass .
 Words300Fre: chaque chien est un chat .
 Words300Ger: jeder Hund ist eine Katze .
 Words300Gre: κάθε σκύλος είναι μία γάτα .
@@ -266,6 +277,7 @@ Words300Cat: cap gat és un cuc .
 Words300Chi: 不 只 猫 是 一 只 虫 。
 Words300Dan: 
 Words300Dut: geen kat is een worm .
+Words300Est: mitte ükski kass on uss .
 Words300Fre: aucun chat n' est un ver .
 Words300Ger: keine Katze ist ein Wurm .
 Words300Gre: καμία γάτα δεν είναι ένα σκουλήκι .
@@ -290,6 +302,7 @@ Words300Cat: cada cuc és un ocell i cada ocell és un cuc .
 Words300Chi: 每 只 虫 是 一 只 鸟 并 且 每 只 鸟 是 一 只 虫 。
 Words300Dan: hver orm er en fugl og hver fugl er en orm .
 Words300Dut: elke worm is een vogel en elke vogel is een worm .
+Words300Est: iga uss on lind ja iga lind on uss .
 Words300Fre: chaque ver est un oiseau et chaque oiseau est un ver .
 Words300Ger: jeder Wurm ist ein Vogel und jeder Vogel ist ein Wurm .
 Words300Gre: κάθε σκουλήκι είναι ένα πουλί και κάθε πουλί είναι ένα σκουλήκι .
@@ -314,6 +327,7 @@ Words300Cat: cada cavall que no és un cuc és un gat .
 Words300Chi: 每 匹 不 是 一 只 虫 的 马 是 一 只 猫 。
 Words300Dan: hver hest som ikke er en orm er en kat .
 Words300Dut: elk paard dat niet een worm is is een kat .
+Words300Est: iga hobune kes ei ole uss on kass .
 Words300Fre: chaque cheval qui n' est pas un ver est un chat .
 Words300Ger: jedes Pferd , das nicht ein Wurm ist ist eine Katze .
 Words300Gre: κάθε άλογο , που δεν είναι ένα σκουλήκι είναι μία γάτα .
@@ -337,6 +351,7 @@ Words300Cat: cada cavall que no és un cuc és un gat .
 Words300Chi: 不 是 一 只 虫 的 每 匹 马 是 一 只 猫 。
 Words300Dan: hver hest , som ikke er en orm er en kat .
 Words300Dut: elk paard , dat niet een worm is is een kat .
+Words300Est: iga hobune , kes ei ole uss on kass .
 Words300Fre: chaque cheval qui n' est pas un ver est un chat .
 Words300Ger: jedes Pferd , das nicht ein Wurm ist ist eine Katze .
 Words300Gre: κάθε άλογο που δεν είναι ένα σκουλήκι είναι μία γάτα .
@@ -361,6 +376,7 @@ Words300Cat: cada gos és un gat o és un cavall .
 Words300Chi: [np_coord_VPS] 。
 Words300Dan: hver hund er en kat eller er en hest .
 Words300Dut: elke hond is een kat of is een paard .
+Words300Est: iga koer on kass või on hobune .
 Words300Fre: chaque chien est un chat ou il est un cheval .
 Words300Ger: jeder Hund ist eine Katze oder ist ein Pferd .
 Words300Gre: [np_coord_VPS] .
@@ -385,6 +401,7 @@ Words300Cat: res que és un gos o que és un gat és un ocell i és un cavall .
 Words300Chi: [np_coord_VPS] 。
 Words300Dan: inget , som er en hund eller som er en kat er en fugl og er en hest .
 Words300Dut: niets , dat een hond is of dat een kat is is een vogel en is een paard .
+Words300Est: mitte ükski , kes on koer või kes on kass on lind ja on hobune .
 Words300Fre: rien qui est un chien ou qui est un chat n' est un oiseau et il n' est un cheval .
 Words300Ger: nichts , das ein Hund ist oder das eine Katze ist ist ein Vogel und ist ein Pferd .
 Words300Gre: [np_coord_VPS] .
@@ -409,6 +426,7 @@ Words300Cat: Paris veu Paris .
 Words300Chi: 巴 黎 看 巴 黎 。
 Words300Dan: Paris ser Paris .
 Words300Dut: Parijs ziet Parijs .
+Words300Est: Pariis näeb Pariisi .
 Words300Fre: Paris voit Paris .
 Words300Ger: Paris sieht Paris .
 Words300Gre: το Παρίσι βλέπει το Παρίσι .
@@ -433,6 +451,7 @@ Words300Cat: Paris no veu Joan .
 Words300Chi: 巴 黎 没 看 约 翰 。
 Words300Dan: Paris ser ikke John .
 Words300Dut: Parijs ziet niet Jan .
+Words300Est: Pariis ei näe Juhanit .
 Words300Fre: Paris ne voit pas Jean .
 Words300Ger: Paris sieht Johann nicht .
 Words300Gre: το Παρίσι δεν βλέπει τον Γιάννη .
@@ -457,6 +476,7 @@ Words300Cat: Joan tem una cua .
 Words300Chi: 约 翰 怕 一 条 尾 巴 。
 Words300Dan: John frygter en hale .
 Words300Dut: Jan vreest een staart .
+Words300Est: Juhan kardab saba .
 Words300Fre: Jean craint une queue .
 Words300Ger: Johann fürchtet einen Schwanz .
 Words300Gre: ο Γιάννης φοβάται μία ουρά .
@@ -481,6 +501,7 @@ Words300Cat: Paris no veu cap gos .
 Words300Chi: 巴 黎 看 不 只 狗 。
 Words300Dan: 
 Words300Dut: Parijs ziet geen hond .
+Words300Est: Pariis näeb mitte ühegi koera .
 Words300Fre: Paris ne voit aucun chien .
 Words300Ger: Paris sieht keinen Hund .
 Words300Gre: το Παρίσι δεν βλέπει κανέναν σκύλο .
@@ -505,6 +526,7 @@ Words300Cat: Joan tem quelcom que no és una policia .
 Words300Chi: 约 翰 怕 不 是 一 名 警 察 的 某 事 。
 Words300Dan: John frygter noget , som ikke er en politibetjent .
 Words300Dut: Jan vreest iets , die niet een politieagent is .
+Words300Est: Juhan kardab mida , kes ei ole politseinik .
 Words300Fre: Jean craint quelque chose qui n' est pas un policier .
 Words300Ger: Johann fürchtet etwas , das nicht ein Polizist ist .
 Words300Gre: ο Γιάννης φοβάται κάτι που δεν είναι ένας αστυνομικός .
@@ -529,6 +551,7 @@ Words300Cat: Joan veu nomÈs gosos .
 Words300Chi: 约 翰 看 只 有 的 一 些 狗 。
 Words300Dan: John ser kun hunder .
 Words300Dut: Jan ziet slechts honden .
+Words300Est: Juhan näeb ainult koerad .
 Words300Fre: Jean voit seulement des chiens .
 Words300Ger: Johann sieht nur Hunde .
 Words300Gre: ο Γιάννης βλέπει μόνο σκύλους .
@@ -553,6 +576,7 @@ Words300Cat: cada gos tem una policia .
 Words300Chi: 每 只 狗 怕 一 名 警 察 。
 Words300Dan: hver hund frygter en politibetjent .
 Words300Dut: elke hond vreest een politieagent .
+Words300Est: iga koer kardab politseinikku .
 Words300Fre: chaque chien craint un policier .
 Words300Ger: jeder Hund fürchtet einen Polizisten .
 Words300Gre: κάθε σκύλος φοβάται ένα αστυνομικό .
@@ -577,6 +601,7 @@ Words300Cat: tot que tem una policia és un gos .
 Words300Chi: 怕 一 名 警 察 的 每 件 事 是 一 只 狗 。
 Words300Dan: alt , som frygter en politibetjent er en hund .
 Words300Dut: alles , dat een politieagent vreest is een hond .
+Words300Est: kõik , kes kardab politseinikku on koer .
 Words300Fre: tout qui craint un policier est un chien .
 Words300Ger: alles , das einen Polizisten fürchtet ist ein Hund .
 Words300Gre: τα πάντα που φοβούνται ένα αστυνομικό είναι ένας σκύλος .
@@ -601,6 +626,7 @@ Words300Cat: tot que un gos tem és una policia .
 Words300Chi: 一 只 狗 怕 的 每 件 事 是 一 名 警 察 。
 Words300Dan: alt , som en hund frygter er en politibetjent .
 Words300Dut: alles , dat een hond vreest is een politieagent .
+Words300Est: kõik , keda koer kardab on politseinik .
 Words300Fre: tout qu' un chien craint est un policier .
 Words300Ger: alles , das ein Hund fürchtet ist ein Polizist .
 Words300Gre: τα πάντα τα οποία ένας σκύλος φοβάται είναι ένας αστυνομικός .
@@ -625,6 +651,7 @@ Words300Cat: tot que un gos tem o que un cuc odia és una policia .
 Words300Chi: 一 只 狗 怕 的 还 是 一 只 虫 讨 厌 的 每 件 事 是 一 名 警 察 。
 Words300Dan: alt , som en hund frygter eller som en orm hader er en politibetjent .
 Words300Dut: alles , dat een hond vreest of dat een worm haat is een politieagent .
+Words300Est: kõik , keda koer kardab või keda uss vihkab on politseinik .
 Words300Fre: tout qu' un chien craint ou qu' un ver hait est un policier .
 Words300Ger: alles , das ein Hund fürchtet oder das ein Wurm hasst ist ein Polizist .
 Words300Gre: τα πάντα τα οποία ένας σκύλος φοβάται ή τα οποία ένα σκουλήκι μισεί είναι ένας αστυνομικός .
@@ -649,6 +676,7 @@ Words300Cat: cada gos tem nomÈs policies .
 Words300Chi: 每 只 狗 怕 只 有 的 一 些 警 察 。
 Words300Dan: hver hund frygter kun politibetjenter .
 Words300Dut: elke hond vreest slechts politieagenten .
+Words300Est: iga koer kardab ainult politseinikke .
 Words300Fre: chaque chien craint seulement des policiers .
 Words300Ger: jeder Hund fürchtet nur Polizisten .
 Words300Gre: κάθε σκύλος φοβάται μόνο αστυνομικούς .
@@ -673,6 +701,7 @@ Words300Cat: tot que tem nomÈs cues és un cuc .
 Words300Chi: 怕 只 有 的 一 些 尾 巴 的 每 件 事 是 一 只 虫 。
 Words300Dan: alt , som frygter kun haler er en orm .
 Words300Dut: alles , dat slechts staarten vreest is een worm .
+Words300Est: kõik , kes kardab ainult sabasid on uss .
 Words300Fre: tout qui craint seulement des queues est un ver .
 Words300Ger: alles , das nur Schwänze fürchtet ist ein Wurm .
 Words300Gre: τα πάντα που φοβούνται μόνο ουρές είναι ένα σκουλήκι .
@@ -697,6 +726,7 @@ Words300Cat: tot que veu quelcom és un ocell .
 Words300Chi: 看 某 事 的 每 件 事 是 一 只 鸟 。
 Words300Dan: alt , som ser noget er en fugl .
 Words300Dut: alles , dat iets ziet is een vogel .
+Words300Est: kõik , kes näeb mille on lind .
 Words300Fre: tout qui voit quelque chose est un oiseau .
 Words300Ger: alles , das etwas sieht ist ein Vogel .
 Words300Gre: τα πάντα που βλέπουν κάτι είναι ένα πουλί .
@@ -721,6 +751,7 @@ Words300Cat: tot que quelcom veu és un ocell .
 Words300Chi: 某 事 看 的 每 件 事 是 一 只 鸟 。
 Words300Dan: alt , som noget ser er en fugl .
 Words300Dut: alles , dat iets ziet is een vogel .
+Words300Est: kõik , kelle mis näeb on lind .
 Words300Fre: tout que quelque chose voit est un oiseau .
 Words300Ger: alles , das etwas sieht ist ein Vogel .
 Words300Gre: τα πάντα τα οποία κάτι βλέπει είναι ένα πουλί .
@@ -745,6 +776,7 @@ Words300Cat: tot que està trobat per quelcom és un llibre .
 Words300Chi: 在 被 某 事 被 发 现 的 每 件 事 是 一 本 书 。
 Words300Dan: alt , som bliver fundet af noget er en bog .
 Words300Dut: alles , dat door iets gevonden wordt is een boek .
+Words300Est: kõik , kes leitakse mille poolt on raamat .
 Words300Fre: tout qui est trouvé par quelque chose est un livre .
 Words300Ger: alles , das durch etwas gefunden wird ist ein Buch .
 Words300Gre: 
@@ -769,6 +801,7 @@ Words300Cat: tot que troba quelcom és un cavall o és un ocell .
 Words300Chi: [np_coord_VPS] 。
 Words300Dan: alt , som finder noget er en hest eller er en fugl .
 Words300Dut: alles , dat iets vindt is een paard of is een vogel .
+Words300Est: kõik , kes leiab mille on hobune või on lind .
 Words300Fre: tout qui trouve quelque chose est un cheval ou il est un oiseau .
 Words300Ger: alles , das etwas findet ist ein Pferd oder ist ein Vogel .
 Words300Gre: [np_coord_VPS] .
@@ -793,6 +826,7 @@ Words300Cat: tot que quelcom troba és un cavall o és un ocell .
 Words300Chi: [np_coord_VPS] 。
 Words300Dan: alt , som noget finder er en hest eller er en fugl .
 Words300Dut: alles , dat iets vindt is een paard of is een vogel .
+Words300Est: kõik , kelle mis leiab on hobune või on lind .
 Words300Fre: tout que quelque chose trouve est un cheval ou il est un oiseau .
 Words300Ger: alles , das etwas findet ist ein Pferd oder ist ein Vogel .
 Words300Gre: [np_coord_VPS] .
@@ -817,6 +851,7 @@ Words300Cat: tot que està vist per quelcom és un cavall o és un avió .
 Words300Chi: [np_coord_VPS] 。
 Words300Dan: alt , som bliver set af noget er en hest eller er et fly .
 Words300Dut: alles , dat door iets gezien wordt is een paard of is een vliegtuig .
+Words300Est: kõik , kes nähakse mille poolt on hobune või on lennuk .
 Words300Fre: tout qui est vu par quelque chose est un cheval ou il est un avion .
 Words300Ger: alles , das durch etwas gesehen wird ist ein Pferd oder ist ein Flugzeug .
 Words300Gre: [np_coord_VPS] .
@@ -841,6 +876,7 @@ Words300Cat: Joan troba almenys 2 ocells .
 Words300Chi: 约 翰 发 现 最 少 2 只 鸟 。
 Words300Dan: John finder mindst 2 fugler .
 Words300Dut: Jan vindt ten minste 2 vogels .
+Words300Est: Juhan leiab vähemalt 2 lindu .
 Words300Fre: Jean trouve au moins 2 oiseaux .
 Words300Ger: Johann findet wenigstens 2 Vögel .
 Words300Gre: 
@@ -865,6 +901,7 @@ Words300Cat: Paris tem com a màxim 1 policia .
 Words300Chi: 巴 黎 怕 最 多 1 名 警 察 。
 Words300Dan: Paris frygter højst 1 politibetjent .
 Words300Dut: Parijs vreest hooguit 1 politieagent .
+Words300Est: Pariis kardab kuni 1 politseinikku .
 Words300Fre: Paris craint au plus 1 policier .
 Words300Ger: Paris fürchtet höchstens 1 Polizisten .
 Words300Gre: το Παρίσι φοβάται ένα το πολύ 1 αστυνομικό .
@@ -889,6 +926,7 @@ Words300Cat: cada cavall veu almenys 2 avions .
 Words300Chi: 每 匹 马 看 最 少 2 架 飞 机 。
 Words300Dan: hver hest ser mindst 2 fly .
 Words300Dut: elk paard ziet ten minste 2 vliegtuigen .
+Words300Est: iga hobune näeb vähemalt 2 lennukit .
 Words300Fre: chaque cheval voit au moins 2 avions .
 Words300Ger: jedes Pferd sieht wenigstens 2 Flugzeuge .
 Words300Gre: κάθε άλογο βλέπει τουλάχιστον 2 αεροπλάνα .
@@ -913,6 +951,7 @@ Words300Cat: tot que tem almenys 2 policies és un ocell .
 Words300Chi: 怕 最 少 2 名 警 察 的 每 件 事 是 一 只 鸟 。
 Words300Dan: alt , som frygter mindst 2 politibetjenter er en fugl .
 Words300Dut: alles , dat ten minste 2 politieagenten vreest is een vogel .
+Words300Est: kõik , kes kardab vähemalt 2 politseinikku on lind .
 Words300Fre: tout qui craint au moins 2 policiers est un oiseau .
 Words300Ger: alles , das wenigstens 2 Polizisten fürchtet ist ein Vogel .
 Words300Gre: τα πάντα που φοβούνται τουλάχιστον 2 αστυνομικούς είναι ένα πουλί .
@@ -937,6 +976,7 @@ Words300Cat: tot que almenys 2 ocells temen és una policia .
 Words300Chi: 最 少 2 只 鸟 怕 的 每 件 事 是 一 名 警 察 。
 Words300Dan: alt , som mindst 2 fugler frygter er en politibetjent .
 Words300Dut: alles , dat ten minste 2 vogels vrezen is een politieagent .
+Words300Est: kõik , keda vähemalt 2 lindu kardavad on politseinik .
 Words300Fre: tout qu' au moins 2 oiseaux craignent est un policier .
 Words300Ger: alles , das wenigstens 2 Vögel fürchten ist ein Polizist .
 Words300Gre: τα πάντα τα οποία τουλάχιστον 2 πουλιά φοβούνται είναι ένας αστυνομικός .
@@ -961,6 +1001,7 @@ Words300Cat: cada ocell veu com a màxim 1 avió .
 Words300Chi: 每 只 鸟 看 最 多 1 架 飞 机 。
 Words300Dan: hver fugl ser højst 1 fly .
 Words300Dut: elke vogel ziet hooguit 1 vliegtuig .
+Words300Est: iga lind näeb kuni 1 lennuki .
 Words300Fre: chaque oiseau voit au plus 1 avion .
 Words300Ger: jeder Vogel sieht höchstens 1 Flugzeug .
 Words300Gre: κάθε πουλί βλέπει ένα το πολύ 1 αεροπλάνο .
@@ -985,6 +1026,7 @@ Words300Cat: tot que és un cavall o que és un ocell veu com a màxim 2 avions 
 Words300Chi: 是 一 匹 马 的 还 是 是 一 只 鸟 的 每 件 事 看 最 多 2 架 飞 机 。
 Words300Dan: alt , som er en hest eller som er en fugl ser højst 2 fly .
 Words300Dut: alles , dat een paard is of dat een vogel is ziet hooguit 2 vliegtuigen .
+Words300Est: kõik , kes on hobune või kes on lind näeb kuni 2 lennukit .
 Words300Fre: tout qui est un cheval ou qui est un oiseau voit au plus 2 avions .
 Words300Ger: alles , das ein Pferd ist oder das ein Vogel ist sieht höchstens 2 Flugzeuge .
 Words300Gre: τα πάντα που είναι ένα άλογο ή που είναι ένα πουλί βλέπουν το πολύ 2 αεροπλάνα .
@@ -1009,6 +1051,7 @@ Words300Cat: cap cua es odia .
 Words300Chi: 不 条 尾 巴 讨 厌 自 己 。
 Words300Dan: 
 Words300Dut: geen staart haat zich .
+Words300Est: mitte ükski saba vihkab ennast .
 Words300Fre: aucune queue ne s' hait .
 Words300Ger: kein Schwanz hasst sich .
 Words300Gre: καμία ουρά δεν μισεί τον εαυτό της .
@@ -1034,6 +1077,7 @@ Words300Cat: si X veu Y llavors Y no troba X .
 Words300Chi: 如 果 X 看 Y 那 么 Y 没 发 现 X 。
 Words300Dan: hvis X ser Y så Y finder ikke X .
 Words300Dut: als X Y ziet , dan vindt Y niet X .
+Words300Est: kui X näeb Y siis Y ei leia X .
 Words300Fre: si X voit Y alors Y ne trouve pas X .
 Words300Ger: wenn X Y sieht , dann findet Y X nicht .
 Words300Gre: 
@@ -1058,6 +1102,7 @@ Words300Cat: si X veu quelcom que veu Y llavors X veu Y .
 Words300Chi: 如 果 X 看 看 Y 的 某 事 那 么 X 看 Y 。
 Words300Dan: hvis X ser noget , som ser Y så X ser Y .
 Words300Dut: als X iets , die Y ziet ziet , dan ziet X Y .
+Words300Est: kui X näeb mille , kes näeb Y siis X näeb Y .
 Words300Fre: si X voit quelque chose qui voit Y alors X voit Y .
 Words300Ger: wenn X etwas , das Y sieht sieht , dann sieht X Y .
 Words300Gre: αν ο X βλέπει κάτι που βλέπει τον Y τότε ο X βλέπει τον Y .
@@ -1082,6 +1127,7 @@ Words300Cat: si X odia Y llavors X veu Y .
 Words300Chi: 如 果 X 讨 厌 Y 那 么 X 看 Y 。
 Words300Dan: hvis X hader Y så X ser Y .
 Words300Dut: als X Y haat , dan ziet X Y .
+Words300Est: kui X vihkab Y siis X näeb Y .
 Words300Fre: si X hait Y alors X voit Y .
 Words300Ger: wenn X Y hasst , dann sieht X Y .
 Words300Gre: αν ο X μισεί τον Y τότε ο X βλέπει τον Y .
@@ -1106,6 +1152,7 @@ Words300Cat: si X mossega Y llavors Y odia X .
 Words300Chi: 如 果 X 咬 Y 那 么 Y 讨 厌 X 。
 Words300Dan: hvis X biter Y så Y hader X .
 Words300Dut: als X Y bijt , dan haat Y X .
+Words300Est: kui X pureb Y siis Y vihkab X .
 Words300Fre: si X mord Y alors Y hait X .
 Words300Ger: wenn X Y beißt , dann hasst Y X .
 Words300Gre: αν ο X δαγκώνει τον Y τότε ο Y μισεί τον X .
@@ -1130,6 +1177,7 @@ Words300Cat: si X troba Y llavors X no odia Y .
 Words300Chi: 如 果 X 发 现 Y 那 么 X 没 讨 厌 Y 。
 Words300Dan: hvis X finder Y så X hader ikke Y .
 Words300Dut: als X Y vindt , dan haat X niet Y .
+Words300Est: kui X leiab Y siis X ei vihka Y .
 Words300Fre: si X trouve Y alors X n' hait pas Y .
 Words300Ger: wenn X Y findet , dann hasst X Y nicht .
 Words300Gre: 
@@ -1154,6 +1202,7 @@ Words300Cat: si un gos X no odia un cuc Y llavors el cuc Y no odia el gos X .
 Words300Chi: 如 果 一 只 X 狗 没 讨 厌 一 只 Y 虫 那 么 Y 虫 没 讨 厌 X 狗 。
 Words300Dan: hvis en hund X hader ikke en orm Y så ormen Y hader ikke hunden X .
 Words300Dut: als een hond X niet een worm Y haat , dan haat de worm Y niet de hond X .
+Words300Est: kui koer X ei vihka ussi Y siis uss Y ei vihka koera X .
 Words300Fre: si un chien X n' hait pas un ver Y alors le ver Y n' hait pas le chien X .
 Words300Ger: wenn ein Hund X nicht einen Wurm Y hasst , dann hasst der Wurm Y den Hund X nicht .
 Words300Gre: αν ένας σκύλος ο X δεν μισεί ένα σκουλήκι τον Y τότε το σκουλήκι ο Y δεν μισεί τον σκύλο τον X .
@@ -1178,6 +1227,7 @@ Words300Cat: si un gos X no mossega un cuc Y llavors el cuc Y no mossega el gos 
 Words300Chi: 如 果 一 只 X 狗 没 咬 一 只 Y 虫 那 么 Y 虫 没 咬 X 狗 。
 Words300Dan: hvis en hund X biter ikke en orm Y så ormen Y biter ikke hunden X .
 Words300Dut: als een hond X niet een worm Y bijt , dan bijt de worm Y niet de hond X .
+Words300Est: kui koer X ei pure ussi Y siis uss Y ei pure koera X .
 Words300Fre: si un chien X ne mord pas un ver Y alors le ver Y ne mord pas le chien X .
 Words300Ger: wenn ein Hund X nicht einen Wurm Y beißt , dann beißt der Wurm Y den Hund X nicht .
 Words300Gre: αν ένας σκύλος ο X δεν δαγκώνει ένα σκουλήκι τον Y τότε το σκουλήκι ο Y δεν δαγκώνει τον σκύλο τον X .
@@ -1202,6 +1252,7 @@ Words300Cat: és fals que quelcom no tem exactament 3 gats .
 Words300Chi: 是 T O D O 某 事 没 怕 TODO 3 只 猫 的 。
 Words300Dan: det er falsk at noget ikke frygter præcis 3 katte .
 Words300Dut: 't is onwaar dat iets niet precies 3 katten vreest .
+Words300Est: on vale et mis ei karda täpselt 3 kassi .
 Words300Fre: il est faux que quelque chose ne craint pas exactement 3 chats .
 Words300Ger: es ist falsch dass etwas nicht genau 3 Katzen fürchtet .
 Words300Gre: είναι ψευδής οτι κάτι δεν φοβάται ακριβώς 3 γάτες .
@@ -1226,6 +1277,7 @@ Words300Cat: què tem Joan ?
 Words300Chi: 约 翰 怕 的 是 什 么 ？
 Words300Dan: hvad frygter John ?
 Words300Dut: wat vreest Jan ?
+Words300Est: mida Juhan kardab ?
 Words300Fre: que craint Jean ?
 Words300Ger: was fürchtet Johann ?
 Words300Gre: τι φοβάται ο Γιάννης ;
@@ -1250,6 +1302,7 @@ Words300Cat: quins gats no mosseguen Paris ?
 Words300Chi: [neg_npqQS] ？
 Words300Dan: hvilke katte biter ikke Paris ?
 Words300Dut: welke katten bijten niet Parijs ?
+Words300Est: [neg_npqQS] ?
 Words300Fre: quels chats ne mordent pas Paris ?
 Words300Ger: welche Katzen beißen Paris nicht ?
 Words300Gre: [neg_npqQS] ;
@@ -1274,6 +1327,7 @@ Words300Cat: cada gos veu què ?
 Words300Chi: [vpqQS] ？
 Words300Dan: hver hund ser hvad ?
 Words300Dut: elke hond ziet wat ?
+Words300Est: [vpqQS] ?
 Words300Fre: chaque chien voit que ?
 Words300Ger: jeder Hund sieht was ?
 Words300Gre: [vpqQS] ;
@@ -1298,6 +1352,7 @@ Words300Cat: cada gos veu què o no odia què ?
 Words300Chi: [np_coord_VPSQ] ？
 Words300Dan: hver hund ser hvad eller hader ikke hvad ?
 Words300Dut: elke hond ziet wat of haat wat niet ?
+Words300Est: iga koer [vpq_as_posVPSQ] või [vpq_as_negVPSQ] ?
 Words300Fre: chaque chien voit qu' ou il n' hait pas que ?
 Words300Ger: jeder Hund sieht was oder hasst was nicht ?
 Words300Gre: [np_coord_VPSQ] ;
@@ -1322,6 +1377,7 @@ Words300Cat: quin gos troba X ?
 Words300Chi: [npqQS] ？
 Words300Dan: hvilken hund finder X ?
 Words300Dut: welke hond vindt X ?
+Words300Est: [npqQS] ?
 Words300Fre: quel chien trouve X ?
 Words300Ger: welcher Hund findet X ?
 Words300Gre: [npqQS] ;
@@ -1346,6 +1402,7 @@ Words300Cat: què està temut per Joan ?
 Words300Chi: [npqQS] ？
 Words300Dan: hvad bliver frygtet af John ?
 Words300Dut: wat wordt door Jan gevreesd ?
+Words300Est: [npqQS] ?
 Words300Fre: qu' est craint par Jean ?
 Words300Ger: was wird durch Johann gefürchtet ?
 Words300Gre: [npqQS] ;
@@ -1370,6 +1427,7 @@ Words300Cat: quins gats no estan mossegats per Paris ?
 Words300Chi: [neg_npqQS] ？
 Words300Dan: hvilke katte bliver ikke bidte af Paris ?
 Words300Dut: welke katten worden niet door Parijs gebeten ?
+Words300Est: [neg_npqQS] ?
 Words300Fre: quels chats ne sont pas mordus par Paris ?
 Words300Ger: welche Katzen werden nicht durch Paris gebissen ?
 Words300Gre: [neg_npqQS] ;
@@ -1394,6 +1452,7 @@ Words300Cat: què està vist per cada gos ?
 Words300Chi: [npqQS] ？
 Words300Dan: hvad bliver set af hver hund ?
 Words300Dut: wat wordt door elke hond gezien ?
+Words300Est: [npqQS] ?
 Words300Fre: qu' est vu par chaque chien ?
 Words300Ger: was wird durch jeden Hund gesehen ?
 Words300Gre: [npqQS] ;
@@ -1418,6 +1477,7 @@ Words300Cat: quin gos està trobat per X ?
 Words300Chi: [npqQS] ？
 Words300Dan: hvilken hund bliver fundet af X ?
 Words300Dut: welke hond wordt door X gevonden ?
+Words300Est: [npqQS] ?
 Words300Fre: quel chien est trouvé par X ?
 Words300Ger: welcher Hund wird durch X gefunden ?
 Words300Gre: [npqQS] ;
@@ -1442,6 +1502,7 @@ Words300Cat: Joan no està trobat per què ?
 Words300Chi: [neg_vpqQS] ？
 Words300Dan: John bliver ikke fundet af hvad ?
 Words300Dut: Jan wordt niet door wat gevonden ?
+Words300Est: [neg_vpqQS] ?
 Words300Fre: Jean n' est pas trouvé par que ?
 Words300Ger: Johann wird nicht durch was gefunden ?
 Words300Gre: [neg_vpqQS] ;
@@ -1466,6 +1527,7 @@ Words300Cat: quin gos es troba ?
 Words300Chi: [npqQS] ？
 Words300Dan: hvilken hund finder sig ?
 Words300Dut: welke hond vindt zich ?
+Words300Est: [npqQS] ?
 Words300Fre: quel chien se trouve ?
 Words300Ger: welcher Hund findet sich ?
 Words300Gre: [npqQS] ;
@@ -1490,6 +1552,7 @@ Words300Cat: Joan empeny una cua d' un gos .
 Words300Chi: 约 翰 推 一 条 一 只 狗 的 的 尾 巴 。
 Words300Dan: John skubber en hale af en hund .
 Words300Dut: Jan duuwt een staart van een hond .
+Words300Est: Juhan surub saba koera .
 Words300Fre: Jean pousse une queue d' un chien .
 Words300Ger: Johann schiebt einen Schwanz von einem Hund .
 Words300Gre: ο Γιάννης σπρώχνει μία ουρά ενός σκύλου .
@@ -1514,6 +1577,7 @@ Words300Cat: Joan és un gos de Paris .
 Words300Chi: 约 翰 是 一 只 巴 黎 的 的 狗 。
 Words300Dan: John er en hund af Paris .
 Words300Dut: Jan is een hond van Parijs .
+Words300Est: Juhan on koer Pariisi .
 Words300Fre: Jean est un chien de Paris .
 Words300Ger: Johann ist ein Hund von Paris .
 Words300Gre: ο Γιάννης είναι ένας σκύλος του Παρισιού .
@@ -1538,6 +1602,7 @@ Words300Cat: cada cua d' un gat està vista per Paris .
 Words300Chi: 每 条 一 只 猫 的 的 尾 巴 在 被 巴 黎 被 看 。
 Words300Dan: hver hale af en kat bliver set af Paris .
 Words300Dut: elke staart van een kat wordt door Parijs gezien .
+Words300Est: iga saba kassi nähakse Pariisi poolt .
 Words300Fre: chaque queue d' un chat est vue par Paris .
 Words300Ger: jeder Schwanz von einer Katze wird durch Paris gesehen .
 Words300Gre: κάθε ουρά μίας γάτας βλέπεται από το Παρίσι .
@@ -1562,6 +1627,7 @@ Words300Cat: Paris és una policia cada avió .
 Words300Chi: 巴 黎 是 一 名 每 架 飞 机 的 的 警 察 。
 Words300Dan: Paris er en politibetjent af hver fly .
 Words300Dut: Parijs is een politieagent van elk vliegtuig .
+Words300Est: Pariis on politseinik iga lennuki .
 Words300Fre: Paris est un policier de chaque avion .
 Words300Ger: Paris ist ein Polizist von jedem Flugzeug .
 Words300Gre: το Παρίσι είναι ένας αστυνομικός κάθε αεροπλάνου .
@@ -1586,6 +1652,7 @@ Words300Cat: exactament 2 ocells són una policia de què ?
 Words300Chi: [vpqQS] ？
 Words300Dan: præcis 2 fugler er en politibetjent af hvad ?
 Words300Dut: precies 2 vogels zijn een politieagent van wat ?
+Words300Est: [vpqQS] ?
 Words300Fre: exactement 2 oiseaux sont un policier de que ?
 Words300Ger: genau 2 Vögel sind ein Polizist was ?
 Words300Gre: [vpqQS] ;
@@ -1610,6 +1677,7 @@ Words300Cat: Joan és Joan .
 Words300Chi: 约 翰 是 约 翰 。
 Words300Dan: John er John .
 Words300Dut: Jan is Jan .
+Words300Est: Juhan on Juhan .
 Words300Fre: Jean est Jean .
 Words300Ger: Johann ist Johann .
 Words300Gre: ο Γιάννης είναι ο Γιάννης .
@@ -1634,6 +1702,7 @@ Words300Cat: Joan és cada gos .
 Words300Chi: 约 翰 是 每 只 狗 。
 Words300Dan: John er hver hund .
 Words300Dut: Jan is elke hond .
+Words300Est: Juhan on iga koer .
 Words300Fre: Jean est chaque chien .
 Words300Ger: Johann ist jeder Hund .
 Words300Gre: ο Γιάννης είναι κάθε σκύλος .
@@ -1658,6 +1727,7 @@ Words300Cat: nomÈs gosos veuen Paris .
 Words300Chi: 只 有 的 一 些 狗 看 巴 黎 。
 Words300Dan: kun hunder ser Paris .
 Words300Dut: slechts honden zien Parijs .
+Words300Est: ainult koerad näevad Pariisi .
 Words300Fre: seulement des chiens voient Paris .
 Words300Ger: nur Hunde sehen Paris .
 Words300Gre: μόνο σκύλοι βλέπουν το Παρίσι .
@@ -1682,6 +1752,7 @@ Words300Cat: Joan és X .
 Words300Chi: 约 翰 是 X 。
 Words300Dan: John er X .
 Words300Dut: Jan is X .
+Words300Est: Juhan on X .
 Words300Fre: Jean est X .
 Words300Ger: Johann ist X .
 Words300Gre: ο Γιάννης είναι ο X .
@@ -1706,6 +1777,7 @@ Words300Cat: Joan veu X .
 Words300Chi: 约 翰 看 X 。
 Words300Dan: John ser X .
 Words300Dut: Jan ziet X .
+Words300Est: Juhan näeb X .
 Words300Fre: Jean voit X .
 Words300Ger: Johann sieht X .
 Words300Gre: ο Γιάννης βλέπει τον X .
@@ -1730,6 +1802,7 @@ Words300Cat: X és X .
 Words300Chi: X 是 X 。
 Words300Dan: X er X .
 Words300Dut: X is X .
+Words300Est: X on X .
 Words300Fre: X est X .
 Words300Ger: X ist X .
 Words300Gre: ο X είναι ο X .
@@ -1754,6 +1827,7 @@ Words300Cat: cada gos X no veu un cuc Y .
 Words300Chi: 每 只 X 狗 没 看 一 只 Y 虫 。
 Words300Dan: hver hund X ser ikke en orm Y .
 Words300Dut: elke hond X ziet niet een worm Y .
+Words300Est: iga koer X ei näe ussi Y .
 Words300Fre: chaque chien X ne voit pas un ver Y .
 Words300Ger: jeder Hund X sieht nicht einen Wurm Y .
 Words300Gre: κάθε σκύλος ο X δεν βλέπει ένα σκουλήκι τον Y .
@@ -1778,6 +1852,7 @@ Words300Cat: hi ha quelcom .
 Words300Chi: 有 某 事 。
 Words300Dan: det findes noget .
 Words300Dut: er is iets .
+Words300Est: on olemas mis .
 Words300Fre: il y a quelque chose .
 Words300Ger: es gibt etwas .
 Words300Gre: υπάρχει κάτι .
@@ -1802,6 +1877,7 @@ Words300Cat: hi ha un gos .
 Words300Chi: 有 一 只 狗 。
 Words300Dan: det findes en hund .
 Words300Dut: er is een hond .
+Words300Est: on olemas koer .
 Words300Fre: il y a un chien .
 Words300Ger: es gibt einen Hund .
 Words300Gre: υπάρχει ένας σκύλος .
@@ -1826,6 +1902,7 @@ Words300Cat: hi ha més que 2 gosos que empenyen menys que 3 llibres .
 Words300Chi: 有 比 2 只 推 比 3 本 书 的 狗 。
 Words300Dan: det findes mer end 2 hunder som skubber mindre end 3 bøger .
 Words300Dut: er zijn meer dan 2 honden die minder dan 3 boeken duwen .
+Words300Est: on olemas rohkem kui 2 koera kes surub vähem kui 3 raamatut .
 Words300Fre: il y a plus que 2 chiens qui poussent moins que 3 livres .
 Words300Ger: es gibt mehr als 2 Hunde , die weniger als 3 Bücher schieben .
 Words300Gre: υπάρχουν πάνω από 2 σκύλοι , που σπρώχνουν λιγότερο από 3 βιβλία .
@@ -1850,6 +1927,7 @@ Words300Cat: és fals que hi ha almenys 1 gos .
 Words300Chi: 是 T O D O 有 最 少 1 只 狗 的 。
 Words300Dan: det er falsk at det findes mindst 1 hund .
 Words300Dut: 't is onwaar dat er ten minste 1 hond is .
+Words300Est: on vale et on olemas vähemalt 1 koer .
 Words300Fre: il est faux que il y a au moins 1 chien .
 Words300Ger: es ist falsch dass es wenigstens 1 Hund gibt .
 Words300Gre: είναι ψευδής οτι υπάρχει ένας τουλάχιστον 1 σκύλος .
@@ -1874,6 +1952,7 @@ Words300Cat: per a cada cavall X tot odia X .
 Words300Chi: 为 了 每 匹 X 马 每 件 事 讨 厌 X 。
 Words300Dan: for hver hest X hader alt X .
 Words300Dut: voor elk paard X haat alles X .
+Words300Est: igale hobusele X kõik vihkab X .
 Words300Fre: pour chaque cheval X tout hait X .
 Words300Ger: für jedes Pferd X hasst alles X .
 Words300Gre: για κάθε άλογο τον X τα πάντα μισούν τον X .
@@ -1898,6 +1977,7 @@ Words300Cat: X és una cua .
 Words300Chi: X 是 一 条 尾 巴 。
 Words300Dan: X er en hale .
 Words300Dut: X is een staart .
+Words300Est: X on saba .
 Words300Fre: X est une queue .
 Words300Ger: X ist ein Schwanz .
 Words300Gre: ο X είναι μία ουρά .
@@ -1922,6 +2002,7 @@ Words300Cat: Joan odia un cuc que un gat no troba .
 Words300Chi: 约 翰 讨 厌 一 只 猫 没 发 现 的 一 只 虫 。
 Words300Dan: John hader en orm , som en kat ikke finder .
 Words300Dut: Jan haat een worm , dat een kat niet vindt .
+Words300Est: Juhan vihkab ussi , keda kass ei leia .
 Words300Fre: Jean hait un ver qu' un chat ne trouve pas .
 Words300Ger: Johann hasst einen Wurm , den eine Katze nicht findet .
 Words300Gre: 
@@ -1945,6 +2026,7 @@ Words300Cat: Joan odia un cuc que un gat no troba .
 Words300Chi: 约 翰 讨 厌 一 只 一 只 猫 没 发 现 的 虫 。
 Words300Dan: John hader en orm som en kat ikke finder .
 Words300Dut: Jan haat een worm die een kat niet vindt .
+Words300Est: Juhan vihkab ussi keda kass ei leia .
 Words300Fre: Jean hait un ver qu' un chat ne trouve pas .
 Words300Ger: Johann hasst einen Wurm , den eine Katze nicht findet .
 Words300Gre: 
@@ -1969,6 +2051,7 @@ Words300Cat: Joan tem una cua i no tem una policia .
 Words300Chi: [np_coord_VPS] 。
 Words300Dan: John frygter en hale og frygter ikke en politibetjent .
 Words300Dut: Jan vreest een staart en vreest niet een politieagent .
+Words300Est: Juhan kardab saba ja ei karda politseinikku .
 Words300Fre: Jean craint une queue et il ne craint pas un policier .
 Words300Ger: Johann fürchtet einen Schwanz und fürchtet nicht einen Polizisten .
 Words300Gre: [np_coord_VPS] .
@@ -1993,6 +2076,7 @@ Words300Cat: Joan és un gos i és un gat és un ocell .
 Words300Chi: [np_coord_VPS] 。
 Words300Dan: John er en hund , er en kat og er en fugl .
 Words300Dut: Jan is een hond , is een kat en is een vogel .
+Words300Est: Juhan on koer , on kass ja on lind .
 Words300Fre: Jean est un chien et il est un chat il est un oiseau .
 Words300Ger: Johann ist ein Hund , ist eine Katze und ist ein Vogel .
 Words300Gre: [np_coord_VPS] .
@@ -2017,6 +2101,7 @@ Words300Cat: Joan odia exactament 1 2 3 4 5 6 7 8 9 0 cues .
 Words300Chi: 约 翰 讨 厌 TODO 1 2 3 4 5 6 7 8 9 0 条 尾 巴 。
 Words300Dan: John hader præcis 1 2 3 4 5 6 7 8 9 0 haler .
 Words300Dut: Jan haat precies 1 2 3 4 5 6 7 8 9 0 staarten .
+Words300Est: Juhan vihkab täpselt 1 2 3 4 5 6 7 8 9 0 saba .
 Words300Fre: Jean hait exactement 1 2 3 4 5 6 7 8 9 0 queues .
 Words300Ger: Johann hasst genau 1 2 3 4 5 6 7 8 9 0 Schwänze .
 Words300Gre: ο Γιάννης μισεί ακριβώς 1 2 3 4 5 6 7 8 9 0 ουρές .
@@ -2041,6 +2126,7 @@ Words300Cat: Joan és un gos . què és Paris ?
 Words300Chi: 约 翰 是 一 只 狗 。 [npqQS] ？
 Words300Dan: John er en hund . hvad er Paris ?
 Words300Dut: Jan is een hond . wat is Parijs ?
+Words300Est: Juhan on koer . [npqQS] ?
 Words300Fre: Jean est un chien . qu' est Paris ?
 Words300Ger: Johann ist ein Hund . was ist Paris ?
 Words300Gre: ο Γιάννης είναι ένας σκύλος . [npqQS] ;
@@ -2065,6 +2151,7 @@ Words300Cat: Joan no és què ?
 Words300Chi: [neg_vpqQS] ？
 Words300Dan: John er ikke hvad ?
 Words300Dut: Jan is niet wat ?
+Words300Est: [neg_vpqQS] ?
 Words300Fre: Jean n' est pas que ?
 Words300Ger: Johann ist nicht was ?
 Words300Gre: [neg_vpqQS] ;
@@ -2089,6 +2176,7 @@ Words300Cat: Joan és un gos de què ?
 Words300Chi: [vpqQS] ？
 Words300Dan: John er en hund af hvad ?
 Words300Dut: Jan is een hond van wat ?
+Words300Est: [vpqQS] ?
 Words300Fre: Jean est un chien de que ?
 Words300Ger: Johann ist ein Hund was ?
 Words300Gre: [vpqQS] ;
@@ -2113,6 +2201,7 @@ Words300Cat: Joan és el llibre de què ?
 Words300Chi: [vpqQS] ？
 Words300Dan: John er bogen af hvad ?
 Words300Dut: Jan is de boek van wat ?
+Words300Est: [vpqQS] ?
 Words300Fre: Jean est le livre de que ?
 Words300Ger: Johann ist das Buch was ?
 Words300Gre: [vpqQS] ;
@@ -2137,6 +2226,7 @@ Words300Cat: Joan és cada llibre de què ?
 Words300Chi: [vpqQS] ？
 Words300Dan: John er hver bog af hvad ?
 Words300Dut: Jan is elke boek van wat ?
+Words300Est: [vpqQS] ?
 Words300Fre: Jean est chaque livre de que ?
 Words300Ger: Johann ist jedes Buch was ?
 Words300Gre: [vpqQS] ;
@@ -2161,6 +2251,7 @@ Words300Cat: Joan és cap gos de què ?
 Words300Chi: [vpqQS] ？
 Words300Dan: 
 Words300Dut: Jan is geen hond van wat ?
+Words300Est: [vpqQS] ?
 Words300Fre: Jean est aucun chien de que ?
 Words300Ger: Johann ist kein Hund was ?
 Words300Gre: [vpqQS] ;
@@ -2185,6 +2276,7 @@ Words300Cat: Joan és un gos i és un gat és què ?
 Words300Chi: [np_coord_VPSQ] ？
 Words300Dan: John er en hund , er en kat og er hvad ?
 Words300Dut: Jan is een hond , is een kat en is wat ?
+Words300Est: Juhan on koer , on kass ja [vpq_as_posVPSQ] ?
 Words300Fre: Jean est un chien et il est un chat il est que ?
 Words300Ger: Johann ist ein Hund , ist eine Katze und ist was ?
 Words300Gre: [np_coord_VPSQ] ;
@@ -2209,6 +2301,7 @@ Words300Cat: Joan odia un cuc que què troba ?
 Words300Chi: [vpqQS] ？
 Words300Dan: John hader en orm , som hvad finder ?
 Words300Dut: Jan haat een worm , dat wat vindt ?
+Words300Est: [vpqQS] ?
 Words300Fre: Jean hait un ver que que trouve ?
 Words300Ger: Johann hasst einen Wurm , den was findet ?
 Words300Gre: [vpqQS] ;
@@ -2233,6 +2326,7 @@ Words300Cat: Joan odia un cuc que què no troba ?
 Words300Chi: [vpqQS] ？
 Words300Dan: John hader en orm , som hvad ikke finder ?
 Words300Dut: Jan haat een worm , dat wat niet vindt ?
+Words300Est: [vpqQS] ?
 Words300Fre: Jean hait un ver que que ne trouve pas ?
 Words300Ger: Johann hasst einen Wurm , den was nicht findet ?
 Words300Gre: [vpqQS] ;
@@ -2257,6 +2351,7 @@ Words300Cat: Joan tem quelcom que no és què ?
 Words300Chi: [vpqQS] ？
 Words300Dan: John frygter noget , som ikke er hvad ?
 Words300Dut: Jan vreest iets , die niet wat is ?
+Words300Est: [vpqQS] ?
 Words300Fre: Jean craint quelque chose qui n' est pas que ?
 Words300Ger: Johann fürchtet etwas , das nicht was ist ?
 Words300Gre: [vpqQS] ;
@@ -2281,6 +2376,7 @@ Words300Cat: Joan tem què i no tem què ?
 Words300Chi: [np_coord_VPSQ] ？
 Words300Dan: John frygter hvad og frygter ikke hvad ?
 Words300Dut: Jan vreest wat en vreest wat niet ?
+Words300Est: Juhan [vpq_as_posVPSQ] ja [vpq_as_negVPSQ] ?
 Words300Fre: Jean craint qu' et il ne craint pas que ?
 Words300Ger: Johann fürchtet was und fürchtet was nicht ?
 Words300Gre: [np_coord_VPSQ] ;
@@ -2305,6 +2401,7 @@ Words300Cat: Joan odia un cavall que és quin llibre ?
 Words300Chi: [vpqQS] ？
 Words300Dan: John hader en hest , som er hvilken bog ?
 Words300Dut: Jan haat een paard , dat welke boek is ?
+Words300Est: [vpqQS] ?
 Words300Fre: Jean hait un cheval qui est quel livre ?
 Words300Ger: Johann hasst ein Pferd , das welches Buch ist ?
 Words300Gre: [vpqQS] ;
@@ -2329,6 +2426,7 @@ Words300Cat: què no odia Joan ?
 Words300Chi: 约 翰 没 讨 厌 的 是 什 么 ？
 Words300Dan: hvad hader John ikke ?
 Words300Dut: wat haat Jan niet ?
+Words300Est: mida Juhan ei vihka ?
 Words300Fre: que n' hait pas Jean ?
 Words300Ger: was hasst Johann nicht ?
 Words300Gre: τι δεν μισεί ο Γιάννης ;
@@ -2353,6 +2451,7 @@ Words300Cat: quin gat odia Joan i empeny una cua ?
 Words300Chi: [npq_coord_VPS] ？
 Words300Dan: hvilken kat hader John og skubber en hale ?
 Words300Dut: welke kat haat Jan en duuwt een staart ?
+Words300Est: [npq_coord_VPS] ?
 Words300Fre: quel chat hait Jean et il pousse une queue ?
 Words300Ger: welche Katze hasst Johann und schiebt einen Schwanz ?
 Words300Gre: [npq_coord_VPS] ;
@@ -2377,6 +2476,7 @@ Words300Cat: Paris odia què i no odia quelcom ?
 Words300Chi: [np_coord_VPSQ] ？
 Words300Dan: Paris hader hvad og hader ikke noget ?
 Words300Dut: Parijs haat wat en haat niet iets ?
+Words300Est: Pariis [vpq_as_posVPSQ] ja ei vihka mida ?
 Words300Fre: Paris hait qu' et il n' hait pas quelque chose ?
 Words300Ger: Paris hasst was und hasst nicht etwas ?
 Words300Gre: [np_coord_VPSQ] ;

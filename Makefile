@@ -51,7 +51,7 @@ langs_Simple = Ace
 # as it contains "words with spaces".
 # TODO: include also Afrikaans, Japanese (currently did not compile), Nepalese, Punjabi, Sindhi.
 # TODO: add back: Fin
-langs_Words300 = Ace Bul Cat Chi Dan Dut Fre Ger Gre Hin Ita Lav Mlt Nor Pol Ron Rus Spa Swe Tha Urd
+langs_Words300 = Ace Bul Cat Chi Dan Dut Est Fre Ger Gre Hin Ita Lav Mlt Nor Pol Ron Rus Spa Swe Tha Urd
 
 # Compile application grammars in all languages
 all_grammars:
