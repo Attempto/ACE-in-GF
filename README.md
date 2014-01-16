@@ -4,9 +4,9 @@ Attempto Controlled English in Grammatical Framework
 Introduction
 ------------
 
-This project implements the syntax of Attempto Controlled English (ACE)
-(version 6.6) in Grammatical Framework (GF) and ports it to
-additional natural languages (see the Makefile for the currently supported
+This project implements a subset of the syntax of Attempto Controlled English (ACE)
+version 6.7 in Grammatical Framework (GF) and ports it to
+~20 natural languages (see the Makefile for the currently supported
 languages).
 Note that this project does not implement
 the mapping of ACE sentences to discourse representation structures.
@@ -32,14 +32,6 @@ of the grammar to the user).
 The grammar should allow for bidirectional translations
 between ACE and a number of other controlled natural languages, i.e.
 _ACE-like_ German, Italian, Finnish, etc.
-
-
-Reference implementations
--------------------------
-
-  * The reference ACE parser (APE) can be obtained from <https://github.com/Attempto/APE>. There is a web-based demo at <http://attempto.ifi.uzh.ch/ape/>.
-
-  * The reference AceWiki grammar can be found at <https://github.com/AceWiki/AceWiki/tree/master/src/ch/uzh/ifi/attempto/acewiki/aceowl/>. There is a web-based demo at <http://attempto.ifi.uzh.ch/acewiki/>.
 
 
 Building
@@ -70,14 +62,11 @@ run
 
 (Note that it is important that you use `bash`.)
 
-The building should not take more than a minute.
+The building should not take more than a couple of minutes.
 The GF libraries are expected to be found in a system-wide location, e.g.:
 
   * ~/.cabal/share/gf-3.4/lib/present/
   * ~/.cabal/share/gf-3.4/lib/prelude/
-
-and they should correspond to the GF version listed above (as the GF darcs push
-timestamp).
 
 
 Running
@@ -109,7 +98,12 @@ Example of translating an ACE sentence to other languages.
 Testing
 -------
 
-### Requirements
+### Reference implementations of ACE
+
+  - The reference ACE parser (APE) can be obtained from <https://github.com/Attempto/APE>. There is a web-based demo at <http://attempto.ifi.uzh.ch/ape/>.
+  - The reference AceWiki grammar can be found at <https://github.com/AceWiki/AceWiki/tree/master/src/ch/uzh/ifi/attempto/acewiki/aceowl/>. There is a web-based demo at <http://attempto.ifi.uzh.ch/acewiki/>.
+
+### Other requirements
 
 Some tools need to be installed and available on the PATH:
 
