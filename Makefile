@@ -10,7 +10,7 @@ attempto = Attempto
 # Paths to things
 p = grammars/acewiki_aceowl:lib/src/ace:lib/src/api
 # path_base is deprecated
-path_base = present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/api
+path_base = present:grammars/acewiki_aceowl:words/acewiki_aceowl:lib/src/ace:lib/src/api:lib/src/afrikaans
 path = $(path_base)
 path = $(GF_EST_SRC)/estonian:$(GF_EST_SRC)/api:$(path_base)
 grammars = grammars/acewiki_aceowl
@@ -49,9 +49,9 @@ langs_Simple = Ace
 # This list intentionally lacks Ape and Eng.
 # TODO: rename 'Ace' to 'Eng' because the RGL English lexicon is not technically an ACE lexicon,
 # as it contains "words with spaces".
-# TODO: include also Afrikaans, Japanese (currently did not compile), Nepalese, Punjabi, Sindhi.
+# TODO: include also Japanese (currently did not compile), Nepalese, Punjabi, Sindhi.
 # TODO: add back: Fin
-langs_Words300 = Ace Bul Cat Chi Dan Dut Est Fre Ger Gre Hin Ita Lav Mlt Nor Pol Ron Rus Spa Swe Tha Urd
+langs_Words300 = Ace Afr Bul Cat Chi Dan Dut Est Fre Ger Gre Hin Ita Lav Mlt Nor Pol Ron Rus Spa Swe Tha Urd
 
 # Compile application grammars in all languages
 all_grammars:

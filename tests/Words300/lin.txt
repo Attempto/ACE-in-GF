@@ -1,5 +1,6 @@
 Words300: baseText (sText (s (vpS (pnNP paris_PN) (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN)))))))
 Words300Ace: Paris is a horse .
+Words300Afr: Parys is 'n perd .
 Words300Bul: Париж е кон .
 Words300Cat: Paris és un cavall .
 Words300Chi: 巴 黎 是 一 匹 马 。
@@ -25,6 +26,7 @@ Words300Urd: پیرس گھوڑا ہے
 
 Words300: baseText (sText (s (neg_vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))
 Words300Ace: John isn't a cat .
+Words300Afr: Jan is nie 'n kat nie .
 Words300Bul: Джон не е котка .
 Words300Cat: Joan no és un gat .
 Words300Chi: 约 翰 不 是 一 只 猫 。
@@ -50,6 +52,7 @@ Words300Urd: جان بلی نہیں ہے
 
 Words300: baseText (sText (s (np_coord_VPS (pnNP paris_PN) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))))
 Words300Ace: Paris is a bird or is a cat .
+Words300Afr: [np_coord_VPS] .
 Words300Bul: Париж е птица или е котка .
 Words300Cat: Paris és un ocell o és un gat .
 Words300Chi: [np_coord_VPS] 。
@@ -75,6 +78,7 @@ Words300Urd: [np_coord_VPS]
 
 Words300: baseText (sText (s (np_coord_VPS (pnNP paris_PN) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN)))))))))
 Words300Ace: Paris is a bird and is a horse .
+Words300Afr: [np_coord_VPS] .
 Words300Bul: Париж е птица и е кон .
 Words300Cat: Paris és un ocell i és un cavall .
 Words300Chi: [np_coord_VPS] 。
@@ -100,6 +104,7 @@ Words300Urd: [np_coord_VPS]
 
 Words300: baseText (sText (s (vpS (pnNP paris_PN) (npVP (relNP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))))))
 Words300Ace: Paris is a worm that is a bird or that is a cat .
+Words300Afr: Parys is 'n wurm , wat 'n voël is of wat 'n kat is .
 Words300Bul: Париж е червей който е птица или който е котка .
 Words300Cat: Paris és un cuc que és un ocell o que és un gat .
 Words300Chi: 巴 黎 是 是 一 只 鸟 的 还 是 是 一 只 猫 的 一 只 虫 。
@@ -124,6 +129,7 @@ Words300Urd: پیرس گرم , جو پرندہ ہے یا جو بلی ہے ہے
 
 Words300: baseText (sText (s (vpS (pnNP paris_PN) (npVP (thereNP_as_NP (aNP (relCN (cn_as_VarCN worm_CN) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))))))))
 Words300Ace: Paris is a worm that is a bird or that is a cat .
+Words300Afr: Parys is 'n wurm wat 'n voël is of wat 'n kat is .
 Words300Bul: Париж е червей който е птица или който е котка .
 Words300Cat: Paris és un cuc que és un ocell o que és un gat .
 Words300Chi: 巴 黎 是 一 只 是 一 只 鸟 的 还 是 是 一 只 猫 的 虫 。
@@ -149,6 +155,7 @@ Words300Urd: پیرس گرم جو پرندہ ہے یا جو بلی ہے ہے
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (relNP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))) (andRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN)))))))))))
 Words300Ace: John is a dog that is a bird and that is a horse .
+Words300Afr: Jan is 'n hond , wat 'n voël is en wat 'n perd is .
 Words300Bul: Джон е куче което е птица и което е кон .
 Words300Cat: Joan és un gos que és un ocell i que és un cavall .
 Words300Chi: 约 翰 是 是 一 只 鸟 的 并 且 是 一 匹 马 的 一 只 狗 。
@@ -173,6 +180,7 @@ Words300Urd: جان کتا , جو پرندہ ہے اور جو گھوڑا ہے ہ
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (relCN (cn_as_VarCN dog_CN) (andRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN)))))))))))))
 Words300Ace: John is a dog that is a bird and that is a horse .
+Words300Afr: Jan is 'n hond wat 'n voël is en wat 'n perd is .
 Words300Bul: Джон е куче което е птица и което е кон .
 Words300Cat: Joan és un gos que és un ocell i que és un cavall .
 Words300Chi: 约 翰 是 一 只 是 一 只 鸟 的 并 且 是 一 匹 马 的 狗 。
@@ -198,6 +206,7 @@ Words300Urd: جان کتا جو پرندہ ہے اور جو گھوڑا ہے ہے
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (relNP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))) (andRS (predRS which_RP (v2VP (V2by_as_V2 hate_V2) (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))) (V2by_as_V2 see_V2))))))))
 Words300Ace: John is a dog that hates a bird and that a horse sees .
+Words300Afr: Jan is 'n hond , wat 'n voël haat en wat 'n perd sien .
 Words300Bul: Джон е куче което мрази птица и което кон вижда .
 Words300Cat: Joan és un gos que odia un ocell i que un cavall veu .
 Words300Chi: 约 翰 是 讨 厌 一 只 鸟 的 并 且 一 匹 马 看 的 一 只 狗 。
@@ -222,6 +231,7 @@ Words300Urd: جان کتا , جو پرندہ نفرت کرتا ہے اور جس 
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (relCN (cn_as_VarCN dog_CN) (andRS (predRS which_RP (v2VP (V2by_as_V2 hate_V2) (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))) (V2by_as_V2 see_V2))))))))))
 Words300Ace: John is a dog that hates a bird and that a horse sees .
+Words300Afr: Jan is 'n hond wat 'n voël haat en wat 'n perd sien .
 Words300Bul: Джон е куче което мрази птица и което кон вижда .
 Words300Cat: Joan és un gos que odia un ocell i que un cavall veu .
 Words300Chi: 约 翰 是 一 只 讨 厌 一 只 鸟 的 并 且 一 匹 马 看 的 狗 。
@@ -247,6 +257,7 @@ Words300Urd: جان کتا جو پرندہ نفرت کرتا ہے اور جس گ
 
 Words300: baseText (sText (s (vpS (everyNP (cn_as_VarCN dog_CN)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))
 Words300Ace: every dog is a cat .
+Words300Afr: elk hond is 'n kat .
 Words300Bul: всяко куче е котка .
 Words300Cat: cada gos és un gat .
 Words300Chi: 每 只 狗 是 一 只 猫 。
@@ -272,6 +283,7 @@ Words300Urd: ہر کتا بلی ہے
 
 Words300: baseText (sText (s (vpS (noNP (cn_as_VarCN cat_CN)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN)))))))
 Words300Ace: no cat is a worm .
+Words300Afr: geen kat is 'n wurm .
 Words300Bul: 
 Words300Cat: cap gat és un cuc .
 Words300Chi: 不 只 猫 是 一 只 虫 。
@@ -297,6 +309,7 @@ Words300Urd: کوی نہیں بلی گرم ہے
 
 Words300: baseText (sText (s (coordS and_Conj (vpS (everyNP (cn_as_VarCN worm_CN)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (vpS (everyNP (cn_as_VarCN bird_CN)) (npVP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))))))))
 Words300Ace: every worm is a bird and every bird is a worm .
+Words300Afr: elk wurm is 'n voël en elk voël is 'n wurm .
 Words300Bul: всеки червей е птица и всяка птица е червей .
 Words300Cat: cada cuc és un ocell i cada ocell és un cuc .
 Words300Chi: 每 只 虫 是 一 只 鸟 并 且 每 只 鸟 是 一 只 虫 。
@@ -322,6 +335,7 @@ Words300Urd: ہر گرم پرندہ ہے اور ہر پرندہ گرم ہے
 
 Words300: baseText (sText (s (vpS (everyNP (relCN (cn_as_VarCN horse_CN) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))
 Words300Ace: every horse that isn't a worm is a cat .
+Words300Afr: elk perd wat nie 'n wurm nie is is 'n kat .
 Words300Bul: всеки кон който не е червей е котка .
 Words300Cat: cada cavall que no és un cuc és un gat .
 Words300Chi: 每 匹 不 是 一 只 虫 的 马 是 一 只 猫 。
@@ -346,6 +360,7 @@ Words300Urd: ہر گھوڑا جو گرم نہیں ہے بلی ہے
 
 Words300: baseText (sText (s (vpS (relNP (everyNP (cn_as_VarCN horse_CN)) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN)))))))
 Words300Ace: every horse that isn't a worm is a cat .
+Words300Afr: elk perd , wat nie 'n wurm nie is is 'n kat .
 Words300Bul: всеки кон който не е червей е котка .
 Words300Cat: cada cavall que no és un cuc és un gat .
 Words300Chi: 不 是 一 只 虫 的 每 匹 马 是 一 只 猫 。
@@ -371,6 +386,7 @@ Words300Urd: ہر گھوڑا , جو گرم نہیں ہے بلی ہے
 
 Words300: baseText (sText (s (np_coord_VPS (everyNP (cn_as_VarCN dog_CN)) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN)))))))))
 Words300Ace: every dog is a cat or is a horse .
+Words300Afr: [np_coord_VPS] .
 Words300Bul: всяко куче е котка или е кон .
 Words300Cat: cada gos és un gat o és un cavall .
 Words300Chi: [np_coord_VPS] 。
@@ -396,6 +412,7 @@ Words300Urd: [np_coord_VPS]
 
 Words300: baseText (sText (s (np_coord_VPS (relNP (indefPronNP nothing_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))))))) and_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN)))))))))
 Words300Ace: nothing that is a dog or that is a cat is a bird and is a horse .
+Words300Afr: [np_coord_VPS] .
 Words300Bul: 
 Words300Cat: res que és un gos o que és un gat és un ocell i és un cavall .
 Words300Chi: [np_coord_VPS] 。
@@ -421,6 +438,7 @@ Words300Urd: [np_coord_VPS]
 
 Words300: baseText (sText (s (vpS (pnNP paris_PN) (v2VP (V2by_as_V2 see_V2) (pnNP paris_PN)))))
 Words300Ace: Paris sees Paris .
+Words300Afr: Parys sien Parys .
 Words300Bul: Париж вижда Париж .
 Words300Cat: Paris veu Paris .
 Words300Chi: 巴 黎 看 巴 黎 。
@@ -446,6 +464,7 @@ Words300Urd: پیرس پیرس دیکھتا ہے
 
 Words300: baseText (sText (s (neg_vpS (pnNP paris_PN) (v2VP (V2by_as_V2 see_V2) (pnNP john_PN)))))
 Words300Ace: Paris doesn't see John .
+Words300Afr: Parys sien nie Jan nie .
 Words300Bul: Париж не вижда Джон .
 Words300Cat: Paris no veu Joan .
 Words300Chi: 巴 黎 没 看 约 翰 。
@@ -471,6 +490,7 @@ Words300Urd: پیرس جان نہیں دیکھتا ہے
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (aNP (cn_as_VarCN tail_CN)))))))
 Words300Ace: John fears a tail .
+Words300Afr: Jan vrees 'n stert .
 Words300Bul: Джон се страхува опашка .
 Words300Cat: Joan tem una cua .
 Words300Chi: 约 翰 怕 一 条 尾 巴 。
@@ -496,6 +516,7 @@ Words300Urd: جان دم ڈرتا ہے
 
 Words300: baseText (sText (s (vpS (pnNP paris_PN) (v2VP (V2by_as_V2 see_V2) (noNP (cn_as_VarCN dog_CN))))))
 Words300Ace: Paris sees no dog .
+Words300Afr: Parys sien geen hond .
 Words300Bul: 
 Words300Cat: Paris no veu cap gos .
 Words300Chi: 巴 黎 看 不 只 狗 。
@@ -521,6 +542,7 @@ Words300Urd: پیرس کوی نہیں کتا دیکھتا ہے
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 fear_V2) (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (neg_predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN))))))))))
 Words300Ace: John fears something that isn't a policeman .
+Words300Afr: Jan vrees iets , wat nie 'n polisieman nie is .
 Words300Bul: Джон се страхува нещо което не е полицай .
 Words300Cat: Joan tem quelcom que no és una policia .
 Words300Chi: 约 翰 怕 不 是 一 名 警 察 的 某 事 。
@@ -546,6 +568,7 @@ Words300Urd: جان کوی چیز , جو پولیس والا نہیں ہے ڈر�
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 see_V2) (nothing_butNP (cn_as_VarCN dog_CN))))))
 Words300Ace: John sees nothing but dogs .
+Words300Afr: Jan sien slegs honde .
 Words300Bul: Джон вижда само кучета .
 Words300Cat: Joan veu nomÈs gosos .
 Words300Chi: 约 翰 看 只 有 的 一 些 狗 。
@@ -571,6 +594,7 @@ Words300Urd: جان صرف کتے دیکھتا ہے
 
 Words300: baseText (sText (s (vpS (everyNP (cn_as_VarCN dog_CN)) (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN)))))))
 Words300Ace: every dog fears a policeman .
+Words300Afr: elk hond vrees 'n polisieman .
 Words300Bul: всяко куче се страхува полицай .
 Words300Cat: cada gos tem una policia .
 Words300Chi: 每 只 狗 怕 一 名 警 察 。
@@ -596,6 +620,7 @@ Words300Urd: ہر کتا پولیس والا ڈرتا ہے
 
 Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN)))))))
 Words300Ace: everything that fears a policeman is a dog .
+Words300Afr: alles , wat 'n polisieman vrees is 'n hond .
 Words300Bul: всичко което се страхува полицай е куче .
 Words300Cat: tot que tem una policia és un gos .
 Words300Chi: 怕 一 名 警 察 的 每 件 事 是 一 只 狗 。
@@ -621,6 +646,7 @@ Words300Urd: ہر چیز , جو پولیس والا ڈرتا ہے کتا ہے
 
 Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))) (V2by_as_V2 fear_V2))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN)))))))
 Words300Ace: everything that a dog fears is a policeman .
+Words300Afr: alles , wat 'n hond vrees is 'n polisieman .
 Words300Bul: всичко което куче се страхува е полицай .
 Words300Cat: tot que un gos tem és una policia .
 Words300Chi: 一 只 狗 怕 的 每 件 事 是 一 名 警 察 。
@@ -646,6 +672,7 @@ Words300Urd: ہر چیز , جس کتا ڈرتا ہے پولیس والا ہے
 
 Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (orRS (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))) (V2by_as_V2 fear_V2)) (slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))) (V2by_as_V2 hate_V2)))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN)))))))
 Words300Ace: everything that a dog fears or that a worm hates is a policeman .
+Words300Afr: alles , wat 'n hond vrees of wat 'n wurm haat is 'n polisieman .
 Words300Bul: всичко което куче се страхува или което червей мрази е полицай .
 Words300Cat: tot que un gos tem o que un cuc odia és una policia .
 Words300Chi: 一 只 狗 怕 的 还 是 一 只 虫 讨 厌 的 每 件 事 是 一 名 警 察 。
@@ -671,6 +698,7 @@ Words300Urd: ہر چیز , جس کتا ڈرتا ہے یا جس گرم نفرت �
 
 Words300: baseText (sText (s (vpS (everyNP (cn_as_VarCN dog_CN)) (v2VP (V2by_as_V2 fear_V2) (nothing_butNP (cn_as_VarCN policeman_CN))))))
 Words300Ace: every dog fears nothing but policemen .
+Words300Afr: elk hond vrees slegs polisiemanne .
 Words300Bul: всяко куче се страхува само полицаи .
 Words300Cat: cada gos tem nomÈs policies .
 Words300Chi: 每 只 狗 怕 只 有 的 一 些 警 察 。
@@ -696,6 +724,7 @@ Words300Urd: ہر کتا صرف پولیس والے ڈرتا ہے
 
 Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP (V2by_as_V2 fear_V2) (nothing_butNP (cn_as_VarCN tail_CN))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN)))))))
 Words300Ace: everything that fears nothing but tails is a worm .
+Words300Afr: alles , wat slegs sterte vrees is 'n wurm .
 Words300Bul: всичко което се страхува само опашки е червей .
 Words300Cat: tot que tem nomÈs cues és un cuc .
 Words300Chi: 怕 只 有 的 一 些 尾 巴 的 每 件 事 是 一 只 虫 。
@@ -721,6 +750,7 @@ Words300Urd: ہر چیز , جو صرف دم ڈرتا ہے گرم ہے
 
 Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP (V2by_as_V2 see_V2) (thereNP_as_NP (indefTherePronNP something_IPron))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN)))))))
 Words300Ace: everything that sees something is a bird .
+Words300Afr: alles , wat iets sien is 'n voël .
 Words300Bul: всичко което вижда нещо е птица .
 Words300Cat: tot que veu quelcom és un ocell .
 Words300Chi: 看 某 事 的 每 件 事 是 一 只 鸟 。
@@ -746,6 +776,7 @@ Words300Urd: ہر چیز , جو کوی چیز دیکھتا ہے پرندہ ہے
 
 Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (slashRS which_RP (thereNP_as_NP (indefTherePronNP something_IPron)) (V2by_as_V2 see_V2))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN)))))))
 Words300Ace: everything that something sees is a bird .
+Words300Afr: alles , wat iets sien is 'n voël .
 Words300Bul: всичко което нещо вижда е птица .
 Words300Cat: tot que quelcom veu és un ocell .
 Words300Chi: 某 事 看 的 每 件 事 是 一 只 鸟 。
@@ -771,6 +802,7 @@ Words300Urd: ہر چیز , جس کوی چیز دیکھتا ہے پرندہ ہے
 
 Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP find_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN book_CN)))))))
 Words300Ace: everything that is found by something is a book .
+Words300Afr: alles , wat deur iets gevind word is 'n boek .
 Words300Bul: всичко което е намерено чрез нещо е книга .
 Words300Cat: tot que està trobat per quelcom és un llibre .
 Words300Chi: 在 被 某 事 被 发 现 的 每 件 事 是 一 本 书 。
@@ -796,6 +828,7 @@ Words300Urd: ہر چیز , جو کوی چیز سے پاتا ہے کتاب ہے
 
 Words300: baseText (sText (s (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP (V2by_as_V2 find_V2) (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN)))))))))
 Words300Ace: everything that finds something is a horse or is a bird .
+Words300Afr: [np_coord_VPS] .
 Words300Bul: всичко което намира нещо е кон или е птица .
 Words300Cat: tot que troba quelcom és un cavall o és un ocell .
 Words300Chi: [np_coord_VPS] 。
@@ -821,6 +854,7 @@ Words300Urd: [np_coord_VPS]
 
 Words300: baseText (sText (s (np_coord_VPS (relNP (indefPronNP everything_IPron) (slashRS which_RP (thereNP_as_NP (indefTherePronNP something_IPron)) (V2by_as_V2 find_V2))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN)))))))))
 Words300Ace: everything that something finds is a horse or is a bird .
+Words300Afr: [np_coord_VPS] .
 Words300Bul: всичко което нещо намира е кон или е птица .
 Words300Cat: tot que quelcom troba és un cavall o és un ocell .
 Words300Chi: [np_coord_VPS] 。
@@ -846,6 +880,7 @@ Words300Urd: [np_coord_VPS]
 
 Words300: baseText (sText (s (np_coord_VPS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2_byVP see_V2 (thereNP_as_NP (indefTherePronNP something_IPron))))) or_Conj (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN airplane_CN)))))))))
 Words300Ace: everything that is seen by something is a horse or is an airplane .
+Words300Afr: [np_coord_VPS] .
 Words300Bul: всичко което е видяно чрез нещо е кон или е самолет .
 Words300Cat: tot que està vist per quelcom és un cavall o és un avió .
 Words300Chi: [np_coord_VPS] 。
@@ -871,6 +906,7 @@ Words300Urd: [np_coord_VPS]
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 find_V2) (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN bird_CN)))))))
 Words300Ace: John finds at least 2 birds .
+Words300Afr: Jan vind ten minste 2 voëls .
 Words300Bul: Джон намира почти 2 птици .
 Words300Cat: Joan troba almenys 2 ocells .
 Words300Chi: 约 翰 发 现 最 少 2 只 鸟 。
@@ -896,6 +932,7 @@ Words300Urd: جان کم از کم ۲ پرندے پاتا ہے
 
 Words300: baseText (sText (s (vpS (pnNP paris_PN) (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN policeman_CN)))))))
 Words300Ace: Paris fears at most 1 policeman .
+Words300Afr: Parys vrees hoogstens 1 polisieman .
 Words300Bul: Париж се страхува почти 1 полицай .
 Words300Cat: Paris tem com a màxim 1 policia .
 Words300Chi: 巴 黎 怕 最 多 1 名 警 察 。
@@ -921,6 +958,7 @@ Words300Urd: پیرس زیادہ سے زیادہ ۱ پولیس والا ڈرتا
 
 Words300: baseText (sText (s (vpS (everyNP (cn_as_VarCN horse_CN)) (v2VP (V2by_as_V2 see_V2) (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN airplane_CN)))))))
 Words300Ace: every horse sees at least 2 airplanes .
+Words300Afr: elk perd sien ten minste 2 vliegtuie .
 Words300Bul: всеки кон вижда почти 2 самолета .
 Words300Cat: cada cavall veu almenys 2 avions .
 Words300Chi: 每 匹 马 看 最 少 2 架 飞 机 。
@@ -946,6 +984,7 @@ Words300Urd: ہر گھوڑا کم از کم ۲ جہاز دیکھتا ہے
 
 Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (predRS which_RP (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN policeman_CN)))))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN)))))))
 Words300Ace: everything that fears at least 2 policemen is a bird .
+Words300Afr: alles , wat ten minste 2 polisiemanne vrees is 'n voël .
 Words300Bul: всичко което се страхува почти 2 полицаи е птица .
 Words300Cat: tot que tem almenys 2 policies és un ocell .
 Words300Chi: 怕 最 少 2 名 警 察 的 每 件 事 是 一 只 鸟 。
@@ -971,6 +1010,7 @@ Words300Urd: ہر چیز , جو کم از کم ۲ پولیس والے ڈرتا �
 
 Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (slashRS which_RP (thereNP_as_NP (at_leastNP (digitsCard (IDig D_2)) (cn_as_VarCN bird_CN))) (V2by_as_V2 fear_V2))) (npVP (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN)))))))
 Words300Ace: everything that at least 2 birds fear is a policeman .
+Words300Afr: alles , wat ten minste 2 voëls vrees is 'n polisieman .
 Words300Bul: всичко което почти 2 птици се страхуват е полицай .
 Words300Cat: tot que almenys 2 ocells temen és una policia .
 Words300Chi: 最 少 2 只 鸟 怕 的 每 件 事 是 一 名 警 察 。
@@ -996,6 +1036,7 @@ Words300Urd: ہر چیز , جس کم از کم ۲ پرندے ڈرتے ہیں پ�
 
 Words300: baseText (sText (s (vpS (everyNP (cn_as_VarCN bird_CN)) (v2VP (V2by_as_V2 see_V2) (thereNP_as_NP (at_mostNP (digitsCard (IDig D_1)) (cn_as_VarCN airplane_CN)))))))
 Words300Ace: every bird sees at most 1 airplane .
+Words300Afr: elk voël sien hoogstens 1 vliegtuig .
 Words300Bul: всяка птица вижда почти 1 самолет .
 Words300Cat: cada ocell veu com a màxim 1 avió .
 Words300Chi: 每 只 鸟 看 最 多 1 架 飞 机 。
@@ -1021,6 +1062,7 @@ Words300Urd: ہر پرندہ زیادہ سے زیادہ ۱ جہاز دیکھتا
 
 Words300: baseText (sText (s (vpS (relNP (indefPronNP everything_IPron) (orRS (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))))) (predRS which_RP (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))))) (v2VP (V2by_as_V2 see_V2) (thereNP_as_NP (at_mostNP (digitsCard (IDig D_2)) (cn_as_VarCN airplane_CN)))))))
 Words300Ace: everything that is a horse or that is a bird sees at most 2 airplanes .
+Words300Afr: alles , wat 'n perd is of wat 'n voël is sien hoogstens 2 vliegtuie .
 Words300Bul: всичко което е кон или което е птица вижда почти 2 самолета .
 Words300Cat: tot que és un cavall o que és un ocell veu com a màxim 2 avions .
 Words300Chi: 是 一 匹 马 的 还 是 是 一 只 鸟 的 每 件 事 看 最 多 2 架 飞 机 。
@@ -1046,6 +1088,7 @@ Words300Urd: ہر چیز , جو گھوڑا ہے یا جو پرندہ ہے زیا
 
 Words300: baseText (sText (s (vpS (noNP (cn_as_VarCN tail_CN)) (refl_v2VP (V2by_as_V2 hate_V2)))))
 Words300Ace: no tail hates itself .
+Words300Afr: geen stert haat hom .
 Words300Bul: 
 Words300Cat: cap cua es odia .
 Words300Chi: 不 条 尾 巴 讨 厌 自 己 。
@@ -1072,6 +1115,7 @@ Words300Urd: کوی نہیں دم خود نفرت کرتا ہے
 
 Words300: baseText (sText (s (if_thenS (vpS (termNP X_Var) (v2VP (V2by_as_V2 see_V2) (termNP Y_Var))) (neg_vpS (termNP Y_Var) (v2VP (V2by_as_V2 find_V2) (termNP X_Var))))))
 Words300Ace: if X sees Y then Y doesn't find X .
+Words300Afr: as X sien Y dan Y vind nie X nie .
 Words300Bul: [if_thenS] .
 Words300Cat: si X veu Y llavors Y no troba X .
 Words300Chi: 如 果 X 看 Y 那 么 Y 没 发 现 X 。
@@ -1097,6 +1141,7 @@ Words300Urd: اگر X Y دیکھتا ہے تو Y X نہیں پاتا ہے
 
 Words300: baseText (sText (s (if_thenS (vpS (termNP X_Var) (v2VP (V2by_as_V2 see_V2) (relNP (thereNP_as_NP (indefTherePronNP something_IPron)) (predRS which_RP (v2VP (V2by_as_V2 see_V2) (termNP Y_Var)))))) (vpS (termNP X_Var) (v2VP (V2by_as_V2 see_V2) (termNP Y_Var))))))
 Words300Ace: if X sees something that sees Y then X sees Y .
+Words300Afr: as X sien iets , wat Y sien dan X sien Y .
 Words300Bul: [if_thenS] .
 Words300Cat: si X veu quelcom que veu Y llavors X veu Y .
 Words300Chi: 如 果 X 看 看 Y 的 某 事 那 么 X 看 Y 。
@@ -1122,6 +1167,7 @@ Words300Urd: اگر X کوی چیز , جو Y دیکھتا ہے دیکھتا ہے
 
 Words300: baseText (sText (s (if_thenS (vpS (termNP X_Var) (v2VP (V2by_as_V2 hate_V2) (termNP Y_Var))) (vpS (termNP X_Var) (v2VP (V2by_as_V2 see_V2) (termNP Y_Var))))))
 Words300Ace: if X hates Y then X sees Y .
+Words300Afr: as X haat Y dan X sien Y .
 Words300Bul: [if_thenS] .
 Words300Cat: si X odia Y llavors X veu Y .
 Words300Chi: 如 果 X 讨 厌 Y 那 么 X 看 Y 。
@@ -1147,6 +1193,7 @@ Words300Urd: اگر X Y نفرت کرتا ہے تو X Y دیکھتا ہے
 
 Words300: baseText (sText (s (if_thenS (vpS (termNP X_Var) (v2VP (V2by_as_V2 bite_V2) (termNP Y_Var))) (vpS (termNP Y_Var) (v2VP (V2by_as_V2 hate_V2) (termNP X_Var))))))
 Words300Ace: if X bites Y then Y hates X .
+Words300Afr: as X byt Y dan Y haat X .
 Words300Bul: [if_thenS] .
 Words300Cat: si X mossega Y llavors Y odia X .
 Words300Chi: 如 果 X 咬 Y 那 么 Y 讨 厌 X 。
@@ -1172,6 +1219,7 @@ Words300Urd: اگر X Y کاٹتا ہے تو Y X نفرت کرتا ہے
 
 Words300: baseText (sText (s (if_thenS (vpS (termNP X_Var) (v2VP (V2by_as_V2 find_V2) (termNP Y_Var))) (neg_vpS (termNP X_Var) (v2VP (V2by_as_V2 hate_V2) (termNP Y_Var))))))
 Words300Ace: if X finds Y then X doesn't hate Y .
+Words300Afr: as X vind Y dan X haat nie Y nie .
 Words300Bul: [if_thenS] .
 Words300Cat: si X troba Y llavors X no odia Y .
 Words300Chi: 如 果 X 发 现 Y 那 么 X 没 讨 厌 Y 。
@@ -1197,6 +1245,7 @@ Words300Urd: اگر X Y پاتا ہے تو X Y نفرت نہیں کرتا ہے
 
 Words300: baseText (sText (s (if_thenS (neg_vpS (thereNP_as_NP (aNP (apposVarCN dog_CN X_Var))) (v2VP (V2by_as_V2 hate_V2) (thereNP_as_NP (aNP (apposVarCN worm_CN Y_Var))))) (neg_vpS (theNP (apposVarCN worm_CN Y_Var)) (v2VP (V2by_as_V2 hate_V2) (theNP (apposVarCN dog_CN X_Var)))))))
 Words300Ace: if a dog X doesn't hate a worm Y then the worm Y doesn't hate the dog X .
+Words300Afr: as 'n hond X haat nie 'n wurm Y nie dan die wurm Y haat nie die hond X nie .
 Words300Bul: [if_thenS] .
 Words300Cat: si un gos X no odia un cuc Y llavors el cuc Y no odia el gos X .
 Words300Chi: 如 果 一 只 X 狗 没 讨 厌 一 只 Y 虫 那 么 Y 虫 没 讨 厌 X 狗 。
@@ -1222,6 +1271,7 @@ Words300Urd: اگر کتا X گرم Y نفرت نہیں کرتا ہے تو گر�
 
 Words300: baseText (sText (s (if_thenS (neg_vpS (thereNP_as_NP (aNP (apposVarCN dog_CN X_Var))) (v2VP (V2by_as_V2 bite_V2) (thereNP_as_NP (aNP (apposVarCN worm_CN Y_Var))))) (neg_vpS (theNP (apposVarCN worm_CN Y_Var)) (v2VP (V2by_as_V2 bite_V2) (theNP (apposVarCN dog_CN X_Var)))))))
 Words300Ace: if a dog X doesn't bite a worm Y then the worm Y doesn't bite the dog X .
+Words300Afr: as 'n hond X byt nie 'n wurm Y nie dan die wurm Y byt nie die hond X nie .
 Words300Bul: [if_thenS] .
 Words300Cat: si un gos X no mossega un cuc Y llavors el cuc Y no mossega el gos X .
 Words300Chi: 如 果 一 只 X 狗 没 咬 一 只 Y 虫 那 么 Y 虫 没 咬 X 狗 。
@@ -1247,6 +1297,7 @@ Words300Urd: اگر کتا X گرم Y نہیں کاٹتا ہے تو گرم Y ک�
 
 Words300: baseText (sText (s (falseS (neg_vpS (thereNP_as_NP (indefTherePronNP something_IPron)) (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (exactlyNP (digitsCard (IDig D_3)) (cn_as_VarCN cat_CN))))))))
 Words300Ace: it is false that something doesn't fear exactly 3 cats .
+Words300Afr: dit is vals dat iets nie presies 3 katte nie vrees .
 Words300Bul: [falseS] .
 Words300Cat: és fals que quelcom no tem exactament 3 gats .
 Words300Chi: 是 T O D O 某 事 没 怕 TODO 3 只 猫 的 。
@@ -1272,6 +1323,7 @@ Words300Urd: GlT کہ کوی چیز TODO ۳ بلیاں نہیں ڈرتا ہے ہ
 
 Words300: baseText (qsText (qs (slash_ipQS whatSg_IP (pnNP john_PN) (V2by_as_V2 fear_V2))))
 Words300Ace: what does John fear ?
+Words300Afr: wat vrees Jan ?
 Words300Bul: какъв се страхува Джон ?
 Words300Cat: què tem Joan ?
 Words300Chi: 约 翰 怕 的 是 什 么 ？
@@ -1297,6 +1349,7 @@ Words300Urd: کس کو جان ڈرتا ہے
 
 Words300: baseText (qsText (qs (neg_npqQS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN cat_CN))) (v2VP (V2by_as_V2 bite_V2) (pnNP paris_PN)))))
 Words300Ace: which cats don't bite Paris ?
+Words300Afr: [neg_npqQS] ?
 Words300Bul: [neg_npqQS] ?
 Words300Cat: quins gats no mosseguen Paris ?
 Words300Chi: [neg_npqQS] ？
@@ -1322,6 +1375,7 @@ Words300Urd: کون سی بلیاں پیرس نہیں کاٹتیں ہیں
 
 Words300: baseText (qsText (qs (vpqQS (everyNP (cn_as_VarCN dog_CN)) (v2VPQ (V2by_as_V2 see_V2) (ipNPQ whatSg_IP)))))
 Words300Ace: every dog sees what ?
+Words300Afr: [vpqQS] ?
 Words300Bul: [vpqQS] ?
 Words300Cat: cada gos veu què ?
 Words300Chi: [vpqQS] ？
@@ -1347,6 +1401,7 @@ Words300Urd: ہر کتا کیا دیکھتا ہے
 
 Words300: baseText (qsText (qs (np_coord_VPSQ (everyNP (cn_as_VarCN dog_CN)) or_Conj (BaseVPSQ (vpq_as_posVPSQ (v2VPQ (V2by_as_V2 see_V2) (ipNPQ whatSg_IP))) (vpq_as_negVPSQ (v2VPQ (V2by_as_V2 hate_V2) (ipNPQ whatSg_IP)))))))
 Words300Ace: every dog sees what or doesn't hate what ?
+Words300Afr: [np_coord_VPSQ] ?
 Words300Bul: [np_coord_VPSQ] ?
 Words300Cat: cada gos veu què o no odia què ?
 Words300Chi: [np_coord_VPSQ] ？
@@ -1372,6 +1427,7 @@ Words300Urd: [np_coord_VPSQ]
 
 Words300: baseText (qsText (qs (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN dog_CN))) (v2VP (V2by_as_V2 find_V2) (thereNP_as_NP (indefTherePronVarNP something_IPron X_Var))))))
 Words300Ace: which dog finds something X ?
+Words300Afr: [npqQS] ?
 Words300Bul: [npqQS] ?
 Words300Cat: quin gos troba X ?
 Words300Chi: [npqQS] ？
@@ -1397,6 +1453,7 @@ Words300Urd: کون سا کتا X پاتا ہے
 
 Words300: baseText (qsText (qs (npqQS (ipNPQ whatSg_IP) (v2_byVP fear_V2 (pnNP john_PN)))))
 Words300Ace: what is feared by John ?
+Words300Afr: [npqQS] ?
 Words300Bul: [npqQS] ?
 Words300Cat: què està temut per Joan ?
 Words300Chi: [npqQS] ？
@@ -1422,6 +1479,7 @@ Words300Urd: کیا جان سے ڈرتا ہے
 
 Words300: baseText (qsText (qs (neg_npqQS (ipNPQ (whichIP whichPl_IDet (cn_as_VarCN cat_CN))) (v2_byVP bite_V2 (pnNP paris_PN)))))
 Words300Ace: which cats aren't bitten by Paris ?
+Words300Afr: [neg_npqQS] ?
 Words300Bul: [neg_npqQS] ?
 Words300Cat: quins gats no estan mossegats per Paris ?
 Words300Chi: [neg_npqQS] ？
@@ -1447,6 +1505,7 @@ Words300Urd: کون سی بلیاں پیرس سے نہیں کاٹتیں ہیں
 
 Words300: baseText (qsText (qs (npqQS (ipNPQ whatSg_IP) (v2_byVP see_V2 (everyNP (cn_as_VarCN dog_CN))))))
 Words300Ace: what is seen by every dog ?
+Words300Afr: [npqQS] ?
 Words300Bul: [npqQS] ?
 Words300Cat: què està vist per cada gos ?
 Words300Chi: [npqQS] ？
@@ -1472,6 +1531,7 @@ Words300Urd: کیا ہر کتا سے دیکھتا ہے
 
 Words300: baseText (qsText (qs (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN dog_CN))) (v2_byVP find_V2 (thereNP_as_NP (indefTherePronVarNP something_IPron X_Var))))))
 Words300Ace: which dog is found by something X ?
+Words300Afr: [npqQS] ?
 Words300Bul: [npqQS] ?
 Words300Cat: quin gos està trobat per X ?
 Words300Chi: [npqQS] ？
@@ -1497,6 +1557,7 @@ Words300Urd: کون سا کتا X سے پاتا ہے
 
 Words300: baseText (qsText (qs (neg_vpqQS (pnNP john_PN) (v2_byVPQ find_V2 (ipNPQ whatSg_IP)))))
 Words300Ace: John isn't found by what ?
+Words300Afr: [neg_vpqQS] ?
 Words300Bul: [neg_vpqQS] ?
 Words300Cat: Joan no està trobat per què ?
 Words300Chi: [neg_vpqQS] ？
@@ -1522,6 +1583,7 @@ Words300Urd: جان کیا سے نہیں پاتا ہے
 
 Words300: baseText (qsText (qs (npqQS (ipNPQ (whichIP which_IDet (cn_as_VarCN dog_CN))) (refl_v2VP (V2by_as_V2 find_V2)))))
 Words300Ace: which dog finds itself ?
+Words300Afr: [npqQS] ?
 Words300Bul: [npqQS] ?
 Words300Cat: quin gos es troba ?
 Words300Chi: [npqQS] ？
@@ -1547,6 +1609,7 @@ Words300Urd: کون سا کتا خود پاتا ہے
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 push_V2) (thereNP_as_NP (aNP (ofCN tail_CN (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))))))))))
 Words300Ace: John pushes a tail of a dog .
+Words300Afr: Jan stoot 'n stert van 'n hond .
 Words300Bul: Джон бута опашка на куче .
 Words300Cat: Joan empeny una cua d' un gos .
 Words300Chi: 约 翰 推 一 条 一 只 狗 的 的 尾 巴 。
@@ -1572,6 +1635,7 @@ Words300Urd: جان کتا کا دم کو دھکیلتا ہے
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (ofCN dog_CN (pnNP paris_PN))))))))
 Words300Ace: John is a dog of Paris .
+Words300Afr: Jan is 'n hond van Parys .
 Words300Bul: Джон е куче на Париж .
 Words300Cat: Joan és un gos de Paris .
 Words300Chi: 约 翰 是 一 只 巴 黎 的 的 狗 。
@@ -1597,6 +1661,7 @@ Words300Urd: جان پیرس کا کتا ہے
 
 Words300: baseText (sText (s (vpS (everyNP (ofCN tail_CN (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))))) (v2_byVP see_V2 (pnNP paris_PN)))))
 Words300Ace: every tail of a cat is seen by Paris .
+Words300Afr: elk stert van 'n kat word deur Parys gesien .
 Words300Bul: всяка опашка на котка е видяна чрез Париж .
 Words300Cat: cada cua d' un gat està vista per Paris .
 Words300Chi: 每 条 一 只 猫 的 的 尾 巴 在 被 巴 黎 被 看 。
@@ -1622,6 +1687,7 @@ Words300Urd: ہر بلی کا دم پیرس سے دیکھتا ہے
 
 Words300: baseText (sText (s (vpS (pnNP paris_PN) (npVP (thereNP_as_NP (aNP (ofCN policeman_CN (everyNP (cn_as_VarCN airplane_CN)))))))))
 Words300Ace: Paris is a policeman of every airplane .
+Words300Afr: Parys is 'n polisieman van elk vliegtuig .
 Words300Bul: Париж е полицай на всеки самолет .
 Words300Cat: Paris és una policia cada avió .
 Words300Chi: 巴 黎 是 一 名 每 架 飞 机 的 的 警 察 。
@@ -1647,6 +1713,7 @@ Words300Urd: پیرس ہر جہاز کا پولیس والا ہے
 
 Words300: baseText (qsText (qs (vpqQS (thereNP_as_NP (exactlyNP (digitsCard (IDig D_2)) (cn_as_VarCN bird_CN))) (npqVPQ (aNPQ (ofnpqCN (cn_as_VarCN policeman_CN) (ipNPQ whatSg_IP)))))))
 Words300Ace: exactly 2 birds are a policeman of what ?
+Words300Afr: [vpqQS] ?
 Words300Bul: [vpqQS] ?
 Words300Cat: exactament 2 ocells són una policia de què ?
 Words300Chi: [vpqQS] ？
@@ -1672,6 +1739,7 @@ Words300Urd: TODO ۲ پرندے کیا کا پولیس والا ہیں
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (pnNP john_PN)))))
 Words300Ace: John is John .
+Words300Afr: Jan is Jan .
 Words300Bul: Джон е Джон .
 Words300Cat: Joan és Joan .
 Words300Chi: 约 翰 是 约 翰 。
@@ -1697,6 +1765,7 @@ Words300Urd: جان جان ہے
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (everyNP (cn_as_VarCN dog_CN))))))
 Words300Ace: John is every dog .
+Words300Afr: Jan is elk hond .
 Words300Bul: Джон е всяко куче .
 Words300Cat: Joan és cada gos .
 Words300Chi: 约 翰 是 每 只 狗 。
@@ -1722,6 +1791,7 @@ Words300Urd: جان ہر کتا ہے
 
 Words300: baseText (sText (s (vpS (nothing_butNP (cn_as_VarCN dog_CN)) (v2VP (V2by_as_V2 see_V2) (pnNP paris_PN)))))
 Words300Ace: nothing but dogs see Paris .
+Words300Afr: slegs honde sien Parys .
 Words300Bul: само кучета виждат Париж .
 Words300Cat: nomÈs gosos veuen Paris .
 Words300Chi: 只 有 的 一 些 狗 看 巴 黎 。
@@ -1747,6 +1817,7 @@ Words300Urd: صرف کتے پیرس دیکھتے ہیں
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (npVP (termNP X_Var)))))
 Words300Ace: John is X .
+Words300Afr: Jan is X .
 Words300Bul: Джон е X .
 Words300Cat: Joan és X .
 Words300Chi: 约 翰 是 X 。
@@ -1772,6 +1843,7 @@ Words300Urd: جان X ہے
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 see_V2) (termNP X_Var)))))
 Words300Ace: John sees X .
+Words300Afr: Jan sien X .
 Words300Bul: Джон вижда X .
 Words300Cat: Joan veu X .
 Words300Chi: 约 翰 看 X 。
@@ -1797,6 +1869,7 @@ Words300Urd: جان X دیکھتا ہے
 
 Words300: baseText (sText (s (vpS (termNP X_Var) (npVP (thereNP_as_NP (indefTherePronVarNP something_IPron X_Var))))))
 Words300Ace: X is something X .
+Words300Afr: X is X .
 Words300Bul: X е X .
 Words300Cat: X és X .
 Words300Chi: X 是 X 。
@@ -1822,6 +1895,7 @@ Words300Urd: X X ہے
 
 Words300: baseText (sText (s (neg_vpS (everyNP (apposVarCN dog_CN X_Var)) (v2VP (V2by_as_V2 see_V2) (thereNP_as_NP (aNP (apposVarCN worm_CN Y_Var)))))))
 Words300Ace: every dog X doesn't see a worm Y .
+Words300Afr: elk hond X sien nie 'n wurm Y nie .
 Words300Bul: всяко куче X не вижда червей Y .
 Words300Cat: cada gos X no veu un cuc Y .
 Words300Chi: 每 只 X 狗 没 看 一 只 Y 虫 。
@@ -1847,6 +1921,7 @@ Words300Urd: ہر کتا X گرم Y نہیں دیکھتا ہے
 
 Words300: baseText (sText (s (thereNP (indefTherePronNP something_IPron))))
 Words300Ace: there is something .
+Words300Afr: daar is iets .
 Words300Bul: има нещо .
 Words300Cat: hi ha quelcom .
 Words300Chi: 有 某 事 。
@@ -1872,6 +1947,7 @@ Words300Urd: کوی چیز ہے
 
 Words300: baseText (sText (s (thereNP (aNP (cn_as_VarCN dog_CN)))))
 Words300Ace: there is a dog .
+Words300Afr: daar is 'n hond .
 Words300Bul: има куче .
 Words300Cat: hi ha un gos .
 Words300Chi: 有 一 只 狗 。
@@ -1897,6 +1973,7 @@ Words300Urd: کتا ہے
 
 Words300: baseText (sText (s (thereNP (more_thanNP (digitsCard (IDig D_2)) (relCN (cn_as_VarCN dog_CN) (predRS which_RP (v2VP (V2by_as_V2 push_V2) (thereNP_as_NP (less_thanNP (digitsCard (IDig D_3)) (cn_as_VarCN book_CN))))))))))
 Words300Ace: there are more than 2 dogs that push less than 3 books .
+Words300Afr: daar is meer as 2 honde wat minder as 3 boeke stoot .
 Words300Bul: има повече от 2 кучета които бутат по-малко от 3 книги .
 Words300Cat: hi ha més que 2 gosos que empenyen menys que 3 llibres .
 Words300Chi: 有 比 2 只 推 比 3 本 书 的 狗 。
@@ -1922,6 +1999,7 @@ Words300Urd: ۲ سے زیادہ کتے جو ۳ سے کم کتابیں کو دھ�
 
 Words300: baseText (sText (s (falseS (thereNP (at_leastNP (digitsCard (IDig D_1)) (cn_as_VarCN dog_CN))))))
 Words300Ace: it is false that there is at least 1 dog .
+Words300Afr: dit is vals dat daar ten minste 1 hond is .
 Words300Bul: [falseS] .
 Words300Cat: és fals que hi ha almenys 1 gos .
 Words300Chi: 是 T O D O 有 最 少 1 只 狗 的 。
@@ -1947,6 +2025,7 @@ Words300Urd: GlT کہ کم از کم ۱ کتا ہے ہے
 
 Words300: baseText (sText (s (for_everyS (apposVarCN horse_CN X_Var) (vpS (indefPronNP everything_IPron) (v2VP (V2by_as_V2 hate_V2) (termNP X_Var))))))
 Words300Ace: for every horse X everything hates X .
+Words300Afr: voor elk perd X haat alles X .
 Words300Bul: за всеки кон X всичко мрази X .
 Words300Cat: per a cada cavall X tot odia X .
 Words300Chi: 为 了 每 匹 X 马 每 件 事 讨 厌 X 。
@@ -1972,6 +2051,7 @@ Words300Urd: ہر گھوڑا X کیلیے ہر چیز X نفرت کرتا ہے
 
 Words300: baseText (sText (s (vpS (indefPronVarNP everything_IPron X_Var) (npVP (thereNP_as_NP (aNP (cn_as_VarCN tail_CN)))))))
 Words300Ace: everything X is a tail .
+Words300Afr: X is 'n stert .
 Words300Bul: X е опашка .
 Words300Cat: X és una cua .
 Words300Chi: X 是 一 条 尾 巴 。
@@ -1997,6 +2077,7 @@ Words300Urd: X دم ہے
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 hate_V2) (relNP (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))) (neg_slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))) (V2by_as_V2 find_V2)))))))
 Words300Ace: John hates a worm that a cat doesn't find .
+Words300Afr: Jan haat 'n wurm , wat 'n kat nie nie vind .
 Words300Bul: Джон мрази червей който котка не намира .
 Words300Cat: Joan odia un cuc que un gat no troba .
 Words300Chi: 约 翰 讨 厌 一 只 猫 没 发 现 的 一 只 虫 。
@@ -2021,6 +2102,7 @@ Words300Urd: جان گرم , جس بلی نہیں پاتی ہے نفرت کرت�
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 hate_V2) (thereNP_as_NP (aNP (relCN (cn_as_VarCN worm_CN) (neg_slashRS which_RP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))) (V2by_as_V2 find_V2)))))))))
 Words300Ace: John hates a worm that a cat doesn't find .
+Words300Afr: Jan haat 'n wurm wat 'n kat nie nie vind .
 Words300Bul: Джон мрази червей който котка не намира .
 Words300Cat: Joan odia un cuc que un gat no troba .
 Words300Chi: 约 翰 讨 厌 一 只 一 只 猫 没 发 现 的 虫 。
@@ -2046,6 +2128,7 @@ Words300Urd: جان گرم جس بلی نہیں پاتی ہے نفرت کرتا 
 
 Words300: baseText (sText (s (np_coord_VPS (pnNP john_PN) and_Conj (BaseVPS (vp_as_posVPS (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (aNP (cn_as_VarCN tail_CN))))) (vp_as_negVPS (v2VP (V2by_as_V2 fear_V2) (thereNP_as_NP (aNP (cn_as_VarCN policeman_CN)))))))))
 Words300Ace: John fears a tail and doesn't fear a policeman .
+Words300Afr: [np_coord_VPS] .
 Words300Bul: Джон се страхува опашка и не се страхува полицай .
 Words300Cat: Joan tem una cua i no tem una policia .
 Words300Chi: [np_coord_VPS] 。
@@ -2071,6 +2154,7 @@ Words300Urd: [np_coord_VPS]
 
 Words300: baseText (sText (s (np_coord_VPS (pnNP john_PN) and_Conj (ConsVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))))) (BaseVPS (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))))) (vp_as_posVPS (npVP (thereNP_as_NP (aNP (cn_as_VarCN bird_CN))))))))))
 Words300Ace: John is a dog , is a cat and is a bird .
+Words300Afr: [np_coord_VPS] .
 Words300Bul: Джон е куче , е котка и е птица .
 Words300Cat: Joan és un gos i és un gat és un ocell .
 Words300Chi: [np_coord_VPS] 。
@@ -2096,6 +2180,7 @@ Words300Urd: [np_coord_VPS]
 
 Words300: baseText (sText (s (vpS (pnNP john_PN) (v2VP (V2by_as_V2 hate_V2) (thereNP_as_NP (exactlyNP (digitsCard (IIDig D_1 (IIDig D_2 (IIDig D_3 (IIDig D_4 (IIDig D_5 (IIDig D_6 (IIDig D_7 (IIDig D_8 (IIDig D_9 (IDig D_0))))))))))) (cn_as_VarCN tail_CN)))))))
 Words300Ace: John hates exactly 1 2 3 4 5 6 7 8 9 0 tails .
+Words300Afr: Jan haat presies 1 2 3 4 5 6 7 8 9 0 sterte .
 Words300Bul: Джон мрази TODO 1 , 2 3 4 , 5 6 7 , 8 9 0 опашки .
 Words300Cat: Joan odia exactament 1 2 3 4 5 6 7 8 9 0 cues .
 Words300Chi: 约 翰 讨 厌 TODO 1 2 3 4 5 6 7 8 9 0 条 尾 巴 。
@@ -2121,6 +2206,7 @@ Words300Urd: جان TODO ۰ &+ ۹ &+ ۸ &+ ۷ &+ ۶ &+ ۵ &+ ۴ &+ ۳ &+ ۲ &+ �
 
 Words300: consText (sText (s (vpS (pnNP john_PN) (npVP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))))))) (baseText (qsText (qs (npqQS (ipNPQ whatSg_IP) (npVP (pnNP paris_PN))))))
 Words300Ace: John is a dog . what is Paris ?
+Words300Afr: Jan is 'n hond . [npqQS] ?
 Words300Bul: Джон е куче . [npqQS] ?
 Words300Cat: Joan és un gos . què és Paris ?
 Words300Chi: 约 翰 是 一 只 狗 。 [npqQS] ？
@@ -2146,6 +2232,7 @@ Words300Urd: جان کتا ہے کیا پیرس ہے
 
 Words300: baseText (qsText (qs (neg_vpqQS (pnNP john_PN) (npqVPQ (ipNPQ whatSg_IP)))))
 Words300Ace: John isn't what ?
+Words300Afr: [neg_vpqQS] ?
 Words300Bul: [neg_vpqQS] ?
 Words300Cat: Joan no és què ?
 Words300Chi: [neg_vpqQS] ？
@@ -2171,6 +2258,7 @@ Words300Urd: جان کیا نہیں ہے
 
 Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (npqVPQ (aNPQ (ofnpqCN (cn_as_VarCN dog_CN) (ipNPQ whatSg_IP)))))))
 Words300Ace: John is a dog of what ?
+Words300Afr: [vpqQS] ?
 Words300Bul: [vpqQS] ?
 Words300Cat: Joan és un gos de què ?
 Words300Chi: [vpqQS] ？
@@ -2196,6 +2284,7 @@ Words300Urd: جان کیا کا کتا ہے
 
 Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (npqVPQ (theNPQ (ofnpqCN (cn_as_VarCN book_CN) (ipNPQ whatSg_IP)))))))
 Words300Ace: John is the book of what ?
+Words300Afr: [vpqQS] ?
 Words300Bul: [vpqQS] ?
 Words300Cat: Joan és el llibre de què ?
 Words300Chi: [vpqQS] ？
@@ -2221,6 +2310,7 @@ Words300Urd: جان کیا کی کتاب ہے
 
 Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (npqVPQ (everyNPQ (ofnpqCN (cn_as_VarCN book_CN) (ipNPQ whatSg_IP)))))))
 Words300Ace: John is every book of what ?
+Words300Afr: [vpqQS] ?
 Words300Bul: [vpqQS] ?
 Words300Cat: Joan és cada llibre de què ?
 Words300Chi: [vpqQS] ？
@@ -2246,6 +2336,7 @@ Words300Urd: جان ہر کیا کی کتاب ہے
 
 Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (npqVPQ (noNPQ (ofnpqCN (cn_as_VarCN dog_CN) (ipNPQ whatSg_IP)))))))
 Words300Ace: John is no dog of what ?
+Words300Afr: [vpqQS] ?
 Words300Bul: [vpqQS] ?
 Words300Cat: Joan és cap gos de què ?
 Words300Chi: [vpqQS] ？
@@ -2271,6 +2362,7 @@ Words300Urd: جان کوی نہیں کیا کا کتا ہے
 
 Words300: baseText (qsText (qs (np_coord_VPSQ (pnNP john_PN) and_Conj (ConsVPSQ (vp_as_posVPSQ (npVP (thereNP_as_NP (aNP (cn_as_VarCN dog_CN))))) (BaseVPSQ (vp_as_posVPSQ (npVP (thereNP_as_NP (aNP (cn_as_VarCN cat_CN))))) (vpq_as_posVPSQ (npqVPQ (ipNPQ whatSg_IP))))))))
 Words300Ace: John is a dog , is a cat and is what ?
+Words300Afr: [np_coord_VPSQ] ?
 Words300Bul: [np_coord_VPSQ] ?
 Words300Cat: Joan és un gos i és un gat és què ?
 Words300Chi: [np_coord_VPSQ] ？
@@ -2296,6 +2388,7 @@ Words300Urd: [np_coord_VPSQ]
 
 Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (v2VPQ (V2by_as_V2 hate_V2) (relNPQ (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))) (slashRSQ which_RP (ipNPQ whatSg_IP) (V2by_as_V2 find_V2)))))))
 Words300Ace: John hates a worm that what finds ?
+Words300Afr: [vpqQS] ?
 Words300Bul: [vpqQS] ?
 Words300Cat: Joan odia un cuc que què troba ?
 Words300Chi: [vpqQS] ？
@@ -2321,6 +2414,7 @@ Words300Urd: جان گرم , جس کیا پاتا ہے نفرت کرتا ہے
 
 Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (v2VPQ (V2by_as_V2 hate_V2) (relNPQ (thereNP_as_NP (aNP (cn_as_VarCN worm_CN))) (neg_slashRSQ which_RP (ipNPQ whatSg_IP) (V2by_as_V2 find_V2)))))))
 Words300Ace: John hates a worm that what doesn't find ?
+Words300Afr: [vpqQS] ?
 Words300Bul: [vpqQS] ?
 Words300Cat: Joan odia un cuc que què no troba ?
 Words300Chi: [vpqQS] ？
@@ -2346,6 +2440,7 @@ Words300Urd: جان گرم , جس کیا نہیں پاتا ہے نفرت کرت�
 
 Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (v2VPQ (V2by_as_V2 fear_V2) (relNPQ (thereNP_as_NP (indefTherePronNP something_IPron)) (neg_predRSQ which_RP (npqVPQ (ipNPQ whatSg_IP))))))))
 Words300Ace: John fears something that isn't what ?
+Words300Afr: [vpqQS] ?
 Words300Bul: [vpqQS] ?
 Words300Cat: Joan tem quelcom que no és què ?
 Words300Chi: [vpqQS] ？
@@ -2371,6 +2466,7 @@ Words300Urd: جان کوی چیز , جو کیا نہیں ہے ڈرتا ہے
 
 Words300: baseText (qsText (qs (np_coord_VPSQ (pnNP john_PN) and_Conj (BaseVPSQ (vpq_as_posVPSQ (v2VPQ (V2by_as_V2 fear_V2) (ipNPQ whatSg_IP))) (vpq_as_negVPSQ (v2VPQ (V2by_as_V2 fear_V2) (ipNPQ whatSg_IP)))))))
 Words300Ace: John fears what and doesn't fear what ?
+Words300Afr: [np_coord_VPSQ] ?
 Words300Bul: [np_coord_VPSQ] ?
 Words300Cat: Joan tem què i no tem què ?
 Words300Chi: [np_coord_VPSQ] ？
@@ -2396,6 +2492,7 @@ Words300Urd: [np_coord_VPSQ]
 
 Words300: baseText (qsText (qs (vpqQS (pnNP john_PN) (v2VPQ (V2by_as_V2 hate_V2) (relNPQ (thereNP_as_NP (aNP (cn_as_VarCN horse_CN))) (predRSQ which_RP (npqVPQ (ipNPQ (whichIP which_IDet (cn_as_VarCN book_CN))))))))))
 Words300Ace: John hates a horse that is which book ?
+Words300Afr: [vpqQS] ?
 Words300Bul: [vpqQS] ?
 Words300Cat: Joan odia un cavall que és quin llibre ?
 Words300Chi: [vpqQS] ？
@@ -2421,6 +2518,7 @@ Words300Urd: جان گھوڑا , جو کون سی کتاب ہے نفرت کرت�
 
 Words300: baseText (qsText (qs (neg_slash_ipQS whatSg_IP (pnNP john_PN) (V2by_as_V2 hate_V2))))
 Words300Ace: what doesn't John hate ?
+Words300Afr: wat haat Jan nie nie ?
 Words300Bul: какъв не мрази Джон ?
 Words300Cat: què no odia Joan ?
 Words300Chi: 约 翰 没 讨 厌 的 是 什 么 ？
@@ -2446,6 +2544,7 @@ Words300Urd: کس کو جان نفرت نہیں کرتا ہے
 
 Words300: baseText (qsText (qs (npq_coord_VPS (ipNPQ (whichIP which_IDet (cn_as_VarCN cat_CN))) and_Conj (BaseVPS (vp_as_posVPS (v2VP (V2by_as_V2 hate_V2) (pnNP john_PN))) (vp_as_posVPS (v2VP (V2by_as_V2 push_V2) (thereNP_as_NP (aNP (cn_as_VarCN tail_CN)))))))))
 Words300Ace: which cat hates John and pushes a tail ?
+Words300Afr: [npq_coord_VPS] ?
 Words300Bul: [npq_coord_VPS] ?
 Words300Cat: quin gat odia Joan i empeny una cua ?
 Words300Chi: [npq_coord_VPS] ？
@@ -2471,6 +2570,7 @@ Words300Urd: [npq_coord_VPS]
 
 Words300: baseText (qsText (qs (np_coord_VPSQ (pnNP paris_PN) and_Conj (BaseVPSQ (vpq_as_posVPSQ (v2VPQ (V2by_as_V2 hate_V2) (ipNPQ whatSg_IP))) (vp_as_negVPSQ (v2VP (V2by_as_V2 hate_V2) (thereNP_as_NP (indefTherePronNP something_IPron))))))))
 Words300Ace: Paris hates what and doesn't hate something ?
+Words300Afr: [np_coord_VPSQ] ?
 Words300Bul: [np_coord_VPSQ] ?
 Words300Cat: Paris odia què i no odia quelcom ?
 Words300Chi: [np_coord_VPSQ] ？
