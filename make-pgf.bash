@@ -60,7 +60,7 @@ eval echo ${words}
 # so we don't use it, and the PGF is dropped into the current directory.
 # Note: optimize-pgf seems to give much better performance,
 # startcat is needed to make sure that the PGF compiler finds the start cat.
-gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --startcat=${startcat} --optimize-pgf --mk-index --name $name --path $path `eval echo ${words}`
+gf +RTS -${stack_size} -RTS --preproc=mkPresent --make --startcat=${startcat} --optimize-pgf --name $name --path $path `eval echo ${words}`
 
 # Commented out because always creates empty output.
 # It would be cool though to find out some day if ACE can be converted into a

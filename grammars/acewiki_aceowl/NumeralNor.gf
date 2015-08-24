@@ -1,4 +1,5 @@
-concrete NumeralNor of Numeral = CatNor [Numeral,Digits] ** open MorphoNor in {
+concrete NumeralNor of Numeral = CatNor [Numeral,Digits] ** open MorphoNor, Prelude in {
+  flags coding=utf8 ;
 
 lincat 
   Digit = {s : DForm => CardOrd => Str} ;
@@ -11,17 +12,17 @@ lin
 
   n2 = mkTal "to"   "tolv"    "tjue"   "andre"   "tolfte" ;
   n3 = mkTal "tre"  "tretten" "tretti" "tredje"  "trettende" ;
-  n4 = mkTal "fire" "fjorten" "førti"  "fjerde"  "fjortende" ;
+  n4 = mkTal "fire" "fjorten" "fÃ¸rti"  "fjerde"  "fjortende" ;
   n5 = mkTal "fem"  "femten"  "femti"  "femte"   "femtende" ;
   n6 = mkTal "seks" "seksten" "seksti" "sjette"  "sextende" ;
   n7 = mkTal "sju"  "sytten"  "sytti"  "syvende" "syttende" ;
-  n8 = mkTal "åtte" "atten"   "åtti"   "åttende" "attende" ;
+  n8 = mkTal "Ã¥tte" "atten"   "Ã¥tti"   "Ã¥ttende" "attende" ;
   n9 = mkTal "ni"   "nitten"  "nitti"  "niende"  "nittende" ;
 
   pot01 = {
     s = \\f => table {
           NCard g => case g of {NNeutr => "ett" ; NUtr _ => "en"} ; ---- ei ?
-          _ => "første"
+          _ => "fÃ¸rste"
           } ; 
     n = Sg
     } ;
@@ -52,7 +53,7 @@ lin
     IDig d = d ; 
 
     IIDig d i = {
-      s = \\o => d.s ! NCard neutrum ++ i.s ! o ;
+      s = \\o => d.s ! NCard neutrum ++ BIND ++ i.s ! o ;
       n = Pl
     } ;
 

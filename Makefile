@@ -34,8 +34,8 @@ Words300 = Words300
 startcat = ACEText
 
 # Language list
-# TODO: add back: Fin
-languages = Ace Ape Bul Cat Dan Dut Eng Est Fre Ger Gre Ita Lav Nor Pol Ron Rus Spa Swe Urd
+# TODO: add back: Fin Dan Lav Nor
+languages = Ace Ape Bul Cat Dut Eng Est Fre Ger Gre Ita Pol Ron Rus Spa Swe Urd
 
 #langs_Geography = Ace Ape Dut Fin Ger Ita Spa
 langs_Geography = Ace Ape Ger Spa
@@ -50,8 +50,8 @@ langs_Simple = Ace
 # TODO: rename 'Ace' to 'Eng' because the RGL English lexicon is not technically an ACE lexicon,
 # as it contains "words with spaces".
 # TODO: include also Afrikaans, Japanese (currently did not compile), Nepalese, Punjabi, Sindhi.
-# TODO: add back: Fin
-langs_Words300 = Ace Bul Cat Chi Dan Dut Est Fre Ger Gre Hin Ita Lav Mlt Nor Pol Ron Rus Spa Swe Tha Urd
+# TODO: add back: Fin Dan Lav Nor
+langs_Words300 = Ace Bul Cat Chi Dut Est Fre Ger Gre Hin Ita Mlt Pol Ron Rus Spa Swe Tha Urd
 
 # Compile application grammars in all languages
 all_grammars:
@@ -66,22 +66,22 @@ all_ontograph_40:
 	gf --batch --path=$(path) $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
 
 pgf_acewiki_aceowl:
-	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(languages),$(words)/TestAttempto$(lang).gf)
+	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf $(foreach lang,$(languages),$(words)/TestAttempto$(lang).gf)
 
 pgf_acewiki_aceowl_old_comp:
-	gf --old-comp --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(languages),$(words)/TestAttempto$(lang).gf)
+	gf --old-comp --make --path=$(path) --startcat=$(startcat) --optimize-pgf $(foreach lang,$(languages),$(words)/TestAttempto$(lang).gf)
 
 pgf_ontograph_40:
-	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
+	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf $(foreach lang,$(languages),$(words_onto)/TestAttempto$(lang).gf)
 
 pgf_Geography:
-	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf)
+	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf)
 
 # Compile Geography with Sentence as startcat.
 # This gives a smaller PGF (with optimized compilation).
 # TODO: investigate: 'pg -funs' still returns all the functions, even those that cannot be used
 pgf_Geography_Sentence:
-	gf --make --path=$(path) --startcat=Sentence --optimize-pgf --mk-index $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf)
+	gf --make --path=$(path) --startcat=Sentence --optimize-pgf $(foreach lang,$(langs_Geography),words/$(Geography)/$(Geography)$(lang).gf)
 
 pgf_Geography_evaluation: modify_Geography pgf_Geography_Sentence restore_Geography
 
@@ -96,10 +96,10 @@ restore_Geography:
 	rm -f words/Geography/$(attempto)I.gf
 
 pgf_Simple:
-	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_Simple),words/$(Simple)/$(Simple)$(lang).gf)
+	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf $(foreach lang,$(langs_Simple),words/$(Simple)/$(Simple)$(lang).gf)
 
 pgf_Words300:
-	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(foreach lang,$(langs_Words300),words/$(Words300)/$(Words300)$(lang).gf)
+	gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf $(foreach lang,$(langs_Words300),words/$(Words300)/$(Words300)$(lang).gf)
 
 lin_Words300_save: pgf_Words300
 	cat $(tests)$(Words300)/sentences.txt | sed -f tools/make_gf_parse_lin_command.sed | \
@@ -159,7 +159,7 @@ clean:
 perf_compilation:
 	for inputlang in $(languages); do \
 		find -name *.gfo | xargs rm -f ; \
-		time -f "%C\n%E real, %U user, %S sys" -o time.log -a gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf --mk-index $(words)/TestAttempto$$inputlang.gf ; \
+		time -f "%C\n%E real, %U user, %S sys" -o time.log -a gf --make --path=$(path) --startcat=$(startcat) --optimize-pgf $(words)/TestAttempto$$inputlang.gf ; \
 	done
 
 

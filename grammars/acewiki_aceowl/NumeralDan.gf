@@ -1,4 +1,5 @@
-concrete NumeralDan of Numeral = CatDan [Numeral,Digits] ** open MorphoDan in {
+concrete NumeralDan of Numeral = CatDan [Numeral,Digits] ** open MorphoDan,Prelude in {
+  flags coding=utf8 ;
 
 
 -- AR 12/10/2002 following www.geocities.com/tsca.geo/dansk/dknummer.html
@@ -23,7 +24,7 @@ lin n9 = mkTal "ni"   "nitten"  "halvfems"   "niende" "halvfemsindstyvende" ;
   pot01 = {
     s = \\f => table {
           NCard g => case g of {Neutr => "et" ; _ => "en"} ;
-          _ => "første"
+          _ => "fÃ¸rste"
           } ; 
     n = Sg
     } ;
@@ -51,7 +52,7 @@ lin n9 = mkTal "ni"   "nitten"  "halvfems"   "niende" "halvfemsindstyvende" ;
     IDig d = d ; 
 
     IIDig d i = {
-      s = \\o => d.s ! NCard neutrum ++ i.s ! o ;
+      s = \\o => d.s ! NCard neutrum ++ BIND ++ i.s ! o ;
       n = Pl
     } ;
 
