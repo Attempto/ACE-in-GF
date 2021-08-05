@@ -39,10 +39,7 @@ concrete AttemptoSpa of Attempto = SymbolsC, NumeralSpa **
   -- Copied verbatim from the RGL and added the type.
   -- TODO: wanted to use "CompAP" from VerbRomance, but got the error
   -- "cannot infer type of constant CompAP", gave up and created MyCompAP.
-  MyCompAP : Syntax.AP -> Syntax.Comp =
-    \ap -> lin Comp {s = \\ag => let agr = complAgr ag in ap.s ! AF agr.g agr.n} ;
-
-  S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s ! Indic} ; -- TODO: Indic ?
+  MyCompAP : Syntax.AP -> Syntax.Comp = mkComp ;
 
   -- RGL defines copula = verbBeschH (ser_1 "ser")
   -- RGL defines auxPassive = verbBeschH (estar_2 "estar")
