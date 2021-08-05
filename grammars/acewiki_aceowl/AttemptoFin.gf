@@ -4,7 +4,8 @@ concrete AttemptoFin of Attempto = NumeralFin **
   AttemptoI - [
     apposVarCN, indefTherePronVarNP, indefPronVarNP,
     termNP,
-    ofCN
+    ofCN,
+    S2QS
   ] with
   (Syntax = SyntaxFin),
   (Symbolic = SymbolicFin),
@@ -19,7 +20,7 @@ concrete AttemptoFin of Attempto = NumeralFin **
   -- *presidentillä Niinistö on koira
   oper mkApposStr : M.Noun -> Str = \v -> v.s ! NCase Sg Nom ;
 
-  oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = s.s} ;
+  oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS s ;
 
 
   oper mkPronVarNP : Syntax.NP -> Var -> Syntax.NP = \pr,v -> lin NP {

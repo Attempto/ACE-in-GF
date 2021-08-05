@@ -9,11 +9,9 @@ concrete AttemptoUrd of Attempto = NumeralUrd, SymbolsC, NullVPS **
   (Symbolic = SymbolicUrd),
   (LexAttempto = LexAttemptoUrd) ** open CommonHindustani in {
 
-oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s} ;
-       
 lin ipNPQ ip = lin NP {
       s = \\c => case c of { NPC cs => ip.s ! cs ; _ => ip.s ! Dir } ;
       a = agrP3 ip.g ip.n
-    } ;    
+    } ;
 
 } ;

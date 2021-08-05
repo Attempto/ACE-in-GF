@@ -48,8 +48,6 @@ lin if_thenS p q = mkAceS True (ExtAdvS (mkAdv if_Subj p.s) (mkS then_Adv q.s)) 
 -- VP coordination
 -- TODO
 
-oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s ! Main} ; -- TODO: Main ?
-       
 lin ipNPQ ip = lin NP {
       s = \\pcase => ip.s ! kase  where { kase = (prepC pcase).c } ;
       a = agrP3 ip.n ;

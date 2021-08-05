@@ -12,9 +12,6 @@ concrete AttemptoDan of Attempto = SymbolsC, NumeralDan **
   flags coding=utf8;
 
   -- Questions
-  -- TODO: Main ?
-  oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s ! Main} ;
-
   lin ipNPQ ip = lin NP (ip ** {a = agrP3 ip.g ip.n}) ;
 
   oper at_least_AdN = ss "mindst" ;

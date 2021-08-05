@@ -19,8 +19,6 @@ oper then_Adv = ss "dan" ;
 -- mkS : Adv -> S -> S
 lin if_thenS p q = mkAceS True (ExtAdvS (mkAdv if_Subj p.s) (mkS then_Adv q.s)) ;
 
-  oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s ! Main} ;
-
   lin ipNPQ ip = lin NP (ip ** {a = agrP3 ip.n ; isPron = True}) ;
 
 }

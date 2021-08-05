@@ -6,8 +6,6 @@ concrete AttemptoCat of Attempto = SymbolsC, NumeralCat ** AttemptoI with
   (Extra = ExtraCat),
   (LexAttempto = LexAttemptoCat) ** open CommonRomance in {
 
-  oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s ! Indic} ; -- TODO: Indic ?
-
   -- Copied from ResRomance.heavyNP
   lin ipNPQ ip = lin NP {
     s = \\c => {comp,ton = ip.s ! c ; c1,c2 = []} ;

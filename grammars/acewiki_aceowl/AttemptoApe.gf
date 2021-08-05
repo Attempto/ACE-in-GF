@@ -62,7 +62,6 @@ concrete AttemptoApe of Attempto = NumeralAce **
   lin vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) AnyNeg ;
 
   -- Questions
-  oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => s.s} ;
 
   lin ipNPQ ip = lin NP (ip ** {a = agrP3 ip.n}) ;
 
