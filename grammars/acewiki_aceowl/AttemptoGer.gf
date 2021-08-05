@@ -48,7 +48,7 @@ lin if_thenS p q = mkAceS True (ExtAdvS (mkAdv if_Subj p.s) (mkS then_Adv q.s)) 
 -- VP coordination
 -- TODO
 
-lin ipNPQ ip = lin NP {
+lin ipNPQ ip = it_NP ** {
       s = \\pcase => ip.s ! kase  where { kase = (prepC pcase).c } ;
       a = agrP3 ip.n ;
       isPron = True
