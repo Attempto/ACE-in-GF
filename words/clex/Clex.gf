@@ -41147,8 +41147,6 @@ mm_Unit : Unit;
 mol_Unit : Unit;
 s_Unit : Unit;
 t_Unit : Unit;
-°_Unit : Unit;
-°C_Unit : Unit;
 ACE_PN : PN;
 APE_PN : PN;
 April_PN : PN;
