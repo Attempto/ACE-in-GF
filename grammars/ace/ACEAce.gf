@@ -1,6 +1,6 @@
 --# -path=.:ace
 
-concrete ACEAce of ACE = AttemptoAce, SymbolsACEC - [Var,var_Term,X_Var,Y_Var] ** ACEI - [vVP] with
+concrete ACEAce of ACE = AttemptoAce, SymbolsACEC - [Var,var_Term,X_Var,Y_Var,Z_Var] ** ACEI - [vVP] with
   (Syntax = SyntaxAce),
   (Symbolic = SymbolicAce),
   (LexACE = LexACEAce) ** open ExtraAce in {

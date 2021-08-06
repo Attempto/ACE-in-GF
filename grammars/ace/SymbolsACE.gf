@@ -1,6 +1,6 @@
 abstract SymbolsACE = Symbols ** {
 
-cat Formula ;
+cat Formula ; Term ;
 
 fun plus_Term : Term -> Term -> Term ;
 fun minus_Term : Term -> Term -> Term ;
