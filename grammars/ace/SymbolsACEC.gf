@@ -1,6 +1,7 @@
 concrete SymbolsACEC of SymbolsACE = SymbolsC ** open Precedence, Prelude in {
 
 lincat Formula = SS ;
+lincat Term = TermWithPrec ;
 
 lin plus_Term  = mkpInfixL "+" p1 ;
 lin minus_Term = mkpInfixL "-" p1 ;
