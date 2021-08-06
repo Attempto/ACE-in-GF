@@ -14,6 +14,9 @@ lincat V3 = Syntax.V3 ;
 lincat Adv = Syntax.Adv ;
 lincat IAdv = Syntax.IAdv ;
 
+-- Guessed by IL: the ClexAce file doesn't contain all that it should, so I may be wrong.
+lincat Unit = Syntax.CN ;
+
 lin cardNP d = Syntax.mkNP d ;
 
 lin eachNP = mkNP each_Det ;
@@ -86,10 +89,10 @@ lin genOwnNP np cn = genitiveNP np (mkCN own_A cn) ;
 
 -- 2.3.1
 
-lin not_provably_vpS np vp = mkS negativePol (mkCl np (mkVP vp provably_Adv)) ;
+lin not_provably_vpS np vp = mkAceS (mkS negativePol (mkCl np (mkVP vp provably_Adv))) ;
 
 lin vVP  = mkVP ;
-lin vsVP = mkVP ;
+lin vsVP vs aceS = mkVP vs aceS.s;
 lin v3VP = mkVP ;
 
 -- 2.3.2
@@ -124,7 +127,7 @@ lin modVP = mkVP ;
 
 -- 3.3
 
-lin formulaS f = symb (ss f.s) ;
+lin formulaS f = mkAceS <symb (mkSymb f.s) : S> ;
 
 -- 3.4.1
 
@@ -133,19 +136,19 @@ lin commaOr_Conj = comma_or_Conj ;
 
 -- 3.4.3
 
-lin for_eachS cn = mkS (mkAdv for_Prep (mkNP each_Det cn)) ;
-lin for_each_ofS card cn =
-  mkS (mkAdv for_Prep (eachOf (mkNP card cn))) ;
-lin for_allMassS cn =
-  mkS (mkAdv for_Prep (mkNP all_Predet (mkNP cn))) ;
+-- Changed by IL 2021: TODO not sure if the AceS should retain its old isComplex, or do they become complex with these
+lin for_eachS cn = forAdvS (mkAdv for_Prep (mkNP each_Det cn)) ;
+lin for_each_ofS card cn = forAdvS (mkAdv for_Prep (eachOf (mkNP card cn))) ;
+lin for_allMassS cn = forAdvS (mkAdv for_Prep (mkNP all_Predet (mkNP cn))) ;
 
+oper forAdvS : Adv -> AceS -> AceS = \adv,aceS -> aceS ** {s = mkS adv aceS.s} ;
 -- 3.4.4
 
-lin not_provableS s = mkS negativePol (adj_thatCl provable_A s) ;
-lin possibleS s = mkS (adj_thatCl possible_A s) ;
-lin not_possibleS s = mkS negativePol (adj_thatCl possible_A s) ;
-lin necessaryS s = mkS (adj_thatCl necessary_A s) ;
-lin not_necessaryS s = mkS negativePol (adj_thatCl necessary_A s) ;
+lin not_provableS s = s ** {s = mkS negativePol (adj_thatCl provable_A s.s)} ;
+lin possibleS s = s ** {s = mkS (adj_thatCl possible_A s.s)} ;
+lin not_possibleS s = s ** {s = mkS negativePol (adj_thatCl possible_A s.s)} ;
+lin necessaryS s = s ** {s = mkS (adj_thatCl necessary_A s.s)} ;
+lin not_necessaryS s = s ** {s = mkS negativePol (adj_thatCl necessary_A s.s)} ;
 
 
 -- 3.5
