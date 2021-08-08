@@ -1,0 +1,999 @@
+baseText (sText (s (not_possibleS (not_provably_vpS (intNP 999) (have_toVP (v2VP have_V2 not_everythingNP))))))
+
+baseText (sText (s (not_provably_vpS she_NP (have_toVP (mustVP (npVP not_everybodyNP))))))
+
+baseText (sText (s (coordS or_Conj (not_necessaryS (not_provably_vpS not_everybodyNP (v2VP have_V2 he_NP))) (not_possibleS (thereNP (indefTherePronNP somebody_IPron))))))
+
+baseText (sText (s (not_necessaryS (not_provably_vpS not_everybodyNP (canVP (npVP they_NP))))))
+
+baseText (sText (s (thereNP (indefTherePronNP something_IPron))))
+
+baseText (sText (s (not_necessaryS (not_possibleS (not_provably_vpS it_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_possibleS (not_provableS (not_provably_vpS (floatNP 3.14) (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (not_provableS (coordS or_Conj (vpS he_NP (npVP it_NP)) (thereNP (indefTherePronNP somebody_IPron))))))
+
+baseText (sText (s (formulaS (ge_Formula (div_Term (int_Term 999) (int_Term 999)) (div_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (not_possibleS (not_possibleS (neg_vpS (conjNP he_she_NP he_NP) (npVP he_NP))))))
+
+baseText (sText (s (falseS (if_thenS (not_provably_vpS (floatNP 3.14) (refl_v2VP have_V2)) (vpS (floatNP 3.14) (v2VP have_V2 it_NP))))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP somebody_IPron X_Var))))
+
+baseText (sText (s (not_provableS (coordS commaOr_Conj (neg_vpS (indefPronVarNP nothing_IPron Z_Var) (refl_v2VP have_V2)) (neg_vpS it_NP (npVP she_NP))))))
+
+baseText (sText (s (not_provably_vpS (conjNP he_NP (indefPronNP nothing_IPron)) (mustVP (v2VP have_V2 (indefPronNP everything_IPron))))))
+
+baseText (sText (s (not_possibleS (not_provably_vpS (indefPronNP nothing_IPron) (canVP (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (formulaS (eq_Formula (neg_Term (int_Term 999)) (div_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (not_possibleS (not_possibleS (thereNP (indefTherePronVarNP somebody_IPron X_Var))))))
+
+baseText (sText (s (not_provableS (not_provableS (not_provably_vpS (indefPronNP everybody_IPron) (refl_v2VP have_V2))))))
+
+baseText (sText (s (neg_vpS (thereNP_as_NP (indefTherePronVarNP something_IPron Y_Var)) (refl_v2VP have_V2))))
+
+baseText (sText (s (formulaS (eq_Formula (times_Term (int_Term 999) (int_Term 999)) (div_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (not_provableS (possibleS (not_provably_vpS (indefPronNP everything_IPron) (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (if_thenS (not_possibleS (not_provably_vpS she_NP (v2VP have_V2 she_NP))) (not_necessaryS (vpS not_everybodyNP (refl_v2VP have_V2))))))
+
+baseText (sText (s (possibleS (thereNP (indefTherePronVarNP something_IPron Z_Var)))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP somebody_IPron Y_Var))))
+
+baseText (sText (s (vpS he_NP (canVP (have_toVP (v2VP have_V2 it_NP))))))
+
+baseText (sText (s (np_coord_VPS not_everybodyNP and_Conj (BaseVPS (vp_as_negVPS (refl_v2VP have_V2)) (vp_as_posVPS (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (np_coord_VPS they_NP or_Conj (BaseVPS (vp_as_posVPS (refl_v2VP have_V2)) (vp_as_negVPS (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (np_coord_VPS she_NP or_Conj (BaseVPS (vp_as_negVPS (npVP he_she_NP)) (vp_as_posVPS (v2VP have_V2 he_NP))))))
+
+baseText (sText (s (not_necessaryS (not_provableS (vpS (conjNP not_everythingNP he_NP) (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (if_thenS (not_necessaryS (thereNP (indefTherePronNP something_IPron))) (not_provableS (neg_vpS (conjNP she_NP not_everybodyNP) (refl_v2VP have_V2))))))
+
+baseText (sText (s (neg_vpS (indefPronVarNP everybody_IPron Y_Var) (canVP (mustVP (npVP not_everybodyNP))))))
+
+baseText (sText (s (np_coord_VPS she_NP commaOr_Conj (BaseVPS (vp_as_posVPS (npVP they_NP)) (vp_as_posVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (possibleS (neg_vpS not_everythingNP (canVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (falseS (neg_vpS he_she_NP (mustVP (npVP not_everythingNP))))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP something_IPron Y_Var))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP somebody_IPron Y_Var))))
+
+baseText (sText (s (if_thenS (if_thenS (thereNP (indefTherePronVarNP something_IPron Z_Var)) (not_provably_vpS (intNP 999) (npVP not_everythingNP))) (formulaS (ge_Formula (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (vpS not_everybodyNP (have_toVP (mustVP (v2VP have_V2 it_NP))))))
+
+baseText (sText (s (necessaryS (if_thenS (neg_vpS (indefPronNP nothing_IPron) (refl_v2VP have_V2)) (thereNP (indefTherePronVarNP something_IPron Z_Var))))))
+
+baseText (sText (s (formulaS (lt_Formula (div_Term (int_Term 999) (int_Term 999)) (times_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (thereNP (indefTherePronNP something_IPron))))
+
+baseText (sText (s (vpS (floatNP 3.14) (v2VP have_V2 she_NP))))
+
+baseText (sText (s (np_coord_VPS (relNP (thereNP_as_NP (indefTherePronNP somebody_IPron)) (slashRS which_RP it_NP have_V2)) commaOr_Conj (BaseVPS (vp_as_posVPS (npVP not_everybodyNP)) (vp_as_posVPS (v2VP have_V2 they_NP))))))
+
+baseText (sText (s (neg_vpS he_she_NP (have_toVP (refl_v2VP have_V2)))))
+
+baseText (sText (s (possibleS (if_thenS (thereNP (indefTherePronVarNP something_IPron Y_Var)) (vpS (indefPronVarNP everything_IPron Z_Var) (refl_v2VP have_V2))))))
+
+baseText (sText (s (possibleS (necessaryS (vpS he_NP (npVP they_NP))))))
+
+baseText (sText (s (np_coord_VPS (relNP (floatNP 3.14) (orRS (slashRS which_RP they_NP have_V2) (slashRS which_RP they_NP have_V2))) and_Conj (BaseVPS (vp_as_negVPS (v2VP have_V2 he_NP)) (vp_as_posVPS (npVP not_everythingNP))))))
+
+baseText (sText (s (falseS (formulaS (lt_Formula (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (not_provableS (possibleS (thereNP (indefTherePronNP somebody_IPron))))))
+
+baseText (sText (s (necessaryS (if_thenS (neg_vpS he_NP (npVP he_NP)) (neg_vpS (conjNP they_NP she_NP) (v2VP have_V2 they_NP))))))
+
+baseText (sText (s (falseS (thereNP (indefTherePronNP something_IPron)))))
+
+baseText (sText (s (formulaS (le_Formula (div_Term (int_Term 999) (int_Term 999)) (int_Term 999)))))
+
+baseText (sText (s (vpS (indefPronVarNP nobody_IPron X_Var) (v2VP have_V2 (intNP 999)))))
+
+baseText (sText (s (vpS (indefPronNP everything_IPron) (mustVP (v2VP have_V2 (indefPronVarNP everything_IPron X_Var))))))
+
+baseText (sText (s (coordS or_Conj (possibleS (vpS it_NP (v2VP have_V2 she_NP))) (formulaS (le_Formula (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (formulaS (gt_Formula (div_Term (int_Term 999) (int_Term 999)) (times_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (neg_vpS he_she_NP (refl_v2VP have_V2))))
+
+baseText (sText (s (not_necessaryS (not_possibleS (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (neg_vpS she_NP (canVP (have_toVP (npVP not_everythingNP))))))
+
+baseText (sText (s (not_necessaryS (if_thenS (vpS it_NP (refl_v2VP have_V2)) (neg_vpS he_NP (npVP she_NP))))))
+
+baseText (sText (s (falseS (not_provableS (not_provably_vpS (indefPronVarNP nobody_IPron Y_Var) (npVP they_NP))))))
+
+baseText (sText (s (np_coord_VPS (intNP 999) or_Conj (BaseVPS (vp_as_negVPS (refl_v2VP have_V2)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_provableS (thereNP (indefTherePronVarNP somebody_IPron Z_Var)))))
+
+baseText (sText (s (not_necessaryS (not_necessaryS (vpS (indefPronVarNP nobody_IPron Y_Var) (npVP he_NP))))))
+
+baseText (sText (s (not_possibleS (not_provably_vpS (thereNP_as_NP (indefTherePronVarNP somebody_IPron X_Var)) (canVP (npVP he_NP))))))
+
+baseText (sText (s (neg_vpS (floatNP 3.14) (npVP (intNP 999)))))
+
+baseText (sText (s (if_thenS (not_provableS (neg_vpS not_everybodyNP (v2VP have_V2 he_she_NP))) (if_thenS (thereNP (indefTherePronNP somebody_IPron)) (not_provably_vpS not_everythingNP (refl_v2VP have_V2))))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP somebody_IPron Y_Var))))
+
+baseText (sText (s (not_provableS (falseS (vpS (indefPronNP nobody_IPron) (npVP not_everybodyNP))))))
+
+baseText (sText (s (not_possibleS (vpS (indefPronNP nothing_IPron) (npVP (indefPronNP nobody_IPron))))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (np_coord_VPS (thereNP_as_NP (indefTherePronNP something_IPron)) commaAnd_Conj (BaseVPS (vp_as_negVPS (refl_v2VP have_V2)) (vp_as_negVPS (v2VP have_V2 not_everythingNP))))))
+
+baseText (sText (s (vpS they_NP (mustVP (npVP not_everybodyNP)))))
+
+baseText (sText (s (not_necessaryS (coordS commaAnd_Conj (not_provably_vpS (intNP 999) (refl_v2VP have_V2)) (thereNP (indefTherePronVarNP something_IPron Y_Var))))))
+
+baseText (sText (s (not_provableS (possibleS (vpS they_NP (npVP it_NP))))))
+
+baseText (sText (s (coordS or_Conj (not_necessaryS (vpS (intNP 999) (refl_v2VP have_V2))) (if_thenS (neg_vpS not_everythingNP (refl_v2VP have_V2)) (vpS not_everybodyNP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_possibleS (not_provably_vpS (intNP 999) (npVP not_everybodyNP)))))
+
+baseText (sText (s (not_provably_vpS (relNP (indefPronVarNP everything_IPron Z_Var) (neg_slashRS which_RP it_NP have_V2)) (v2VP have_V2 he_she_NP))))
+
+baseText (sText (s (coordS or_Conj (coordS commaAnd_Conj (thereNP (indefTherePronNP something_IPron)) (vpS (floatNP 3.14) (v2VP have_V2 he_NP))) (not_possibleS (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (if_thenS (not_provableS (not_provably_vpS not_everybodyNP (v2VP have_V2 not_everybodyNP))) (necessaryS (not_provably_vpS (conjNP he_she_NP it_NP) (npVP not_everybodyNP))))))
+
+baseText (sText (s (not_provableS (not_possibleS (neg_vpS (indefPronNP nothing_IPron) (v2VP have_V2 he_she_NP))))))
+
+baseText (sText (s (falseS (falseS (neg_vpS he_she_NP (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (necessaryS (not_provableS (vpS not_everythingNP (v2VP have_V2 they_NP))))))
+
+baseText (sText (s (not_possibleS (necessaryS (vpS she_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_possibleS (if_thenS (neg_vpS (indefPronNP nothing_IPron) (refl_v2VP have_V2)) (neg_vpS not_everythingNP (npVP it_NP))))))
+
+baseText (sText (s (neg_vpS (thereNP_as_NP (indefTherePronNP something_IPron)) (canVP (v2VP have_V2 it_NP)))))
+
+baseText (sText (s (not_necessaryS (not_possibleS (neg_vpS (floatNP 3.14) (npVP not_everythingNP))))))
+
+baseText (sText (s (np_coord_VPS (conjNP it_NP (relNP it_NP (neg_slashRS eachRP not_everythingNP have_V2))) commaAnd_Conj (BaseVPS (vp_as_negVPS (npVP not_everythingNP)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (np_coord_VPS she_NP commaAnd_Conj (BaseVPS (vp_as_posVPS (npVP he_she_NP)) (vp_as_posVPS (npVP he_NP))))))
+
+baseText (sText (s (np_coord_VPS (conjNP not_everythingNP he_she_NP) commaOr_Conj (BaseVPS (vp_as_posVPS (refl_v2VP have_V2)) (vp_as_negVPS (npVP she_NP))))))
+
+baseText (sText (s (not_provableS (coordS commaOr_Conj (neg_vpS he_she_NP (v2VP have_V2 he_NP)) (neg_vpS not_everythingNP (npVP not_everybodyNP))))))
+
+baseText (sText (s (not_provably_vpS (relNP he_she_NP (predRS eachRP (refl_v2VP have_V2))) (canVP (v2VP have_V2 (floatNP 3.14))))))
+
+baseText (sText (s (necessaryS (coordS commaAnd_Conj (vpS she_NP (v2VP have_V2 they_NP)) (neg_vpS not_everythingNP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_provably_vpS (termNP Y_Var) (npVP not_everythingNP))))
+
+baseText (sText (s (np_coord_VPS (intNP 999) commaAnd_Conj (BaseVPS (vp_as_negVPS (npVP it_NP)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (neg_vpS not_everythingNP (refl_v2VP have_V2))))
+
+baseText (sText (s (not_provableS (not_provableS (thereNP (indefTherePronVarNP something_IPron Y_Var))))))
+
+baseText (sText (s (not_provableS (neg_vpS it_NP (have_toVP (v2VP have_V2 it_NP))))))
+
+baseText (sText (s (falseS (not_provably_vpS it_NP (canVP (npVP he_she_NP))))))
+
+baseText (sText (s (not_provableS (not_necessaryS (vpS (indefPronNP everything_IPron) (v2VP have_V2 they_NP))))))
+
+baseText (sText (s (not_provableS (necessaryS (vpS (intNP 999) (npVP they_NP))))))
+
+baseText (sText (s (necessaryS (necessaryS (not_provably_vpS she_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (neg_vpS not_everythingNP (mustVP (v2VP have_V2 he_NP)))))
+
+baseText (sText (s (not_provably_vpS not_everythingNP (refl_v2VP have_V2))))
+
+baseText (sText (s (vpS not_everythingNP (mustVP (canVP (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (np_coord_VPS they_NP commaOr_Conj (BaseVPS (vp_as_posVPS (v2VP have_V2 it_NP)) (vp_as_posVPS (npVP not_everybodyNP))))))
+
+baseText (sText (s (coordS and_Conj (not_provably_vpS he_she_NP (refl_v2VP have_V2)) (not_provableS (neg_vpS (termNP X_Var) (npVP it_NP))))))
+
+baseText (sText (s (neg_vpS (termNP X_Var) (mustVP (npVP (floatNP 3.14))))))
+
+baseText (sText (s (falseS (vpS they_NP (v2VP have_V2 he_NP)))))
+
+baseText (sText (s (not_provably_vpS they_NP (refl_v2VP have_V2))))
+
+baseText (sText (s (np_coord_VPS (intNP 999) or_Conj (BaseVPS (vp_as_negVPS (v2VP have_V2 not_everythingNP)) (vp_as_negVPS (npVP not_everythingNP))))))
+
+baseText (sText (s (formulaS (eq_Formula (plus_Term (int_Term 999) (int_Term 999)) (div_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (not_provableS (coordS commaOr_Conj (not_provably_vpS (conjNP he_she_NP it_NP) (refl_v2VP have_V2)) (not_provably_vpS (indefPronNP everybody_IPron) (v2VP have_V2 he_NP))))))
+
+baseText (sText (s (neg_vpS (conjNP (floatNP 3.14) it_NP) (mustVP (have_toVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_necessaryS (not_provably_vpS he_NP (canVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_necessaryS (not_provableS (thereNP (indefTherePronVarNP somebody_IPron Z_Var))))))
+
+baseText (sText (s (falseS (thereNP (indefTherePronNP something_IPron)))))
+
+baseText (sText (s (falseS (thereNP (indefTherePronNP somebody_IPron)))))
+
+baseText (sText (s (neg_vpS not_everybodyNP (have_toVP (v2VP have_V2 they_NP)))))
+
+baseText (sText (s (coordS or_Conj (falseS (vpS (indefPronVarNP everybody_IPron Y_Var) (v2VP have_V2 he_NP))) (not_necessaryS (vpS they_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_necessaryS (not_possibleS (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (not_necessaryS (not_provableS (vpS (conjNP it_NP not_everythingNP) (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (if_thenS (not_necessaryS (thereNP (indefTherePronVarNP something_IPron Z_Var))) (neg_vpS (indefPronNP nobody_IPron) (canVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (formulaS (ge_Formula (neg_Term (int_Term 999)) (neg_Term (int_Term 999))))))
+
+baseText (sText (s (not_provably_vpS they_NP (mustVP (mustVP (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (possibleS (falseS (thereNP (indefTherePronVarNP something_IPron Y_Var))))))
+
+baseText (sText (s (vpS (relNP he_NP (andRS (slashRS which_RP they_NP have_V2) (slashRS eachRP she_NP have_V2))) (refl_v2VP have_V2))))
+
+baseText (sText (s (falseS (not_necessaryS (vpS (indefPronVarNP everybody_IPron Y_Var) (npVP he_NP))))))
+
+baseText (sText (s (not_possibleS (coordS or_Conj (not_provably_vpS (conjNP not_everythingNP they_NP) (npVP it_NP)) (not_provably_vpS it_NP (npVP they_NP))))))
+
+baseText (sText (s (not_possibleS (coordS commaAnd_Conj (neg_vpS she_NP (refl_v2VP have_V2)) (vpS not_everythingNP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_provably_vpS (floatNP 3.14) (mustVP (mustVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_provableS (necessaryS (neg_vpS not_everybodyNP (refl_v2VP have_V2))))))
+
+baseText (sText (s (vpS (floatNP 3.14) (have_toVP (mustVP (npVP not_everybodyNP))))))
+
+baseText (sText (s (neg_vpS (thereNP_as_NP (indefTherePronNP somebody_IPron)) (have_toVP (v2VP have_V2 (indefPronVarNP nobody_IPron Z_Var))))))
+
+baseText (sText (s (neg_vpS they_NP (mustVP (mustVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (formulaS (eq_Formula (plus_Term (int_Term 999) (int_Term 999)) (neg_Term (int_Term 999))))))
+
+baseText (sText (s (if_thenS (thereNP (indefTherePronVarNP something_IPron Z_Var)) (vpS not_everythingNP (have_toVP (v2VP have_V2 not_everythingNP))))))
+
+baseText (sText (s (np_coord_VPS she_NP commaAnd_Conj (BaseVPS (vp_as_posVPS (v2VP have_V2 he_she_NP)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (formulaS (eq_Formula (plus_Term (int_Term 999) (int_Term 999)) (int_Term 999)))))
+
+baseText (sText (s (neg_vpS (floatNP 3.14) (mustVP (v2VP have_V2 (intNP 999))))))
+
+baseText (sText (s (not_provableS (not_necessaryS (vpS (conjNP not_everythingNP she_NP) (npVP they_NP))))))
+
+baseText (sText (s (if_thenS (vpS he_NP (have_toVP (v2VP have_V2 she_NP))) (if_thenS (vpS he_she_NP (npVP she_NP)) (neg_vpS not_everybodyNP (npVP not_everybodyNP))))))
+
+baseText (sText (s (not_provably_vpS he_NP (have_toVP (npVP (intNP 999))))))
+
+baseText (sText (s (not_necessaryS (not_necessaryS (vpS (indefPronVarNP nobody_IPron Z_Var) (npVP he_NP))))))
+
+baseText (sText (s (if_thenS (falseS (vpS not_everybodyNP (v2VP have_V2 he_NP))) (possibleS (not_provably_vpS (indefPronVarNP everybody_IPron X_Var) (refl_v2VP have_V2))))))
+
+baseText (sText (s (thereNP (indefTherePronNP something_IPron))))
+
+baseText (sText (s (not_possibleS (not_possibleS (neg_vpS (intNP 999) (v2VP have_V2 it_NP))))))
+
+baseText (sText (s (not_possibleS (if_thenS (neg_vpS (floatNP 3.14) (npVP he_she_NP)) (not_provably_vpS they_NP (npVP not_everybodyNP))))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP something_IPron X_Var))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP something_IPron Z_Var))))
+
+baseText (sText (s (np_coord_VPS (thereNP_as_NP (indefTherePronVarNP somebody_IPron Z_Var)) commaAnd_Conj (BaseVPS (vp_as_negVPS (v2VP have_V2 not_everybodyNP)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_necessaryS (neg_vpS (termNP Y_Var) (canVP (npVP not_everythingNP))))))
+
+baseText (sText (s (np_coord_VPS (floatNP 3.14) or_Conj (BaseVPS (vp_as_negVPS (v2VP have_V2 they_NP)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_possibleS (vpS (indefPronNP nothing_IPron) (refl_v2VP have_V2)))))
+
+baseText (sText (s (neg_vpS (floatNP 3.14) (mustVP (v2VP have_V2 they_NP)))))
+
+baseText (sText (s (not_necessaryS (thereNP (indefTherePronVarNP something_IPron X_Var)))))
+
+baseText (sText (s (not_provably_vpS (intNP 999) (refl_v2VP have_V2))))
+
+baseText (sText (s (formulaS (lt_Formula (int_Term 999) (int_Term 999)))))
+
+baseText (sText (s (formulaS (eq_Formula (int_Term 999) (minus_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (if_thenS (necessaryS (thereNP (indefTherePronVarNP something_IPron Y_Var))) (if_thenS (thereNP (indefTherePronNP something_IPron)) (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (thereNP (indefTherePronNP something_IPron))))
+
+baseText (sText (s (not_provably_vpS (conjNP it_NP he_she_NP) (refl_v2VP have_V2))))
+
+baseText (sText (s (if_thenS (not_provably_vpS not_everybodyNP (npVP he_NP)) (falseS (neg_vpS they_NP (v2VP have_V2 it_NP))))))
+
+baseText (sText (s (necessaryS (necessaryS (thereNP (indefTherePronNP somebody_IPron))))))
+
+baseText (sText (s (not_provably_vpS (floatNP 3.14) (npVP (relNP she_NP (slashRS which_RP he_she_NP have_V2))))))
+
+baseText (sText (s (not_provably_vpS he_NP (v2VP have_V2 she_NP))))
+
+baseText (sText (s (np_coord_VPS they_NP commaOr_Conj (BaseVPS (vp_as_negVPS (refl_v2VP have_V2)) (vp_as_negVPS (npVP it_NP))))))
+
+baseText (sText (s (possibleS (not_provably_vpS (floatNP 3.14) (npVP (termNP Z_Var))))))
+
+baseText (sText (s (if_thenS (formulaS (ne_Formula (int_Term 999) (int_Term 999))) (falseS (not_provably_vpS (termNP Y_Var) (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (not_necessaryS (coordS and_Conj (neg_vpS they_NP (v2VP have_V2 he_NP)) (vpS (termNP X_Var) (v2VP have_V2 he_NP))))))
+
+baseText (sText (s (not_necessaryS (neg_vpS not_everybodyNP (have_toVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (neg_vpS (floatNP 3.14) (canVP (v2VP have_V2 (conjNP she_NP not_everybodyNP))))))
+
+baseText (sText (s (not_provableS (falseS (vpS he_she_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (if_thenS (not_provableS (vpS (indefPronNP everything_IPron) (refl_v2VP have_V2))) (thereNP (indefTherePronNP something_IPron)))))
+
+baseText (sText (s (neg_vpS (floatNP 3.14) (v2VP have_V2 not_everythingNP))))
+
+baseText (sText (s (possibleS (thereNP (indefTherePronNP somebody_IPron)))))
+
+baseText (sText (s (not_provableS (not_necessaryS (vpS (indefPronVarNP everything_IPron Y_Var) (npVP not_everythingNP))))))
+
+baseText (sText (s (not_possibleS (not_possibleS (not_provably_vpS he_she_NP (v2VP have_V2 he_NP))))))
+
+baseText (sText (s (not_provableS (falseS (neg_vpS he_NP (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (thereNP (indefTherePronNP something_IPron))))
+
+baseText (sText (s (if_thenS (vpS (thereNP_as_NP (indefTherePronVarNP somebody_IPron Y_Var)) (refl_v2VP have_V2)) (not_necessaryS (vpS not_everythingNP (npVP they_NP))))))
+
+baseText (sText (s (vpS not_everybodyNP (canVP (refl_v2VP have_V2)))))
+
+baseText (sText (s (not_necessaryS (neg_vpS it_NP (have_toVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_possibleS (necessaryS (neg_vpS she_NP (npVP not_everythingNP))))))
+
+baseText (sText (s (not_possibleS (necessaryS (neg_vpS (intNP 999) (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_provably_vpS she_NP (mustVP (have_toVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (vpS (indefPronVarNP everybody_IPron Y_Var) (v2VP have_V2 (indefPronVarNP nothing_IPron Z_Var)))))
+
+baseText (sText (s (neg_vpS (relNP (thereNP_as_NP (indefTherePronNP somebody_IPron)) (neg_predRS eachRP (v2VP have_V2 not_everythingNP))) (npVP (termNP Z_Var)))))
+
+baseText (sText (s (formulaS (gt_Formula (times_Term (int_Term 999) (int_Term 999)) (int_Term 999)))))
+
+baseText (sText (s (formulaS (eq_Formula (int_Term 999) (plus_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (possibleS (possibleS (vpS (indefPronVarNP nothing_IPron Y_Var) (v2VP have_V2 they_NP))))))
+
+baseText (sText (s (vpS she_NP (npVP he_NP))))
+
+baseText (sText (s (coordS or_Conj (falseS (not_provably_vpS it_NP (refl_v2VP have_V2))) (not_possibleS (neg_vpS (conjNP not_everybodyNP not_everybodyNP) (npVP it_NP))))))
+
+baseText (sText (s (coordS or_Conj (coordS commaOr_Conj (neg_vpS he_she_NP (refl_v2VP have_V2)) (thereNP (indefTherePronVarNP something_IPron Z_Var))) (neg_vpS (indefPronNP everybody_IPron) (refl_v2VP have_V2)))))
+
+baseText (sText (s (necessaryS (necessaryS (vpS (indefPronNP nobody_IPron) (refl_v2VP have_V2))))))
+
+baseText (sText (s (vpS (relNP (intNP 999) (neg_predRS eachRP (npVP she_NP))) (canVP (npVP he_she_NP)))))
+
+baseText (sText (s (necessaryS (not_possibleS (neg_vpS not_everybodyNP (npVP he_NP))))))
+
+baseText (sText (s (coordS commaAnd_Conj (not_provably_vpS (conjNP (indefPronNP everything_IPron) (conjNP not_everybodyNP not_everythingNP)) (have_toVP (v2VP have_V2 not_everythingNP))) (not_provably_vpS (termNP Y_Var) (canVP (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (np_coord_VPS (termNP Z_Var) or_Conj (BaseVPS (vp_as_posVPS (npVP he_she_NP)) (vp_as_negVPS (npVP she_NP))))))
+
+baseText (sText (s (vpS he_NP (canVP (npVP (indefPronNP everything_IPron))))))
+
+baseText (sText (s (formulaS (ne_Formula (times_Term (int_Term 999) (int_Term 999)) (times_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (vpS (floatNP 3.14) (mustVP (mustVP (v2VP have_V2 he_she_NP))))))
+
+baseText (sText (s (not_provably_vpS he_NP (v2VP have_V2 (conjNP (floatNP 3.14) she_NP)))))
+
+baseText (sText (s (possibleS (coordS and_Conj (thereNP (indefTherePronVarNP somebody_IPron X_Var)) (vpS (floatNP 3.14) (npVP he_NP))))))
+
+baseText (sText (s (neg_vpS they_NP (canVP (canVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (np_coord_VPS she_NP and_Conj (BaseVPS (vp_as_negVPS (v2VP have_V2 he_she_NP)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (coordS or_Conj (neg_vpS he_NP (npVP he_NP)) (not_necessaryS (vpS (floatNP 3.14) (npVP he_she_NP))))))
+
+baseText (sText (s (necessaryS (thereNP (indefTherePronNP somebody_IPron)))))
+
+baseText (sText (s (not_necessaryS (thereNP (indefTherePronNP something_IPron)))))
+
+baseText (sText (s (coordS and_Conj (possibleS (not_provably_vpS not_everythingNP (refl_v2VP have_V2))) (not_provably_vpS it_NP (mustVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (necessaryS (thereNP (indefTherePronNP somebody_IPron)))))
+
+baseText (sText (s (np_coord_VPS they_NP or_Conj (BaseVPS (vp_as_posVPS (refl_v2VP have_V2)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (if_thenS (necessaryS (not_provably_vpS (floatNP 3.14) (npVP they_NP))) (if_thenS (thereNP (indefTherePronVarNP somebody_IPron X_Var)) (vpS (floatNP 3.14) (npVP not_everybodyNP))))))
+
+baseText (sText (s (not_necessaryS (not_possibleS (not_provably_vpS she_NP (v2VP have_V2 not_everythingNP))))))
+
+baseText (sText (s (thereNP (indefTherePronNP something_IPron))))
+
+baseText (sText (s (not_provableS (necessaryS (vpS (termNP Z_Var) (npVP he_NP))))))
+
+baseText (sText (s (formulaS (ne_Formula (plus_Term (int_Term 999) (int_Term 999)) (neg_Term (int_Term 999))))))
+
+baseText (sText (s (formulaS (eq_Formula (times_Term (int_Term 999) (int_Term 999)) (neg_Term (int_Term 999))))))
+
+baseText (sText (s (not_provably_vpS (floatNP 3.14) (canVP (v2VP have_V2 (indefPronVarNP nobody_IPron Y_Var))))))
+
+baseText (sText (s (not_provableS (coordS or_Conj (neg_vpS he_she_NP (v2VP have_V2 he_she_NP)) (vpS (indefPronNP everybody_IPron) (v2VP have_V2 he_NP))))))
+
+baseText (sText (s (formulaS (ne_Formula (minus_Term (int_Term 999) (int_Term 999)) (neg_Term (int_Term 999))))))
+
+baseText (sText (s (not_possibleS (neg_vpS he_NP (v2VP have_V2 she_NP)))))
+
+baseText (sText (s (not_provableS (possibleS (neg_vpS (termNP Z_Var) (npVP not_everythingNP))))))
+
+baseText (sText (s (falseS (coordS and_Conj (neg_vpS they_NP (npVP he_she_NP)) (neg_vpS (conjNP he_NP he_she_NP) (npVP not_everybodyNP))))))
+
+baseText (sText (s (vpS (termNP Y_Var) (have_toVP (canVP (v2VP have_V2 it_NP))))))
+
+baseText (sText (s (np_coord_VPS (termNP Z_Var) or_Conj (BaseVPS (vp_as_negVPS (refl_v2VP have_V2)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (neg_vpS (relNP not_everybodyNP (slashRS which_RP (indefPronNP everything_IPron) have_V2)) (refl_v2VP have_V2))))
+
+baseText (sText (s (not_necessaryS (coordS commaAnd_Conj (vpS (indefPronNP nobody_IPron) (v2VP have_V2 he_NP)) (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (possibleS (if_thenS (neg_vpS it_NP (v2VP have_V2 it_NP)) (thereNP (indefTherePronVarNP something_IPron Z_Var))))))
+
+baseText (sText (s (falseS (thereNP (indefTherePronVarNP somebody_IPron Z_Var)))))
+
+baseText (sText (s (np_coord_VPS (relNP she_NP (orRS (neg_slashRS eachRP he_she_NP have_V2) (neg_slashRS eachRP he_NP have_V2))) commaOr_Conj (BaseVPS (vp_as_posVPS (npVP he_NP)) (vp_as_posVPS (npVP not_everybodyNP))))))
+
+baseText (sText (s (neg_vpS (intNP 999) (mustVP (canVP (v2VP have_V2 they_NP))))))
+
+baseText (sText (s (neg_vpS not_everythingNP (npVP (indefPronVarNP nothing_IPron Z_Var)))))
+
+baseText (sText (s (not_possibleS (possibleS (thereNP (indefTherePronNP somebody_IPron))))))
+
+baseText (sText (s (not_provableS (falseS (neg_vpS (conjNP not_everybodyNP he_NP) (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (if_thenS (not_possibleS (not_provably_vpS (termNP X_Var) (refl_v2VP have_V2))) (falseS (neg_vpS (indefPronNP nothing_IPron) (npVP it_NP))))))
+
+baseText (sText (s (np_coord_VPS she_NP or_Conj (BaseVPS (vp_as_posVPS (v2VP have_V2 it_NP)) (vp_as_negVPS (npVP it_NP))))))
+
+baseText (sText (s (falseS (not_provably_vpS (intNP 999) (refl_v2VP have_V2)))))
+
+baseText (sText (s (if_thenS (possibleS (vpS not_everybodyNP (npVP they_NP))) (if_thenS (not_provably_vpS (indefPronNP everybody_IPron) (v2VP have_V2 he_she_NP)) (vpS (conjNP they_NP it_NP) (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (possibleS (not_provableS (not_provably_vpS it_NP (v2VP have_V2 not_everythingNP))))))
+
+baseText (sText (s (falseS (coordS commaAnd_Conj (thereNP (indefTherePronNP somebody_IPron)) (neg_vpS he_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_provableS (neg_vpS she_NP (npVP (conjNP he_NP he_she_NP))))))
+
+baseText (sText (s (np_coord_VPS they_NP or_Conj (BaseVPS (vp_as_negVPS (refl_v2VP have_V2)) (vp_as_posVPS (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (not_possibleS (necessaryS (vpS they_NP (npVP not_everythingNP))))))
+
+baseText (sText (s (if_thenS (falseS (vpS not_everybodyNP (npVP not_everythingNP))) (not_provableS (not_provably_vpS (termNP Z_Var) (npVP it_NP))))))
+
+baseText (sText (s (if_thenS (falseS (not_provably_vpS not_everythingNP (v2VP have_V2 he_NP))) (vpS not_everythingNP (npVP he_NP)))))
+
+baseText (sText (s (neg_vpS (intNP 999) (v2VP have_V2 (relNP (floatNP 3.14) (slashRS which_RP it_NP have_V2))))))
+
+baseText (sText (s (falseS (falseS (thereNP (indefTherePronNP somebody_IPron))))))
+
+baseText (sText (s (not_necessaryS (formulaS (gt_Formula (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (formulaS (ge_Formula (int_Term 999) (neg_Term (int_Term 999))))))
+
+baseText (sText (s (if_thenS (not_possibleS (thereNP (indefTherePronNP somebody_IPron))) (formulaS (lt_Formula (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (not_provableS (necessaryS (not_provably_vpS (intNP 999) (npVP he_she_NP))))))
+
+baseText (sText (s (coordS and_Conj (thereNP (indefTherePronVarNP something_IPron Y_Var)) (not_necessaryS (neg_vpS not_everybodyNP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_provably_vpS (conjNP she_NP she_NP) (have_toVP (canVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (possibleS (thereNP (indefTherePronNP somebody_IPron)))))
+
+baseText (sText (s (vpS it_NP (have_toVP (canVP (npVP he_she_NP))))))
+
+baseText (sText (s (necessaryS (necessaryS (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (not_possibleS (thereNP (indefTherePronNP somebody_IPron)))))
+
+baseText (sText (s (not_possibleS (not_provably_vpS (floatNP 3.14) (mustVP (v2VP have_V2 he_she_NP))))))
+
+baseText (sText (s (np_coord_VPS (termNP Z_Var) commaOr_Conj (BaseVPS (vp_as_posVPS (v2VP have_V2 he_she_NP)) (vp_as_negVPS (npVP he_she_NP))))))
+
+baseText (sText (s (not_provableS (not_provably_vpS she_NP (refl_v2VP have_V2)))))
+
+baseText (sText (s (np_coord_VPS (indefPronVarNP everything_IPron Y_Var) commaAnd_Conj (BaseVPS (vp_as_negVPS (v2VP have_V2 not_everybodyNP)) (vp_as_posVPS (npVP not_everythingNP))))))
+
+baseText (sText (s (necessaryS (coordS commaAnd_Conj (thereNP (indefTherePronVarNP something_IPron Y_Var)) (thereNP (indefTherePronVarNP something_IPron Z_Var))))))
+
+baseText (sText (s (not_possibleS (possibleS (not_provably_vpS they_NP (v2VP have_V2 not_everythingNP))))))
+
+baseText (sText (s (not_possibleS (necessaryS (not_provably_vpS (indefPronNP nothing_IPron) (npVP he_NP))))))
+
+baseText (sText (s (not_provableS (not_necessaryS (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (np_coord_VPS (relNP not_everythingNP (neg_slashRS eachRP not_everybodyNP have_V2)) and_Conj (BaseVPS (vp_as_posVPS (v2VP have_V2 he_NP)) (vp_as_negVPS (npVP not_everybodyNP))))))
+
+baseText (sText (s (not_provableS (not_necessaryS (thereNP (indefTherePronVarNP something_IPron Z_Var))))))
+
+baseText (sText (s (falseS (falseS (vpS he_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (np_coord_VPS (indefPronVarNP nobody_IPron Z_Var) and_Conj (BaseVPS (vp_as_posVPS (refl_v2VP have_V2)) (vp_as_negVPS (v2VP have_V2 he_she_NP))))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP somebody_IPron Y_Var))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (not_necessaryS (falseS (not_provably_vpS not_everythingNP (npVP he_NP))))))
+
+baseText (sText (s (if_thenS (not_provableS (thereNP (indefTherePronNP somebody_IPron))) (not_necessaryS (vpS (intNP 999) (npVP it_NP))))))
+
+baseText (sText (s (if_thenS (neg_vpS (floatNP 3.14) (mustVP (v2VP have_V2 he_she_NP))) (not_provably_vpS not_everythingNP (have_toVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (necessaryS (possibleS (vpS not_everybodyNP (refl_v2VP have_V2))))))
+
+baseText (sText (s (formulaS (lt_Formula (div_Term (int_Term 999) (int_Term 999)) (minus_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (neg_vpS he_she_NP (v2VP have_V2 not_everythingNP))))
+
+baseText (sText (s (falseS (falseS (vpS he_NP (npVP it_NP))))))
+
+baseText (sText (s (not_necessaryS (coordS commaAnd_Conj (not_provably_vpS (indefPronNP nobody_IPron) (v2VP have_V2 she_NP)) (not_provably_vpS (floatNP 3.14) (npVP not_everybodyNP))))))
+
+baseText (sText (s (necessaryS (thereNP (indefTherePronVarNP something_IPron X_Var)))))
+
+baseText (sText (s (not_necessaryS (neg_vpS (intNP 999) (canVP (npVP it_NP))))))
+
+baseText (sText (s (possibleS (falseS (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (coordS or_Conj (not_provableS (vpS (termNP Z_Var) (v2VP have_V2 it_NP))) (falseS (vpS they_NP (v2VP have_V2 they_NP))))))
+
+baseText (sText (s (thereNP (indefTherePronNP something_IPron))))
+
+baseText (sText (s (coordS commaOr_Conj (necessaryS (vpS (intNP 999) (refl_v2VP have_V2))) (coordS or_Conj (thereNP (indefTherePronVarNP somebody_IPron X_Var)) (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (coordS and_Conj (not_provably_vpS (thereNP_as_NP (indefTherePronVarNP something_IPron Y_Var)) (canVP (npVP he_NP))) (not_provably_vpS they_NP (canVP (npVP he_NP))))))
+
+baseText (sText (s (np_coord_VPS (indefPronNP everybody_IPron) commaOr_Conj (BaseVPS (vp_as_negVPS (refl_v2VP have_V2)) (vp_as_negVPS (npVP they_NP))))))
+
+baseText (sText (s (not_necessaryS (possibleS (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (not_possibleS (falseS (vpS he_she_NP (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (coordS commaOr_Conj (vpS (thereNP_as_NP (indefTherePronVarNP somebody_IPron Z_Var)) (mustVP (npVP he_she_NP))) (formulaS (gt_Formula (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (possibleS (neg_vpS (conjNP not_everythingNP he_she_NP) (mustVP (v2VP have_V2 he_NP))))))
+
+baseText (sText (s (not_possibleS (formulaS (ge_Formula (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (necessaryS (falseS (not_provably_vpS he_she_NP (v2VP have_V2 they_NP))))))
+
+baseText (sText (s (not_possibleS (coordS commaOr_Conj (thereNP (indefTherePronVarNP something_IPron Y_Var)) (neg_vpS (indefPronVarNP everything_IPron Y_Var) (npVP they_NP))))))
+
+baseText (sText (s (not_provably_vpS (indefPronNP nobody_IPron) (refl_v2VP have_V2))))
+
+baseText (sText (s (vpS not_everythingNP (npVP it_NP))))
+
+baseText (sText (s (necessaryS (not_necessaryS (neg_vpS (indefPronVarNP everybody_IPron X_Var) (v2VP have_V2 it_NP))))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP something_IPron Z_Var))))
+
+baseText (sText (s (not_provableS (neg_vpS it_NP (have_toVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (possibleS (falseS (neg_vpS (indefPronVarNP everybody_IPron X_Var) (npVP he_she_NP))))))
+
+baseText (sText (s (if_thenS (falseS (vpS (termNP Z_Var) (refl_v2VP have_V2))) (falseS (thereNP (indefTherePronVarNP somebody_IPron Z_Var))))))
+
+baseText (sText (s (not_necessaryS (coordS or_Conj (not_provably_vpS she_NP (npVP they_NP)) (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (not_provableS (possibleS (neg_vpS she_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (vpS not_everybodyNP (canVP (have_toVP (v2VP have_V2 they_NP))))))
+
+baseText (sText (s (if_thenS (formulaS (gt_Formula (int_Term 999) (int_Term 999))) (not_necessaryS (neg_vpS (indefPronVarNP everything_IPron X_Var) (npVP they_NP))))))
+
+baseText (sText (s (neg_vpS (indefPronNP nothing_IPron) (canVP (mustVP (v2VP have_V2 not_everythingNP))))))
+
+baseText (sText (s (not_possibleS (if_thenS (not_provably_vpS not_everybodyNP (refl_v2VP have_V2)) (vpS not_everybodyNP (v2VP have_V2 he_she_NP))))))
+
+baseText (sText (s (not_necessaryS (not_possibleS (vpS she_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (vpS they_NP (canVP (v2VP have_V2 not_everythingNP)))))
+
+baseText (sText (s (if_thenS (possibleS (neg_vpS it_NP (v2VP have_V2 it_NP))) (vpS (thereNP_as_NP (indefTherePronVarNP somebody_IPron X_Var)) (have_toVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (not_provably_vpS (thereNP_as_NP (indefTherePronNP something_IPron)) (mustVP (mustVP (npVP it_NP))))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP somebody_IPron X_Var))))
+
+baseText (sText (s (not_provableS (formulaS (ne_Formula (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (np_coord_VPS (floatNP 3.14) or_Conj (BaseVPS (vp_as_negVPS (v2VP have_V2 she_NP)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (np_coord_VPS not_everybodyNP commaOr_Conj (BaseVPS (vp_as_posVPS (refl_v2VP have_V2)) (vp_as_posVPS (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (coordS commaAnd_Conj (not_possibleS (neg_vpS (indefPronVarNP nothing_IPron Y_Var) (refl_v2VP have_V2))) (if_thenS (neg_vpS not_everybodyNP (refl_v2VP have_V2)) (neg_vpS he_NP (v2VP have_V2 they_NP))))))
+
+baseText (sText (s (neg_vpS she_NP (refl_v2VP have_V2))))
+
+baseText (sText (s (formulaS (eq_Formula (minus_Term (int_Term 999) (int_Term 999)) (div_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (not_possibleS (possibleS (not_provably_vpS it_NP (v2VP have_V2 not_everythingNP))))))
+
+baseText (sText (s (formulaS (ne_Formula (neg_Term (int_Term 999)) (int_Term 999)))))
+
+baseText (sText (s (possibleS (not_possibleS (vpS she_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (vpS she_NP (have_toVP (have_toVP (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (neg_vpS not_everythingNP (have_toVP (have_toVP (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (neg_vpS it_NP (mustVP (refl_v2VP have_V2)))))
+
+baseText (sText (s (coordS and_Conj (not_provableS (not_provably_vpS (conjNP he_NP he_she_NP) (npVP they_NP))) (if_thenS (thereNP (indefTherePronNP somebody_IPron)) (thereNP (indefTherePronNP somebody_IPron))))))
+
+baseText (sText (s (if_thenS (falseS (vpS he_NP (npVP he_she_NP))) (necessaryS (thereNP (indefTherePronNP somebody_IPron))))))
+
+baseText (sText (s (not_necessaryS (falseS (vpS not_everybodyNP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_necessaryS (necessaryS (not_provably_vpS (indefPronVarNP everybody_IPron Z_Var) (v2VP have_V2 not_everythingNP))))))
+
+baseText (sText (s (possibleS (not_necessaryS (not_provably_vpS they_NP (npVP they_NP))))))
+
+baseText (sText (s (formulaS (eq_Formula (plus_Term (int_Term 999) (int_Term 999)) (minus_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (np_coord_VPS (conjNP (termNP Y_Var) (indefPronVarNP everybody_IPron Y_Var)) commaOr_Conj (BaseVPS (vp_as_posVPS (v2VP have_V2 he_she_NP)) (vp_as_posVPS (v2VP have_V2 it_NP))))))
+
+baseText (sText (s (if_thenS (falseS (thereNP (indefTherePronVarNP something_IPron Y_Var))) (not_provableS (not_provably_vpS (conjNP he_NP she_NP) (npVP it_NP))))))
+
+baseText (sText (s (if_thenS (falseS (not_provably_vpS (intNP 999) (npVP he_NP))) (falseS (neg_vpS it_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_provableS (falseS (neg_vpS not_everybodyNP (v2VP have_V2 he_she_NP))))))
+
+baseText (sText (s (coordS or_Conj (neg_vpS he_NP (mustVP (v2VP have_V2 not_everybodyNP))) (not_provableS (neg_vpS (indefPronVarNP nobody_IPron X_Var) (v2VP have_V2 it_NP))))))
+
+baseText (sText (s (necessaryS (necessaryS (not_provably_vpS (indefPronNP everything_IPron) (npVP they_NP))))))
+
+baseText (sText (s (np_coord_VPS it_NP and_Conj (BaseVPS (vp_as_posVPS (refl_v2VP have_V2)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (possibleS (neg_vpS they_NP (v2VP have_V2 it_NP)))))
+
+baseText (sText (s (not_provably_vpS (intNP 999) (mustVP (refl_v2VP have_V2)))))
+
+baseText (sText (s (if_thenS (falseS (not_provably_vpS (conjNP he_she_NP he_she_NP) (v2VP have_V2 she_NP))) (falseS (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (not_necessaryS (possibleS (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (possibleS (neg_vpS (thereNP_as_NP (indefTherePronVarNP something_IPron Y_Var)) (refl_v2VP have_V2)))))
+
+baseText (sText (s (vpS (indefPronVarNP nothing_IPron Z_Var) (mustVP (v2VP have_V2 (conjNP it_NP she_NP))))))
+
+baseText (sText (s (vpS (thereNP_as_NP (indefTherePronVarNP somebody_IPron Z_Var)) (npVP not_everythingNP))))
+
+baseText (sText (s (vpS it_NP (refl_v2VP have_V2))))
+
+baseText (sText (s (if_thenS (necessaryS (thereNP (indefTherePronNP something_IPron))) (formulaS (eq_Formula (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (formulaS (gt_Formula (times_Term (int_Term 999) (int_Term 999)) (plus_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (falseS (falseS (thereNP (indefTherePronVarNP something_IPron X_Var))))))
+
+baseText (sText (s (necessaryS (not_possibleS (neg_vpS (conjNP they_NP not_everybodyNP) (npVP he_she_NP))))))
+
+baseText (sText (s (np_coord_VPS he_NP commaOr_Conj (BaseVPS (vp_as_posVPS (v2VP have_V2 not_everybodyNP)) (vp_as_posVPS (npVP it_NP))))))
+
+baseText (sText (s (possibleS (not_possibleS (not_provably_vpS (conjNP he_NP not_everybodyNP) (npVP he_NP))))))
+
+baseText (sText (s (not_provableS (not_possibleS (vpS not_everythingNP (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (not_provableS (not_provableS (neg_vpS (intNP 999) (npVP it_NP))))))
+
+baseText (sText (s (neg_vpS (floatNP 3.14) (canVP (have_toVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (np_coord_VPS they_NP commaOr_Conj (BaseVPS (vp_as_posVPS (v2VP have_V2 it_NP)) (vp_as_posVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (formulaS (eq_Formula (int_Term 999) (times_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (coordS and_Conj (not_necessaryS (thereNP (indefTherePronVarNP something_IPron Z_Var))) (falseS (vpS (indefPronVarNP everything_IPron Z_Var) (refl_v2VP have_V2))))))
+
+baseText (sText (s (if_thenS (if_thenS (thereNP (indefTherePronVarNP something_IPron Y_Var)) (thereNP (indefTherePronNP somebody_IPron))) (vpS (indefPronVarNP everything_IPron Y_Var) (v2VP have_V2 he_NP)))))
+
+baseText (sText (s (possibleS (possibleS (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (falseS (falseS (vpS (intNP 999) (npVP they_NP))))))
+
+baseText (sText (s (not_provably_vpS (intNP 999) (npVP (intNP 999)))))
+
+baseText (sText (s (not_provableS (neg_vpS not_everythingNP (refl_v2VP have_V2)))))
+
+baseText (sText (s (formulaS (gt_Formula (div_Term (int_Term 999) (int_Term 999)) (times_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (formulaS (ne_Formula (plus_Term (int_Term 999) (int_Term 999)) (times_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (not_provableS (if_thenS (vpS he_NP (npVP they_NP)) (not_provably_vpS it_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (np_coord_VPS not_everythingNP or_Conj (BaseVPS (vp_as_posVPS (npVP not_everythingNP)) (vp_as_posVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (possibleS (thereNP (indefTherePronVarNP something_IPron X_Var)))))
+
+baseText (sText (s (not_provableS (if_thenS (neg_vpS (indefPronVarNP nobody_IPron Y_Var) (v2VP have_V2 she_NP)) (vpS it_NP (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (necessaryS (not_provably_vpS (intNP 999) (refl_v2VP have_V2)))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP something_IPron Y_Var))))
+
+baseText (sText (s (not_provably_vpS not_everythingNP (refl_v2VP have_V2))))
+
+baseText (sText (s (not_necessaryS (formulaS (ne_Formula (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (not_provably_vpS not_everybodyNP (canVP (canVP (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (falseS (if_thenS (vpS she_NP (refl_v2VP have_V2)) (vpS (indefPronNP everybody_IPron) (refl_v2VP have_V2))))))
+
+baseText (sText (s (coordS commaAnd_Conj (not_provableS (thereNP (indefTherePronVarNP somebody_IPron Z_Var))) (necessaryS (vpS they_NP (npVP not_everybodyNP))))))
+
+baseText (sText (s (possibleS (not_provableS (not_provably_vpS she_NP (npVP not_everybodyNP))))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (neg_vpS they_NP (refl_v2VP have_V2))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP somebody_IPron Y_Var))))
+
+baseText (sText (s (coordS commaAnd_Conj (coordS commaAnd_Conj (not_provably_vpS (indefPronVarNP everybody_IPron Y_Var) (refl_v2VP have_V2)) (thereNP (indefTherePronVarNP somebody_IPron Y_Var))) (vpS she_NP (have_toVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (coordS or_Conj (coordS or_Conj (not_provably_vpS (termNP Z_Var) (refl_v2VP have_V2)) (vpS not_everythingNP (refl_v2VP have_V2))) (if_thenS (vpS (intNP 999) (v2VP have_V2 he_NP)) (vpS (indefPronNP everything_IPron) (npVP she_NP))))))
+
+baseText (sText (s (formulaS (eq_Formula (times_Term (int_Term 999) (int_Term 999)) (times_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (if_thenS (coordS and_Conj (thereNP (indefTherePronNP somebody_IPron)) (neg_vpS (conjNP he_she_NP he_NP) (v2VP have_V2 it_NP))) (not_necessaryS (vpS (floatNP 3.14) (v2VP have_V2 they_NP))))))
+
+baseText (sText (s (coordS or_Conj (vpS (thereNP_as_NP (indefTherePronNP somebody_IPron)) (have_toVP (v2VP have_V2 he_NP))) (falseS (vpS not_everybodyNP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_provableS (possibleS (vpS he_she_NP (npVP it_NP))))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP somebody_IPron Y_Var))))
+
+baseText (sText (s (if_thenS (not_possibleS (vpS he_NP (v2VP have_V2 they_NP))) (not_provableS (thereNP (indefTherePronNP somebody_IPron))))))
+
+baseText (sText (s (not_necessaryS (not_necessaryS (thereNP (indefTherePronVarNP somebody_IPron Y_Var))))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (thereNP (indefTherePronNP something_IPron))))
+
+baseText (sText (s (formulaS (gt_Formula (times_Term (int_Term 999) (int_Term 999)) (times_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (falseS (thereNP (indefTherePronNP something_IPron)))))
+
+baseText (sText (s (np_coord_VPS he_she_NP commaAnd_Conj (BaseVPS (vp_as_posVPS (v2VP have_V2 she_NP)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (formulaS (ge_Formula (plus_Term (int_Term 999) (int_Term 999)) (neg_Term (int_Term 999))))))
+
+baseText (sText (s (falseS (not_provably_vpS it_NP (mustVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (np_coord_VPS not_everythingNP and_Conj (BaseVPS (vp_as_posVPS (v2VP have_V2 they_NP)) (vp_as_posVPS (npVP it_NP))))))
+
+baseText (sText (s (falseS (thereNP (indefTherePronNP somebody_IPron)))))
+
+baseText (sText (s (vpS it_NP (v2VP have_V2 it_NP))))
+
+baseText (sText (s (if_thenS (vpS they_NP (canVP (v2VP have_V2 it_NP))) (if_thenS (not_provably_vpS not_everythingNP (refl_v2VP have_V2)) (neg_vpS they_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP somebody_IPron Y_Var))))
+
+baseText (sText (s (np_coord_VPS (relNP (intNP 999) (neg_slashRS which_RP (floatNP 3.14) have_V2)) and_Conj (BaseVPS (vp_as_negVPS (refl_v2VP have_V2)) (vp_as_negVPS (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (not_necessaryS (thereNP (indefTherePronNP something_IPron)))))
+
+baseText (sText (s (formulaS (lt_Formula (minus_Term (int_Term 999) (int_Term 999)) (neg_Term (int_Term 999))))))
+
+baseText (sText (s (not_possibleS (coordS commaOr_Conj (thereNP (indefTherePronVarNP something_IPron Z_Var)) (thereNP (indefTherePronVarNP somebody_IPron X_Var))))))
+
+baseText (sText (s (falseS (thereNP (indefTherePronNP somebody_IPron)))))
+
+baseText (sText (s (necessaryS (falseS (not_provably_vpS not_everybodyNP (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (vpS (floatNP 3.14) (mustVP (canVP (v2VP have_V2 he_NP))))))
+
+baseText (sText (s (falseS (if_thenS (not_provably_vpS (indefPronNP everybody_IPron) (v2VP have_V2 not_everybodyNP)) (thereNP (indefTherePronVarNP somebody_IPron Y_Var))))))
+
+baseText (sText (s (not_necessaryS (not_provably_vpS she_NP (mustVP (v2VP have_V2 he_she_NP))))))
+
+baseText (sText (s (falseS (not_necessaryS (neg_vpS it_NP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_provably_vpS (thereNP_as_NP (indefTherePronNP somebody_IPron)) (canVP (mustVP (npVP it_NP))))))
+
+baseText (sText (s (not_necessaryS (possibleS (neg_vpS (indefPronNP everything_IPron) (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (not_provableS (neg_vpS (floatNP 3.14) (canVP (v2VP have_V2 he_she_NP))))))
+
+baseText (sText (s (neg_vpS (floatNP 3.14) (v2VP have_V2 he_NP))))
+
+baseText (sText (s (not_provably_vpS not_everythingNP (canVP (npVP (intNP 999))))))
+
+baseText (sText (s (not_provableS (thereNP (indefTherePronVarNP somebody_IPron Y_Var)))))
+
+baseText (sText (s (not_provably_vpS (relNP he_she_NP (orRS (slashRS eachRP he_she_NP have_V2) (neg_slashRS which_RP not_everythingNP have_V2))) (refl_v2VP have_V2))))
+
+baseText (sText (s (not_provableS (not_provably_vpS (floatNP 3.14) (v2VP have_V2 (floatNP 3.14))))))
+
+baseText (sText (s (formulaS (gt_Formula (int_Term 999) (plus_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (neg_vpS (relNP it_NP (neg_predRS which_RP (v2VP have_V2 it_NP))) (mustVP (v2VP have_V2 not_everythingNP)))))
+
+baseText (sText (s (np_coord_VPS not_everybodyNP commaOr_Conj (BaseVPS (vp_as_negVPS (refl_v2VP have_V2)) (vp_as_negVPS (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (possibleS (not_provableS (thereNP (indefTherePronVarNP somebody_IPron X_Var))))))
+
+baseText (sText (s (not_possibleS (possibleS (neg_vpS (conjNP he_she_NP not_everybodyNP) (npVP he_she_NP))))))
+
+baseText (sText (s (not_provably_vpS (termNP Z_Var) (refl_v2VP have_V2))))
+
+baseText (sText (s (falseS (necessaryS (thereNP (indefTherePronVarNP something_IPron Z_Var))))))
+
+baseText (sText (s (not_provably_vpS (thereNP_as_NP (indefTherePronVarNP somebody_IPron Y_Var)) (mustVP (have_toVP (npVP he_NP))))))
+
+baseText (sText (s (falseS (not_provableS (vpS she_NP (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (vpS (thereNP_as_NP (indefTherePronNP somebody_IPron)) (mustVP (refl_v2VP have_V2)))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP something_IPron X_Var))))
+
+baseText (sText (s (falseS (thereNP (indefTherePronVarNP somebody_IPron Y_Var)))))
+
+baseText (sText (s (not_provableS (coordS and_Conj (not_provably_vpS not_everybodyNP (refl_v2VP have_V2)) (vpS he_she_NP (v2VP have_V2 he_she_NP))))))
+
+baseText (sText (s (not_provably_vpS not_everythingNP (have_toVP (refl_v2VP have_V2)))))
+
+baseText (sText (s (necessaryS (formulaS (ne_Formula (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (possibleS (not_necessaryS (neg_vpS he_she_NP (npVP it_NP))))))
+
+baseText (sText (s (possibleS (possibleS (thereNP (indefTherePronNP somebody_IPron))))))
+
+baseText (sText (s (not_provably_vpS (intNP 999) (canVP (refl_v2VP have_V2)))))
+
+baseText (sText (s (not_provably_vpS (relNP they_NP (andRS (slashRS which_RP not_everythingNP have_V2) (slashRS eachRP he_she_NP have_V2))) (canVP (mustVP (v2VP have_V2 not_everybodyNP))))))
+
+baseText (sText (s (falseS (thereNP (indefTherePronVarNP somebody_IPron Y_Var)))))
+
+baseText (sText (s (coordS commaOr_Conj (not_provably_vpS it_NP (canVP (v2VP have_V2 he_she_NP))) (coordS commaAnd_Conj (not_provably_vpS he_she_NP (refl_v2VP have_V2)) (not_provably_vpS he_she_NP (npVP she_NP))))))
+
+baseText (sText (s (not_provably_vpS he_NP (v2VP have_V2 it_NP))))
+
+baseText (sText (s (if_thenS (vpS (floatNP 3.14) (mustVP (v2VP have_V2 he_NP))) (if_thenS (not_provably_vpS she_NP (npVP they_NP)) (thereNP (indefTherePronVarNP something_IPron X_Var))))))
+
+baseText (sText (s (if_thenS (coordS and_Conj (thereNP (indefTherePronVarNP something_IPron X_Var)) (not_provably_vpS (termNP Z_Var) (npVP she_NP))) (not_provableS (neg_vpS (intNP 999) (refl_v2VP have_V2))))))
+
+baseText (sText (s (if_thenS (thereNP (indefTherePronNP something_IPron)) (neg_vpS she_NP (mustVP (v2VP have_V2 it_NP))))))
+
+baseText (sText (s (not_necessaryS (coordS commaAnd_Conj (thereNP (indefTherePronVarNP something_IPron Z_Var)) (thereNP (indefTherePronVarNP somebody_IPron X_Var))))))
+
+baseText (sText (s (not_possibleS (not_possibleS (vpS he_she_NP (v2VP have_V2 he_she_NP))))))
+
+baseText (sText (s (falseS (coordS commaAnd_Conj (thereNP (indefTherePronVarNP somebody_IPron Z_Var)) (neg_vpS not_everythingNP (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_provableS (falseS (thereNP (indefTherePronVarNP somebody_IPron Y_Var))))))
+
+baseText (sText (s (not_necessaryS (if_thenS (neg_vpS (conjNP he_she_NP it_NP) (v2VP have_V2 she_NP)) (thereNP (indefTherePronNP something_IPron))))))
+
+baseText (sText (s (necessaryS (falseS (vpS (conjNP he_NP she_NP) (refl_v2VP have_V2))))))
+
+baseText (sText (s (np_coord_VPS (intNP 999) commaAnd_Conj (BaseVPS (vp_as_posVPS (npVP he_she_NP)) (vp_as_negVPS (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (if_thenS (not_provably_vpS (intNP 999) (refl_v2VP have_V2)) (possibleS (neg_vpS (indefPronNP everything_IPron) (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_necessaryS (neg_vpS (floatNP 3.14) (v2VP have_V2 he_she_NP)))))
+
+baseText (sText (s (formulaS (le_Formula (plus_Term (int_Term 999) (int_Term 999)) (minus_Term (int_Term 999) (int_Term 999))))))
+
+baseText (sText (s (np_coord_VPS (relNP (indefPronVarNP everything_IPron Y_Var) (predRS eachRP (v2VP have_V2 they_NP))) commaAnd_Conj (BaseVPS (vp_as_negVPS (npVP he_she_NP)) (vp_as_posVPS (npVP he_NP))))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (neg_vpS they_NP (canVP (v2VP have_V2 they_NP)))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (np_coord_VPS (indefPronVarNP nothing_IPron Z_Var) commaAnd_Conj (BaseVPS (vp_as_posVPS (npVP he_NP)) (vp_as_posVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (formulaS (ne_Formula (minus_Term (int_Term 999) (int_Term 999)) (neg_Term (int_Term 999))))))
+
+baseText (sText (s (coordS and_Conj (possibleS (neg_vpS not_everythingNP (npVP it_NP))) (not_necessaryS (neg_vpS (conjNP he_NP she_NP) (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (np_coord_VPS it_NP and_Conj (BaseVPS (vp_as_posVPS (npVP they_NP)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (not_provably_vpS (floatNP 3.14) (mustVP (refl_v2VP have_V2)))))
+
+baseText (sText (s (if_thenS (necessaryS (not_provably_vpS not_everythingNP (v2VP have_V2 they_NP))) (vpS (floatNP 3.14) (have_toVP (npVP not_everythingNP))))))
+
+baseText (sText (s (vpS it_NP (npVP it_NP))))
+
+baseText (sText (s (vpS (indefPronVarNP everything_IPron Y_Var) (v2VP have_V2 (indefPronNP nobody_IPron)))))
+
+baseText (sText (s (not_possibleS (not_provably_vpS it_NP (refl_v2VP have_V2)))))
+
+baseText (sText (s (falseS (thereNP (indefTherePronVarNP somebody_IPron Y_Var)))))
+
+baseText (sText (s (neg_vpS not_everythingNP (canVP (refl_v2VP have_V2)))))
+
+baseText (sText (s (coordS commaOr_Conj (not_necessaryS (thereNP (indefTherePronNP something_IPron))) (thereNP (indefTherePronNP somebody_IPron)))))
+
+baseText (sText (s (not_provableS (vpS he_NP (v2VP have_V2 not_everybodyNP)))))
+
+baseText (sText (s (not_provably_vpS (floatNP 3.14) (have_toVP (v2VP have_V2 she_NP)))))
+
+baseText (sText (s (falseS (neg_vpS (floatNP 3.14) (refl_v2VP have_V2)))))
+
+baseText (sText (s (np_coord_VPS (conjNP (indefPronVarNP everybody_IPron Y_Var) he_she_NP) or_Conj (BaseVPS (vp_as_posVPS (v2VP have_V2 she_NP)) (vp_as_negVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (necessaryS (not_provably_vpS they_NP (npVP they_NP)))))
+
+baseText (sText (s (thereNP (indefTherePronVarNP somebody_IPron Z_Var))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (vpS not_everybodyNP (v2VP have_V2 (intNP 999)))))
+
+baseText (sText (s (not_possibleS (vpS he_she_NP (v2VP have_V2 it_NP)))))
+
+baseText (sText (s (falseS (not_provably_vpS not_everythingNP (npVP (intNP 999))))))
+
+baseText (sText (s (thereNP (indefTherePronNP something_IPron))))
+
+baseText (sText (s (not_provably_vpS not_everybodyNP (canVP (v2VP have_V2 he_NP)))))
+
+baseText (sText (s (np_coord_VPS (thereNP_as_NP (indefTherePronVarNP something_IPron Z_Var)) commaOr_Conj (BaseVPS (vp_as_posVPS (v2VP have_V2 not_everybodyNP)) (vp_as_posVPS (v2VP have_V2 she_NP))))))
+
+baseText (sText (s (np_coord_VPS she_NP commaOr_Conj (BaseVPS (vp_as_negVPS (refl_v2VP have_V2)) (vp_as_posVPS (v2VP have_V2 not_everythingNP))))))
+
+baseText (sText (s (neg_vpS he_NP (npVP not_everythingNP))))
+
+baseText (sText (s (falseS (vpS not_everybodyNP (canVP (v2VP have_V2 not_everythingNP))))))
+
+baseText (sText (s (necessaryS (not_provableS (thereNP (indefTherePronVarNP something_IPron X_Var))))))
+
+baseText (sText (s (falseS (not_possibleS (thereNP (indefTherePronVarNP somebody_IPron Z_Var))))))
+
+baseText (sText (s (if_thenS (not_necessaryS (not_provably_vpS he_NP (v2VP have_V2 not_everythingNP))) (not_provably_vpS they_NP (have_toVP (refl_v2VP have_V2))))))
+
+baseText (sText (s (if_thenS (vpS he_NP (canVP (v2VP have_V2 not_everythingNP))) (not_possibleS (not_provably_vpS (conjNP not_everybodyNP not_everybodyNP) (npVP it_NP))))))
+
+baseText (sText (s (not_possibleS (not_provableS (neg_vpS (indefPronVarNP everybody_IPron Z_Var) (v2VP have_V2 he_NP))))))
+
+baseText (sText (s (thereNP (indefTherePronNP somebody_IPron))))
+
+baseText (sText (s (np_coord_VPS (termNP X_Var) commaOr_Conj (BaseVPS (vp_as_posVPS (npVP not_everybodyNP)) (vp_as_posVPS (refl_v2VP have_V2))))))
+
+baseText (sText (s (np_coord_VPS (relNP not_everythingNP (predRS which_RP (refl_v2VP have_V2))) or_Conj (BaseVPS (vp_as_negVPS (npVP it_NP)) (vp_as_negVPS (npVP not_everythingNP))))))
