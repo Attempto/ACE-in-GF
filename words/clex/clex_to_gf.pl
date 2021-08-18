@@ -278,7 +278,9 @@ format_abstract(Fun, Class, Cat) :-
 
 format_concrete(Fun, T, MorphFormat, Args) :-
 	replace(char_replacer, Fun, Fun1),
-	append(["lin ~w_~w = ", MorphFormat, ";~n"], Format),
+	% append(["lin ~w_~w = ", MorphFormat, ";~n"], Format),
+	atom_concat('lin ~w_~w = ', MorphFormat, Temp),
+	atom_concat(Temp, ';~n',Format ),
 	format(Format, [Fun1, T | Args]).
 
 make_clex_abstract(Name) :-
