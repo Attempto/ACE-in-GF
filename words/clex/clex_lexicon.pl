@@ -20948,9 +20948,7 @@ mn_pl(kg, kg).
 mn_pl(t, t).
 mn_pl(l, l).
 mn_pl('L', l).
-mn_pl('\u00b0', '\u00b0').
 mn_pl('K', 'K').
-mn_pl('\u00b0C', '\u00b0C').
 mn_pl('A', 'A').
 mn_pl(mol, mol).
 mn_pl(cd, cd).
@@ -20969,9 +20967,7 @@ mn_sg(kg, kg).
 mn_sg(t, t).
 mn_sg(l, l).
 mn_sg('L', l).
-mn_sg('\u00b0', '\u00b0').
 mn_sg('K', 'K').
-mn_sg('\u00b0C', '\u00b0C').
 mn_sg('A', 'A').
 mn_sg(mol, mol).
 mn_sg(cd, cd).
