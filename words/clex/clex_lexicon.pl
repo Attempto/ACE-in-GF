@@ -11,6 +11,7 @@
 %
 % You should have received a copy of the GNU General Public License along with this program. If
 % not, see http://www.gnu.org/licenses/.
+:-style_check(-discontiguous).
 
 adj_itr('Fahrenheit', 'Fahrenheit').
 adj_itr('a-posteriori', 'a-posteriori').
