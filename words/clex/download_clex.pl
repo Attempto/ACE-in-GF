@@ -274,12 +274,12 @@ format_concrete_fun(Type) :-
 
 format_abstract(Fun, Class, Cat) :-
 	replace(char_replacer, Fun, Fun1),
-	format("~w_~w : ~w;~n", [Fun1, Class, Cat]).
+	format("'~w_~w' : ~w;~n", [Fun1, Class, Cat]).
 
 format_concrete(Fun, T, MorphFormat, Args) :-
 	replace(char_replacer, Fun, Fun1),
 	% append(["lin ~w_~w = ", MorphFormat, ";~n"], Format),
-	atom_concat('lin ~w_~w = ', MorphFormat, Temp),
+	atom_concat('lin \'~w_~w\' = ', MorphFormat, Temp),
 	atom_concat(Temp, ';~n',Format ),
 	format(Format, [Fun1, T | Args]).
 
@@ -316,7 +316,6 @@ format_abstract_header(Name) :-
 
 % The GF's non-smart input for mkA is
 % \good,better,best,well
-:- style_check(-atom).
 format_concrete_header(Name, Lang) :-
 	format("concrete ~w~w of ~w = ACEAce ** open SyntaxAce, ParadigmsAce in {~n", [Name, Lang, Name]),
 	write('
@@ -328,7 +327,6 @@ aceV3 : (_,_,_,_:Str) -> ACEAce.V3 = \\go,goes,gone,prep -> mkV3 (mkV go goes "~
 aceA : (_,_,_:Str) -> AttemptoAce.A = \\good,better,best -> mkA good better best "~";
 aceA2 : (_,_,_:Str) -> AttemptoAce.A2 = \\good,better,best -> mkA2 (aceA good better best) "";
 ').
-:- style_check(+atom).
 
 format_footer :-
 	format("}~n").
