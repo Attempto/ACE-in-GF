@@ -524,7 +524,7 @@ fun
 'mol_Unit' : Unit;
 's_Unit' : Unit;
 't_Unit' : Unit;
-'ï¿½C_Unit' : Unit;
+'°C_Unit' : Unit;
 'APE_PN' : PN;
 'August_PN' : PN;
 'Berlin_PN' : PN;
