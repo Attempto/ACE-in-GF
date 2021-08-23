@@ -274,10 +274,12 @@ format_concrete_fun(Type) :-
 
 format_abstract(Fun, Class, Cat) :-
 	replace(char_replacer, Fun, Fun1),
+	% format('FUN: ~w    FUN1: ~w\n',[Fun, Fun1]).
 	format("'~w_~w' : ~w;~n", [Fun1, Class, Cat]).
 
 format_concrete(Fun, T, MorphFormat, Args) :-
 	replace(char_replacer, Fun, Fun1),
+	% format('FUN: ~w\nFUN1: ~w\n',[Fun, Fun1]),
 	% append(["lin ~w_~w = ", MorphFormat, ";~n"], Format),
 	atom_concat('lin \'~w_~w\' = ', MorphFormat, Temp),
 	atom_concat(Temp, ';~n',Format ),
