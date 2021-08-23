@@ -1,11 +1,11 @@
-url='https://raw.github.com/Attempto/APE/master/prolog/lexicon/clex_lexicon.pl'
+url='https://raw.github.com/Attempto/Clex/master/clex_lexicon.pl'
 filename='clex.pl'
 
 ace="../../lib/src/ace/"
 api="../../lib/src/api/"
 grammar="../../grammars/ace/:../../grammars/acewiki_aceowl/"
 
-curl -L https://raw.github.com/Attempto/APE/master/prolog/lexicon/clex_lexicon.pl > clex.pl
+curl -L https://raw.github.com/Attempto/Clex/master/clex_lexicon.pl > clex.pl
 
 path="present:${grammar}:${ace}:${api}"
 
