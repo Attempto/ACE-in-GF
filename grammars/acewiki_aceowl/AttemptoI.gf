@@ -166,8 +166,8 @@ lin V2by_as_V2 = id Syntax.V2 ;
     VPQ = Syntax.VP ;
     RSQ = Syntax.RS ;
 
-  -- This oper must be implemented in all languages
-  -- oper S2QS : Syntax.S -> Syntax.QS ;
+  -- This oper must be overriden in the languages where lincat of QS is different
+  oper S2QS : Syntax.S -> Syntax.QS = \s -> lin QS {s = \\_ => (mkUtt s).s} ;
 
   lin vpqQS np vpq = S2QS (vpS np vpq).s ;
   lin neg_vpqQS np vpq = S2QS (neg_vpS np vpq).s ;

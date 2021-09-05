@@ -274,12 +274,14 @@ format_concrete_fun(Type) :-
 
 format_abstract(Fun, Class, Cat) :-
 	replace(char_replacer, Fun, Fun1),
-	format("~w_~w : ~w;~n", [Fun1, Class, Cat]).
+	% format('FUN: ~w    FUN1: ~w\n',[Fun, Fun1]).
+	format("'~w_~w' : ~w;~n", [Fun1, Class, Cat]).
 
 format_concrete(Fun, T, MorphFormat, Args) :-
 	replace(char_replacer, Fun, Fun1),
+	% format('FUN: ~w\nFUN1: ~w\n',[Fun, Fun1]),
 	% append(["lin ~w_~w = ", MorphFormat, ";~n"], Format),
-	atom_concat('lin ~w_~w = ', MorphFormat, Temp),
+	atom_concat('lin \'~w_~w\' = ', MorphFormat, Temp),
 	atom_concat(Temp, ';~n',Format ),
 	format(Format, [Fun1, T | Args]).
 
@@ -316,7 +318,6 @@ format_abstract_header(Name) :-
 
 % The GF's non-smart input for mkA is
 % \good,better,best,well
-:- style_check(-atom).
 format_concrete_header(Name, Lang) :-
 	format("concrete ~w~w of ~w = ACEAce ** open SyntaxAce, ParadigmsAce in {~n", [Name, Lang, Name]),
 	write('
@@ -328,7 +329,6 @@ aceV3 : (_,_,_,_:Str) -> ACEAce.V3 = \\go,goes,gone,prep -> mkV3 (mkV go goes "~
 aceA : (_,_,_:Str) -> AttemptoAce.A = \\good,better,best -> mkA good better best "~";
 aceA2 : (_,_,_:Str) -> AttemptoAce.A2 = \\good,better,best -> mkA2 (aceA good better best) "";
 ').
-:- style_check(+atom).
 
 format_footer :-
 	format("}~n").
@@ -355,7 +355,24 @@ replace(Goal, Atom1, Atom2) :-
 	maplist(Goal, Chars1, Atoms2),
 	atomic_list_concat(Atoms2, Atom2).
 
-main(Clex) :-
-	consult(Clex),
+download(Url, Filename) :-
+    format(user_error, "Saving ~w as ~w~n", [Url, Filename]),
+    use_module(library(http/http_open)),
+    setup_call_cleanup(
+        (
+            http_open(Url, In, []),
+            set_stream(In, encoding(utf8))
+        ),
+        setup_call_cleanup(
+            open(Filename, write, Out),
+            copy_stream_data(In, Out),
+            close(Out)
+        ),
+        close(In)
+    ).
+
+main(Url, Filename) :-
+	(exists_file(Filename) -> true ; download(Url, Filename)),
+	consult(Filename),
 	make_clex_abstract('Clex'),
 	make_clex_concrete('Clex', 'Ace').

@@ -9,8 +9,6 @@ concrete AttemptoBul of Attempto = SymbolsC, NumeralBul **
 
   flags coding=utf8;
 
-  oper S2QS : Syntax.S -> Syntax.QS = variants {};
-
   oper at_least_AdN = ss "at least";
   oper at_most_AdN = ss "at most";
 

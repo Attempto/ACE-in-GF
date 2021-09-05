@@ -1,6 +1,6 @@
 --# -path=.:present
 
-concrete AttemptoAce of Attempto = NumeralAce **
+concrete AttemptoApe of Attempto = NumeralAce **
   AttemptoI - [
     CN, PN, NP, V2, V2by, A2,
     apposVarCN, indefTherePronVarNP, indefPronVarNP, vp_as_negVPS,
@@ -62,6 +62,7 @@ concrete AttemptoAce of Attempto = NumeralAce **
   lin vp_as_negVPS = MkVPS (mkTemp presentTense simultaneousAnt) AnyNeg ;
 
   -- Questions
+
   lin ipNPQ ip = lin NP (ip ** {a = agrP3 ip.n}) ;
 
 }
